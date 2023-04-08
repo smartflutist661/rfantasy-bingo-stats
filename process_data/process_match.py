@@ -31,7 +31,6 @@ def process_new_pair(
     )
     if res is not None:
         title_author_match, score = res
-        print(title_author_match)
         if title_author_match in dupes.keys():
             process_existing_match(
                 dupes=dupes,
