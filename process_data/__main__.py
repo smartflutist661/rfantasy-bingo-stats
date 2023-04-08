@@ -4,22 +4,39 @@ Created on Apr 7, 2023
 @author: fred
 """
 import argparse
+import sys
+from collections import Counter
 
-from .constants import BINGO_DATA_FILEPATH
+import pandas
+
+from .constants import (
+    BINGO_DATA_FILEPATH,
+    OUTPUT_MD_FILEPATH,
+)
 from .get_data import (
     get_all_title_author_combos,
     get_bingo_dataframe,
-    get_title_author_colpairs,
     get_unique_books,
 )
 from .get_matches import get_possible_matches
-from .update_data import update_bingo_dataframe
-from collections import Counter
+from .get_stats import get_incomplete_info
+from .update_data import (
+    add_to_markdown,
+    update_bingo_dataframe,
+)
 
 
-def main(args: argparse.Namespace) -> None:
-    """Process bingo data"""
-    bingo_data = get_bingo_dataframe(BINGO_DATA_FILEPATH)
+def normalize_books(
+    bingo_data: pandas.DataFrame,
+    match_score: int,
+    rescan_non_dupes: bool,
+) -> None:
+    """Normalize book titles and authors"""
+    all_title_author_combos = get_all_title_author_combos(bingo_data)
+
+    unique_books = get_unique_books(all_title_author_combos)
+
+    print(f"Starting with {len(unique_books)} unique books.")
 
     print(
         "Processing possible misspellings."
@@ -28,25 +45,62 @@ def main(args: argparse.Namespace) -> None:
     )
     print()
 
-    title_author_colpairs = get_title_author_colpairs(bingo_data)
-    all_title_author_combos = get_all_title_author_combos(bingo_data, title_author_colpairs)
+    vals_to_replace = get_possible_matches(unique_books, match_score, rescan_non_dupes)
 
-    unique_books = get_unique_books(all_title_author_combos)
+    update_bingo_dataframe(bingo_data, vals_to_replace)
 
-    print(f"Starting with {len(unique_books)} unique books.")
 
-    vals_to_replace = get_possible_matches(unique_books, args.match_score, args.rescan_non_dupes)
-
-    update_bingo_dataframe(bingo_data, vals_to_replace, title_author_colpairs)
-
-    all_title_author_combos = get_all_title_author_combos(bingo_data, title_author_colpairs)
+# TODO: Collect many statistics based on old posts
+# TODO: Add multiindex to dataframe
+def collect_statistics(bingo_data: pandas.DataFrame) -> None:
+    """Collect statistics on normalized books"""
+    all_title_author_combos = get_all_title_author_combos(bingo_data)
     updated_unique_books = get_unique_books(all_title_author_combos)
 
-    print(f"Updated data has {len(updated_unique_books)} unique books.")
+    markdown_lines: list[str] = []
+
+    add_to_markdown(markdown_lines, "*Overall Stats*\n")
+
+    total_card_count = bingo_data.shape[0]
+
+    incomplete_cards, incomplete_squares = get_incomplete_info(bingo_data)
+
+    min_incomplete_count = min(incomplete_cards.values())
+    num_almost_complete_count = Counter(
+        num_incomplete for num_incomplete in incomplete_cards.values() if num_incomplete == 1
+    )
+    total_incomplete_count = incomplete_cards.total()
+
+    add_to_markdown(
+        markdown_lines,
+        f"* There were {total_card_count} cards submitted, {len(incomplete_cards)} of which were incomplete."
+        + f" The minimum number of filled squares was {min_incomplete_count}."
+        + f" {num_almost_complete_count} were _this close_, with 24 filled squares."
+        + f" {total_incomplete_count} squares were left blank, leaving {total_card_count*25 - total_incomplete_count} filled squares.",
+    )
+
+    add_to_markdown(markdown_lines, f"* ")
+
+    add_to_markdown(markdown_lines, f"* There were {len(updated_unique_books)} unique books read.")
+    add_to_markdown(markdown_lines, f"* ")
 
     book_count = Counter(all_title_author_combos)
+    del book_count[(None, None)]
+    del book_count[("", "")]
 
     print(f"The ten most-read books were {book_count.most_common(10)}.")
+
+    with OUTPUT_MD_FILEPATH.open("w", encoding="utf8") as md_file:
+        md_file.write("\n".join(markdown_lines))
+
+
+def main(args: argparse.Namespace) -> None:
+    """Process bingo data"""
+    bingo_data = get_bingo_dataframe(BINGO_DATA_FILEPATH)
+
+    normalize_books(bingo_data, args.match_score, args.rescan_non_dupes)
+
+    # collect_statistics(bingo_data)
 
 
 def cli() -> argparse.Namespace:

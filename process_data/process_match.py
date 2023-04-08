@@ -8,19 +8,20 @@ from typing import Optional
 
 from thefuzz import process  # type: ignore
 
+from .types.defined_types import Book
 from .types.match_choice import MatchChoice
 
 
 def process_new_pair(
-    dupes: defaultdict[str, set[str]],
-    non_dupes: set[str],
-    unscanned_pairs: set[str],
-    title_author_pair: str,
+    dupes: defaultdict[Book, set[Book]],
+    non_dupes: set[Book],
+    unscanned_books: set[Book],
+    new_book: Book,
     match_score: int,
 ) -> None:
     """Process an unscanned title/author pair"""
     res = process.extractOne(
-        title_author_pair,
+        new_book,
         (set(dupes.keys()) | set().union(*(dupes.values())) | non_dupes),
         score_cutoff=match_score,
     )
@@ -28,40 +29,40 @@ def process_new_pair(
         title_author_match, score = res
         print(title_author_match)
         if title_author_match in dupes.keys():
-            process_existing_match(dupes, title_author_match, title_author_pair, score)
+            process_existing_match(dupes, title_author_match, new_book, score)
         else:
             for existing_match_key, dupe_tuples in dupes.items():
                 if title_author_match in dupe_tuples:
                     process_existing_match(
                         dupes,
                         title_author_match,
-                        title_author_pair,
+                        new_book,
                         score,
                         existing_match_key,
                     )
                     break
     else:
         res = process.extractOne(
-            title_author_pair,
-            unscanned_pairs,
+            new_book,
+            unscanned_books,
             score_cutoff=match_score,
         )
 
         if res is not None:
             title_author_match, score = res if res is not None else (None, None)
-            process_new_match(dupes, title_author_pair, title_author_match, score)
-            unscanned_pairs.remove(title_author_match)
+            process_new_match(dupes, new_book, title_author_match, score)
+            unscanned_books.remove(title_author_match)
         else:
-            print(f"No duplicates found for {title_author_pair}")
-            non_dupes.add(title_author_pair)
+            print(f"No duplicates found for {new_book}")
+            non_dupes.add(new_book)
 
 
 def process_existing_match(
-    dupes: dict[str, set[str]],
-    existing_match: str,
-    new_match: str,
+    dupes: defaultdict[Book, set[Book]],
+    existing_match: Book,
+    new_match: Book,
     score: int,
-    existing_match_key: Optional[str] = None,
+    existing_match_key: Optional[Book] = None,
 ) -> None:
     """If the current pair matched an existing pair, add it"""
     print(f"Tentative match: {new_match} -> {existing_match}, score {score}")
@@ -93,25 +94,25 @@ def process_existing_match(
 
 
 def process_new_match(
-    dupes: dict[str, set[str]],
-    title_author_pair: str,
-    title_author_match: str,
+    dupes: dict[Book, set[Book]],
+    new_book: Book,
+    book_match: Book,
     score: int,
 ) -> None:
     """If two previously-unseen pairs matched, add them both"""
-    print(f"Tentative match found: {title_author_pair} -> {title_author_match}, score {score}")
+    print(f"Tentative match found: {new_book} -> {book_match}, score {score}")
     print("Choose the best version:")
-    print(f"[{MatchChoice.SAVE.value}] {title_author_pair}")
-    print(f"[{MatchChoice.SWAP.value}] {title_author_match}")
+    print(f"[{MatchChoice.SAVE.value}] {new_book}")
+    print(f"[{MatchChoice.SWAP.value}] {book_match}")
     print(f"[{MatchChoice.SKIP.value}] Not a match")
     print("[e] Save and exit")
     choice = MatchChoice(int(input("Selection: ")))
 
     if choice == MatchChoice.SAVE:
-        dupes[title_author_pair].add(title_author_match)
-        print(f"{title_author_match} recorded as duplicate of {title_author_pair}")
+        dupes[new_book].add(book_match)
+        print(f"{book_match} recorded as duplicate of {new_book}")
     elif choice == MatchChoice.SWAP:
-        dupes[title_author_match].add(title_author_pair)
-        print(f"{title_author_pair} recorded as duplicate of {title_author_match}")
+        dupes[book_match].add(new_book)
+        print(f"{new_book} recorded as duplicate of {book_match}")
 
     print()
