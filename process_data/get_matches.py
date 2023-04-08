@@ -15,18 +15,17 @@ from .process_match import process_new_pair
 def get_possible_matches(
     title_author_pairs: frozenset[str],
     match_score: int,
+    rescan_non_dupes: bool,
 ) -> Mapping[str, frozenset[str]]:
     """Determine all possible misspellings for each title/author pair"""
     known_states = get_existing_states(DUPE_RECORD_FILEPATH)
     try:
         unscanned_pairs = set(
             title_author_pairs
-            - (
-                set(known_states.dupes.keys())
-                | set().union(*(known_states.dupes.values()))
-                | known_states.non_dupes
-            )
+            - (set(known_states.dupes.keys()) | set().union(*(known_states.dupes.values())))
         )
+        if rescan_non_dupes is False:
+            unscanned_pairs -= known_states.non_dupes
 
         while len(unscanned_pairs) > 0:
             title_author_pair = unscanned_pairs.pop()
@@ -40,6 +39,9 @@ def get_possible_matches(
 
     except Exception:  # pylint: disable=broad-exception-caught
         print("Saving progress and exiting")
+
+    else:
+        print("All title/author pairs scanned!")
 
     finally:
         with DUPE_RECORD_FILEPATH.open("w", encoding="utf8") as dupe_file:
