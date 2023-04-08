@@ -26,14 +26,18 @@ def get_possible_matches(
         )
         if rescan_non_dupes is False:
             unscanned_pairs -= known_states.non_dupes
-            non_dupe_str = f", of which {len(known_states.non_dupes)} are being rescanned"
-        else:
             non_dupe_str = ""
+        else:
+            non_dupe_str = f", of which {len(known_states.non_dupes)} are being rescanned"
 
         unscanned_pair_count = len(unscanned_pairs)
         print(f"Scanning {unscanned_pair_count} unscanned books{non_dupe_str}.")
         while unscanned_pair_count > 0:
             title_author_pair = unscanned_pairs.pop()
+            if rescan_non_dupes is True:
+                # This may be replaced in the following call
+                known_states.non_dupes.remove(title_author_pair)
+
             process_new_pair(
                 known_states.dupes,
                 known_states.non_dupes,

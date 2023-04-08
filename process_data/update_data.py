@@ -28,7 +28,7 @@ def update_bingo_dataframe(
     # This makes lookups easier
     inverted_replacements = {v: key for key, val in vals_to_replace.items() for v in val}
 
-    for title_col, author_col in ALL_TITLE_AUTHOR_HM_COLUMNS:
+    for title_col, author_col, _ in ALL_TITLE_AUTHOR_HM_COLUMNS:
         for old, new in inverted_replacements.items():
             old_title, old_author = old.split(CUSTOM_SEPARATOR)
             new_title, new_author = new.split(CUSTOM_SEPARATOR)
@@ -45,5 +45,5 @@ def update_bingo_dataframe(
 
 def add_to_markdown(lines: list[str], new_str: str) -> None:
     """Print and add to a collection of lines to write as a Markdown file"""
-    print(new_str.strip())
+    print(new_str)
     lines.append(new_str)
