@@ -28,6 +28,10 @@ from .data_operations.update_data import (
     add_to_markdown,
     update_bingo_dataframe,
 )
+from .git_operations import (
+    commit_push_pr,
+    synchronize_github,
+)
 from .match_books.get_matches import get_possible_matches
 from .types.recorded_states import RecordedStates
 
@@ -183,6 +187,9 @@ def collect_statistics(bingo_data: pandas.DataFrame, separator: str) -> None:
 
 def main(args: argparse.Namespace) -> None:
     """Process bingo data"""
+    if args.github_pat is not None:
+        synchronize_github(args.github_pat)
+
     bingo_data = get_bingo_dataframe(BINGO_DATA_FILEPATH)
 
     recorded_duplicates = get_existing_states(DUPE_RECORD_FILEPATH)
@@ -190,6 +197,9 @@ def main(args: argparse.Namespace) -> None:
     normalize_books(bingo_data, args.match_score, args.rescan_non_dupes, recorded_duplicates)
 
     collect_statistics(bingo_data, recorded_duplicates.book_separator)
+
+    if args.github_pat is not None:
+        commit_push_pr(args.github_pat)
 
 
 def cli() -> argparse.Namespace:
@@ -212,6 +222,15 @@ def cli() -> argparse.Namespace:
         help="""
         Pass this to check for duplicates on pairs that were previously not matched.
         Best paired with a lower `match-score` than the default.
+        """,
+    )
+
+    parser.add_argument(
+        "--github-pat",
+        type=str,
+        default=None,
+        help="""
+        Pass this to automatically commit and push changes to GitHub.
         """,
     )
 
