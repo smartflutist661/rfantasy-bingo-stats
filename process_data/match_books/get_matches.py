@@ -55,5 +55,6 @@ def get_possible_matches(
     finally:
         with DUPE_RECORD_FILEPATH.open("w", encoding="utf8") as dupe_file:
             json.dump(known_states.to_data(), dupe_file)
+        print("Updated duplicates saved.")
 
     return MAP({k: frozenset(v) for k, v in known_states.dupes.items()})

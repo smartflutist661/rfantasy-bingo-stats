@@ -10,6 +10,7 @@ from git.exc import GitCommandError
 from git.repo import Repo
 from github import Github
 from github.GithubException import GithubException
+from requests import exceptions
 
 from .data.constants import REMOTE_REPO
 
@@ -22,7 +23,7 @@ def get_github_user(github_client: Github) -> str:
     while True:
         try:
             return github_client.get_user().login
-        except ConnectionError as exc:
+        except exceptions.ConnectionError as exc:
             long_retries += 1
             if long_retries > 3:
                 raise exc

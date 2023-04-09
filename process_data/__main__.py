@@ -64,7 +64,9 @@ def normalize_books(
         recorded_states,
     )
 
+    print("Updating CSV.")
     update_bingo_dataframe(bingo_data, vals_to_replace)
+    print("CSV updated.")
 
 
 def collect_statistics(bingo_data: pandas.DataFrame, separator: str) -> None:
