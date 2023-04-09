@@ -9,3 +9,4 @@ pygithub~=1.58
 pylint>=2
 python-levenshtein==0.20.9
 thefuzz==0.19.0
+types-requests>=2
