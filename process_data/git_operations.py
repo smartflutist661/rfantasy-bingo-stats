@@ -8,7 +8,7 @@ from pathlib import Path
 from git.exc import GitCommandError
 from git.repo import Repo
 from github import Github
-from github.GithubException import UnknownObjectException
+from github.GithubException import GithubException
 
 from .data.constants import REMOTE_REPO
 
@@ -18,7 +18,7 @@ REPO_PATH = Path(__file__).parents[1]
 def get_branch_name(github_client: Github) -> str:
     """Generate a branch name for the changes"""
     github_user = github_client.get_user().login
-    return f"{github_user}-updates"
+    return f"updates/{github_user}"
 
 
 def commit_push_pr(github_pat: str) -> None:
@@ -28,7 +28,6 @@ def commit_push_pr(github_pat: str) -> None:
 
     repo = Repo(REPO_PATH)
 
-    remote_repo = repo.remote("origin")
     branch_name = get_branch_name(github_client)
 
     try:
@@ -42,7 +41,7 @@ def commit_push_pr(github_pat: str) -> None:
 
     repo.index.commit(f"Auto-commit changes from {github_user}")
 
-    remote_repo.push()
+    repo.git.push("-u", repo.remote(), branch_name)
 
     github_repo = github_client.get_repo(REMOTE_REPO)
     prs = github_repo.get_pulls(state="open", base="main", head=branch_name)
@@ -50,6 +49,8 @@ def commit_push_pr(github_pat: str) -> None:
         github_repo.create_pull(
             title=f"Merge changes from {github_user}", body="", base="main", head=branch_name
         )
+
+    print("Created a pull request to merge your latest changes.")
 
 
 def synchronize_github(github_pat: str) -> None:
@@ -59,17 +60,21 @@ def synchronize_github(github_pat: str) -> None:
     repo = Repo(REPO_PATH)
 
     branch_name = get_branch_name(github_client)
-    remote_repo = repo.remote("origin")
+    remote_repo = repo.remote()
 
-    if repo.active_branch == "main":
+    print(repo.active_branch)
+    if str(repo.active_branch) == "main":
         remote_repo.pull()
-    elif repo.active_branch == branch_name:
+    elif str(repo.active_branch) == branch_name:
         github_remote_repo = github_client.get_repo(REMOTE_REPO)
         try:
             github_remote_repo.get_branch(branch=branch_name)
-        except UnknownObjectException:
-            repo.git.checkout("main")
-        remote_repo.pull()
+        except GithubException:
+            if repo.is_dirty():
+                commit_push_pr(github_pat)
+            else:
+                repo.git.checkout("main")
+                remote_repo.pull()
 
     else:
         raise ValueError(
