@@ -18,7 +18,7 @@ REPO_PATH = Path(__file__).parents[1]
 def get_branch_name(github_client: Github) -> str:
     """Generate a branch name for the changes"""
     github_user = github_client.get_user().login
-    return f"{github_user}-updates"
+    return f"updates/{github_user}"
 
 
 def commit_push_pr(github_pat: str) -> None:
@@ -61,9 +61,10 @@ def synchronize_github(github_pat: str) -> None:
     branch_name = get_branch_name(github_client)
     remote_repo = repo.remote("origin")
 
-    if repo.active_branch == "main":
+    print(repo.active_branch)
+    if str(repo.active_branch) == "main":
         remote_repo.pull()
-    elif repo.active_branch == branch_name:
+    elif str(repo.active_branch) == branch_name:
         github_remote_repo = github_client.get_repo(REMOTE_REPO)
         try:
             github_remote_repo.get_branch(branch=branch_name)
