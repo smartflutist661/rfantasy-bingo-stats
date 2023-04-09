@@ -12,13 +12,17 @@ AnyData = list[Any] | dict[str, Any] | int | str | float | bool
 def to_data(data: Any) -> AnyData:
     """Send basic types to JSON data recursively"""
     if isinstance(data, dict):
-        return {key: to_data(val) for key, val in data.items()}
-    if isinstance(data, (list, set)):
-        vals = [to_data(val) for val in data]
+        dict_vals = {key: to_data(val) for key, val in data.items()}
         try:
-            return sorted(vals)
+            return dict(sorted(dict_vals.items()))
         except TypeError:
-            return vals
+            return dict_vals
+    if isinstance(data, (list, set)):
+        list_vals = [to_data(val) for val in data]
+        try:
+            return sorted(list_vals)
+        except TypeError:
+            return list_vals
     if not isinstance(data, ANY_DATA_TYPES):
         raise ValueError(f"Unable to process {type(data)}. Please implement.")
 
