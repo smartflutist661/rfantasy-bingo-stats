@@ -4,6 +4,7 @@ Created on Apr 9, 2023
 @author: fred
 """
 from pathlib import Path
+from time import sleep
 
 from git.exc import GitCommandError
 from git.repo import Repo
@@ -11,7 +12,6 @@ from github import Github
 from github.GithubException import GithubException
 
 from .data.constants import REMOTE_REPO
-from time import sleep
 
 REPO_PATH = Path(__file__).parents[1]
 
@@ -89,6 +89,7 @@ def synchronize_github(github_pat: str) -> None:
         except GithubException:
             if repo.is_dirty():
                 commit_push_pr(github_pat)
+                repo.git.pull("main")
             else:
                 repo.git.checkout("main")
                 remote_repo.pull()
