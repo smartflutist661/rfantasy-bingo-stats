@@ -28,7 +28,6 @@ def commit_push_pr(github_pat: str) -> None:
 
     repo = Repo(REPO_PATH)
 
-    remote_repo = repo.remote("origin")
     branch_name = get_branch_name(github_client)
 
     try:
@@ -42,7 +41,7 @@ def commit_push_pr(github_pat: str) -> None:
 
     repo.index.commit(f"Auto-commit changes from {github_user}")
 
-    remote_repo.push(refspec=f"origin/{branch_name}")
+    repo.git.push("-u", repo.remote(), branch_name)
 
     github_repo = github_client.get_repo(REMOTE_REPO)
     prs = github_repo.get_pulls(state="open", base="main", head=branch_name)
@@ -50,6 +49,8 @@ def commit_push_pr(github_pat: str) -> None:
         github_repo.create_pull(
             title=f"Merge changes from {github_user}", body="", base="main", head=branch_name
         )
+
+    print("Created a pull request to merge your latest changes.")
 
 
 def synchronize_github(github_pat: str) -> None:
@@ -59,7 +60,7 @@ def synchronize_github(github_pat: str) -> None:
     repo = Repo(REPO_PATH)
 
     branch_name = get_branch_name(github_client)
-    remote_repo = repo.remote("origin")
+    remote_repo = repo.remote()
 
     print(repo.active_branch)
     if str(repo.active_branch) == "main":
