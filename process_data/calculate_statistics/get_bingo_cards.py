@@ -1,112 +1,38 @@
 """
-Created on Apr 7, 2023
+Created on Apr 9, 2023
 
 @author: fred
 """
-import json
 from collections import Counter
-from pathlib import Path
 from types import MappingProxyType as MAP
 from typing import (
-    Iterable,
     Mapping,
     Optional,
     cast,
 )
 
 import pandas
-from pyexcel_ods3 import get_data  # type: ignore
 
-from .constants import (
-    ALL_TITLE_AUTHOR_HM_COLUMNS,
-    CUSTOM_SEPARATOR,
+from ..data.current import (
     NOVEL_TITLE_AUTHOR_HM_COLS,
     SHORT_STORY_SQUARE_NUM,
     SHORT_STORY_TITLE_AUTHOR_HM_COLS,
     SQUARE_NAMES,
 )
-from .types.bingo_card import (
+from ..types.bingo_card import (
     BingoCard,
     BingoSquare,
     ShortStorySquare,
 )
-from .types.defined_types import (
+from ..types.defined_types import (
     Author,
     AuthorCol,
-    Book,
     CardID,
     HardModeCol,
     SquareName,
     Title,
-    TitleAuthor,
     TitleCol,
 )
-from .types.recorded_states import RecordedStates
-
-
-def get_existing_states(dupe_path: Path) -> RecordedStates:
-    """Attempt to retrieve existing RecordedStates, returning empty on failure"""
-    try:
-        with dupe_path.open("r", encoding="utf8") as dupe_file:
-            return RecordedStates.from_data(json.load(dupe_file))
-    except IOError:
-        return RecordedStates.empty()
-
-
-def get_bingo_dataframe(bingo_data_filepath: Path) -> pandas.DataFrame:
-    """Create a Pandas DataFrame of the bingo data, indexed on card number"""
-    raw_bingo_data = dict(get_data(str(bingo_data_filepath)))
-
-    column_names = raw_bingo_data["Uncorrectd 2022 Data"][0]
-
-    bingo_data = pandas.DataFrame(
-        raw_bingo_data["Uncorrectd 2022 Data"][1:],
-        columns=column_names,
-    ).set_index("CARD")
-
-    return bingo_data
-
-
-def get_all_title_author_combos(data: pandas.DataFrame) -> tuple[TitleAuthor, ...]:
-    """Get every title/author pair in data"""
-    title_author_pairs: list[TitleAuthor] = []
-    for title_col, author_col, _ in ALL_TITLE_AUTHOR_HM_COLUMNS:
-        title_author_pairs.extend(
-            cast(Iterable[TitleAuthor], zip(data[title_col], data[author_col]))
-        )
-    return tuple((title, author) for title, author in title_author_pairs if title and author)
-
-
-def book_to_title_author(book: Book) -> TitleAuthor:
-    """Convert book to title/author pair"""
-    title, author = book.split(CUSTOM_SEPARATOR)
-    return cast(Title, title), cast(Author, author)
-
-
-def books_to_title_authors(books: Iterable[Book]) -> tuple[TitleAuthor, ...]:
-    """Convert iterable of books to tuple of title/author pairs"""
-    return tuple(book_to_title_author(book) for book in books)
-
-
-def title_author_to_book(title_author_pair: TitleAuthor) -> Book:
-    """Convert title/author pair to book form"""
-    return cast(Book, CUSTOM_SEPARATOR.join(str(elem) for elem in title_author_pair))
-
-
-def title_authors_to_books(title_author_pairs: Iterable[TitleAuthor]) -> tuple[Book, ...]:
-    """Convert an iterable of title/author pairs to a tuple of Books"""
-    return tuple(title_author_to_book(pair) for pair in title_author_pairs)
-
-
-def get_unique_books(title_author_pairs: tuple[TitleAuthor, ...]) -> frozenset[Book]:
-    """Get every unique title/author combination"""
-
-    for pair in title_author_pairs:
-        for elem in pair:
-            if CUSTOM_SEPARATOR in str(elem):
-                raise ValueError("Pick a different separator")
-
-    return frozenset(title_authors_to_books(title_author_pairs))
 
 
 def get_short_story_square(
@@ -190,7 +116,6 @@ def get_bingo_cards(
     incomplete_card_count: Counter[CardID] = Counter()
     incomplete_square_count: Counter[SquareName] = Counter()
     for index, row in data.iterrows():
-
         index = cast(CardID, index)
 
         subbed_square_map = {

@@ -7,19 +7,19 @@ import json
 from types import MappingProxyType as MAP
 from typing import Mapping
 
-from .constants import DUPE_RECORD_FILEPATH
-from .get_data import get_existing_states
+from ..data.filepaths import DUPE_RECORD_FILEPATH
+from ..types.defined_types import Book
+from ..types.recorded_states import RecordedStates
 from .process_match import process_new_pair
-from .types.defined_types import Book
 
 
 def get_possible_matches(
     books: frozenset[Book],
     match_score: int,
     rescan_non_dupes: bool,
+    known_states: RecordedStates,
 ) -> Mapping[Book, frozenset[Book]]:
     """Determine all possible misspellings for each title/author pair"""
-    known_states = get_existing_states(DUPE_RECORD_FILEPATH)
     try:
         unscanned_pairs = set(
             books - (set(known_states.dupes.keys()) | set().union(*(known_states.dupes.values())))

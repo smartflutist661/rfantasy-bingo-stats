@@ -8,34 +8,41 @@ from collections import Counter
 
 import pandas
 
-from .constants import (
+from .calculate_statistics.get_bingo_cards import get_bingo_cards
+from .data.current import (
     BINGO_DATA_FILEPATH,
     OUTPUT_MD_FILEPATH,
     SQUARE_NAMES,
 )
-from .get_data import (
+from .data.filepaths import DUPE_RECORD_FILEPATH
+from .data_operations.author_title_book_operations import (
     books_to_title_authors,
     get_all_title_author_combos,
-    get_bingo_cards,
-    get_bingo_dataframe,
     get_unique_books,
 )
-from .get_matches import get_possible_matches
-from .update_data import (
+from .data_operations.get_data import (
+    get_bingo_dataframe,
+    get_existing_states,
+)
+from .data_operations.update_data import (
     add_to_markdown,
     update_bingo_dataframe,
 )
+from .match_books.get_matches import get_possible_matches
+from .types.recorded_states import RecordedStates
 
 
 def normalize_books(
     bingo_data: pandas.DataFrame,
     match_score: int,
     rescan_non_dupes: bool,
+    recorded_states: RecordedStates,
 ) -> None:
     """Normalize book titles and authors"""
+
     all_title_author_combos = get_all_title_author_combos(bingo_data)
 
-    unique_books = get_unique_books(all_title_author_combos)
+    unique_books = get_unique_books(all_title_author_combos, recorded_states.book_separator)
 
     print(f"Starting with {len(unique_books)} unique books.")
 
@@ -46,18 +53,23 @@ def normalize_books(
     )
     print()
 
-    vals_to_replace = get_possible_matches(unique_books, match_score, rescan_non_dupes)
+    vals_to_replace = get_possible_matches(
+        unique_books,
+        match_score,
+        rescan_non_dupes,
+        recorded_states,
+    )
 
     update_bingo_dataframe(bingo_data, vals_to_replace)
 
 
-def collect_statistics(bingo_data: pandas.DataFrame) -> None:
+def collect_statistics(bingo_data: pandas.DataFrame, separator: str) -> None:
     """Collect statistics on normalized books"""
     all_title_authors = get_all_title_author_combos(bingo_data)
-    unique_books = get_unique_books(all_title_authors)
+    unique_books = get_unique_books(all_title_authors, separator)
 
     unique_authors = set()
-    for _, author in books_to_title_authors(unique_books):
+    for _, author in books_to_title_authors(unique_books, separator):
         unique_authors.add(author)
 
     markdown_lines: list[str] = []
@@ -172,9 +184,11 @@ def main(args: argparse.Namespace) -> None:
     """Process bingo data"""
     bingo_data = get_bingo_dataframe(BINGO_DATA_FILEPATH)
 
-    normalize_books(bingo_data, args.match_score, args.rescan_non_dupes)
+    recorded_duplicates = get_existing_states(DUPE_RECORD_FILEPATH)
 
-    collect_statistics(bingo_data)
+    normalize_books(bingo_data, args.match_score, args.rescan_non_dupes, recorded_duplicates)
+
+    collect_statistics(bingo_data, recorded_duplicates.book_separator)
 
 
 def cli() -> argparse.Namespace:

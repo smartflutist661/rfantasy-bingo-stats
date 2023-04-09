@@ -7,12 +7,12 @@ from typing import Mapping
 
 import pandas
 
-from .constants import (
+from ..data.current import (
     ALL_TITLE_AUTHOR_HM_COLUMNS,
     CUSTOM_SEPARATOR,
     OUTPUT_DF_FILEPATH,
 )
-from .types.defined_types import Book
+from ..types.defined_types import Book
 
 
 def update_bingo_dataframe(
