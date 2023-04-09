@@ -94,13 +94,15 @@ def synchronize_github(github_pat: str) -> None:
                 repo.git.pull("main")
                 commit_push_pr(github_pat)
             else:
-                print("Repository is clean. Checking out `main`.")
+                print("Repository is clean. Checking out `main` and deleting existing branch.")
                 repo.git.checkout("main")
-        print("Pulling current branch.")
-        repo.git.pull()
-
+                repo.git.pull("-p")
+                repo.git.branch("-d", branch_name)
     else:
         raise ValueError(
             "You're on a branch that cannot be automatically managed."
             + f" Check out `main` or `{branch_name}`, or remove the `--github-pat` argument."
         )
+
+    print("Pulling current branch.")
+    repo.git.pull()
