@@ -32,32 +32,21 @@ def process_new_pair(
     if res is not None:
         title_author_match, score = res
         if title_author_match in dupes.keys():
-            process_existing_match(
-                dupes=dupes,
-                non_dupes=non_dupes,
-                unscanned_books=unscanned_books,
-                match_score=match_score,
-                existing_match=title_author_match,
-                book_to_process=book_to_process,
-                score=score,
-                matches_to_remove=matches_to_remove,
-                existing_match_key=None,
-            )
+            existing_match_key = None
         else:
-            for existing_match_key, dupe_tuples in dupes.items():
-                if title_author_match in dupe_tuples:
-                    process_existing_match(
-                        dupes=dupes,
-                        non_dupes=non_dupes,
-                        unscanned_books=unscanned_books,
-                        match_score=match_score,
-                        existing_match=title_author_match,
-                        book_to_process=book_to_process,
-                        score=score,
-                        existing_match_key=existing_match_key,
-                        matches_to_remove=matches_to_remove,
-                    )
-                    break
+            existing_match_key = find_existing_match(dupes, title_author_match)
+
+        process_existing_match(
+            dupes=dupes,
+            non_dupes=non_dupes,
+            unscanned_books=unscanned_books,
+            match_score=match_score,
+            existing_match=title_author_match,
+            book_to_process=book_to_process,
+            score=score,
+            matches_to_remove=matches_to_remove,
+            existing_match_key=existing_match_key,
+        )
     else:
         res = process.extractOne(
             book_to_process,
@@ -81,6 +70,21 @@ def process_new_pair(
         else:
             print(f"No duplicates found for {book_to_process}")
             non_dupes.add(book_to_process)
+
+
+def find_existing_match(
+    dupes: defaultdict[Book, set[Book]],
+    title_author_match: Book,
+) -> Book:
+    """Determine which key to use for existing match"""
+
+    for existing_match_key, dupe_tuples in dupes.items():
+        if title_author_match in dupe_tuples:
+            return existing_match_key
+
+    raise ValueError(
+        f"{title_author_match} was found in existing dupes, but matching key could not be found."
+    )
 
 
 def process_existing_match(
