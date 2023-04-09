@@ -4,27 +4,44 @@ Created on Apr 9, 2023
 @author: fred
 """
 from pathlib import Path
+from time import sleep
 
 from git.exc import GitCommandError
 from git.repo import Repo
 from github import Github
 from github.GithubException import GithubException
+from requests import exceptions
 
 from .data.constants import REMOTE_REPO
 
 REPO_PATH = Path(__file__).parents[1]
 
 
+def get_github_user(github_client: Github) -> str:
+    """Attempt to retrieve the GitHub username"""
+    long_retries = 0
+    while True:
+        try:
+            return github_client.get_user().login
+        except exceptions.ConnectionError as exc:
+            long_retries += 1
+            if long_retries > 3:
+                raise exc
+            print("Failed to connect to GitHub. Retrying in 10 seconds.")
+            sleep(10)
+
+
 def get_branch_name(github_client: Github) -> str:
     """Generate a branch name for the changes"""
-    github_user = github_client.get_user().login
+
+    github_user = get_github_user(github_client)
     return f"updates/{github_user}"
 
 
 def commit_push_pr(github_pat: str) -> None:
     """Commit changes, push to remote, and open a PR if one doesn't exist"""
     github_client = Github(github_pat)
-    github_user = github_client.get_user().login
+    github_user = get_github_user(github_client)
 
     repo = Repo(REPO_PATH)
 
@@ -49,8 +66,9 @@ def commit_push_pr(github_pat: str) -> None:
         github_repo.create_pull(
             title=f"Merge changes from {github_user}", body="", base="main", head=branch_name
         )
-
-    print("Created a pull request to merge your latest changes.")
+        print("Created a pull request to merge your latest changes.")
+    else:
+        print("New changes pushed to an existing pull request.")
 
 
 def synchronize_github(github_pat: str) -> None:
@@ -71,10 +89,11 @@ def synchronize_github(github_pat: str) -> None:
             github_remote_repo.get_branch(branch=branch_name)
         except GithubException:
             if repo.is_dirty():
+                repo.git.pull("main")
                 commit_push_pr(github_pat)
             else:
                 repo.git.checkout("main")
-                remote_repo.pull()
+        repo.git.pull()
 
     else:
         raise ValueError(

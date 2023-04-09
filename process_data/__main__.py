@@ -64,7 +64,9 @@ def normalize_books(
         recorded_states,
     )
 
+    print("Updating CSV.")
     update_bingo_dataframe(bingo_data, vals_to_replace)
+    print("CSV updated.")
 
 
 def collect_statistics(bingo_data: pandas.DataFrame, separator: str) -> None:
@@ -196,9 +198,13 @@ def main(args: argparse.Namespace) -> None:
 
     normalize_books(bingo_data, args.match_score, args.rescan_non_dupes, recorded_duplicates)
 
+    print("Collecting statistics.")
+    print()
     collect_statistics(bingo_data, recorded_duplicates.book_separator)
 
     if args.github_pat is not None:
+        print()
+        print("Pushing changes and opening pull request.")
         commit_push_pr(args.github_pat)
 
 
