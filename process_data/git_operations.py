@@ -65,8 +65,9 @@ def commit_push_pr(github_pat: str) -> None:
         github_repo.create_pull(
             title=f"Merge changes from {github_user}", body="", base="main", head=branch_name
         )
-
-    print("Created a pull request to merge your latest changes.")
+        print("Created a pull request to merge your latest changes.")
+    else:
+        print("New changes pushed to an existing pull request.")
 
 
 def synchronize_github(github_pat: str) -> None:
