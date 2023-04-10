@@ -29,47 +29,38 @@ def process_new_pair(
         (set(dupes.keys()) | set().union(*(dupes.values()))) - matches_to_remove,
         score_cutoff=match_score,
     )
+    existing_match_key = None
     if res is not None:
         title_author_match, score = res
-        if title_author_match in dupes.keys():
-            existing_match_key = None
-        else:
+        if title_author_match not in dupes.keys():
             existing_match_key = find_existing_match(dupes, title_author_match)
-
-        process_existing_match(
-            dupes=dupes,
-            non_dupes=non_dupes,
-            unscanned_books=unscanned_books,
-            match_score=match_score,
-            existing_match=title_author_match,
-            book_to_process=book_to_process,
-            score=score,
-            matches_to_remove=matches_to_remove,
-            existing_match_key=existing_match_key,
-        )
+        else:
+            existing_match_key = title_author_match
     else:
         res = process.extractOne(
             book_to_process,
             unscanned_books - matches_to_remove,
             score_cutoff=match_score,
         )
-
         if res is not None:
-            title_author_match, score = res if res is not None else (None, None)
-            process_new_match(
-                dupes=dupes,
-                non_dupes=non_dupes,
-                unscanned_books=unscanned_books,
-                match_score=match_score,
-                book_to_process=book_to_process,
-                new_match=title_author_match,
-                score=score,
-                matches_to_remove=matches_to_remove,
-            )
-            unscanned_books.remove(title_author_match)
-        else:
-            print(f"No duplicates found for {book_to_process}")
-            non_dupes.add(book_to_process)
+            title_author_match, score = res
+
+    if res is not None:
+        process_match(
+            dupes=dupes,
+            non_dupes=non_dupes,
+            unscanned_books=unscanned_books,
+            match_score=match_score,
+            matched_book=title_author_match,
+            book_to_process=book_to_process,
+            score=score,
+            matches_to_remove=matches_to_remove,
+            existing_match_key=existing_match_key,
+        )
+
+    else:
+        print(f"No duplicates found for {book_to_process}")
+        non_dupes.add(book_to_process)
 
 
 def find_existing_match(
@@ -87,46 +78,52 @@ def find_existing_match(
     )
 
 
-def process_existing_match(
+def process_match(
     dupes: defaultdict[Book, set[Book]],
     non_dupes: set[Book],
     unscanned_books: set[Book],
     match_score: int,
-    existing_match: Book,
+    matched_book: Book,
     book_to_process: Book,
     score: int,
     matches_to_remove: set[Book],
     existing_match_key: Optional[Book] = None,
 ) -> None:
-    """If the current pair matched an existing pair, add it"""
-    print(f"Tentative match: {book_to_process} -> {existing_match}, score {score}")
+    """Process a single match, recursing if necessary"""
+    matches_to_remove.add(matched_book)
+
+    print(f"Tentative match: {book_to_process} -> {matched_book}, score {score}")
     if existing_match_key is not None:
-        in_val_str = f" to {existing_match_key}"
-    else:
-        in_val_str = ""
-    print(f"{existing_match} already deduplicated{in_val_str}.")
-    if existing_match_key is not None:
-        existing_match = existing_match_key
+        if existing_match_key != matched_book:
+            in_val_str = f" to {existing_match_key}"
+        else:
+            in_val_str = ""
+        print(f"{matched_book} already deduplicated{in_val_str}.")
 
     print("Choose the best version:")
-    print(f"[{MatchChoice.SAVE.value}] {existing_match}")
-    print(f"[{MatchChoice.SWAP.value}] {book_to_process}")
+    if existing_match_key is not None:
+        print(f"[{MatchChoice.MATCH.value}] {existing_match_key}")
+    else:
+        print(f"[{MatchChoice.MATCH.value}] {matched_book}")
+    print(f"[{MatchChoice.NEW.value}] {book_to_process}")
     print(f"[{MatchChoice.SKIP.value}] Not a match")
     print("[e] Save and exit")
     choice = MatchChoice(int(input("Selection: ")))
 
-    if choice == MatchChoice.SAVE:
-        dupes[existing_match].add(book_to_process)
-        print(f"{book_to_process} recorded as duplicate of {existing_match}")
-    elif choice == MatchChoice.SWAP:
-        dupes[book_to_process] |= dupes[existing_match]
-        print(f"Duplicates of {existing_match} swapped to duplicates of {book_to_process}")
-        dupes[book_to_process].add(existing_match)
-        print(f"{existing_match} recorded as duplicate of {book_to_process}")
-        del dupes[existing_match]
+    if choice == MatchChoice.MATCH:
+        if existing_match_key is not None:
+            unify_matches(dupes, existing_match_key, book_to_process)
+        else:
+            unify_matches(dupes, matched_book, book_to_process)
+        unscanned_books.discard(matched_book)
+    elif choice == MatchChoice.NEW:
+        if existing_match_key is not None:
+            unify_matches(dupes, book_to_process, existing_match_key)
+        else:
+            unify_matches(dupes, book_to_process, matched_book)
+        unscanned_books.discard(matched_book)
     else:
         # Re-process with match removed
-        matches_to_remove.add(existing_match)
         process_new_pair(
             dupes=dupes,
             non_dupes=non_dupes,
@@ -139,41 +136,20 @@ def process_existing_match(
     print()
 
 
-def process_new_match(
+def unify_matches(
     dupes: defaultdict[Book, set[Book]],
-    non_dupes: set[Book],
-    unscanned_books: set[Book],
-    match_score: int,
-    book_to_process: Book,
-    new_match: Book,
-    score: int,
-    matches_to_remove: set[Book],
+    best_match: Book,
+    other_match: Book,
 ) -> None:
-    """If two previously-unseen pairs matched, add them both"""
-    print(f"Tentative match found: {book_to_process} -> {new_match}, score {score}")
-    print("Choose the best version:")
-    print(f"[{MatchChoice.SAVE.value}] {book_to_process}")
-    print(f"[{MatchChoice.SWAP.value}] {new_match}")
-    print(f"[{MatchChoice.SKIP.value}] Not a match")
-    print("[e] Save and exit")
-    choice = MatchChoice(int(input("Selection: ")))
+    """Unify all books associated with other match and existing key to best match"""
 
-    if choice == MatchChoice.SAVE:
-        dupes[book_to_process].add(new_match)
-        print(f"{new_match} recorded as duplicate of {book_to_process}")
-    elif choice == MatchChoice.SWAP:
-        dupes[new_match].add(book_to_process)
-        print(f"{book_to_process} recorded as duplicate of {new_match}")
-    else:
-        # Re-process with non-match removed
-        matches_to_remove.add(new_match)
-        process_new_pair(
-            dupes=dupes,
-            non_dupes=non_dupes,
-            unscanned_books=unscanned_books,
-            book_to_process=book_to_process,
-            match_score=match_score,
-            matches_to_remove=matches_to_remove,
-        )
+    # Not strictly required, but will prevent spurious prints
+    if other_match in dupes.keys():
+        dupes[best_match] |= dupes[other_match]
+        print(f"Duplicates of {other_match} swapped to duplicates of {best_match}")
 
-    print()
+    dupes[best_match].add(other_match)
+    print(f"{other_match} recorded as duplicate of {best_match}")
+
+    if other_match in dupes.keys():
+        del dupes[other_match]

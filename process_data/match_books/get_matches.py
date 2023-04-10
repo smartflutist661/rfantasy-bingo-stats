@@ -4,6 +4,7 @@ Created on Apr 7, 2023
 @author: fred
 """
 import json
+import traceback
 from types import MappingProxyType as MAP
 from typing import Mapping
 
@@ -46,9 +47,12 @@ def get_possible_matches(
                 match_score,
             )
 
-    except Exception:  # pylint: disable=broad-exception-caught
+    except ValueError:
         print("Saving progress and exiting")
-
+    except Exception:  # pylint: disable=broad-exception-caught
+        print("Unexpected error:")
+        print(traceback.format_exc())
+        print("Saving progress and exiting")
     else:
         print("All title/author pairs scanned!")
 

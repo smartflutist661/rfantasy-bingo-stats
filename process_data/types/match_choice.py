@@ -9,6 +9,6 @@ from enum import Enum
 class MatchChoice(Enum):
     """Available choices when a possible match is found"""
 
-    SAVE = 1
-    SWAP = 2
+    MATCH = 1
+    NEW = 2
     SKIP = 3
