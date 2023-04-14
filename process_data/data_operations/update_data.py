@@ -6,6 +6,7 @@ Created on Apr 7, 2023
 from typing import Mapping
 
 import pandas
+from progressbar import progressbar  # type: ignore
 
 from ..data.current import (
     ALL_TITLE_AUTHOR_HM_COLUMNS,
@@ -28,7 +29,7 @@ def update_bingo_dataframe(
     # This makes lookups easier
     inverted_replacements = {v: key for key, val in vals_to_replace.items() for v in val}
 
-    for title_col, author_col, _ in ALL_TITLE_AUTHOR_HM_COLUMNS:
+    for title_col, author_col, _ in progressbar(ALL_TITLE_AUTHOR_HM_COLUMNS):
         for old, new in inverted_replacements.items():
             old_title, old_author = old.split(CUSTOM_SEPARATOR)
             new_title, new_author = new.split(CUSTOM_SEPARATOR)
