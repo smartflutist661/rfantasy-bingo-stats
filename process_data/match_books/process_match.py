@@ -50,7 +50,7 @@ def process_new_pair(
         best_match = get_best_match(matched_books=all_match_choices)
 
         if best_match in all_choices - all_match_choices:
-            raise ValueError(
+            raise KeyError(
                 "Manual best match that overlaps with non-matches not currently handled."
             )
 
