@@ -51,7 +51,7 @@ def get_possible_matches(
     known_states: RecordedStates,
     ret_type: Literal["Book", "Author"],
 ) -> Mapping[Author, frozenset[Author]] | Mapping[Book, frozenset[Book]]:
-    """Determine all possible misspellings for each title/author pair"""
+    """Determine all possible misspellings for each author or book"""
     try:
         if ret_type == "Book":
             get_possible_book_matches(
@@ -93,6 +93,7 @@ def get_possible_book_matches(
     rescan_non_dupes: bool,
     known_states: RecordedStates,
 ) -> None:
+    """Get possible matches for un-matched books"""
     unscanned_books = set(
         books
         - (set(known_states.book_dupes.keys()) | set().union(*(known_states.book_dupes.values())))
@@ -125,6 +126,7 @@ def get_possible_author_matches(
     rescan_non_dupes: bool,
     known_states: RecordedStates,
 ) -> None:
+    """Get possible matches for un-checked authors"""
     unscanned_authors = set(
         books
         - (
@@ -138,7 +140,7 @@ def get_possible_author_matches(
     else:
         non_dupe_str = f", of which {len(known_states.author_non_dupes)} are being rescanned"
 
-    print(f"Scanning {len(unscanned_authors)} unscanned books{non_dupe_str}.")
+    print(f"Scanning {len(unscanned_authors)} unscanned authors{non_dupe_str}.")
     while len(unscanned_authors) > 0:
         new_author = unscanned_authors.pop()
         if rescan_non_dupes is True:

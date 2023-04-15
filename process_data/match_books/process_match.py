@@ -141,7 +141,8 @@ def unify_matches(
         del dupes[existing_key]
         print(f"Duplicates of {existing_key} swapped to duplicates of {best_match}")
 
-    dupes[best_match] |= other_matches
-    print(
-        f"{', '.join(other_matches)} recorded as duplicate{'s'*(len(other_matches) > 1)} of {best_match}"
-    )
+    if len(other_matches) > 0:
+        dupes[best_match] |= other_matches
+        print(
+            f"{', '.join(other_matches)} recorded as duplicate{'s'*(len(other_matches) > 1)} of {best_match}"
+        )
