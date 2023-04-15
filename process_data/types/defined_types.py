@@ -3,7 +3,7 @@ Created on Apr 7, 2023
 
 @author: fred
 """
-from typing import NewType
+from typing import NewType, TypeVar
 
 # The purpose of these types is to make each kind of string distinct
 # More complex logic can be implemented as a class, if necessary
@@ -24,3 +24,5 @@ CardID = NewType("CardID", float)
 # These are aliases for convenience
 TitleAuthor = tuple[Title, Author]
 TitleAuthorHMCols = tuple[TitleCol, AuthorCol, HardModeCol]
+
+BookOrAuthor = TypeVar("BookOrAuthor", Book, Author)

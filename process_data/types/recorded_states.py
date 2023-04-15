@@ -23,40 +23,43 @@ from ..match_books.process_match import find_existing_match
 from .defined_types import Book
 from .match_choice import MatchChoice
 from .utils import to_data
+from .defined_types import Author
+from .defined_types import BookOrAuthor
 
 
 @dataclass(frozen=True)
 class RecordedStates:
     """Known duplicate title/author pairs and likely non-duplicate title/author pairs"""
 
-    dupes: defaultdict[Book, set[Book]]
-    non_dupes: set[Book]
+    author_dupes: defaultdict[Author, set[Author]]
+    book_dupes: defaultdict[Book, set[Book]]
+    book_non_dupes: set[Book]
     book_separator: str = CUSTOM_SEPARATOR
 
     @classmethod
     def from_data(cls, data: Any) -> RecordedStates:
         """Restore from JSON data"""
 
-        # Handle duplicated keys
-        dupes: defaultdict[Book, set[Book]] = defaultdict(set)
-        for key, val in data["dupes"].items():
-            dupes[cast(Book, str(key))] |= {cast(Book, str(v)) for v in val}
+        # Should try to handle duplicated keys... this does not
+        book_dupes: defaultdict[Book, set[Book]] = defaultdict(
+            set,
+            {key: {cast(Book, str(v)) for v in val} for key, val in data["book_dupes"].items()},
+        )
 
-        # Check for key/value overlaps
-        overlapping_dedupes = set(dupes.keys()) & set().union(*dupes.values())
-        while len(overlapping_dedupes) > 0:
-            unify_key_value_overlaps(dupes, overlapping_dedupes)
-            overlapping_dedupes = set(dupes.keys()) & set().union(*dupes.values())
+        handle_overlaps(book_dupes)
 
-        # Check for value/value overlaps
-        all_overlaps = get_all_value_overlaps(dupes)
-        while len(all_overlaps) > 0:
-            unify_overlapped_values(dupes, all_overlaps)
-            all_overlaps = get_all_value_overlaps(dupes)
+        author_dupes: defaultdict[Author, set[Author]] = defaultdict(
+            set,
+            {
+                key: {cast(Author, str(v)) for v in val}
+                for key, val in data["author_dupes"].items()
+            },
+        )
 
         return cls(
-            dupes=dupes,
-            non_dupes={cast(Book, str(val)) for val in data["non_dupes"]},
+            author_dupes=author_dupes,
+            book_dupes=book_dupes,
+            book_non_dupes={cast(Book, str(val)) for val in data["book_non_dupes"]},
             book_separator=str(data["book_separator"]),
         )
 
@@ -71,15 +74,31 @@ class RecordedStates:
     def empty(cls, book_separator: str = CUSTOM_SEPARATOR) -> RecordedStates:
         """Create an empty RecordedStates"""
         return cls(
-            dupes=defaultdict(set),
-            non_dupes=set(),
+            author_dupes=defaultdict(set),
+            book_dupes=defaultdict(set),
+            book_non_dupes=set(),
             book_separator=book_separator,
         )
 
 
+def handle_overlaps(dupes: defaultdict[BookOrAuthor, set[BookOrAuthor]]) -> None:
+    """Handle overlapping duplicate key/val and val/val pairs"""
+    # Check for key/value overlaps
+    overlapping_dedupes = set(dupes.keys()) & set().union(*dupes.values())
+    while len(overlapping_dedupes) > 0:
+        unify_key_value_overlaps(dupes, overlapping_dedupes)
+        overlapping_dedupes = set(dupes.keys()) & set().union(*dupes.values())
+
+    # Check for value/value overlaps
+    all_overlaps = get_all_value_overlaps(dupes)
+    while len(all_overlaps) > 0:
+        unify_overlapped_values(dupes, all_overlaps)
+        all_overlaps = get_all_value_overlaps(dupes)
+
+
 def get_all_value_overlaps(
-    dupes: Mapping[Book, AbstractSet[Book]]
-) -> Mapping[tuple[Book, Book], AbstractSet[Book]]:
+    dupes: Mapping[BookOrAuthor, AbstractSet[BookOrAuthor]]
+) -> Mapping[tuple[BookOrAuthor, BookOrAuthor], AbstractSet[BookOrAuthor]]:
     """Get overlaps in value fields"""
     all_overlaps = {}
     for dupe_key_num, (dupe_key_1, dupe_vals_1) in enumerate(tuple(dupes.items())):
@@ -92,8 +111,8 @@ def get_all_value_overlaps(
 
 
 def unify_overlapped_values(
-    dupes: defaultdict[Book, set[Book]],
-    all_overlaps: Mapping[tuple[Book, Book], AbstractSet[Book]],
+    dupes: defaultdict[BookOrAuthor, set[BookOrAuthor]],
+    all_overlaps: Mapping[tuple[BookOrAuthor, BookOrAuthor], AbstractSet[BookOrAuthor]],
 ) -> None:
     """Unify books that are duplicated as values"""
     for (dupe_key_1, dupe_key_2), overlaps in all_overlaps.items():
@@ -119,8 +138,8 @@ def unify_overlapped_values(
 
 
 def unify_key_value_overlaps(
-    dupes: defaultdict[Book, set[Book]],
-    overlapping_dedupes: set[Book],
+    dupes: defaultdict[BookOrAuthor, set[BookOrAuthor]],
+    overlapping_dedupes: set[BookOrAuthor],
 ) -> None:
     """Unify books that are duplicated as keys and values"""
     for overlap in overlapping_dedupes:

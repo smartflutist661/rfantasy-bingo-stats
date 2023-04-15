@@ -12,6 +12,7 @@ from typing import (
 from thefuzz import process  # type: ignore
 
 from ..types.defined_types import Book
+from process_data.types.defined_types import BookOrAuthor
 
 
 def process_new_pair(
@@ -83,17 +84,17 @@ def process_new_pair(
 
 
 def find_existing_match(
-    dupes: defaultdict[Book, set[Book]],
-    title_author_match: Book,
-) -> Book:
+    dupes: defaultdict[BookOrAuthor, set[BookOrAuthor]],
+    current_match: BookOrAuthor,
+) -> BookOrAuthor:
     """Determine which key to use for existing match"""
 
     for existing_match_key, dupe_tuples in dupes.items():
-        if title_author_match in dupe_tuples:
+        if current_match in dupe_tuples:
             return existing_match_key
 
     raise ValueError(
-        f"{title_author_match} was found in existing dupes, but matching key could not be found."
+        f"{current_match} was found in existing dupes, but matching key could not be found."
     )
 
 

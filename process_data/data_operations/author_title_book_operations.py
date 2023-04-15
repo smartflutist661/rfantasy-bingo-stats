@@ -19,6 +19,11 @@ from ..types.defined_types import (
 )
 
 
+def get_all_authors(data: pandas.DataFrame) -> tuple[Author, ...]:
+    """Get every author in data"""
+    return tuple(author for _, author in get_all_title_author_combos(data))
+
+
 def get_all_title_author_combos(data: pandas.DataFrame) -> tuple[TitleAuthor, ...]:
     """Get every title/author pair in data"""
     title_author_pairs: list[TitleAuthor] = []
@@ -53,8 +58,13 @@ def title_authors_to_books(
     return tuple(title_author_to_book(pair, separator) for pair in title_author_pairs)
 
 
+def get_unique_authors(authors: Iterable[Author]) -> frozenset[Author]:
+    """Get every unique author"""
+    return frozenset(authors)
+
+
 def get_unique_books(
-    title_author_pairs: tuple[TitleAuthor, ...],
+    title_author_pairs: Iterable[TitleAuthor],
     separator: str,
 ) -> frozenset[Book]:
     """Get every unique title/author combination"""
