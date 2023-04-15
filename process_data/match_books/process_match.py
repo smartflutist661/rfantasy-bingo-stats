@@ -5,6 +5,8 @@ Created on Apr 7, 2023
 """
 from collections import defaultdict
 from typing import (
+    AbstractSet,
+    Mapping,
     Optional,
     cast,
 )
@@ -83,7 +85,7 @@ def process_new_pair(
 
 
 def find_existing_match(
-    dupes: defaultdict[BookOrAuthor, set[BookOrAuthor]],
+    dupes: Mapping[BookOrAuthor, AbstractSet[BookOrAuthor]],
     current_match: BookOrAuthor,
 ) -> BookOrAuthor:
     """Determine which key to use for existing match"""

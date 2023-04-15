@@ -5,12 +5,14 @@ Created on Apr 7, 2023
 """
 import json
 import traceback
-from types import MappingProxyType as MAP
 from typing import (
+    AbstractSet,
     Literal,
     Mapping,
     overload,
 )
+
+from process_data.match_books.process_match import find_existing_match
 
 from ..data.filepaths import DUPE_RECORD_FILEPATH
 from ..types.defined_types import (
@@ -29,7 +31,7 @@ def get_possible_matches(
     rescan_non_dupes: bool,
     known_states: RecordedStates,
     ret_type: Literal["Author"],
-) -> Mapping[Author, frozenset[Author]]:
+) -> None:
     ...
 
 
@@ -40,7 +42,7 @@ def get_possible_matches(
     rescan_non_dupes: bool,
     known_states: RecordedStates,
     ret_type: Literal["Book"],
-) -> Mapping[Book, frozenset[Book]]:
+) -> None:
     ...
 
 
@@ -50,7 +52,7 @@ def get_possible_matches(
     rescan_non_dupes: bool,
     known_states: RecordedStates,
     ret_type: Literal["Book", "Author"],
-) -> Mapping[Author, frozenset[Author]] | Mapping[Book, frozenset[Book]]:
+) -> None:
     """Determine all possible misspellings for each author or book"""
     try:
         if ret_type == "Book":
@@ -75,16 +77,12 @@ def get_possible_matches(
         print(traceback.format_exc())
         print("Saving progress and exiting")
     else:
-        print("All title/author pairs scanned!")
+        print(f"All {ret_type}s scanned!")
 
     finally:
         with DUPE_RECORD_FILEPATH.open("w", encoding="utf8") as dupe_file:
             json.dump(known_states.to_data(), dupe_file, indent=2)
         print("Updated duplicates saved.")
-
-    if ret_type == "Book":
-        return MAP({k: frozenset(v) for k, v in known_states.book_dupes.items()})
-    return MAP({k: frozenset(v) for k, v in known_states.author_dupes.items()})
 
 
 def get_possible_book_matches(
@@ -154,3 +152,22 @@ def get_possible_author_matches(
             new_author,
             match_score,
         )
+
+
+def update_dedupes_from_authors(
+    recorded_states: RecordedStates,
+    author_dedupes: Mapping[Book, AbstractSet[Book]],
+) -> None:
+    for author_dedupe, author_dupes in author_dedupes.items():
+        if author_dedupe in recorded_states.book_dupes.keys():
+            recorded_states.book_dupes[author_dedupe] |= author_dupes
+        elif author_dedupe in set().union(*recorded_states.book_dupes.values()):
+            existing_key = find_existing_match(recorded_states.book_dupes, author_dedupe)
+            recorded_states.book_dupes[existing_key] |= author_dupes
+        elif author_dedupe in recorded_states.book_non_dupes:
+            recorded_states.book_dupes[author_dedupe] |= author_dupes
+            recorded_states.book_non_dupes.remove(author_dedupe)
+
+    with DUPE_RECORD_FILEPATH.open("w", encoding="utf8") as dupe_file:
+        json.dump(recorded_states.to_data(), dupe_file, indent=2)
+    print("Updated duplicates saved.")

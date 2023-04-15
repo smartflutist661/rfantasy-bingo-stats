@@ -3,7 +3,12 @@ Created on Apr 7, 2023
 
 @author: fred
 """
-from typing import Mapping
+from collections import defaultdict
+from types import MappingProxyType as MAP
+from typing import (
+    AbstractSet,
+    Mapping,
+)
 
 import pandas
 from progressbar import progressbar  # type: ignore
@@ -17,11 +22,12 @@ from ..types.defined_types import (
     Author,
     Book,
 )
+from .author_title_book_operations import title_author_to_book
 
 
 def update_bingo_books(
     data: pandas.DataFrame,
-    books_to_replace: Mapping[Book, frozenset[Book]],
+    books_to_replace: Mapping[Book, AbstractSet[Book]],
 ) -> None:
     """
     Update the dataframe with the recorded changes
@@ -49,8 +55,9 @@ def update_bingo_books(
 
 def update_bingo_authors(
     data: pandas.DataFrame,
-    authors_to_replace: Mapping[Author, frozenset[Author]],
-) -> None:
+    authors_to_replace: Mapping[Author, AbstractSet[Author]],
+    separator: str,
+) -> Mapping[Book, frozenset[Book]]:
     """
     Update the dataframe with the recorded changes
 
@@ -60,11 +67,23 @@ def update_bingo_authors(
     # This makes lookups easier
     inverted_replacements = {v: key for key, val in authors_to_replace.items() for v in val}
 
-    for _, author_col, _ in progressbar(ALL_TITLE_AUTHOR_HM_COLUMNS):
+    all_author_dedupes: defaultdict[Book, set[Book]] = defaultdict(set)
+    for title_col, author_col, _ in progressbar(ALL_TITLE_AUTHOR_HM_COLUMNS):
         for old_author, new_author in inverted_replacements.items():
+            for title in data.loc[data[author_col] == old_author, title_col].unique():
+                all_author_dedupes[title_author_to_book((title, new_author), separator)].add(
+                    title_author_to_book((title, old_author), separator)
+                )
             data.loc[data[author_col] == old_author, author_col] = new_author
 
     data.to_csv(OUTPUT_DF_FILEPATH)
+
+    return MAP(
+        {
+            author_dedupe: frozenset(author_dedupes)
+            for author_dedupe, author_dedupes in all_author_dedupes.items()
+        }
+    )
 
 
 def add_to_markdown(lines: list[str], new_str: str) -> None:

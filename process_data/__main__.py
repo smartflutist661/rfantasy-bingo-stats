@@ -8,8 +8,6 @@ from collections import Counter
 
 import pandas
 
-from process_data.data_operations.author_title_book_operations import get_unique_authors
-
 from .calculate_statistics.get_bingo_cards import get_bingo_cards
 from .data.current import (
     BINGO_DATA_FILEPATH,
@@ -21,6 +19,7 @@ from .data_operations.author_title_book_operations import (
     books_to_title_authors,
     get_all_authors,
     get_all_title_author_combos,
+    get_unique_authors,
     get_unique_books,
 )
 from .data_operations.get_data import (
@@ -36,7 +35,10 @@ from .git_operations import (
     commit_push_pr,
     synchronize_github,
 )
-from .match_books.get_matches import get_possible_matches
+from .match_books.get_matches import (
+    get_possible_matches,
+    update_dedupes_from_authors,
+)
 from .types.recorded_states import RecordedStates
 
 
@@ -61,12 +63,12 @@ def normalize_books(
     )
     print()
 
-    authors_to_replace = get_possible_matches(
-        unique_authors, match_score, rescan_non_dupes, recorded_states, "Author"
-    )
+    get_possible_matches(unique_authors, match_score, rescan_non_dupes, recorded_states, "Author")
 
     print("Updating Bingo authors.")
-    update_bingo_authors(bingo_data, authors_to_replace)
+    author_dedupes = update_bingo_authors(
+        bingo_data, recorded_states.author_dupes, recorded_states.book_separator
+    )
     print("Bingo authors updated.")
 
     all_title_author_combos = get_all_title_author_combos(bingo_data)
@@ -82,12 +84,13 @@ def normalize_books(
     )
     print()
 
-    books_to_replace = get_possible_matches(
-        unique_books, match_score, rescan_non_dupes, recorded_states, "Book"
-    )
+    get_possible_matches(unique_books, match_score, rescan_non_dupes, recorded_states, "Book")
+
+    print("Collecting all misspellings.")
+    update_dedupes_from_authors(recorded_states, author_dedupes)
 
     print("Updating Bingo books.")
-    update_bingo_books(bingo_data, books_to_replace)
+    update_bingo_books(bingo_data, recorded_states.book_dupes)
     print("Bingo books updated.")
 
 
