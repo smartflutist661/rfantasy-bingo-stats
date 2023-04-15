@@ -3,7 +3,10 @@ Created on Apr 7, 2023
 
 @author: fred
 """
-from typing import NewType, TypeVar
+from typing import (
+    NewType,
+    TypeVar,
+)
 
 # The purpose of these types is to make each kind of string distinct
 # More complex logic can be implemented as a class, if necessary

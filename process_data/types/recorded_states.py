@@ -20,11 +20,13 @@ from typing import (
 
 from ..data.current import CUSTOM_SEPARATOR
 from ..match_books.process_match import find_existing_match
-from .defined_types import Book
+from .defined_types import (
+    Author,
+    Book,
+    BookOrAuthor,
+)
 from .match_choice import MatchChoice
 from .utils import to_data
-from .defined_types import Author
-from .defined_types import BookOrAuthor
 
 
 @dataclass(frozen=True)
@@ -32,6 +34,7 @@ class RecordedStates:
     """Known duplicate title/author pairs and likely non-duplicate title/author pairs"""
 
     author_dupes: defaultdict[Author, set[Author]]
+    author_non_dupes: set[Author]
     book_dupes: defaultdict[Book, set[Book]]
     book_non_dupes: set[Book]
     book_separator: str = CUSTOM_SEPARATOR
@@ -58,6 +61,7 @@ class RecordedStates:
 
         return cls(
             author_dupes=author_dupes,
+            author_non_dupes={cast(Author, str(val)) for val in data["author_non_dupes"]},
             book_dupes=book_dupes,
             book_non_dupes={cast(Book, str(val)) for val in data["book_non_dupes"]},
             book_separator=str(data["book_separator"]),
@@ -75,6 +79,7 @@ class RecordedStates:
         """Create an empty RecordedStates"""
         return cls(
             author_dupes=defaultdict(set),
+            author_non_dupes=set(),
             book_dupes=defaultdict(set),
             book_non_dupes=set(),
             book_separator=book_separator,

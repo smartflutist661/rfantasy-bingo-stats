@@ -8,6 +8,8 @@ from collections import Counter
 
 import pandas
 
+from process_data.data_operations.author_title_book_operations import get_unique_authors
+
 from .calculate_statistics.get_bingo_cards import get_bingo_cards
 from .data.current import (
     BINGO_DATA_FILEPATH,
@@ -17,6 +19,7 @@ from .data.current import (
 from .data.filepaths import DUPE_RECORD_FILEPATH
 from .data_operations.author_title_book_operations import (
     books_to_title_authors,
+    get_all_authors,
     get_all_title_author_combos,
     get_unique_books,
 )
@@ -26,7 +29,8 @@ from .data_operations.get_data import (
 )
 from .data_operations.update_data import (
     add_to_markdown,
-    update_bingo_dataframe,
+    update_bingo_authors,
+    update_bingo_books,
 )
 from .git_operations import (
     commit_push_pr,
@@ -34,7 +38,6 @@ from .git_operations import (
 )
 from .match_books.get_matches import get_possible_matches
 from .types.recorded_states import RecordedStates
-from .data_operations.author_title_book_operations import get_all_authors
 
 
 def normalize_books(
@@ -46,8 +49,25 @@ def normalize_books(
     """Normalize book titles and authors"""
 
     all_authors = get_all_authors(bingo_data)
-    
-    unique_authors = get_unique_authors()
+
+    unique_authors = get_unique_authors(all_authors)
+
+    print(f"Starting with {len(unique_authors)} unique authors.")
+
+    print(
+        "Processing possible misspellings."
+        + " You may hit ctrl+C at any point to exit, or enter `e` at the prompt."
+        + " Progress will be saved."
+    )
+    print()
+
+    authors_to_replace = get_possible_matches(
+        unique_authors, match_score, rescan_non_dupes, recorded_states, "Author"
+    )
+
+    print("Updating Bingo authors.")
+    update_bingo_authors(bingo_data, authors_to_replace)
+    print("Bingo authors updated.")
 
     all_title_author_combos = get_all_title_author_combos(bingo_data)
 
@@ -62,16 +82,13 @@ def normalize_books(
     )
     print()
 
-    vals_to_replace = get_possible_matches(
-        unique_books,
-        match_score,
-        rescan_non_dupes,
-        recorded_states,
+    books_to_replace = get_possible_matches(
+        unique_books, match_score, rescan_non_dupes, recorded_states, "Book"
     )
 
-    print("Updating Bingo data.")
-    update_bingo_dataframe(bingo_data, vals_to_replace)
-    print("Bingo data updated.")
+    print("Updating Bingo books.")
+    update_bingo_books(bingo_data, books_to_replace)
+    print("Bingo books updated.")
 
 
 def collect_statistics(bingo_data: pandas.DataFrame, separator: str) -> None:
