@@ -8,6 +8,8 @@ from collections import Counter
 
 import pandas
 
+from process_data.data_operations.update_data import comma_separate_authors
+
 from .calculate_statistics.get_bingo_cards import get_bingo_cards
 from .data.current import (
     BINGO_DATA_FILEPATH,
@@ -64,6 +66,8 @@ def normalize_books(
     print()
 
     get_possible_matches(unique_authors, match_score, rescan_non_dupes, recorded_states, "Author")
+
+    comma_separate_authors(recorded_states)
 
     print("Updating Bingo authors.")
     author_dedupes = update_bingo_authors(
@@ -221,7 +225,7 @@ def main(args: argparse.Namespace) -> None:
 
     recorded_duplicates = get_existing_states(DUPE_RECORD_FILEPATH)
 
-    normalize_books(bingo_data, args.match_score, args.rescan_non_dupes, recorded_duplicates)
+    normalize_books(bingo_data, args.match_score, args.rescan_keys, recorded_duplicates)
 
     print("Collecting statistics.")
     print()
@@ -248,7 +252,7 @@ def cli() -> argparse.Namespace:
     )
 
     parser.add_argument(
-        "--rescan-non-dupes",
+        "--rescan-keys",
         action="store_true",
         help="""
         Pass this to check for duplicates on pairs that were previously not matched.
