@@ -105,12 +105,17 @@ def get_possible_book_matches(
         unscanned_books |= best_books
         non_dupe_str = f", of which {len(best_books)} are being rescanned"
 
-    print(f"Scanning {len(unscanned_books)} unscanned books{non_dupe_str}.")
+    total_to_scan = len(unscanned_books)
+    count = 0
+    print(f"Scanning {total_to_scan} unscanned books{non_dupe_str}.")
     while len(unscanned_books) > 0:
+        count += 1
+        print(f"{count}/{total_to_scan}")
         new_book = unscanned_books.pop()
 
         process_new_pair(
             known_states.book_dupes,
+            known_states.ignored_book_dupes,
             unscanned_books,
             new_book,
             match_score,
@@ -144,6 +149,7 @@ def get_possible_author_matches(
 
         process_new_pair(
             known_states.author_dupes,
+            known_states.ignored_author_dupes,
             unscanned_authors,
             new_author,
             match_score,

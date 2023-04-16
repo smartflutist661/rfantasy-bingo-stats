@@ -15,7 +15,6 @@ from typing import (
     AbstractSet,
     Any,
     Mapping,
-    cast,
 )
 
 from ..data.current import CUSTOM_SEPARATOR
@@ -35,6 +34,8 @@ class RecordedStates:
 
     author_dupes: defaultdict[Author, set[Author]]
     book_dupes: defaultdict[Book, set[Book]]
+    ignored_author_dupes: defaultdict[Author, set[Author]]
+    ignored_book_dupes: defaultdict[Book, set[Book]]
     book_separator: str = CUSTOM_SEPARATOR
 
     @classmethod
@@ -44,28 +45,25 @@ class RecordedStates:
         # Should try to handle duplicated keys... this does not
         book_dupes: defaultdict[Book, set[Book]] = defaultdict(
             set,
-            {key: {cast(Book, str(v)) for v in val} for key, val in data["book_dupes"].items()},
+            {key: {Book(str(v)) for v in val} for key, val in data["book_dupes"].items()},
         )
 
         book_non_dupes = data.get("book_non_dupes")
         if book_non_dupes is not None:
             for book in book_non_dupes:
-                book_dupes[cast(Book, str(book))] = set()
+                book_dupes[Book(str(book))] = set()
 
         handle_overlaps(book_dupes)
 
         author_dupes: defaultdict[Author, set[Author]] = defaultdict(
             set,
-            {
-                key: {cast(Author, str(v)) for v in val}
-                for key, val in data["author_dupes"].items()
-            },
+            {key: {Author(str(v)) for v in val} for key, val in data["author_dupes"].items()},
         )
 
         author_non_dupes = data.get("author_non_dupes")
         if author_non_dupes is not None:
             for author in author_non_dupes:
-                author_dupes[cast(Author, str(author))] = set()
+                author_dupes[Author(str(author))] = set()
 
         handle_overlaps(author_dupes)
 
@@ -77,6 +75,20 @@ class RecordedStates:
         return cls(
             author_dupes=author_dupes,
             book_dupes=book_dupes,
+            ignored_author_dupes=defaultdict(
+                set,
+                {
+                    Author(str(key)): {Author(str(v)) for v in val}
+                    for key, val in data["ignored_author_dupes"].items()
+                },
+            ),
+            ignored_book_dupes=defaultdict(
+                set,
+                {
+                    Book(str(key)): {Book(str(v)) for v in val}
+                    for key, val in data["ignored_book_dupes"].items()
+                },
+            ),
             book_separator=book_separator,
         )
 
@@ -86,15 +98,6 @@ class RecordedStates:
         for key, val in {field.name: getattr(self, field.name) for field in fields(self)}.items():
             out[key] = to_data(val)
         return out
-
-    @classmethod
-    def empty(cls, book_separator: str = CUSTOM_SEPARATOR) -> RecordedStates:
-        """Create an empty RecordedStates"""
-        return cls(
-            author_dupes=defaultdict(set),
-            book_dupes=defaultdict(set),
-            book_separator=book_separator,
-        )
 
 
 def handle_overlaps(dupes: defaultdict[BookOrAuthor, set[BookOrAuthor]]) -> None:

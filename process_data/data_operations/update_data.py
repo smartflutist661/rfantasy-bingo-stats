@@ -9,7 +9,6 @@ from types import MappingProxyType as MAP
 from typing import (
     AbstractSet,
     Mapping,
-    cast,
 )
 
 import pandas
@@ -96,7 +95,7 @@ def comma_separate_authors(recorded_states: RecordedStates) -> None:
     for string in (" , ", ", & ", " & ", ", and ", " and "):
         for author, author_dedupes in tuple(recorded_states.author_dupes.items()):
             if string in author:
-                updated_author = cast(Author, author.replace(string, ", "))
+                updated_author = Author(author.replace(string, ", "))
                 recorded_states.author_dupes[updated_author] |= author_dedupes
                 recorded_states.author_dupes[updated_author].add(author)
                 del recorded_states.author_dupes[author]

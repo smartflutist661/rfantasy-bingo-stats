@@ -22,7 +22,7 @@ TitleCol = NewType("TitleCol", str)
 AuthorCol = NewType("AuthorCol", str)
 HardModeCol = NewType("HardModeCol", str)
 
-CardID = NewType("CardID", float)
+CardID = NewType("CardID", str)
 
 # These are aliases for convenience
 TitleAuthor = tuple[Title, Author]

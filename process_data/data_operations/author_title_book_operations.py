@@ -38,7 +38,7 @@ def get_all_title_author_combos(data: pandas.DataFrame) -> tuple[TitleAuthor, ..
 def book_to_title_author(book: Book, separator: str) -> TitleAuthor:
     """Convert book to title/author pair"""
     title, author = book.split(separator)
-    return cast(Title, title), cast(Author, author)
+    return Title(title), Author(author)
 
 
 def books_to_title_authors(books: Iterable[Book], separator: str) -> tuple[TitleAuthor, ...]:
@@ -48,7 +48,7 @@ def books_to_title_authors(books: Iterable[Book], separator: str) -> tuple[Title
 
 def title_author_to_book(title_author_pair: TitleAuthor, separator: str) -> Book:
     """Convert title/author pair to book form"""
-    return cast(Book, separator.join(str(elem) for elem in title_author_pair))
+    return Book(separator.join(str(elem) for elem in title_author_pair))
 
 
 def title_authors_to_books(
