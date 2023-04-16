@@ -5,7 +5,10 @@ Created on Apr 7, 2023
 """
 from pathlib import Path
 
-BINGO_DATA_FILEPATH: Path = Path(__file__).parent / "raw_bingo_data.ods"
+ROOT = Path(__file__).parent
 
-OUTPUT_DF_FILEPATH: Path = Path(__file__).parent / "updated_bingo_data.csv"
-OUTPUT_MD_FILEPATH: Path = Path(__file__).parent / "bingo_stats_rough_draft.md"
+BINGO_DATA_FILEPATH: Path = ROOT / "raw_bingo_data.ods"
+
+OUTPUT_DF_FILEPATH: Path = ROOT / "updated_bingo_data.csv"
+OUTPUT_MD_FILEPATH: Path = ROOT / "bingo_stats_rough_draft.md"
+OUTPUT_STATS_FILEPATH: Path = ROOT / "bingo_stats.json"

@@ -123,7 +123,8 @@ def get_bingo_cards(
         }
 
         for square_tuple in tuple(subbed_square_map.items()):
-            subbed_count[square_tuple] += 1
+            if square_tuple[0] and square_tuple[1]:
+                subbed_count[square_tuple] += 1
 
         cards[index], incomplete_squares = get_bingo_card(row, subbed_square_map)
 

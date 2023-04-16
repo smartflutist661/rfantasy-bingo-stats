@@ -104,9 +104,3 @@ def comma_separate_authors(recorded_states: RecordedStates) -> None:
     with DUPE_RECORD_FILEPATH.open("w", encoding="utf8") as dupe_file:
         json.dump(recorded_states.to_data(), dupe_file, indent=2)
     print("Updated duplicates saved.")
-
-
-def add_to_markdown(lines: list[str], new_str: str) -> None:
-    """Print and add to a collection of lines to write as a Markdown file"""
-    print(new_str)
-    lines.append(new_str)

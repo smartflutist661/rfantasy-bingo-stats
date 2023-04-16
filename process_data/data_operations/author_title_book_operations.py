@@ -3,6 +3,7 @@ Created on Apr 9, 2023
 
 @author: fred
 """
+from collections import Counter
 from typing import (
     Iterable,
     cast,
@@ -58,9 +59,34 @@ def title_authors_to_books(
     return tuple(title_author_to_book(pair, separator) for pair in title_author_pairs)
 
 
+def get_unique_author_counts(authors: Iterable[Author]) -> Counter[Author]:
+    """Get counter for unique authors"""
+    return Counter(authors)
+
+
 def get_unique_authors(authors: Iterable[Author]) -> frozenset[Author]:
     """Get every unique author"""
     return frozenset(authors)
+
+
+def get_unique_title_author_counts(
+    title_author_pairs: Iterable[TitleAuthor],
+) -> Counter[TitleAuthor]:
+    """Get counter for unique title/author pairs"""
+    return Counter(title_author_pairs)
+
+
+def get_unique_book_counts(
+    title_author_pairs: Iterable[TitleAuthor],
+    separator: str,
+) -> Counter[Book]:
+    """Get counter for unique books"""
+    for pair in title_author_pairs:
+        for elem in pair:
+            if separator in str(elem):
+                raise ValueError("Pick a different separator")
+
+    return Counter(title_authors_to_books(title_author_pairs, separator))
 
 
 def get_unique_books(
@@ -69,9 +95,4 @@ def get_unique_books(
 ) -> frozenset[Book]:
     """Get every unique title/author combination"""
 
-    for pair in title_author_pairs:
-        for elem in pair:
-            if separator in str(elem):
-                raise ValueError("Pick a different separator")
-
-    return frozenset(title_authors_to_books(title_author_pairs, separator))
+    return frozenset(get_unique_book_counts(title_author_pairs, separator).keys())
