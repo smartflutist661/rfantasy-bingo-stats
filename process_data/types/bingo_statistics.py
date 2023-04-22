@@ -9,7 +9,6 @@ from __future__ import annotations
 from collections import Counter
 from dataclasses import (
     dataclass,
-    field,
     fields,
 )
 from types import MappingProxyType as MAP
@@ -19,6 +18,13 @@ from typing import (
     cast,
 )
 
+from process_data.types.utils import (
+    author_counter_from_data,
+    book_counter_from_data,
+    card_id_counter_from_data,
+    square_name_counter_from_data,
+)
+
 from ..data.current import CUSTOM_SEPARATOR
 from .defined_types import (
     Author,
@@ -26,45 +32,11 @@ from .defined_types import (
     CardID,
     SquareName,
 )
+from .unique_statistics import UniqueStatistics
 from .utils import (
     AnyData,
     to_data,
 )
-
-
-@dataclass(frozen=True)
-class UniqueStatistics:
-    """Counters for unique books + authors"""
-
-    unique_books: Counter[Book] = field(default_factory=Counter)
-    unique_authors: Counter[Author] = field(default_factory=Counter)
-
-    @classmethod
-    def from_data(cls, data: Any) -> UniqueStatistics:
-        """Construct from JSON data"""
-        return cls(
-            unique_books=Counter(
-                {
-                    Book(str(key)): int(cast(int, val))
-                    for key, val in data["unique_title_authors"].items()
-                }
-            ),
-            unique_authors=Counter(
-                {
-                    Author(str(key)): int(cast(int, val))
-                    for key, val in data["unique_authors"].items()
-                }
-            ),
-        )
-
-    def to_data(self) -> dict[str, Any]:
-        """Write to JSON data"""
-        out: dict[str, AnyData] = {}
-        for field_name, field_val in {
-            field.name: getattr(self, field.name) for field in fields(self)
-        }.items():
-            out[field_name] = to_data(field_val)
-        return out
 
 
 @dataclass(frozen=True)
@@ -84,24 +56,16 @@ class BingoStatistics:
     square_uniques: Mapping[SquareName, UniqueStatistics]
     unique_squares_by_book: Counter[Book]
     unique_squares_by_author: Counter[Author]
+    bad_spellings_by_card: Counter[CardID]
+    bad_spellings_by_book: Counter[Book]
 
     @classmethod
     def from_data(cls, data: Any) -> BingoStatistics:
         """Create BingoStatistics from JSON data"""
         return cls(
             total_card_count=int(cast(int, data["total_card_count"])),
-            incomplete_cards=Counter(
-                {
-                    CardID(str(key)): int(cast(int, val))
-                    for key, val in data["incomplete_cards"].items()
-                }
-            ),
-            incomplete_squares=Counter(
-                {
-                    SquareName(str(key)): int(cast(int, val))
-                    for key, val in data["incomplete_squares"].items()
-                }
-            ),
+            incomplete_cards=card_id_counter_from_data(data["incomplete_cards"]),
+            incomplete_squares=square_name_counter_from_data(data["incomplete_squares"]),
             max_incomplete_squares=int(cast(int, data["max_incomplete_squares"])),
             incomplete_squares_per_card=Counter(
                 {
@@ -119,18 +83,8 @@ class BingoStatistics:
                     for key, val in data["subbed_squares"].items()
                 }
             ),
-            subbed_out_squares=Counter(
-                {
-                    SquareName(str(key)): int(cast(int, val))
-                    for key, val in data["subbed_out_squares"].items()
-                }
-            ),
-            avoided_squares=Counter(
-                {
-                    SquareName(str(key)): int(cast(int, val))
-                    for key, val in data["avoided_squares"].items()
-                }
-            ),
+            subbed_out_squares=square_name_counter_from_data(data["subbed_out_squares"]),
+            avoided_squares=square_name_counter_from_data(data["avoided_squares"]),
             overall_uniques=UniqueStatistics.from_data(data["overall_uniques"]),
             square_uniques=MAP(
                 {
@@ -138,18 +92,10 @@ class BingoStatistics:
                     for key, val in data["square_uniques"].items()
                 }
             ),
-            unique_squares_by_book=Counter(
-                {
-                    Book(str(key)): int(cast(int, val))
-                    for key, val in data["unique_squares_by_book"].items()
-                }
-            ),
-            unique_squares_by_author=Counter(
-                {
-                    Author(str(key)): int(cast(int, val))
-                    for key, val in data["unique_squares_by_author"].items()
-                }
-            ),
+            unique_squares_by_book=book_counter_from_data(data["unique_squares_by_book"]),
+            unique_squares_by_author=author_counter_from_data(data["unique_squares_by_author"]),
+            bad_spellings_by_card=card_id_counter_from_data(data["bad_spellings_by_card"]),
+            bad_spellings_by_book=book_counter_from_data(data["bad_spellings_by_book"]),
         )
 
     def to_data(self) -> dict[str, Any]:

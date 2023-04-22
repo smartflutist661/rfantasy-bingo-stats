@@ -15,6 +15,12 @@ from typing import (
 
 import pandas
 
+from process_data.data_operations.author_title_book_operations import (
+    book_to_title_author,
+    get_all_title_author_combos,
+    get_unique_book_counts,
+)
+
 from ..data.current import (
     CUSTOM_SEPARATOR,
     NOVEL_TITLE_AUTHOR_HM_COLS,
@@ -28,7 +34,7 @@ from ..types.bingo_card import (
     BingoSquare,
     ShortStorySquare,
 )
-from ..types.bingo_statistics import UniqueStatistics
+from ..types.bingo_statistics import BingoStatistics
 from ..types.defined_types import (
     Author,
     AuthorCol,
@@ -39,6 +45,8 @@ from ..types.defined_types import (
     Title,
     TitleCol,
 )
+from ..types.recorded_states import RecordedDupes
+from ..types.unique_statistics import UniqueStatistics
 
 
 def get_short_story_square(
@@ -107,18 +115,10 @@ def get_bingo_card(
     return MAP(card), frozenset(incomplete_squares)
 
 
-def get_bingo_cards(
+def get_bingo_stats(
     data: pandas.DataFrame,
-    # recorded_states: RecordedStates,
-) -> tuple[
-    Mapping[CardID, BingoCard],
-    Counter[tuple[SquareName, SquareName]],
-    Counter[CardID],
-    Counter[SquareName],
-    Mapping[SquareName, UniqueStatistics],
-    Mapping[Book, frozenset[SquareName]],
-    Mapping[Author, frozenset[SquareName]],
-]:
+    recorded_states: RecordedDupes,
+) -> BingoStatistics:
     """Get tuple of bingo cards with substituted names"""
 
     cards: dict[CardID, BingoCard] = {}
@@ -128,6 +128,10 @@ def get_bingo_cards(
     square_uniques: defaultdict[SquareName, UniqueStatistics] = defaultdict(UniqueStatistics)
     unique_square_book_usage: defaultdict[Book, set[SquareName]] = defaultdict(set)
     unique_square_author_usage: defaultdict[Author, set[SquareName]] = defaultdict(set)
+    dedupes_by_card: Counter[CardID] = Counter()
+    dedupes_by_primary: Counter[Book] = Counter()
+
+    dedupe_map = recorded_states.get_book_dedupe_map()
 
     for index, row in data.iterrows():
         index = CardID(str(index))
@@ -149,19 +153,49 @@ def get_bingo_cards(
 
         for square_name, square in bingo_card.items():
             if square is not None:
-                book = title_author_to_book((square.title, square.author), CUSTOM_SEPARATOR)
                 if not isinstance(square, ShortStorySquare):
-                    square_uniques[square_name].unique_authors[square.author] += 1
+                    book = title_author_to_book((square.title, square.author), CUSTOM_SEPARATOR)
+
+                    if book in dedupe_map:
+                        book = dedupe_map[book]
+                        dedupes_by_card[index] += 1
+                        dedupes_by_primary[book] += 1
+
+                    _, author = book_to_title_author(book, CUSTOM_SEPARATOR)
+
+                    square_uniques[square_name].unique_authors[author] += 1
                     square_uniques[square_name].unique_books[book] += 1
                     unique_square_book_usage[book].add(square_name)
-                    unique_square_author_usage[square.author].add(square_name)
+                    unique_square_author_usage[author].add(square_name)
 
-    return (
-        MAP(cards),
-        subbed_count,
-        incomplete_card_count,
-        incomplete_square_count,
-        MAP(square_uniques),
-        MAP({key: frozenset(vals) for key, vals in unique_square_book_usage.items()}),
-        MAP({key: frozenset(vals) for key, vals in unique_square_author_usage.items()}),
+    all_title_authors = get_all_title_author_combos(data)
+    unique_book_counts = get_unique_book_counts(all_title_authors, CUSTOM_SEPARATOR)
+    unique_author_counts = Counter(author for _, author in all_title_authors)
+
+    subbed_out_squares = Counter(subbed_out for subbed_out, _ in subbed_count.keys())
+    for square_name in SQUARE_NAMES.values():
+        subbed_out_squares[square_name] += 0
+
+    return BingoStatistics(
+        total_card_count=len(cards),
+        total_story_count=len(all_title_authors),
+        incomplete_cards=incomplete_card_count,
+        incomplete_squares=incomplete_square_count,
+        max_incomplete_squares=max(
+            incomplete for incomplete in incomplete_card_count.values() if incomplete != 25
+        ),
+        incomplete_squares_per_card=Counter(incomplete_card_count.values()),
+        subbed_squares=subbed_count,
+        subbed_out_squares=subbed_out_squares,
+        avoided_squares=incomplete_square_count + subbed_out_squares,
+        overall_uniques=UniqueStatistics(unique_book_counts, unique_author_counts),
+        square_uniques=MAP(square_uniques),
+        unique_squares_by_book=Counter(
+            {book: len(squares) for book, squares in unique_square_book_usage.items()}
+        ),
+        unique_squares_by_author=Counter(
+            {author: len(squares) for author, squares in unique_square_author_usage.items()}
+        ),
+        bad_spellings_by_card=dedupes_by_card,
+        bad_spellings_by_book=dedupes_by_primary,
     )

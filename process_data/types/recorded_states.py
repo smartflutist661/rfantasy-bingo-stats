@@ -29,17 +29,25 @@ from .utils import to_data
 
 
 @dataclass(frozen=True)
-class RecordedStates:
+class RecordedDupes:
     """Known duplicate title/author pairs and likely non-duplicate title/author pairs"""
 
     author_dupes: defaultdict[Author, set[Author]]
     book_dupes: defaultdict[Book, set[Book]]
-    ignored_author_dupes: defaultdict[Author, set[Author]]
-    ignored_book_dupes: defaultdict[Book, set[Book]]
     book_separator: str = CUSTOM_SEPARATOR
 
+    def get_book_dedupe_map(self) -> Mapping[Book, Book]:
+        """Reverse the book dupes to get bad values as keys"""
+        return MAP(
+            {
+                dedupe_book: primary_book
+                for primary_book, dedupe_books in self.book_dupes.items()
+                for dedupe_book in dedupe_books
+            }
+        )
+
     @classmethod
-    def from_data(cls, data: Any) -> RecordedStates:
+    def from_data(cls, data: Any, skip_updates: bool = False) -> RecordedDupes:
         """Restore from JSON data"""
 
         # Should try to handle duplicated keys... this does not
@@ -48,24 +56,16 @@ class RecordedStates:
             {key: {Book(str(v)) for v in val} for key, val in data["book_dupes"].items()},
         )
 
-        book_non_dupes = data.get("book_non_dupes")
-        if book_non_dupes is not None:
-            for book in book_non_dupes:
-                book_dupes[Book(str(book))] = set()
-
-        handle_overlaps(book_dupes)
+        if not skip_updates:
+            handle_overlaps(book_dupes)
 
         author_dupes: defaultdict[Author, set[Author]] = defaultdict(
             set,
             {key: {Author(str(v)) for v in val} for key, val in data["author_dupes"].items()},
         )
 
-        author_non_dupes = data.get("author_non_dupes")
-        if author_non_dupes is not None:
-            for author in author_non_dupes:
-                author_dupes[Author(str(author))] = set()
-
-        handle_overlaps(author_dupes)
+        if not skip_updates:
+            handle_overlaps(author_dupes)
 
         book_separator = str(data["book_separator"])
 
@@ -75,20 +75,6 @@ class RecordedStates:
         return cls(
             author_dupes=author_dupes,
             book_dupes=book_dupes,
-            ignored_author_dupes=defaultdict(
-                set,
-                {
-                    Author(str(key)): {Author(str(v)) for v in val}
-                    for key, val in data["ignored_author_dupes"].items()
-                },
-            ),
-            ignored_book_dupes=defaultdict(
-                set,
-                {
-                    Book(str(key)): {Book(str(v)) for v in val}
-                    for key, val in data["ignored_book_dupes"].items()
-                },
-            ),
             book_separator=book_separator,
         )
 

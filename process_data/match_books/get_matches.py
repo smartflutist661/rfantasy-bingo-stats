@@ -12,16 +12,21 @@ from typing import (
     overload,
 )
 
-from process_data.match_books.process_match import find_existing_match
-
-from ..data.filepaths import DUPE_RECORD_FILEPATH
+from ..data.filepaths import (
+    DUPE_RECORD_FILEPATH,
+    IGNORED_RECORD_FILEPATH,
+)
 from ..types.defined_types import (
     Author,
     Book,
     BookOrAuthor,
 )
-from ..types.recorded_states import RecordedStates
-from .process_match import process_new_pair
+from ..types.recorded_ignores import RecordedIgnores
+from ..types.recorded_states import RecordedDupes
+from .process_match import (
+    find_existing_match,
+    process_new_pair,
+)
 
 
 @overload
@@ -29,7 +34,8 @@ def get_possible_matches(
     all_choices: frozenset[Author],
     match_score: int,
     rescan_keys: bool,
-    known_states: RecordedStates,
+    known_states: RecordedDupes,
+    known_ignores: RecordedIgnores,
     ret_type: Literal["Author"],
 ) -> None:
     ...
@@ -40,7 +46,8 @@ def get_possible_matches(
     all_choices: frozenset[Book],
     match_score: int,
     rescan_keys: bool,
-    known_states: RecordedStates,
+    known_states: RecordedDupes,
+    known_ignores: RecordedIgnores,
     ret_type: Literal["Book"],
 ) -> None:
     ...
@@ -50,7 +57,8 @@ def get_possible_matches(
     all_choices: frozenset[BookOrAuthor],
     match_score: int,
     rescan_keys: bool,
-    known_states: RecordedStates,
+    known_states: RecordedDupes,
+    known_ignores: RecordedIgnores,
     ret_type: Literal["Book", "Author"],
 ) -> None:
     """Determine all possible misspellings for each author or book"""
@@ -61,6 +69,7 @@ def get_possible_matches(
                 match_score,
                 rescan_keys,
                 known_states,
+                known_ignores,
             )
         else:
             get_possible_author_matches(
@@ -68,6 +77,7 @@ def get_possible_matches(
                 match_score,
                 rescan_keys,
                 known_states,
+                known_ignores,
             )
 
     except ValueError:
@@ -82,6 +92,8 @@ def get_possible_matches(
     finally:
         with DUPE_RECORD_FILEPATH.open("w", encoding="utf8") as dupe_file:
             json.dump(known_states.to_data(), dupe_file, indent=2)
+        with IGNORED_RECORD_FILEPATH.open("w", encoding="utf8") as ignore_file:
+            json.dump(known_ignores.to_data(), ignore_file, indent=2)
         print("Updated duplicates saved.")
 
 
@@ -89,7 +101,8 @@ def get_possible_book_matches(
     books: frozenset[Book],
     match_score: int,
     rescan_keys: bool,
-    known_states: RecordedStates,
+    known_states: RecordedDupes,
+    known_ignores: RecordedIgnores,
 ) -> None:
     """Get possible matches for un-matched books"""
 
@@ -116,7 +129,7 @@ def get_possible_book_matches(
 
         process_new_pair(
             known_states.book_dupes,
-            known_states.ignored_book_dupes,
+            known_ignores.ignored_book_dupes,
             unscanned_books,
             new_book,
             match_score,
@@ -127,7 +140,8 @@ def get_possible_author_matches(
     books: frozenset[Author],
     match_score: int,
     rescan_keys: bool,
-    known_states: RecordedStates,
+    known_states: RecordedDupes,
+    known_ignores: RecordedIgnores,
 ) -> None:
     """Get possible matches for un-checked authors"""
     unscanned_authors = set(
@@ -150,7 +164,7 @@ def get_possible_author_matches(
 
         process_new_pair(
             known_states.author_dupes,
-            known_states.ignored_author_dupes,
+            known_ignores.ignored_author_dupes,
             unscanned_authors,
             new_author,
             match_score,
@@ -158,7 +172,7 @@ def get_possible_author_matches(
 
 
 def update_dedupes_from_authors(
-    recorded_states: RecordedStates,
+    recorded_states: RecordedDupes,
     author_dedupes: Mapping[Book, AbstractSet[Book]],
 ) -> None:
     """Take recorded Books for each deduped Author, and record to target Book"""
