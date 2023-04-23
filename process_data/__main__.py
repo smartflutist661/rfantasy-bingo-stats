@@ -10,6 +10,7 @@ import pandas
 
 from .calculate_statistics.get_bingo_cards import get_bingo_stats
 from .calculate_statistics.get_stats import create_markdown
+from .calculate_statistics.plot_distributions import create_all_plots
 from .data.current import (
     BINGO_DATA_FILEPATH,
     OUTPUT_STATS_FILEPATH,
@@ -41,6 +42,7 @@ from .match_books.get_matches import (
     get_possible_matches,
     update_dedupes_from_authors,
 )
+from .types.defined_types import Author
 from .types.recorded_ignores import RecordedIgnores
 from .types.recorded_states import RecordedDupes
 
@@ -67,11 +69,42 @@ def normalize_books(
     )
     print()
 
-    comma_separate_authors(recorded_dupes)
-
     get_possible_matches(
         unique_authors, match_score, rescan_non_dupes, recorded_dupes, recorded_ignores, "Author"
     )
+
+    comma_separate_authors(recorded_dupes)
+
+    unique_single_authors = frozenset(
+        {
+            Author(single_author)
+            for author in recorded_dupes.author_dupes.keys()
+            for single_author in author.split(", ")
+        }
+    )
+
+    get_possible_matches(
+        unique_single_authors | unique_authors,
+        match_score,
+        rescan_non_dupes,
+        recorded_dupes,
+        recorded_ignores,
+        "Author",
+    )
+
+    author_dedupe_map = recorded_dupes.get_author_dedupe_map()
+
+    for author in tuple(recorded_dupes.author_dupes.keys()):
+        final_author = author
+        for single_author in author.split(", "):
+            single_author = Author(single_author)
+            updated_single_author = author_dedupe_map.get(single_author, single_author)
+            final_author.replace(single_author, updated_single_author)
+        recorded_dupes.author_dupes[final_author] |= recorded_dupes.author_dupes[author]
+        recorded_dupes.author_dupes[final_author].add(author)
+
+    with DUPE_RECORD_FILEPATH.open("w", encoding="utf8") as dupe_file:
+        json.dump(recorded_dupes.to_data(), dupe_file)
 
     print("Updating Bingo authors.")
     updated_data, author_dedupes = update_bingo_authors(
@@ -104,7 +137,9 @@ def normalize_books(
     print("Bingo books updated.")
 
 
-def collect_statistics(bingo_data: pandas.DataFrame, recorded_states: RecordedDupes) -> None:
+def collect_statistics(
+    bingo_data: pandas.DataFrame, recorded_states: RecordedDupes, show_plots: bool
+) -> None:
     """Collect statistics on normalized books and create a rough draft post"""
 
     bingo_stats = get_bingo_stats(bingo_data, recorded_states)
@@ -114,6 +149,8 @@ def collect_statistics(bingo_data: pandas.DataFrame, recorded_states: RecordedDu
 
     create_markdown(bingo_stats)
 
+    create_all_plots(bingo_stats, show_plots)
+
 
 def main(args: argparse.Namespace) -> None:
     """Process bingo data"""
@@ -122,6 +159,7 @@ def main(args: argparse.Namespace) -> None:
 
     bingo_data = get_bingo_dataframe(BINGO_DATA_FILEPATH)
 
+    print("Loading data.")
     recorded_duplicates, recorded_ignores = get_existing_states(
         DUPE_RECORD_FILEPATH, IGNORED_RECORD_FILEPATH, args.skip_updates
     )
@@ -132,7 +170,7 @@ def main(args: argparse.Namespace) -> None:
         )
 
     print("Collecting statistics.")
-    collect_statistics(bingo_data, recorded_duplicates)
+    collect_statistics(bingo_data, recorded_duplicates, args.show_plots)
 
     if args.github_pat is not None:
         print()
@@ -178,6 +216,12 @@ def cli() -> argparse.Namespace:
         help="""
         Pass this to automatically commit and push changes to GitHub.
         """,
+    )
+
+    parser.add_argument(
+        "--show-plots",
+        action="store_true",
+        help="Pass to display plots as well as saving them.",
     )
 
     return parser.parse_args()
