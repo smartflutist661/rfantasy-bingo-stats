@@ -15,6 +15,7 @@ from typing import (
 
 import pandas
 
+from ..data.author_records import AUTHOR_INFO
 from ..data.current import (
     CUSTOM_SEPARATOR,
     NOVEL_TITLE_AUTHOR_HM_COLS,
@@ -26,6 +27,7 @@ from ..data_operations.author_title_book_operations import (
     book_to_title_author,
     title_author_to_book,
 )
+from ..types.author_statistics import AuthorStatistics
 from ..types.bingo_card import (
     BingoCard,
     BingoSquare,
@@ -135,6 +137,9 @@ def get_bingo_stats(
     hard_mode_by_square: Counter[SquareName] = Counter()
     books_by_author: defaultdict[Author, set[Book]] = defaultdict(set)
 
+    overall_author_stats: AuthorStatistics = AuthorStatistics()
+    square_author_stats: defaultdict[SquareName, AuthorStatistics] = defaultdict(AuthorStatistics)
+
     book_dedupe_map = recorded_states.get_book_dedupe_map()
 
     for index, row in data.iterrows():
@@ -183,6 +188,19 @@ def get_bingo_stats(
                         square_uniques[square_name].unique_authors[single_author] += 1
                         unique_square_author_usage[single_author].add(square_name)
                         books_by_author[single_author].add(book)
+
+                        author_info = AUTHOR_INFO[single_author]
+                        overall_author_stats.gender_count[author_info.gender] += 1
+                        overall_author_stats.race_count[author_info.race] += 1
+                        overall_author_stats.queer_count[author_info.queer] += 1
+                        overall_author_stats.nationality_count[author_info.nationality] += 1
+
+                        square_author_stats[square_name].gender_count[author_info.gender] += 1
+                        square_author_stats[square_name].race_count[author_info.race] += 1
+                        square_author_stats[square_name].queer_count[author_info.queer] += 1
+                        square_author_stats[square_name].nationality_count[
+                            author_info.nationality
+                        ] += 1
 
                     total_story_count += 1
 
@@ -238,4 +256,6 @@ def get_bingo_stats(
         books_per_author=Counter(
             {author: len(books) for author, books in books_by_author.items()}
         ),
+        overall_author_stats=overall_author_stats,
+        square_author_stats=square_author_stats,
     )

@@ -19,6 +19,7 @@ from typing import (
 )
 
 from ..data.current import CUSTOM_SEPARATOR
+from .author_statistics import AuthorStatistics
 from .defined_types import (
     Author,
     Book,
@@ -59,6 +60,8 @@ class BingoStatistics:
     hard_mode_by_card: Counter[CardID]
     hard_mode_by_square: Counter[SquareName]
     books_per_author: Counter[Author]
+    overall_author_stats: AuthorStatistics
+    square_author_stats: Mapping[SquareName, AuthorStatistics]
 
     @classmethod
     def from_data(cls, data: Any) -> BingoStatistics:
@@ -101,6 +104,13 @@ class BingoStatistics:
             hard_mode_by_card=card_id_counter_from_data(data["hard_mode_by_card"]),
             hard_mode_by_square=square_name_counter_from_data(data["hard_mode_by_square"]),
             books_per_author=author_counter_from_data(data["books_per_author"]),
+            overall_author_stats=AuthorStatistics.from_data(data["overall_author_stats"]),
+            square_author_stats=MAP(
+                {
+                    SquareName(str(key)): AuthorStatistics.from_data(val)
+                    for key, val in data["square_author_stats"].items()
+                }
+            ),
         )
 
     def to_data(self) -> dict[str, Any]:
