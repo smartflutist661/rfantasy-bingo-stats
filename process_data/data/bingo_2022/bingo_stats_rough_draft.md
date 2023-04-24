@@ -29,7 +29,7 @@ In addition, if you did something like, say, put **Spinning Silver** as a short 
 The minimum number of filled squares was 2. 6 were *this close*, with 24 filled squares.
 866 squares were left blank, leaving 19684 filled squares.
 - There were 20140 total stories, with 5666 unique stories read,
-by 3362 unique authors.
+by 3354 unique authors.
 - The top three squares left blank were: **Set in Africa**, blank on 66 cards; **Five Short Stories**, blank on 53 cards; **Self-Published**, blank on 51 cards. On the other hand, **Stand-alone** was only left blank 19 times.
 - The three squares most often substituted were: **Self-Published**, substituted on 29 cards; **Set in Africa**, substituted on 26 cards; **Book Club or Readalong Book** and **Two or More Authors**, substituted on 21 cards. **Non-Human Protagonist** and **No Ifs, Ands, or Buts** were never subsituted.
 This means that Set in Africa was the least favorite overall, skipped or substituted a total of 92 times.
@@ -103,7 +103,7 @@ The ten most-read authors were:
 - P. Djèlí Clark, read 224 times
 - Naomi Novik, read 213 times
 - Tamsyn Muir, read 192 times
-- Adrian Tchaikovsky, read 176 times
+- Adrian Tchaikovsky, read 177 times
 - R.F. Kuang, read 161 times
 
 The authors used for the most squares were:
@@ -117,7 +117,7 @@ The authors with the most unique books read were:
 - Terry Pratchett, with 38 unique books read
 - Brandon Sanderson, with 34 unique books read
 - Lois McMaster Bujold, with 27 unique books read
-- Adrian Tchaikovsky, with 25 unique books read
+- Adrian Tchaikovsky, with 26 unique books read
 - TIE: Jim Butcher and Seanan McGuire, with 23 unique books read
 - Mercedes Lackey, with 22 unique books read
 - Neil Gaiman, with 21 unique books read
@@ -171,7 +171,7 @@ Skipped 36 times. Substituted 3 times.
 - N.K. Jemisin, read 37 times
 - Adrian Tchaikovsky, read 35 times
 
-**TOTAL**: 221 unique authors read.
+**TOTAL**: 222 unique authors read.
 
 ### 3. Two or More Authors
 
@@ -194,7 +194,7 @@ Skipped 35 times. Substituted 21 times.
 - TIE: Yoon Ha Lee and S.L. Huang, read 65 times
 - Max Gladstone, read 45 times
 
-**TOTAL**: 482 unique authors read.
+**TOTAL**: 480 unique authors read.
 
 ### 4. Historical SFF
 
@@ -286,7 +286,7 @@ Skipped 24 times. Substituted 4 times.
 - Naomi Novik, read 40 times
 - Holly Black, read 30 times
 
-**TOTAL**: 283 unique authors read.
+**TOTAL**: 284 unique authors read.
 
 ### 8. Book Club or Readalong Book
 
@@ -378,7 +378,7 @@ Skipped 31 times. Substituted 4 times.
 - V.E. Schwab, read 40 times
 - Seth Dickinson, read 38 times
 
-**TOTAL**: 250 unique authors read.
+**TOTAL**: 251 unique authors read.
 
 ### 12. Author Uses Initials
 
@@ -401,7 +401,7 @@ Skipped 28 times. Substituted 3 times.
 - M.A. Carrick, read 25 times
 - N.K. Jemisin, read 21 times
 
-**TOTAL**: 190 unique authors read.
+**TOTAL**: 191 unique authors read.
 
 ### 13. Published in 2022
 
@@ -470,7 +470,7 @@ Skipped 66 times. Substituted 26 times.
 - Jordan Ifueko, read 45 times
 - Tade Thompson, read 29 times
 
-**TOTAL**: 112 unique authors read.
+**TOTAL**: 111 unique authors read.
 
 ### 16. Non-Human Protagonist
 
@@ -539,7 +539,7 @@ Skipped 53 times. Substituted 16 times.
 - TIE: Sarah Pinsker and Carmen Maria Machado and Neil Gaiman, read 11 times
 - TIE: Gardner Dozois and Jim Butcher, read 9 times
 
-**TOTAL**: 379 unique authors read.
+**TOTAL**: 378 unique authors read.
 
 ### 19. Mental Health
 
@@ -726,20 +726,20 @@ Out of 822 cards, 205 used the Substitution rule.
 |SQUARE|BOOK|AUTHOR|
 |---------|:---------:|:---------:|
 |LGBTQIA List Book|55.0|53.2|
-|Weird Ecology|54.1|63.8|
+|Weird Ecology|54.1|63.7|
 |Two or More Authors|51.1|60.5|
 |Historical SFF|45.7|54.9|
 |Set In Space|52.0|61.1|
 |Stand-alone|35.5|43.8|
-|Anti-Hero|49.6|58.0|
+|Anti-Hero|49.6|57.9|
 |Book Club or Readalong Book|49.6|49.9|
 |Cool Weapon|46.0|58.2|
 |Revolutions and Rebellions|46.4|53.7|
-|Name in the Title|53.2|58.1|
-|Author Uses Initials|52.1|68.7|
+|Name in the Title|53.2|58.0|
+|Author Uses Initials|52.1|68.6|
 |Published in 2022|55.7|56.2|
 |Urban Fantasy|43.9|54.8|
-|Set in Africa|63.6|71.9|
+|Set in Africa|63.6|71.8|
 |Non-Human Protagonist|54.9|62.0|
 |Wibbly Wobbly Timey Wimey|46.9|54.4|
 |Five Short Stories|36.5|43.4|
@@ -755,13 +755,13 @@ Out of 822 cards, 205 used the Substitution rule.
 
 The books with the most variation in title or author spellings were:
 
-- **The Vela** by Yoon Ha Lee, Becky Chambers, Rivers Solomon, S.L. Huang, with 41 variations
-- **This is How You Lose the Time War** by Amal El-Mohtar, Max Gladstone, with 27 variations
-- **Legends & Lattes** by Travis Baldree, with 25 variations
-- **A Master of Djinn** by P. Djèlí Clark, with 23 variations
-- **Babel** by R.F. Kuang, with 22 variations
-- **The Seven Deaths of Evelyn Hardcastle** by Stuart Turton, with 20 variations
-- **The Mask of Mirrors** by M.A. Carrick, with 16 variations
-- TIE: **The Invisible Life of Addie LaRue** by V.E. Schwab and **Mother of Learning** by Domagoj Kurmaić, with 15 variations
-- TIE: **The House in the Cerulean Sea** by T.J. Klune and **The Fifth Season** by N.K. Jemisin and **Saga** by Brian K. Vaughan, Fiona Staples, with 14 variations
-- TIE: **The Bone Ships** by R.J. Barker and **The Long Way to a Small, Angry Planet** by Becky Chambers, with 13 variations
+- **The Vela** by Yoon Ha Lee, Becky Chambers, Rivers Solomon, S.L. Huang, with 40 variations
+- **This is How You Lose the Time War** by Amal El-Mohtar, Max Gladstone, with 26 variations
+- **Legends & Lattes** by Travis Baldree, with 24 variations
+- **A Master of Djinn** by P. Djèlí Clark, with 22 variations
+- **Babel** by R.F. Kuang, with 21 variations
+- **The Seven Deaths of Evelyn Hardcastle** by Stuart Turton, with 19 variations
+- **The Mask of Mirrors** by M.A. Carrick, with 15 variations
+- TIE: **The Invisible Life of Addie LaRue** by V.E. Schwab and **Mother of Learning** by Domagoj Kurmaić, with 14 variations
+- TIE: **The House in the Cerulean Sea** by T.J. Klune and **Saga** by Brian K. Vaughan, Fiona Staples and **The Fifth Season** by N.K. Jemisin, with 13 variations
+- TIE: **The Bone Ships** by R.J. Barker and **The Long Way to a Small, Angry Planet** by Becky Chambers and **Monstress** by Marjorie M. Liu, Sana Takeda, with 12 variations
