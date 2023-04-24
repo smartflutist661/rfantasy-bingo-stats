@@ -28,7 +28,7 @@ In addition, if you did something like, say, put **Spinning Silver** as a short 
 - There were 822 cards submitted, 96 of which were incomplete.
 The minimum number of filled squares was 2. 6 were *this close*, with 24 filled squares.
 866 squares were left blank, leaving 19684 filled squares.
-- There were 20140 total stories, with 5668 unique stories read,
+- There were 20140 total stories, with 5666 unique stories read,
 by 3362 unique authors.
 - The top three squares left blank were: **Set in Africa**, blank on 66 cards; **Five Short Stories**, blank on 53 cards; **Self-Published**, blank on 51 cards. On the other hand, **Stand-alone** was only left blank 19 times.
 - The three squares most often substituted were: **Self-Published**, substituted on 29 cards; **Set in Africa**, substituted on 26 cards; **Book Club or Readalong Book** and **Two or More Authors**, substituted on 21 cards. **Non-Human Protagonist** and **No Ifs, Ands, or Buts** were never subsituted.
@@ -206,7 +206,7 @@ Skipped 35 times. Substituted 21 times.
 - TIE: **A Marvellous Light** by Freya Marske and **A Master of Djinn** by P. Djèlí Clark and **The Song of Achilles** by Madeline Miller, read 15 times
 - **Between Two Fires** by Christopher Buehlman, read 13 times
 
-**TOTAL**: 783 books read, with 367 unique titles.
+**TOTAL**: 783 books read, with 366 unique titles.
 Skipped 34 times. Substituted 5 times.
 
 #### Most Read Authors
@@ -390,7 +390,7 @@ Skipped 31 times. Substituted 4 times.
 - **The Mask of Mirrors** by M.A. Carrick, read 18 times
 - **Sixteen Ways to Defend a Walled City** by K.J. Parker, read 17 times
 
-**TOTAL**: 791 books read, with 320 unique titles.
+**TOTAL**: 791 books read, with 319 unique titles.
 Skipped 28 times. Substituted 3 times.
 
 #### Most Read Authors
@@ -728,7 +728,7 @@ Out of 822 cards, 205 used the Substitution rule.
 |LGBTQIA List Book|55.0|53.2|
 |Weird Ecology|54.1|63.8|
 |Two or More Authors|51.1|60.5|
-|Historical SFF|45.6|54.9|
+|Historical SFF|45.7|54.9|
 |Set In Space|52.0|61.1|
 |Stand-alone|35.5|43.8|
 |Anti-Hero|49.6|58.0|
@@ -736,7 +736,7 @@ Out of 822 cards, 205 used the Substitution rule.
 |Cool Weapon|46.0|58.2|
 |Revolutions and Rebellions|46.4|53.7|
 |Name in the Title|53.2|58.1|
-|Author Uses Initials|52.0|68.7|
+|Author Uses Initials|52.1|68.7|
 |Published in 2022|55.7|56.2|
 |Urban Fantasy|43.9|54.8|
 |Set in Africa|63.6|71.9|
