@@ -190,6 +190,7 @@ def get_bingo_stats(
                         books_by_author[single_author].add(book)
 
                         author_info = AUTHOR_INFO[single_author]
+
                         overall_author_stats.gender_count[author_info.gender] += 1
                         overall_author_stats.race_count[author_info.race] += 1
                         overall_author_stats.queer_count[author_info.queer] += 1
