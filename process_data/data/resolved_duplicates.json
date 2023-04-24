@@ -4758,7 +4758,8 @@
       "Octavia E Butler",
       "Octavia E. Bulter",
       "Octavia E.Butler",
-      "Octavia K. Butler"
+      "Octavia K. Butler",
+      "Olivia Butler"
     ],
     "Odafe Atogun": [],
     "Oghenechovwe Donald Ekpeki": [
@@ -4777,7 +4778,6 @@
     ],
     "Olivia Atwater": [],
     "Olivia Atwood": [],
-    "Olivia Butler": [],
     "Olivia Stephens": [],
     "Olivie Blake": [
       "Olive Blake",
@@ -6452,7 +6452,8 @@
       "VE Schwab",
       "VE schwab",
       "Ve Schwab",
-      "Ve schwabb"
+      "Ve schwabb",
+      "Victoria Schwab"
     ],
     "V.E. Schwab, Enid Bal\u00e1m": [
       "V.E. Schwab and Enid Bal\u00e1m"
@@ -6511,7 +6512,6 @@
       "Victoria goddard"
     ],
     "Victoria Lee": [],
-    "Victoria Schwab": [],
     "Vida Cruz": [],
     "VigoGrimborne": [],
     "Vikram Chandra": [],
@@ -6840,9 +6840,6 @@
       "A Better Way of Saying /// Sarah Pinkser"
     ],
     "A Big Ship at the Edge of the Universe /// Alex White": [],
-    "A Bit of Hatred /// Joe Abercrombie": [
-      "A Bit of Hatred /// Joe Abercerombie"
-    ],
     "A Blink of the Screen /// Terry Pratchett": [],
     "A Boat Called Wish /// P. and P.": [
       "A Boat Called Wish /// P and P",
@@ -7093,7 +7090,10 @@
     "A Light Amongst Shadows /// Kelley York, Rowan Altwood": [
       "A Light Amongst Shadows /// Kelley York and Rowan Altwood"
     ],
-    "A Little Hatred /// Joe Abercrombie": [],
+    "A Little Hatred /// Joe Abercrombie": [
+      "A Bit of Hatred /// Joe Abercerombie",
+      "A Bit of Hatred /// Joe Abercrombie"
+    ],
     "A Little Knowledge /// Emma Newman": [],
     "A Little Too Familiar /// Lish McBride": [
       "A little too familiar /// Lish McBride"
@@ -7424,6 +7424,8 @@
       "A Wizard of Earthseah /// Ursula K. Le Guin",
       "A Wizard of Earthseah /// Ursula Le Guin",
       "A Wizardof Earthsea /// Ursula K. Le Guin",
+      "Erdsee /// Ursula K. Le Guin",
+      "Erdsee /// Ursula K. LeGuin",
       "The Earthsea Quartet /// Ursula K Le Guin",
       "The Earthsea Quartet /// Ursula K. Le Guin",
       "The Wizard of Earth-Sea /// Ursula K. Le Guin",
@@ -7800,7 +7802,6 @@
       "And the Rest Is History /// Jodi Taylor"
     ],
     "Angel Mage /// Garth Nix": [],
-    "Angel of the Crows /// Katherine Anderson": [],
     "Angels Before Man /// Rafael Nicol\u00e1s": [],
     "Angels of Darkness /// Ilona Andrews, Meljean Brook, Nalini Singh, Sharon Shinn": [],
     "Animal Farm /// George Orwell": [],
@@ -8128,7 +8129,8 @@
     "Ben Archer and the Cosmic Fall /// Rae Knightly": [],
     "Beneath Black Sails /// Clare Sager": [],
     "Beneath The Dragoneye Moons /// Selkie Myth": [
-      "Beneath The Dragoneye Moons /// SelkieMyth"
+      "Beneath The Dragoneye Moons /// SelkieMyth",
+      "New Horizons /// Selkie Myth"
     ],
     "Beneath the Fading Sun /// Richard M. Ankers": [],
     "Beneath the Rising /// Premee Mohamed": [
@@ -8307,9 +8309,9 @@
     ],
     "Bliss Montage /// Ling Ma": [],
     "Blitz /// Daniel O'Malley": [
+      "Blitz /// Thomas O'Malley",
       "Blitz: A Novel /// Daniel O'Malley"
     ],
-    "Blitz /// Thomas O'Malley": [],
     "Blonde Roots /// Bernardine Evaristo": [],
     "Blood Bound /// Patricia Briggs": [
       "Blood bound /// Patricia Briggs"
@@ -8497,9 +8499,9 @@
     "Briefly, A Delicious Life /// Nell Stevens": [],
     "Brightwine in the Garden of Tsitsian Village /// Bradley P. Beaulieu": [],
     "Bringing Home the Rain /// Bob McGough": [
-      "Bringing Home The Rain /// Bob McGough"
+      "Bringing Home The Rain /// Bob McGough",
+      "Bringing Home the Rain: The Redemption of Howard Marsh 1 /// Bob McGough"
     ],
-    "Bringing Home the Rain: The Redemption of Howard Marsh 1 /// Bob McGough": [],
     "Brisingr /// Christopher Paolini": [],
     "Broken Council /// Tao Wong": [],
     "Broken Homes /// Ben Aaronovitch": [],
@@ -8743,8 +8745,9 @@
       "The Children of Blood and Bone /// Tomi Adeyomi",
       "The Children of Blood and Bone /// Tomi Champion-Adeyemi"
     ],
-    "Children of Dune /// Frank Herbert": [],
-    "Children of Dune /// Herbert Wells": [],
+    "Children of Dune /// Frank Herbert": [
+      "Children of Dune /// Herbert Wells"
+    ],
     "Children of Earth and Sky /// Guy Gavriel Kay": [
       "Children of Earth & Sky /// Guy Gavriel Kay",
       "Children of Earth and Sky (for Canadian Author) /// Guy Gavriel Kay"
@@ -8806,9 +8809,9 @@
     ],
     "Circle of Magic /// Tamora Pierce": [],
     "City of Blades /// Robert Jackson Bennett": [
+      "City of Blades /// Robert Jackson Ford",
       "City of Blades /// Robertson Jackson Bennett"
     ],
-    "City of Blades /// Robert Jackson Ford": [],
     "City of Bones /// Martha Wells": [],
     "City of Golden Shadow /// Tad Williams": [
       "Otherland \u2013 City of Golden Shadow /// Tad Williams"
@@ -8989,7 +8992,8 @@
       "Cursed /// Marie ORegan, Paul Kane, and others",
       "Cursed /// Marie ORegan, Paul Kane, others",
       "Cursed: An Anthology /// Marie O'Regan & Paul Kane",
-      "Cursed: An Anthology /// Marie O'Regan, Paul Kane"
+      "Cursed: An Anthology /// Marie O'Regan, Paul Kane",
+      "Cursed: An Anthology of Dark Fairy Tales /// Marie O'Regan"
     ],
     "Cursed /// Marissa Meyer": [],
     "Cursed Bunny /// Bora Chung": [],
@@ -8998,7 +9002,6 @@
       "Curses and Cocktails /// S.L. Rowland",
       "Curses and Cocktails /// SL Rowland"
     ],
-    "Cursed: An Anthology of Dark Fairy Tales /// Marie O'Regan": [],
     "Cute Mutants /// S.J. Whitby": [
       "Cute Mutants Vol. 1 /// S. J. Whitby",
       "Cute Mutants Vol. 1 /// S.J. Whitby",
@@ -9029,11 +9032,10 @@
     "Dancer's Lament /// Ian C. Esslemont": [],
     "Dandelion Wine /// Ray Bradbury": [],
     "Dangerous Flames /// Stephanie Burgis": [],
-    "Dangerous Women /// George R.R. Martin, Diana Gabaldon, Brandon Sanderson": [
-      "Dangerous Women /// George R R Martin, Diana Gabaldon, Brandon Sanderson"
-    ],
     "Dangerous Women /// George R.R. Martin, Gardner Dozois": [
-      "Dangerous Women /// George R.R. Martin & Gardner Dozois"
+      "Dangerous Women /// George R R Martin, Diana Gabaldon, Brandon Sanderson",
+      "Dangerous Women /// George R.R. Martin & Gardner Dozois",
+      "Dangerous Women /// George R.R. Martin, Diana Gabaldon, Brandon Sanderson"
     ],
     "Dans un rayon de soleil /// Tillie Walden": [],
     "Dark Apprentice /// Val Neil": [],
@@ -9125,9 +9127,9 @@
       "Daughter of the Empire /// Raymond Feist, Janny Wurts"
     ],
     "Daughter of the Forest /// Juliet Marillier": [],
-    "Daughter of the Moon Character /// Sue Lynn Tan": [],
     "Daughter of the Moon Goddess /// Sue Lynn Tan": [
       "Daughter of The Moon Goddess /// Sue Lynn Tan",
+      "Daughter of the Moon Character /// Sue Lynn Tan",
       "Daughter of the Moon Goddess (The Celestial Kingdom Duology #1) /// Sue Lynn Tan",
       "Daughter of the Moon Goddess /// Sue Lyn Tan",
       "Daughter of the Moon Goddess /// Tan",
@@ -9145,9 +9147,9 @@
     ],
     "Dawn /// Octavia E. Butler": [
       "Dawn /// Octavia Butler",
-      "Dawn /// Octavia E Butler"
+      "Dawn /// Octavia E Butler",
+      "Dawn /// Olivia Butler"
     ],
-    "Dawn /// Olivia Butler": [],
     "Dawn Razed /// Josh Erikson": [],
     "Dawn of Wonder /// Jonathan Renshaw": [],
     "Dawn of the Void /// Phil Tucker": [],
@@ -9292,6 +9294,9 @@
     "Diaspora /// Greg Egan": [],
     "Dick Pig /// Ian Muneshwar": [],
     "Dictionary of the Khazars /// Milorad Pavic": [],
+    "Die /// Kieron Gillen": [
+      "Die, Vol 4: Bleed /// Kieron Gillen"
+    ],
     "Die 13 1/2 Leben des K\u00e4pt'n Blaub\u00e4r /// Walter Moers": [],
     "Die Glocke von Whitechapel /// Ben Aaronovitch": [],
     "Die G\u00f6tterkriege /// Richard Schwartz": [],
@@ -9300,13 +9305,13 @@
     "Die Verlobten des Winters /// Christelle Dabos": [],
     "Die rote Pyramide /// Rick Riordan": [],
     "Die wandernde Erde: Erz\u00e4hlungen /// Cixin Liu": [],
-    "Die, Vol 4: Bleed /// Kieron Gillen": [],
     "Digger /// T. Kingfisher": [
       "Digger /// T Kingfisher"
     ],
     "Digital, or Brevis Est /// Marina Dyachenko, Sergey Dyachenko": [],
-    "Dim Stars /// Brian P. Rubin": [],
-    "Dim Stars: A Novel of Outer-Space Shenanigans /// Brian P. Rubin": [],
+    "Dim Stars /// Brian P. Rubin": [
+      "Dim Stars: A Novel of Outer-Space Shenanigans /// Brian P. Rubin"
+    ],
     "Dinner with Jupiter /// Clare Diston": [],
     "Diplomatic Immunity /// Lois McMaster Bujold": [],
     "Dirk Gently's Holistic Detective Agency /// Douglas Adams": [
@@ -9337,8 +9342,8 @@
       "Do Androids Dream of Electric sheep? /// Philip K. Dick",
       "Do Androids Dream of Electric sheep? /// Phillip K. Dick"
     ],
-    "Do Not Go Quietly /// Jason Sizemore, Leslie Conner": [],
-    "Do Not Go Quietly /// Katharine Duckett": [
+    "Do Not Go Quietly /// Jason Sizemore, Leslie Conner": [
+      "Do Not Go Quietly /// Katharine Duckett",
       "Do Not Go Quietly /// Katherine Duckett"
     ],
     "Do You Dream of Terra Two? /// Temi Oh": [],
@@ -9674,9 +9679,6 @@
     ],
     "Equus /// Rhonda Parrish": [],
     "Eragon /// Christopher Paolini": [],
-    "Erdsee /// Ursula K. Le Guin": [
-      "Erdsee /// Ursula K. LeGuin"
-    ],
     "Errant /// L.K. Fleet, K.R. Collins, Felicia Davin, Valentine Wheeler": [
       "Errant /// L.K. Fleet, K.R. Collins, Felicia David, Valentine Wheeler",
       "Errant /// LK Fleet, KR Collins, Felicia David, Valentine Wheeler",
@@ -9792,8 +9794,9 @@
     "Fangs for Sharing /// Bella Jacobs": [],
     "Fantaisie Impromptu No. 4 in C#m, Op. 66 /// Carlos Hernandez": [],
     "Fantastic Elves and Where to Find Them /// evansentranced": [],
-    "Far Out /// Paula Guran": [],
-    "Far Out: Recent Queer Science Fiction and Fantasy /// Paula Guran": [],
+    "Far Out /// Paula Guran": [
+      "Far Out: Recent Queer Science Fiction and Fantasy /// Paula Guran"
+    ],
     "Far from the Light of Heaven /// Tade Thompson": [
       "Far From The Light of Heaven /// Tade Thompson",
       "Far From the Light of Heaven /// Tade Thompson",
@@ -10013,7 +10016,6 @@
       "Frankenstein /// Marry Shelley"
     ],
     "Frankenstein in Baghdad /// Ahmed Saadawi": [],
-    "Fred The Vampire Accountant /// Drew Hayes": [],
     "Free The Darkness /// Kel Kade": [],
     "Freedom and Necessity /// Steven Brust, Emma Bull": [
       "Freedom & Necessity /// Steven Brust & Emma Bull",
@@ -10078,9 +10080,9 @@
       "Gallant /// V.E Schwab",
       "Gallant /// VE Schwab",
       "Gallant /// VE schwab",
-      "Gallant /// Ve schwabb"
+      "Gallant /// Ve schwabb",
+      "Gallant /// Victoria Schwab"
     ],
-    "Gallant /// Victoria Schwab": [],
     "Gallows Pole /// Eris Adderly": [],
     "Game Slaves /// Gard Skinner": [],
     "Gamechanger /// Neal Shusterman": [],
@@ -10150,9 +10152,8 @@
     "Gleam /// Raven Kennedy": [],
     "Gleanings /// Neal Shusterman": [
       "Gleanings /// Neal Shusterman & more",
-      "Gleanings /// Neal Shusterman, David Yoon, Jarrod Shusterman, Sof\u00eda Lapuente, Michael H. Payne, Michelle Knowlden, and Joelle Shusterman"
-    ],
-    "Gleanings: Stories from the Arc of a Scythe /// Neal Shusterman": [
+      "Gleanings /// Neal Shusterman, David Yoon, Jarrod Shusterman, Sof\u00eda Lapuente, Michael H. Payne, Michelle Knowlden, and Joelle Shusterman",
+      "Gleanings: Stories from the Arc of a Scythe /// Neal Shusterman",
       "Gleanings: Stories from the Arc of a Scythe /// Neal Shusterman \u2014along with collaborators David Yoon, Jarrod Shusterman, Sof\u00eda Lapuente, Michael H. Payne, Michelle Knowlden, and Joelle Shusterman"
     ],
     "Glint /// Raven Kennedy": [],
@@ -10444,8 +10445,8 @@
       "Heart of iron /// Ashley poston"
     ],
     "Heart of the Moors /// Holly Black": [],
-    "Heart of the Sun Warrior /// Elizabeth Lim": [],
     "Heart of the Sun Warrior /// Sue Lynn Tan": [
+      "Heart of the Sun Warrior /// Elizabeth Lim",
       "Heart of the sun warrior /// Sue Lynn Tan"
     ],
     "Heart's Blood /// Juliet Marillier": [
@@ -10489,10 +10490,10 @@
     ],
     "Hello, Cruel Heart /// Maureen Johnson": [],
     "Hellspark /// Janet Kagan": [],
-    "Help Fund My Robot Army!!! /// Kaffy R.M. Kehrli": [],
-    "Help Fund my Robot Army!!! & Other Improbable Crowdfunding Projects /// John Joseph Adams": [],
-    "Help Fund my Robot Army!!! /// John Joseph Adams": [
-      "Help Fund My Robot Army /// John Joseph Adams"
+    "Help Fund my Robot Army!!! & Other Improbable Crowdfunding Projects /// John Joseph Adams": [
+      "Help Fund My Robot Army /// John Joseph Adams",
+      "Help Fund My Robot Army!!! /// Kaffy R.M. Kehrli",
+      "Help Fund my Robot Army!!! /// John Joseph Adams"
     ],
     "Hench /// Natalie Zina Walschots": [
       "Hench /// Naralie Zina Walschots",
@@ -10549,10 +10550,9 @@
     "Hex Appeal /// Kate Johnson": [],
     "Hex Life /// Christopher Golden, Rachel Autumn Deering": [
       "Hex Life /// Christopher Golde, Rachel Autumn Deering",
-      "Hex Life /// Christopher Golden and Rachel Autumn Deering"
-    ],
-    "Hex Life /// Kelley Armstrong, Rachel Caine, Theodora Goss, Sherilyn Kenyon": [
-      "Hex Life /// Kelley Armstrong, Rachel Caine, Theodora Goss and Sherilyn Kenyon"
+      "Hex Life /// Christopher Golden and Rachel Autumn Deering",
+      "Hex Life /// Kelley Armstrong, Rachel Caine, Theodora Goss and Sherilyn Kenyon",
+      "Hex Life /// Kelley Armstrong, Rachel Caine, Theodora Goss, Sherilyn Kenyon"
     ],
     "Hexarchate Stories /// Yoon Ha Lee": [],
     "Hi, I'm a Witch, and My Crush Wants Me to Make a Love Potion, Vol. 1 /// Kamada": [],
@@ -10912,7 +10912,6 @@
     "In the Night Garden /// Catherynne M. Valente": [
       "The Orphan\u2019s Tales: In the Night Garden /// Catherynne M. Valente"
     ],
-    "In the Night Garden /// Liz Parker": [],
     "In the Night Wood /// Dale Bailey": [],
     "In the Orbit of Sirens /// T.A. Bruno": [
       "In the Orbit of Sirens /// TA Bruno",
@@ -10923,6 +10922,9 @@
     "In the Serpent's Wake /// Rachel Hartman": [
       "In The Serpent's Wake /// Rachel Hartman",
       "The Serpent's Wake /// Rachel Hartman"
+    ],
+    "In the Shadow Garden /// Liz Parker": [
+      "In the Night Garden /// Liz Parker"
     ],
     "In the Shadow of Giants /// Lazette Gifford": [],
     "In the Shadow of Lightning /// Brian McClellan": [
@@ -11457,8 +11459,9 @@
       "Travis Baldree /// Legends, Lattes",
       "Travis Baldree /// Travis Baldree"
     ],
-    "Legion /// Brandon Sanderson": [],
-    "Legion: The Many Lives of Stephen Leeds /// Brandon Sanderson": [],
+    "Legion /// Brandon Sanderson": [
+      "Legion: The Many Lives of Stephen Leeds /// Brandon Sanderson"
+    ],
     "Lena /// qntm": [
       "Lena /// Qntm"
     ],
@@ -11572,9 +11575,10 @@
     "Lirael /// Garth Nix": [],
     "Little Bird: The Fight for Elder's Hope /// Darcy Van Poelgeest": [],
     "Little Eyes /// Samanta Schweblin": [],
-    "Little Mushroom /// Shisi": [],
-    "Little Mushroom /// \u4e00\u5341\u56db\u6d32": [],
-    "Little Mushroom: Judgement Day /// Shisi": [],
+    "Little Mushroom /// Shisi": [
+      "Little Mushroom /// \u4e00\u5341\u56db\u6d32",
+      "Little Mushroom: Judgement Day /// Shisi"
+    ],
     "Little Thieves /// Margaret Owen": [
       "Little Thieves /// Margaret Owens"
     ],
@@ -11744,8 +11748,6 @@
     ],
     "Magician's Hoard /// Celia Lake": [],
     "Magician: Apprentice /// Raymond E. Feist": [],
-    "Magnus Chase /// Rick Riordan": [],
-    "Magnus Chase and the Gods of Asgard /// Rick Riordan": [],
     "Magyk /// Angie Sage": [],
     "Mainon /// Jean Rabe": [],
     "Maker /// Loki Renard": [
@@ -11899,7 +11901,9 @@
     ],
     "Miranda in Milan /// Katharine Duckett": [],
     "Mirror Sight /// Kristen Britain": [],
-    "Mirror of Souls: The Myridian Constellation book 4 /// Wayne Thomas Batson": [],
+    "Mirror of Souls /// Wayne Thomas Batson": [
+      "Mirror of Souls: The Myridian Constellation book 4 /// Wayne Thomas Batson"
+    ],
     "Mirrormask /// Neil Gaiman": [],
     "Mischief Acts /// Zoe Gilbert": [],
     "Mishap's Heroes: Magic and Misrule /// K.M. Merritt": [
@@ -11948,9 +11952,9 @@
       "Monster of the Dark /// KT Belt"
     ],
     "Monster, She Wrote: The Women Who Pioneered Horror and Speculative Fiction /// Lisa Kr\u00f6ger, Melanie R. Anderson": [
-      "Monster, She Wrote: The Women Who Pioneered Horror and Speculative Fiction /// Lisa Kr\u00f6ger & Melanie R. Anderson"
+      "Monster, She Wrote: The Women Who Pioneered Horror and Speculative Fiction /// Lisa Kr\u00f6ger & Melanie R. Anderson",
+      "Monster, she wrote /// Lisa Kr\u00f6ger, Melanie R. Anderson"
     ],
-    "Monster, she wrote /// Lisa Kr\u00f6ger, Melanie R. Anderson": [],
     "Monsters Born and Made /// Tanvi Berwah": [],
     "Monsters and Legends /// Ivan Kal": [],
     "Monsters in My Mind /// Ada Hoffmann": [
@@ -12219,14 +12223,14 @@
       "New Ceres Nights /// ed. Alisa Krasnostein and Tehani Croft Wessely",
       "New Ceres Nights /// ed. Alisa Krasnostein, Tehani Croft Wessely"
     ],
-    "New Horizons /// Selkie Myth": [],
     "New Horizons /// Tarun K. Saint": [],
     "New Sky Station /// Krista D. Ball": [
       "New Sky Station /// Krista D Ball"
     ],
     "New Spring /// Robert Jordan": [],
-    "New Suns /// Nisi Shawl": [],
-    "New Suns: Original Speculative Fiction by People of Color /// Nisi Shawl": [],
+    "New Suns /// Nisi Shawl": [
+      "New Suns: Original Speculative Fiction by People of Color /// Nisi Shawl"
+    ],
     "New Times, New Hell /// \u6797\u77e5\u843d": [],
     "New World: Own Me /// Lily X": [],
     "New York 2140 /// Kim Stanley Robinson": [],
@@ -12255,14 +12259,15 @@
     "Nikoles /// Rachel Neumeier": [],
     "Nimona /// N.D. Stevenson": [
       "Nimona /// N. D. Stevenson",
-      "Nimona /// ND Stevenson"
+      "Nimona /// ND Stevenson",
+      "Nimona /// Noelle Stevenson"
     ],
-    "Nimona /// Noelle Stevenson": [],
     "Nine Last Days on Planet Earth /// Daryl Gregory": [
       "Nine last days on planet earth /// Daryl Gregory"
     ],
     "Nine Princes in Amber /// Roger Zelazny": [
-      "Nine Princes in Amber /// Roger Zelasny"
+      "Nine Princes in Amber /// Roger Zelasny",
+      "The Chronicles of Amber /// Roger Zelazny"
     ],
     "Nine White Horses /// Judith Tarr": [],
     "Nine of Swords, Reversed /// Xan West": [],
@@ -12356,8 +12361,10 @@
       "Now Wait for Last Year /// Phillip K Dick"
     ],
     "Now, Then and Everywhen /// Rysa Walker": [],
-    "Nubia: The Awakening /// Clarence A. Haynes": [],
-    "Nubia: The Awakening /// Omar Epps": [],
+    "Nubia: The Awakening /// Omar Epps, Clarence A. Haynes": [
+      "Nubia: The Awakening /// Clarence A. Haynes",
+      "Nubia: The Awakening /// Omar Epps"
+    ],
     "Nuclear Family /// Joseph Han": [],
     "Null Set /// S.L. Huang": [],
     "Nyarlathotep /// H.P. Lovecraft": [],
@@ -12568,8 +12575,9 @@
     "Osama /// Lavie Tidhar": [],
     "Osmo Unknown and the Eightpenny Woods /// Catherynne M. Valente": [],
     "Other Birds /// Sarah Addison Allen": [],
-    "Other Ever Afters /// Melanie Gillman": [],
-    "Other Ever Afters: New Queer Fairy Tales /// Melanie Gillman": [],
+    "Other Ever Afters /// Melanie Gillman": [
+      "Other Ever Afters: New Queer Fairy Tales /// Melanie Gillman"
+    ],
     "Other Terrors An Inclusive Anthology /// Vince Liaguno, Rena Mason": [
       "Other Terrors An Inclusive Anthology /// Vince Liaguno and Rena Mason"
     ],
@@ -12659,10 +12667,8 @@
     "Paper & Blood /// Kevin Hearne": [],
     "Paper Dragon /// Coralie Moss": [],
     "Paper Girls /// Brian K. Vaughan, Cliff Chiang": [
-      "Paper Girls /// Brian K. Vaughan and Cliff Chiang"
-    ],
-    "Paper Girls: The Complete Story /// Brian K. Vaughan": [
-      "Paper Girls: The Complete Story /// Brian K. Vaughan, Fiona Staples"
+      "Paper Girls /// Brian K. Vaughan and Cliff Chiang",
+      "Paper Girls: The Complete Story /// Brian K. Vaughan"
     ],
     "Parable of the Sower /// Octavia E. Butler": [
       "Parable of the Sower (Earthseed #1) /// Octavia E. Butler",
@@ -13071,9 +13077,11 @@
       "Red Heir /// Lisa Henry and Sarah Honey"
     ],
     "Red Mars /// Kim Stanley Robinson": [],
-    "Red Mars /// Robert A. Heinlein": [],
     "Red Moon /// Benjamin Percy": [],
     "Red Pearls /// Michael Moorcock": [],
+    "Red Planet /// Robert A. Heinlein": [
+      "Red Mars /// Robert A. Heinlein"
+    ],
     "Red Queen /// Victoria Aveyard": [],
     "Red Rising /// Pierce Brown": [
       "Red Rising (Red Rising #1) /// Pierce Brown",
@@ -13099,8 +13107,12 @@
     "Redemptor /// Jordan Ifueko": [
       "Redemptor /// Jordan Ifuego"
     ],
-    "Rediscovery, Volume 2: Science Fiction by Women /// Gideon Marcus": [],
-    "Rediscovery: Science Fiction by Women (1958 to 1963): Yesterday's Luminaries Introduced by Today's Rising Stars /// Gideon Marcus": [],
+    "Rediscovery, Volume 2: Science Fiction by Women (1953-1957) /// Gideon Marcus": [
+      "Rediscovery, Volume 2: Science Fiction by Women /// Gideon Marcus"
+    ],
+    "Rediscovery: Science Fiction by Women (1958 to 1963) /// Gideon Marcus": [
+      "Rediscovery: Science Fiction by Women (1958 to 1963): Yesterday's Luminaries Introduced by Today's Rising Stars /// Gideon Marcus"
+    ],
     "Redrobe /// Jon Courtenay Grimwood": [],
     "Redshirts /// John Scalzi": [
       "Red Shirts /// John Scalzi"
@@ -13514,9 +13526,12 @@
     "Shades in Shadow /// N.K. Jemisin": [
       "Shades in Shadow /// N. K. Jemisin"
     ],
-    "Shades of Grey /// Jasper Fforde": [],
-    "Shades of Grey: The Road to High Saffron /// Jasper Fforde": [],
-    "Shades of Magic: The Steel Prince: 1 /// V.E. Schwab": [],
+    "Shades of Grey /// Jasper Fforde": [
+      "Shades of Grey: The Road to High Saffron /// Jasper Fforde"
+    ],
+    "Shades of Magic: The Steel Prince /// V.E. Schwab": [
+      "Shades of Magic: The Steel Prince: 1 /// V.E. Schwab"
+    ],
     "Shades of Milk and Honey /// Mary Robinette Kowal": [
       "Shades of milk and honey /// Mary Robinette Kowal"
     ],
@@ -13572,8 +13587,9 @@
       "Shards of Earth /// Andrian Tchaikovsky"
     ],
     "Shards of Honor /// Lois McMaster Bujold": [],
-    "Sharp Ends /// Joe Abercrombie": [],
-    "Sharp Ends: Stories from the World of the First Law /// Joe Abercrombie": [],
+    "Sharp Ends /// Joe Abercrombie": [
+      "Sharp Ends: Stories from the World of the First Law /// Joe Abercrombie"
+    ],
     "Sharps /// K.J. Parker": [
       "Sharps /// KJ Parker"
     ],
@@ -13695,8 +13711,9 @@
     ],
     "Sing, Unburied, Sing /// Jesmyn Ward": [],
     "Sinister Magic /// Lindsay Buroker": [],
-    "Sinopticon /// Xueting Christine Ni": [],
-    "Sinopticon: A Celebration of Chinese Science Fiction /// Xueting Christine Ni": [],
+    "Sinopticon /// Xueting Christine Ni": [
+      "Sinopticon: A Celebration of Chinese Science Fiction /// Xueting Christine Ni"
+    ],
     "Sins of Empire /// Brian McClellan": [],
     "Sir Gawain and the Green Knight /// J.R.R. Tolkien": [
       "Gawain & the Green Knight /// J.R.R. Tolkien",
@@ -13855,9 +13872,9 @@
     ],
     "Sofi and the Bone Song /// Adrienne Tooley": [],
     "Solaris /// Stanis\u0142aw Lem": [
-      "Solaris /// Stanislaw Lem"
+      "Solaris /// Stanislaw Lem",
+      "Solaris, \"Niezwyci\u0119\u017cony\" /// Stanis\u0142aw Lem"
     ],
-    "Solaris, \"Niezwyci\u0119\u017cony\" /// Stanis\u0142aw Lem": [],
     "Soldier of the Mist /// Gene Wolfe": [
       "The Soldier of the Mist /// Gene Wolfe"
     ],
@@ -13872,8 +13889,9 @@
     "Some of the Best from Tor.com, 2019 Edition /// Uncredited": [
       "Some of the best of Tor.com: 2019 Edition /// Uncredited"
     ],
-    "Someone in Time /// Jonathan Strahan": [],
-    "Someone in Time: Tales of Time-Crossed Romance /// Jonathan Strahan": [],
+    "Someone in Time /// Jonathan Strahan": [
+      "Someone in Time: Tales of Time-Crossed Romance /// Jonathan Strahan"
+    ],
     "Someplace to be Flying /// Charles de Lint": [],
     "Something Wicked This Way Comes /// Ray Bradbury": [],
     "Something from the Nightside /// Simon R. Green": [],
@@ -14025,9 +14043,9 @@
     "Spells and Slip Ups /// Annie Anderson": [],
     "Spellslinger /// Sebastien de Castell": [],
     "Spelunking Through Hell /// Seanan McGuire": [
+      "Spelunking Through Hell: A Visitor's Guide to the Underworld /// Seanan McGuire",
       "Spelunking through Hell /// Seanan McGuire"
     ],
-    "Spelunking Through Hell: A Visitor's Guide to the Underworld /// Seanan McGuire": [],
     "Sphere /// Michael Crichton": [],
     "Spiderlight /// Adrian Tchaikovsky": [],
     "Spiegel /// Cixin Liu": [],
@@ -14259,8 +14277,9 @@
     "Survivor /// Octavia E. Butler": [],
     "Swarm and Steel /// Michael R. Fletcher": [],
     "Swashbucklers /// Dan Hanks": [],
-    "Swashbuckling Cats /// Rhonda Parrish": [],
-    "Swashbuckling Cats: Nine Lives on the Seven Seas /// Rhonda Parrish": [],
+    "Swashbuckling Cats /// Rhonda Parrish": [
+      "Swashbuckling Cats: Nine Lives on the Seven Seas /// Rhonda Parrish"
+    ],
     "Sweep in Peace /// Ilona Andrews": [],
     "Sweep of Stars /// Maurice Broaddus": [],
     "Sweep of the Blade /// Ilona Andrews": [
@@ -14283,15 +14302,16 @@
       "Sword Dance /// A. J. Demas"
     ],
     "Sword Stone Table /// Swapna Krishna, Jenn Northington": [
-      "Sword Stone Table /// Swapna Krishna & Jenn Northington"
+      "Sword Stone Table /// Swapna Krishna & Jenn Northington",
+      "Sword Stone Table: Old Legends, New Voices /// Swapna Krishna"
     ],
-    "Sword Stone Table: Old Legends, New Voices /// Swapna Krishna": [],
     "Sword and Dark Magic /// Jonathan Strahan": [],
     "Sword at Sunset /// Rosemary Sutcliff": [],
     "Sword of Destiny /// Andrzej Sapkowski": [],
     "Sword of Fire /// Katharine Kerr": [],
     "Sword-Dancer /// Jennifer Roberson": [
-      "Sword-dancer /// Jennifer Roberson"
+      "Sword-dancer /// Jennifer Roberson",
+      "The Sword Dancer /// Jennifer Robinson"
     ],
     "Swordheart /// T. Kingfisher": [
       "Swordheart /// T Kingfisher"
@@ -14519,7 +14539,9 @@
     ],
     "The Anchored World /// Jasmine Sawers": [],
     "The Angel of Khan el-Khalili /// P. Dj\u00e8l\u00ed Clark": [],
-    "The Angel of the Crows /// Katherine Addison": [],
+    "The Angel of the Crows /// Katherine Addison": [
+      "Angel of the Crows /// Katherine Anderson"
+    ],
     "The Angel's Game /// Carlos Ruiz Zaf\u00f3n": [],
     "The Annual Migration ofClouds /// Premee Mohamed": [
       "The Annual Migration ofClouds /// Premee Mohammed"
@@ -14940,7 +14962,6 @@
       "The Chosen and the Beautiful /// Nghi Vo"
     ],
     "The Chosen Child /// Graham Masterton": [],
-    "The Chronicles of Amber /// Roger Zelazny": [],
     "The Chronicles of Old Guy /// Timothy J Gawne": [],
     "The Chronologist /// Ian R. McCloud": [],
     "The Churn /// James S.A. Corey": [],
@@ -15226,6 +15247,8 @@
       "The Djinn Falls in Love & Other Stories /// Mahvesh Murad and Jared Shurin",
       "The Djinn Falls in Love /// Mahvesh Murad",
       "The Djinn Falls in Love /// Mahvesh Murad, Jared Shurin",
+      "The Djinn Falls in Love and Other Stories /// Amal El-Mohtar and Neil Gaiman",
+      "The Djinn Falls in Love and Other Stories /// Amal El-Mohtar, Neil Gaiman",
       "The Djinn Falls in Love and Other Stories /// Mahvesh Murad & Jared Shurin",
       "The Djinn Falls in Love and Other Stories /// Mahvesh Murad and Jared Shurin",
       "The Djinn Falls in Love and Other Stories /// Mahvesh Murad and Jared Shurin (ed.)",
@@ -15235,9 +15258,6 @@
       "The Djinn Falls in Love and other stories /// Mahvesh Murad, Jared Shurin",
       "The Djinn falls in love and other stories /// Mahvesh Murad",
       "The Djinn falls in love and other stories /// Mahvesh Murad, Jared Shurin"
-    ],
-    "The Djinn Falls in Love and Other Stories /// Amal El-Mohtar, Neil Gaiman": [
-      "The Djinn Falls in Love and Other Stories /// Amal El-Mohtar and Neil Gaiman"
     ],
     "The Djinn in the Nightingale's Eye /// A.S. Byatt": [],
     "The Do-Over /// Lynn Painter": [],
@@ -15606,12 +15626,13 @@
     "The Gate of the Feral Gods /// Matt Dinniman": [],
     "The Gate to Women's Country /// Sheri S. Tepper": [],
     "The Gatekeeper's Staff /// Antoine Bandele": [
-      "TJ Young and the Orishas: The Gatekeeper's Staff /// Antoine Bandele"
+      "TJ Young and the Orishas: The Gatekeeper's Staff /// Antoine Bandele",
+      "The Gatekeeper's Stuff /// Antoine Bandele"
     ],
-    "The Gatekeeper's Stuff /// Antoine Bandele": [],
     "The Gates of Sleep /// Mercedes Lackey": [],
-    "The Gathering Dark /// Tori Bovalino": [],
-    "The Gathering Dark: An Anthology of Folk Horror /// Tori Bovalino": [],
+    "The Gathering Dark /// Tori Bovalino": [
+      "The Gathering Dark: An Anthology of Folk Horror /// Tori Bovalino"
+    ],
     "The Genesis War /// Akemi Dawn Bowman": [],
     "The Genesis of Misery /// Neon Yang": [
       "The Genesis of MIsery /// Neon Yang",
@@ -15651,8 +15672,8 @@
       "Gilded Ones, The /// Namina Forna",
       "The gilded ones /// Namina Forna"
     ],
-    "The Gilded Wolfes /// R. Chokshi": [],
     "The Gilded Wolves /// Roshani Chokshi": [
+      "The Gilded Wolfes /// R. Chokshi",
       "The gilded wolves /// Roshani Chokshi",
       "The gilded wolves /// Roshni choksi"
     ],
@@ -15705,10 +15726,10 @@
     "The Gnome in the Neighborhood: Modern Fairy Tales of Forgotten Magic /// Justin Dockins": [],
     "The Goblin Emperor /// Katherine Addison": [
       "Goblin Emperor /// Katherine Addison",
+      "The Goblin Emperor /// Sarah Monette",
       "The Goblin Emporer /// Katherine Addison",
       "The goblin emperor /// Katherine Addison"
     ],
-    "The Goblin Emperor /// Sarah Monette": [],
     "The Goblin Wood /// Hilari Bell": [],
     "The God Engines /// John Scalzi": [],
     "The God Key /// Simone King": [],
@@ -16200,7 +16221,6 @@
     "The Kingdom of Liars /// Nick Martell": [],
     "The Kingdoms /// Natasha Pulley": [],
     "The Kings of Clonmel /// John Flanagan": [],
-    "The Kingston Cycle /// C.L. Polk": [],
     "The Kishi /// Antoine Bandele": [],
     "The Kiss Curse /// Erin Sterling": [
       "The Kiss Curse /// Erin Stirling"
@@ -16360,7 +16380,9 @@
       "The Outlaws of Time book 1: The Legend of Sam Miracle /// N. D. Wilson"
     ],
     "The Legend of The Goldern Raven /// K. Ancrum": [],
-    "The Legent of Zelda: Twilight Princess, Volume 10 /// Akira Himekawa": [],
+    "The Legent of Zelda: Twilight Princess /// Akira Himekawa": [
+      "The Legent of Zelda: Twilight Princess, Volume 10 /// Akira Himekawa"
+    ],
     "The Legion Awakes /// J.R. Handley": [],
     "The Leopard King /// Ann Aguirre": [],
     "The Lesser Dead /// Christopher Buehlman": [
@@ -16770,8 +16792,9 @@
     "The Mouse Watch Underwater /// J.J. Gilbert": [
       "The Mouse Watch Underwater /// J. J. Gilbert"
     ],
-    "The Mummy /// Anne Rice": [],
-    "The Mummy, or Ramses the Damned /// Anne Rice": [],
+    "The Mummy, or Ramses the Damned /// Anne Rice": [
+      "The Mummy /// Anne Rice"
+    ],
     "The Mundane and the Arcane /// Danielle Cerrano": [],
     "The Murders of Molly Southbourn /// Tade Thompson": [],
     "The Mysteries of Thorn Manor /// Margaret Rogerson": [],
@@ -16861,7 +16884,9 @@
     ],
     "The Novel of the Future /// F\u00e9lix Bodin": [],
     "The Novel's Extra /// Jee Gab Song": [],
-    "The Nutcracker and the Mouse King: A BBC Radio 4 full-cast dramatisation /// E.T.A. Hoffmann": [],
+    "The Nutcracker and the Mouse King /// E.T.A. Hoffmann": [
+      "The Nutcracker and the Mouse King: A BBC Radio 4 full-cast dramatisation /// E.T.A. Hoffmann"
+    ],
     "The Nutcracker and the Mouse King: The Graphic Novel /// Natalie Andrewson, E.T.A. Hoffmann": [
       "The Nutcracker and the Mouse King: The Graphic Novel /// Natalie Andrewson and E.T.A. Hoffmann"
     ],
@@ -16956,8 +16981,9 @@
       "The Outstretched Shadow /// Mercedes Lackey and James Mallory"
     ],
     "The Owl Service /// Alan Garner": [],
-    "The Palace Job /// Brent Weeks": [],
-    "The Palace Job /// Patrick Weekes": [],
+    "The Palace Job /// Patrick Weekes": [
+      "The Palace Job /// Brent Weeks"
+    ],
     "The Palace of Glass /// Django Wexler": [],
     "The Palace of Illusions /// Chitra Banerjee Divakaruni": [
       "The Palace of Illusions /// Divakaruni, Chitra Banerjee"
@@ -17623,7 +17649,6 @@
     "The Survival of Molly Southbourne /// Tade Thompson": [],
     "The Surviving Sky /// Kritika Rao": [],
     "The Swimmers /// Marian Womack": [],
-    "The Sword Dancer /// Jennifer Robinson": [],
     "The Sword of Kaigen /// M.L. Wang": [
       "Sword of Kaigan /// M.L. Wang",
       "Sword of Kaigan /// ML Wang",
@@ -17634,15 +17659,16 @@
       "The Sword of Kaigen /// M. L. Wang",
       "The Sword of Kaigen /// M.L Wang",
       "The Sword of Kaigen /// ML Wang",
+      "The Sword of Kaigen: A Theonite War Story /// M. L. Wang",
+      "The Sword of Kaigen: A Theonite War Story /// M.L. Wang",
       "The Sword of kaigen /// M.L wang",
       "The Sword of kaigen /// M.L. Wang",
       "The sword of kaigen /// M. L. Wang",
       "The sword of kaigen /// M.L. Wang"
     ],
-    "The Sword of Kaigen: A Theonite War Story /// M.L. Wang": [
-      "The Sword of Kaigen: A Theonite War Story /// M. L. Wang"
-    ],
     "The Sword of Summer /// Rick Riordan": [
+      "Magnus Chase /// Rick Riordan",
+      "Magnus Chase and the Gods of Asgard /// Rick Riordan",
       "Magnus Chase and the Sword of Summer /// Rick Riordan"
     ],
     "The Swordsman's Lament /// G.M. White": [
@@ -17828,8 +17854,9 @@
     "The Troupe /// Robert Jackson Bennett": [
       "The Troupe /// Robert Jackson Bennet"
     ],
-    "The True Bastards /// Jonathan French": [],
-    "The True Bastards /// Robert French": [],
+    "The True Bastards /// Jonathan French": [
+      "The True Bastards /// Robert French"
+    ],
     "The True Queen /// Zen Cho": [],
     "The Truth About Owls /// Amal El-Mohtar": [
       "The Truth About Owls /// Amal El-Mohtar, Max Gladstone"
@@ -17906,7 +17933,9 @@
     ],
     "The Urban Fantasy Anthology /// Peter S. Beagle": [],
     "The Urth of the New Sun /// Gene Wolfe": [],
-    "The Utterly Uninteresting and Unadventurous Tales of Fred, the Vampire Accountant /// Drew Hayes": [],
+    "The Utterly Uninteresting and Unadventurous Tales of Fred, the Vampire Accountant /// Drew Hayes": [
+      "Fred The Vampire Accountant /// Drew Hayes"
+    ],
     "The Vagrant /// Peter Newman": [],
     "The Valancourt Book of World Horror Stories, Vol. 2 /// James D. Jenkins, Ryan Cagle": [
       "The Valancourt Book of World Horror Stories, Vol. 2 /// James D. Jenkins & Ryan Cagle"
@@ -18368,17 +18397,17 @@
     "This Place is Best Shunned /// Erik David Nelson": [],
     "This Poison Heart /// Kalynn Bayron": [],
     "This Potion Is da Bomb /// Honor Raconteur": [],
-    "This Quest is Broken! /// J.P. Valentine": [
-      "This Quest is Broken /// J. P. Valentine",
-      "This Quest is Broken /// J.P. Valentine"
-    ],
     "This Quest is Bullshit! /// J.P. Valentine": [
+      "This Quest is Broken /// J. P. Valentine",
+      "This Quest is Broken /// J.P. Valentine",
+      "This Quest is Broken! /// J.P. Valentine",
       "This Quest is Bullshit /// J. P. Valentine",
       "This Quest is Bullshit /// J.P. Valentine"
     ],
     "This Rebel Heart /// Katherine Locke": [],
-    "This Savage Song /// V.E. Schwab": [],
-    "This Savage Song /// Victoria Schwab": [],
+    "This Savage Song /// V.E. Schwab": [
+      "This Savage Song /// Victoria Schwab"
+    ],
     "This Strange Way of Dying /// Silvia Moreno-Garcia": [],
     "This Thing Between Us /// Gus Moreno": [],
     "This Time Tomorrow /// Emma Straub": [],
@@ -18638,9 +18667,8 @@
       "Traitor's Blade /// Sebastien De Castell"
     ],
     "Trans-Galactic Bike Ride /// Lydia Rogue": [
-      "Trans-Galactic Bike Ride /// Lydia Rouge"
-    ],
-    "Trans-Galactic Bike Ride: Feminist Bicycle Science Fiction Stories of Transgender and Nonbinary Adventurers /// Lydia Rogue": [
+      "Trans-Galactic Bike Ride /// Lydia Rouge",
+      "Trans-Galactic Bike Ride: Feminist Bicycle Science Fiction Stories of Transgender and Nonbinary Adventurers /// Lydia Rogue",
       "Trans-Galactic Bike Ride: Feminist Bicycle Science Fiction Stories of Transgender and Nonbinary Adventurers /// ed. Lydia Rogue"
     ],
     "Transcendent 2: The Year's Best Transgender Speculative Fiction 2016 /// Bogi Tak\u00e1cs": [
@@ -18766,7 +18794,9 @@
     "Uncounted Leaves of Ends of Camelot /// R.K. Duncan": [],
     "Uncrowned /// Will Wight": [],
     "Undeath and Taxes /// Drew Hayes": [],
-    "Under Black Sails /// Clare Sager": [],
+    "Under Black Skies /// Clare Sager": [
+      "Under Black Sails /// Clare Sager"
+    ],
     "Under Fortunate Stars /// Ren Hutchings": [],
     "Under Heaven /// Guy Gavriel Kay": [],
     "Under My Hat: Tales from the Cauldron /// Jonathan Strahan": [],
@@ -18836,6 +18866,10 @@
     "Upright Women Wanted /// Sarah Gailey": [],
     "Uprooted /// Naomi Novik": [
       "Uprooted /// Naomi novik"
+    ],
+    "Upsetting the Balance /// Harry Turtledove": [
+      "Worldwar: Upsetting the Balance /// Harry Turtledove",
+      "Worldwar: Upsetting the balance /// Harry Turtledove"
     ],
     "Urban Enemies /// Jim Butcher": [],
     "Urban Fantasy going Queer /// A\u015fk\u0131n-Hayat Do\u011fan, Sarah Stoffers": [
@@ -18982,9 +19016,9 @@
     "Warm Worlds and Otherwise /// James Tiptree Jr.": [],
     "Warping Minds & Other Misdemeanors /// Annette Marie, Rob Jacobsen": [
       "Warping Minds & Other Misdemeanors /// Annette Marie & Rob Jacobsen",
-      "Warping Minds & Other Misdemeanors /// Annette Marie and Rob Jacobsen"
+      "Warping Minds & Other Misdemeanors /// Annette Marie and Rob Jacobsen",
+      "Warping Minds and othe pr misdemeanors /// Annette Marie"
     ],
-    "Warping Minds and othe pr misdemeanors /// Annette Marie": [],
     "Warprize /// Elizabeth Vaughan": [],
     "Warrior /// Marie Brennan": [],
     "Warrior of the Altaii /// Robert Jordan": [],
@@ -19268,6 +19302,7 @@
     "Witching with Dolphins /// Janna Ruth": [],
     "Witchlings /// Claribel A. Ortega": [],
     "Witchmark /// C.L. Polk": [
+      "The Kingston Cycle /// C.L. Polk",
       "Witchmark /// C. J. Polk",
       "Witchmark /// C. L. Polk",
       "Witchmark /// C.I. Polk",
@@ -19340,9 +19375,6 @@
       "World of Wakanda /// Roxanne Gay, Ta Nehisi Coates"
     ],
     "Worlds of Honor /// David Weber": [],
-    "Worldwar: Upsetting the Balance /// Harry Turtledove": [
-      "Worldwar: Upsetting the balance /// Harry Turtledove"
-    ],
     "Worm /// Wildbow": [
       "Worm /// John C. McCrae"
     ],

@@ -47,7 +47,7 @@ def format_top_book_counts(unique_books: Counter[Book], top_n: int = 10) -> str:
                 book_count_strs.append("- " + cur_ties[0] + f", read {last_count} times")
             elif len(cur_ties) > 1:
                 book_count_strs.append(
-                    "- TIE: " + " and ".join(cur_ties) + f", read {last_count} times"
+                    "- TIE: " + " and ".join(cur_ties) + f", each read {last_count} times"
                 )
 
             place_count += 1
@@ -73,7 +73,7 @@ def format_bottom_square_counts(bingo_stats: BingoStatistics, bottom_n: int = 3)
         else:
             if len(cur_ties) > 1:
                 incomplete_square_strs.append(
-                    " and ".join(cur_ties) + f", blank on {last_count} cards"
+                    " and ".join(cur_ties) + f", blank on {last_count} cards each"
                 )
             elif len(cur_ties) == 1:
                 incomplete_square_strs.append("".join(cur_ties) + f", blank on {last_count} cards")
@@ -128,7 +128,7 @@ def format_most_subbed_squares(subbed_squares: Counter[SquareName], top_n: int =
         else:
             if len(cur_ties) > 1:
                 subbed_square_strs.append(
-                    " and ".join(cur_ties) + f", substituted on {last_count} cards"
+                    " and ".join(cur_ties) + f", substituted on {last_count} cards each"
                 )
             elif len(cur_ties) == 1:
                 subbed_square_strs.append(
@@ -186,7 +186,7 @@ def format_top_author_counts(unique_authors: Counter[Author], top_n: int = 10) -
                 author_count_strs.append("- " + cur_ties[0] + f", read {last_count} times")
             elif len(cur_ties) > 1:
                 author_count_strs.append(
-                    "- TIE: " + " and ".join(cur_ties) + f", read {last_count} times"
+                    "- TIE: " + " and ".join(cur_ties) + f", each read {last_count} times"
                 )
 
             place_count += 1
@@ -308,7 +308,7 @@ def format_dedupe_counts(bingo_stats: BingoStatistics) -> str:
                 book_vars.append("- " + cur_ties[0] + f", with {last_count} variations")
             elif len(cur_ties) > 1:
                 book_vars.append(
-                    "- TIE: " + " and ".join(cur_ties) + f", with {last_count} variations"
+                    "- TIE: " + " and ".join(cur_ties) + f", with {last_count} variations each"
                 )
 
             place_count += 1
@@ -341,7 +341,7 @@ def format_most_square_books(unique_squares_by_book: Counter[Book]) -> str:
                 book_strs.append("- " + cur_ties[0] + f", used for {last_count} squares")
             elif len(cur_ties) > 1:
                 book_strs.append(
-                    "- TIE: " + " and ".join(cur_ties) + f", used for {last_count} squares"
+                    "- TIE: " + " and ".join(cur_ties) + f", each used for {last_count} squares"
                 )
 
             place_count += 1
@@ -370,7 +370,7 @@ def format_most_square_authors(unique_squares_by_author: Counter[Author]) -> str
                 book_strs.append("- " + cur_ties[0] + f", used for {last_count} squares")
             elif len(cur_ties) > 1:
                 book_strs.append(
-                    "- TIE: " + " and ".join(cur_ties) + f", used for {last_count} squares"
+                    "- TIE: " + " and ".join(cur_ties) + f", each used for {last_count} squares"
                 )
 
             place_count += 1
@@ -399,7 +399,9 @@ def format_unique_author_books(books_per_author: Counter[Author]) -> str:
                 book_strs.append("- " + cur_ties[0] + f", with {last_count} unique books read")
             elif len(cur_ties) > 1:
                 book_strs.append(
-                    "- TIE: " + " and ".join(cur_ties) + f", with {last_count} unique books read"
+                    "- TIE: "
+                    + " and ".join(cur_ties)
+                    + f", each with {last_count} unique books read"
                 )
 
             place_count += 1
@@ -459,6 +461,7 @@ In addition, if you did something like, say, put **Spinning Silver** as a short 
 4. Author demographic statistics are not included below, for two reasons: it quickly gets messy and culturally-specific,
 and I didn't want to stalk all {len(bingo_stats.overall_uniques.unique_authors)} individual authors. Machinery for these calculations are included in the script, however,
 so if anyone would like to supply demographic information, it is easy to include. (I may scrape author genders from past data, as well.)
+5. Short stories were excluded from most of the stats below. They *were* included in the total story count.
 
 # And Now: The Stats
     
@@ -518,6 +521,9 @@ The authors with the most unique books read were:
 
 ## Variety
 
+Values close to 0 suggest a square was well-varied; 0 means no book was repeated for a square.
+Values close to 1 suggest the same books were used repeatedly for a square; 1 means only one book was used for a square.
+
 {format_farragini(bingo_stats)}
 
 ## Wall of Shame
@@ -530,3 +536,6 @@ The authors with the most unique books read were:
 
     with OUTPUT_MD_FILEPATH.open("w", encoding="utf8") as md_file:
         md_file.write(markdown_lines)
+
+    print(np.mean(list(bingo_stats.overall_uniques.unique_books.values())))
+    print(np.mean(list(bingo_stats.overall_uniques.unique_authors.values())))
