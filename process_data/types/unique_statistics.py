@@ -40,7 +40,7 @@ class UniqueStatistics:
             unique_books=Counter(
                 {
                     Book(str(key)): int(cast(int, val))
-                    for key, val in data["unique_title_authors"].items()
+                    for key, val in data["unique_books"].items()
                 }
             ),
             unique_authors=Counter(

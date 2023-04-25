@@ -21,7 +21,7 @@ In addition, if you did something like, say, put **Spinning Silver** as a short 
 3. Books by multiple authors were counted once for each author. E.g.: **In the Heart of Darkness** by Eric Flint and David Drake counts as a read for both Eric Flint and David Drake.
 *However*, books by a writing team with a single-author pseudonym, e.g. M.A. Carrick, were counted once for the pseudonym, and not for the authors behind the pseudonym.
 4. Author demographic statistics are not included below, for two reasons: it quickly gets messy and culturally-specific,
-and I didn't want to stalk all 3342 individual authors. Machinery for these calculations are included in the script, however,
+and I didn't want to stalk all 3340 individual authors. Machinery for these calculations are included in the script, however,
 so if anyone would like to supply demographic information, it is easy to include. (I may scrape author genders from past data, as well.)
 5. Short stories were excluded from most of the stats below. They *were* included in the total story count.
 
@@ -35,7 +35,7 @@ so if anyone would like to supply demographic information, it is easy to include
 The minimum number of filled squares was 2. 6 were *this close*, with 24 filled squares.
 866 squares were left blank, leaving 19684 filled squares.
 - There were 20140 total stories, with 5610 unique stories read,
-by 3342 unique authors.
+by 3340 unique authors.
 - The top three squares left blank were: **Set in Africa**, blank on 66 cards; **Five Short Stories**, blank on 53 cards; **Self-Published**, blank on 51 cards. On the other hand, **Stand-alone** was only left blank 19 times.
 - The three squares most often substituted were: **Self-Published**, substituted on 29 cards; **Set in Africa**, substituted on 26 cards; **Book Club or Readalong Book** and **Two or More Authors**, substituted on 21 cards each. **Non-Human Protagonist** and **No Ifs, Ands, or Buts** were never subsituted.
 This means that Set in Africa was the least favorite overall, skipped or substituted a total of 92 times.
@@ -95,7 +95,11 @@ The books used for the most squares were:
 - TIE: **Piranesi** by Susanna Clarke and **Legends & Lattes** by Travis Baldree and **A Psalm for the Wild-Built** by Becky Chambers and **Circe** by Madeline Miller and **The Lost Metal** by Brandon Sanderson and **When Women Were Dragons** by Kelly Barnhill and **Nona the Ninth** by Tamsyn Muir and **The Very Secret Society of Irregular Witches** by Sangu Mandanna, each used for 10 squares
 
 **The Sandman** by Neil Gaiman was the book read at least 10 times with the highest ratio of squares to times read:
-read 10 times for 8 squares. 
+read 10 times for 8 squares.
+
+<INSERT PLOT HERE>
+
+There were an average of 3.4884135472370765 reads per book.
 
 ### Authors
 
@@ -104,7 +108,7 @@ The ten most-read authors were:
 - T. Kingfisher, read 350 times
 - Becky Chambers, read 317 times
 - Travis Baldree, read 278 times
-- Brandon Sanderson, read 267 times
+- Brandon Sanderson, read 271 times
 - Martha Wells, read 255 times
 - P. Djèlí Clark, read 224 times
 - Naomi Novik, read 213 times
@@ -118,10 +122,13 @@ The authors used for the most squares were:
 - Brandon Sanderson, used for 20 squares
 - Adrian Tchaikovsky, used for 17 squares
 
+Lavie Tidhar was the author read at least 10 times with the highest ratio of squares to times read:
+read 10 times for 8 squares.
+
 The authors with the most unique books read were:
 
 - Terry Pratchett, with 38 unique books read
-- Brandon Sanderson, with 32 unique books read
+- Brandon Sanderson, with 33 unique books read
 - Lois McMaster Bujold, with 27 unique books read
 - Adrian Tchaikovsky, with 26 unique books read
 - Jim Butcher, with 23 unique books read
@@ -130,6 +137,10 @@ The authors with the most unique books read were:
 - TIE: T. Kingfisher and Ilona Andrews and K.J. Parker, each with 19 unique books read
 - C.J. Cherryh, with 18 unique books read
 - Martha Wells, with 17 unique books read
+
+<INSERT_PLOT_HERE>
+
+There were an average of 6.2610778443113775 reads per author.
 
 ## Stats for Individual Squares
 
@@ -269,7 +280,7 @@ Skipped 19 times. Substituted 4 times.
 - John Scalzi, read 14 times
 - TIE: Travis Baldree and Emily St. John Mandel and Silvia Moreno-Garcia and Neil Gaiman and Blake Crouch and Sangu Mandanna, each read 12 times
 
-**TOTAL**: 393 unique authors read.
+**TOTAL**: 392 unique authors read.
 
 ### 7. Anti-Hero
 
@@ -739,7 +750,7 @@ Values close to 1 suggest the same books were used repeatedly for a square; 1 me
 |Two or More Authors|51.4|60.6|
 |Historical SFF|45.8|55.0|
 |Set In Space|52.0|61.1|
-|Stand-alone|35.5|43.8|
+|Stand-alone|35.5|43.9|
 |Anti-Hero|49.7|58.0|
 |Book Club or Readalong Book|49.6|49.9|
 |Cool Weapon|46.4|58.4|
