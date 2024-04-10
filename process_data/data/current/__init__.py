@@ -6,6 +6,6 @@ Aliases for current-year bingo constants
 @author: fred
 """
 
-from ..bingo_2022.card_data import *
-from ..bingo_2022.constants import *
-from ..bingo_2022.filepaths import *
+from ..bingo_2023.card_data import *
+from ..bingo_2023.constants import *
+from ..bingo_2023.filepaths import *
