@@ -36,11 +36,9 @@ def get_bingo_dataframe(bingo_data_filepath: Path) -> pandas.DataFrame:
     """Create a Pandas DataFrame of the bingo data, indexed on card number"""
     raw_bingo_data = dict(get_data(str(bingo_data_filepath)))
 
-    column_names = raw_bingo_data["Sheet 1"][0]
-
-    bingo_data = pandas.DataFrame(
-        raw_bingo_data["Sheet 1"][1:],
-        columns=column_names,
-    ).set_index("CARD")
+    bingo_data = pandas.DataFrame(raw_bingo_data["Sheet1"])
+    bingo_data.columns = bingo_data.iloc[0]
+    bingo_data.drop(bingo_data.index[0], inplace=True)
+    bingo_data.set_index("CARD")
 
     return bingo_data

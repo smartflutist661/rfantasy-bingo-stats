@@ -6,7 +6,10 @@ Created on Apr 25, 2023
 import argparse
 import json
 from collections import Counter
-from typing import Iterable, TypeVar
+from typing import (
+    Iterable,
+    TypeVar,
+)
 
 import numpy as np
 
