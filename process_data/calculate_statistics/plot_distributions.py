@@ -20,6 +20,8 @@ from ..types.fit_props import FitProps
 def create_all_plots(bingo_stats: BingoStatistics, show_plots: bool) -> None:
     """Plot distributions of interest"""
 
+    OUTPUT_IMAGE_ROOT.mkdir(exist_ok=True)
+
     plt.style.use("fivethirtyeight")
 
     plot_card_hist(

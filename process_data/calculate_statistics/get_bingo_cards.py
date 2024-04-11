@@ -79,7 +79,10 @@ def get_bingo_square(
     """Get a single bingo square"""
     title = Title(row[title_col])
     author = Author(row[author_col])
-    hard_mode = bool(row[hm_col])
+    if len(hm_col) > 0:
+        hard_mode = bool(row[hm_col])
+    else:
+        hard_mode = True
 
     if title and author:
         return BingoSquare(
@@ -147,7 +150,11 @@ def get_bingo_stats(
         if card_id == "nan":
             continue
 
-        subbed_square_map = {SquareName(row["SUBBED OUT"]): SquareName(row["SUBBED IN"])}
+        subbed_square_map = {}
+        for square_num, square_name in enumerate(SQUARE_NAMES.values()):
+            subbed_square_name = SquareName(row[f"SQUARE {square_num+1}: SUBSTITUTION"])
+            if subbed_square_name is not None and len(subbed_square_name) > 0:
+                subbed_square_map[square_name] = subbed_square_name
 
         for square_tuple in tuple(subbed_square_map.items()):
             if square_tuple[0] and square_tuple[1]:
