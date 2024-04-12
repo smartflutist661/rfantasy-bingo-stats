@@ -22,7 +22,7 @@ In addition, if you did something like, say, put **The Lost Metal** as a short s
 3. Books by multiple authors were counted once for each author. E.g.: **In the Heart of Darkness** by Eric Flint and David Drake counts as a read for both Eric Flint and David Drake.
 *However*, books by a writing team with a single-author pseudonym, e.g. M.A. Carrick, were counted once for the pseudonym, and not for the authors behind the pseudonym.
 4. Author demographic statistics are not included below, for two reasons: it quickly gets messy and culturally-specific,
-and I didn't want to stalk all 4942 individual authors. Machinery for these calculations are included in the script, however,
+and I didn't want to stalk all 4902 individual authors. Machinery for these calculations are included in the script, however,
 so if anyone would like to supply demographic information, it is easy to include.
 5. Short stories were excluded from most of the stats below. They *were* included in the total story count.
 
@@ -35,8 +35,8 @@ so if anyone would like to supply demographic information, it is easy to include
 - There were 932 cards submitted, 205 of which were incomplete.
 The minimum number of filled squares was 5. 122 were *this close*, with 24 filled squares.
 858 squares were left blank, leaving 22442 filled squares.
-- There were 22450 total stories, with 8878 unique stories read,
-by 4942 unique authors.
+- There were 22450 total stories, with 8842 unique stories read,
+by 4902 unique authors.
 - The top three squares left blank were: **Five Short Stories**, blank on 168 cards; **Set in the Middle East** and **Druid**, blank on 49 cards each; **Superheroes**, blank on 47 cards. On the other hand, **Sequel** was only left blank 13 times.
 - The three squares most often substituted were: **Druid**, substituted on 46 cards; **Superheroes**, substituted on 31 cards; **Book Club or Readalong Book**, substituted on 29 cards. **Multiverses** and **Sequel** were never subsituted.
 This means that Five Short Stories was the least favorite overall, skipped or substituted a total of 185 times.
@@ -78,8 +78,7 @@ This means that Five Short Stories was the least favorite overall, skipped or su
 
 The ten most-read books were:
 
-- **Legends & Lattes** by Travis Baldree, read 178 times
-- **The Adventures of Amina al-Sirafi** by S.A. Chakraborty, read 177 times
+- TIE: **Legends & Lattes** by Travis Baldree and **The Adventures of Amina al-Sirafi** by S.A. Chakraborty, each read 178 times
 - **Hench** by Natalie Zina Walschots, read 122 times
 - **System Collapse** by Martha Wells, read 107 times
 - **Untethered Sky** by Fonda Lee, read 102 times
@@ -88,6 +87,7 @@ The ten most-read books were:
 - **Small Miracles** by Olivia Atwater, read 93 times
 - **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett, read 87 times
 - **Tress of the Emerald Sea** by Brandon Sanderson, read 84 times
+- **The Sword of Kaigen** by M.L. Wang, read 82 times
 
 The books used for the most squares were:
 
@@ -100,7 +100,7 @@ read 11 times for 6 squares.
 
 <INSERT PLOT HERE>
 
-There were an average of 2.527596305474206 reads per book.
+There were an average of 2.5378873558018546 reads per book.
 
 ### Authors
 
@@ -110,11 +110,11 @@ The ten most-read authors were:
 - T. Kingfisher, read 359 times
 - Brandon Sanderson, read 343 times
 - Travis Baldree, read 259 times
-- S.A. Chakraborty, read 242 times
+- S.A. Chakraborty, read 243 times
 - Terry Pratchett, read 225 times
 - Neil Gaiman, read 209 times
 - Becky Chambers, read 208 times
-- Naomi Novik, read 192 times
+- Naomi Novik, read 193 times
 - Fonda Lee, read 179 times
 
 The authors used for the most squares were:
@@ -141,7 +141,7 @@ The authors with the most unique books read were:
 
 <INSERT_PLOT_HERE>
 
-There were an average of 4.674220963172805 reads per author.
+There were an average of 4.713994288045695 reads per author.
 
 ## Stats for Individual Squares
 
@@ -155,7 +155,7 @@ There were an average of 4.674220963172805 reads per author.
 - **The Witness for the Dead** by Katherine Addison, read 15 times
 - TIE: **Red Sister** by Mark Lawrence and **Yumi and the Nightmare Painter** by Brandon Sanderson and **Assassin's Apprentice** by Robin Hobb and **The Captain** by Will Wight, each read 13 times
 
-**TOTAL**: 913 books read, with 532 unique titles.
+**TOTAL**: 913 books read, with 531 unique titles.
 Skipped 15 times. Substituted 4 times.
 
 #### Most Read Authors
@@ -166,7 +166,7 @@ Skipped 15 times. Substituted 4 times.
 - Christopher Buehlman, read 24 times
 - Robin Hobb, read 23 times
 
-**TOTAL**: 405 unique authors read.
+**TOTAL**: 404 unique authors read.
 
 ### 2. Superheroes
 
@@ -178,7 +178,7 @@ Skipped 15 times. Substituted 4 times.
 - **Dreadnought** by April Daniels, read 29 times
 - **Starter Villain** by John Scalzi, read 28 times
 
-**TOTAL**: 851 books read, with 371 unique titles.
+**TOTAL**: 851 books read, with 369 unique titles.
 Skipped 47 times. Substituted 31 times.
 
 #### Most Read Authors
@@ -189,7 +189,7 @@ Skipped 47 times. Substituted 31 times.
 - April Daniels, read 34 times
 - John Scalzi, read 32 times
 
-**TOTAL**: 294 unique authors read.
+**TOTAL**: 293 unique authors read.
 
 ### 3. Bottom of the TBR
 
@@ -201,7 +201,7 @@ Skipped 47 times. Substituted 31 times.
 - TIE: **Children of Time** by Adrian Tchaikovsky and **American Gods** by Neil Gaiman and **Assassin's Apprentice** by Robin Hobb and **The Hobbit** by J.R.R. Tolkien and **The Lies of Locke Lamora** by Scott Lynch and **Kindred** by Octavia E. Butler, each read 5 times
 - TIE: **The Princess Bride** by William Goldman and **The Calculating Stars** by Mary Robinette Kowal and **Foundryside** by Robert Jackson Bennett and **Kushiel's Dart** by Jacqueline Carey and **Gardens of the Moon** by Steven Erikson and **The Song of Achilles** by Madeline Miller and **2001: A Space Odyssey** by Arthur C. Clarke and **The Ocean at the End of the Lane** by Neil Gaiman and **The Three-Body Problem** by Cixin Liu and **Blindsight** by Peter Watts, each read 4 times
 
-**TOTAL**: 896 books read, with 678 unique titles.
+**TOTAL**: 896 books read, with 676 unique titles.
 Skipped 29 times. Substituted 7 times.
 
 #### Most Read Authors
@@ -212,7 +212,7 @@ Skipped 29 times. Substituted 7 times.
 - Brandon Sanderson, read 13 times
 - TIE: Guy Gavriel Kay and Terry Pratchett, each read 12 times
 
-**TOTAL**: 480 unique authors read.
+**TOTAL**: 477 unique authors read.
 
 ### 4. Magical Realism
 
@@ -224,7 +224,7 @@ Skipped 29 times. Substituted 7 times.
 - **The Ocean at the End of the Lane** by Neil Gaiman, read 13 times
 - TIE: **Our Wives Under the Sea** by Julia Armfield and **Remarkably Bright Creatures** by Shelby Van Pelt, each read 12 times
 
-**TOTAL**: 890 books read, with 487 unique titles.
+**TOTAL**: 890 books read, with 486 unique titles.
 Skipped 30 times. Substituted 12 times.
 
 #### Most Read Authors
@@ -235,7 +235,7 @@ Skipped 30 times. Substituted 12 times.
 - Neil Gaiman, read 16 times
 - Peng Shepherd, read 15 times
 
-**TOTAL**: 385 unique authors read.
+**TOTAL**: 383 unique authors read.
 
 ### 5. Young Adult
 
@@ -247,7 +247,7 @@ Skipped 30 times. Substituted 12 times.
 - **The Ballad of Songbirds and Snakes** by Suzanne Collins, read 11 times
 - TIE: **Divine Rivals** by Rebecca Ross and **Iron Widow** by Xiran Jay Zhao, each read 10 times
 
-**TOTAL**: 909 books read, with 565 unique titles.
+**TOTAL**: 909 books read, with 564 unique titles.
 Skipped 19 times. Substituted 4 times.
 
 #### Most Read Authors
@@ -258,7 +258,7 @@ Skipped 19 times. Substituted 4 times.
 - Garth Nix, read 16 times
 - TIE: Axie Oh and Suzanne Collins, each read 15 times
 
-**TOTAL**: 405 unique authors read.
+**TOTAL**: 403 unique authors read.
 
 ### 6. Mundane Jobs
 
@@ -270,7 +270,7 @@ Skipped 19 times. Substituted 4 times.
 - TIE: **Project Hail Mary** by Andy Weir and **Divine Rivals** by Rebecca Ross, each read 14 times
 - **Bookshops & Bonedust** by Travis Baldree, read 12 times
 
-**TOTAL**: 914 books read, with 463 unique titles.
+**TOTAL**: 914 books read, with 461 unique titles.
 Skipped 17 times. Substituted 1 times.
 
 #### Most Read Authors
@@ -281,7 +281,7 @@ Skipped 17 times. Substituted 1 times.
 - Adrian Tchaikovsky, read 28 times
 - TIE: Andy Weir and Becky Chambers, each read 17 times
 
-**TOTAL**: 374 unique authors read.
+**TOTAL**: 371 unique authors read.
 
 ### 7. Published in the 2000s
 
@@ -293,7 +293,7 @@ Skipped 17 times. Substituted 1 times.
 - **Kushiel's Dart** by Jacqueline Carey, read 14 times
 - TIE: **Vita Nostra** by Marina Dyachenko, Sergey Dyachenko and **Perdido Street Station** by China Miéville, each read 12 times
 
-**TOTAL**: 885 books read, with 538 unique titles.
+**TOTAL**: 885 books read, with 537 unique titles.
 Skipped 33 times. Substituted 14 times.
 
 #### Most Read Authors
@@ -304,7 +304,7 @@ Skipped 33 times. Substituted 14 times.
 - Naomi Novik, read 24 times
 - China Miéville, read 23 times
 
-**TOTAL**: 358 unique authors read.
+**TOTAL**: 357 unique authors read.
 
 ### 8. Angels and Demons
 
@@ -339,7 +339,7 @@ Skipped 33 times. Substituted 5 times.
 - **Sharp Ends** by Joe Abercrombie, read 10 times
 - TIE: **The Ladies of Grace Adieu and Other Stories** by Susanna Clarke and **White Cat, Black Dog** by Kelly Link, each read 7 times
 
-**TOTAL**: 746 books read, with 527 unique titles.
+**TOTAL**: 746 books read, with 526 unique titles.
 Skipped 168 times. Substituted 17 times.
 
 #### Most Read Authors
@@ -350,7 +350,7 @@ Skipped 168 times. Substituted 17 times.
 - Joe Abercrombie, read 10 times
 - TIE: Ursula K. Le Guin and Susanna Clarke, each read 9 times
 
-**TOTAL**: 544 unique authors read.
+**TOTAL**: 542 unique authors read.
 
 ### 10. Horror
 
@@ -381,11 +381,11 @@ Skipped 18 times. Substituted 13 times.
 
 - **Murder at Spindle Manor** by Morgan Stang, read 17 times
 - **The Sword of Kaigen** by M.L. Wang, read 12 times
-- TIE: **Orconomics** by J. Zachary Pike and **Dungeon Crawler Carl** by Matt Dinniman, each read 10 times
+- **Dungeon Crawler Carl** by Matt Dinniman, read 11 times
+- **Orconomics** by J. Zachary Pike, read 10 times
 - **Blood Over Bright Haven** by M.L. Wang, read 9 times
-- TIE: **The Midnight Bargain** by C.L. Polk and **Unsouled** by Will Wight, each read 8 times
 
-**TOTAL**: 871 books read, with 673 unique titles.
+**TOTAL**: 871 books read, with 672 unique titles.
 Skipped 35 times. Substituted 25 times.
 
 #### Most Read Authors
@@ -393,33 +393,33 @@ Skipped 35 times. Substituted 25 times.
 - Will Wight, read 26 times
 - Morgan Stang, read 24 times
 - M.L. Wang, read 22 times
-- Matt Dinniman, read 14 times
+- Matt Dinniman, read 15 times
 - J. Zachary Pike, read 13 times
 
-**TOTAL**: 555 unique authors read.
+**TOTAL**: 553 unique authors read.
 
 ### 12. Set in the Middle East
 
 #### Most Read Books
 
 - **The Stardust Thief** by Chelsea Abdullah, read 89 times
-- **The Adventures of Amina al-Sirafi** by S.A. Chakraborty, read 74 times
+- **The Adventures of Amina al-Sirafi** by S.A. Chakraborty, read 75 times
 - **A Master of Djinn** by P. Djèlí Clark, read 44 times
 - **The City of Brass** by S.A. Chakraborty, read 35 times
 - **The Daughters of Izdihar** by Hadeer Elsbai, read 34 times
 
-**TOTAL**: 852 books read, with 246 unique titles.
+**TOTAL**: 852 books read, with 238 unique titles.
 Skipped 49 times. Substituted 28 times.
 
 #### Most Read Authors
 
-- S.A. Chakraborty, read 117 times
+- S.A. Chakraborty, read 118 times
 - Chelsea Abdullah, read 92 times
 - P. Djèlí Clark, read 59 times
 - Zamil Akhtar, read 40 times
 - Hadeer Elsbai, read 37 times
 
-**TOTAL**: 181 unique authors read.
+**TOTAL**: 174 unique authors read.
 
 ### 13. Published in 2023
 
@@ -431,7 +431,7 @@ Skipped 49 times. Substituted 28 times.
 - **Some Desperate Glory** by Emily Tesh, read 20 times
 - **Ink Blood Sister Scribe** by Emma Törzs, read 18 times
 
-**TOTAL**: 904 books read, with 447 unique titles.
+**TOTAL**: 904 books read, with 446 unique titles.
 Skipped 25 times. Substituted 3 times.
 
 #### Most Read Authors
@@ -442,7 +442,7 @@ Skipped 25 times. Substituted 3 times.
 - Emily Tesh, read 21 times
 - Heather Fawcett, read 20 times
 
-**TOTAL**: 384 unique authors read.
+**TOTAL**: 383 unique authors read.
 
 ### 14. Multiverses
 
@@ -477,18 +477,18 @@ Skipped 24 times. Substituted 0 times.
 - **Babel** by R.F. Kuang, read 17 times
 - TIE: **Kindred** by Octavia E. Butler and **The Very Secret Society of Irregular Witches** by Sangu Mandanna and **Ninefox Gambit** by Yoon Ha Lee, each read 15 times
 
-**TOTAL**: 906 books read, with 449 unique titles.
+**TOTAL**: 906 books read, with 448 unique titles.
 Skipped 23 times. Substituted 3 times.
 
 #### Most Read Authors
 
 - Octavia E. Butler, read 74 times
-- Nnedi Okorafor, read 39 times
+- Nnedi Okorafor, read 40 times
 - N.K. Jemisin, read 35 times
 - Yoon Ha Lee, read 28 times
 - Fonda Lee, read 27 times
 
-**TOTAL**: 307 unique authors read.
+**TOTAL**: 306 unique authors read.
 
 ### 16. Book Club or Readalong Book
 
@@ -496,22 +496,22 @@ Skipped 23 times. Substituted 3 times.
 
 - **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett, read 28 times
 - **Orconomics** by J. Zachary Pike, read 24 times
-- **The Ninth Rain** by Jen Williams, read 22 times
-- **The Justice of Kings** by Richard Swan, read 21 times
+- TIE: **The Ninth Rain** by Jen Williams and **The Justice of Kings** by Richard Swan, each read 22 times
 - **Legends & Lattes** by Travis Baldree, read 20 times
+- **The Adventures of Amina al-Sirafi** by S.A. Chakraborty, read 19 times
 
-**TOTAL**: 874 books read, with 352 unique titles.
+**TOTAL**: 874 books read, with 351 unique titles.
 Skipped 26 times. Substituted 29 times.
 
 #### Most Read Authors
 
 - Heather Fawcett, read 30 times
 - J. Zachary Pike, read 28 times
-- Jen Williams, read 24 times
-- TIE: Richard Swan and T. Kingfisher, each read 23 times
+- TIE: Jen Williams and Richard Swan, each read 24 times
+- T. Kingfisher, read 23 times
 - TIE: Travis Baldree and S.A. Chakraborty, each read 20 times
 
-**TOTAL**: 272 unique authors read.
+**TOTAL**: 271 unique authors read.
 
 ### 17. Novella
 
@@ -523,7 +523,7 @@ Skipped 26 times. Substituted 29 times.
 - **Ogres** by Adrian Tchaikovsky, read 18 times
 - **Rose/House** by Arkady Martine, read 17 times
 
-**TOTAL**: 909 books read, with 490 unique titles.
+**TOTAL**: 909 books read, with 489 unique titles.
 Skipped 21 times. Substituted 2 times.
 
 #### Most Read Authors
@@ -534,7 +534,7 @@ Skipped 21 times. Substituted 2 times.
 - Max Gladstone, read 28 times
 - TIE: Lois McMaster Bujold and Amal El-Mohtar, each read 26 times
 
-**TOTAL**: 346 unique authors read.
+**TOTAL**: 345 unique authors read.
 
 ### 18. Mythical Beasts
 
@@ -564,23 +564,23 @@ Skipped 21 times. Substituted 2 times.
 #### Most Read Books
 
 - **The Sword of Kaigen** by M.L. Wang, read 63 times
-- **The Rise of Kyoshi** by F.C. Yee, Michael Dante DiMartino, read 33 times
+- **The Rise of Kyoshi** by F.C. Yee, Michael Dante DiMartino, read 36 times
 - **The Daughters of Izdihar** by Hadeer Elsbai, read 26 times
 - **The Fifth Season** by N.K. Jemisin, read 16 times
 - **A River Enchanted** by Rebecca Ross, read 15 times
 
-**TOTAL**: 868 books read, with 439 unique titles.
+**TOTAL**: 868 books read, with 435 unique titles.
 Skipped 44 times. Substituted 17 times.
 
 #### Most Read Authors
 
 - M.L. Wang, read 64 times
-- F.C. Yee, read 48 times
-- Michael Dante DiMartino, read 35 times
+- F.C. Yee, read 51 times
+- Michael Dante DiMartino, read 38 times
 - Hadeer Elsbai, read 29 times
 - Robert Jordan, read 26 times
 
-**TOTAL**: 310 unique authors read.
+**TOTAL**: 304 unique authors read.
 
 ### 20. Myths and Retellings
 
@@ -615,7 +615,7 @@ Skipped 29 times. Substituted 4 times.
 - **Bookshops and Bonedust** by Travis Baldree, read 18 times
 - TIE: **A Taste of Gold and Iron** by Alexandra Rowland and **Godkiller** by Hannah Kaner and **A Day of Fallen Night** by Samantha Shannon, each read 15 times
 
-**TOTAL**: 895 books read, with 404 unique titles.
+**TOTAL**: 895 books read, with 402 unique titles.
 Skipped 25 times. Substituted 12 times.
 
 #### Most Read Authors
@@ -624,9 +624,9 @@ Skipped 25 times. Substituted 12 times.
 - Becky Chambers, read 38 times
 - Tamsyn Muir, read 32 times
 - Nghi Vo, read 31 times
-- T.J. Klune, read 28 times
+- T.J. Klune, read 29 times
 
-**TOTAL**: 261 unique authors read.
+**TOTAL**: 259 unique authors read.
 
 ### 22. Coastal Setting
 
@@ -684,7 +684,7 @@ Skipped 49 times. Substituted 46 times.
 - **Klara and the Sun** by Kazuo Ishiguro, read 32 times
 - **Network Effect** by Martha Wells, read 30 times
 
-**TOTAL**: 893 books read, with 333 unique titles.
+**TOTAL**: 893 books read, with 332 unique titles.
 Skipped 35 times. Substituted 4 times.
 
 #### Most Read Authors
@@ -695,7 +695,7 @@ Skipped 35 times. Substituted 4 times.
 - Kazuo Ishiguro, read 32 times
 - TJ Klune, read 24 times
 
-**TOTAL**: 226 unique authors read.
+**TOTAL**: 225 unique authors read.
 
 ### 25. Sequel
 
@@ -747,30 +747,30 @@ Values close to 100 suggest the same books were used repeatedly for a square; 10
 
 |SQUARE|BOOK|AUTHOR|
 |---------|:---------:|:---------:|
-|Title with a Title|36.7|47.9|
-|Superheroes|53.2|61.0|
-|Bottom of the TBR|21.4|39.5|
-|Magical Realism|40.4|49.0|
-|Young Adult|33.4|47.7|
-|Mundane Jobs|44.4|53.2|
+|Title with a Title|36.8|48.0|
+|Superheroes|53.3|61.1|
+|Bottom of the TBR|21.5|39.7|
+|Magical Realism|40.5|49.1|
+|Young Adult|33.5|47.8|
+|Mundane Jobs|44.5|53.3|
 |Published in the 2000s|34.4|51.5|
 |Angels and Demons|51.2|63.1|
-|Five Short Stories|27.3|37.4|
+|Five Short Stories|27.4|37.5|
 |Horror|41.8|53.6|
-|Self Published or Indie Publisher|21.3|34.0|
-|Set in the Middle East|65.0|70.4|
-|Published in 2023|43.8|50.0|
+|Self Published or Indie Publisher|21.4|34.2|
+|Set in the Middle East|65.8|70.9|
+|Published in 2023|43.9|50.1|
 |Multiverses|45.7|60.2|
-|POC Author|43.9|58.0|
-|Book Club or Readalong Book|48.7|52.9|
-|Novella|41.3|56.6|
+|POC Author|43.9|58.1|
+|Book Club or Readalong Book|48.8|52.9|
+|Novella|41.4|56.7|
 |Mythical Beasts|41.6|52.6|
-|Elemental Magic|44.3|57.3|
+|Elemental Magic|44.6|57.8|
 |Myths and Retellings|43.0|53.4|
-|Queernorm Setting|47.3|60.8|
+|Queernorm Setting|47.5|61.0|
 |Coastal Setting|45.0|55.2|
 |Druid|49.3|60.7|
-|Features Robots|58.4|69.5|
+|Features Robots|58.5|69.5|
 |Sequel|27.9|50.4|
 
 ## Wall of Shame
@@ -778,12 +778,12 @@ Values close to 100 suggest the same books were used repeatedly for a square; 10
 The books with the most variation in title or author spellings were:
 
 - **This is How You Lose the Time War** by Amal El-Mohtar, Max Gladstone, with 32 variations
-- **A Master of Djinn** by P. Djèlí Clark, with 13 variations
-- **The Adventures of Amina al-Sirafi** by S.A. Chakraborty, with 12 variations
+- TIE: **The Adventures of Amina al-Sirafi** by S.A. Chakraborty and **A Master of Djinn** by P. Djèlí Clark, with 13 variations each
 - TIE: **Good Omens** by Neil Gaiman, Terry Pratchett and **A Wizard of Earthsea** by Ursula K. Le Guin, with 11 variations each
+- **The Rise of Kyoshi** by F.C. Yee, Michael Dante DiMartino, with 10 variations
 - TIE: **Legends & Lattes** by Travis Baldree and **Hench** by Natalie Zina Walschots, with 9 variations each
-- TIE: **The House in the Cerulean Sea** by T.J. Klune and **The Sword of Kaigen** by M.L. Wang and **Before the Coffee Gets Cold** by Toshikazu Kawaguchi and **The Rise of Kyoshi** by F.C. Yee, Michael Dante DiMartino and **The Fifth Season** by N.K. Jemisin, with 8 variations each
+- TIE: **The House in the Cerulean Sea** by T.J. Klune and **The Sword of Kaigen** by M.L. Wang and **Before the Coffee Gets Cold** by Toshikazu Kawaguchi and **The Fifth Season** by N.K. Jemisin, with 8 variations each
+- **Squire** by Sara Alfageeh, Nadia Shammas, with 7 variations
 - TIE: **The City of Brass** by S.A. Chakraborty and **Saint Death's Daughter** by C.S.E. Cooney and **A Wizard's Guide to Defensive Baking** by T. Kingfisher and **The City We Became** by N.K. Jemisin and **Babel** by R.F. Kuang and **Paladin's Grace** by T. Kingfisher and **A Darker Shade of Magic** by V.E. Schwab, with 6 variations each
-- TIE: **Sixteen Ways to Defend a Walled City** by K.J. Parker and **Howl's Moving Castle** by Diana Wynne Jones and **Even Though I Knew the End** by C.L. Polk and **The Refrigerator Monologues** by Catherynne M. Valente and **Silver in the Wood** by Emily Tesh and **The Midnight Bargain** by C.L. Polk and **The Haunting of Tram Car 015** by P. Djèlí Clark and **Gallant** by V.E. Schwab and **Vicious** by V.E. Schwab and **The Three-Body Problem** by Cixin Liu and **Mother of Learning** by Domagoj Kurmaić, with 5 variations each
-- TIE: **Vita Nostra** by Marina Dyachenko, Sergey Dyachenko and **Nettle & Bone** by T. Kingfisher and **The Bone Ship's Wake** by R.J. Barker and **Piranesi** by Susanna Clarke and **She Who Became the Sun** by Shelley Parker-Chan and **So This Is Ever After** by F.T. Lukens and **Duckett & Dyer: Dicks for Hire** by G.M. Nair and **The Liar's Knot** by M.A. Carrick and **The Kaiju Preservation Society** by John Scalzi and **The Cartographers** by Peng Shepherd and **The Long Way to a Small, Angry Planet** by Becky Chambers and **A Psalm for the Wild-Built** by Becky Chambers and **The Girl Who Fell Beneath the Sea** by Axie Oh and **Infinity Gate** by M.R. Carey and **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett and **Children of Time** by Adrian Tchaikovsky and **A Deadly Education** by Naomi Novik and **Kushiel's Dart** by Jacqueline Carey and **The Memory Librarian: And Other Stories of Dirty Computer** by Janelle Monáe and **Percy Jackson and the Lightning Thief** by Rick Riordan and **All Systems Red** by Martha Wells and **Iron Widow** by Xiran Jay Zhao, with 4 variations each
-- TIE: **All the Murmuring Bones** by A.G. Slatter and **The Past is Red** by Catherynne M. Valente and **A Rake of His Own** by A.J. Lancaster and **Lone Women** by Victor LaValle and **Dungeon Crawler Carl** by Matt Dinniman and **The Mythic Dream** by Dominik Parisien, Navah Wolfe and **The Bone Shard Daughter** by Andrea Stewart and **Under the Whispering Door** by T.J. Klune and **His Majesty's Dragon** by Naomi Novik and **Keeper of Enchanted Rooms** by Charlie N. Holmberg and **The Hobbit** by J.R.R. Tolkien and **The Healers' Road** by S.E. Robertson and **The Stone Sky** by N.K. Jemisin and **The Ladies of Grace Adieu and Other Stories** by Susanna Clarke and **The Dragon Republic** by R.F. Kuang and **Orconomics** by J. Zachary Pike and **The Golem and the Jinni** by Helene Wecker and **The City & the City** by China Miéville and **Carmilla** by J. Sheridan Le Fanu and **The Space Between Worlds** by Micaiah Johnson and **Klara and the Sun** by Kazuo Ishiguro and **A Gathering of Shadows** by V.E. Schwab and **A Prayer for the Crown-Shy** by Becky Chambers and **The Wind's Twelve Quarters** by Ursula K. Le Guin and **Nimona** by N.D. Stevenson and **To Be Taught, If Fortunate** by Becky Chambers and **How Long 'til Black Future Month?** by N.K. Jemisin and **The Trouble with Peace** by Joe Abercrombie and **A Dowry of Blood** by S.T. Gibson and **Jonathan Strange & Mr. Norrell** by Susanna Clarke and **The Jasmine Throne** by Tasha Suri and **A Canticle for Leibowitz** by Walter M. Miller Jr. and **The Ten Thousand Doors of January** by Alix E. Harrow and **We Are Legion (We Are Bob)** by Dennis E. Taylor and **Deathless** by Catherynne M. Valente and **The Empire of Gold** by S.A. Chakraborty and **The Golden Enclaves** by Naomi Novik and **Flatland** by Edwin Abbott Abbott and **The Stardust Thief** by Chelsea Abdullah and **The Lord of Stariel** by A.J. Lancaster and **Moonheart** by Charles de Lint and **Defiance of the Fall** by TheFirstDefier and **Vengeful** by V.E. Schwab, with 3 variations each
+- TIE: **Vita Nostra** by Marina Dyachenko, Sergey Dyachenko and **Sixteen Ways to Defend a Walled City** by K.J. Parker and **Dungeon Crawler Carl** by Matt Dinniman and **Howl's Moving Castle** by Diana Wynne Jones and **Even Though I Knew the End** by C.L. Polk and **The Refrigerator Monologues** by Catherynne M. Valente and **Silver in the Wood** by Emily Tesh and **The Midnight Bargain** by C.L. Polk and **The Haunting of Tram Car 015** by P. Djèlí Clark and **Gallant** by V.E. Schwab and **Vicious** by V.E. Schwab and **The Three-Body Problem** by Cixin Liu and **Mother of Learning** by Domagoj Kurmaić, with 5 variations each
+- TIE: **Nettle & Bone** by T. Kingfisher and **The Bone Ship's Wake** by R.J. Barker and **Piranesi** by Susanna Clarke and **She Who Became the Sun** by Shelley Parker-Chan and **So This Is Ever After** by F.T. Lukens and **Duckett & Dyer: Dicks for Hire** by G.M. Nair and **The Liar's Knot** by M.A. Carrick and **The Kaiju Preservation Society** by John Scalzi and **The Cartographers** by Peng Shepherd and **The Long Way to a Small, Angry Planet** by Becky Chambers and **A Psalm for the Wild-Built** by Becky Chambers and **Under the Whispering Door** by T.J. Klune and **The Girl Who Fell Beneath the Sea** by Axie Oh and **Infinity Gate** by M.R. Carey and **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett and **Children of Time** by Adrian Tchaikovsky and **A Deadly Education** by Naomi Novik and **Kushiel's Dart** by Jacqueline Carey and **The Memory Librarian: And Other Stories of Dirty Computer** by Janelle Monáe and **Percy Jackson and the Lightning Thief** by Rick Riordan and **All Systems Red** by Martha Wells and **Iron Widow** by Xiran Jay Zhao, with 4 variations each
