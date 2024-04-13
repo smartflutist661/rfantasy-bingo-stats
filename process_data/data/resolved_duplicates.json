@@ -124,8 +124,8 @@
     "A.Z. Louise": [
       "A. Z. Louise"
     ],
-    "AJ Demas": [],
-    "AK Blakemore": [],
+    "A.J. Demas": ["AJ Demas"],
+    "A.K. Blakemore": ["AK Blakemore"],
     "Aaron D. Schneider": [],
     "Aaron D. Schneider, Michael Anderle": [
       "Aaron D. Schneider and Michael Anderle"
@@ -504,7 +504,7 @@
     "Amber R. Duell, Candace Robinson": [
       "Amber R. Duell and Candace Robinson"
     ],
-    "Ameila Spencer": [],
+    "Amelia Spencer": ["Ameila Spencer"],
     "Amelia Atwater-Rhodes": [],
     "Amelia B. Edwards": [],
     "Amelia Faulkner": [],
@@ -1165,7 +1165,7 @@
     ],
     "Burke FitzPatrick": [],
     "Buxie Mei": [],
-    "C. C. Davie": [],
+    "C.C. Davie": ["C. C. Davie"],
     "C. Chancy": [],
     "C. Elizabeth Ward": [],
     "C. Mantis": [
@@ -1715,7 +1715,8 @@
     "Christopher Irvin": [],
     "Christopher Moore": [],
     "Christopher Paolini": [
-      "Christopher Paolin"
+      "Christopher Paolin",
+      "Kevin Paolini"
     ],
     "Christopher Pike": [],
     "Christopher Priest": [],
@@ -2125,7 +2126,7 @@
     "David Drake, Karl Edward Wagner": [
       "David Drake & Karl Edward Wagner"
     ],
-    "David E Sharpe": [],
+    "David E. Sharpe": ["David E Sharpe"],
     "David Eddings": [],
     "David Ekrut": [],
     "David F. Shultz": [
@@ -2503,9 +2504,9 @@
     ],
     "Effie Seiberg": [],
     "Egestigi": [],
-    "Eicher oda": [],
     "Eiichiro Oda": [
-      "Eichiro Oda"
+      "Eichiro Oda",
+      "Eicher oda"
     ],
     "Eiko Kadono": [
       "\"Eiko Kadono, Emily Balistrieri \"",
@@ -2846,7 +2847,7 @@
       "F.T.Lukens",
       "FT Lukens"
     ],
-    "FIONA JONES": [],
+    "Fiona Jones": ["FIONA JONES"],
     "Fabian Rangel Jr.": [],
     "Fabien Clavel": [],
     "Fadi Zaghmout": [],
@@ -3265,7 +3266,7 @@
     "H.L. Burke": [
       "H. L. Burke"
     ],
-    "H.L.Tinsley": [],
+    "H.L. Tinsley": ["H.L.Tinsley"],
     "H.M. Goodchild": [],
     "H.M. Long": [
       "H. M. Long"
@@ -3331,7 +3332,7 @@
     "Hannah Nicole Maehrer": [
       "Maehrer, Hannah"
     ],
-    "Hannah P. simmons": [],
+    "Hannah P. Simmons": ["Hannah P. simmons"],
     "Hannah Templer": [
       "Hannah Templar"
     ],
@@ -3596,9 +3597,9 @@
     ],
     "Ivy Asher": [],
     "Izumi Suzuki": [],
-    "J A Collignon": [],
-    "J Pal": [],
-    "J. A. Stowe": [],
+    "J.A. Collignon": ["J A Collignon"],
+    "J. Pal": ["J Pal"],
+    "J.A. Stowe": ["J. A. Stowe"],
     "J. Bree": [],
     "J. Clark": [],
     "J. McCoy": [
@@ -3608,7 +3609,7 @@
     "J. Ray": [],
     "J. Ray, S. Cushaway": [],
     "J. Rushing": [],
-    "J. S. Bailey": [],
+    "J.S. Bailey": ["J. S. Bailey"],
     "J. Sheridan Le Fanu": [
       "J. Sheridan le Fanu",
       "Joseph Sheridan Le Fanu",
@@ -3620,9 +3621,9 @@
       "J. Zachery Pike",
       "J. Zackery Pike",
       "Zachary J. Pike",
-      "Zachary Pike"
+      "Zachary Pike",
+      "J. Zachary Steel"
     ],
-    "J. Zachary Steel": [],
     "J.A. Andrews": [
       "JA Andrews"
     ],
@@ -3945,7 +3946,7 @@
       "James Tyrion IV"
     ],
     "James White": [],
-    "James swallow": [],
+    "James Swallow": ["James swallow"],
     "Jamie Delano": [],
     "Jamie Edmundson": [],
     "Jamie Ford": [],
@@ -4096,7 +4097,7 @@
     "Jenna Levine": [],
     "Jenna Moreci": [],
     "Jenna Wolfhart": [],
-    "Jenna glass": [],
+    "Jenna Glass": ["Jenna glass"],
     "Jennifer Adams": [],
     "Jennifer Bresnick": [],
     "Jennifer Brozek": [],
@@ -4254,7 +4255,7 @@
     "Joel Shepherd": [],
     "Johann Wolfgang von Goethe": [],
     "Johanna Sinisalo": [],
-    "Johanna Sinisalo (editor), Toni Jerrman (Editor)": [],
+    "Johanna Sinisalo, Toni Jerrman": ["Johanna Sinisalo (editor), Toni Jerrman (Editor)"],
     "Johanne Dallaire": [],
     "Johannes T. Evans": [],
     "John A. Pitts": [],
@@ -4413,7 +4414,7 @@
       "Joseph Fink and Jeffrey Cranor"
     ],
     "Joseph Han": [],
-    "Joseph Knowles (ed.)": [],
+    "Joseph Knowles": ["Joseph Knowles (ed.)"],
     "Joseph O. Doran": [],
     "Josh Erikson": [],
     "Josh Malerman": [],
@@ -4541,7 +4542,7 @@
     "Justin McElroy": [],
     "Justin Randall": [],
     "Justin Swapp": [],
-    "Justin T Call": [],
+    "Justin T. Call": ["Justin T Call"],
     "Justina Ireland": [],
     "Justine Larbalestier": [],
     "J\u00e9r\u00e9mie Bourdages-Duclot": [],
@@ -4615,12 +4616,12 @@
     "K.J. Charles, Jordan L. Hawk": [
       "KJ Charles and Jordan L. Hawk"
     ],
-    "K.J. PARKER": [
+    "K.J. Parker": [
       "K J Parker",
       "K. J. Parker",
-      "K.J. Parker",
       "K.J.Parker",
-      "KJ Parker"
+      "KJ Parker",
+      "K.J. PARKER"
     ],
     "K.J. Sutton": [
       "KJ Sutton"
@@ -4964,7 +4965,6 @@
       "Anderson, Kevin J; Maberry, Jonathan; Briggs, Patricia; Graham, Heather and others.",
       "Anderson, Kevin J; Maberry, Jonathan; Briggs, Patricia; Graham, Heather, others."
     ],
-    "Kevin Paolini": [],
     "Kevin Wilson": [],
     "Kevin Wright": [],
     "Khadija Abdalla Bajaber": [
@@ -4986,7 +4986,7 @@
     "Kieron Gillen, Jason Arron, Si Spurrier": [
       "Kieron Gillen, Jason Arron & Si Spurrier"
     ],
-    "Kieron_ODuibhir": [],
+    "Kieron O'Duibhir": ["Kieron_ODuibhir"],
     "Kiersten White": [
       "Keirstan White",
       "Keirsten White",
@@ -5388,7 +5388,7 @@
       "Linden A Lewis",
       "Linden Lewis"
     ],
-    "Lindsay A Franklin": [],
+    "Lindsay A. Franklin": ["Lindsay A Franklin"],
     "Lindsay Buroker": [
       "Lindsey Buroker"
     ],
@@ -5504,13 +5504,14 @@
     "Ludvig Holberg": [],
     "Luke Arnold": [],
     "Luke Chmilenko": [],
-    "Luke Chmilenko, GD Penman": [
-      "Luke Chmilenko and GD Penman"
+    "Luke Chmilenko, G.D. Penman": [
+      "Luke Chmilenko and GD Penman",
+      "Luke Chmilenko, GD Penman"
     ],
     "Luke Matthews": [],
-    "Luke RJ Maynard": [],
+    "Luke R.J. Maynard": ["Luke RJ Maynard"],
     "Luke Tarzian": [],
-    "Luke pudney": [],
+    "Luke Pudney": ["Luke pudney"],
     "Lulu Kadhim": [],
     "Lulu Miller": [],
     "Luna McNamara": [
@@ -6012,12 +6013,12 @@
       "Mary Robinette Kwai"
     ],
     "Mary Shelley": [
-      "Marry Shelley"
+      "Marry Shelley",
+      "Mary Wollstonecraft Shelley"
     ],
     "Mary Soon Lee": [],
     "Mary Stewart": [],
     "Mary Watson": [],
-    "Mary Wollstonecraft Shelley": [],
     "Maryrose Wood": [],
     "Maryse Cond\u00e9": [],
     "Marytza K. Rubio": [],
@@ -6078,7 +6079,7 @@
     ],
     "Maureen Johnson": [],
     "Maurice Broaddus": [],
-    "Maur\u00edcio Negro (e outros)": [],
+    "Maur\u00edcio Negro": ["Maur\u00edcio Negro (e outros)"],
     "Max Barry": [
       "Max barry"
     ],
@@ -6301,7 +6302,7 @@
       "Michael Swanwick, Brian Evenson, Jonathan Carroll, Alastair Reynolds, James Patrick Kelly, Rich Lars, John Wiswell & Ray Nayler"
     ],
     "Michael Villa": [],
-    "Michael Walsh et. al.": [],
+    "Michael Walsh": ["Michael Walsh et. al."],
     "Michael Wehunt": [],
     "Michael Wheatley": [],
     "Michael Wisehart": [
@@ -6946,9 +6947,9 @@
     "Pat Barker": [],
     "Pat Murphy": [],
     "Pati Nagle": [],
-    "Patrice Caldwell et al": [
-      "Patrice Caldwell",
-      "Patrice Caldwell, Ed."
+    "Patrice Caldwell": [
+      "Patrice Caldwell, Ed.",
+      "Patrice Caldwell et al"
     ],
     "Patrice Fitzgerald": [],
     "Patrice Fitzgerald, Jack Lyster": [
@@ -7905,7 +7906,7 @@
       "S.T Gibson",
       "ST Gibson"
     ],
-    "SM Carter": [],
+    "S.M. Carter": ["SM Carter"],
     "Saad Z. Hossain": [
       "Saad Hossain",
       "Saad Z Hossain",
@@ -21887,27 +21888,28 @@
       "\u0416\u0451\u043b\u0442\u0430\u044f \u0441\u0442\u0440\u0435\u043b\u0430 (The Yellow Arrow) /// Victor Pelevin"
     ],
     "The Young Elites /// Marie Lu": [],
-    "The betrayals /// Bridget Collins": [],
-    "The core of the sun /// Johanna Sinisalo": [],
-    "The dead boy's last poem /// Kelly Barnhill": [],
-    "The deepest blue /// Sarah Beth Durst": [],
-    "The flight of the eisenstein /// James swallow": [],
-    "The good fairies of New York /// Martin Miller": [],
-    "The last human /// Zack Jordan": [],
-    "The lost dawn /// Dan Neil": [],
-    "The lost future of Pepperharrow /// Natasha Pulley": [],
-    "The maiden and the Unseen /// Jeanette Rose, Alexis Rune": [],
-    "The marked /// Lilith Saintcrow": [],
-    "The named /// Marianne Curley": [],
-    "The rise of Endymion /// Dan Simmons": [],
-    "The shadow of the wind /// Carlos Ruiz Zaf\u00f3n": [
-      "The shadow of the wind /// Carlos Ruiz Zafron"
+    "The Betrayals /// Bridget Collins": ["The betrayals /// Bridget Collins"],
+    "The Core of the Sun /// Johanna Sinisalo": ["The core of the sun /// Johanna Sinisalo"],
+    "The Dead Boy's Last Poem /// Kelly Barnhill": ["The dead boy's last poem /// Kelly Barnhill"],
+    "The Deepest Blue /// Sarah Beth Durst": ["The deepest blue /// Sarah Beth Durst"],
+    "The Flight of the Eisenstein /// James Swallow": ["The flight of the eisenstein /// James swallow"],
+    "The Good Fairies of New York /// Martin Miller": ["The good fairies of New York /// Martin Miller"],
+    "The Last Human /// Zack Jordan": ["The last human /// Zack Jordan"],
+    "The Lost Dawn /// Dan Neil": ["The lost dawn /// Dan Neil"],
+    "The Lost Future of Pepperharrow /// Natasha Pulley": ["The lost future of Pepperharrow /// Natasha Pulley"],
+    "The Maiden and the Unseen /// Jeanette Rose, Alexis Rune": ["The maiden and the Unseen /// Jeanette Rose, Alexis Rune"],
+    "The Marked /// Lilith Saintcrow": ["The marked /// Lilith Saintcrow"],
+    "The Named /// Marianne Curley": ["The named /// Marianne Curley"],
+    "The Rise of Endymion /// Dan Simmons": ["The rise of Endymion /// Dan Simmons"],
+    "The Shadow of the Wind /// Carlos Ruiz Zaf\u00f3n": [
+      "The shadow of the wind /// Carlos Ruiz Zafron",
+      "The shadow of the wind /// Carlos Ruiz Zaf\u00f3n"
     ],
-    "The spider and the scribe /// Morgan Stang": [],
-    "The taxidermist's other wife /// Kelly Barnhill": [],
-    "The vacuum of space /// Julia Huni": [],
-    "The winter garden /// Alexandra Bell": [],
-    "The women's war /// Jenna glass": [],
+    "The Spider and the Scribe /// Morgan Stang": ["The spider and the scribe /// Morgan Stang"],
+    "The Taxidermist's Other Wife /// Kelly Barnhill": ["The taxidermist's other wife /// Kelly Barnhill"],
+    "The Vacuum of Space /// Julia Huni": ["The vacuum of space /// Julia Huni"],
+    "The Winter Garden /// Alexandra Bell": ["The winter garden /// Alexandra Bell"],
+    "The Women's War /// Jenna Glass": ["The women's war /// Jenna glass"],
     "Theft of Swords /// Michael J. Sullivan": [
       "Theft of Swords /// Michael J Sullivan",
       "Theft of Swords /// Michael Sullivan"
