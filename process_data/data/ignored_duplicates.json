@@ -28,6 +28,7 @@
     "A.F. Steadman": [],
     "A.G. Riddle": [],
     "A.G. Slatter": [],
+    "A.J. Aalto": [],
     "A.J. Barber": [],
     "A.J. Bass": [],
     "A.J. Demas": [],
@@ -356,7 +357,9 @@
     "Alexander C. Kane": [],
     "Alexander Dan Vilhj\u00e1lmsson": [],
     "Alexander Darwin": [],
-    "Alexander Freed": [],
+    "Alexander Freed": [
+      "David Gaider and Alexander Freed"
+    ],
     "Alexander Lloyd": [],
     "Alexander Olson": [],
     "Alexander Wales": [],
@@ -468,7 +471,9 @@
     "Alma Alexander": [],
     "Alma Katsu": [],
     "Alter S. Reiss": [],
+    "Alvaro Enrigue": [],
     "Alwyn Hamilton": [],
+    "Alys Arden and Jacquelin De Leon": [],
     "Alyssa Cole": [],
     "Amal El-Mohtar": [
       "Amal El-Mohtar, Max Gladstone",
@@ -557,6 +562,7 @@
     "Amelia Ives": [],
     "Ameli\u00e9 Wen Zhao": [],
     "Amerie": [],
+    "Ameriie": [],
     "Ami McKay": [],
     "Amie Kaufman": [
       "Amie Kaufman, Jay Kristoff",
@@ -634,6 +640,7 @@
       "Brandon Sanderson, Janci Patterson",
       "Brandon Sanderson, Mary Robinette Kowal",
       "Brandon Sanderson, Rik Hoskin, Julius M. Gopez",
+      "Brandon Sanderson, Robert Jordan",
       "Brian D. Anderson",
       "Brian Herbert, Kevin J. Anderson",
       "Brian Sanderson",
@@ -689,6 +696,7 @@
     "Andrew Dykstal": [],
     "Andrew F. Sullivan": [],
     "Andrew Hussie": [],
+    "Andrew J. Offutt": [],
     "Andrew Joseph White": [],
     "Andrew Kelly Stewart": [
       "Andrea Stewart"
@@ -715,8 +723,10 @@
     ],
     "Andrew Seiple": [],
     "Andrew Smith": [],
+    "Andrew van Wey": [],
     "Andries Louws": [],
     "Andrii Novik": [],
+    "Andrjez Sapkowski": [],
     "Andrus Kivir\u00e4hk": [],
     "Andrzej Klimowski": [],
     "Andrzej Kwiecie\u0144": [],
@@ -789,6 +799,7 @@
     ],
     "Anna Arvidsson": [],
     "Anna Burke": [],
+    "Anna Butler": [],
     "Anna Fleck": [],
     "Anna Kavan": [],
     "Anna Kopp and Gabrielle Kari": [
@@ -896,6 +907,7 @@
     "Arden Powell": [],
     "Argentorum": [],
     "Ari Marmell": [],
+    "Ariana Ferrante": [],
     "Ariana Nash": [],
     "Arianna Florean": [
       "Ricardo Sanchez, Adara Sanchez, Arianna Florean"
@@ -955,9 +967,11 @@
     ],
     "Ashley Robin Franklin": [],
     "Ashley Shuttleworth": [],
+    "Ashlyn Drewek": [],
     "Askok K. Banker": [],
     "Asmodeus": [],
     "Aster Glenn Gray": [],
+    "Aster S. Monroe": [],
     "Astor Glenn Gray": [],
     "Astrid Knight": [],
     "Astrid Scholte": [],
@@ -1059,6 +1073,7 @@
       "Bogi Tak\u00e1cs",
       "Bokuto Uno",
       "Bolu Babalola",
+      "Bonnie Garmus",
       "Bonnie Quinn",
       "Bora Chung",
       "Boris Strugatsky",
@@ -1118,6 +1133,7 @@
       "Megan Abbott",
       "Michael Chabon",
       "Mike Albo",
+      "Mike Bockoven",
       "Naomi Booth",
       "Natasha Bowen",
       "Nils Westerboer",
@@ -1207,6 +1223,7 @@
       "Dobson"
     ],
     "Bendi Barret": [],
+    "Bendi Barrett": [],
     "Benedict Jacka": [],
     "Benedict Patrick": [
       "J.P. Ashman, Dyrk Ashton, David Benem, Ben Galley, T.L. Greylock, Jeffrey Hall, Laura M. Hughes, Alec Hutson, Steven Kelliher, Michael R. Miller, Bryce O'Connor, Benedict Patrick, Mike Shel, Phil Tucker, Timandra Whitecastle"
@@ -1222,6 +1239,7 @@
     "Benjamin Rosenbaum": [
       "Cory Doctorow, Benjamin Rosenbaum"
     ],
+    "Benjanun Sriduangkaew": [],
     "Bennet, M.N.": [],
     "Bennett R. Coles": [],
     "Benny Lawrence": [],
@@ -1245,6 +1263,7 @@
     "Bex Hogan": [],
     "Bey Deckard": [],
     "Bianca Marais": [],
+    "Bibhutibhushan Bandyopadhyay": [],
     "Bijal Vachharajani": [],
     "Bikabi": [],
     "Bill Bevins": [],
@@ -1300,6 +1319,13 @@
     "Bolu Babalola": [
       "BO"
     ],
+    "Bonnie Garmus": [
+      "BO",
+      "Bonnie Garumus"
+    ],
+    "Bonnie Garumus": [
+      "Bonnie Garmus"
+    ],
     "Bonnie Quinn": [
       "BO"
     ],
@@ -1316,6 +1342,8 @@
     "Brad Bell": [],
     "Bradley Beaulieu": [],
     "Bradley P. Beaulieu": [],
+    "Bradley Sides": [],
+    "Brahm Stoker": [],
     "Bram Stoker": [
       "Bram Stoker, Sabine Baring-Gould, Mary Fortune",
       "Bram Stoker, Sabine Baring-Gould, Mary Fortune, et al"
@@ -1339,6 +1367,7 @@
       "Brandon Sanderson, Janci Patterson",
       "Brandon Sanderson, Mary Robinette Kowal",
       "Brandon Sanderson, Rik Hoskin, Julius M. Gopez",
+      "Brandon Sanderson, Robert Jordan",
       "George R R Martin, Diana Gabaldon, Brandon Sanderson",
       "George R.R. Martin, Diana Gabaldon, Brandon Sanderson",
       "Robert Jordan, Brandon Sanderson"
@@ -1362,6 +1391,11 @@
       "Brandon Sanderson",
       "Julius M. Gopez",
       "Rik Hoskin"
+    ],
+    "Brandon Sanderson, Robert Jordan": [
+      "Anderson",
+      "Brandon Sanderson",
+      "Robert Jordan"
     ],
     "Bree Paulson": [],
     "Brendan Ritchie": [],
@@ -1706,8 +1740,10 @@
     "Carissa Orlando": [],
     "Carl Sagan": [],
     "Carlie Sorosiak": [],
+    "Carlie St. George": [],
     "Carlos Fuentes": [],
     "Carlos Hernandez": [],
+    "Carlos Ruiz Zafon": [],
     "Carlos Ruiz Zaf\u00f3n": [],
     "Carlotta Hughes": [],
     "Carmen Maria Machado": [],
@@ -1740,7 +1776,8 @@
       "Susanne Valenti"
     ],
     "Caroline Stevermer": [
-      "Patricia C. Wrede, Caroline Stevermer"
+      "Patricia C. Wrede, Caroline Stevermer",
+      "Patricia Wrede & Caroline Stevermer"
     ],
     "Carolyn Ives Gilman": [],
     "Carrie Harris": [],
@@ -1910,6 +1947,7 @@
       "BO"
     ],
     "Chana Porter": [],
+    "Charis Cotter": [],
     "Charish Reid": [],
     "Charlaine Harris": [
       "Charlaine Harris, Toni L.P. Kelner"
@@ -1989,6 +2027,7 @@
     "Chloe Benjamin": [],
     "Chloe Gong": [],
     "Chloe Neill": [],
+    "Chloe Spencer": [],
     "Chloe Timms": [],
     "Cho Nam-Joo": [],
     "Choo": [
@@ -2067,11 +2106,13 @@
     ],
     "Christina Soontornvat": [],
     "Christina Sweeney-Baird": [],
+    "Christine Grace": [],
     "Christine Grillo": [],
     "Christine Lynn Herman": [
       "Amanda Foody, C.L. Herman"
     ],
     "Christopher Buehlman": [],
+    "Christopher Buel": [],
     "Christopher Francis": [],
     "Christopher G Nutall": [],
     "Christopher G. Nuttall": [],
@@ -2400,6 +2441,7 @@
     "Dan Simmons": [],
     "Dan Slot": [],
     "Dan Stout": [],
+    "Dan Sugralinov": [],
     "Dan Watters": [
       "Watt"
     ],
@@ -2453,6 +2495,7 @@
     "Daniel P. Mannix": [],
     "Daniel Polansky": [],
     "Daniel Potter": [],
+    "Daniel Price": [],
     "Daniel Rigby": [],
     "Daniel Schinhofen": [],
     "Daniel Schwabauer": [],
@@ -2623,7 +2666,13 @@
       "Tim Miller, David Fincher"
     ],
     "David G. Hartwell": [],
-    "David Gaider": [],
+    "David Gaider": [
+      "David Gaider and Alexander Freed"
+    ],
+    "David Gaider and Alexander Freed": [
+      "Alexander Freed",
+      "David Gaider"
+    ],
     "David Garnett": [],
     "David Gemmell": [
       "David Gemmell, Stella Gemmell"
@@ -2644,6 +2693,7 @@
     "David Keck": [],
     "David Khalaf": [],
     "David Koepp": [],
+    "David Langford": [],
     "David Lee Summers": [],
     "David Levithan": [
       "Andrea Cremer, David Levithan"
@@ -2759,6 +2809,7 @@
     "Dennis E. Taylor": [
       "Taylor"
     ],
+    "Derek Benz, J.S. Lewis": [],
     "Derek Kunsken": [],
     "Derek Landy": [],
     "Derek Prior": [],
@@ -2862,10 +2913,12 @@
     "Don Mark Baldrige": [],
     "Donna Barba Higuera": [],
     "Donna Tartt": [],
+    "Dorian Valentine": [],
     "Dorothy Tse": [],
     "Doug Dorst": [
       "J.J. Abrams & Doug Dorst"
     ],
+    "Doug Murano": [],
     "Douglas A. Anderson": [
       "Anderson"
     ],
@@ -2956,6 +3009,7 @@
     ],
     "EA Hooper": [],
     "EDWARD ASHTON": [],
+    "EK Johnston": [],
     "ERIN STERLING": [],
     "Eboni Dunbar": [
       "BO"
@@ -3061,7 +3115,8 @@
     "Elizabeth Ann Scarborough": [],
     "Elizabeth Bass": [],
     "Elizabeth Bear": [
-      "John Scalzi"
+      "John Scalzi",
+      "Sarah Monette and Elizabeth bear"
     ],
     "Elizabeth Briggs": [],
     "Elizabeth C. Mock": [],
@@ -3100,6 +3155,7 @@
     ],
     "Ella Pyne": [],
     "Elle Beaumont": [],
+    "Elle Driver": [],
     "Elle Katherine White": [],
     "Elle McNicoll": [],
     "Elle Porter": [],
@@ -3189,6 +3245,7 @@
     ],
     "Emily Carroll": [],
     "Emily Croy Barker": [],
+    "Emily H. Wilson": [],
     "Emily Habeck": [],
     "Emily Hamilton": [],
     "Emily J. Taylor": [
@@ -3227,6 +3284,7 @@
     "Emma K. Ohland": [],
     "Emma L. Adams": [],
     "Emma Mieko Camdon": [],
+    "Emma Mills": [],
     "Emma Nelson and Hannah Smith": [],
     "Emma Newman": [
       "Jonathan Barnes, Adrian Tchaikovsky, Emma Newman, Foz Meadows, Kate Heartfield",
@@ -3333,6 +3391,10 @@
     "ErraticErrata": [],
     "Errick Nunnally": [],
     "Eryn Ivers": [],
+    "Erynn Lehtonen": [
+      "ONE",
+      "One"
+    ],
     "Erzebet YellowBoy": [
       "Catherynne M. Valente, Julia Talbot, Amal El-Mohtar, JoSelle Vanderhooft, Erzebet YellowBoy"
     ],
@@ -3396,6 +3458,7 @@
       "H.J. Tolson, F.R. Smith"
     ],
     "F.T. Lukens": [],
+    "FC YEe": [],
     "FIONA JONES": [
       "ONE",
       "One"
@@ -3470,6 +3533,7 @@
     "Frances Hodgson Burnett": [],
     "Frances Koziar": [],
     "Frances Ogamba": [],
+    "Frances White": [],
     "Frances Wren": [],
     "Francesca Flores": [],
     "Francesca May": [],
@@ -3561,7 +3625,8 @@
       "Gabriela Houston",
       "Gabriela Romero-Lacruz",
       "Gabrielle Korn",
-      "Gabrielle Zevin"
+      "Gabrielle Zevin",
+      "Joe Hill, Gabriel Rodr\u00edguez"
     ],
     "Gabriel B\u00e1": [
       "Gabriel",
@@ -3681,6 +3746,7 @@
     ],
     "Genvieve Cogman": [],
     "Geoff Johns": [],
+    "Geoff Rickly": [],
     "Geoffrey Saign": [],
     "George Alec Effinger": [],
     "George Donnelly": [],
@@ -3928,6 +3994,7 @@
     "Hailey Piper": [],
     "Hailey Turner": [],
     "Hajime Isayama": [],
+    "Hajime Kanzaka": [],
     "Hal Duncan": [],
     "Hal Emerson": [],
     "Haldeman III, Jack C.": [],
@@ -4030,6 +4097,7 @@
     "Henry": [
       "Christina Henry",
       "Henry H. Neff",
+      "Henry Hoke",
       "Henry James",
       "Henry Kuttner",
       "Henry Lien",
@@ -4039,6 +4107,9 @@
       "Veronica G. Henry"
     ],
     "Henry H. Neff": [
+      "Henry"
+    ],
+    "Henry Hoke": [
       "Henry"
     ],
     "Henry James": [
@@ -4053,6 +4124,7 @@
     "Herbert Mason": [],
     "Herbert Wells": [],
     "Herman Melville": [],
+    "Hernandez, Carlos": [],
     "Herv\u00e9 Le Tellier": [],
     "Hester Fox": [],
     "Hickman and Weis": [],
@@ -4144,6 +4216,7 @@
     ],
     "Hugh Howey": [],
     "Hugo Canuto": [],
+    "Hunter Shea": [],
     "Huw Steer": [],
     "Hypnoticwinter": [],
     "Hyzie": [],
@@ -4167,6 +4240,7 @@
     "Ian C. Esslemont": [],
     "Ian Douglas": [],
     "Ian Fortey": [],
+    "Ian Haramaki": [],
     "Ian Lewis": [],
     "Ian M Banks": [],
     "Ian Mahler": [],
@@ -4227,6 +4301,7 @@
       "Kathrine Fabian"
     ],
     "Iori Kusano": [],
+    "Iori Miyazawa": [],
     "Ira Levin": [],
     "Irene Gallo": [],
     "Irene Sol\u00e0": [],
@@ -4252,6 +4327,7 @@
     "Isabel J. Kim": [],
     "Isabel Jordan": [],
     "Isabel Pelech": [],
+    "Isabel Sterling": [],
     "Isabel Yap": [],
     "Isabela Oliveira": [
       "Isabela Oliveira, Jed Sabin"
@@ -4286,6 +4362,7 @@
     ],
     "J. A. Stowe": [],
     "J. Bree": [],
+    "J. C. Cervantes": [],
     "J. Clark": [
       "J.M. Clark"
     ],
@@ -4449,6 +4526,7 @@
       "Gardner Dozois",
       "Jack Dann"
     ],
+    "Jack Finney": [],
     "Jack L. Chalker": [],
     "Jack Lyster": [
       "Patrice Fitzgerald, Jack Lyster"
@@ -4625,8 +4703,10 @@
     "Jamie Green": [
       "Horton Booth, Stephanie Kate Strohm, Jamie Green"
     ],
+    "Jamie Jackson": [],
     "Jamie Lackey": [],
     "Jamie Littler": [],
+    "Jamie Pacton": [],
     "Jamie Watt": [
       "Watt"
     ],
@@ -4868,6 +4948,7 @@
     "Jennings Zabrinsky": [],
     "Jenny Hval": [],
     "Jenny Nimmo": [],
+    "Jenny Schwartz": [],
     "Jeph Loeb": [
       "Jeph Loeb & Tim Sale",
       "Jeph Loeb, Tim Sale"
@@ -4914,6 +4995,7 @@
     "Jesse McMinn": [],
     "Jesse Petersen": [],
     "Jessi Zabarsky": [],
+    "Jessica A. McMinn": [],
     "Jessica Clare": [],
     "Jessica Cluess": [],
     "Jessica Day George": [],
@@ -4967,6 +5049,7 @@
       "Kerrie L. Hughes, R.R. Virdi, Jim Butcher"
     ],
     "Jim C. Hines": [],
+    "Jim Grimsley": [],
     "Jim Hines": [],
     "Jim Parfitt": [],
     "Jim Starlin": [],
@@ -5020,7 +5103,13 @@
       "Roshani Chokshi, Joe Caramagna, Anu Chouhan"
     ],
     "Joe Haldeman": [],
-    "Joe Hill": [],
+    "Joe Hill": [
+      "Joe Hill, Gabriel Rodr\u00edguez"
+    ],
+    "Joe Hill, Gabriel Rodr\u00edguez": [
+      "Gabriel",
+      "Joe Hill"
+    ],
     "Joe Jackson": [],
     "Joe Keatinge": [],
     "Joe M. McDermott": [
@@ -5098,6 +5187,7 @@
     "John Miller": [],
     "John Milton": [],
     "John Myers Myers": [],
+    "John Norman": [],
     "John Palladino": [],
     "John Parke Davis": [
       "John Parke Davis, Carrie Ryan"
@@ -5354,6 +5444,7 @@
     "Juliet E. McKenna": [],
     "Juliet Marillier": [],
     "Julietta Suzuki": [],
+    "Juliette Cross": [],
     "Juliette Wade": [],
     "Julio Cort\u00e1zar": [],
     "Julius M. Gopez": [
@@ -5398,6 +5489,7 @@
     "K-Ming Chang": [],
     "K. Ancrum": [],
     "K. Arsenault Rivera": [],
+    "K. C. Alexander": [],
     "K. C. Grifant": [],
     "K. E. Andrews": [],
     "K. Eason": [],
@@ -5612,6 +5704,7 @@
       "Katherena Vermette",
       "Scott B. Henderson"
     ],
+    "Katherine Addision": [],
     "Katherine Addison": [],
     "Katherine Anderson": [
       "Anderson"
@@ -5681,6 +5774,7 @@
     "Kazuo Ishiguro": [],
     "Kazuo Ishiguru": [],
     "Kazuo Isighuro": [],
+    "Kbrick": [],
     "Kealan Patrick Burke": [],
     "Keanu Reeves": [],
     "Keigo Higashino": [],
@@ -5789,6 +5883,7 @@
       "Kerrie L. Hughes",
       "R.R. Virdi"
     ],
+    "Kerry Greenwood": [],
     "Kerry Hammond = u/searchandrescuewoods": [],
     "Kerry Nietz": [],
     "Kerstin Gier": [],
@@ -5829,6 +5924,7 @@
       "Heather Graham",
       "Jonathan Maberry",
       "Kevin J. Anderson",
+      "PATRICIA BRIGGS",
       "Patricia Briggs"
     ],
     "Kevin Paolini": [],
@@ -6068,6 +6164,7 @@
     "Lana Kole": [],
     "Lana Pecherczyk": [],
     "Lance Parkin": [],
+    "Landry Q. Walker": [],
     "Lane Waldman": [],
     "Lani Forbes": [],
     "Lara Elena Donnelly": [],
@@ -6142,6 +6239,7 @@
     "Lauren Ellen": [],
     "Lauren Gilley": [],
     "Lauren Groff": [],
+    "Lauren J.A. Bear": [],
     "Lauren James": [],
     "Lauren Jankowski": [],
     "Lauren Moore": [
@@ -6207,6 +6305,7 @@
       "Leigh Bardugo"
     ],
     "Leigh Brackett": [],
+    "Leigh Harlen": [],
     "Leigh Ronald Grossman": [],
     "Leinil Francis Yu": [
       "Mark Waid, Leinil Francis Yu"
@@ -6235,6 +6334,7 @@
     "Lewis Carroll": [],
     "Lex Croucher": [],
     "Lexa Luthor": [],
+    "Lexi George": [],
     "Lexi Ray": [],
     "Lexi Ryan": [],
     "Lexy Wurst": [],
@@ -6361,6 +6461,7 @@
     "Lisabel Chretien": [],
     "Lisbeth Campbell": [],
     "Liselle Sambury": [],
+    "Lisette Marshall": [],
     "Lish McBride": [],
     "Liu Cixen": [],
     "Liu, Ken": [],
@@ -6507,6 +6608,9 @@
     "M.C.A. Hogarth": [],
     "M.D. Ireman": [],
     "M.D. Presley": [],
+    "M.E. Robinson": [
+      "S.E. Robinson"
+    ],
     "M.E. Thorne": [],
     "M.F. Ferma": [
       "M.F. Ferma, J.N. Chaney"
@@ -6579,6 +6683,7 @@
     "MJ Pankey": [],
     "MK Lobb": [],
     "MKRNYILGLD": [],
+    "MONA AWAD": [],
     "Maarten van der Graaff": [],
     "MacFarlane": [],
     "Macaiah Johnson": [],
@@ -6723,6 +6828,7 @@
     "Maria Curtis": [],
     "Maria Dahvana": [],
     "Maria Dahvana Headley": [],
+    "Maria Doria Russell": [],
     "Maria Grace": [],
     "Maria Haskins": [],
     "Maria Ingrande-Mora": [],
@@ -6784,6 +6890,7 @@
     "Marieke Nijkamp and Manuel Preitano": [
       "Marieke Nijkamp"
     ],
+    "Marika McCoola and Aatmaja Pandya": [],
     "Mariley Lares": [],
     "Marillier, Juliet": [],
     "Marina & Sergei Dyachenko": [],
@@ -6804,6 +6911,7 @@
     ],
     "Marina Finlayson": [],
     "Marina J. Lostetter": [],
+    "Marion Blackwood": [],
     "Marion Deeds": [],
     "Marion Zimmer Bradley": [],
     "Marisa Crane": [],
@@ -6854,7 +6962,9 @@
       "Steve Pugh"
     ],
     "Mark Smylie": [],
-    "Mark Teppo": [],
+    "Mark Teppo": [
+      "Various Short Fiction (ed. Frances Lu-Pai Ippolito, Mark Teppo)"
+    ],
     "Mark Twain": [],
     "Mark Waid": [
       "Mark Waid, Leinil Francis Yu"
@@ -7191,6 +7301,7 @@
     "Meyer, Marissa": [],
     "Mi Tagawa": [],
     "Mia Archer": [],
+    "Mia Dalia": [],
     "Mia Myllym\u00e4ki": [],
     "Mia Tsai": [],
     "Micah Dean Hicks": [],
@@ -7329,6 +7440,7 @@
     ],
     "Michelle Manus": [],
     "Michelle Marrison": [],
+    "Michelle Min Sterling": [],
     "Michelle Paver": [],
     "Michelle Ruiz Keil": [],
     "Michelle Sagara": [],
@@ -7345,6 +7457,9 @@
       "BO"
     ],
     "Mike Ashley": [],
+    "Mike Bockoven": [
+      "BO"
+    ],
     "Mike Brooks": [],
     "Mike Caliban": [
       "Wolfe Locke, Mike Caliban"
@@ -7413,12 +7528,14 @@
     "Miri Mikawa": [],
     "Mishell Baker": [],
     "Mitchell Hogan": [],
+    "Mitriel Faywood": [],
     "Miya Kazuki": [],
     "Miyuki Miyabe": [],
     "Mizuki Tsujimura": [],
     "Mo Chen Huan": [],
     "Mo Willems": [],
     "Mo Xiang Tong Xiu": [],
+    "Mo Yan": [],
     "Mohamed Kheir": [],
     "Mohiro Kitoh": [],
     "Mohsin Hamid": [],
@@ -7516,6 +7633,9 @@
       "Marie Enger",
       "Nadia Shammas"
     ],
+    "Nadia Simmons; Sara Alfageeh": [
+      "Sara Alfageeh"
+    ],
     "Nadine Brandes": [],
     "Nafiza Azad": [],
     "Nagabe": [],
@@ -7539,6 +7659,7 @@
     "Namwali Serpell": [],
     "Nana Kwame Adjei-Brenyah": [],
     "Nancy A. Collins": [],
+    "Nancy Farmer": [],
     "Nancy Holder": [
       "James Lovegrove, Nancy Holder"
     ],
@@ -7657,6 +7778,7 @@
       "Marguerite Bennett, Kieron Gillen, Neil Gaiman",
       "Neil Gaiman and P. Craig Russell",
       "Neil Gaiman, Dirk Maggs",
+      "Neil Gaiman, Michael Reave",
       "Neil Gaiman, Michael Reaves, Mallory Reaves",
       "Neil Gaiman, Terry Pratchett",
       "Terry Pratchet & Neil Gaiman"
@@ -7669,10 +7791,15 @@
       "Dirk Maggs",
       "Neil Gaiman"
     ],
+    "Neil Gaiman, Michael Reave": [
+      "Neil Gaiman",
+      "Neil Gaiman, Michael Reaves, Mallory Reaves"
+    ],
     "Neil Gaiman, Michael Reaves, Mallory Reaves": [
       "Mallory Reaves",
       "Michael Reaves",
-      "Neil Gaiman"
+      "Neil Gaiman",
+      "Neil Gaiman, Michael Reave"
     ],
     "Neil Gaiman, Terry Pratchett": [
       "Neil Gaiman",
@@ -7834,6 +7961,7 @@
     "Nora Lawless": [],
     "Nora Roberts": [],
     "Noriko Ogiwara": [],
+    "Norman Erikson Pasaribu": [],
     "Norman Partridge": [],
     "Norman Spinrad": [],
     "Norton Juster": [],
@@ -7849,6 +7977,7 @@
       "CSE Cooneu",
       "Diana Wynn Jones",
       "Elisabetta Gnone",
+      "Erynn Lehtonen",
       "FIONA JONES",
       "Gwyneth Jones",
       "Honey Watson",
@@ -7913,6 +8042,7 @@
       "CSE Cooneu",
       "Diana Wynn Jones",
       "Elisabetta Gnone",
+      "Erynn Lehtonen",
       "FIONA JONES",
       "Gwyneth Jones",
       "Honey Watson",
@@ -7983,7 +8113,8 @@
     ],
     "P.J. Garcin": [],
     "P.L. McMillan": [
-      "P.L. McMillan, Solomon Forse"
+      "P.L. McMillan, Solomon Forse",
+      "Solomon Forse, P.L. McMillan"
     ],
     "P.L. McMillan, Solomon Forse": [
       "P.L. McMillan",
@@ -7991,6 +8122,9 @@
     ],
     "P.L. Travers": [],
     "P.N. Elrod": [],
+    "PATRICIA BRIGGS": [
+      "Kevin J. Anderson, Jonathan Maberry, Patricia Briggs, Heather Graham"
+    ],
     "PC Hogdell": [],
     "PIERCE BROWN": [],
     "Paavo Matsin": [],
@@ -8037,7 +8171,8 @@
     ],
     "Patricia C. McKissack": [],
     "Patricia C. Wrede": [
-      "Patricia C. Wrede, Caroline Stevermer"
+      "Patricia C. Wrede, Caroline Stevermer",
+      "Patricia Wrede & Caroline Stevermer"
     ],
     "Patricia C. Wrede, Caroline Stevermer": [
       "Caroline Stevermer",
@@ -8060,6 +8195,8 @@
       "Patricia Wrede & Caroline Stevermer"
     ],
     "Patricia Wrede & Caroline Stevermer": [
+      "Caroline Stevermer",
+      "Patricia C. Wrede",
       "Patricia Wrede"
     ],
     "Patrick Carman": [],
@@ -8088,6 +8225,7 @@
     "Paul Dano": [],
     "Paul E. Martens": [],
     "Paul Hoffman": [],
+    "Paul Jenkins, Joe Casey, Mark Millar": [],
     "Paul Kane": [
       "Marie O'Regan, Paul Kane"
     ],
@@ -8150,6 +8288,7 @@
       "Peter S. Beagle"
     ],
     "Peter Bebergal": [],
+    "Peter Berresford Ellis": [],
     "Peter Brown": [],
     "Peter Cawdron": [],
     "Peter Christen Asbj\u00f8rnsen, J\u00f8rgen Moe, Tiina Nunnally": [],
@@ -8301,6 +8440,8 @@
     "R.B. Lemberg": [],
     "R.B. Lemburg": [],
     "R.C. Lewis": [],
+    "R.E. Palmer": [],
+    "R.F. KUANG": [],
     "R.F. Kuang": [],
     "R.J. Barker": [
       "K.J. Barker"
@@ -8382,6 +8523,7 @@
     "Rae Knightly": [],
     "Rae Knowles": [],
     "Rae Mariz": [],
+    "Rae Waller": [],
     "Rafael Nicol\u00e1s": [],
     "Rafal Jaki": [],
     "Rafeeat Aliyu": [
@@ -8620,11 +8762,13 @@
       "Brandon Sanderson, Rik Hoskin, Julius M. Gopez"
     ],
     "Riley Sager": [],
+    "Riley Shea": [],
     "Rin Chupeco": [],
     "Rin Chupero": [],
     "RinoZ": [],
     "Rio Youers": [],
     "Rion Amilcar Scott": [],
+    "Risa Fey": [],
     "Rita Chang-Eppig": [],
     "Rita Woods": [],
     "Rito Kohsaka": [
@@ -8677,6 +8821,7 @@
     "Robert Charles Wilson": [],
     "Robert E Howard": [],
     "Robert E. Howard": [],
+    "Robert E. Kreig": [],
     "Robert E. Vardeman": [],
     "Robert Eames": [],
     "Robert Evans": [],
@@ -8693,6 +8838,7 @@
       "Jackson Ford"
     ],
     "Robert Jordan": [
+      "Brandon Sanderson, Robert Jordan",
       "Robert Jordan, Brandon Sanderson"
     ],
     "Robert Jordan, Brandon Sanderson": [
@@ -8745,6 +8891,7 @@
       "Bryan Thomas Schmidt",
       "Robert Silverberg"
     ],
+    "Robert Silverberg, Ed.": [],
     "Robert Swartwood": [],
     "Robert T. Bakker": [],
     "Robert V.S. Redick": [],
@@ -8777,6 +8924,7 @@
       "Robin McKinley"
     ],
     "Robin Sloan": [],
+    "Robin Sloane": [],
     "Robin Stevens": [],
     "Robyn Peterman": [],
     "Robyn Schneider": [],
@@ -8788,6 +8936,12 @@
     "Roger Lancelyn Green": [],
     "Roger Macbride Allen": [],
     "Roger Stern": [],
+    "Roger Zelazney": [
+      "Roger Zelazney & Robert Silverberg"
+    ],
+    "Roger Zelazney & Robert Silverberg": [
+      "Roger Zelazney"
+    ],
     "Roger Zelazny": [
       "Roger Zelazny, Jane Lindskold",
       "Roger Zelazny, Robert Sheckley",
@@ -9018,8 +9172,12 @@
     "S.D. Smith": [],
     "S.E. Gilbey": [],
     "S.E. Grove": [],
+    "S.E. Harmon": [],
     "S.E. Huang": [],
     "S.E. Robertson": [],
+    "S.E. Robinson": [
+      "M.E. Robinson"
+    ],
     "S.J. Costello": [],
     "S.J. Sanders": [],
     "S.J. Whitby": [],
@@ -9113,6 +9271,7 @@
     "Samara Auman": [],
     "Samara Breger": [],
     "Samer Rabadi": [],
+    "Sami Shah": [],
     "Samit Basu": [],
     "Samlman Rushdie": [],
     "Sammy H.K. Smith": [],
@@ -9147,6 +9306,7 @@
     "Sara A. Mueller": [],
     "Sara Alfageeh": [
       "Nadia Shammas and Sara Alfageeh",
+      "Nadia Simmons; Sara Alfageeh",
       "Sara Alfageeh, Nadia Shammas"
     ],
     "Sara Alfageeh, Nadia Shammas": [
@@ -9220,7 +9380,13 @@
     "Sarah McGuire": [],
     "Sarah Mensinga": [],
     "Sarah Micklem": [],
-    "Sarah Monette": [],
+    "Sarah Monette": [
+      "Sarah Monette and Elizabeth bear"
+    ],
+    "Sarah Monette and Elizabeth bear": [
+      "Elizabeth Bear",
+      "Sarah Monette"
+    ],
     "Sarah Morgan": [
       "Jordan Morris, Sarah Morgan, Tony Cliff"
     ],
@@ -9282,6 +9448,7 @@
     "Scott B. Henderson": [
       "Katherena Vermette, Scott B. Henderson"
     ],
+    "Scott Bakker": [],
     "Scott Chantler": [],
     "Scott Craven": [],
     "Scott Drakeford": [],
@@ -9298,6 +9465,7 @@
     "Scott Lynch": [],
     "Scott Medbury": [],
     "Scott Meyer": [],
+    "Scott Moore": [],
     "Scott Oden": [],
     "Scott Reintgen": [],
     "Scott Sigler": [],
@@ -9317,6 +9485,7 @@
     "Seamus King": [],
     "Sean Danker": [],
     "Sean Gibson": [],
+    "Sean McKeever": [],
     "Sean Murphy": [],
     "Sean Oswald, Dean Henegar, Han Yang, Somnus Quill, J. Arthur Klein, Anders Hansen, Ledyr Tabot, Michael Head, R.J. Triveri, Sunny Sain": [],
     "Sean Phillips": [],
@@ -9366,12 +9535,14 @@
     "Seth Dickinson": [],
     "Seth Grahame-Smith": [],
     "Seth Haddon": [],
+    "Seth Hadon": [],
     "Seth Ring": [],
     "Seth Skorkowsky": [],
     "Sever Bronny": [],
     "Several": [],
     "Seymour Zeynalli": [],
     "Shami Stovall": [],
+    "Shami stovall": [],
     "Shana Abe": [],
     "Shane Berryhill": [],
     "Shane Hawk": [
@@ -9534,7 +9705,12 @@
     "Sofia Samatar": [],
     "Sofiya Pasternack": [],
     "Solomon Forse": [
-      "P.L. McMillan, Solomon Forse"
+      "P.L. McMillan, Solomon Forse",
+      "Solomon Forse, P.L. McMillan"
+    ],
+    "Solomon Forse, P.L. McMillan": [
+      "P.L. McMillan",
+      "Solomon Forse"
     ],
     "Solvej Balle": [],
     "Somaiya Daud": [],
@@ -9749,6 +9925,9 @@
     "Stjepan Sejic": [],
     "Stringfellow, Lisa": [],
     "Stuart Gibbs": [],
+    "Stuart Moore": [
+      "Tu\u00ed"
+    ],
     "Stuart Taunton": [],
     "Stuart Turton": [],
     "St\u00e9phane Fert": [],
@@ -9784,6 +9963,7 @@
     "Susanne Valenti": [
       "Caroline Peckham, Susanne Valenti"
     ],
+    "Sussanna Clarke": [],
     "Suyi Davies Okungbowa": [],
     "Suyi Davis okungboa": [],
     "Suzan Palumbo": [
@@ -10247,6 +10427,7 @@
       "David Weber, Timothy Zahn with Thomas Pope",
       "David Weber, Timothy Zahn, Thomas Pope"
     ],
+    "Timoth\u00e9e de Fombelle": [],
     "Tiphanie Yanique": [],
     "Tlotlo Tsamaase": [],
     "Tobi Ogundiran": [],
@@ -10258,6 +10439,7 @@
       "Paolo Bacigalupi, Tobias S. Buckell"
     ],
     "Toby Barlow": [],
+    "Tochi Onybuchi": [],
     "Tochi Onyebuchi": [],
     "Todd Herzman": [],
     "Todd McCaffrey": [
@@ -10341,6 +10523,7 @@
       "Alan Moore, David Lloyd, Tony Weare"
     ],
     "Tonya Liburd": [],
+    "Toonimated": [],
     "Tor.com": [],
     "Tori Bovalino": [
       "BO"
@@ -10356,6 +10539,7 @@
     "Tracy Deeon": [],
     "Tracy Deonn": [],
     "Tracy Doenn": [],
+    "Tracy Gregory": [],
     "Tracy Hickman": [
       "Margaret Weis, Tracy Hickman"
     ],
@@ -10417,6 +10601,7 @@
       "J. Tullos Hennig",
       "Nisha J. Tuli",
       "Plutus",
+      "Stuart Moore",
       "Wayetu Moore"
     ],
     "Tyler Hayes": [],
@@ -10481,6 +10666,9 @@
     ],
     "Various Authors": [
       "Various"
+    ],
+    "Various Short Fiction (ed. Frances Lu-Pai Ippolito, Mark Teppo)": [
+      "Mark Teppo"
     ],
     "Varja Chandrasekera": [],
     "Varric Tethras": [],
@@ -10676,6 +10864,7 @@
     "William Culbertson": [],
     "William D. Arand": [],
     "William Dietrich": [],
+    "William Fostchen": [],
     "William Gibson": [
       "John Shirley and William Gibson"
     ],
@@ -10687,6 +10876,7 @@
     ],
     "William Goldman": [],
     "William H. Keith Jr": [],
+    "William H. Keith Jr.": [],
     "William Hope Hodgson": [],
     "William King": [],
     "William Meikle": [],
@@ -10813,6 +11003,7 @@
     "Yoss": [],
     "You Fuguruma": [],
     "Youngchan Hwang, Carnby Kim": [],
+    "Yrsa Sigurdardottir": [],
     "Yrui Herrera": [],
     "Ysabeau S. Wilce": [],
     "Yu Chen": [
@@ -10837,6 +11028,7 @@
     "Y\u016bsaku Kitano": [
       "Tan"
     ],
+    "Z. K. ABRAHAM": [],
     "Zach Skye": [],
     "Zach Weinersmith": [],
     "Zack Argyle": [],
@@ -10908,6 +11100,7 @@
       "Das"
     ],
     "alfgifu": [],
+    "august clarke": [],
     "created by Michael Dante DiMartino and Bryan Konietzko; edited by Samantha Robertson": [
       "Bryan Konietzko",
       "Michael Dante DiMartino"
@@ -10945,6 +11138,7 @@
     "nostalgebraist": [],
     "one & Murata Yusuke": [],
     "qntm": [],
+    "rafael nicolas": [],
     "rob j. hayes": [],
     "ruffwriter": [],
     "s.e. robertson": [],
