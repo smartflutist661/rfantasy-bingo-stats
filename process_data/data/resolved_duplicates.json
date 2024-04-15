@@ -1311,7 +1311,7 @@
       "Bryce O'Connor and Luke Chmilenko"
     ],
     "Burke FitzPatrick": [],
-    "Butterfly, AO3": [],
+    "Butterfly": ["Butterfly, AO3"],
     "Buxie Mei": [],
     "C. Chancy": [],
     "C. Elizabeth Ward": [],
@@ -2659,10 +2659,10 @@
     "Drew Melbourne": [],
     "Dubravka Ugre\u0161i\u0107": [],
     "Duncan M. Hamilton": [
-      "Duncan M.M Hamilton"
+      "Duncan M.M Hamilton",
+      "Duncann M.M"
     ],
     "Duncan Sabien": [],
-    "Duncann M.M": [],
     "Dwain Worrell": [],
     "Dycefic": [],
     "Dylan Drakes": [],
@@ -2678,7 +2678,7 @@
       "Lily E. Yu"
     ],
     "E. Nesbit": [],
-    "E. S. Obern": [],
+    "E.S. Obern": ["E. S. Obern"],
     "E. Sands": [],
     "E. William Brown": [],
     "E.A. Comiskey": [],
@@ -2762,8 +2762,9 @@
     "Edgar Pangborn": [],
     "Edgar Rice Burroughs": [],
     "Edie Skye": [],
-    "Editors: Shelly Page, Alex Brown": [
-      "Editors: Shelly Page and Alex Brown"
+    "Shelly Page, Alex Brown": [
+      "Editors: Shelly Page and Alex Brown",
+      "Editors: Shelly Page, Alex Brown"
     ],
     "Edoardo Albert": [
       "Edoarado albert"
@@ -5199,7 +5200,7 @@
     ],
     "K.T. Hanna": [],
     "K.V. Johansen": [],
-    "KC Kean": [],
+    "K.C. Kean": ["KC Kean"],
     "Ka Bi Qiu": [],
     "Kacen Callender": [],
     "Kaeli Swift": [],
@@ -8464,7 +8465,6 @@
       "Roberts W. Chambers"
     ],
     "Robert Wynne-Simmons": [],
-    "Robert Zelaney": [],
     "Roberto Aguirre-Sacasa": [
       "Robert Aguirre-Sacasa"
     ],
@@ -8502,7 +8502,8 @@
     "Roger Stern": [],
     "Roger Zelazny": [
       "Roger Zelasny",
-      "Roger Zelazney"
+      "Roger Zelazney",
+      "Robert Zelaney"
     ],
     "Roger Zelazny, Jane Lindskold": [],
     "Roger Zelazny, Robert Sheckley": [],
@@ -8675,7 +8676,8 @@
       "Shannon Chkraborty",
       "Shannon Chrakraborty",
       "Shannon Shakraborty",
-      "Shannon chakraborty"
+      "Shannon chakraborty",
+      "Shannon Chakrobarty"
     ],
     "S.A. Jones": [],
     "S.A. Tholin": [
@@ -9175,7 +9177,6 @@
     ],
     "Shanna Swendson": [],
     "Shannon Appelcline": [],
-    "Shannon Chakrobarty": [],
     "Shannon Fay": [],
     "Shannon Hale": [],
     "Shannon Mayer": [],
