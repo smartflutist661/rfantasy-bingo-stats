@@ -468,7 +468,7 @@ Likewise, the following notes are shamelessly adapted.
 
 1. Stories were not examined for fitness. If you used **1984** for **Novella**, it was included in the statistics for that square.
 In addition, if you did something like, say, put **The Lost Metal** as a short story, I made no effort to figure out where it actually belonged.
-2. Series were collapsed to their first book. Graphic novels, light novels, manga, and webserials were collapsed from issues to the overall series.
+2. When a series was specified, it was collapsed to the first book. Graphic novels, light novels, manga, and webserials were collapsed from issues to the overall series.
 3. Books by multiple authors were counted once for each author. E.g.: **In the Heart of Darkness** by Eric Flint and David Drake counts as a read for both Eric Flint and David Drake.
 *However*, books by a writing team with a single-author pseudonym, e.g. M.A. Carrick, were counted once for the pseudonym, and not for the authors behind the pseudonym.
 4. Author demographic statistics are not included below, for two reasons: it quickly gets messy and culturally-specific,
