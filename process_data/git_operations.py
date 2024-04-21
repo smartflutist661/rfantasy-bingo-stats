@@ -12,7 +12,7 @@ from github import Github
 from github.GithubException import GithubException
 from requests import exceptions
 
-from .data.constants import REMOTE_REPO
+from .constants import REMOTE_REPO
 
 REPO_PATH = Path(__file__).parents[1]
 

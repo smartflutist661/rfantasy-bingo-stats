@@ -5,6 +5,7 @@ Created on Apr 7, 2023
 """
 from __future__ import annotations
 
+import warnings
 from collections import defaultdict
 from dataclasses import (
     dataclass,
@@ -17,7 +18,12 @@ from typing import (
     Mapping,
 )
 
-from ..data.current import CUSTOM_SEPARATOR
+from process_data.data_operations.author_title_book_operations import (
+    book_to_title_author,
+    title_author_to_book,
+)
+
+from ..constants import TITLE_AUTHOR_SEPARATOR
 from ..match_books.process_match import find_existing_match
 from .defined_types import (
     Author,
@@ -34,7 +40,8 @@ class RecordedDupes:
 
     author_dupes: defaultdict[Author, set[Author]]
     book_dupes: defaultdict[Book, set[Book]]
-    book_separator: str = CUSTOM_SEPARATOR
+    # Specifically for deserialization checks if the separator needs to change
+    title_author_separator: str = TITLE_AUTHOR_SEPARATOR
 
     def get_book_dedupe_map(self) -> Mapping[Book, Book]:
         """Reverse the book dupes to get bad values as keys"""
@@ -77,15 +84,33 @@ class RecordedDupes:
         if not skip_updates:
             handle_overlaps(author_dupes)
 
-        book_separator = str(data["book_separator"])
+        old_title_author_separator = str(data["title_author_separator"])
+        if old_title_author_separator != TITLE_AUTHOR_SEPARATOR:
+            # TODO: replace with logger
+            warnings.warn(
+                "Title/author separator has changed since last serialization."
+                + " Updating old data to use the new separator."
+            )
 
-        if book_separator != cls.book_separator:
-            raise RuntimeError("Book separator has changed. This is not yet handled.")
+            new_book_dupes: dict[Book, set[Book]] = {}
+            for book_dupe_key, book_dupe_vals in book_dupes.items():
+                new_book_key = convert_title_author_separator(
+                    book_dupe_key, old_title_author_separator
+                )
+                new_book_dupes[new_book_key] = set()
+                for book in book_dupe_vals:
+                    new_book_dupes[new_book_key].add(
+                        convert_title_author_separator(book, old_title_author_separator)
+                    )
+
+            return cls(
+                author_dupes=author_dupes,
+                book_dupes=book_dupes,
+            )
 
         return cls(
             author_dupes=author_dupes,
             book_dupes=book_dupes,
-            book_separator=book_separator,
         )
 
     def to_data(self) -> dict[str, Any]:
@@ -94,6 +119,16 @@ class RecordedDupes:
         for key, val in {field.name: getattr(self, field.name) for field in fields(self)}.items():
             out[key] = to_data(val)
         return out
+
+
+def convert_title_author_separator(book: Book, old_separator: str) -> Book:
+    title_author = book_to_title_author(book, old_separator)
+    for elem in title_author:
+        if TITLE_AUTHOR_SEPARATOR in elem:
+            raise ValueError(
+                "New title/author separator appears in old data. Try a different separator."
+            )
+    return title_author_to_book(title_author)
 
 
 def handle_overlaps(dupes: defaultdict[BookOrAuthor, set[BookOrAuthor]]) -> None:

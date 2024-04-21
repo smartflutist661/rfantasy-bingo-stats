@@ -132,7 +132,9 @@ NOVEL_TITLE_AUTHOR_HM_COLS: tuple[TitleAuthorHMCols, ...] = (
     (
         TitleCol("SQUARE 16: TITLE"),
         AuthorCol("SQUARE 16: AUTHOR"),
-        HardModeCol("SQUARE 16: HARD MODE: Must read a current selection of either a book club or readalong and participate in the discussion."),
+        HardModeCol(
+            "SQUARE 16: HARD MODE: Must read a current selection of either a book club or readalong and participate in the discussion."
+        ),
     ),
     (
         TitleCol("SQUARE 17: TITLE"),
@@ -142,12 +144,16 @@ NOVEL_TITLE_AUTHOR_HM_COLS: tuple[TitleAuthorHMCols, ...] = (
     (
         TitleCol("SQUARE 18: TITLE"),
         AuthorCol("SQUARE 18: AUTHOR"),
-        HardModeCol("SQUARE 18: HARD MODE: No dragons or dragon-like creatures (e.g. wyverns, the draccus in The Name of the Wind)."),
+        HardModeCol(
+            "SQUARE 18: HARD MODE: No dragons or dragon-like creatures (e.g. wyverns, the draccus in The Name of the Wind)."
+        ),
     ),
     (
         TitleCol("SQUARE 19: TITLE"),
         AuthorCol("SQUARE 19: AUTHOR"),
-        HardModeCol("SQUARE 19: HARD MODE: Not V. E. Schwab’s Shades of Magic series or Jim Butcher’s Codex Alera series."),
+        HardModeCol(
+            "SQUARE 19: HARD MODE: Not V. E. Schwab’s Shades of Magic series or Jim Butcher’s Codex Alera series."
+        ),
     ),
     (
         TitleCol("SQUARE 20: TITLE"),
@@ -157,7 +163,9 @@ NOVEL_TITLE_AUTHOR_HM_COLS: tuple[TitleAuthorHMCols, ...] = (
     (
         TitleCol("SQUARE 21: TITLE"),
         AuthorCol("SQUARE 21: AUTHOR"),
-        HardModeCol("SQUARE 21: HARD MODE: Not a futuristic setting. Takes place in a time akin to ours, in the past, or in a fantasy world that has no science fiction elements."),
+        HardModeCol(
+            "SQUARE 21: HARD MODE: Not a futuristic setting. Takes place in a time akin to ours, in the past, or in a fantasy world that has no science fiction elements."
+        ),
     ),
     (
         TitleCol("SQUARE 22: TITLE"),
