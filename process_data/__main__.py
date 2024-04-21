@@ -5,19 +5,20 @@ Created on Apr 7, 2023
 """
 import argparse
 import json
+from collections.abc import Mapping
+from pathlib import Path
+from types import MappingProxyType as MAP
 
 import pandas
 
 from .calculate_statistics.get_bingo_cards import get_bingo_stats
 from .calculate_statistics.get_stats import create_markdown
 from .calculate_statistics.plot_distributions import create_all_plots
-from .data.current import (
-    BINGO_DATA_FILEPATH,
-    OUTPUT_STATS_FILEPATH,
-)
-from .data.filepaths import (
+from .constants import (
+    AUTHOR_INFO_FILEPATH,
     DUPE_RECORD_FILEPATH,
     IGNORED_RECORD_FILEPATH,
+    YearlyDataPaths,
 )
 from .data_operations.author_title_book_operations import (
     get_all_authors,
@@ -43,22 +44,27 @@ from .match_books.get_matches import (
     get_possible_matches,
     update_dedupes_from_authors,
 )
+from .types.author_info import AuthorInfo
+from .types.card_data import CardData
 from .types.defined_types import Author
 from .types.recorded_ignores import RecordedIgnores
 from .types.recorded_states import RecordedDupes
+from .types.utils import to_data
 
 
 def normalize_books(
     bingo_data: pandas.DataFrame,
+    card_data: CardData,
     match_score: int,
     rescan_non_dupes: bool,
     recorded_dupes: RecordedDupes,
     recorded_ignores: RecordedIgnores,
     skip_authors: bool,
+    cleaned_data_output_path: Path,
 ) -> None:
     """Normalize book titles and authors"""
 
-    all_authors = get_all_authors(bingo_data)
+    all_authors = get_all_authors(bingo_data, card_data.all_title_author_hm_columns)
 
     unique_authors = get_unique_authors(all_authors)
 
@@ -116,13 +122,20 @@ def normalize_books(
         json.dump(recorded_dupes.to_data(), dupe_file, indent=2)
 
     LOGGER.info("Updating Bingo authors.")
-    updated_data, author_dedupes = update_bingo_authors(bingo_data, recorded_dupes.author_dupes)
+    updated_data, author_dedupes = update_bingo_authors(
+        bingo_data,
+        recorded_dupes.author_dupes,
+        card_data.all_title_author_hm_columns,
+        cleaned_data_output_path,
+    )
     LOGGER.info("Bingo authors updated.")
 
     LOGGER.info("Collecting all misspellings.")
     update_dedupes_from_authors(recorded_dupes, author_dedupes)
 
-    all_title_author_combos = get_all_title_author_combos(updated_data)
+    all_title_author_combos = get_all_title_author_combos(
+        updated_data, card_data.all_title_author_hm_columns
+    )
 
     unique_books = get_unique_books(all_title_author_combos)
 
@@ -138,23 +151,33 @@ def normalize_books(
     )
 
     LOGGER.info("Updating Bingo books.")
-    update_bingo_books(updated_data, recorded_dupes.book_dupes)
+    update_bingo_books(
+        updated_data,
+        recorded_dupes.book_dupes,
+        card_data.all_title_author_hm_columns,
+        cleaned_data_output_path,
+    )
     LOGGER.info("Bingo books updated.")
 
 
 def collect_statistics(
-    bingo_data: pandas.DataFrame, recorded_states: RecordedDupes, show_plots: bool
+    bingo_data: pandas.DataFrame,
+    recorded_states: RecordedDupes,
+    yearly_paths: YearlyDataPaths,
+    card_data: CardData,
+    author_data: Mapping[Author, AuthorInfo],
+    show_plots: bool,
 ) -> None:
     """Collect statistics on normalized books and create a rough draft post"""
 
-    bingo_stats = get_bingo_stats(bingo_data, recorded_states)
+    bingo_stats = get_bingo_stats(bingo_data, recorded_states, card_data, author_data)
 
-    with OUTPUT_STATS_FILEPATH.open("w", encoding="utf8") as stats_file:
+    with yearly_paths.output_stats.open("w", encoding="utf8") as stats_file:
         json.dump(bingo_stats.to_data(), stats_file, indent=2)
 
-    create_markdown(bingo_stats)
+    create_markdown(bingo_stats, card_data, yearly_paths.output_md)
 
-    create_all_plots(bingo_stats, show_plots)
+    create_all_plots(bingo_stats, yearly_paths.output_image_root, show_plots)
 
 
 def main(args: argparse.Namespace) -> None:
@@ -162,7 +185,12 @@ def main(args: argparse.Namespace) -> None:
     if args.github_pat is not None:
         synchronize_github(args.github_pat)
 
-    bingo_data = get_bingo_dataframe(BINGO_DATA_FILEPATH)
+    data_paths = YearlyDataPaths()
+
+    with data_paths.card_info.open("r", encoding="utf8") as card_data_file:
+        card_data = CardData.from_data(json.load(card_data_file))
+
+    bingo_data = get_bingo_dataframe(data_paths.raw_data_path)
 
     LOGGER.info("Loading data.")
     recorded_duplicates, recorded_ignores = get_existing_states(
@@ -172,15 +200,32 @@ def main(args: argparse.Namespace) -> None:
     if args.skip_updates is False:
         normalize_books(
             bingo_data,
+            card_data,
             args.match_score,
             args.rescan_keys,
             recorded_duplicates,
             recorded_ignores,
             args.skip_authors,
+            data_paths.output_df,
         )
 
+    with AUTHOR_INFO_FILEPATH.open("r", encoding="utf8") as author_info_file:
+        author_dedupe_map = recorded_duplicates.get_author_dedupe_map()
+        author_data: Mapping[Author, AuthorInfo] = MAP(
+            {
+                author_dedupe_map[Author(str(key))]: AuthorInfo.from_data(val)
+                for key, val in json.load(author_info_file).items()
+            }
+        )
+
+    with AUTHOR_INFO_FILEPATH.open("w", encoding="utf8") as author_info_file:
+        json.dump(to_data(author_data), author_info_file)
+        LOGGER.info("Wrote corrected author info.")
+
     LOGGER.info("Collecting statistics.")
-    collect_statistics(bingo_data, recorded_duplicates, args.show_plots)
+    collect_statistics(
+        bingo_data, recorded_duplicates, data_paths, card_data, author_data, args.show_plots
+    )
 
     if args.github_pat is not None:
         LOGGER.info("Pushing changes and opening pull request.")

@@ -17,12 +17,11 @@ from typing import (
     Mapping,
 )
 
-from process_data.data_operations.author_title_book_operations import (
+from ..constants import TITLE_AUTHOR_SEPARATOR
+from ..data_operations.author_title_book_operations import (
     book_to_title_author,
     title_author_to_book,
 )
-
-from ..constants import TITLE_AUTHOR_SEPARATOR
 from ..logger import LOGGER
 from ..match_books.process_match import find_existing_match
 from .defined_types import (

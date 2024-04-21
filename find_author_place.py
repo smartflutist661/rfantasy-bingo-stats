@@ -13,9 +13,10 @@ from typing import (
 
 import numpy as np
 
-from process_data.data.bingo_2022.filepaths import OUTPUT_STATS_FILEPATH
 from process_data.types.bingo_statistics import BingoStatistics
 from process_data.types.defined_types import Author
+from process_data.constants import YearlyDataPaths
+from datetime import date
 
 T = TypeVar("T")
 
@@ -48,7 +49,7 @@ def calc_percentiles(
 
 
 def main(args: argparse.Namespace) -> None:
-    with OUTPUT_STATS_FILEPATH.open("r", encoding="utf8") as stats_file:
+    with YearlyDataPaths(args.year).output_stats.open("r", encoding="utf8") as stats_file:
         bingo_stats = BingoStatistics.from_data(json.load(stats_file))
 
     percentiles = {
@@ -84,6 +85,7 @@ def cli() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
 
     parser.add_argument("author", type=Author)
+    parser.add_argument("--year", type=int, default=date.today().year)
 
     return parser.parse_args()
 

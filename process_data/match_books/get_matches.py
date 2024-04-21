@@ -11,7 +11,7 @@ from typing import (
     overload,
 )
 
-from ..data.filepaths import (
+from ..constants import (
     DUPE_RECORD_FILEPATH,
     IGNORED_RECORD_FILEPATH,
 )

@@ -4,23 +4,23 @@ Created on Apr 22, 2023
 @author: fred
 """
 from collections import Counter
+from pathlib import Path
 from typing import Any
 
 import matplotlib.pyplot as plt
 import numpy as np
 from lmfit.model import ModelResult  # type: ignore
 
-from ..data.current import OUTPUT_IMAGE_ROOT
 from ..types.bingo_statistics import BingoStatistics
 from ..types.fit_props import FitProps
 
 # from lmfit.models import SkewedGaussianModel  # type: ignore
 
 
-def create_all_plots(bingo_stats: BingoStatistics, show_plots: bool) -> None:
+def create_all_plots(bingo_stats: BingoStatistics, output_root: Path, show_plots: bool) -> None:
     """Plot distributions of interest"""
 
-    OUTPUT_IMAGE_ROOT.mkdir(exist_ok=True)
+    output_root.mkdir(exist_ok=True)
 
     plt.style.use("fivethirtyeight")
 
@@ -28,35 +28,35 @@ def create_all_plots(bingo_stats: BingoStatistics, show_plots: bool) -> None:
         counter=bingo_stats.card_uniques,
         title="Most people read a couple of unique books",
         subtitle="Number of cards with each count of unique books read",
-        filename="per_card_uniques.png",
+        filepath=output_root / "per_card_uniques.png",
     )
 
     plot_card_hist(
         counter=bingo_stats.incomplete_cards,
         title="Read over three rows, probably read a whole card",
         subtitle="Number of cards with each count of incomplete squares",
-        filename="per_card_incompletes.png",
+        filepath=output_root / "per_card_incompletes.png",
     )
 
     plot_card_hist(
         counter=bingo_stats.hard_mode_by_card,
         title="Law of Large Numbers with a goal",
         subtitle="Number of cards with a particular count of hard mode squares",
-        filename="per_card_hms.png",
+        filepath=output_root / "per_card_hms.png",
     )
 
     plot_count_hist(
         counter=bingo_stats.overall_uniques.unique_authors,
         title="Most authors were only read once",
         subtitle="Number of reads per author, in 10-read bins",
-        filename="per_author_reads.png",
+        filepath=output_root / "per_author_reads.png",
     )
 
     plot_count_hist(
         counter=bingo_stats.overall_uniques.unique_books,
         title="Most books were only read once",
         subtitle="Number of reads per book, in 10-read bins",
-        filename="per_book_reads.png",
+        filepath=output_root / "per_book_reads.png",
     )
 
     if show_plots:
@@ -68,7 +68,7 @@ def plot_card_hist(
     counter: Counter[Any],
     title: str,
     subtitle: str,
-    filename: str,
+    filepath: Path,
 ) -> None:
     """Plot histogram of unique values"""
 
@@ -101,14 +101,14 @@ def plot_card_hist(
     # smoothed_y = result.model.func(smoothed_x, **result.best_values)
     # plt.plot(smoothed_x, smoothed_y)
 
-    plt.savefig(OUTPUT_IMAGE_ROOT / filename)
+    plt.savefig(filepath)
 
 
 def plot_count_hist(
     counter: Counter[Any],
     title: str,
     subtitle: str,
-    filename: str,
+    filepath: Path,
 ) -> None:
     """Plot histogram of unique values"""
 
@@ -161,7 +161,7 @@ def plot_count_hist(
     axis2.plot((-diag_size, +diag_size), (1 - diag_size, 1 + diag_size), **kwargs)
     axis2.plot((1 - diag_size, 1 + diag_size), (1 - diag_size, 1 + diag_size), **kwargs)
 
-    plt.savefig(OUTPUT_IMAGE_ROOT / filename)
+    plt.savefig(filepath)
 
 
 def get_fit_props(result: ModelResult) -> FitProps:
