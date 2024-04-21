@@ -22,6 +22,7 @@ from ..data.current import (
     OUTPUT_DF_FILEPATH,
 )
 from ..data.filepaths import DUPE_RECORD_FILEPATH
+from ..logger import LOGGER
 from ..types.defined_types import (
     Author,
     Book,
@@ -108,4 +109,4 @@ def comma_separate_authors(recorded_states: RecordedDupes) -> None:
 
     with DUPE_RECORD_FILEPATH.open("w", encoding="utf8") as dupe_file:
         json.dump(recorded_states.to_data(), dupe_file, indent=2)
-    print("Updated duplicates saved.")
+    LOGGER.info("Updated duplicates saved.")

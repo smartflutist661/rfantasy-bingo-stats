@@ -5,7 +5,6 @@ Created on Apr 7, 2023
 """
 from __future__ import annotations
 
-import warnings
 from collections import defaultdict
 from dataclasses import (
     dataclass,
@@ -24,6 +23,7 @@ from process_data.data_operations.author_title_book_operations import (
 )
 
 from ..constants import TITLE_AUTHOR_SEPARATOR
+from ..logger import LOGGER
 from ..match_books.process_match import find_existing_match
 from .defined_types import (
     Author,
@@ -86,8 +86,7 @@ class RecordedDupes:
 
         old_title_author_separator = str(data["title_author_separator"])
         if old_title_author_separator != TITLE_AUTHOR_SEPARATOR:
-            # TODO: replace with logger
-            warnings.warn(
+            LOGGER.warning(
                 "Title/author separator has changed since last serialization."
                 + " Updating old data to use the new separator."
             )
@@ -181,9 +180,9 @@ def unify_overlapped_values(
             remove = dupe_key_2
 
         dupes[best] |= dupes[remove]
-        print(f"Duplicates of {remove} swapped to duplicates of {best}")
+        LOGGER.info(f"Duplicates of {remove} swapped to duplicates of {best}")
         dupes[best].add(remove)
-        print(f"{remove} recorded as duplicate of {best}")
+        LOGGER.info(f"{remove} recorded as duplicate of {best}")
         del dupes[remove]
 
 
@@ -212,7 +211,7 @@ def unify_key_value_overlaps(
                 remove = existing_match_key
 
             dupes[best] |= dupes[remove]
-            print(f"Duplicates of {remove} swapped to duplicates of {best}")
+            LOGGER.info(f"Duplicates of {remove} swapped to duplicates of {best}")
             dupes[best].add(remove)
-            print(f"{remove} recorded as duplicate of {best}")
+            LOGGER.info(f"{remove} recorded as duplicate of {best}")
             del dupes[remove]

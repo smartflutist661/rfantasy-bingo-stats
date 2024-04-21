@@ -13,6 +13,7 @@ from typing import (
 
 from thefuzz import process  # type: ignore
 
+from ..logger import LOGGER
 from ..types.defined_types import BookOrAuthor
 
 
@@ -58,14 +59,14 @@ def process_new_pair(
             if best_match in (all_choices - all_match_choices) & dedupes:
                 old_best = best_match
                 best_match = find_existing_match(dupes, old_best)
-                print(f"{old_best} already deduped to {best_match}. Using {best_match}.")
+                LOGGER.warning(f"{old_best} already deduped to {best_match}. Using {best_match}.")
 
             new_matches_to_ignore = all_match_choices - (
                 other_matches | {best_match, item_to_process}
             )
 
         else:
-            print(f"No new matches for {item_to_process}.")
+            LOGGER.info(f"No new matches for {item_to_process}.")
             best_match = None
 
     else:
@@ -76,7 +77,7 @@ def process_new_pair(
         all_matches_to_ignore[match_to_ignore].add(item_to_process)
 
     if best_match is None:
-        print(f"No duplicates found for {item_to_process}")
+        LOGGER.info(f"No duplicates found for {item_to_process}")
         dupes[item_to_process] |= set()
     else:
         # Intersection discards matches removed in `get_best_match`
@@ -160,10 +161,10 @@ def unify_matches(
         dupes[best_match] |= dupes[existing_key]
         dupes[best_match].add(existing_key)
         del dupes[existing_key]
-        print(f"Duplicates of {existing_key} swapped to duplicates of {best_match}")
+        LOGGER.warning(f"Duplicates of {existing_key} swapped to duplicates of {best_match}")
 
     if len(other_matches) > 0:
         dupes[best_match] |= other_matches
-        print(
+        LOGGER.info(
             f"{', '.join(other_matches)} recorded as duplicate{'s'*(len(other_matches) > 1)} of {best_match}"
         )
