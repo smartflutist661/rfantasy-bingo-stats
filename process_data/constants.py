@@ -3,9 +3,12 @@ Created on Apr 9, 2023
 
 @author: fred
 """
+
 from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
+
+CURRENT_YEAR = date.today().year - 1
 
 REMOTE_REPO = "smartflutist661/rfantasy-bingo-stats"
 TITLE_AUTHOR_SEPARATOR = " /// "
@@ -17,11 +20,12 @@ DATA_PATH = ROOT / "data"
 DUPE_RECORD_FILEPATH: Path = DATA_PATH / "resolved_duplicates.json"
 IGNORED_RECORD_FILEPATH: Path = DATA_PATH / "ignored_duplicates.json"
 AUTHOR_INFO_FILEPATH: Path = DATA_PATH / "author_records.json"
+YOY_DATA_FILEPATH: Path = DATA_PATH / "year_over_year_stats.json"
 
 
 @dataclass(frozen=True)
 class YearlyDataPaths:
-    year: int = date.today().year
+    year: int
 
     @property
     def root(self) -> Path:

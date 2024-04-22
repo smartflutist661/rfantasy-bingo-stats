@@ -3,6 +3,7 @@ Created on Apr 22, 2023
 
 @author: fred
 """
+
 from __future__ import annotations
 
 from collections import Counter

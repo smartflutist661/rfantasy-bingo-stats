@@ -3,6 +3,7 @@ Created on Apr 7, 2023
 
 @author: fred
 """
+
 import json
 from typing import (
     AbstractSet,
@@ -37,8 +38,7 @@ def get_possible_matches(
     known_states: RecordedDupes,
     known_ignores: RecordedIgnores,
     ret_type: Literal["Author"],
-) -> None:
-    ...
+) -> None: ...
 
 
 @overload
@@ -49,8 +49,7 @@ def get_possible_matches(
     known_states: RecordedDupes,
     known_ignores: RecordedIgnores,
     ret_type: Literal["Book"],
-) -> None:
-    ...
+) -> None: ...
 
 
 def get_possible_matches(

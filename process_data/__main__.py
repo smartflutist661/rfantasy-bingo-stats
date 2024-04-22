@@ -3,6 +3,7 @@ Created on Apr 7, 2023
 
 @author: fred
 """
+
 import argparse
 import json
 from collections.abc import Mapping
@@ -13,9 +14,13 @@ import pandas
 
 from .calculate_statistics.get_bingo_cards import get_bingo_stats
 from .calculate_statistics.get_stats import create_markdown
-from .calculate_statistics.plot_distributions import create_all_plots
+from .calculate_statistics.plot_distributions import (
+    create_yearly_plots,
+    create_yoy_plots,
+)
 from .constants import (
     AUTHOR_INFO_FILEPATH,
+    CURRENT_YEAR,
     DUPE_RECORD_FILEPATH,
     IGNORED_RECORD_FILEPATH,
     YearlyDataPaths,
@@ -50,6 +55,8 @@ from .types.defined_types import Author
 from .types.recorded_ignores import RecordedIgnores
 from .types.recorded_states import RecordedDupes
 from .types.utils import to_data
+
+pandas.options.mode.copy_on_write = True
 
 
 def normalize_books(
@@ -107,6 +114,7 @@ def normalize_books(
 
     author_dedupe_map = recorded_dupes.get_author_dedupe_map()
 
+    # Correct multi-author groups
     for author in tuple(recorded_dupes.author_dupes.keys()):
         final_author = author
         for single_author in author.split(", "):
@@ -177,7 +185,9 @@ def collect_statistics(
 
     create_markdown(bingo_stats, card_data, yearly_paths.output_md)
 
-    create_all_plots(bingo_stats, yearly_paths.output_image_root, show_plots)
+    create_yearly_plots(bingo_stats, yearly_paths.output_image_root, False)
+
+    create_yoy_plots(yearly_paths.output_image_root, show_plots)
 
 
 def main(args: argparse.Namespace) -> None:
@@ -185,12 +195,15 @@ def main(args: argparse.Namespace) -> None:
     if args.github_pat is not None:
         synchronize_github(args.github_pat)
 
-    data_paths = YearlyDataPaths()
+    if args.year is not None:
+        data_paths = YearlyDataPaths(args.year)
+    else:
+        data_paths = YearlyDataPaths(CURRENT_YEAR)
 
     with data_paths.card_info.open("r", encoding="utf8") as card_data_file:
         card_data = CardData.from_data(json.load(card_data_file))
 
-    bingo_data = get_bingo_dataframe(data_paths.raw_data_path)
+    bingo_data = get_bingo_dataframe(data_paths.raw_data_path, card_data)
 
     LOGGER.info("Loading data.")
     recorded_duplicates, recorded_ignores = get_existing_states(
@@ -199,7 +212,7 @@ def main(args: argparse.Namespace) -> None:
 
     if args.skip_updates is False:
         normalize_books(
-            bingo_data,
+            bingo_data.copy(deep=True),
             card_data,
             args.match_score,
             args.rescan_keys,
@@ -213,7 +226,9 @@ def main(args: argparse.Namespace) -> None:
         author_dedupe_map = recorded_duplicates.get_author_dedupe_map()
         author_data: Mapping[Author, AuthorInfo] = MAP(
             {
-                author_dedupe_map[Author(str(key))]: AuthorInfo.from_data(val)
+                author_dedupe_map.get(Author(str(key)), Author(str(key))): AuthorInfo.from_data(
+                    val
+                )
                 for key, val in json.load(author_info_file).items()
             }
         )
@@ -284,6 +299,12 @@ def cli() -> argparse.Namespace:
         "--show-plots",
         action="store_true",
         help="Pass to display plots as well as saving them.",
+    )
+
+    parser.add_argument(
+        "--year",
+        type=int,
+        help="Pass to process a year other than the current.",
     )
 
     return parser.parse_args()

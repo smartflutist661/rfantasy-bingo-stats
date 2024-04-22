@@ -3,6 +3,7 @@ Created on Apr 21, 2024
 
 @author: fred
 """
+
 from __future__ import annotations
 
 from collections.abc import Mapping
@@ -30,6 +31,8 @@ from .utils import (
 class CardData:
     """All summary statistics for a year of Bingo"""
 
+    sheet_name: str
+    subbed_by_square: bool
     short_story_square_num: int
     square_names: Mapping[TitleCol, SquareName]
     novel_title_author_hm_cols: tuple[TitleAuthorHMCols, ...]
@@ -43,9 +46,14 @@ class CardData:
     def from_data(cls, data: Any) -> CardData:
         """Create BingoStatistics from JSON data"""
         return cls(
+            sheet_name=str(data["sheet_name"]),
+            subbed_by_square=bool(data["subbed_by_square"]),
             short_story_square_num=int(data["short_story_square_num"]),
             square_names=MAP(
-                {TitleCol(str(key)): SquareName(str(val)) for key, val in data["square_names"]}
+                {
+                    TitleCol(str(key)): SquareName(str(val))
+                    for key, val in data["square_names"].items()
+                }
             ),
             novel_title_author_hm_cols=tuple(
                 (TitleCol(val0), AuthorCol(val1), HardModeCol(val2))

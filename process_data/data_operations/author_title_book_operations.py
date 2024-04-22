@@ -3,11 +3,9 @@ Created on Apr 9, 2023
 
 @author: fred
 """
+
 from collections import Counter
-from typing import (
-    Iterable,
-    cast,
-)
+from typing import Iterable
 
 import pandas
 
@@ -36,10 +34,13 @@ def get_all_title_author_combos(
     """Get every title/author pair in data"""
     title_author_pairs: list[TitleAuthor] = []
     for title_col, author_col, _ in all_cols:
-        title_author_pairs.extend(
-            cast(Iterable[TitleAuthor], zip(data[title_col], data[author_col]))
-        )
-    return tuple((title, author) for title, author in title_author_pairs if title and author)
+        title_author_pairs.extend(zip(data[title_col], data[author_col]))
+
+    return tuple(
+        (Title(str(title)), Author(str(author)))
+        for title, author in title_author_pairs
+        if title and author
+    )
 
 
 def book_to_title_author(book: Book, separator: str = TITLE_AUTHOR_SEPARATOR) -> TitleAuthor:
@@ -55,7 +56,7 @@ def books_to_title_authors(books: Iterable[Book]) -> tuple[TitleAuthor, ...]:
 
 def title_author_to_book(title_author_pair: TitleAuthor) -> Book:
     """Convert title/author pair to book form"""
-    return Book(TITLE_AUTHOR_SEPARATOR.join(str(elem) for elem in title_author_pair))
+    return Book(TITLE_AUTHOR_SEPARATOR.join(title_author_pair))
 
 
 def title_authors_to_books(title_author_pairs: Iterable[TitleAuthor]) -> tuple[Book, ...]:

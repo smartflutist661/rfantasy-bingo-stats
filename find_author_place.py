@@ -3,9 +3,11 @@ Created on Apr 25, 2023
 
 @author: fred
 """
+
 import argparse
 import json
 from collections import Counter
+from datetime import date
 from typing import (
     Iterable,
     TypeVar,
@@ -13,10 +15,9 @@ from typing import (
 
 import numpy as np
 
+from process_data.constants import YearlyDataPaths
 from process_data.types.bingo_statistics import BingoStatistics
 from process_data.types.defined_types import Author
-from process_data.constants import YearlyDataPaths
-from datetime import date
 
 T = TypeVar("T")
 
@@ -85,7 +86,7 @@ def cli() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
 
     parser.add_argument("author", type=Author)
-    parser.add_argument("--year", type=int, default=date.today().year)
+    parser.add_argument("--year", type=int, default=date.today().year - 1)
 
     return parser.parse_args()
 
