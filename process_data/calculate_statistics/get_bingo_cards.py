@@ -74,8 +74,8 @@ def get_bingo_square(
     card_data: CardData,
 ) -> Optional[BingoSquare]:
     """Get a single bingo square"""
-    title = Title(str(row[title_col]))
-    author = Author(str(row[author_col]))
+    title = row[title_col]
+    author = row[author_col]
     if len(hm_col) > 0:
         hard_mode = bool(row[hm_col])
     else:
@@ -84,8 +84,8 @@ def get_bingo_square(
     # This captures hard mode short story squares (collections/anthologies)
     if title and author:
         return BingoSquare(
-            title=title,
-            author=author,
+            title=Title(str(title)),
+            author=Author(str(author)),
             hard_mode=hard_mode,
         )
 
@@ -109,6 +109,10 @@ def get_bingo_card(
         real_square_name = subbed_square_map.get(square_name, square_name)
 
         square = get_bingo_square(row, title_col, author_col, hm_col, card_data)
+
+        if real_square_name == "Bottom of the TBR" and square is not None and not square.hard_mode:
+            print(row, square.hard_mode)
+
         card[real_square_name] = square
         if square is None:
             incomplete_squares.add(real_square_name)
@@ -148,7 +152,7 @@ def get_bingo_stats(
 
     for index, row in data.iterrows():
         card_id = CardID(str(index))
-        if card_id == "nan":
+        if card_id in ("nan", "None"):
             continue
 
         if card_data.subbed_by_square:
@@ -193,6 +197,7 @@ def get_bingo_stats(
                     unique_square_book_usage[book].add(square_name)
 
                     all_books[book] += 1
+
                     for split_author in author.split(", "):  # pylint: disable=no-member
                         single_author = Author(split_author)
                         all_authors[single_author] += 1

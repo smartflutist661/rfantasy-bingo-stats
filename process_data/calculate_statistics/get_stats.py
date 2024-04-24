@@ -272,11 +272,12 @@ def format_square_table(
     ]
     total_cards = bingo_stats.total_card_count
     for square_name in square_names:
+        total_cards_with_square = total_cards - bingo_stats.subbed_out_squares[square_name]
         table_strs.append(
             (
                 square_name,
-                f"{100 - bingo_stats.incomplete_squares[square_name]/total_cards*100:.1f}",
-                f"{bingo_stats.hard_mode_by_square[square_name]/total_cards*100:.1f}",
+                f"{100 - bingo_stats.incomplete_squares[square_name]/total_cards_with_square*100:.1f}",
+                f"{bingo_stats.hard_mode_by_square[square_name]/total_cards_with_square*100:.1f}",
             )
         )
     return "\n".join("|" + "|".join(row) + "|" for row in table_strs)
@@ -436,6 +437,13 @@ def create_markdown(bingo_stats: BingoStatistics, card_data: CardData, output_pa
     """Create a Markdown draft of stats"""
 
     most_avoided_square, most_avoided_count = bingo_stats.avoided_squares.most_common(1)[0]
+    fav_index = 0
+    least_avoided_square = ""
+    while least_avoided_square not in card_data.square_names.values():
+        fav_index -= 1
+        least_avoided_square, least_avoided_count = bingo_stats.avoided_squares.most_common()[
+            fav_index
+        ]
 
     max_ratio = 0.0
     for book, square_count in bingo_stats.unique_squares_by_book.items():
@@ -504,10 +512,11 @@ The minimum number of filled squares was {25 - bingo_stats.max_incomplete_square
 {bingo_stats.incomplete_squares.total()} squares were left blank, leaving {bingo_stats.total_card_count*25 - bingo_stats.incomplete_cards.total()} filled squares.
 - There were {bingo_stats.total_story_count} total stories, with {len(bingo_stats.overall_uniques.unique_books)} unique stories read,
 by {len(bingo_stats.overall_uniques.unique_authors)} unique authors.
-- The top three squares left blank were: {format_bottom_square_counts(bingo_stats)}. On the other hand, {format_favorite_square(bingo_stats, card_data.square_names.values())}.
+- The top squares left blank were: {format_bottom_square_counts(bingo_stats)}. On the other hand, {format_favorite_square(bingo_stats, card_data.square_names.values())}.
 - The three squares most often substituted were: {format_most_subbed_squares(bingo_stats.subbed_out_squares)}.
 {format_least_subbed_square(bingo_stats.subbed_out_squares, card_data.square_names.values())}.
-This means that {most_avoided_square} was the least favorite overall, skipped or substituted a total of {most_avoided_count} times.
+This means that {most_avoided_square} was the least favorite overall, skipped or substituted a total of {most_avoided_count} times, and
+{least_avoided_square} was the favorite, skipped or substituted only {least_avoided_count} times.
 - There were an average of {mean_uniques:.1f} unique books per card.
 - {hard_mode_by_card_counts[25]} cards claimed an all-hard-mode card, while {hard_mode_by_card_counts[24]} cards were short by one square.
 {hard_mode_by_card_counts[0]} cards claimed no hard-mode squares at all. The average number of hard-mode squares per card was {avg_hm:.1f}.
@@ -578,6 +587,12 @@ Values close to 100 suggest the same books were used repeatedly for a square; 10
 
 <INSERT COMMENTARY HERE>
 
+## Year Over Year Changes
+
+New this year: year-over-year statistics! For numbers from before 2022, I have scavenged from previous stats and data posts.
+
+<INSERT PLOTS HERE>
+
 ## Wall of Shame
 
 Quoting the [very first bingo stats post](https://www.reddit.com/r/Fantasy/comments/62sp9h/2016_fantasy_bingo_statistics/),
@@ -601,12 +616,6 @@ What makes a book hard to "spell" correctly?
 - Somewhat obviously, books that were published under multiple titles
 
 Predictably, there's a lot of crossover between books with the most variations and the most-read books overall.
-
-## Year Over Year Changes
-
-New this year: year-over-year statistics! For numbers from before 2022, I have scavenged from previous stats and data posts.
-
-<INSERT PLOTS HERE>
 """
 
     LOGGER.info(f"Markdown output:\n\n{markdown_lines}")

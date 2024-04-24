@@ -185,7 +185,7 @@ def collect_statistics(
 
     create_markdown(bingo_stats, card_data, yearly_paths.output_md)
 
-    create_yearly_plots(bingo_stats, yearly_paths.output_image_root, False)
+    create_yearly_plots(bingo_stats, yearly_paths.output_image_root, show_plots)
 
     create_yoy_plots(yearly_paths.output_image_root, show_plots)
 
