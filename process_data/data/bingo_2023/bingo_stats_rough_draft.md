@@ -37,10 +37,10 @@ so if anyone would like to supply demographic information, it is easy to include
 The minimum number of filled squares was 5. 6 were *this close*, with 24 filled squares.
 655 squares were left blank, leaving 22570 filled squares.
 - There were 23090 total stories, with 6698 unique stories read,
-by 3933 unique authors.
+by 3933 unique authors (23660 total).
 - The top squares left blank were: **Set in the Middle East** and **Druid**, blank on 46 cards each; **Superheroes**, blank on 44 cards; **Elemental Magic**, blank on 39 cards. On the other hand, **Sequel** was only left blank 10 times.
 - The three squares most often substituted were: **Druid**, substituted on 46 cards; **Superheroes**, substituted on 31 cards; **Book Club or Readalong Book**, substituted on 29 cards.
-**Multiverses** and **Sequel** were never subsituted.
+**Multiverses** and **Sequel** were never substituted.
 This means that Druid was the least favorite overall, skipped or substituted a total of 92 times, and
 Sequel was the favorite, skipped or substituted only 10 times.
 - There were an average of 4.5 unique books per card.
@@ -172,7 +172,7 @@ Skipped 12 times. Substituted 4 times.
 - Christopher Buehlman, read 25 times
 - Robin Hobb, read 24 times
 
-**TOTAL**: 374 unique authors read.
+**TOTAL**: 924 total authors read, with 374 unique.
 
 ### 2. Superheroes
 
@@ -195,7 +195,7 @@ Skipped 44 times. Substituted 31 times.
 - April Daniels, read 34 times
 - John Scalzi, read 33 times
 
-**TOTAL**: 256 unique authors read.
+**TOTAL**: 948 total authors read, with 256 unique.
 
 ### 3. Bottom of the TBR
 
@@ -218,7 +218,7 @@ Skipped 26 times. Substituted 7 times.
 - TIE: Brandon Sanderson and Guy Gavriel Kay, each read 13 times
 - TIE: Octavia E. Butler and Terry Pratchett, each read 12 times
 
-**TOTAL**: 452 unique authors read.
+**TOTAL**: 909 total authors read, with 452 unique.
 
 ### 4. Magical Realism
 
@@ -241,7 +241,7 @@ Skipped 27 times. Substituted 12 times.
 - Neil Gaiman, read 16 times
 - Peng Shepherd, read 15 times
 
-**TOTAL**: 354 unique authors read.
+**TOTAL**: 899 total authors read, with 354 unique.
 
 ### 5. Young Adult
 
@@ -264,7 +264,7 @@ Skipped 16 times. Substituted 4 times.
 - Garth Nix, read 16 times
 - TIE: Axie Oh and Suzanne Collins, each read 15 times
 
-**TOTAL**: 370 unique authors read.
+**TOTAL**: 924 total authors read, with 370 unique.
 
 ### 6. Mundane Jobs
 
@@ -287,7 +287,7 @@ Skipped 14 times. Substituted 1 times.
 - Adrian Tchaikovsky, read 28 times
 - Becky Chambers, read 18 times
 
-**TOTAL**: 343 unique authors read.
+**TOTAL**: 926 total authors read, with 343 unique.
 
 ### 7. Published in the 2000s
 
@@ -310,7 +310,7 @@ Skipped 30 times. Substituted 14 times.
 - TIE: Naomi Novik and China Miéville, each read 24 times
 - Jim Butcher, read 22 times
 
-**TOTAL**: 317 unique authors read.
+**TOTAL**: 915 total authors read, with 317 unique.
 
 ### 8. Angels and Demons
 
@@ -333,7 +333,7 @@ Skipped 30 times. Substituted 5 times.
 - Martha Wells, read 41 times
 - Sacha Lamb, read 34 times
 
-**TOTAL**: 251 unique authors read.
+**TOTAL**: 989 total authors read, with 251 unique.
 
 ### 9. Five Short Stories
 
@@ -356,7 +356,7 @@ Skipped 37 times. Substituted 17 times.
 - TIE: Jonathan Strahan and Isaac Asimov and Kelly Link, each read 11 times
 - Joe Abercrombie, read 10 times
 
-**TOTAL**: 625 unique authors read.
+**TOTAL**: 1229 total authors read, with 625 unique.
 
 ### 10. Horror
 
@@ -379,7 +379,7 @@ Skipped 15 times. Substituted 13 times.
 - Shirley Jackson, read 23 times
 - Bram Stoker, read 21 times
 
-**TOTAL**: 304 unique authors read.
+**TOTAL**: 920 total authors read, with 304 unique.
 
 ### 11. Self Published or Indie Publisher
 
@@ -402,7 +402,7 @@ Skipped 32 times. Substituted 25 times.
 - Matt Dinniman, read 16 times
 - J. Zachary Pike, read 13 times
 
-**TOTAL**: 543 unique authors read.
+**TOTAL**: 924 total authors read, with 543 unique.
 
 ### 12. Set in the Middle East
 
@@ -425,7 +425,7 @@ Skipped 46 times. Substituted 28 times.
 - Zamil Akhtar, read 42 times
 - Hadeer Elsbai, read 38 times
 
-**TOTAL**: 143 unique authors read.
+**TOTAL**: 890 total authors read, with 143 unique.
 
 ### 13. Published in 2023
 
@@ -448,7 +448,7 @@ Skipped 22 times. Substituted 3 times.
 - James Islington, read 26 times
 - Heather Fawcett, read 22 times
 
-**TOTAL**: 337 unique authors read.
+**TOTAL**: 918 total authors read, with 337 unique.
 
 ### 14. Multiverses
 
@@ -471,7 +471,7 @@ Skipped 21 times. Substituted 0 times.
 - Max Gladstone, read 34 times
 - Susanna Clarke, read 33 times
 
-**TOTAL**: 280 unique authors read.
+**TOTAL**: 948 total authors read, with 280 unique.
 
 ### 15. POC Author
 
@@ -494,7 +494,7 @@ Skipped 20 times. Substituted 3 times.
 - Yoon Ha Lee, read 28 times
 - Fonda Lee, read 27 times
 
-**TOTAL**: 288 unique authors read.
+**TOTAL**: 945 total authors read, with 288 unique.
 
 ### 16. Book Club or Readalong Book
 
@@ -517,7 +517,7 @@ Skipped 23 times. Substituted 29 times.
 - Richard Swan, read 24 times
 - TIE: T. Kingfisher and Emma Törzs, each read 23 times
 
-**TOTAL**: 229 unique authors read.
+**TOTAL**: 890 total authors read, with 229 unique.
 
 ### 17. Novella
 
@@ -540,7 +540,7 @@ Skipped 18 times. Substituted 2 times.
 - TIE: Amal El-Mohtar and Max Gladstone, each read 30 times
 - Lois McMaster Bujold, read 27 times
 
-**TOTAL**: 307 unique authors read.
+**TOTAL**: 945 total authors read, with 307 unique.
 
 ### 18. Mythical Beasts
 
@@ -563,7 +563,7 @@ Skipped 20 times. Substituted 2 times.
 - Marie Brennan, read 24 times
 - Heather Fawcett, read 20 times
 
-**TOTAL**: 335 unique authors read.
+**TOTAL**: 920 total authors read, with 335 unique.
 
 ### 19. Elemental Magic
 
@@ -586,7 +586,7 @@ Skipped 39 times. Substituted 17 times.
 - Hadeer Elsbai, read 32 times
 - Robert Jordan, read 26 times
 
-**TOTAL**: 259 unique authors read.
+**TOTAL**: 925 total authors read, with 259 unique.
 
 ### 20. Myths and Retellings
 
@@ -609,7 +609,7 @@ Skipped 26 times. Substituted 4 times.
 - Genevieve Gornichec, read 31 times
 - Vaishnavi Patel, read 22 times
 
-**TOTAL**: 325 unique authors read.
+**TOTAL**: 928 total authors read, with 325 unique.
 
 ### 21. Queernorm Setting
 
@@ -632,7 +632,7 @@ Skipped 22 times. Substituted 12 times.
 - M.A. Carrick, read 29 times
 - TIE: Martha Wells and Samantha Shannon, each read 24 times
 
-**TOTAL**: 232 unique authors read.
+**TOTAL**: 904 total authors read, with 232 unique.
 
 ### 22. Coastal Setting
 
@@ -655,7 +655,7 @@ Skipped 21 times. Substituted 1 times.
 - R.J. Barker, read 39 times
 - Andrea Stewart, read 34 times
 
-**TOTAL**: 326 unique authors read.
+**TOTAL**: 925 total authors read, with 326 unique.
 
 ### 23. Druid
 
@@ -678,7 +678,7 @@ Skipped 46 times. Substituted 46 times.
 - Emily Tesh, read 49 times
 - E.K. Johnston, read 24 times
 
-**TOTAL**: 246 unique authors read.
+**TOTAL**: 859 total authors read, with 246 unique.
 
 ### 24. Features Robots
 
@@ -701,7 +701,7 @@ Skipped 32 times. Substituted 4 times.
 - C. Robert Cargill, read 44 times
 - Kazuo Ishiguro, read 33 times
 
-**TOTAL**: 193 unique authors read.
+**TOTAL**: 904 total authors read, with 193 unique.
 
 ### 25. Sequel
 
@@ -724,7 +724,7 @@ Skipped 10 times. Substituted 0 times.
 - Martha Wells, read 23 times
 - Pierce Brown, read 22 times
 
-**TOTAL**: 345 unique authors read.
+**TOTAL**: 935 total authors read, with 345 unique.
 
 ## Substitutions
 

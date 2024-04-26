@@ -19,7 +19,6 @@ import numpy as np
 from lmfit.model import ModelResult  # type: ignore
 
 from ..constants import (
-    CURRENT_YEAR,
     YOY_DATA_FILEPATH,
     YearlyDataPaths,
 )
@@ -63,20 +62,10 @@ def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
             }
         )
 
-    current_year_stats = yoy_data[CURRENT_YEAR]
-
     years = []
-    current_total_participant_counts = []
-    current_total_card_counts = []
-    current_total_square_counts = []
-    current_total_story_counts = []
-    current_unique_story_counts = []
-    current_total_author_counts = []
-    current_unique_author_counts = []
-    current_hard_mode_card_counts = []
-    current_hard_mode_square_counts = []
-    current_hero_mode_card_counts = []
-    current_misspelling_counts = []
+    total_participant_counts = []
+    total_card_counts = []
+    total_story_counts = []
     hard_mode_square_counts = []
     hard_mode_card_counts = []
     hero_mode_card_counts = []
@@ -104,39 +93,10 @@ def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
             total_books_read_more_than_once = None
 
         years.append(year)
-        current_total_participant_counts.append(
-            stats.total_participant_count / current_year_stats.total_participant_count
-        )
-        current_total_card_counts.append(
-            stats.total_card_count / current_year_stats.total_card_count
-        )
-        current_total_square_counts.append(
-            none_divide(stats.total_square_count, current_year_stats.total_square_count)
-        )
-        current_total_story_counts.append(
-            none_divide(stats.total_story_count, current_year_stats.total_story_count)
-        )
-        current_unique_story_counts.append(
-            none_divide(stats.unique_story_count, current_year_stats.unique_story_count)
-        )
-        current_total_author_counts.append(
-            none_divide(stats.total_author_count, current_year_stats.total_author_count)
-        )
-        current_unique_author_counts.append(
-            none_divide(stats.unique_author_count, current_year_stats.unique_author_count)
-        )
-        current_hard_mode_card_counts.append(
-            none_divide(stats.hard_mode_cards, current_year_stats.hard_mode_cards)
-        )
-        current_hard_mode_square_counts.append(
-            none_divide(stats.hard_mode_squares, current_year_stats.hard_mode_squares)
-        )
-        current_hero_mode_card_counts.append(
-            none_divide(stats.hero_mode_cards, current_year_stats.hero_mode_cards)
-        )
-        current_misspelling_counts.append(
-            none_divide(stats.total_misspellings, current_year_stats.total_misspellings)
-        )
+        total_participant_counts.append(stats.total_participant_count)
+        total_card_counts.append(stats.total_card_count)
+        total_story_counts.append(stats.total_story_count)
+
         hard_mode_square_counts.append(
             none_divide(stats.hard_mode_squares, stats.total_square_count)
         )
@@ -165,32 +125,21 @@ def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
 
     plt.figure(figsize=(16, 9))
     plt.suptitle(
-        "Different trends trend differently",
+        "COVID-19 was good for Bingo",
         fontsize=26,
         weight="bold",
         alpha=0.75,
         wrap=True,
     )
     plt.title(
-        "Historical counts compared to the current year",
+        "Total participants over time",
         fontsize=19,
         alpha=0.85,
         wrap=True,
     )
-    # plt.plot(years, current_total_participant_counts, label="Participants")
-    plt.plot(years, current_total_card_counts, label="Cards")
-    # plt.plot(years, current_total_square_counts, label="Squares")# type: ignore[arg-type]
-    # plt.plot(years, current_total_story_counts, label="Stories")# type: ignore[arg-type]
-    plt.plot(years, current_unique_story_counts, label="Unique Stories")  # type: ignore[arg-type]
-    # plt.plot(years, current_total_author_counts, label="Authors")# type: ignore[arg-type]
-    plt.plot(years, current_unique_author_counts, label="Unique Authors")  # type: ignore[arg-type]
-    plt.plot(years, current_hard_mode_card_counts, label="Hard Mode Cards")  # type: ignore[arg-type]
-    plt.plot(years, current_hard_mode_square_counts, label="Hard Mode Squares")  # type: ignore[arg-type]
-    plt.plot(years, current_hero_mode_card_counts, label="Hero Mode Cards")  # type: ignore[arg-type]
-    plt.plot(years, current_misspelling_counts, label="Misspellings")  # type: ignore[arg-type]
-    plt.ylim(-0.1, None)
-    plt.legend()
-    plt.savefig(output_root / "comparison_to_current.png")
+    plt.plot(years, total_participant_counts)
+    plt.xlim(min(years), None)
+    plt.savefig(output_root / "participants_change.png")
 
     plt.figure(figsize=(16, 9))
     plt.suptitle(
@@ -207,6 +156,7 @@ def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
         wrap=True,
     )
     plt.plot(years, misspelling_counts)  # type: ignore[arg-type]
+    plt.xlim(min(years), None)
     plt.savefig(output_root / "misspellings_change.png")
 
     plt.figure(figsize=(16, 9))
@@ -227,6 +177,7 @@ def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
     plt.plot(years, hard_mode_card_counts, label="Cards")  # type: ignore[arg-type]
     plt.legend()
     plt.ylim(-0.01, None)
+    plt.xlim(min(years), None)
     plt.savefig(output_root / "hard_mode_change.png")
 
     plt.figure(figsize=(16, 9))
@@ -244,6 +195,7 @@ def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
         wrap=True,
     )
     plt.plot(years, hard_mode_square_per_noncard_counts)  # type: ignore[arg-type]
+    plt.xlim(min(years), None)
     plt.savefig(output_root / "hard_mode_noncard_change.png")
 
     plt.figure(figsize=(16, 9))
@@ -261,6 +213,7 @@ def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
         wrap=True,
     )
     plt.plot(years, hero_mode_card_counts)  # type: ignore[arg-type]
+    plt.xlim(min(years), None)
     plt.savefig(output_root / "hero_mode_change.png")
 
     plt.figure(figsize=(16, 9))
@@ -278,6 +231,7 @@ def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
         wrap=True,
     )
     plt.plot(years, participants_vs_cards)
+    plt.xlim(min(years), None)
     plt.savefig(output_root / "multi_card_change.png")
 
     plt.figure(figsize=(16, 9))
@@ -295,6 +249,7 @@ def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
         wrap=True,
     )
     plt.plot(years, squares_vs_cards)  # type: ignore[arg-type]
+    plt.xlim(min(years), None)
     plt.savefig(output_root / "complete_squares_change.png")
 
     plt.figure(figsize=(16, 9))
@@ -314,6 +269,7 @@ def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
     plt.plot(years, total_vs_unique_stories, label="Stories")  # type: ignore[arg-type]
     plt.plot(years, total_vs_unique_authors, label="Authors")  # type: ignore[arg-type]
     plt.legend()
+    plt.xlim(min(years), None)
     plt.savefig(output_root / "uniques_change.png")
 
     if show_plots:
@@ -336,7 +292,7 @@ def create_yearly_plots(bingo_stats: BingoStatistics, output_root: Path, show_pl
 
     plot_card_hist(
         counter=bingo_stats.incomplete_cards,
-        title="Read more than a few rows, probably read a whole card",
+        title="Read more than three rows, probably read a whole card",
         subtitle="Number of cards with each count of incomplete squares",
         filepath=output_root / "per_card_incompletes.png",
     )

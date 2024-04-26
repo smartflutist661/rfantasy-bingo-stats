@@ -172,7 +172,7 @@ def format_least_subbed_square(
         low_sub_string = format_square(fewest_subbed_squares[0])
 
     if fewest_subbed == 0:
-        return f"{low_sub_string} {'were' * multiple_low_subs}{'was' * (not multiple_low_subs)} never subsituted"
+        return f"{low_sub_string} {'were' * multiple_low_subs}{'was' * (not multiple_low_subs)} never substituted"
     return (
         f"{low_sub_string} {'were' * multiple_low_subs}{'was' * (not multiple_low_subs)} "
         + f"only left blank {fewest_subbed} time{'s'*(fewest_subbed != 1)}{' each' * multiple_low_subs}"
@@ -226,7 +226,7 @@ Skipped {bingo_stats.incomplete_squares[square_name]} times. Substituted {bingo_
 
 {format_top_author_counts(bingo_stats.square_uniques[square_name].unique_authors, 5)}
 
-**TOTAL**: {len(bingo_stats.square_uniques[square_name].unique_authors)} unique authors read.
+**TOTAL**: {bingo_stats.square_uniques[square_name].unique_authors.total()} total authors read, with {len(bingo_stats.square_uniques[square_name].unique_authors)} unique.
 """
 
 
@@ -511,7 +511,7 @@ so if anyone would like to supply demographic information, it is easy to include
 The minimum number of filled squares was {25 - bingo_stats.max_incomplete_squares}. {bingo_stats.incomplete_squares_per_card[1]} were *this close*, with 24 filled squares.
 {bingo_stats.incomplete_squares.total()} squares were left blank, leaving {bingo_stats.total_card_count*25 - bingo_stats.incomplete_cards.total()} filled squares.
 - There were {bingo_stats.total_story_count} total stories, with {len(bingo_stats.overall_uniques.unique_books)} unique stories read,
-by {len(bingo_stats.overall_uniques.unique_authors)} unique authors.
+by {len(bingo_stats.overall_uniques.unique_authors)} unique authors ({bingo_stats.overall_uniques.unique_authors.total()} total).
 - The top squares left blank were: {format_bottom_square_counts(bingo_stats)}. On the other hand, {format_favorite_square(bingo_stats, card_data.square_names.values())}.
 - The three squares most often substituted were: {format_most_subbed_squares(bingo_stats.subbed_out_squares)}.
 {format_least_subbed_square(bingo_stats.subbed_out_squares, card_data.square_names.values())}.
