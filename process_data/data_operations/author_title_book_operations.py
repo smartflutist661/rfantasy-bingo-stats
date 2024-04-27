@@ -74,6 +74,11 @@ def get_unique_authors(authors: Iterable[Author]) -> frozenset[Author]:
     return frozenset(authors)
 
 
+def split_multi_author(author: Author) -> tuple[Author, ...]:
+    """Split a comma-separated multi-author into individual authors"""
+    return tuple(Author(auth) for auth in author.split(", "))
+
+
 def get_unique_title_author_counts(
     title_author_pairs: Iterable[TitleAuthor],
 ) -> Counter[TitleAuthor]:
