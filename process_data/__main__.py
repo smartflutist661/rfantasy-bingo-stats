@@ -12,7 +12,10 @@ from types import MappingProxyType as MAP
 
 import pandas
 
-from .calculate_statistics.get_bingo_cards import get_bingo_stats
+from .calculate_statistics.get_bingo_cards import (
+    get_bingo_cards,
+    get_bingo_stats,
+)
 from .calculate_statistics.get_stats import create_markdown
 from .calculate_statistics.plot_distributions import (
     create_yearly_plots,
@@ -50,8 +53,12 @@ from .match_books.get_matches import (
     update_dedupes_from_authors,
 )
 from .types.author_info import AuthorInfo
+from .types.bingo_card import BingoCard
 from .types.card_data import CardData
-from .types.defined_types import Author
+from .types.defined_types import (
+    Author,
+    CardID,
+)
 from .types.recorded_ignores import RecordedIgnores
 from .types.recorded_states import RecordedDupes
 from .types.utils import to_data
@@ -169,7 +176,7 @@ def normalize_books(
 
 
 def collect_statistics(
-    bingo_data: pandas.DataFrame,
+    cards: Mapping[CardID, BingoCard],
     recorded_states: RecordedDupes,
     yearly_paths: YearlyDataPaths,
     card_data: CardData,
@@ -178,7 +185,7 @@ def collect_statistics(
 ) -> None:
     """Collect statistics on normalized books and create a rough draft post"""
 
-    bingo_stats = get_bingo_stats(bingo_data, recorded_states, card_data, author_data)
+    bingo_stats = get_bingo_stats(cards, recorded_states, card_data, author_data)
 
     with yearly_paths.output_stats.open("w", encoding="utf8") as stats_file:
         json.dump(bingo_stats.to_data(), stats_file, indent=2)
@@ -237,9 +244,11 @@ def main(args: argparse.Namespace) -> None:
         json.dump(to_data(author_data), author_info_file)
         LOGGER.info("Wrote corrected author info.")
 
+    LOGGER.info("Collecting corrected bingo cards.")
+    cards = get_bingo_cards(bingo_data, card_data)
     LOGGER.info("Collecting statistics.")
     collect_statistics(
-        bingo_data, recorded_duplicates, data_paths, card_data, author_data, args.show_plots
+        cards, recorded_duplicates, data_paths, card_data, author_data, args.show_plots
     )
 
     if args.github_pat is not None:
