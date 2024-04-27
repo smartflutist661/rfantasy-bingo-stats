@@ -50,11 +50,16 @@ def get_short_story_square(
     """Get a square of five short stories"""
     shorts = []
     for ss_title_col, ss_author_col, _ in card_data.short_story_title_author_hm_cols:
-        ss_title = Title(row[ss_title_col])
-        ss_author = Author(row[ss_author_col])
+        ss_title = row[ss_title_col]
+        ss_author = row[ss_author_col]
 
         if ss_title and ss_author:
-            shorts.append((ss_title, ss_author))
+            shorts.append(
+                (
+                    Title(ss_title),
+                    Author(ss_author),
+                )
+            )
         else:
             return None
 
@@ -84,8 +89,8 @@ def get_bingo_square(
     # This captures hard mode short story squares (collections/anthologies)
     if title and author:
         return BingoSquare(
-            title=Title(str(title)),
-            author=Author(str(author)),
+            title=Title(title),
+            author=Author(author),
             hard_mode=hard_mode,
         )
 
@@ -121,18 +126,21 @@ def get_bingo_card(
 def get_bingo_cards(data: pandas.DataFrame, card_data: CardData) -> Mapping[CardID, BingoCard]:
     cards: dict[CardID, BingoCard] = {}
     for index, row in data.iterrows():
-        card_id = CardID(str(index))
-        if card_id in ("nan", "None"):
+        if index is None:
             continue
+        card_id = CardID(str(index))
 
         if card_data.subbed_by_square:
             subbed_square_map = {}
             for square_num, square_name in enumerate(card_data.square_names.values()):
-                subbed_square_name = SquareName(row[f"SQUARE {square_num+1}: SUBSTITUTION"])
-                if subbed_square_name is not None and len(subbed_square_name) > 0:
-                    subbed_square_map[square_name] = subbed_square_name
+                subbed_val = row[f"SQUARE {square_num+1}: SUBSTITUTION"]
+                if subbed_val is not None and len(subbed_val) > 0:
+                    subbed_square_map[square_name] = SquareName(subbed_val)
         else:
-            subbed_square_map = {SquareName(row["SUBBED OUT"]): SquareName(row["SUBBED IN"])}
+            if row["SUBBED OUT"] is not None and row["SUBBED IN"] is not None:
+                subbed_square_map = {SquareName(row["SUBBED OUT"]): SquareName(row["SUBBED IN"])}
+            else:
+                subbed_square_map = {}
 
         bingo_card = get_bingo_card(row, subbed_square_map, card_data)
 

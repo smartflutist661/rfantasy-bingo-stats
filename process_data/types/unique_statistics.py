@@ -12,10 +12,7 @@ from dataclasses import (
     field,
     fields,
 )
-from typing import (
-    Any,
-    cast,
-)
+from typing import Any
 
 from .defined_types import (
     Author,
@@ -39,13 +36,10 @@ class UniqueStatistics:
         """Construct from JSON data"""
         return cls(
             unique_books=Counter(
-                {Book(str(key)): int(cast(int, val)) for key, val in data["unique_books"].items()}
+                {Book(key): int(val) for key, val in data["unique_books"].items()}
             ),
             unique_authors=Counter(
-                {
-                    Author(str(key)): int(cast(int, val))
-                    for key, val in data["unique_authors"].items()
-                }
+                {Author(key): int(val) for key, val in data["unique_authors"].items()}
             ),
         )
 

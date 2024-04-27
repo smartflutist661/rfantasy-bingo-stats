@@ -1,6 +1,6 @@
 {
   "total_card_count": 929,
-  "total_story_count": 23090,
+  "total_story_count": 23096,
   "incomplete_cards": {
     "179": 20,
     "182": 10,
@@ -12,11 +12,10 @@
     "261": 15,
     "302": 14,
     "308": 6,
-    "34": 1,
     "364": 7,
     "367": 4,
     "375": 8,
-    "414": 19,
+    "414": 14,
     "439": 6,
     "444": 11,
     "47": 7,
@@ -92,37 +91,33 @@
     "Angels and Demons": 30,
     "Anti-Hero, 2022": 1,
     "Author uses initials Sff 2022": 1,
-    "Book Club or Readalong Book": 23,
+    "Book Club or Readalong Book": 24,
     "Bottom of the TBR": 26,
     "Coastal Setting": 21,
     "Druid": 46,
-    "Elemental Magic": 39,
+    "Elemental Magic": 38,
     "Features Robots": 32,
     "Five Short Stories": 37,
-    "Genevieve Gornichec": 1,
-    "Horror": 15,
-    "Iris Jaye & Hye M.": 1,
+    "Horror": 16,
     "Magical Realism": 27,
     "Multiverses": 21,
     "Mundane Jobs": 14,
-    "Mythical Beasts": 20,
-    "Myths and Retellings": 26,
+    "Mythical Beasts": 19,
+    "Myths and Retellings": 25,
     "Novella": 18,
     "POC Author": 20,
-    "Published in 2023": 22,
-    "Published in the 2000s": 30,
-    "Queernorm Setting": 22,
-    "Self Published or Indie Publisher": 32,
-    "Sequel": 10,
+    "Published in 2023": 21,
+    "Published in the 2000s": 31,
+    "Queernorm Setting": 21,
+    "Self Published or Indie Publisher": 33,
+    "Sequel": 9,
     "Set in the Middle East": 46,
     "Superheroes": 44,
     "Title with a Title": 12,
-    "Tomi Adeyemi": 1,
-    "Victoria Aveyard": 1,
     "Young Adult": 16
   },
   "incomplete_squares_per_card": {
-    "1": 6,
+    "1": 5,
     "2": 3,
     "3": 5,
     "4": 7,
@@ -135,10 +130,9 @@
     "11": 5,
     "12": 3,
     "13": 4,
-    "14": 1,
+    "14": 2,
     "15": 1,
     "16": 1,
-    "19": 1,
     "20": 3
   },
   "max_incomplete_squares": 20,
@@ -453,33 +447,29 @@
     "Angels and Demons": 36,
     "Anti-Hero, 2022": 1,
     "Author uses initials Sff 2022": 1,
-    "Book Club or Readalong Book": 54,
+    "Book Club or Readalong Book": 55,
     "Bottom of the TBR": 33,
     "Coastal Setting": 22,
     "Druid": 104,
-    "Elemental Magic": 59,
+    "Elemental Magic": 58,
     "Features Robots": 36,
     "Five Short Stories": 55,
-    "Genevieve Gornichec": 1,
-    "Horror": 26,
-    "Iris Jaye & Hye M.": 1,
+    "Horror": 27,
     "Magical Realism": 39,
     "Multiverses": 21,
     "Mundane Jobs": 15,
-    "Mythical Beasts": 22,
-    "Myths and Retellings": 30,
+    "Mythical Beasts": 21,
+    "Myths and Retellings": 29,
     "Novella": 20,
     "POC Author": 23,
-    "Published in 2023": 25,
-    "Published in the 2000s": 43,
-    "Queernorm Setting": 34,
-    "Self Published or Indie Publisher": 57,
-    "Sequel": 10,
+    "Published in 2023": 24,
+    "Published in the 2000s": 44,
+    "Queernorm Setting": 33,
+    "Self Published or Indie Publisher": 58,
+    "Sequel": 9,
     "Set in the Middle East": 76,
     "Superheroes": 78,
     "Title with a Title": 16,
-    "Tomi Adeyemi": 1,
-    "Victoria Aveyard": 1,
     "Young Adult": 20
   },
   "overall_uniques": {
@@ -1238,7 +1228,7 @@
       "Book of a Thousand Days /// Shannon Hale": 1,
       "Book of the New Sun /// Gene Wolfe": 1,
       "Books of Blood, Volume 1 /// Clive Barker": 3,
-      "Bookshops & Bonedust /// Travis Baldree": 82,
+      "Bookshops & Bonedust /// Travis Baldree": 83,
       "Borderline /// Mishell Baker": 1,
       "Bored Gay Werewolf /// Tony Santorella": 2,
       "Boris: Blutlinie /// I.B. Zimmermann": 1,
@@ -1391,7 +1381,7 @@
       "Child of the Northern Spring /// Persia Woolley": 1,
       "Child of the Prophecy /// Juliet Marillier": 4,
       "Children of Angels /// J.N. Chaney": 1,
-      "Children of Blood and Bone /// Tomi Champion-Adeyemi": 10,
+      "Children of Blood and Bone /// Tomi Champion-Adeyemi": 11,
       "Children of Dune /// Frank Herbert": 1,
       "Children of Earth and Sky /// Guy Gavriel Kay": 2,
       "Children of Fallen Gods /// Carissa Broadbent": 1,
@@ -2316,7 +2306,7 @@
       "Girl Country /// Jaqueline Vogtman": 1,
       "Girl Squad Volta /// Maya Lin Wang": 2,
       "Girl, Goddess, Queen /// Bea Fitzgerald": 1,
-      "Girl, Serpent, Thorn /// Melissa Bashardoust": 34,
+      "Girl, Serpent, Thorn /// Melissa Bashardoust": 35,
       "Girls and Goddesses /// Lari Don": 1,
       "Girls of Fate and Fury /// Natasha Ngan": 1,
       "Girls of Little Hope /// Sam Beckbessinger, Dale Halvorsen": 1,
@@ -2869,6 +2859,7 @@
       "King of Scars /// Leigh Bardugo": 3,
       "King of Thorns /// Mark Lawrence": 1,
       "King of Tricksters /// S.L. Prater": 1,
+      "King's Cage /// Victoria Aveyard": 1,
       "Kingdom Come /// Mark Waid": 2,
       "Kingdom of Ash /// Sarah J. Maas": 2,
       "Kingdom of Ashes /// Elena May": 1,
@@ -4536,6 +4527,7 @@
       "System Collapse /// Martha Wells": 114,
       "TOR.COM Nov/Dec 2023 Short Fiction /// Nghi Vo, Cory Doctorow, Kerstin Hall, Nisi Shawl, Lyndsie Manusos": 1,
       "Taaqtumi: An Anthology of Arctic Horror Stories /// Aviaq Johnston, Richard Van Camp, Rachel Qitsualik-Tinsley, Sean Qitsualik-Tinsley, Thomas Anguti Johnston, Jay Bulckaert, Repo Kempt, Gayle Kabloona, Cara Bryant, K.C. Carthew": 3,
+      "Tabula Idem: A Queer Tarot Comic Anthology /// Iris Jaye & Hye M.": 1,
       "Tadek and the Princess /// Alexandra Rowland": 2,
       "Tainaron: Mail From Another City /// Leena Krohn": 1,
       "Tainted /// Krystle Matar": 1,
@@ -6473,7 +6465,7 @@
       "The Witch and the Tsar /// Olesya Salnikova Gilmore": 3,
       "The Witch at the Forest's Edge /// Christine Grace": 1,
       "The Witch's Diary /// Rebecca Brae": 7,
-      "The Witch's Heart /// Genevieve Gornichec": 45,
+      "The Witch's Heart /// Genevieve Gornichec": 46,
       "The Witches of Eileanan /// Kate Forsyth": 1,
       "The Witches of Vardo /// Anya Bergman": 1,
       "The Witchwood Knot /// Olivia Atwater": 4,
@@ -8464,7 +8456,7 @@
       "Gene Luen Yang": 11,
       "Gene Wolfe": 15,
       "Genevieve Cogman": 21,
-      "Genevieve Gornichec": 51,
+      "Genevieve Gornichec": 52,
       "Genevieve Valentine": 1,
       "Genki Kawamura": 1,
       "GennaRose Nethercott": 16,
@@ -8674,6 +8666,7 @@
       "Irene Sol\u00e0": 2,
       "Irenosen Okojie": 1,
       "Iris Foxglove": 3,
+      "Iris Jaye & Hye M.": 1,
       "Isaac Asimov": 38,
       "Isaac Fellman": 11,
       "Isabel Allende": 9,
@@ -9772,7 +9765,7 @@
       "Melinda M. Snodgrass": 6,
       "Melinda Taub": 3,
       "Melissa Albert": 3,
-      "Melissa Bashardoust": 34,
+      "Melissa Bashardoust": 35,
       "Melissa Blair": 4,
       "Melissa Broder": 1,
       "Melissa Capriglione": 1,
@@ -10891,7 +10884,7 @@
       "Tom Sweterlitsch": 2,
       "Tom Taylor": 1,
       "Tom Waltz": 9,
-      "Tomi Champion-Adeyemi": 19,
+      "Tomi Champion-Adeyemi": 20,
       "Tomihiko Morimi": 4,
       "Toni Jerrman": 1,
       "Toni Morrison": 3,
@@ -10916,7 +10909,7 @@
       "Tracy Wolff": 1,
       "Trang Thanh Tran": 12,
       "Travis Bagwell": 1,
-      "Travis Baldree": 268,
+      "Travis Baldree": 269,
       "Travis M. Riddle": 8,
       "Trent Jamieson": 4,
       "Trevor Melanson": 1,
@@ -10967,7 +10960,7 @@
       "Victor Manibo": 3,
       "Victor Mil\u00e1n": 6,
       "Victor Pelevin": 1,
-      "Victoria Aveyard": 2,
+      "Victoria Aveyard": 3,
       "Victoria Goddard": 45,
       "Victoria Walker": 1,
       "Viktor Athelstan": 1,
@@ -14969,7 +14962,7 @@
         "Captain's Fury /// Jim Butcher": 1,
         "Chalice /// Robin McKinley": 4,
         "Chaos Dungeon /// Devon Salvin": 1,
-        "Children of Blood and Bone /// Tomi Champion-Adeyemi": 6,
+        "Children of Blood and Bone /// Tomi Champion-Adeyemi": 7,
         "Children of Virtue and Vengeance /// Tomi Champion-Adeyemi": 1,
         "Cie\u0144 i ko\u015b\u0107 /// Leigh Bardugo": 1,
         "Circle of Magic /// Tamora Pierce": 1,
@@ -15531,7 +15524,7 @@
         "Tavia Lark": 1,
         "Tessonja Odette": 1,
         "Tobias Begley": 1,
-        "Tomi Champion-Adeyemi": 7,
+        "Tomi Champion-Adeyemi": 8,
         "Tracy Deonn": 1,
         "Tracy Hickman": 7,
         "Travis Bagwell": 1,
@@ -20449,7 +20442,7 @@
         "Blood of an Exile /// Brian Naslund": 1,
         "Bloody Rose /// Nicholas Eames": 1,
         "Bone Weaver /// Aden Polydoros": 1,
-        "Bookshops & Bonedust /// Travis Baldree": 2,
+        "Bookshops & Bonedust /// Travis Baldree": 3,
         "Boris: Blutlinie /// I.B. Zimmermann": 1,
         "Briar Girls /// Rebecca Kim Wells": 1,
         "Bride /// Ali Hazelwood": 1,
@@ -21160,7 +21153,7 @@
         "Thiago Abdalla": 3,
         "Tim Powers": 1,
         "Tracy Gregory": 1,
-        "Travis Baldree": 9,
+        "Travis Baldree": 10,
         "Travis M. Riddle": 1,
         "Tui T. Sutherland": 2,
         "Tu\u00ed": 1,
@@ -21534,7 +21527,7 @@
         "The Winter King /// Bernard Cornwell": 2,
         "The Winter Knight /// Jes Battis": 1,
         "The Witch and the Tsar /// Olesya Salnikova Gilmore": 3,
-        "The Witch's Heart /// Genevieve Gornichec": 30,
+        "The Witch's Heart /// Genevieve Gornichec": 31,
         "The Wolf and the Woodsman /// Ava Reid": 1,
         "The Wolf in the Whale /// Jordanna Max Brodsky": 1,
         "The Words of Kings and Prophets /// Shauna Lawless": 2,
@@ -21677,7 +21670,7 @@
         "Gabe Cole Novoa": 1,
         "Gama Ray Martinez": 1,
         "Genevieve Cogman": 5,
-        "Genevieve Gornichec": 31,
+        "Genevieve Gornichec": 32,
         "GennaRose Nethercott": 8,
         "Giles Kristian": 1,
         "Gourav Mohanty": 3,
@@ -23866,7 +23859,7 @@
         "For Love of Magic /// Simon R. Green": 1,
         "For the First Time, Again /// Sylvain Neuvel": 1,
         "Forge of the High Mage /// Ian C. Esslemont": 1,
-        "Fourth Wing /// Rebecca Yarros": 24,
+        "Fourth Wing /// Rebecca Yarros": 25,
         "Foxglove /// Adalyn Grace": 1,
         "Fractal Noise /// Christopher Paolini": 1,
         "Frontier /// Grace Curtis": 2,
@@ -24386,7 +24379,7 @@
         "Raymond St. Elmo": 1,
         "Rebecca Ross": 1,
         "Rebecca Schaeffer": 1,
-        "Rebecca Yarros": 27,
+        "Rebecca Yarros": 28,
         "Richard Kadrey": 1,
         "Richard Swan": 2,
         "Rick Riordan": 5,
@@ -24592,7 +24585,6 @@
         "For the Emperor /// Sandy Mitchell": 3,
         "Fortress in the Eye of Time /// C.J. Cherryh": 1,
         "Foundation /// Mercedes Lackey": 1,
-        "Fourth Wing /// Rebecca Yarros": 1,
         "Fullmetal Alchemist /// Hiromu Arakawa": 1,
         "Furies of Calderon /// Jim Butcher": 2,
         "Gagner la Guerre /// Jean-Philippe Jaworski": 1,
@@ -25199,7 +25191,6 @@
         "R.M. Meluch": 1,
         "Rachel Caine": 1,
         "Raymond E. Feist": 1,
-        "Rebecca Yarros": 1,
         "Richard Butner": 1,
         "Richard K. Morgan": 8,
         "Richard Paul Russo": 2,
@@ -25457,6 +25448,7 @@
         "Swordheart /// T. Kingfisher": 4,
         "Swordspoint /// Ellen Kushner": 1,
         "System Collapse /// Martha Wells": 5,
+        "Tabula Idem: A Queer Tarot Comic Anthology /// Iris Jaye & Hye M.": 1,
         "Tadek and the Princess /// Alexandra Rowland": 1,
         "Tempest /// Iris Foxglove": 1,
         "That Time I Got Drunk and Saved a Human /// Kimberly Lemming": 1,
@@ -25701,6 +25693,7 @@
         "Helen S. Wright": 1,
         "Hiron Ennes": 1,
         "Iris Foxglove": 1,
+        "Iris Jaye & Hye M.": 1,
         "J.P. Valentine": 1,
         "Jacqueline Carey": 14,
         "James A. Sullivan": 1,
@@ -27378,6 +27371,7 @@
         "Jhegaala /// Steven Brust": 1,
         "King Bullet /// Richard Kadrey": 1,
         "King of Assassins /// R.J. Barker": 1,
+        "King's Cage /// Victoria Aveyard": 1,
         "Knight's Shadow /// Sebastien de Castell": 1,
         "Komarr /// Lois McMaster Bujold": 1,
         "Labyrinth's Heart /// M.A. Carrick": 10,
@@ -28065,6 +28059,7 @@
         "Ursula K. Le Guin": 6,
         "V.E. Schwab": 2,
         "Valerie Valdes": 2,
+        "Victoria Aveyard": 1,
         "Victoria Goddard": 1,
         "Will Wight": 18,
         "William Gibson": 1,
@@ -28197,7 +28192,7 @@
         "Fly Already /// Etgar Keret": 1,
         "Frankenstein in Baghdad /// Ahmed Saadawi": 17,
         "Gilgamesh /// Herbert Mason": 1,
-        "Girl, Serpent, Thorn /// Melissa Bashardoust": 29,
+        "Girl, Serpent, Thorn /// Melissa Bashardoust": 30,
         "God's War /// Kameron Hurley": 1,
         "Gunmetal Gods /// Zamil Akhtar": 34,
         "Heaven on Earth /// Fadi Zaghmout": 1,
@@ -28407,7 +28402,7 @@
         "Martin Powell": 1,
         "Matt Dinniman": 1,
         "Matt Ruff": 1,
-        "Melissa Bashardoust": 29,
+        "Melissa Bashardoust": 30,
         "Michael Moorcock": 1,
         "Mike Carey": 1,
         "Miles Cameron": 1,
@@ -32783,7 +32778,7 @@
     "Foundations /// Cale Plamann": 1,
     "Foundryside /// Robert Jackson Bennett": 3,
     "Four Roads Cross /// Max Gladstone": 2,
-    "Fourth Wing /// Rebecca Yarros": 11,
+    "Fourth Wing /// Rebecca Yarros": 10,
     "Fox Snare /// Yoon Ha Lee": 1,
     "Fox Tales /// Tomihiko Morimi": 1,
     "Foxglove /// Adalyn Grace": 2,
@@ -33440,6 +33435,7 @@
     "King of Scars /// Leigh Bardugo": 2,
     "King of Thorns /// Mark Lawrence": 1,
     "King of Tricksters /// S.L. Prater": 1,
+    "King's Cage /// Victoria Aveyard": 1,
     "Kingdom Come /// Mark Waid": 2,
     "Kingdom of Ash /// Sarah J. Maas": 2,
     "Kingdom of Ashes /// Elena May": 1,
@@ -35107,6 +35103,7 @@
     "System Collapse /// Martha Wells": 5,
     "TOR.COM Nov/Dec 2023 Short Fiction /// Nghi Vo, Cory Doctorow, Kerstin Hall, Nisi Shawl, Lyndsie Manusos": 1,
     "Taaqtumi: An Anthology of Arctic Horror Stories /// Aviaq Johnston, Richard Van Camp, Rachel Qitsualik-Tinsley, Sean Qitsualik-Tinsley, Thomas Anguti Johnston, Jay Bulckaert, Repo Kempt, Gayle Kabloona, Cara Bryant, K.C. Carthew": 1,
+    "Tabula Idem: A Queer Tarot Comic Anthology /// Iris Jaye & Hye M.": 1,
     "Tadek and the Princess /// Alexandra Rowland": 2,
     "Tainaron: Mail From Another City /// Leena Krohn": 1,
     "Tainted /// Krystle Matar": 1,
@@ -39245,6 +39242,7 @@
     "Irene Sol\u00e0": 2,
     "Irenosen Okojie": 1,
     "Iris Foxglove": 2,
+    "Iris Jaye & Hye M.": 1,
     "Isaac Asimov": 5,
     "Isaac Fellman": 6,
     "Isabel Allende": 3,
@@ -40833,7 +40831,7 @@
     "Rebecca Schaeffer": 4,
     "Rebecca Serle": 1,
     "Rebecca Thorne": 7,
-    "Rebecca Yarros": 13,
+    "Rebecca Yarros": 12,
     "Rebecca Zahabi": 1,
     "Recent Cutbacks": 1,
     "Redfern Jon Barrett": 1,
@@ -41538,7 +41536,7 @@
     "Victor Manibo": 2,
     "Victor Mil\u00e1n": 1,
     "Victor Pelevin": 1,
-    "Victoria Aveyard": 2,
+    "Victoria Aveyard": 3,
     "Victoria Goddard": 12,
     "Victoria Walker": 1,
     "Viktor Athelstan": 1,
@@ -41810,7 +41808,7 @@
     "21": 3,
     "210": 5,
     "211": 7,
-    "212": 6,
+    "212": 5,
     "213": 4,
     "214": 4,
     "215": 6,
@@ -42032,7 +42030,7 @@
     "411": 2,
     "412": 6,
     "413": 14,
-    "414": 1,
+    "414": 3,
     "415": 7,
     "416": 7,
     "417": 5,
@@ -42376,8 +42374,7 @@
     "728": 6,
     "729": 15,
     "73": 3,
-    "730": 2,
-    "731": 1,
+    "730": 1,
     "732": 9,
     "733": 6,
     "734": 6,
@@ -42599,7 +42596,6 @@
     "99": 11
   },
   "bad_spellings_by_book": {
-    "11/22/63 /// Stephen King": 1,
     "1Q84 /// Haruki Murakami": 1,
     "2001: A Space Odyssey /// Arthur C. Clarke": 2,
     "3 Days of Luke /// Diana Wynne Jones": 1,
@@ -42882,7 +42878,7 @@
     "Book of Night /// Holly Black": 1,
     "Book of a Thousand Days /// Shannon Hale": 1,
     "Books of Blood, Volume 1 /// Clive Barker": 3,
-    "Bookshops & Bonedust /// Travis Baldree": 9,
+    "Bookshops & Bonedust /// Travis Baldree": 10,
     "Boris: Blutlinie /// I.B. Zimmermann": 1,
     "Born In Fire /// K.F. Breene": 1,
     "Bound to Fall /// A.K. Caggiano": 1,
@@ -45333,7 +45329,7 @@
     "411": 7,
     "412": 1,
     "413": 17,
-    "414": 1,
+    "414": 3,
     "415": 0,
     "416": 5,
     "417": 3,
@@ -46181,7 +46177,7 @@
     "337": 18,
     "338": 24,
     "339": 23,
-    "34": 16,
+    "34": 17,
     "340": 11,
     "341": 16,
     "342": 15,
@@ -46264,7 +46260,7 @@
     "411": 20,
     "412": 1,
     "413": 18,
-    "414": 5,
+    "414": 10,
     "415": 14,
     "416": 24,
     "417": 12,
@@ -46856,7 +46852,7 @@
     "Comfort Read 2021": 2,
     "Disability 2019": 1,
     "Druid": 734,
-    "Elemental Magic": 791,
+    "Elemental Magic": 792,
     "Features Robots": 564,
     "Featuring a Ghost 2020": 1,
     "First Contact 2021": 1,
@@ -46879,8 +46875,8 @@
     "Multiverses": 672,
     "Mundane Jobs": 552,
     "Mystery Plot 2021": 3,
-    "Mythical Beasts": 581,
-    "Myths and Retellings": 723,
+    "Mythical Beasts": 582,
+    "Myths and Retellings": 724,
     "Name in the Title 2022": 3,
     "New to You 2021": 1,
     "New to You Author 2021": 3,
@@ -46904,7 +46900,7 @@
     "POC Author": 431,
     "Published in 2023": 371,
     "Published in the 2000s": 666,
-    "Queernorm Setting": 605,
+    "Queernorm Setting": 606,
     "Revenge 2021": 1,
     "Revenge-Seeking Character 2021 (Hard Mode)": 1,
     "Revolutions and Rebellions - 2022": 1,
@@ -46912,11 +46908,11 @@
     "SFF Novel Featuring Twins 2019": 1,
     "SFF Novel with 4 or more words in the title 2019": 1,
     "Self Published or Indie Publisher": 373,
-    "Sequel": 704,
+    "Sequel": 705,
     "Set in Asia, Author is of Asian heritage": 1,
     "Set in Space 2022": 5,
     "Set in a School or University, 2020": 1,
-    "Set in the Middle East": 482,
+    "Set in the Middle East": 483,
     "Shapeshifters, 2022": 1,
     "Stand Alone 2018": 1,
     "Standalone 2022": 3,
@@ -48423,6 +48419,7 @@
     "Irene Sol\u00e0": 1,
     "Irenosen Okojie": 1,
     "Iris Foxglove": 2,
+    "Iris Jaye & Hye M.": 1,
     "Isaac Asimov": 15,
     "Isaac Fellman": 3,
     "Isabel Allende": 2,
@@ -50716,7 +50713,7 @@
     "Victor Manibo": 1,
     "Victor Mil\u00e1n": 1,
     "Victor Pelevin": 1,
-    "Victoria Aveyard": 2,
+    "Victoria Aveyard": 3,
     "Victoria Goddard": 13,
     "Victoria Walker": 1,
     "Viktor Athelstan": 1,
@@ -50869,16 +50866,16 @@
   },
   "overall_author_stats": {
     "gender_count": {
-      "Unknown": 23660
+      "Unknown": 23666
     },
     "race_count": {
-      "Unknown": 23660
+      "Unknown": 23666
     },
     "queer_count": {
-      "null": 23660
+      "null": 23666
     },
     "nationality_count": {
-      "Unknown": 23660
+      "Unknown": 23666
     }
   },
   "square_author_stats": {
@@ -51556,16 +51553,16 @@
     },
     "Elemental Magic": {
       "gender_count": {
-        "Unknown": 925
+        "Unknown": 926
       },
       "race_count": {
-        "Unknown": 925
+        "Unknown": 926
       },
       "queer_count": {
-        "null": 925
+        "null": 926
       },
       "nationality_count": {
-        "Unknown": 925
+        "Unknown": 926
       }
     },
     "Family Matters 2022": {
@@ -52284,30 +52281,30 @@
     },
     "Mythical Beasts": {
       "gender_count": {
-        "Unknown": 920
+        "Unknown": 921
       },
       "race_count": {
-        "Unknown": 920
+        "Unknown": 921
       },
       "queer_count": {
-        "null": 920
+        "null": 921
       },
       "nationality_count": {
-        "Unknown": 920
+        "Unknown": 921
       }
     },
     "Myths and Retellings": {
       "gender_count": {
-        "Unknown": 928
+        "Unknown": 929
       },
       "race_count": {
-        "Unknown": 928
+        "Unknown": 929
       },
       "queer_count": {
-        "null": 928
+        "null": 929
       },
       "nationality_count": {
-        "Unknown": 928
+        "Unknown": 929
       }
     },
     "Name in Title, 2022": {
@@ -53110,44 +53107,44 @@
     },
     "Published in 2023": {
       "gender_count": {
-        "Unknown": 918
+        "Unknown": 919
       },
       "race_count": {
-        "Unknown": 918
+        "Unknown": 919
       },
       "queer_count": {
-        "null": 918
+        "null": 919
       },
       "nationality_count": {
-        "Unknown": 918
+        "Unknown": 919
       }
     },
     "Published in the 2000s": {
       "gender_count": {
-        "Unknown": 915
+        "Unknown": 914
       },
       "race_count": {
-        "Unknown": 915
+        "Unknown": 914
       },
       "queer_count": {
-        "null": 915
+        "null": 914
       },
       "nationality_count": {
-        "Unknown": 915
+        "Unknown": 914
       }
     },
     "Queernorm Setting": {
       "gender_count": {
-        "Unknown": 904
+        "Unknown": 905
       },
       "race_count": {
-        "Unknown": 904
+        "Unknown": 905
       },
       "queer_count": {
-        "null": 904
+        "null": 905
       },
       "nationality_count": {
-        "Unknown": 904
+        "Unknown": 905
       }
     },
     "Revenge 2021": {
@@ -53390,16 +53387,16 @@
     },
     "Sequel": {
       "gender_count": {
-        "Unknown": 935
+        "Unknown": 936
       },
       "race_count": {
-        "Unknown": 935
+        "Unknown": 936
       },
       "queer_count": {
-        "null": 935
+        "null": 936
       },
       "nationality_count": {
-        "Unknown": 935
+        "Unknown": 936
       }
     },
     "Set In Asia (2021)": {
@@ -53502,16 +53499,16 @@
     },
     "Set in the Middle East": {
       "gender_count": {
-        "Unknown": 890
+        "Unknown": 891
       },
       "race_count": {
-        "Unknown": 890
+        "Unknown": 891
       },
       "queer_count": {
-        "null": 890
+        "null": 891
       },
       "nationality_count": {
-        "Unknown": 890
+        "Unknown": 891
       }
     },
     "Shape-shifters 2022": {

@@ -8,10 +8,9 @@ import json
 from collections import defaultdict
 from pathlib import Path
 
+import numpy as np
 import pandas
-from pyexcel_ods3 import get_data  # type: ignore
 
-from ..types.card_data import CardData
 from ..types.recorded_ignores import RecordedIgnores
 from ..types.recorded_states import RecordedDupes
 
@@ -36,13 +35,11 @@ def get_existing_states(
         )
 
 
-def get_bingo_dataframe(bingo_data_filepath: Path, card_data: CardData) -> pandas.DataFrame:
+def get_bingo_dataframe(bingo_data_filepath: Path) -> pandas.DataFrame:
     """Create a Pandas DataFrame of the bingo data, indexed on card number"""
-    raw_bingo_data = dict(get_data(str(bingo_data_filepath)))
 
-    bingo_data = pandas.DataFrame(raw_bingo_data[card_data.sheet_name])
-    bingo_data.columns = bingo_data.iloc[0]  # type: ignore[assignment]
-    bingo_data.drop(bingo_data.index[0], inplace=True)
+    bingo_data = pandas.read_csv(bingo_data_filepath)
     bingo_data.set_index("CARD", inplace=True)
 
-    return bingo_data
+    # Just looping through everywhere, minimal performance implications?
+    return bingo_data.replace({np.nan: None})

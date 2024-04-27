@@ -23,7 +23,7 @@ In addition, if you did something like, say, put **The Lost Metal** as a short s
 3. Books by multiple authors were counted once for each author. E.g.: **In the Heart of Darkness** by Eric Flint and David Drake counts as a read for both Eric Flint and David Drake.
 *However*, books by a writing team with a single-author pseudonym, e.g. M.A. Carrick, were counted once for the pseudonym, and not for the authors behind the pseudonym.
 4. Author demographic statistics are not included below, for two reasons: it quickly gets messy and culturally-specific,
-and I didn't want to stalk all 3933 individual authors. Machinery for these calculations are included in the script, however,
+and I didn't want to stalk all 3934 individual authors. Machinery for these calculations are included in the script, however,
 so if anyone would like to supply demographic information, it is easy to include.
 5. Short stories were excluded from most of the stats below. They *were* included in the total story count.
 
@@ -33,21 +33,21 @@ so if anyone would like to supply demographic information, it is easy to include
 
 ### Squares and Cards
 
-- There were 929 cards submitted, 85 of which were incomplete.
-The minimum number of filled squares was 5. 6 were *this close*, with 24 filled squares.
-655 squares were left blank, leaving 22570 filled squares.
-- There were 23090 total stories, with 6698 unique stories read,
-by 3933 unique authors (23660 total).
-4148 books and 2119 authors were used only once. 
-- The top squares left blank were: **Set in the Middle East** and **Druid**, blank on 46 cards each; **Superheroes**, blank on 44 cards; **Elemental Magic**, blank on 39 cards. On the other hand, **Sequel** was only left blank 10 times.
+- There were 929 cards submitted, 84 of which were incomplete.
+The minimum number of filled squares was 5. 5 were *this close*, with 24 filled squares.
+649 squares were left blank, leaving 22576 filled squares.
+- There were 23096 total stories, with 6700 unique stories read,
+by 3934 unique authors (23666 total).
+4150 books and 2120 authors were used only once. 
+- The top squares left blank were: **Druid** and **Set in the Middle East**, blank on 46 cards each; **Superheroes**, blank on 44 cards; **Elemental Magic**, blank on 38 cards. On the other hand, **Sequel** was only left blank 9 times.
 - The three squares most often substituted were: **Druid**, substituted on 58 cards; **Superheroes**, substituted on 34 cards; **Book Club or Readalong Book**, substituted on 31 cards.
-**Multiverses** and **Sequel** were never substituted.
+**Sequel** and **Multiverses** were never substituted.
 This means that Druid was the least favorite overall, skipped or substituted a total of 104 times, and
-Sequel was the favorite, skipped or substituted only 10 times.
+Sequel was the favorite, skipped or substituted only 9 times.
 - There were an average of 4.5 unique books per card.
 - 182 cards claimed an all-hard-mode card, while 31 cards were short by one square.
-3 cards claimed no hard-mode squares at all. The average number of hard-mode squares per card was 16.9.
-There were a total of 15743 hard-mode squares claimed.
+3 cards claimed no hard-mode squares at all. The average number of hard-mode squares per card was 17.0.
+There were a total of 15749 hard-mode squares claimed.
 
 |SQUARE|% COMPLETE|% HARD MODE|
 |---------|:---------:|:---------:|
@@ -57,25 +57,25 @@ There were a total of 15743 hard-mode squares claimed.
 |Magical Realism|97.1|81.7|
 |Young Adult|98.3|69.6|
 |Mundane Jobs|98.5|59.5|
-|Published in the 2000s|96.7|72.7|
+|Published in the 2000s|96.6|72.7|
 |Angels and Demons|96.7|55.0|
 |Five Short Stories|95.9|81.2|
-|Horror|98.4|91.9|
-|Self Published or Indie Publisher|96.5|41.3|
-|Set in the Middle East|94.9|53.6|
-|Published in 2023|97.6|40.1|
+|Horror|98.3|91.9|
+|Self Published or Indie Publisher|96.3|41.3|
+|Set in the Middle East|94.9|53.7|
+|Published in 2023|97.7|40.1|
 |Multiverses|97.7|72.3|
 |POC Author|97.8|46.5|
-|Book Club or Readalong Book|97.4|32.1|
+|Book Club or Readalong Book|97.3|32.1|
 |Novella|98.1|64.9|
-|Mythical Beasts|97.8|62.7|
-|Elemental Magic|95.7|87.0|
-|Myths and Retellings|97.2|78.2|
-|Queernorm Setting|97.6|66.0|
+|Mythical Beasts|98.0|62.8|
+|Elemental Magic|95.8|87.1|
+|Myths and Retellings|97.3|78.3|
+|Queernorm Setting|97.7|66.1|
 |Coastal Setting|97.7|69.2|
 |Druid|94.7|84.3|
 |Features Robots|96.5|61.0|
-|Sequel|98.9|75.8|
+|Sequel|99.0|75.9|
 
 <INSERT PLOTS HERE>
 
@@ -97,8 +97,8 @@ The ten most-read books were:
 The books used for the most squares were:
 
 - **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett, used for 12 squares
-- **Fourth Wing** by Rebecca Yarros, used for 11 squares
-- TIE: **Tress of the Emerald Sea** by Brandon Sanderson and **This is How You Lose the Time War** by Amal El-Mohtar, Max Gladstone and **The Spear Cuts Through Water** by Simon Jimenez and **Mother of Learning** by Domagoj Kurmaić, each used for 10 squares
+- TIE: **Fourth Wing** by Rebecca Yarros and **Tress of the Emerald Sea** by Brandon Sanderson and **This is How You Lose the Time War** by Amal El-Mohtar, Max Gladstone and **The Spear Cuts Through Water** by Simon Jimenez and **Mother of Learning** by Domagoj Kurmaić, each used for 10 squares
+- TIE: **The House in the Cerulean Sea** by T.J. Klune and **Nettle & Bone** by T. Kingfisher and **Legends & Lattes** by Travis Baldree and **Nona the Ninth** by Tamsyn Muir and **Mammoths at the Gates** by Nghi Vo and **Percy Jackson and the Lightning Thief** by Rick Riordan and **Starling House** by Alix E. Harrow, each used for 9 squares
 
 **Mother of Learning** by Domagoj Kurmaić was the book read at least 10 times with the highest ratio of squares to times read:
 read 15 times for 10 squares.
@@ -116,7 +116,7 @@ The ten most-read authors were:
 - T. Kingfisher, read 380 times
 - Brandon Sanderson, read 349 times
 - S.A. Chakraborty, read 277 times
-- Travis Baldree, read 268 times
+- Travis Baldree, read 269 times
 - Terry Pratchett, read 233 times
 - Neil Gaiman, read 229 times
 - Becky Chambers, read 210 times
@@ -318,10 +318,10 @@ Skipped 14 times. Substituted 1 times.
 - **Kushiel's Dart** by Jacqueline Carey, read 14 times
 - **Vita Nostra** by Marina Dyachenko, Sergey Dyachenko, read 13 times
 
-**TOTAL**: 885 books read, with 479 unique titles.
+**TOTAL**: 884 books read, with 478 unique titles.
 666 books were claimed to qualify for hard mode.
-332 books were used only once for this square.
-Skipped 30 times. Substituted 13 times.
+331 books were used only once for this square.
+Skipped 31 times. Substituted 13 times.
 
 #### Most Read Authors
 
@@ -331,8 +331,8 @@ Skipped 30 times. Substituted 13 times.
 - TIE: Naomi Novik and China Miéville, each read 24 times
 - Jim Butcher, read 22 times
 
-**TOTAL**: 915 total authors read, with 317 unique.
-182 authors were used only once for this square.
+**TOTAL**: 914 total authors read, with 316 unique.
+181 authors were used only once for this square.
 
 ### 8. Angels and Demons
 
@@ -399,7 +399,7 @@ Skipped 37 times. Substituted 18 times.
 **TOTAL**: 901 books read, with 394 unique titles.
 844 books were claimed to qualify for hard mode.
 269 books were used only once for this square.
-Skipped 15 times. Substituted 11 times.
+Skipped 16 times. Substituted 11 times.
 
 #### Most Read Authors
 
@@ -425,7 +425,7 @@ Skipped 15 times. Substituted 11 times.
 **TOTAL**: 871 books read, with 608 unique titles.
 373 books were claimed to qualify for hard mode.
 507 books were used only once for this square.
-Skipped 32 times. Substituted 25 times.
+Skipped 33 times. Substituted 25 times.
 
 #### Most Read Authors
 
@@ -448,8 +448,8 @@ Skipped 32 times. Substituted 25 times.
 - **The City of Brass** by S.A. Chakraborty, read 41 times
 - **The Daughters of Izdihar** by Hadeer Elsbai, read 37 times
 
-**TOTAL**: 852 books read, with 164 unique titles.
-482 books were claimed to qualify for hard mode.
+**TOTAL**: 853 books read, with 164 unique titles.
+483 books were claimed to qualify for hard mode.
 94 books were used only once for this square.
 Skipped 46 times. Substituted 30 times.
 
@@ -461,7 +461,7 @@ Skipped 46 times. Substituted 30 times.
 - Zamil Akhtar, read 42 times
 - Hadeer Elsbai, read 38 times
 
-**TOTAL**: 890 total authors read, with 143 unique.
+**TOTAL**: 891 total authors read, with 143 unique.
 71 authors were used only once for this square.
 
 ### 13. Published in 2023
@@ -471,23 +471,23 @@ Skipped 46 times. Substituted 30 times.
 - **Godkiller** by Hannah Kaner, read 29 times
 - **Ink Blood Sister Scribe** by Emma Törzs, read 27 times
 - **The Will of the Many** by James Islington, read 26 times
-- **Fourth Wing** by Rebecca Yarros, read 24 times
+- **Fourth Wing** by Rebecca Yarros, read 25 times
 - **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett, read 22 times
 
-**TOTAL**: 904 books read, with 341 unique titles.
+**TOTAL**: 905 books read, with 341 unique titles.
 371 books were claimed to qualify for hard mode.
 206 books were used only once for this square.
-Skipped 22 times. Substituted 3 times.
+Skipped 21 times. Substituted 3 times.
 
 #### Most Read Authors
 
 - Brandon Sanderson, read 48 times
 - Hannah Kaner, read 29 times
-- TIE: Rebecca Yarros and Emma Törzs, each read 27 times
+- Rebecca Yarros, read 28 times
+- Emma Törzs, read 27 times
 - James Islington, read 26 times
-- Heather Fawcett, read 22 times
 
-**TOTAL**: 918 total authors read, with 337 unique.
+**TOTAL**: 919 total authors read, with 337 unique.
 208 authors were used only once for this square.
 
 ### 14. Multiverses
@@ -555,7 +555,7 @@ Skipped 20 times. Substituted 3 times.
 **TOTAL**: 874 books read, with 266 unique titles.
 288 books were claimed to qualify for hard mode.
 131 books were used only once for this square.
-Skipped 23 times. Substituted 31 times.
+Skipped 24 times. Substituted 31 times.
 
 #### Most Read Authors
 
@@ -604,10 +604,10 @@ Skipped 18 times. Substituted 2 times.
 - **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett, read 18 times
 - TIE: **All the Murmuring Bones** by A.G. Slatter and **A Natural History of Dragons** by Marie Brennan and **The Forgotten Beasts of Eld** by Patricia A. McKillip, each read 14 times
 
-**TOTAL**: 907 books read, with 451 unique titles.
-581 books were claimed to qualify for hard mode.
+**TOTAL**: 908 books read, with 451 unique titles.
+582 books were claimed to qualify for hard mode.
 336 books were used only once for this square.
-Skipped 20 times. Substituted 2 times.
+Skipped 19 times. Substituted 2 times.
 
 #### Most Read Authors
 
@@ -617,7 +617,7 @@ Skipped 20 times. Substituted 2 times.
 - Marie Brennan, read 24 times
 - Heather Fawcett, read 20 times
 
-**TOTAL**: 920 total authors read, with 335 unique.
+**TOTAL**: 921 total authors read, with 335 unique.
 215 authors were used only once for this square.
 
 ### 19. Elemental Magic
@@ -630,10 +630,10 @@ Skipped 20 times. Substituted 2 times.
 - TIE: **A River Enchanted** by Rebecca Ross and **The Fifth Season** by N.K. Jemisin, each read 16 times
 - TIE: **Daughter of the Moon Goddess** by Sue Lynn Tan and **A Darker Shade of Magic** by V.E. Schwab, each read 13 times
 
-**TOTAL**: 868 books read, with 360 unique titles.
-791 books were claimed to qualify for hard mode.
+**TOTAL**: 869 books read, with 360 unique titles.
+792 books were claimed to qualify for hard mode.
 236 books were used only once for this square.
-Skipped 39 times. Substituted 20 times.
+Skipped 38 times. Substituted 20 times.
 
 #### Most Read Authors
 
@@ -643,7 +643,7 @@ Skipped 39 times. Substituted 20 times.
 - Hadeer Elsbai, read 32 times
 - Robert Jordan, read 26 times
 
-**TOTAL**: 925 total authors read, with 259 unique.
+**TOTAL**: 926 total authors read, with 259 unique.
 152 authors were used only once for this square.
 
 ### 20. Myths and Retellings
@@ -651,25 +651,25 @@ Skipped 39 times. Substituted 20 times.
 #### Most Read Books
 
 - **Spinning Silver** by Naomi Novik, read 43 times
-- **The Witch's Heart** by Genevieve Gornichec, read 30 times
+- **The Witch's Heart** by Genevieve Gornichec, read 31 times
 - **Circe** by Madeline Miller, read 29 times
 - **Kaikeyi** by Vaishnavi Patel, read 22 times
 - TIE: **Thornhedge** by T. Kingfisher and **What Moves the Dead** by T. Kingfisher, each read 21 times
 
-**TOTAL**: 899 books read, with 389 unique titles.
-723 books were claimed to qualify for hard mode.
+**TOTAL**: 900 books read, with 389 unique titles.
+724 books were claimed to qualify for hard mode.
 267 books were used only once for this square.
-Skipped 26 times. Substituted 4 times.
+Skipped 25 times. Substituted 4 times.
 
 #### Most Read Authors
 
 - T. Kingfisher, read 57 times
 - Naomi Novik, read 49 times
 - Madeline Miller, read 47 times
-- Genevieve Gornichec, read 31 times
+- Genevieve Gornichec, read 32 times
 - Vaishnavi Patel, read 22 times
 
-**TOTAL**: 928 total authors read, with 325 unique.
+**TOTAL**: 929 total authors read, with 325 unique.
 215 authors were used only once for this square.
 
 ### 21. Queernorm Setting
@@ -682,10 +682,10 @@ Skipped 26 times. Substituted 4 times.
 - **Saint Death's Daughter** by C.S.E. Cooney, read 21 times
 - TIE: **A Taste of Gold and Iron** by Alexandra Rowland and **Godkiller** by Hannah Kaner and **A Day of Fallen Night** by Samantha Shannon, each read 15 times
 
-**TOTAL**: 895 books read, with 338 unique titles.
-605 books were claimed to qualify for hard mode.
-207 books were used only once for this square.
-Skipped 22 times. Substituted 12 times.
+**TOTAL**: 896 books read, with 339 unique titles.
+606 books were claimed to qualify for hard mode.
+208 books were used only once for this square.
+Skipped 21 times. Substituted 12 times.
 
 #### Most Read Authors
 
@@ -695,8 +695,8 @@ Skipped 22 times. Substituted 12 times.
 - M.A. Carrick, read 29 times
 - TIE: Martha Wells and Samantha Shannon, each read 24 times
 
-**TOTAL**: 904 total authors read, with 232 unique.
-134 authors were used only once for this square.
+**TOTAL**: 905 total authors read, with 233 unique.
+135 authors were used only once for this square.
 
 ### 22. Coastal Setting
 
@@ -786,10 +786,10 @@ Skipped 32 times. Substituted 4 times.
 - TIE: **Labyrinth's Heart** by M.A. Carrick and **Jade Legacy** by Fonda Lee and **A Power Unbound** by Freya Marske, each read 10 times
 - **Children of Memory** by Adrian Tchaikovsky, read 9 times
 
-**TOTAL**: 919 books read, with 579 unique titles.
-704 books were claimed to qualify for hard mode.
-440 books were used only once for this square.
-Skipped 10 times. Substituted 0 times.
+**TOTAL**: 920 books read, with 580 unique titles.
+705 books were claimed to qualify for hard mode.
+441 books were used only once for this square.
+Skipped 9 times. Substituted 0 times.
 
 #### Most Read Authors
 
@@ -799,8 +799,8 @@ Skipped 10 times. Substituted 0 times.
 - Martha Wells, read 23 times
 - Pierce Brown, read 22 times
 
-**TOTAL**: 935 total authors read, with 345 unique.
-213 authors were used only once for this square.
+**TOTAL**: 936 total authors read, with 346 unique.
+214 authors were used only once for this square.
 
 ## Substitutions
 
@@ -845,15 +845,15 @@ Values close to 100 suggest the same books were used repeatedly for a square; 10
 |Five Short Stories|36.1|40.6|
 |Horror|47.6|55.8|
 |Self Published or Indie Publisher|27.6|37.1|
-|Set in the Middle East|69.7|71.8|
-|Published in 2023|50.8|52.7|
+|Set in the Middle East|69.8|71.8|
+|Published in 2023|50.9|52.8|
 |Multiverses|52.4|62.0|
 |POC Author|47.6|59.3|
 |Book Club or Readalong Book|53.4|53.8|
 |Novella|47.3|58.8|
 |Mythical Beasts|45.3|54.6|
 |Elemental Magic|50.2|60.4|
-|Myths and Retellings|49.0|55.7|
+|Myths and Retellings|49.0|55.8|
 |Queernorm Setting|51.2|62.2|
 |Coastal Setting|52.1|57.5|
 |Druid|57.2|62.7|
@@ -896,7 +896,7 @@ Quoting the [very first bingo stats post](https://www.reddit.com/r/Fantasy/comme
 
 A "misspelling" for the purposes of these statistics is any book (title/author combination)
 that does not match the version used as the canonical version during cleaning.
-There were a total of 5859 misspellings.
+There were a total of 5858 misspellings.
 (Note that this does not include short stories.)
 
 The books with the most variation in title or author spellings were:

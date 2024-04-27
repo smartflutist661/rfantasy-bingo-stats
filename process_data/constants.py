@@ -33,7 +33,7 @@ class YearlyDataPaths:
 
     @property
     def raw_data_path(self) -> Path:
-        return self.root / "raw_bingo_data.ods"
+        return self.root / "raw_bingo_data.csv"
 
     @property
     def output_image_root(self) -> Path:

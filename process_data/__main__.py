@@ -210,7 +210,7 @@ def main(args: argparse.Namespace) -> None:
     with data_paths.card_info.open("r", encoding="utf8") as card_data_file:
         card_data = CardData.from_data(json.load(card_data_file))
 
-    bingo_data = get_bingo_dataframe(data_paths.raw_data_path, card_data)
+    bingo_data = get_bingo_dataframe(data_paths.raw_data_path)
 
     LOGGER.info("Loading data.")
     recorded_duplicates, recorded_ignores = get_existing_states(
@@ -233,9 +233,7 @@ def main(args: argparse.Namespace) -> None:
         author_dedupe_map = recorded_duplicates.get_author_dedupe_map()
         author_data: Mapping[Author, AuthorInfo] = MAP(
             {
-                author_dedupe_map.get(Author(str(key)), Author(str(key))): AuthorInfo.from_data(
-                    val
-                )
+                author_dedupe_map.get(Author(key), Author(key)): AuthorInfo.from_data(val)
                 for key, val in json.load(author_info_file).items()
             }
         )

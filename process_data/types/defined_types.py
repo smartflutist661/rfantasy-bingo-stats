@@ -9,15 +9,27 @@ from typing import (
     TypeVar,
 )
 
+
 # The purpose of these types is to make each kind of string distinct
 # More complex logic can be implemented as a class, if necessary
-Book = NewType("Book", str)
+# Inheritance employed for runtime-checkability
+class Book(str):
+    pass
+
+
+class Title(str):
+    pass
+
+
+class Author(str):
+    pass
+
+
+class SquareName(str):
+    pass
+
 
 SquareNumber = NewType("SquareNumber", str)
-SquareName = NewType("SquareName", str)
-
-Title = NewType("Title", str)
-Author = NewType("Author", str)
 
 TitleCol = NewType("TitleCol", str)
 AuthorCol = NewType("AuthorCol", str)

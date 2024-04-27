@@ -37,9 +37,7 @@ def get_all_title_author_combos(
         title_author_pairs.extend(zip(data[title_col], data[author_col]))
 
     return tuple(
-        (Title(str(title)), Author(str(author)))
-        for title, author in title_author_pairs
-        if title and author
+        (Title(title), Author(author)) for title, author in title_author_pairs if title and author
     )
 
 
