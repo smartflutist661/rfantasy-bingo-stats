@@ -101,6 +101,7 @@ def get_bingo_card(
     card_data: CardData,
 ) -> BingoCard:
     """Get a single bingo card"""
+    final_sub_map = dict(subbed_square_map)
     card: dict[SquareName, Optional[BingoSquare]] = {}
     for title_col, author_col, hm_col in card_data.novel_title_author_hm_cols:
         square_name = card_data.square_names[title_col]
@@ -109,12 +110,12 @@ def get_bingo_card(
 
         square = get_bingo_square(row, title_col, author_col, hm_col, card_data)
 
-        if real_square_name == "Bottom of the TBR" and square is not None and not square.hard_mode:
-            print(row, square.hard_mode)
-
         card[real_square_name] = square
 
-    return MAP(card)
+        if square is None and square_name != real_square_name:
+            del final_sub_map[square_name]
+
+    return BingoCard(MAP(card), final_sub_map)
 
 
 def get_bingo_cards(data: pandas.DataFrame, card_data: CardData) -> Mapping[CardID, BingoCard]:
@@ -176,17 +177,12 @@ def get_bingo_stats(
 
     for card_id, bingo_card in cards.items():
 
-        hard_mode_by_card[card_id] += 0
-        for square_name, square in bingo_card.items():
-            if square_name not in current_square_names:
-                subbed_in_square = square_name
-                card_subbed_out_squares = current_square_names - bingo_card.keys()
-                if len(card_subbed_out_squares) != 1:
-                    raise ValueError("Too many subbed-out squares. Handle this.")
-                (subbed_out_square,) = card_subbed_out_squares
-                subbed_count[(subbed_out_square, subbed_in_square)] += 1
-                subbed_out_squares[subbed_out_square] += 1
+        for subbed_out_square, subbed_in_square in bingo_card.subbed_square_map.items():
+            subbed_count[(subbed_out_square, subbed_in_square)] += 1
+            subbed_out_squares[subbed_out_square] += 1
 
+        hard_mode_by_card[card_id] += 0
+        for square_name, square in bingo_card.squares.items():
             if square is not None:
                 if not isinstance(square, ShortStorySquare):
                     book = title_author_to_book((square.title, square.author))
@@ -242,7 +238,7 @@ def get_bingo_stats(
     # Loop again after collecting `all_books` to determine uniques
     for card_id, card in cards.items():
         card_uniques[card_id] += 0
-        for square_name, square in card.items():
+        for square_name, square in card.squares.items():
             if square is not None:
                 book = title_author_to_book((square.title, square.author))
                 if book in book_dedupe_map:

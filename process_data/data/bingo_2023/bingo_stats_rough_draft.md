@@ -39,9 +39,9 @@ The minimum number of filled squares was 5. 6 were *this close*, with 24 filled 
 - There were 23090 total stories, with 6698 unique stories read,
 by 3933 unique authors (23660 total).
 - The top squares left blank were: **Set in the Middle East** and **Druid**, blank on 46 cards each; **Superheroes**, blank on 44 cards; **Elemental Magic**, blank on 39 cards. On the other hand, **Sequel** was only left blank 10 times.
-- The three squares most often substituted were: **Druid**, substituted on 46 cards; **Superheroes**, substituted on 31 cards; **Book Club or Readalong Book**, substituted on 29 cards.
+- The three squares most often substituted were: **Druid**, substituted on 58 cards; **Superheroes**, substituted on 34 cards; **Book Club or Readalong Book**, substituted on 31 cards.
 **Multiverses** and **Sequel** were never substituted.
-This means that Druid was the least favorite overall, skipped or substituted a total of 92 times, and
+This means that Druid was the least favorite overall, skipped or substituted a total of 104 times, and
 Sequel was the favorite, skipped or substituted only 10 times.
 - There were an average of 4.5 unique books per card.
 - 182 cards claimed an all-hard-mode card, while 31 cards were short by one square.
@@ -51,28 +51,28 @@ There were a total of 15743 hard-mode squares claimed.
 |SQUARE|% COMPLETE|% HARD MODE|
 |---------|:---------:|:---------:|
 |Title with a Title|98.7|80.2|
-|Superheroes|95.1|83.7|
+|Superheroes|95.1|84.0|
 |Bottom of the TBR|97.2|97.2|
 |Magical Realism|97.1|81.7|
 |Young Adult|98.3|69.6|
 |Mundane Jobs|98.5|59.5|
-|Published in the 2000s|96.7|72.8|
-|Angels and Demons|96.8|55.0|
-|Five Short Stories|95.9|81.1|
-|Horror|98.4|92.1|
+|Published in the 2000s|96.7|72.7|
+|Angels and Demons|96.7|55.0|
+|Five Short Stories|95.9|81.2|
+|Horror|98.4|91.9|
 |Self Published or Indie Publisher|96.5|41.3|
-|Set in the Middle East|94.9|53.5|
+|Set in the Middle East|94.9|53.6|
 |Published in 2023|97.6|40.1|
 |Multiverses|97.7|72.3|
 |POC Author|97.8|46.5|
-|Book Club or Readalong Book|97.4|32.0|
+|Book Club or Readalong Book|97.4|32.1|
 |Novella|98.1|64.9|
 |Mythical Beasts|97.8|62.7|
-|Elemental Magic|95.7|86.7|
+|Elemental Magic|95.7|87.0|
 |Myths and Retellings|97.2|78.2|
 |Queernorm Setting|97.6|66.0|
 |Coastal Setting|97.7|69.2|
-|Druid|94.8|83.1|
+|Druid|94.7|84.3|
 |Features Robots|96.5|61.0|
 |Sequel|98.9|75.8|
 
@@ -185,7 +185,7 @@ Skipped 12 times. Substituted 4 times.
 - **Dreadnought** by April Daniels, read 30 times
 
 **TOTAL**: 851 books read, with 279 unique titles.
-Skipped 44 times. Substituted 31 times.
+Skipped 44 times. Substituted 34 times.
 
 #### Most Read Authors
 
@@ -300,7 +300,7 @@ Skipped 14 times. Substituted 1 times.
 - **Vita Nostra** by Marina Dyachenko, Sergey Dyachenko, read 13 times
 
 **TOTAL**: 885 books read, with 479 unique titles.
-Skipped 30 times. Substituted 14 times.
+Skipped 30 times. Substituted 13 times.
 
 #### Most Read Authors
 
@@ -323,7 +323,7 @@ Skipped 30 times. Substituted 14 times.
 - **Hell Bent** by Leigh Bardugo, read 24 times
 
 **TOTAL**: 893 books read, with 324 unique titles.
-Skipped 30 times. Substituted 5 times.
+Skipped 30 times. Substituted 6 times.
 
 #### Most Read Authors
 
@@ -346,7 +346,7 @@ Skipped 30 times. Substituted 5 times.
 - TIE: **Her Body and Other Parties** by Carmen Maria Machado and **How Long 'til Black Future Month?** by N.K. Jemisin, each read 8 times
 
 **TOTAL**: 746 books read, with 437 unique titles.
-Skipped 37 times. Substituted 17 times.
+Skipped 37 times. Substituted 18 times.
 
 #### Most Read Authors
 
@@ -369,7 +369,7 @@ Skipped 37 times. Substituted 17 times.
 - TIE: **Nettle & Bone** by T. Kingfisher and **The Library at Mount Char** by Scott Hawkins, each read 14 times
 
 **TOTAL**: 901 books read, with 394 unique titles.
-Skipped 15 times. Substituted 13 times.
+Skipped 15 times. Substituted 11 times.
 
 #### Most Read Authors
 
@@ -415,7 +415,7 @@ Skipped 32 times. Substituted 25 times.
 - **The Daughters of Izdihar** by Hadeer Elsbai, read 37 times
 
 **TOTAL**: 852 books read, with 164 unique titles.
-Skipped 46 times. Substituted 28 times.
+Skipped 46 times. Substituted 30 times.
 
 #### Most Read Authors
 
@@ -507,7 +507,7 @@ Skipped 20 times. Substituted 3 times.
 - **Ink Blood Sister Scribe** by Emma Törzs, read 23 times
 
 **TOTAL**: 874 books read, with 266 unique titles.
-Skipped 23 times. Substituted 29 times.
+Skipped 23 times. Substituted 31 times.
 
 #### Most Read Authors
 
@@ -576,7 +576,7 @@ Skipped 20 times. Substituted 2 times.
 - TIE: **Daughter of the Moon Goddess** by Sue Lynn Tan and **A Darker Shade of Magic** by V.E. Schwab, each read 13 times
 
 **TOTAL**: 868 books read, with 360 unique titles.
-Skipped 39 times. Substituted 17 times.
+Skipped 39 times. Substituted 20 times.
 
 #### Most Read Authors
 
@@ -668,7 +668,7 @@ Skipped 21 times. Substituted 1 times.
 - **The Druid's Call** by E.K. Johnston, read 24 times
 
 **TOTAL**: 825 books read, with 291 unique titles.
-Skipped 46 times. Substituted 46 times.
+Skipped 46 times. Substituted 58 times.
 
 #### Most Read Authors
 
@@ -728,7 +728,7 @@ Skipped 10 times. Substituted 0 times.
 
 ## Substitutions
 
-Out of 929 cards, 284 used the Substitution rule.
+Out of 929 cards, 305 used the Substitution rule.
 
 ### Books
 
