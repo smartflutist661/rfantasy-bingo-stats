@@ -5,11 +5,13 @@ Created on Apr 7, 2023
 """
 
 from collections import Counter
-from collections.abc import Iterable
+from collections.abc import (
+    Container,
+    Iterable,
+)
 from pathlib import Path
 
 import numpy as np
-from collections.abc import Container
 
 from ..data_operations.author_title_book_operations import book_to_title_author
 from ..logger import LOGGER
@@ -18,10 +20,10 @@ from ..types.card_data import CardData
 from ..types.defined_types import (
     Author,
     Book,
+    BookOrAuthor,
     SquareName,
 )
 from .gini_function import calculate_gini_index
-from ..types.defined_types import BookOrAuthor
 
 
 def format_book(book: Book) -> str:
