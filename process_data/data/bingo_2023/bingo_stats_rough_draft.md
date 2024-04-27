@@ -41,7 +41,7 @@ by 3933 unique authors (23660 total).
 4148 books and 2119 authors were used only once. 
 - The top squares left blank were: **Set in the Middle East** and **Druid**, blank on 46 cards each; **Superheroes**, blank on 44 cards; **Elemental Magic**, blank on 39 cards. On the other hand, **Sequel** was only left blank 10 times.
 - The three squares most often substituted were: **Druid**, substituted on 58 cards; **Superheroes**, substituted on 34 cards; **Book Club or Readalong Book**, substituted on 31 cards.
-**Multiverses** and **Sequel** were never substituted.
+**Sequel** and **Multiverses** were never substituted.
 This means that Druid was the least favorite overall, skipped or substituted a total of 104 times, and
 Sequel was the favorite, skipped or substituted only 10 times.
 - There were an average of 4.5 unique books per card.
@@ -163,6 +163,7 @@ There were an average of 6.0 reads per author.
 - **The Captain** by Will Wight, read 14 times
 
 **TOTAL**: 913 books read, with 464 unique titles.
+742 books were claimed to qualify for hard mode.
 320 books were used only once for this square.
 Skipped 12 times. Substituted 4 times.
 
@@ -188,6 +189,7 @@ Skipped 12 times. Substituted 4 times.
 - **Dreadnought** by April Daniels, read 30 times
 
 **TOTAL**: 851 books read, with 279 unique titles.
+752 books were claimed to qualify for hard mode.
 196 books were used only once for this square.
 Skipped 44 times. Substituted 34 times.
 
@@ -213,6 +215,7 @@ Skipped 44 times. Substituted 34 times.
 - TIE: **American Gods** by Neil Gaiman and **Assassin's Apprentice** by Robin Hobb and **The Lies of Locke Lamora** by Scott Lynch and **The Ocean at the End of the Lane** by Neil Gaiman and **The Three-Body Problem** by Cixin Liu and **Kindred** by Octavia E. Butler, each read 5 times
 
 **TOTAL**: 896 books read, with 645 unique titles.
+896 books were claimed to qualify for hard mode.
 510 books were used only once for this square.
 Skipped 26 times. Substituted 7 times.
 
@@ -238,6 +241,7 @@ Skipped 26 times. Substituted 7 times.
 - TIE: **Our Wives Under the Sea** by Julia Armfield and **The Ocean at the End of the Lane** by Neil Gaiman, each read 13 times
 
 **TOTAL**: 890 books read, with 436 unique titles.
+749 books were claimed to qualify for hard mode.
 303 books were used only once for this square.
 Skipped 27 times. Substituted 12 times.
 
@@ -263,6 +267,7 @@ Skipped 27 times. Substituted 12 times.
 - TIE: **Divine Rivals** by Rebecca Ross and **Iron Widow** by Xiran Jay Zhao, each read 10 times
 
 **TOTAL**: 909 books read, with 513 unique titles.
+644 books were claimed to qualify for hard mode.
 376 books were used only once for this square.
 Skipped 16 times. Substituted 4 times.
 
@@ -288,6 +293,7 @@ Skipped 16 times. Substituted 4 times.
 - TIE: **Project Hail Mary** by Andy Weir and **Divine Rivals** by Rebecca Ross, each read 14 times
 
 **TOTAL**: 914 books read, with 410 unique titles.
+552 books were claimed to qualify for hard mode.
 286 books were used only once for this square.
 Skipped 14 times. Substituted 1 times.
 
@@ -313,6 +319,7 @@ Skipped 14 times. Substituted 1 times.
 - **Vita Nostra** by Marina Dyachenko, Sergey Dyachenko, read 13 times
 
 **TOTAL**: 885 books read, with 479 unique titles.
+666 books were claimed to qualify for hard mode.
 332 books were used only once for this square.
 Skipped 30 times. Substituted 13 times.
 
@@ -338,6 +345,7 @@ Skipped 30 times. Substituted 13 times.
 - **Hell Bent** by Leigh Bardugo, read 24 times
 
 **TOTAL**: 893 books read, with 324 unique titles.
+508 books were claimed to qualify for hard mode.
 219 books were used only once for this square.
 Skipped 30 times. Substituted 6 times.
 
@@ -363,6 +371,7 @@ Skipped 30 times. Substituted 6 times.
 - TIE: **Her Body and Other Parties** by Carmen Maria Machado and **How Long 'til Black Future Month?** by N.K. Jemisin, each read 8 times
 
 **TOTAL**: 746 books read, with 437 unique titles.
+740 books were claimed to qualify for hard mode.
 330 books were used only once for this square.
 Skipped 37 times. Substituted 18 times.
 
@@ -388,6 +397,7 @@ Skipped 37 times. Substituted 18 times.
 - TIE: **Nettle & Bone** by T. Kingfisher and **The Library at Mount Char** by Scott Hawkins, each read 14 times
 
 **TOTAL**: 901 books read, with 394 unique titles.
+844 books were claimed to qualify for hard mode.
 269 books were used only once for this square.
 Skipped 15 times. Substituted 11 times.
 
@@ -413,6 +423,7 @@ Skipped 15 times. Substituted 11 times.
 - TIE: **The Midnight Bargain** by C.L. Polk and **Unsouled** by Will Wight and **Small Miracles** by Olivia Atwater and **Waybound** by Will Wight and **Miss Percy's Pocket Guide to the Care and Feeding of British Dragons** by Quenby Olson, each read 8 times
 
 **TOTAL**: 871 books read, with 608 unique titles.
+373 books were claimed to qualify for hard mode.
 507 books were used only once for this square.
 Skipped 32 times. Substituted 25 times.
 
@@ -438,6 +449,7 @@ Skipped 32 times. Substituted 25 times.
 - **The Daughters of Izdihar** by Hadeer Elsbai, read 37 times
 
 **TOTAL**: 852 books read, with 164 unique titles.
+482 books were claimed to qualify for hard mode.
 94 books were used only once for this square.
 Skipped 46 times. Substituted 30 times.
 
@@ -463,6 +475,7 @@ Skipped 46 times. Substituted 30 times.
 - **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett, read 22 times
 
 **TOTAL**: 904 books read, with 341 unique titles.
+371 books were claimed to qualify for hard mode.
 206 books were used only once for this square.
 Skipped 22 times. Substituted 3 times.
 
@@ -488,6 +501,7 @@ Skipped 22 times. Substituted 3 times.
 - **Piranesi** by Susanna Clarke, read 30 times
 
 **TOTAL**: 908 books read, with 378 unique titles.
+672 books were claimed to qualify for hard mode.
 270 books were used only once for this square.
 Skipped 21 times. Substituted 0 times.
 
@@ -513,6 +527,7 @@ Skipped 21 times. Substituted 0 times.
 - **Parable of the Sower** by Octavia E. Butler, read 16 times
 
 **TOTAL**: 906 books read, with 385 unique titles.
+431 books were claimed to qualify for hard mode.
 247 books were used only once for this square.
 Skipped 20 times. Substituted 3 times.
 
@@ -538,6 +553,7 @@ Skipped 20 times. Substituted 3 times.
 - **Ink Blood Sister Scribe** by Emma Törzs, read 23 times
 
 **TOTAL**: 874 books read, with 266 unique titles.
+288 books were claimed to qualify for hard mode.
 131 books were used only once for this square.
 Skipped 23 times. Substituted 31 times.
 
@@ -563,6 +579,7 @@ Skipped 23 times. Substituted 31 times.
 - TIE: **A Psalm for the Wild-Built** by Becky Chambers and **Penric's Demon** by Lois McMaster Bujold and **The Deep** by Rivers Solomon, each read 17 times
 
 **TOTAL**: 909 books read, with 409 unique titles.
+602 books were claimed to qualify for hard mode.
 281 books were used only once for this square.
 Skipped 18 times. Substituted 2 times.
 
@@ -588,6 +605,7 @@ Skipped 18 times. Substituted 2 times.
 - TIE: **All the Murmuring Bones** by A.G. Slatter and **A Natural History of Dragons** by Marie Brennan and **The Forgotten Beasts of Eld** by Patricia A. McKillip, each read 14 times
 
 **TOTAL**: 907 books read, with 451 unique titles.
+581 books were claimed to qualify for hard mode.
 336 books were used only once for this square.
 Skipped 20 times. Substituted 2 times.
 
@@ -613,6 +631,7 @@ Skipped 20 times. Substituted 2 times.
 - TIE: **Daughter of the Moon Goddess** by Sue Lynn Tan and **A Darker Shade of Magic** by V.E. Schwab, each read 13 times
 
 **TOTAL**: 868 books read, with 360 unique titles.
+791 books were claimed to qualify for hard mode.
 236 books were used only once for this square.
 Skipped 39 times. Substituted 20 times.
 
@@ -638,6 +657,7 @@ Skipped 39 times. Substituted 20 times.
 - TIE: **Thornhedge** by T. Kingfisher and **What Moves the Dead** by T. Kingfisher, each read 21 times
 
 **TOTAL**: 899 books read, with 389 unique titles.
+723 books were claimed to qualify for hard mode.
 267 books were used only once for this square.
 Skipped 26 times. Substituted 4 times.
 
@@ -663,6 +683,7 @@ Skipped 26 times. Substituted 4 times.
 - TIE: **A Taste of Gold and Iron** by Alexandra Rowland and **Godkiller** by Hannah Kaner and **A Day of Fallen Night** by Samantha Shannon, each read 15 times
 
 **TOTAL**: 895 books read, with 338 unique titles.
+605 books were claimed to qualify for hard mode.
 207 books were used only once for this square.
 Skipped 22 times. Substituted 12 times.
 
@@ -688,6 +709,7 @@ Skipped 22 times. Substituted 12 times.
 - **The House in the Cerulean Sea** by T.J. Klune, read 18 times
 
 **TOTAL**: 907 books read, with 378 unique titles.
+642 books were claimed to qualify for hard mode.
 268 books were used only once for this square.
 Skipped 21 times. Substituted 1 times.
 
@@ -713,6 +735,7 @@ Skipped 21 times. Substituted 1 times.
 - **The Druid's Call** by E.K. Johnston, read 24 times
 
 **TOTAL**: 825 books read, with 291 unique titles.
+734 books were claimed to qualify for hard mode.
 203 books were used only once for this square.
 Skipped 46 times. Substituted 58 times.
 
@@ -738,6 +761,7 @@ Skipped 46 times. Substituted 58 times.
 - **Klara and the Sun** by Kazuo Ishiguro, read 33 times
 
 **TOTAL**: 893 books read, with 236 unique titles.
+564 books were claimed to qualify for hard mode.
 160 books were used only once for this square.
 Skipped 32 times. Substituted 4 times.
 
@@ -763,6 +787,7 @@ Skipped 32 times. Substituted 4 times.
 - **Children of Memory** by Adrian Tchaikovsky, read 9 times
 
 **TOTAL**: 919 books read, with 579 unique titles.
+704 books were claimed to qualify for hard mode.
 440 books were used only once for this square.
 Skipped 10 times. Substituted 0 times.
 
