@@ -38,6 +38,7 @@ The minimum number of filled squares was 5. 6 were *this close*, with 24 filled 
 655 squares were left blank, leaving 22570 filled squares.
 - There were 23090 total stories, with 6698 unique stories read,
 by 3933 unique authors (23660 total).
+4148 books and 2119 authors were used only once. 
 - The top squares left blank were: **Set in the Middle East** and **Druid**, blank on 46 cards each; **Superheroes**, blank on 44 cards; **Elemental Magic**, blank on 39 cards. On the other hand, **Sequel** was only left blank 10 times.
 - The three squares most often substituted were: **Druid**, substituted on 58 cards; **Superheroes**, substituted on 34 cards; **Book Club or Readalong Book**, substituted on 31 cards.
 **Multiverses** and **Sequel** were never substituted.
@@ -162,6 +163,7 @@ There were an average of 6.0 reads per author.
 - **The Captain** by Will Wight, read 14 times
 
 **TOTAL**: 913 books read, with 464 unique titles.
+320 books were used only once for this square.
 Skipped 12 times. Substituted 4 times.
 
 #### Most Read Authors
@@ -173,6 +175,7 @@ Skipped 12 times. Substituted 4 times.
 - Robin Hobb, read 24 times
 
 **TOTAL**: 924 total authors read, with 374 unique.
+237 authors were used only once for this square.
 
 ### 2. Superheroes
 
@@ -185,6 +188,7 @@ Skipped 12 times. Substituted 4 times.
 - **Dreadnought** by April Daniels, read 30 times
 
 **TOTAL**: 851 books read, with 279 unique titles.
+196 books were used only once for this square.
 Skipped 44 times. Substituted 34 times.
 
 #### Most Read Authors
@@ -196,6 +200,7 @@ Skipped 44 times. Substituted 34 times.
 - John Scalzi, read 33 times
 
 **TOTAL**: 948 total authors read, with 256 unique.
+157 authors were used only once for this square.
 
 ### 3. Bottom of the TBR
 
@@ -208,6 +213,7 @@ Skipped 44 times. Substituted 34 times.
 - TIE: **American Gods** by Neil Gaiman and **Assassin's Apprentice** by Robin Hobb and **The Lies of Locke Lamora** by Scott Lynch and **The Ocean at the End of the Lane** by Neil Gaiman and **The Three-Body Problem** by Cixin Liu and **Kindred** by Octavia E. Butler, each read 5 times
 
 **TOTAL**: 896 books read, with 645 unique titles.
+510 books were used only once for this square.
 Skipped 26 times. Substituted 7 times.
 
 #### Most Read Authors
@@ -219,6 +225,7 @@ Skipped 26 times. Substituted 7 times.
 - TIE: Octavia E. Butler and Terry Pratchett, each read 12 times
 
 **TOTAL**: 909 total authors read, with 452 unique.
+299 authors were used only once for this square.
 
 ### 4. Magical Realism
 
@@ -231,6 +238,7 @@ Skipped 26 times. Substituted 7 times.
 - TIE: **Our Wives Under the Sea** by Julia Armfield and **The Ocean at the End of the Lane** by Neil Gaiman, each read 13 times
 
 **TOTAL**: 890 books read, with 436 unique titles.
+303 books were used only once for this square.
 Skipped 27 times. Substituted 12 times.
 
 #### Most Read Authors
@@ -242,6 +250,7 @@ Skipped 27 times. Substituted 12 times.
 - Peng Shepherd, read 15 times
 
 **TOTAL**: 899 total authors read, with 354 unique.
+227 authors were used only once for this square.
 
 ### 5. Young Adult
 
@@ -254,6 +263,7 @@ Skipped 27 times. Substituted 12 times.
 - TIE: **Divine Rivals** by Rebecca Ross and **Iron Widow** by Xiran Jay Zhao, each read 10 times
 
 **TOTAL**: 909 books read, with 513 unique titles.
+376 books were used only once for this square.
 Skipped 16 times. Substituted 4 times.
 
 #### Most Read Authors
@@ -265,6 +275,7 @@ Skipped 16 times. Substituted 4 times.
 - TIE: Axie Oh and Suzanne Collins, each read 15 times
 
 **TOTAL**: 924 total authors read, with 370 unique.
+234 authors were used only once for this square.
 
 ### 6. Mundane Jobs
 
@@ -277,6 +288,7 @@ Skipped 16 times. Substituted 4 times.
 - TIE: **Project Hail Mary** by Andy Weir and **Divine Rivals** by Rebecca Ross, each read 14 times
 
 **TOTAL**: 914 books read, with 410 unique titles.
+286 books were used only once for this square.
 Skipped 14 times. Substituted 1 times.
 
 #### Most Read Authors
@@ -288,6 +300,7 @@ Skipped 14 times. Substituted 1 times.
 - Becky Chambers, read 18 times
 
 **TOTAL**: 926 total authors read, with 343 unique.
+232 authors were used only once for this square.
 
 ### 7. Published in the 2000s
 
@@ -300,6 +313,7 @@ Skipped 14 times. Substituted 1 times.
 - **Vita Nostra** by Marina Dyachenko, Sergey Dyachenko, read 13 times
 
 **TOTAL**: 885 books read, with 479 unique titles.
+332 books were used only once for this square.
 Skipped 30 times. Substituted 13 times.
 
 #### Most Read Authors
@@ -311,6 +325,7 @@ Skipped 30 times. Substituted 13 times.
 - Jim Butcher, read 22 times
 
 **TOTAL**: 915 total authors read, with 317 unique.
+182 authors were used only once for this square.
 
 ### 8. Angels and Demons
 
@@ -323,6 +338,7 @@ Skipped 30 times. Substituted 13 times.
 - **Hell Bent** by Leigh Bardugo, read 24 times
 
 **TOTAL**: 893 books read, with 324 unique titles.
+219 books were used only once for this square.
 Skipped 30 times. Substituted 6 times.
 
 #### Most Read Authors
@@ -334,6 +350,7 @@ Skipped 30 times. Substituted 6 times.
 - Sacha Lamb, read 34 times
 
 **TOTAL**: 989 total authors read, with 251 unique.
+145 authors were used only once for this square.
 
 ### 9. Five Short Stories
 
@@ -346,6 +363,7 @@ Skipped 30 times. Substituted 6 times.
 - TIE: **Her Body and Other Parties** by Carmen Maria Machado and **How Long 'til Black Future Month?** by N.K. Jemisin, each read 8 times
 
 **TOTAL**: 746 books read, with 437 unique titles.
+330 books were used only once for this square.
 Skipped 37 times. Substituted 18 times.
 
 #### Most Read Authors
@@ -357,6 +375,7 @@ Skipped 37 times. Substituted 18 times.
 - Joe Abercrombie, read 10 times
 
 **TOTAL**: 1229 total authors read, with 625 unique.
+416 authors were used only once for this square.
 
 ### 10. Horror
 
@@ -369,6 +388,7 @@ Skipped 37 times. Substituted 18 times.
 - TIE: **Nettle & Bone** by T. Kingfisher and **The Library at Mount Char** by Scott Hawkins, each read 14 times
 
 **TOTAL**: 901 books read, with 394 unique titles.
+269 books were used only once for this square.
 Skipped 15 times. Substituted 11 times.
 
 #### Most Read Authors
@@ -380,6 +400,7 @@ Skipped 15 times. Substituted 11 times.
 - Bram Stoker, read 21 times
 
 **TOTAL**: 920 total authors read, with 304 unique.
+179 authors were used only once for this square.
 
 ### 11. Self Published or Indie Publisher
 
@@ -392,6 +413,7 @@ Skipped 15 times. Substituted 11 times.
 - TIE: **The Midnight Bargain** by C.L. Polk and **Unsouled** by Will Wight and **Small Miracles** by Olivia Atwater and **Waybound** by Will Wight and **Miss Percy's Pocket Guide to the Care and Feeding of British Dragons** by Quenby Olson, each read 8 times
 
 **TOTAL**: 871 books read, with 608 unique titles.
+507 books were used only once for this square.
 Skipped 32 times. Substituted 25 times.
 
 #### Most Read Authors
@@ -403,6 +425,7 @@ Skipped 32 times. Substituted 25 times.
 - J. Zachary Pike, read 13 times
 
 **TOTAL**: 924 total authors read, with 543 unique.
+427 authors were used only once for this square.
 
 ### 12. Set in the Middle East
 
@@ -415,6 +438,7 @@ Skipped 32 times. Substituted 25 times.
 - **The Daughters of Izdihar** by Hadeer Elsbai, read 37 times
 
 **TOTAL**: 852 books read, with 164 unique titles.
+94 books were used only once for this square.
 Skipped 46 times. Substituted 30 times.
 
 #### Most Read Authors
@@ -426,6 +450,7 @@ Skipped 46 times. Substituted 30 times.
 - Hadeer Elsbai, read 38 times
 
 **TOTAL**: 890 total authors read, with 143 unique.
+71 authors were used only once for this square.
 
 ### 13. Published in 2023
 
@@ -438,6 +463,7 @@ Skipped 46 times. Substituted 30 times.
 - **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett, read 22 times
 
 **TOTAL**: 904 books read, with 341 unique titles.
+206 books were used only once for this square.
 Skipped 22 times. Substituted 3 times.
 
 #### Most Read Authors
@@ -449,6 +475,7 @@ Skipped 22 times. Substituted 3 times.
 - Heather Fawcett, read 22 times
 
 **TOTAL**: 918 total authors read, with 337 unique.
+208 authors were used only once for this square.
 
 ### 14. Multiverses
 
@@ -461,6 +488,7 @@ Skipped 22 times. Substituted 3 times.
 - **Piranesi** by Susanna Clarke, read 30 times
 
 **TOTAL**: 908 books read, with 378 unique titles.
+270 books were used only once for this square.
 Skipped 21 times. Substituted 0 times.
 
 #### Most Read Authors
@@ -472,6 +500,7 @@ Skipped 21 times. Substituted 0 times.
 - Susanna Clarke, read 33 times
 
 **TOTAL**: 948 total authors read, with 280 unique.
+186 authors were used only once for this square.
 
 ### 15. POC Author
 
@@ -484,6 +513,7 @@ Skipped 21 times. Substituted 0 times.
 - **Parable of the Sower** by Octavia E. Butler, read 16 times
 
 **TOTAL**: 906 books read, with 385 unique titles.
+247 books were used only once for this square.
 Skipped 20 times. Substituted 3 times.
 
 #### Most Read Authors
@@ -495,6 +525,7 @@ Skipped 20 times. Substituted 3 times.
 - Fonda Lee, read 27 times
 
 **TOTAL**: 945 total authors read, with 288 unique.
+176 authors were used only once for this square.
 
 ### 16. Book Club or Readalong Book
 
@@ -507,6 +538,7 @@ Skipped 20 times. Substituted 3 times.
 - **Ink Blood Sister Scribe** by Emma Törzs, read 23 times
 
 **TOTAL**: 874 books read, with 266 unique titles.
+131 books were used only once for this square.
 Skipped 23 times. Substituted 31 times.
 
 #### Most Read Authors
@@ -518,6 +550,7 @@ Skipped 23 times. Substituted 31 times.
 - TIE: T. Kingfisher and Emma Törzs, each read 23 times
 
 **TOTAL**: 890 total authors read, with 229 unique.
+95 authors were used only once for this square.
 
 ### 17. Novella
 
@@ -530,6 +563,7 @@ Skipped 23 times. Substituted 31 times.
 - TIE: **A Psalm for the Wild-Built** by Becky Chambers and **Penric's Demon** by Lois McMaster Bujold and **The Deep** by Rivers Solomon, each read 17 times
 
 **TOTAL**: 909 books read, with 409 unique titles.
+281 books were used only once for this square.
 Skipped 18 times. Substituted 2 times.
 
 #### Most Read Authors
@@ -541,6 +575,7 @@ Skipped 18 times. Substituted 2 times.
 - Lois McMaster Bujold, read 27 times
 
 **TOTAL**: 945 total authors read, with 307 unique.
+202 authors were used only once for this square.
 
 ### 18. Mythical Beasts
 
@@ -553,6 +588,7 @@ Skipped 18 times. Substituted 2 times.
 - TIE: **All the Murmuring Bones** by A.G. Slatter and **A Natural History of Dragons** by Marie Brennan and **The Forgotten Beasts of Eld** by Patricia A. McKillip, each read 14 times
 
 **TOTAL**: 907 books read, with 451 unique titles.
+336 books were used only once for this square.
 Skipped 20 times. Substituted 2 times.
 
 #### Most Read Authors
@@ -564,6 +600,7 @@ Skipped 20 times. Substituted 2 times.
 - Heather Fawcett, read 20 times
 
 **TOTAL**: 920 total authors read, with 335 unique.
+215 authors were used only once for this square.
 
 ### 19. Elemental Magic
 
@@ -576,6 +613,7 @@ Skipped 20 times. Substituted 2 times.
 - TIE: **Daughter of the Moon Goddess** by Sue Lynn Tan and **A Darker Shade of Magic** by V.E. Schwab, each read 13 times
 
 **TOTAL**: 868 books read, with 360 unique titles.
+236 books were used only once for this square.
 Skipped 39 times. Substituted 20 times.
 
 #### Most Read Authors
@@ -587,6 +625,7 @@ Skipped 39 times. Substituted 20 times.
 - Robert Jordan, read 26 times
 
 **TOTAL**: 925 total authors read, with 259 unique.
+152 authors were used only once for this square.
 
 ### 20. Myths and Retellings
 
@@ -599,6 +638,7 @@ Skipped 39 times. Substituted 20 times.
 - TIE: **Thornhedge** by T. Kingfisher and **What Moves the Dead** by T. Kingfisher, each read 21 times
 
 **TOTAL**: 899 books read, with 389 unique titles.
+267 books were used only once for this square.
 Skipped 26 times. Substituted 4 times.
 
 #### Most Read Authors
@@ -610,6 +650,7 @@ Skipped 26 times. Substituted 4 times.
 - Vaishnavi Patel, read 22 times
 
 **TOTAL**: 928 total authors read, with 325 unique.
+215 authors were used only once for this square.
 
 ### 21. Queernorm Setting
 
@@ -622,6 +663,7 @@ Skipped 26 times. Substituted 4 times.
 - TIE: **A Taste of Gold and Iron** by Alexandra Rowland and **Godkiller** by Hannah Kaner and **A Day of Fallen Night** by Samantha Shannon, each read 15 times
 
 **TOTAL**: 895 books read, with 338 unique titles.
+207 books were used only once for this square.
 Skipped 22 times. Substituted 12 times.
 
 #### Most Read Authors
@@ -633,6 +675,7 @@ Skipped 22 times. Substituted 12 times.
 - TIE: Martha Wells and Samantha Shannon, each read 24 times
 
 **TOTAL**: 904 total authors read, with 232 unique.
+134 authors were used only once for this square.
 
 ### 22. Coastal Setting
 
@@ -645,6 +688,7 @@ Skipped 22 times. Substituted 12 times.
 - **The House in the Cerulean Sea** by T.J. Klune, read 18 times
 
 **TOTAL**: 907 books read, with 378 unique titles.
+268 books were used only once for this square.
 Skipped 21 times. Substituted 1 times.
 
 #### Most Read Authors
@@ -656,6 +700,7 @@ Skipped 21 times. Substituted 1 times.
 - Andrea Stewart, read 34 times
 
 **TOTAL**: 925 total authors read, with 326 unique.
+221 authors were used only once for this square.
 
 ### 23. Druid
 
@@ -668,6 +713,7 @@ Skipped 21 times. Substituted 1 times.
 - **The Druid's Call** by E.K. Johnston, read 24 times
 
 **TOTAL**: 825 books read, with 291 unique titles.
+203 books were used only once for this square.
 Skipped 46 times. Substituted 58 times.
 
 #### Most Read Authors
@@ -679,6 +725,7 @@ Skipped 46 times. Substituted 58 times.
 - E.K. Johnston, read 24 times
 
 **TOTAL**: 859 total authors read, with 246 unique.
+161 authors were used only once for this square.
 
 ### 24. Features Robots
 
@@ -691,6 +738,7 @@ Skipped 46 times. Substituted 58 times.
 - **Klara and the Sun** by Kazuo Ishiguro, read 33 times
 
 **TOTAL**: 893 books read, with 236 unique titles.
+160 books were used only once for this square.
 Skipped 32 times. Substituted 4 times.
 
 #### Most Read Authors
@@ -702,6 +750,7 @@ Skipped 32 times. Substituted 4 times.
 - Kazuo Ishiguro, read 33 times
 
 **TOTAL**: 904 total authors read, with 193 unique.
+119 authors were used only once for this square.
 
 ### 25. Sequel
 
@@ -714,6 +763,7 @@ Skipped 32 times. Substituted 4 times.
 - **Children of Memory** by Adrian Tchaikovsky, read 9 times
 
 **TOTAL**: 919 books read, with 579 unique titles.
+440 books were used only once for this square.
 Skipped 10 times. Substituted 0 times.
 
 #### Most Read Authors
@@ -725,6 +775,7 @@ Skipped 10 times. Substituted 0 times.
 - Pierce Brown, read 22 times
 
 **TOTAL**: 935 total authors read, with 345 unique.
+213 authors were used only once for this square.
 
 ## Substitutions
 
