@@ -41,7 +41,7 @@ by 3933 unique authors (23660 total).
 4148 books and 2119 authors were used only once. 
 - The top squares left blank were: **Set in the Middle East** and **Druid**, blank on 46 cards each; **Superheroes**, blank on 44 cards; **Elemental Magic**, blank on 39 cards. On the other hand, **Sequel** was only left blank 10 times.
 - The three squares most often substituted were: **Druid**, substituted on 58 cards; **Superheroes**, substituted on 34 cards; **Book Club or Readalong Book**, substituted on 31 cards.
-**Sequel** and **Multiverses** were never substituted.
+**Multiverses** and **Sequel** were never substituted.
 This means that Druid was the least favorite overall, skipped or substituted a total of 104 times, and
 Sequel was the favorite, skipped or substituted only 10 times.
 - There were an average of 4.5 unique books per card.
@@ -859,6 +859,26 @@ Values close to 100 suggest the same books were used repeatedly for a square; 10
 |Druid|57.2|62.7|
 |Features Robots|66.4|72.1|
 |Sequel|32.0|52.2|
+
+The squares with the most variety in books:
+- **Bottom of the TBR**
+- **Self Published or Indie Publisher**
+- **Sequel**
+
+The squares with the most variety in authors:
+- **Self Published or Indie Publisher**
+- **Five Short Stories**
+- **Bottom of the TBR**
+
+The squares with the least variety in books:
+- **Set in the Middle East**
+- **Features Robots**
+- **Superheroes**
+
+The squares with the least variety in authors:
+- **Features Robots**
+- **Set in the Middle East**
+- **Angels and Demons**
 
 <INSERT COMMENTARY HERE>
 
