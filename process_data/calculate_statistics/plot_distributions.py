@@ -304,6 +304,20 @@ def create_yearly_plots(bingo_stats: BingoStatistics, output_root: Path, show_pl
         filepath=output_root / "per_card_hms.png",
     )
 
+    plot_card_hist(
+        counter=bingo_stats.normal_bingo_type_stats.complete_bingos_by_card,
+        title="Non-blackout cards get surprisingly few bingos",
+        subtitle="Number of cards with a particular count of bingos",
+        filepath=output_root / "per_card_bingos.png",
+    )
+
+    plot_card_hist(
+        counter=bingo_stats.hardmode_bingo_type_stats.complete_bingos_by_card,
+        title="Cards that don't do all hard-mode don't pay attention to it at all",
+        subtitle="Number of cards with a particular count of hard mode bingos",
+        filepath=output_root / "per_card_hm_bingos.png",
+    )
+
     plot_count_hist(
         counter=bingo_stats.overall_uniques.unique_authors,
         title="Most authors were only read once",

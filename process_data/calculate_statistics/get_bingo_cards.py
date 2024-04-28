@@ -8,12 +8,16 @@ from collections import (
     Counter,
     defaultdict,
 )
+from numbers import Number
 from types import MappingProxyType as MAP
 from typing import (
     Mapping,
     Optional,
+    cast,
 )
 
+import inflect
+import numpy as np
 import pandas
 
 from ..data_operations.author_title_book_operations import (
@@ -28,10 +32,12 @@ from ..types.bingo_card import (
     ShortStorySquare,
 )
 from ..types.bingo_statistics import BingoStatistics
+from ..types.bingo_type_statistics import BingoTypeStatistics
 from ..types.card_data import CardData
 from ..types.defined_types import (
     Author,
     AuthorCol,
+    BingoName,
     Book,
     CardID,
     HardModeCol,
@@ -41,6 +47,34 @@ from ..types.defined_types import (
 )
 from ..types.recorded_states import RecordedDupes
 from ..types.unique_statistics import UniqueStatistics
+
+BINGO_SIZE = 5
+
+
+def get_possible_bingos() -> Mapping[BingoName, frozenset[int]]:
+    inflector = inflect.engine()
+    bingo_board = np.arange(BINGO_SIZE**2).reshape(BINGO_SIZE, BINGO_SIZE)
+
+    out: dict[BingoName, frozenset[int]] = {}
+    for i, row in enumerate(bingo_board.T):
+        out[
+            BingoName(
+                f"{inflector.number_to_words(inflector.ordinal(cast(Number, i+1)))} row".title()
+            )
+        ] = frozenset(row)
+    for i, col in enumerate(bingo_board):
+        out[
+            BingoName(
+                f"{inflector.number_to_words(inflector.ordinal(cast(Number, i+1)))} column".title()
+            )
+        ] = frozenset(col)
+    out[BingoName("Diagonal")] = frozenset(bingo_board.diagonal())
+    out[BingoName("Antidiagonal")] = frozenset(np.fliplr(bingo_board).diagonal())
+
+    return out
+
+
+POSSIBLE_BINGOS = get_possible_bingos()
 
 
 def get_short_story_square(
@@ -173,6 +207,12 @@ def get_bingo_stats(
     hard_mode_by_card: Counter[CardID] = Counter()
     hard_mode_by_square: Counter[SquareName] = Counter()
     books_by_author: defaultdict[Author, set[Book]] = defaultdict(set)
+    complete_bingos_by_card: Counter[CardID] = Counter()
+    incomplete_squares_by_bingo: Counter[BingoName] = Counter()
+    incomplete_bingos: Counter[BingoName] = Counter()
+    complete_hardmode_bingos_by_card: Counter[CardID] = Counter()
+    incomplete_hardmode_squares_by_bingo: Counter[BingoName] = Counter()
+    incomplete_hardmode_bingos: Counter[BingoName] = Counter()
 
     overall_author_stats: AuthorStatistics = AuthorStatistics()
     square_author_stats: defaultdict[SquareName, AuthorStatistics] = defaultdict(AuthorStatistics)
@@ -190,8 +230,13 @@ def get_bingo_stats(
             subbed_out_squares[subbed_out_square] += 1
 
         hard_mode_by_card[card_id] += 0
-        for square_name, square in bingo_card.squares.items():
+        completed_square_nums = set()
+        completed_hardmode_square_nums = set()
+        for square_num, (square_name, square) in enumerate(bingo_card.squares.items()):
             if square is not None:
+                completed_square_nums.add(square_num)
+                if square.hard_mode:
+                    completed_hardmode_square_nums.add(square_num)
                 if not isinstance(square, ShortStorySquare):
                     book = title_author_to_book((square.title, square.author))
                     _, author = book_to_title_author(book)
@@ -243,6 +288,25 @@ def get_bingo_stats(
                 incomplete_card_count[card_id] += 1
                 incomplete_square_count[square_name] += 1
 
+        complete_bingos_by_card[card_id] += 0
+        complete_hardmode_bingos_by_card[card_id] += 0
+        for bingo_name, square_nums in POSSIBLE_BINGOS.items():
+            squares_completed = len(completed_square_nums & square_nums)
+            if squares_completed == BINGO_SIZE:
+                complete_bingos_by_card[card_id] += 1
+            else:
+                incomplete_squares_by_bingo[bingo_name] += BINGO_SIZE - squares_completed
+                incomplete_bingos[bingo_name] += 1
+
+            hardmode_squares_completed = len(completed_hardmode_square_nums & square_nums)
+            if hardmode_squares_completed == BINGO_SIZE:
+                complete_hardmode_bingos_by_card[card_id] += 1
+            else:
+                incomplete_hardmode_squares_by_bingo[bingo_name] += (
+                    BINGO_SIZE - hardmode_squares_completed
+                )
+                incomplete_hardmode_bingos[bingo_name] += 1
+
     # Loop again after collecting `all_books` to determine uniques
     for card_id, card in cards.items():
         card_uniques[card_id] += 0
@@ -261,7 +325,9 @@ def get_bingo_stats(
         incomplete_cards=incomplete_card_count,
         incomplete_squares=incomplete_square_count,
         max_incomplete_squares=max(
-            incomplete for incomplete in incomplete_card_count.values() if incomplete != 25
+            incomplete
+            for incomplete in incomplete_card_count.values()
+            if incomplete != BINGO_SIZE**2
         ),
         incomplete_squares_per_card=Counter(incomplete_card_count.values()),
         subbed_squares=subbed_count,
@@ -287,4 +353,14 @@ def get_bingo_stats(
         ),
         overall_author_stats=overall_author_stats,
         square_author_stats=square_author_stats,
+        normal_bingo_type_stats=BingoTypeStatistics(
+            complete_bingos_by_card=complete_bingos_by_card,
+            incomplete_bingos=incomplete_bingos,
+            incomplete_squares_by_bingo=incomplete_squares_by_bingo,
+        ),
+        hardmode_bingo_type_stats=BingoTypeStatistics(
+            complete_bingos_by_card=complete_hardmode_bingos_by_card,
+            incomplete_bingos=incomplete_hardmode_bingos,
+            incomplete_squares_by_bingo=incomplete_hardmode_squares_by_bingo,
+        ),
     )

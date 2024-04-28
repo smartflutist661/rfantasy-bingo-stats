@@ -1,5 +1,6 @@
 black~=24.0
 gitpython~=3.1
+inflect~=7.2
 isort>=5
 lmfit~=1.2.0
 matplotlib~=3.7
@@ -8,7 +9,6 @@ numpy~=1.24
 pandas~=2.0
 pandas-stubs>=2.0
 progressbar2~=4.2
-pyexcel-ods3==0.6.1
 pygithub~=1.58
 pylint>=2
 python-levenshtein==0.20.9

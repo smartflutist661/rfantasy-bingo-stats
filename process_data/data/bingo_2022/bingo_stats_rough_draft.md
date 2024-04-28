@@ -41,7 +41,7 @@ by 3413 unique authors (21171 total).
 3447 books and 1823 authors were used only once. 
 - The top squares left blank were: **Set in Africa**, blank on 66 cards; **Five Short Stories**, blank on 53 cards; **Self-Published**, blank on 50 cards. On the other hand, **No Ifs, Ands, or Buts** was only left blank 18 times.
 - The three squares most often substituted were: **Self-Published**, substituted on 32 cards; **Set in Africa**, substituted on 30 cards; **Book Club or Readalong Book**, substituted on 24 cards.
-**No Ifs, Ands, or Buts** and **Non-Human Protagonist** were never substituted.
+**Non-Human Protagonist** and **No Ifs, Ands, or Buts** were never substituted.
 This means that Set in Africa was the least favorite overall, skipped or substituted a total of 96 times, and
 No Ifs, Ands, or Buts was the favorite, skipped or substituted only 18 times.
 - There were an average of 4.2 unique books per card.
@@ -149,6 +149,62 @@ The authors with the most unique books read were:
 
 As with books, most authors were read only once.
 There were an average of 6.2 reads per author.
+
+### Bingos
+
+#### Normal Mode
+
+There were 9023 complete bingos.
+Non-blackout cards completed an average of 3.2 bingos.
+There were 16 cards that did not complete any bingos.
+
+The hardest bingo by number of cards was Fifth Row, incomplete on 82 cards.
+The hardest bingo by number of squares was Fourth Column, with a total of 219 squares left blank.
+
+The easiest bingo by number of cards was Second Column, incomplete on 58 cards.
+The easiest bingo by number of squares was Second Column, with a total of 129 squares left blank.
+
+|BINGO TYPE|INCOMPLETE CARDS|INCOMPLETE SQUARES|
+|---------|:---------:|:---------:|
+|First Row|75|174|
+|Second Row|65|157|
+|Third Row|76|190|
+|Fourth Row|65|152|
+|Fifth Row|82|190|
+|First Column|68|167|
+|Second Column|58|129|
+|Third Column|73|179|
+|Fourth Column|81|219|
+|Fifth Column|67|169|
+|Diagonal|63|151|
+|Antidiagonal|68|149|
+
+#### Hard Mode
+
+There were 2548 complete bingos.
+Non-blackout cards completed an average of 1.1 bingos.
+There were 443 cards that did not complete any bingos.
+
+The hardest bingo by number of cards was Third Row, incomplete on 646 cards.
+The hardest bingo by number of squares was Third Column, with a total of 1963 squares left blank.
+
+The easiest bingo by number of cards was Fourth Row, incomplete on 563 cards.
+The easiest bingo by number of squares was Fourth Row, with a total of 1370 squares left blank.
+
+|BINGO TYPE|INCOMPLETE CARDS|INCOMPLETE SQUARES|
+|---------|:---------:|:---------:|
+|First Row|603|1647|
+|Second Row|632|1766|
+|Third Row|646|1904|
+|Fourth Row|563|1370|
+|Fifth Row|606|1667|
+|First Column|612|1547|
+|Second Column|629|1650|
+|Third Column|611|1963|
+|Fourth Column|612|1568|
+|Fifth Column|585|1626|
+|Diagonal|618|1846|
+|Antidiagonal|599|1648|
 
 ## Stats for Individual Squares
 
