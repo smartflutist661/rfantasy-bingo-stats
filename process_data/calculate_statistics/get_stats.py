@@ -6,10 +6,13 @@ Created on Apr 7, 2023
 
 from collections import Counter
 from collections.abc import (
+    Callable,
     Container,
     Iterable,
+    Sequence,
 )
 from pathlib import Path
+from typing import Optional
 
 import numpy as np
 
@@ -37,59 +40,110 @@ def format_square(square_name: SquareName) -> str:
     return f"**{square_name}**"
 
 
-def format_top_book_counts(unique_books: Counter[Book], top_n: int = 10) -> str:
-    """Format counts of top N unique reads"""
-    book_count_strs = []
-    last_count = -1
-    place_count = 0
+def format_top_list_with_ties(
+    sorted_vals: Iterable[tuple[Book | Author | SquareName, float]],
+    format_template: Callable[[Sequence[str], float], str],
+    top_n: int,
+) -> Iterable[str]:
+    out_strs = []
+    last_count: Optional[float] = None
+    place_count = 1
     cur_ties = []
-    for book, count in unique_books.most_common():
+    for item, count in sorted_vals:
+        if last_count is None:
+            last_count = count
+
         if last_count == count:
-            cur_ties.append(format_book(book))
+            if isinstance(item, Book):
+                cur_ties.append(format_book(item))
+            elif isinstance(item, SquareName):
+                cur_ties.append(format_square(item))
+            elif isinstance(item, Author):
+                cur_ties.append(item)
+            else:
+                raise TypeError(f"Unhandled top-list type {type(item)} for {item}")
         else:
-            if len(cur_ties) == 1:
-                book_count_strs.append("- " + cur_ties[0] + f", read {last_count} times")
-            elif len(cur_ties) > 1:
-                book_count_strs.append(
-                    "- TIE: " + " and ".join(cur_ties) + f", each read {last_count} times"
-                )
+            out_strs.append(format_template(cur_ties, last_count))
 
             place_count += 1
             if place_count > top_n:
                 break
 
             cur_ties = []
-            cur_ties.append(format_book(book))
+            if isinstance(item, Book):
+                cur_ties.append(format_book(item))
+            elif isinstance(item, SquareName):
+                cur_ties.append(format_square(item))
+            elif isinstance(item, Author):
+                cur_ties.append(item)
+            else:
+                raise TypeError(f"Unhandled top-list type {type(item)} for {item}")
 
         last_count = count
+    return out_strs
+
+
+def format_top_book_counts(unique_books: Counter[Book], top_n: int = 10) -> str:
+    """Format counts of top N unique reads"""
+
+    def formatter(cur_ties: Sequence[str], count: float) -> str:
+        if len(cur_ties) == 1:
+            return "- " + cur_ties[0] + f", read {count} times"
+        if len(cur_ties) > 1:
+            return "- TIE: " + " and ".join(cur_ties) + f", each read {count} times"
+        raise ValueError("No results?")
+
+    book_count_strs = format_top_list_with_ties(unique_books.most_common(), formatter, top_n)
+
     return "\n".join(book_count_strs)
 
 
 def format_bottom_square_counts(bingo_stats: BingoStatistics, bottom_n: int = 3) -> str:
     """Format most-incomplete squares"""
-    incomplete_square_strs = []
-    last_count = -1
-    place_count = 0
-    cur_ties = []
-    for incomplete_square, count in bingo_stats.incomplete_squares.most_common():
-        if last_count == count:
-            cur_ties.append(format_square(incomplete_square))
-        else:
-            if len(cur_ties) > 1:
-                incomplete_square_strs.append(
-                    " and ".join(cur_ties) + f", blank on {last_count} cards each"
-                )
-            elif len(cur_ties) == 1:
-                incomplete_square_strs.append("".join(cur_ties) + f", blank on {last_count} cards")
-            cur_ties = []
-            place_count += 1
-            if place_count > bottom_n:
-                break
 
-            cur_ties.append(format_square(incomplete_square))
+    def formatter(cur_ties: Sequence[str], count: float) -> str:
+        if len(cur_ties) > 1:
+            return " and ".join(cur_ties) + f", blank on {count} cards each"
+        if len(cur_ties) == 1:
+            return "".join(cur_ties) + f", blank on {count} cards"
+        print(cur_ties)
+        raise ValueError("No results?")
 
-        last_count = count
+    incomplete_square_strs = format_top_list_with_ties(
+        bingo_stats.incomplete_squares.most_common(), formatter, bottom_n
+    )
+
     return "; ".join(incomplete_square_strs)
+
+
+def format_most_subbed_squares(subbed_squares: Counter[SquareName], top_n: int = 3) -> str:
+    """Format the sqaure subbed most often"""
+
+    def formatter(cur_ties: Sequence[str], count: float) -> str:
+        if len(cur_ties) > 1:
+            return " and ".join(cur_ties) + f", substituted on {count} cards each"
+        if len(cur_ties) == 1:
+            return "".join(cur_ties) + f", substituted on {count} cards"
+        raise ValueError("No results?")
+
+    subbed_square_strs = format_top_list_with_ties(subbed_squares.most_common(), formatter, top_n)
+
+    return "; ".join(subbed_square_strs)
+
+
+def format_top_author_counts(unique_authors: Counter[Author], top_n: int = 10) -> str:
+    """Format counts of top N unique authors"""
+
+    def formatter(cur_ties: Sequence[str], count: float) -> str:
+        if len(cur_ties) == 1:
+            return "- " + cur_ties[0] + f", read {count} times"
+        if len(cur_ties) > 1:
+            return "- TIE: " + " and ".join(cur_ties) + f", each read {count} times"
+        raise ValueError("No results?")
+
+    author_count_strs = format_top_list_with_ties(unique_authors.most_common(), formatter, top_n)
+
+    return "\n".join(author_count_strs)
 
 
 def format_favorite_square(
@@ -123,37 +177,6 @@ def format_favorite_square(
     )
 
 
-def format_most_subbed_squares(subbed_squares: Counter[SquareName], top_n: int = 3) -> str:
-    """Format the sqaure subbed most often"""
-    subbed_square_strs = []
-    last_count = -1
-    place_count = 0
-    cur_ties = []
-    for subbed_square, count in subbed_squares.most_common():
-        if last_count == count:
-            cur_ties.append(format_square(subbed_square))
-        else:
-            if len(cur_ties) > 1:
-                subbed_square_strs.append(
-                    " and ".join(cur_ties) + f", substituted on {last_count} cards each"
-                )
-            elif len(cur_ties) == 1:
-                subbed_square_strs.append(
-                    "".join(cur_ties) + f", substituted on {last_count} cards"
-                )
-            cur_ties = []
-
-            place_count += 1
-            if place_count > top_n:
-                break
-
-            cur_ties.append(format_square(subbed_square))
-
-        last_count = count
-
-    return "; ".join(subbed_square_strs)
-
-
 def format_least_subbed_square(
     subbed_squares: Counter[SquareName],
     square_names: Container[SquareName] | Iterable[SquareName],
@@ -180,34 +203,6 @@ def format_least_subbed_square(
         f"{low_sub_string} {'were' * multiple_low_subs}{'was' * (not multiple_low_subs)} "
         + f"only left blank {fewest_subbed} time{'s'*(fewest_subbed != 1)}{' each' * multiple_low_subs}"
     )
-
-
-def format_top_author_counts(unique_authors: Counter[Author], top_n: int = 10) -> str:
-    """Format counts of top N unique authors"""
-    author_count_strs = []
-    last_count = -1
-    place_count = 0
-    cur_ties = []
-    for author, count in unique_authors.most_common():
-        if last_count == count:
-            cur_ties.append(author)
-        else:
-            if len(cur_ties) == 1:
-                author_count_strs.append("- " + cur_ties[0] + f", read {last_count} times")
-            elif len(cur_ties) > 1:
-                author_count_strs.append(
-                    "- TIE: " + " and ".join(cur_ties) + f", each read {last_count} times"
-                )
-
-            place_count += 1
-            if place_count > top_n:
-                break
-
-            cur_ties = []
-            cur_ties.append(author)
-
-        last_count = count
-    return "\n".join(author_count_strs)
 
 
 def format_square_stats(
@@ -276,98 +271,23 @@ def format_farragini(
         book_ginis[square_name] = book_gini
         author_ginis[square_name] = author_gini
         table_strs.append((square_name, f"{book_gini:.1f}", f"{author_gini:.1f}"))
+
     highest_book_ginis = sorted(book_ginis.items(), key=lambda item: item[1], reverse=True)
     highest_author_ginis = sorted(author_ginis.items(), key=lambda item: item[1], reverse=True)
-    lowest_book_ginis = sorted(book_ginis.items(), key=lambda item: item[1])
-    lowest_author_ginis = sorted(author_ginis.items(), key=lambda item: item[1])
 
-    high_book_gini_strs = []
-    last_book_gini: float = -1
-    place_count = 0
-    cur_ties = []
-    for square_name, book_gini in highest_book_ginis:
-        if last_book_gini == book_gini:
-            cur_ties.append(format_square(square_name))
-        else:
-            if len(cur_ties) == 1:
-                high_book_gini_strs.append("- " + cur_ties[0])
-            elif len(cur_ties) > 1:
-                high_book_gini_strs.append("- TIE: " + " and ".join(cur_ties))
+    def formatter(cur_ties: Sequence[str], _: float) -> str:
+        if len(cur_ties) == 1:
+            return "- " + cur_ties[0]
+        if len(cur_ties) > 1:
+            return "- TIE: " + " and ".join(cur_ties)
+        raise ValueError("No results?")
 
-            place_count += 1
-            if place_count > top_n:
-                break
-
-            cur_ties = []
-            cur_ties.append(format_square(square_name))
-
-        last_book_gini = book_gini
-
-    low_book_gini_strs = []
-    last_book_gini = -1
-    place_count = 0
-    cur_ties = []
-    for square_name, book_gini in lowest_book_ginis:
-        if last_book_gini == book_gini:
-            cur_ties.append(format_square(square_name))
-        else:
-            if len(cur_ties) == 1:
-                low_book_gini_strs.append("- " + cur_ties[0])
-            elif len(cur_ties) > 1:
-                low_book_gini_strs.append("- TIE: " + " and ".join(cur_ties))
-
-            place_count += 1
-            if place_count > top_n:
-                break
-
-            cur_ties = []
-            cur_ties.append(format_square(square_name))
-
-        last_book_gini = book_gini
-
-    high_author_gini_strs = []
-    last_author_gini: float = -1
-    place_count = 0
-    cur_ties = []
-    for square_name, author_gini in highest_author_ginis:
-        if last_author_gini == author_gini:
-            cur_ties.append(format_square(square_name))
-        else:
-            if len(cur_ties) == 1:
-                high_author_gini_strs.append("- " + cur_ties[0])
-            elif len(cur_ties) > 1:
-                high_author_gini_strs.append("- TIE: " + " and ".join(cur_ties))
-
-            place_count += 1
-            if place_count > top_n:
-                break
-
-            cur_ties = []
-            cur_ties.append(format_square(square_name))
-
-        last_author_gini = author_gini
-
-    low_author_gini_strs = []
-    last_author_gini = -1
-    place_count = 0
-    cur_ties = []
-    for square_name, author_gini in lowest_author_ginis:
-        if last_author_gini == author_gini:
-            cur_ties.append(format_square(square_name))
-        else:
-            if len(cur_ties) == 1:
-                low_author_gini_strs.append("- " + cur_ties[0])
-            elif len(cur_ties) > 1:
-                low_author_gini_strs.append("- TIE: " + " and ".join(cur_ties))
-
-            place_count += 1
-            if place_count > top_n:
-                break
-
-            cur_ties = []
-            cur_ties.append(format_square(square_name))
-
-        last_author_gini = author_gini
+    high_book_gini_strs = format_top_list_with_ties(highest_book_ginis, formatter, top_n)
+    low_book_gini_strs = format_top_list_with_ties(reversed(highest_book_ginis), formatter, top_n)
+    high_author_gini_strs = format_top_list_with_ties(highest_author_ginis, formatter, top_n)
+    low_author_gini_strs = format_top_list_with_ties(
+        reversed(highest_author_ginis), formatter, top_n
+    )
 
     table_str = "\n".join("|" + "|".join(row) + "|" for row in table_strs)
     low_book_gini_str = "The squares with the most variety in books:\n" + "\n".join(

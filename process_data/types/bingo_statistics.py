@@ -15,7 +15,6 @@ from types import MappingProxyType as MAP
 from typing import (
     Any,
     Mapping,
-    cast,
 )
 
 from ..constants import SUBBED_SQUARE_SEPARATOR
@@ -67,23 +66,20 @@ class BingoStatistics:
     def from_data(cls, data: Any) -> BingoStatistics:
         """Create BingoStatistics from JSON data"""
         return cls(
-            total_card_count=int(cast(int, data["total_card_count"])),
+            total_card_count=int(data["total_card_count"]),
             incomplete_cards=card_id_counter_from_data(data["incomplete_cards"]),
             incomplete_squares=square_name_counter_from_data(data["incomplete_squares"]),
-            max_incomplete_squares=int(cast(int, data["max_incomplete_squares"])),
+            max_incomplete_squares=int(data["max_incomplete_squares"]),
             incomplete_squares_per_card=Counter(
-                {
-                    int(cast(int, key)): int(cast(int, val))
-                    for key, val in data["incomplete_squares_per_card"].items()
-                }
+                {int(key): int(val) for key, val in data["incomplete_squares_per_card"].items()}
             ),
-            total_story_count=int(cast(int, data["total_story_count"])),
+            total_story_count=int(data["total_story_count"]),
             subbed_squares=Counter(
                 {
-                    cast(
-                        tuple[SquareName, SquareName],
-                        tuple(SquareName(k) for k in key.split(SUBBED_SQUARE_SEPARATOR)),
-                    ): int(cast(int, val))
+                    (
+                        SquareName(key.split(SUBBED_SQUARE_SEPARATOR)[0]),
+                        SquareName(key.split(SUBBED_SQUARE_SEPARATOR)[1]),
+                    ): int(val)
                     for key, val in data["subbed_squares"].items()
                 }
             ),
@@ -92,7 +88,7 @@ class BingoStatistics:
             overall_uniques=UniqueStatistics.from_data(data["overall_uniques"]),
             square_uniques=MAP(
                 {
-                    SquareName(str(key)): UniqueStatistics.from_data(val)
+                    SquareName(key): UniqueStatistics.from_data(val)
                     for key, val in data["square_uniques"].items()
                 }
             ),
@@ -107,7 +103,7 @@ class BingoStatistics:
             overall_author_stats=AuthorStatistics.from_data(data["overall_author_stats"]),
             square_author_stats=MAP(
                 {
-                    SquareName(str(key)): AuthorStatistics.from_data(val)
+                    SquareName(key): AuthorStatistics.from_data(val)
                     for key, val in data["square_author_stats"].items()
                 }
             ),

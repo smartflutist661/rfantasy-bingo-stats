@@ -10,7 +10,6 @@ from dataclasses import dataclass
 from typing import (
     Any,
     Optional,
-    cast,
 )
 
 
@@ -38,51 +37,35 @@ class YearlyBingoStatistics:
     def from_data(cls, data: Any) -> YearlyBingoStatistics:
         """Create BingoStatistics from JSON data"""
         return cls(
-            total_participant_count=int(cast(int, data["total_participant_count"])),
-            total_card_count=int(cast(int, data["total_card_count"])),
+            total_participant_count=int(data["total_participant_count"]),
+            total_card_count=int(data["total_card_count"]),
             total_square_count=(
-                int(cast(int, data["total_square_count"]))
-                if data["total_square_count"] is not None
-                else None
+                int(data["total_square_count"]) if data["total_square_count"] is not None else None
             ),
             total_story_count=(
-                int(cast(int, data["total_story_count"]))
-                if data["total_story_count"] is not None
-                else None
+                int(data["total_story_count"]) if data["total_story_count"] is not None else None
             ),
             unique_story_count=(
-                int(cast(int, data["unique_story_count"]))
-                if data["unique_story_count"] is not None
-                else None
+                int(data["unique_story_count"]) if data["unique_story_count"] is not None else None
             ),
             total_author_count=(
-                int(cast(int, data["total_author_count"]))
-                if data["total_author_count"] is not None
-                else None
+                int(data["total_author_count"]) if data["total_author_count"] is not None else None
             ),
             unique_author_count=(
-                int(cast(int, data["unique_author_count"]))
+                int(data["unique_author_count"])
                 if data["unique_author_count"] is not None
                 else None
             ),
             hard_mode_cards=(
-                int(cast(int, data["hard_mode_cards"]))
-                if data["hard_mode_cards"] is not None
-                else None
+                int(data["hard_mode_cards"]) if data["hard_mode_cards"] is not None else None
             ),
             hard_mode_squares=(
-                int(cast(int, data["hard_mode_squares"]))
-                if data["hard_mode_squares"] is not None
-                else None
+                int(data["hard_mode_squares"]) if data["hard_mode_squares"] is not None else None
             ),
             hero_mode_cards=(
-                int(cast(int, data["hero_mode_cards"]))
-                if data["hero_mode_cards"] is not None
-                else None
+                int(data["hero_mode_cards"]) if data["hero_mode_cards"] is not None else None
             ),
             total_misspellings=(
-                int(cast(int, data["total_misspellings"]))
-                if data["total_misspellings"] is not None
-                else None
+                int(data["total_misspellings"]) if data["total_misspellings"] is not None else None
             ),
         )

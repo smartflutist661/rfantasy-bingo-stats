@@ -47,19 +47,19 @@ def to_data(data: Any) -> AnyData:
 
 def book_counter_from_data(data: dict[Any, Any]) -> Counter[Book]:
     """Shortcut for getting book counter from data"""
-    return Counter({Book(str(key)): int(cast(int, val)) for key, val in data.items()})
+    return Counter({Book(key): int(val) for key, val in data.items()})
 
 
 def author_counter_from_data(data: dict[Any, Any]) -> Counter[Author]:
     """Shortcut for getting author counter from data"""
-    return Counter({Author(str(key)): int(cast(int, val)) for key, val in data.items()})
+    return Counter({Author(key): int(val) for key, val in data.items()})
 
 
 def square_name_counter_from_data(data: dict[Any, Any]) -> Counter[SquareName]:
     """Shortcut for getting square name counter from data"""
-    return Counter({SquareName(str(key)): int(cast(int, val)) for key, val in data.items()})
+    return Counter({SquareName(key): int(val) for key, val in data.items()})
 
 
 def card_id_counter_from_data(data: dict[Any, Any]) -> Counter[CardID]:
     """Shortcut for getting square name counter from data"""
-    return Counter({CardID(str(key)): int(cast(int, val)) for key, val in data.items()})
+    return Counter({CardID(str(key)): int(val) for key, val in data.items()})

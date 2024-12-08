@@ -14,7 +14,6 @@ from typing import (
 
 from thefuzz import process  # type: ignore
 
-from ..constants import TITLE_AUTHOR_SEPARATOR
 from ..data_operations.author_title_book_operations import split_multi_author
 from ..logger import LOGGER
 from ..types.defined_types import (
@@ -62,9 +61,9 @@ def process_new_pair(
         filtered_match_choices = set(initial_match_choices)
 
         # If we're looking at authors...
-        if TITLE_AUTHOR_SEPARATOR not in item_to_process:
+        if isinstance(item_to_process, Author):
             # Create sets of each individual author name for the item being processed...
-            split_item_to_process = set(split_multi_author(cast(Author, item_to_process)))  # type: ignore[redundant-cast]
+            split_item_to_process = set(split_multi_author(item_to_process))
             for match_choice in initial_match_choices:
                 # And the matched item.
                 split_match_choice = set(split_multi_author(cast(Author, match_choice)))

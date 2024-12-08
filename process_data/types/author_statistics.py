@@ -43,26 +43,20 @@ class AuthorStatistics:
         """Construct from JSON data"""
         return cls(
             gender_count=Counter(
-                {
-                    cast(Gender, str(key)): int(cast(int, val))
-                    for key, val in data["gender_count"].items()
-                }
+                {cast(Gender, str(key)): int(val) for key, val in data["gender_count"].items()}
             ),
             race_count=Counter(
-                {
-                    cast(Race, str(key)): int(cast(int, val))
-                    for key, val in data["race_count"].items()
-                }
+                {cast(Race, str(key)): int(val) for key, val in data["race_count"].items()}
             ),
             queer_count=Counter(
                 {
-                    bool(cast(bool, key)) if key is not None else key: int(cast(int, val))
+                    bool(key) if key is not None else key: int(val)
                     for key, val in data["queer_count"].items()
                 }
             ),
             nationality_count=Counter(
                 {
-                    cast(Nationality, str(key)): int(cast(int, val))
+                    cast(Nationality, str(key)): int(val)
                     for key, val in data["nationality_count"].items()
                 }
             ),

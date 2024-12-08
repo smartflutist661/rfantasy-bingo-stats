@@ -50,10 +50,7 @@ class CardData:
             subbed_by_square=bool(data["subbed_by_square"]),
             short_story_square_num=int(data["short_story_square_num"]),
             square_names=MAP(
-                {
-                    TitleCol(str(key)): SquareName(str(val))
-                    for key, val in data["square_names"].items()
-                }
+                {TitleCol(str(key)): SquareName(val) for key, val in data["square_names"].items()}
             ),
             novel_title_author_hm_cols=tuple(
                 (TitleCol(val0), AuthorCol(val1), HardModeCol(val2))

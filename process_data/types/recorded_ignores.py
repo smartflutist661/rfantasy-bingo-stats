@@ -34,14 +34,14 @@ class RecordedIgnores:
             ignored_author_dupes=defaultdict(
                 set,
                 {
-                    Author(str(key)): {Author(str(v)) for v in val}
+                    Author(key): {Author(v) for v in val}
                     for key, val in data["ignored_author_dupes"].items()
                 },
             ),
             ignored_book_dupes=defaultdict(
                 set,
                 {
-                    Book(str(key)): {Book(str(v)) for v in val}
+                    Book(key): {Book(v) for v in val}
                     for key, val in data["ignored_book_dupes"].items()
                 },
             ),

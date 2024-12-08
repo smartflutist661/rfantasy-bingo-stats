@@ -70,7 +70,7 @@ class RecordedDupes:
         # Note that it is impossible to handle duplicated keys because dict keys are always unique
         book_dupes: defaultdict[Book, set[Book]] = defaultdict(
             set,
-            {key: {Book(str(v)) for v in val} for key, val in data["book_dupes"].items()},
+            {Book(key): {Book(v) for v in val} for key, val in data["book_dupes"].items()},
         )
 
         if not skip_updates:
@@ -78,7 +78,7 @@ class RecordedDupes:
 
         author_dupes: defaultdict[Author, set[Author]] = defaultdict(
             set,
-            {key: {Author(str(v)) for v in val} for key, val in data["author_dupes"].items()},
+            {Author(key): {Author(v) for v in val} for key, val in data["author_dupes"].items()},
         )
 
         if not skip_updates:
