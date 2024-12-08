@@ -80,10 +80,10 @@
   "2021" : {
     "total_participant_count" : 665,
     "total_card_count" : 747,
-    "total_square_count" : null,
+    "total_square_count" : 17795,
     "total_story_count" : 17958,
     "unique_story_count" : 5069,
-    "total_author_count" : null,
+    "total_author_count" : 18601,
     "unique_author_count" : 2740,
     "hard_mode_cards" : 129,
     "hard_mode_squares" : 10465,
