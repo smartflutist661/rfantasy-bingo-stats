@@ -34,4 +34,7 @@ class ShortStorySquare(BingoSquare):
     stories: tuple[TitleAuthor, ...]
 
 
-BingoCard = Mapping[SquareName, Optional[BingoSquare]]
+@dataclass(frozen=True)
+class BingoCard:
+    squares: Mapping[SquareName, Optional[BingoSquare]]
+    subbed_square_map: Mapping[SquareName, SquareName]
