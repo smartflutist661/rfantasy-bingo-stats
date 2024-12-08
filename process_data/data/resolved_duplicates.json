@@ -172,12 +172,12 @@
       "Adrian Tschaikovsky",
       "Adrian tchaikovsky",
       "Adrien Tchaikovsky",
-      "Andrian Tchaikovsky"
+      "Andrian Tchaikovsky",
+      "Adrian Tsaichovsky"
     ],
     "Adrian Tchaikovsky, Adam Gauntlett, Keris McDonald": [
       "Adrian Tchaikovky, Adam Gauntlett, Keris McDonald"
     ],
-    "Adrian Tsaichovsky": [],
     "Adriana C. Grigore": [],
     "Adriana Ramirez": [],
     "Adrianna Cuevas": [],
@@ -631,7 +631,7 @@
     ],
     "Anton\u00edn Bajaja": [],
     "Anu Chouhan": [],
-    "Any Sanderson": [],
+    "Amy Sanderson": ["Any Sanderson"],
     "Anya Johanna DeNiro": [],
     "Anya Ow": [
       "anya ow"
@@ -643,8 +643,9 @@
     ],
     "April Daniels": [],
     "April Genevieve Tucholke": [],
-    "April Steenburgh (Editor), Christy Lennox (Editor) ,": [
-      "April Steenburgh (Editor) , Christy Lennox (Editor) ,"
+    "April Steenburgh, Christy Lennox": [
+      "April Steenburgh (Editor) , Christy Lennox (Editor) ,",
+      "April Steenburgh (Editor), Christy Lennox (Editor) ,"
     ],
     "Arcs": [],
     "Arden Powell": [],
@@ -924,7 +925,7 @@
     "Brian Michael Bendis": [],
     "Brian Murphy": [],
     "Brian Naslund": [],
-    "Brian O Sullivan": [],
+    "Brian O. Sullivan": ["Brian O Sullivan"],
     "Brian P. Rubin": [],
     "Brian Staveley": [],
     "Brian Wells": [],
@@ -958,11 +959,11 @@
     "Bryce O'Connor, Luke Chmilenko": [
       "Bryce O'Connor and Luke Chmilenko"
     ],
-    "Burges, Audrey": [],
-    "C. A. Suleiman": [],
-    "C. C. Solomon": [],
+    "Audrey Burges": ["Burges, Audrey"],
+    "C.A. Suleiman": ["C. A. Suleiman"],
+    "C.C. Solomon": ["C. C. Solomon"],
     "C. Chancy": [],
-    "C. J. Valin": [],
+    "C.J. Valin": ["C. J. Valin"],
     "C. Mantis": [
       "C_Mantis"
     ],
@@ -973,7 +974,6 @@
     "C. Rochelle": [
       "C Rochelle"
     ],
-    "C. T. Phillips": [],
     "C.A. Fletcher": [],
     "C.A. Higgins": [
       "C.A.Higgins"
@@ -1106,7 +1106,8 @@
     ],
     "C.T. Callahan, B.R. Sanders, Claudie Arseneault": [],
     "C.T. Phipps": [
-      "C. T. Phipps"
+      "C. T. Phipps",
+      "C. T. Phillips"
     ],
     "C.T. Phipps, Michael Suttkus": [
       "C T Phipps, Micheal Sutkus",
@@ -1576,8 +1577,8 @@
     ],
     "Cyrille Martinez": [],
     "C\u00e9dric Sire": [],
-    "D D Webb": [],
-    "D. L. Howard": [],
+    "D.D. Webb": ["D D Webb"],
+    "D.L. Howard": ["D. L. Howard"],
     "D. Nathan Hilliard": [],
     "D.B. Carter": [],
     "D.B. Jackson": [
@@ -1686,10 +1687,11 @@
     ],
     "Dante Alighieri": [],
     "Dante Luiz": [],
-    "Dante Luiz, H Pueyo": [
-      "Dante Luiz and H Pueyo"
+    "Dante Luiz, H. Pueyo": [
+      "Dante Luiz and H Pueyo",
+      "Dante Luiz, H Pueyo"
     ],
-    "Dao, Zao": [],
+    "Zao Dao": ["Dao, Zao"],
     "Daphne du Maurier": [],
     "Dara Korniy": [
       "\u0414\u0430\u0440\u0430 \u041a\u043e\u0440\u043d\u0456\u0439"
@@ -1752,9 +1754,10 @@
     "David Benem": [],
     "David Bowles": [],
     "David Brame": [],
-    "David Conyers, John deLaughter, Matthew Davenport, David Hambling,  Drew Hayes": [
+    "David Conyers, John deLaughter, Matthew Davenport, David Hambling, Drew Hayes": [
       "David Conyers, John deLaughter, Matthew Davenport and David Hambling,  Drew Hayes",
-      "David Conyers, John deLaughter, Matthew Davenport and David Hambling; Drew Hayes"
+      "David Conyers, John deLaughter, Matthew Davenport and David Hambling; Drew Hayes",
+      "David Conyers, John deLaughter, Matthew Davenport, David Hambling,  Drew Hayes"
     ],
     "David D. Lecine": [],
     "David Dalglish": [
@@ -2058,8 +2061,9 @@
     "Edoardo Albert": [
       "Edoarado albert"
     ],
-    "Eduardo Jimenez Mayo (editor,  it's an anthology)": [
-      "Eduardo Jimenez Mayo (editor; it's an anthology)"
+    "Eduardo Jimenez Mayo": [
+      "Eduardo Jimenez Mayo (editor; it's an anthology)",
+      "Eduardo Jimenez Mayo (editor,  it's an anthology)"
     ],
     "Edward Ashton": [],
     "Edward Bulwer-Lytton": [],
@@ -2745,7 +2749,7 @@
     "Hailey Edwards": [],
     "Hailey Piper": [],
     "Hailey Turner": [],
-    "Haldeman III, Jack C.": [],
+    "Jack C. Haldeman II": ["Haldeman III, Jack C."],
     "Haley Newsome": [],
     "Han Song": [],
     "Hana Tooke": [],
@@ -2977,7 +2981,7 @@
     "Izumi Suzuki": [],
     "J Pal": [],
     "J. Clark": [],
-    "J. G. Ballard": [],
+    "J.G. Ballard": ["J. G. Ballard"],
     "J. McCoy": [
       "J McCoy"
     ],
@@ -3137,8 +3141,7 @@
     "J.Y. Harris": [
       "J. Y. Harris"
     ],
-    "JC Wang": [],
-    "JF Brink": [],
+    "J.C. Wang": ["JC Wang"],
     "Jacey Bedford": [],
     "Jack Campbell": [],
     "Jack Cohen": [],
@@ -3417,7 +3420,7 @@
     "Jessica Khoury": [],
     "Jessica Mayerovitch": [],
     "Jessica Reisman": [],
-    "Jessica S Taylor": [],
+    "Jessica S. Taylor": ["Jessica S Taylor"],
     "Jessica S. Olsen": [],
     "Jessica Townsend": [],
     "Jessie Mihalik": [
@@ -3871,7 +3874,7 @@
     ],
     "Karl Ove Knausg\u00e5rd": [],
     "Karuna Riazi": [],
-    "Kashiki, Takuto": [],
+    "Takuto Kashiki": ["Kashiki, Takuto"],
     "Kassandra Montag": [],
     "Kat Cho": [
       "Cho, Kat"
@@ -3989,7 +3992,7 @@
       "Keith Giffen, Cully Hammer and John Rogers"
     ],
     "Keith Laumer": [],
-    "Keith R. A. DeCandido": [],
+    "Keith R.A. DeCandido": ["Keith R. A. DeCandido"],
     "Keith Rosson": [],
     "Kel Carpenter": [],
     "Kel Carpenter, Meg Anne": [
@@ -4043,7 +4046,7 @@
       "Kerrie L. Huges, R. R. Virdi, and Jim Butcher",
       "Kerrie L. Hughes, R. R. Virdi, Jim Butcher"
     ],
-    "Kerry Hammond = u/searchandrescuewoods": [],
+    "Kerry Hammond": ["Kerry Hammond = u/searchandrescuewoods"],
     "Kerry Nietz": [],
     "Kerstin Gier": [
       "Kerstin Geir"
@@ -4134,7 +4137,7 @@
       "Kit Witfield",
       "Kit whitfield"
     ],
-    "Kitasai, Yume": [],
+    "Yume Kitasai": ["Kitasai, Yume"],
     "Kiyash Monsef": [],
     "Kohei Horikoshi": [],
     "Kosoko Jackson": [],
@@ -4939,7 +4942,7 @@
     ],
     "Martine Leavitt": [],
     "Martine McDonagh": [],
-    "Mary Brennan": [],
+    "Marie Brennan": ["Mary Brennan"],
     "Mary Calmes": [],
     "Mary Doria Russell": [
       "Maria Doria Russel"
@@ -6245,7 +6248,7 @@
     "Robert E. Vardeman": [],
     "Robert Eames": [],
     "Robert Evans": [],
-    "Robert F Young": [],
+    "Robert F. Young": ["Robert F Young"],
     "Robert French": [],
     "Robert Harris": [],
     "Robert Holdstock": [],
@@ -6435,7 +6438,7 @@
       "R\u00e9gis Boyer & Jean Renaud"
     ],
     "S. Cushaway": [],
-    "S. E. Robinson": [],
+    "S.E. Robinson": ["S. E. Robinson"],
     "S. Jae-Jones": [
       "S Jae Jones"
     ],
@@ -6540,7 +6543,7 @@
       "S.T Gibson",
       "ST Gibson"
     ],
-    "SJ Himes": [],
+    "S.J. Himes": ["SJ Himes"],
     "Saad Z. Hossain": [
       "Saad Hossain",
       "Saad Z Hossain"
@@ -7243,7 +7246,7 @@
     "T.S. Orgel": [
       "T. S. Orgel"
     ],
-    "TJP Campbell": [],
+    "T.J.P. Campbell": ["TJP Campbell"],
     "Ta-Nehisi Coates": [
       "Ta Nehisi Coates"
     ],
@@ -7378,7 +7381,8 @@
     "TheFirstDefier": [
       "J.F. Brink",
       "TheFirstDefier J.F. Brink",
-      "Thefirstdefier"
+      "Thefirstdefier",
+      "JF Brink"
     ],
     "Thea Harrison": [],
     "Theodora Goss": [
@@ -7967,7 +7971,7 @@
     "dirgewithoutmusic": [],
     "echorise": [],
     "evansentranced": [],
-    "grasslilies, AO3": [],
+    "grasslilies": ["grasslilies, AO3"],
     "isthisselfcare": [],
     "jaseem namnia": [],
     "lots of authors (50 parts)": [],
