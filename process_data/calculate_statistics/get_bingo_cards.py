@@ -15,17 +15,11 @@ from typing import (
 
 import pandas
 
-from ..data.author_records import AUTHOR_INFO
-from ..data.current import (
-    NOVEL_TITLE_AUTHOR_HM_COLS,
-    SHORT_STORY_SQUARE_NUM,
-    SHORT_STORY_TITLE_AUTHOR_HM_COLS,
-    SQUARE_NAMES,
-)
 from ..data_operations.author_title_book_operations import (
     book_to_title_author,
     title_author_to_book,
 )
+from ..types.author_info import AuthorInfo
 from ..types.author_statistics import AuthorStatistics
 from ..types.bingo_card import (
     BingoCard,
@@ -33,6 +27,7 @@ from ..types.bingo_card import (
     ShortStorySquare,
 )
 from ..types.bingo_statistics import BingoStatistics
+from ..types.card_data import CardData
 from ..types.defined_types import (
     Author,
     AuthorCol,
@@ -49,10 +44,11 @@ from ..types.unique_statistics import UniqueStatistics
 
 def get_short_story_square(
     row: pandas.Series,  # type: ignore[type-arg]
+    card_data: CardData,
 ) -> Optional[ShortStorySquare]:
     """Get a square of five short stories"""
     shorts = []
-    for ss_title_col, ss_author_col, _ in SHORT_STORY_TITLE_AUTHOR_HM_COLS:
+    for ss_title_col, ss_author_col, _ in card_data.short_story_title_author_hm_cols:
         ss_title = Title(row[ss_title_col])
         ss_author = Author(row[ss_author_col])
 
@@ -74,6 +70,7 @@ def get_bingo_square(
     title_col: TitleCol,
     author_col: AuthorCol,
     hm_col: HardModeCol,
+    card_data: CardData,
 ) -> Optional[BingoSquare]:
     """Get a single bingo square"""
     title = Title(row[title_col])
@@ -90,8 +87,8 @@ def get_bingo_square(
             hard_mode=hard_mode,
         )
 
-    if SHORT_STORY_SQUARE_NUM in title_col:
-        return get_short_story_square(row)
+    if str(card_data.short_story_square_num) in title_col:
+        return get_short_story_square(row, card_data)
 
     return None
 
@@ -99,16 +96,17 @@ def get_bingo_square(
 def get_bingo_card(
     row: pandas.Series,  # type: ignore[type-arg]
     subbed_square_map: Mapping[SquareName, SquareName],
+    card_data: CardData,
 ) -> tuple[BingoCard, frozenset[SquareName]]:
     """Get a single bingo card"""
     card: dict[SquareName, Optional[BingoSquare]] = {}
     incomplete_squares = set()
-    for title_col, author_col, hm_col in NOVEL_TITLE_AUTHOR_HM_COLS:
-        square_name = SQUARE_NAMES[title_col]
+    for title_col, author_col, hm_col in card_data.novel_title_author_hm_cols:
+        square_name = card_data.square_names[title_col]
 
         real_square_name = subbed_square_map.get(square_name, square_name)
 
-        square = get_bingo_square(row, title_col, author_col, hm_col)
+        square = get_bingo_square(row, title_col, author_col, hm_col, card_data)
         card[real_square_name] = square
         if square is None:
             incomplete_squares.add(real_square_name)
@@ -119,6 +117,8 @@ def get_bingo_card(
 def get_bingo_stats(
     data: pandas.DataFrame,
     recorded_states: RecordedDupes,
+    card_data: CardData,
+    author_data: Mapping[Author, AuthorInfo],
 ) -> BingoStatistics:
     """Get tuple of bingo cards with substituted names"""
 
@@ -150,7 +150,7 @@ def get_bingo_stats(
             continue
 
         subbed_square_map = {}
-        for square_num, square_name in enumerate(SQUARE_NAMES.values()):
+        for square_num, square_name in enumerate(card_data.square_names.values()):
             subbed_square_name = SquareName(row[f"SQUARE {square_num+1}: SUBSTITUTION"])
             if subbed_square_name is not None and len(subbed_square_name) > 0:
                 subbed_square_map[square_name] = subbed_square_name
@@ -159,7 +159,7 @@ def get_bingo_stats(
             if square_tuple[0] and square_tuple[1]:
                 subbed_count[square_tuple] += 1
 
-        bingo_card, incomplete_squares = get_bingo_card(row, subbed_square_map)
+        bingo_card, incomplete_squares = get_bingo_card(row, subbed_square_map, card_data)
 
         cards[card_id] = bingo_card
         hard_mode_by_card[card_id] += 0
@@ -195,7 +195,7 @@ def get_bingo_stats(
                         unique_square_author_usage[single_author].add(square_name)
                         books_by_author[single_author].add(book)
 
-                        author_info = AUTHOR_INFO[single_author]
+                        author_info = author_data[single_author]
 
                         overall_author_stats.gender_count[author_info.gender] += 1
                         overall_author_stats.race_count[author_info.race] += 1
@@ -219,7 +219,7 @@ def get_bingo_stats(
                     total_story_count += len(square.stories)
 
     subbed_out_squares = Counter(subbed_out for subbed_out, _ in subbed_count.keys())
-    for square_name in SQUARE_NAMES.values():
+    for square_name in card_data.square_names.values():
         subbed_out_squares[square_name] += 0
 
     for card_id, card in cards.items():

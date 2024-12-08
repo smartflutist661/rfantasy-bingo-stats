@@ -4,16 +4,16 @@ Created on Apr 7, 2023
 @author: fred
 """
 from collections import Counter
+from collections.abc import Iterable
+from pathlib import Path
 
 import numpy as np
+from _collections_abc import Container
 
-from ..data.current import (
-    OUTPUT_MD_FILEPATH,
-    SQUARE_NAMES,
-)
 from ..data_operations.author_title_book_operations import book_to_title_author
 from ..logger import LOGGER
 from ..types.bingo_statistics import BingoStatistics
+from ..types.card_data import CardData
 from ..types.defined_types import (
     Author,
     Book,
@@ -88,16 +88,19 @@ def format_bottom_square_counts(bingo_stats: BingoStatistics, bottom_n: int = 3)
     return "; ".join(incomplete_square_strs)
 
 
-def format_favorite_square(bingo_stats: BingoStatistics) -> str:
+def format_favorite_square(
+    bingo_stats: BingoStatistics,
+    square_names: Container[SquareName] | Iterable[SquareName],
+) -> str:
     """Format square completed most often"""
     fewest_incomplete = min(
         incomplete
         for square, incomplete in bingo_stats.incomplete_squares.items()
-        if square in SQUARE_NAMES.values()
+        if square in square_names
     )
     most_filled_squares = []
     for square_name, incomplete_count in bingo_stats.incomplete_squares.items():
-        if incomplete_count == fewest_incomplete and square_name in SQUARE_NAMES.values():
+        if incomplete_count == fewest_incomplete and square_name in square_names:
             most_filled_squares.append(square_name)
 
     multiple_favorites = len(most_filled_squares) > 1
@@ -147,12 +150,15 @@ def format_most_subbed_squares(subbed_squares: Counter[SquareName], top_n: int =
     return "; ".join(subbed_square_strs)
 
 
-def format_least_subbed_square(subbed_squares: Counter[SquareName]) -> str:
+def format_least_subbed_square(
+    subbed_squares: Counter[SquareName],
+    square_names: Container[SquareName] | Iterable[SquareName],
+) -> str:
     """Format the string for the least-subbed bingo square"""
     fewest_subbed = min(subbed_squares.values())
     fewest_subbed_squares = []
     for square_name, subbed_count in subbed_squares.items():
-        if subbed_count == fewest_subbed and square_name in SQUARE_NAMES.values():
+        if subbed_count == fewest_subbed and square_name in square_names:
             fewest_subbed_squares.append(square_name)
 
     multiple_low_subs = len(fewest_subbed_squares) > 1
@@ -223,21 +229,27 @@ Skipped {bingo_stats.incomplete_squares[square_name]} times. Substituted {bingo_
 """
 
 
-def format_all_squares(bingo_stats: BingoStatistics) -> str:
+def format_all_squares(
+    bingo_stats: BingoStatistics,
+    square_names: Iterable[SquareName],
+) -> str:
     """Format stats for every square"""
     square_strs = []
-    for square_num, square_name in enumerate(SQUARE_NAMES.values()):
+    for square_num, square_name in enumerate(square_names):
         square_strs.append(format_square_stats(square_num + 1, square_name, bingo_stats))
     return "\n".join(square_strs)
 
 
-def format_farragini(bingo_stats: BingoStatistics) -> str:
+def format_farragini(
+    bingo_stats: BingoStatistics,
+    square_names: Iterable[SquareName],
+) -> str:
     """Format a table of FarraGini indices"""
     table_strs: list[tuple[str, str, str]] = [
         ("SQUARE", "BOOK", "AUTHOR"),
         ("---------", ":---------:", ":---------:"),
     ]
-    for square_name in SQUARE_NAMES.values():
+    for square_name in square_names:
         table_strs.append(
             (
                 square_name,
@@ -248,14 +260,17 @@ def format_farragini(bingo_stats: BingoStatistics) -> str:
     return "\n".join("|" + "|".join(row) + "|" for row in table_strs)
 
 
-def format_square_table(bingo_stats: BingoStatistics) -> str:
+def format_square_table(
+    bingo_stats: BingoStatistics,
+    square_names: Iterable[SquareName],
+) -> str:
     """Format a table of FarraGini indices"""
     table_strs: list[tuple[str, str, str]] = [
         ("SQUARE", "% COMPLETE", "% HARD MODE"),
         ("---------", ":---------:", ":---------:"),
     ]
     total_cards = bingo_stats.total_card_count
-    for square_name in SQUARE_NAMES.values():
+    for square_name in square_names:
         table_strs.append(
             (
                 square_name,
@@ -416,7 +431,7 @@ def format_unique_author_books(books_per_author: Counter[Author]) -> str:
     return "\n".join(book_strs)
 
 
-def create_markdown(bingo_stats: BingoStatistics) -> None:
+def create_markdown(bingo_stats: BingoStatistics, card_data: CardData, output_path: Path) -> None:
     """Create a Markdown draft of stats"""
 
     most_avoided_square, most_avoided_count = bingo_stats.avoided_squares.most_common(1)[0]
@@ -487,14 +502,14 @@ The minimum number of filled squares was {25 - bingo_stats.max_incomplete_square
 {bingo_stats.incomplete_squares.total()} squares were left blank, leaving {bingo_stats.total_card_count*25 - bingo_stats.incomplete_cards.total()} filled squares.
 - There were {bingo_stats.total_story_count} total stories, with {len(bingo_stats.overall_uniques.unique_books)} unique stories read,
 by {len(bingo_stats.overall_uniques.unique_authors)} unique authors.
-- The top three squares left blank were: {format_bottom_square_counts(bingo_stats)}. On the other hand, {format_favorite_square(bingo_stats)}.
-- The three squares most often substituted were: {format_most_subbed_squares(bingo_stats.subbed_out_squares)}. {format_least_subbed_square(bingo_stats.subbed_out_squares)}.
+- The top three squares left blank were: {format_bottom_square_counts(bingo_stats)}. On the other hand, {format_favorite_square(bingo_stats, card_data.square_names.values())}.
+- The three squares most often substituted were: {format_most_subbed_squares(bingo_stats.subbed_out_squares)}. {format_least_subbed_square(bingo_stats.subbed_out_squares, card_data.square_names.values())}.
 This means that {most_avoided_square} was the least favorite overall, skipped or substituted a total of {most_avoided_count} times.
 - There were an average of {mean_uniques:.1f} unique books per card.
 - {hard_mode_by_card_counts[25]} cards claimed an all-hard-mode card, while {hard_mode_by_card_counts[24]} cards were short by one square.
 {hard_mode_by_card_counts[0]} cards claimed no hard-mode squares at all. The average number of hard-mode squares per card was {avg_hm:.1f}.
 
-{format_square_table(bingo_stats)}
+{format_square_table(bingo_stats, card_data.square_names.values())}
 
 <INSERT PLOTS HERE>
 
@@ -538,7 +553,7 @@ There were an average of {avg_reads_per_author} reads per author.
 
 ## Stats for Individual Squares
 
-{format_all_squares(bingo_stats)}
+{format_all_squares(bingo_stats, card_data.square_names.values())}
 ## Substitutions
 
 {format_subbed_stats(bingo_stats)}
@@ -548,7 +563,7 @@ There were an average of {avg_reads_per_author} reads per author.
 Values close to 0 suggest a square was well-varied; 0 means no book was repeated for a square.
 Values close to 100 suggest the same books were used repeatedly for a square; 100 means only one book was used for a square.
 
-{format_farragini(bingo_stats)}
+{format_farragini(bingo_stats, card_data.square_names.values())}
 
 ## Wall of Shame
 
@@ -557,5 +572,5 @@ Values close to 100 suggest the same books were used repeatedly for a square; 10
 
     LOGGER.info(f"Markdown output:\n\n{markdown_lines}\n")
 
-    with OUTPUT_MD_FILEPATH.open("w", encoding="utf8") as md_file:
+    with output_path.open("w", encoding="utf8") as md_file:
         md_file.write(markdown_lines)

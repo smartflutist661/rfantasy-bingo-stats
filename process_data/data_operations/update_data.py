@@ -5,6 +5,7 @@ Created on Apr 7, 2023
 """
 import json
 from collections import defaultdict
+from pathlib import Path
 from types import MappingProxyType as MAP
 from typing import (
     AbstractSet,
@@ -14,25 +15,25 @@ from typing import (
 import pandas
 from progressbar import progressbar  # type: ignore
 
-from process_data.data_operations.author_title_book_operations import title_author_to_book
-
-from ..constants import TITLE_AUTHOR_SEPARATOR
-from ..data.current import (
-    ALL_TITLE_AUTHOR_HM_COLUMNS,
-    OUTPUT_DF_FILEPATH,
+from ..constants import (
+    DUPE_RECORD_FILEPATH,
+    TITLE_AUTHOR_SEPARATOR,
 )
-from ..data.filepaths import DUPE_RECORD_FILEPATH
 from ..logger import LOGGER
 from ..types.defined_types import (
     Author,
     Book,
+    TitleAuthorHMCols,
 )
 from ..types.recorded_states import RecordedDupes
+from .author_title_book_operations import title_author_to_book
 
 
 def update_bingo_books(
     data: pandas.DataFrame,
     books_to_replace: Mapping[Book, AbstractSet[Book]],
+    all_cols: tuple[TitleAuthorHMCols, ...],
+    output_path: Path,
 ) -> pandas.DataFrame:
     """
     Update the dataframe with the recorded changes
@@ -45,7 +46,7 @@ def update_bingo_books(
     # This makes lookups easier
     inverted_replacements = {v: key for key, val in books_to_replace.items() for v in val}
 
-    for title_col, author_col, _ in progressbar(ALL_TITLE_AUTHOR_HM_COLUMNS):
+    for title_col, author_col, _ in progressbar(all_cols):
         for old, new in inverted_replacements.items():
             old_title, old_author = old.split(TITLE_AUTHOR_SEPARATOR)
             new_title, new_author = new.split(TITLE_AUTHOR_SEPARATOR)
@@ -57,7 +58,7 @@ def update_bingo_books(
             new_data.loc[paired_cols, title_col] = new_title
             new_data.loc[paired_cols, author_col] = new_author
 
-    new_data.to_csv(OUTPUT_DF_FILEPATH)
+    new_data.to_csv(output_path)
 
     return new_data
 
@@ -65,6 +66,8 @@ def update_bingo_books(
 def update_bingo_authors(
     data: pandas.DataFrame,
     authors_to_replace: Mapping[Author, AbstractSet[Author]],
+    all_cols: tuple[TitleAuthorHMCols, ...],
+    output_path: Path,
 ) -> tuple[pandas.DataFrame, Mapping[Book, frozenset[Book]]]:
     """
     Update the dataframe with the recorded changes
@@ -78,7 +81,7 @@ def update_bingo_authors(
     inverted_replacements = {v: key for key, val in authors_to_replace.items() for v in val}
 
     all_author_dedupes: defaultdict[Book, set[Book]] = defaultdict(set)
-    for title_col, author_col, _ in progressbar(ALL_TITLE_AUTHOR_HM_COLUMNS):
+    for title_col, author_col, _ in progressbar(all_cols):
         for old_author, new_author in inverted_replacements.items():
             for title in new_data.loc[new_data[author_col] == old_author, title_col].unique():
                 all_author_dedupes[title_author_to_book((title, new_author))].add(
@@ -86,7 +89,7 @@ def update_bingo_authors(
                 )
             new_data.loc[new_data[author_col] == old_author, author_col] = new_author
 
-    new_data.to_csv(OUTPUT_DF_FILEPATH)
+    new_data.to_csv(output_path)
 
     return new_data, MAP(
         {

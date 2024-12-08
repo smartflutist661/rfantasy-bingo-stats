@@ -1,0 +1,184 @@
+{
+    "short_story_square_num": 9,
+    "square_names": {
+        "SQUARE 1: TITLE": "Title with a Title",
+        "SQUARE 2: TITLE": "Superheroes",
+        "SQUARE 3: TITLE": "Bottom of the TBR",
+        "SQUARE 4: TITLE": "Magical Realism",
+        "SQUARE 5: TITLE": "Young Adult",
+        "SQUARE 6: TITLE": "Mundane Jobs",
+        "SQUARE 7: TITLE": "Published in the 2000s",
+        "SQUARE 8: TITLE": "Angels and Demons",
+        "SQUARE 9: TITLE OF COLLECTION/ANTHOLOGY (go to 9A if you did not do Hard Mode)": "Five Short Stories",
+        "SQUARE 10: TITLE": "Horror",
+        "SQUARE 11: TITLE": "Self Published or Indie Publisher",
+        "SQUARE 12: TITLE": "Set in the Middle East",
+        "SQUARE 13: TITLE": "Published in 2023",
+        "SQUARE 14: TITLE": "Multiverses",
+        "SQUARE 15: TITLE": "POC Author",
+        "SQUARE 16: TITLE": "Book Club or Readalong Book",
+        "SQUARE 17: TITLE": "Novella",
+        "SQUARE 18: TITLE": "Mythical Beasts",
+        "SQUARE 19: TITLE": "Elemental Magic",
+        "SQUARE 20: TITLE": "Myths and Retellings",
+        "SQUARE 21: TITLE": "Queernorm Setting",
+        "SQUARE 22: TITLE": "Coastal Setting",
+        "SQUARE 23: TITLE": "Druid",
+        "SQUARE 24: TITLE": "Features Robots",
+        "SQUARE 25: TITLE": "Sequel"
+    },
+    "novel_title_author_hm_cols": [
+        [
+            "SQUARE 1: TITLE",
+            "SQUARE 1: AUTHOR",
+            "SQUARE 1: HARD MODE"
+        ],
+        [
+            "SQUARE 2: TITLE",
+            "SQUARE 2: AUTHOR",
+            "SQUARE 2: HARD MODE"
+        ],
+        [
+            "SQUARE 3: TITLE",
+            "SQUARE 3: AUTHOR",
+            ""
+        ],
+        [
+            "SQUARE 4: TITLE",
+            "SQUARE 4: AUTHOR",
+            "SQUARE 4: HARD MODE"
+        ],
+        [
+            "SQUARE 5: TITLE",
+            "SQUARE 5: AUTHOR",
+            "SQUARE 5: HARD MODE"
+        ],
+        [
+            "SQUARE 6: TITLE",
+            "SQUARE 6: AUTHOR",
+            "SQUARE 6: HARD MODE"
+        ],
+        [
+            "SQUARE 7: TITLE",
+            "SQUARE 7: AUTHOR",
+            "SQUARE 7: HARD MODE"
+        ],
+        [
+            "SQUARE 8: TITLE",
+            "SQUARE 8: AUTHOR",
+            "SQUARE 8: HARD MODE"
+        ],
+        [
+            "SQUARE 9: TITLE OF COLLECTION/ANTHOLOGY (go to 9A if you did not do Hard Mode)",
+            "SQUARE 9: AUTHOR/EDITOR (go to 9A if you did not do Hard Mode)",
+            "SQUARE 9: HARD MODE"
+        ],
+        [
+            "SQUARE 10: TITLE",
+            "SQUARE 10: AUTHOR",
+            "SQUARE 10: HARD MODE"
+        ],
+        [
+            "SQUARE 11: TITLE",
+            "SQUARE 11: AUTHOR",
+            "SQUARE 11: HARD MODE"
+        ],
+        [
+            "SQUARE 12: TITLE",
+            "SQUARE 12: AUTHOR",
+            "SQUARE 12: HARD MODE: Author is of Middle Eastern heritage."
+        ],
+        [
+            "SQUARE 13: TITLE",
+            "SQUARE 13: AUTHOR",
+            "SQUARE 13: HARD MODE: It's also a debut novel--as in it's the author's first published novel."
+        ],
+        [
+            "SQUARE 14: TITLE",
+            "SQUARE 14: AUTHOR",
+            "SQUARE 14: HARD MODE: Characters do not walk through a literal door in order to get to another world."
+        ],
+        [
+            "SQUARE 15: TITLE",
+            "SQUARE 15: AUTHOR",
+            "SQUARE 15: HARD MODE: Novel takes place in a futuristic, sci-fi world."
+        ],
+        [
+            "SQUARE 16: TITLE",
+            "SQUARE 16: AUTHOR",
+            "SQUARE 16: HARD MODE: Must read a current selection of either a book club or readalong and participate in the discussion."
+        ],
+        [
+            "SQUARE 17: TITLE",
+            "SQUARE 17: AUTHOR",
+            "SQUARE 17: HARD MODE: Novella is NOT published by Tordotcom Publishing."
+        ],
+        [
+            "SQUARE 18: TITLE",
+            "SQUARE 18: AUTHOR",
+            "SQUARE 18: HARD MODE: No dragons or dragon-like creatures (e.g. wyverns, the draccus in The Name of the Wind)."
+        ],
+        [
+            "SQUARE 19: TITLE",
+            "SQUARE 19: AUTHOR",
+            "SQUARE 19: HARD MODE: Not V. E. Schwab’s Shades of Magic series or Jim Butcher’s Codex Alera series."
+        ],
+        [
+            "SQUARE 20: TITLE",
+            "SQUARE 20: AUTHOR",
+            "SQUARE 20: HARD MODE: Not Greek or Roman mythology."
+        ],
+        [
+            "SQUARE 21: TITLE",
+            "SQUARE 21: AUTHOR",
+            "SQUARE 21: HARD MODE: Not a futuristic setting. Takes place in a time akin to ours, in the past, or in a fantasy world that has no science fiction elements."
+        ],
+        [
+            "SQUARE 22: TITLE",
+            "SQUARE 22: AUTHOR",
+            "SQUARE 22: HARD MODE: The book also features seafaring."
+        ],
+        [
+            "SQUARE 23: TITLE",
+            "SQUARE 23: AUTHOR",
+            "SQUARE 23: HARD MODE: Not The Iron Druid Chronicles by Kevin Hearne."
+        ],
+        [
+            "SQUARE 24: TITLE",
+            "SQUARE 24: AUTHOR",
+            "SQUARE 24: HARD MODE: Robot is the protagonist."
+        ],
+        [
+            "SQUARE 25: TITLE",
+            "SQUARE 25: AUTHOR",
+            "SQUARE 25: HARD MODE: Book 3 or later in the series."
+        ]
+    ],
+    "short_story_title_author_hm_cols": [
+        [
+            "SQUARE 9A: Title of Short Story #1 (Do not fill out if you read a collection/anthology, go to 9 above)",
+            "SQUARE 9A: Author of Short Story #1",
+            ""
+        ],
+        [
+            "SQUARE 9B: Title of Short Story #2 (Do not fill out if you read a collection/anthology, go to 9 above)",
+            "SQUARE 9B: Author of Short Story #2",
+            ""
+        ],
+        [
+            "SQUARE 9C: Title of Short Story #3 (Do not fill out if you read a collection/anthology, go to 9 above)",
+            "SQUARE 9C: Author of Short Story #3",
+            ""
+        ],
+        [
+            "SQUARE 9D: Title of Short Story #4 (Do not fill out if you read a collection/anthology, go to 9 above)",
+            "SQUARE 9D: Author of Short Story #4",
+            ""
+        ],
+        [
+            "SQUARE 9E: Title of Short Story #5 (Do not fill out if you read a collection/anthology, go to 9 above)",
+            "SQUARE 9E: Author of Short Story #5",
+            ""
+        ]
+    ]
+}

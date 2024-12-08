@@ -12,24 +12,30 @@ from typing import (
 import pandas
 
 from ..constants import TITLE_AUTHOR_SEPARATOR
-from ..data.current import ALL_TITLE_AUTHOR_HM_COLUMNS
 from ..types.defined_types import (
     Author,
     Book,
     Title,
     TitleAuthor,
+    TitleAuthorHMCols,
 )
 
 
-def get_all_authors(data: pandas.DataFrame) -> tuple[Author, ...]:
+def get_all_authors(
+    data: pandas.DataFrame,
+    all_cols: tuple[TitleAuthorHMCols, ...],
+) -> tuple[Author, ...]:
     """Get every author in data"""
-    return tuple(author for _, author in get_all_title_author_combos(data))
+    return tuple(author for _, author in get_all_title_author_combos(data, all_cols))
 
 
-def get_all_title_author_combos(data: pandas.DataFrame) -> tuple[TitleAuthor, ...]:
+def get_all_title_author_combos(
+    data: pandas.DataFrame,
+    all_cols: tuple[TitleAuthorHMCols, ...],
+) -> tuple[TitleAuthor, ...]:
     """Get every title/author pair in data"""
     title_author_pairs: list[TitleAuthor] = []
-    for title_col, author_col, _ in ALL_TITLE_AUTHOR_HM_COLUMNS:
+    for title_col, author_col, _ in all_cols:
         title_author_pairs.extend(
             cast(Iterable[TitleAuthor], zip(data[title_col], data[author_col]))
         )
