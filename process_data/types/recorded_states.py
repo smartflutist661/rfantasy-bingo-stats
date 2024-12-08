@@ -37,23 +37,6 @@ class RecordedStates:
     book_dupes: defaultdict[Book, set[Book]]
     book_separator: str = CUSTOM_SEPARATOR
 
-    # @property
-    # def author_non_dupes(self) -> frozenset[Author]:
-    #     """Get keys with no """
-    #     return frozenset(
-    #         {
-    #             author
-    #             for author, author_dedupes in self.author_dupes.items()
-    #             if len(author_dedupes) == 0
-    #         }
-    #     )
-    #
-    # @property
-    # def book_non_dupes(self) -> frozenset[Book]:
-    #     return frozenset(
-    #         {book for book, book_dedupes in self.book_dupes.items() if len(book_dedupes) == 0}
-    #     )
-
     @classmethod
     def from_data(cls, data: Any) -> RecordedStates:
         """Restore from JSON data"""
@@ -86,10 +69,15 @@ class RecordedStates:
 
         handle_overlaps(author_dupes)
 
+        book_separator = str(data["book_separator"])
+
+        if book_separator != cls.book_separator:
+            raise RuntimeError("Book separator has changed. This is not yet handled.")
+
         return cls(
             author_dupes=author_dupes,
             book_dupes=book_dupes,
-            book_separator=str(data["book_separator"]),
+            book_separator=book_separator,
         )
 
     def to_data(self) -> dict[str, Any]:

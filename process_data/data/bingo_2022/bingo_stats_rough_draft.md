@@ -1,7 +1,7 @@
 **Overall Stats**
 
 * There were 825 cards submitted, 99 of which were incomplete. The minimum number of filled squares was 2. 6 were _this close_, with 24 filled squares. 941 squares were left blank, leaving 19684 filled squares.
-* There were 20140 total stories, with 6207 unique stories read, by 3368 unique authors.
+* There were 20140 total stories, with 6149 unique stories read, by 3349 unique authors.
 * The top three squares left blank were: Set in Africa, blank on 69 cards; Five Short Stories, blank on 56 cards; Self-Published, blank on 54 cards. On the other hand, Stand-alone was only left blank 22 times.
 * The three squares most often substituted were: Self-Published, substituted on 29 cards; Set in Africa, substituted on 26 cards; Book Club or Readalong Book, substituted on 22 cards. Published in 2022 was only left blank 1 time.
 
@@ -10,10 +10,10 @@ This means that Set in Africa was the least favorite overall, skipped or substit
 The ten most-read books were
 
 * Legends & Lattes, by Travis Baldree, read 278 times
-* A Master of Djinn, by P. Djèlí Clark, read 158 times
+* A Master of Djinn, by P. Djèlí Clark, read 161 times
 * Babel, by R.F. Kuang, read 121 times
-* The Cloud Roads, by Martha Wells, read 108 times
-* The Golden Enclaves, by Naomi Novik, read 101 times
+* The Cloud Roads, by Martha Wells, read 110 times
+* The Golden Enclaves, by Naomi Novik, read 102 times
 * Nettle & Bone, by T. Kingfisher, read 97 times
 * This is How You Lose the Time War, by Amal El-Mohtar, Max Gladstone, read 87 times
 * The Kaiju Preservation Society, by John Scalzi, read 85 times
