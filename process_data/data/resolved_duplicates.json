@@ -6,7 +6,7 @@
     "A. Deborah Baker": [
       "A Deborah Baker"
     ],
-    "A. K. DuBoff": [],
+    "A.K. DuBoff": ["A. K. DuBoff"],
     "A. Knowles": [],
     "A. Lee Martinez": [
       "A Lee Martinez"
@@ -1036,8 +1036,7 @@
       "Basma Abdel Aziz , Elisabeth Jaquette (Translator)",
       "Basma Abdel Aziz, Elisabeth Jaquette (translator)"
     ],
-    "Basma Ghalayim": [],
-    "Basma Ghalayini (Editor)": [],
+    "Basma Ghalayini": ["Basma Ghalayim", "Basma Ghalayini (Editor)"],
     "Bea Fitzgerald": [],
     "Bebe Harper": [],
     "Bec McMaster": [],
@@ -3754,7 +3753,7 @@
     "Harry Harrison": [],
     "Harry Josephine Giles": [],
     "Harry Turtledove": [],
-    "Hartman, Keith": [],
+    "Keith Hartman": ["Hartman, Keith"],
     "Haruki Murakami": [],
     "Haruko Ichikawa": [],
     "Hassan Blasim": [
@@ -4889,7 +4888,7 @@
     "Jon Kershner": [],
     "Jon Richter": [],
     "Jon Skovron": [],
-    "Jon. R. Osborne": [],
+    "Jon R. Osborne": ["Jon. R. Osborne"],
     "Jonathan Auxier": [],
     "Jonathan Barnes": [],
     "Jonathan Barnes, Adrian Tchaikovsky, Emma Newman, Foz Meadows, Kate Heartfield": [
@@ -8453,7 +8452,6 @@
       "Robert A Heinlein",
       "Robert Heinlein"
     ],
-    "Robert Asprin (editor)": [],
     "Robert C. O\u2019Brien": [
       "Robert C. O'Brien"
     ],
@@ -8509,9 +8507,8 @@
       "Robert Lewis Stevenson",
       "Stevenson, Robert Louis"
     ],
-    "Robert Lynn Asprin": [],
-    "Robert Lynn Asprin (Editor), Lynn Abbey (Editor)": [],
-    "Robert Lynn Asprin, Lynn Abbey": [],
+    "Robert Lynn Asprin": ["Robert Asprin (editor)"],
+    "Robert Lynn Asprin, Lynn Abbey": ["Robert Lynn Asprin (Editor), Lynn Abbey (Editor)"],
     "Robert Marasco": [],
     "Robert Masello": [],
     "Robert Merle": [],
@@ -9793,7 +9790,8 @@
     ],
     "T.L. Huchu": [
       "T. L. Huchu",
-      "T.L. Huch"
+      "T.L. Huch",
+      "TL Huchu"
     ],
     "T.L. Land": [],
     "T.M. Baumgartner": [
@@ -9804,7 +9802,6 @@
     "T.S. Orgel": [
       "T. S. Orgel"
     ],
-    "TL Huchu": [],
     "Ta-Nehisi Coates": [
       "Ta Nehisi Coates"
     ],
@@ -10412,7 +10409,7 @@
     "W.S. Lach-Szyrma, Molly Tanzer": [
       "W. S. Lach-Szyrma & Molly Tanzer"
     ],
-    "WR Gingell": [],
+    "W.R. Gingell": ["WR Gingell"],
     "Waco Ioka, Midori Yuma": [
       "Waco Ioka and Midori Yuma"
     ],
@@ -10530,7 +10527,7 @@
     ],
     "Wolfgang Hohlbein": [],
     "Wooding": [],
-    "Wren K Morris": [],
+    "Wren K. Morris": ["Wren K Morris"],
     "Writing Ant": [],
     "Wu Cheng'en": [
       "Wu Ch'eng-En"
