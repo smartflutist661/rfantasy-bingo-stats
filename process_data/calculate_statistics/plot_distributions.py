@@ -6,7 +6,7 @@ Created on Apr 22, 2023
 from collections import Counter
 from typing import Any
 
-import matplotlib.pyplot as plt  # type: ignore
+import matplotlib.pyplot as plt
 import numpy as np
 from lmfit.model import ModelResult  # type: ignore
 

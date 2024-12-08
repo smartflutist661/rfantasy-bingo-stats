@@ -38,10 +38,7 @@ class UniqueStatistics:
         """Construct from JSON data"""
         return cls(
             unique_books=Counter(
-                {
-                    Book(str(key)): int(cast(int, val))
-                    for key, val in data["unique_books"].items()
-                }
+                {Book(str(key)): int(cast(int, val)) for key, val in data["unique_books"].items()}
             ),
             unique_authors=Counter(
                 {

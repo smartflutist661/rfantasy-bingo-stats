@@ -63,7 +63,7 @@ NOVEL_TITLE_AUTHOR_HM_COLS: tuple[TitleAuthorHMCols, ...] = (
     (
         TitleCol("SQUARE 3: TITLE"),
         AuthorCol("SQUARE 3: AUTHOR"),
-        HardModeCol("SQUARE 3: HARD MODE"),
+        HardModeCol(""),
     ),
     (
         TitleCol("SQUARE 4: TITLE"),
@@ -108,72 +108,76 @@ NOVEL_TITLE_AUTHOR_HM_COLS: tuple[TitleAuthorHMCols, ...] = (
     (
         TitleCol("SQUARE 12: TITLE"),
         AuthorCol("SQUARE 12: AUTHOR"),
-        HardModeCol("SQUARE 12: HARD MODE"),
+        HardModeCol("SQUARE 12: HARD MODE: Author is of Middle Eastern heritage."),
     ),
     (
         TitleCol("SQUARE 13: TITLE"),
         AuthorCol("SQUARE 13: AUTHOR"),
-        HardModeCol("SQUARE 13: HARD MODE"),
+        HardModeCol(
+            "SQUARE 13: HARD MODE: It's also a debut novel--as in it's the author's first published novel."
+        ),
     ),
     (
         TitleCol("SQUARE 14: TITLE"),
         AuthorCol("SQUARE 14: AUTHOR"),
-        HardModeCol("SQUARE 14: HARD MODE"),
+        HardModeCol(
+            "SQUARE 14: HARD MODE: Characters do not walk through a literal door in order to get to another world."
+        ),
     ),
     (
         TitleCol("SQUARE 15: TITLE"),
         AuthorCol("SQUARE 15: AUTHOR"),
-        HardModeCol("SQUARE 15: HARD MODE"),
+        HardModeCol("SQUARE 15: HARD MODE: Novel takes place in a futuristic, sci-fi world."),
     ),
     (
         TitleCol("SQUARE 16: TITLE"),
         AuthorCol("SQUARE 16: AUTHOR"),
-        HardModeCol("SQUARE 16: HARD MODE"),
+        HardModeCol("SQUARE 16: HARD MODE: Must read a current selection of either a book club or readalong and participate in the discussion."),
     ),
     (
         TitleCol("SQUARE 17: TITLE"),
         AuthorCol("SQUARE 17: AUTHOR"),
-        HardModeCol("SQUARE 17: HARD MODE"),
+        HardModeCol("SQUARE 17: HARD MODE: Novella is NOT published by Tordotcom Publishing."),
     ),
     (
         TitleCol("SQUARE 18: TITLE"),
-        AuthorCol("SQUARE 18"),
-        HardModeCol("SQUARE 18: HARD MODE"),
+        AuthorCol("SQUARE 18: AUTHOR"),
+        HardModeCol("SQUARE 18: HARD MODE: No dragons or dragon-like creatures (e.g. wyverns, the draccus in The Name of the Wind)."),
     ),
     (
         TitleCol("SQUARE 19: TITLE"),
         AuthorCol("SQUARE 19: AUTHOR"),
-        HardModeCol("SQUARE 19: HARD MODE"),
+        HardModeCol("SQUARE 19: HARD MODE: Not V. E. Schwab’s Shades of Magic series or Jim Butcher’s Codex Alera series."),
     ),
     (
         TitleCol("SQUARE 20: TITLE"),
         AuthorCol("SQUARE 20: AUTHOR"),
-        HardModeCol("SQUARE 20: HARD MODE"),
+        HardModeCol("SQUARE 20: HARD MODE: Not Greek or Roman mythology."),
     ),
     (
         TitleCol("SQUARE 21: TITLE"),
         AuthorCol("SQUARE 21: AUTHOR"),
-        HardModeCol("SQUARE 21: HARD MODE"),
+        HardModeCol("SQUARE 21: HARD MODE: Not a futuristic setting. Takes place in a time akin to ours, in the past, or in a fantasy world that has no science fiction elements."),
     ),
     (
         TitleCol("SQUARE 22: TITLE"),
         AuthorCol("SQUARE 22: AUTHOR"),
-        HardModeCol("SQUARE 22: HARD MODE"),
+        HardModeCol("SQUARE 22: HARD MODE: The book also features seafaring."),
     ),
     (
         TitleCol("SQUARE 23: TITLE"),
         AuthorCol("SQUARE 23: AUTHOR"),
-        HardModeCol("SQUARE 23: HARD MODE"),
+        HardModeCol("SQUARE 23: HARD MODE: Not The Iron Druid Chronicles by Kevin Hearne."),
     ),
     (
         TitleCol("SQUARE 24: TITLE"),
         AuthorCol("SQUARE 24: AUTHOR"),
-        HardModeCol("SQUARE 24: HARD MODE"),
+        HardModeCol("SQUARE 24: HARD MODE: Robot is the protagonist."),
     ),
     (
         TitleCol("SQUARE 25: TITLE"),
         AuthorCol("SQUARE 25: AUTHOR"),
-        HardModeCol("SQUARE 25: HARD MODE"),
+        HardModeCol("SQUARE 25: HARD MODE: Book 3 or later in the series."),
     ),
 )
 
@@ -194,21 +198,21 @@ SHORT_STORY_TITLE_AUTHOR_HM_COLS: tuple[TitleAuthorHMCols, ...] = (
     ),
     (
         TitleCol(
-            "SQUARE 9C: Title of Short Story #2 (Do not fill out if you read a collection/anthology, go to 9 above)"
+            "SQUARE 9C: Title of Short Story #3 (Do not fill out if you read a collection/anthology, go to 9 above)"
         ),
         AuthorCol("SQUARE 9C: Author of Short Story #3"),
         HardModeCol(""),
     ),
     (
         TitleCol(
-            "SQUARE 9D: Title of Short Story #2 (Do not fill out if you read a collection/anthology, go to 9 above)"
+            "SQUARE 9D: Title of Short Story #4 (Do not fill out if you read a collection/anthology, go to 9 above)"
         ),
         AuthorCol("SQUARE 9D: Author of Short Story #4"),
         HardModeCol(""),
     ),
     (
         TitleCol(
-            "SQUARE 9E: Title of Short Story #2 (Do not fill out if you read a collection/anthology, go to 9 above)"
+            "SQUARE 9E: Title of Short Story #5 (Do not fill out if you read a collection/anthology, go to 9 above)"
         ),
         AuthorCol("SQUARE 9E: Author of Short Story #5"),
         HardModeCol(""),
