@@ -14,8 +14,13 @@ from typing import (
 
 from thefuzz import process  # type: ignore
 
+from ..constants import TITLE_AUTHOR_SEPARATOR
+from ..data_operations.author_title_book_operations import split_multi_author
 from ..logger import LOGGER
-from ..types.defined_types import BookOrAuthor
+from ..types.defined_types import (
+    Author,
+    BookOrAuthor,
+)
 
 
 def process_new_pair(
@@ -49,24 +54,48 @@ def process_new_pair(
             else:
                 possible_matches.add(item_match)
 
-        all_match_choices = (
+        initial_match_choices = (
             frozenset(possible_matches | existing_match_keys)
             - all_matches_to_ignore[item_to_process]
         )
 
-        if len(all_match_choices) > 1:
-            best_match, other_matches = get_best_match(original_matched_items=all_match_choices)
+        filtered_match_choices = set(initial_match_choices)
 
-            if best_match in (all_choices - all_match_choices) & dedupes:
+        # If we're looking at authors...
+        if TITLE_AUTHOR_SEPARATOR not in item_to_process:
+            # Create sets of each individual author name for the item being processed...
+            split_item_to_process = set(split_multi_author(cast(Author, item_to_process)))  # type: ignore[redundant-cast]
+            for match_choice in initial_match_choices:
+                # And the matched item.
+                split_match_choice = set(split_multi_author(cast(Author, match_choice)))
+                # If either is a proper subset of the other...
+                if (
+                    split_item_to_process < split_match_choice
+                    or split_match_choice < split_item_to_process
+                ):
+                    # Remove the matched item from the choices.
+                    filtered_match_choices -= {match_choice}
+
+        if len(filtered_match_choices) > 1:
+            best_match, other_matches = get_best_match(
+                original_matched_items=filtered_match_choices
+            )
+
+            if best_match in dedupes:
                 old_best = best_match
                 best_match = find_existing_match(dupes, old_best)
                 LOGGER.warning(f"{old_best} already deduped to {best_match}. Using {best_match}.")
 
-            new_matches_to_ignore = all_match_choices - (
+            # Remove `item_to_process` to prevent issues on reload
+            new_matches_to_ignore = initial_match_choices - (
                 other_matches | {best_match, item_to_process}
             )
 
         else:
+            # `filtered_match_choices` should contain only `item_to_process` here.
+            # If there were no matches in addition to `item_to_process`,
+            # `new_matches_to_ignore` will therefore be the empty set
+            new_matches_to_ignore = initial_match_choices - filtered_match_choices
             LOGGER.info(f"No new matches for {item_to_process}.")
             best_match = None
 
