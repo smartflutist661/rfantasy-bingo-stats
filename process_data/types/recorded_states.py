@@ -100,11 +100,11 @@ def unify_overlapped_values(
         print(f"{overlaps} are saved as duplicates for both {dupe_key_1} and {dupe_key_2}")
 
         print("Choose the best version:")
-        print(f"[{MatchChoice.SAVE.value}] {dupe_key_1}")
-        print(f"[{MatchChoice.SWAP.value}] {dupe_key_2}")
+        print(f"[{MatchChoice.MATCH.value}] {dupe_key_1}")
+        print(f"[{MatchChoice.NEW.value}] {dupe_key_2}")
         choice = MatchChoice(int(input("Selection: ")))
 
-        if choice == MatchChoice.SAVE:
+        if choice == MatchChoice.MATCH:
             best = dupe_key_1
             remove = dupe_key_2
         else:
@@ -127,11 +127,11 @@ def unify_key_value_overlaps(
         print(f"{overlap} is a corrected version and a duplicate for {existing_match_key}")
 
         print("Choose the best version:")
-        print(f"[{MatchChoice.SAVE.value}] {existing_match_key}")
-        print(f"[{MatchChoice.SWAP.value}] {overlap}")
+        print(f"[{MatchChoice.MATCH.value}] {existing_match_key}")
+        print(f"[{MatchChoice.NEW.value}] {overlap}")
         choice = MatchChoice(int(input("Selection: ")))
 
-        if choice == MatchChoice.SAVE:
+        if choice == MatchChoice.MATCH:
             best = existing_match_key
             remove = overlap
         else:
