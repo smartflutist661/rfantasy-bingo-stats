@@ -88,11 +88,15 @@ def synchronize_github(github_pat: str) -> None:
         try:
             github_remote_repo.get_branch(branch=branch_name)
         except GithubException:
+            print("Remote branch does not exist.")
             if repo.is_dirty():
+                print("Repository is dirty. Attempting to merge `main`.")
                 repo.git.pull("main")
                 commit_push_pr(github_pat)
             else:
+                print("Repository is clean. Checking out `main`.")
                 repo.git.checkout("main")
+        print("Pulling current branch.")
         repo.git.pull()
 
     else:
