@@ -117,7 +117,6 @@ def format_bottom_square_counts(bingo_stats: BingoStatistics, bottom_n: int = 3)
             return " and ".join(cur_ties) + f", blank on {count} cards each"
         if len(cur_ties) == 1:
             return "".join(cur_ties) + f", blank on {count} cards"
-        print(cur_ties)
         raise ValueError("No results?")
 
     incomplete_square_strs = format_top_list_with_ties(
@@ -125,6 +124,28 @@ def format_bottom_square_counts(bingo_stats: BingoStatistics, bottom_n: int = 3)
     )
 
     return "; ".join(incomplete_square_strs)
+
+
+def format_dedupe_counts(bingo_stats: BingoStatistics, top_n: int = 10) -> str:
+    """Format the counts of book variations"""
+
+    def formatter(cur_ties: Sequence[str], count: float) -> str:
+        if len(cur_ties) == 1:
+            return "- " + cur_ties[0] + f", with {count} variations"
+        if len(cur_ties) > 1:
+            return "- TIE: " + " and ".join(cur_ties) + f", with {count} variations each"
+
+        raise ValueError("No results?")
+
+    book_vars = format_top_list_with_ties(
+        bingo_stats.bad_spellings_by_book.most_common(), formatter, top_n
+    )
+
+    book_str = "\n".join(book_vars)
+
+    return f"""The books with the most variation in title or author spellings were:
+
+{book_str}"""
 
 
 def format_most_subbed_squares(subbed_squares: Counter[SquareName], top_n: int = 3) -> str:
@@ -155,6 +176,51 @@ def format_top_author_counts(unique_authors: Counter[Author], top_n: int = 10) -
     author_count_strs = format_top_list_with_ties(unique_authors.most_common(), formatter, top_n)
 
     return "\n".join(author_count_strs)
+
+
+def format_most_square_books(unique_squares_by_book: Counter[Book], top_n: int = 3) -> str:
+    """Format the books used for the most different squares"""
+
+    def formatter(cur_ties: Sequence[str], count: float) -> str:
+        if len(cur_ties) == 1:
+            return "- " + cur_ties[0] + f", used for {count} squares"
+        if len(cur_ties) > 1:
+            return "- TIE: " + " and ".join(cur_ties) + f", each used for {count} squares"
+        raise ValueError("No results?")
+
+    book_strs = format_top_list_with_ties(unique_squares_by_book.most_common(), formatter, top_n)
+
+    return "\n".join(book_strs)
+
+
+def format_most_square_authors(unique_squares_by_author: Counter[Author], top_n: int = 3) -> str:
+    """Format the authors used for the most different squares"""
+
+    def formatter(cur_ties: Sequence[str], count: float) -> str:
+        if len(cur_ties) == 1:
+            return "- " + cur_ties[0] + f", used for {count} squares"
+        if len(cur_ties) > 1:
+            return "- TIE: " + " and ".join(cur_ties) + f", each used for {count} squares"
+        raise ValueError("No results?")
+
+    book_strs = format_top_list_with_ties(unique_squares_by_author.most_common(), formatter, top_n)
+
+    return "\n".join(book_strs)
+
+
+def format_unique_author_books(books_per_author: Counter[Author], top_n: int = 10) -> str:
+    """Format the counts of author varieties"""
+
+    def formatter(cur_ties: Sequence[str], count: float) -> str:
+        if len(cur_ties) == 1:
+            return "- " + cur_ties[0] + f", with {count} unique books read"
+        if len(cur_ties) > 1:
+            return "- TIE: " + " and ".join(cur_ties) + f", each with {count} unique books read"
+        raise ValueError("No results?")
+
+    book_strs = format_top_list_with_ties(books_per_author.most_common(), formatter, top_n)
+
+    return "\n".join(book_strs)
 
 
 def format_favorite_square(
@@ -374,128 +440,6 @@ def format_subbed_stats(bingo_stats: BingoStatistics) -> str:
 ### Squares
 
 {format_most_subbed_squares(subbed_in_squares, 3)}."""
-
-
-def format_dedupe_counts(bingo_stats: BingoStatistics) -> str:
-    """Format the counts of book variations"""
-    book_vars = []
-    cur_ties: list[str] = []
-    last_count = -1
-    place_count = 0
-    for book, count in bingo_stats.bad_spellings_by_book.most_common():
-        if last_count == count:
-            cur_ties.append(format_book(book))
-        else:
-            if len(cur_ties) == 1:
-                book_vars.append("- " + cur_ties[0] + f", with {last_count} variations")
-            elif len(cur_ties) > 1:
-                book_vars.append(
-                    "- TIE: " + " and ".join(cur_ties) + f", with {last_count} variations each"
-                )
-
-            place_count += 1
-            if place_count > 10:
-                break
-
-            cur_ties = []
-            cur_ties.append(format_book(book))
-
-        last_count = count
-
-    book_str = "\n".join(book_vars)
-
-    return f"""The books with the most variation in title or author spellings were:
-
-{book_str}"""
-
-
-def format_most_square_books(unique_squares_by_book: Counter[Book]) -> str:
-    """Format the books used for the most different squares"""
-    book_strs = []
-    cur_ties: list[str] = []
-    last_count = -1
-    place_count = 0
-    for book, count in unique_squares_by_book.most_common():
-        if last_count == count:
-            cur_ties.append(format_book(book))
-        else:
-            if len(cur_ties) == 1:
-                book_strs.append("- " + cur_ties[0] + f", used for {last_count} squares")
-            elif len(cur_ties) > 1:
-                book_strs.append(
-                    "- TIE: " + " and ".join(cur_ties) + f", each used for {last_count} squares"
-                )
-
-            place_count += 1
-            if place_count > 3:
-                break
-
-            cur_ties = []
-            cur_ties.append(format_book(book))
-
-        last_count = count
-
-    return "\n".join(book_strs)
-
-
-def format_most_square_authors(unique_squares_by_author: Counter[Author]) -> str:
-    """Format the authors used for the most different squares"""
-    book_strs = []
-    cur_ties: list[str] = []
-    last_count = -1
-    place_count = 0
-    for author, count in unique_squares_by_author.most_common():
-        if last_count == count:
-            cur_ties.append(author)
-        else:
-            if len(cur_ties) == 1:
-                book_strs.append("- " + cur_ties[0] + f", used for {last_count} squares")
-            elif len(cur_ties) > 1:
-                book_strs.append(
-                    "- TIE: " + " and ".join(cur_ties) + f", each used for {last_count} squares"
-                )
-
-            place_count += 1
-            if place_count > 3:
-                break
-
-            cur_ties = []
-            cur_ties.append(author)
-
-        last_count = count
-
-    return "\n".join(book_strs)
-
-
-def format_unique_author_books(books_per_author: Counter[Author]) -> str:
-    """Format the counts of author varieties"""
-    book_strs = []
-    cur_ties: list[str] = []
-    last_count = -1
-    place_count = 0
-    for author, count in books_per_author.most_common():
-        if last_count == count:
-            cur_ties.append(author)
-        else:
-            if len(cur_ties) == 1:
-                book_strs.append("- " + cur_ties[0] + f", with {last_count} unique books read")
-            elif len(cur_ties) > 1:
-                book_strs.append(
-                    "- TIE: "
-                    + " and ".join(cur_ties)
-                    + f", each with {last_count} unique books read"
-                )
-
-            place_count += 1
-            if place_count > 10:
-                break
-
-            cur_ties = []
-            cur_ties.append(author)
-
-        last_count = count
-
-    return "\n".join(book_strs)
 
 
 def get_used_once(unique_counts: Counter[BookOrAuthor]) -> int:
