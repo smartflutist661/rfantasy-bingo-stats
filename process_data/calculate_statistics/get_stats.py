@@ -222,6 +222,7 @@ def format_square_stats(
 {format_top_book_counts(square_uniques.unique_books, 5)}
 
 **TOTAL**: {square_uniques.unique_books.total()} books read, with {len(square_uniques.unique_books)} unique titles.
+{bingo_stats.hard_mode_by_square[square_name]} books were claimed to qualify for hard mode.
 {get_used_once(square_uniques.unique_books)} books were used only once for this square.
 Skipped {bingo_stats.incomplete_squares[square_name]} times. Substituted {bingo_stats.subbed_out_squares[square_name]} times.
 
