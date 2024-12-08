@@ -13,12 +13,15 @@ from ..data.current import (
     CUSTOM_SEPARATOR,
     OUTPUT_DF_FILEPATH,
 )
-from ..types.defined_types import Book
+from ..types.defined_types import (
+    Author,
+    Book,
+)
 
 
-def update_bingo_dataframe(
+def update_bingo_books(
     data: pandas.DataFrame,
-    vals_to_replace: Mapping[Book, frozenset[Book]],
+    books_to_replace: Mapping[Book, frozenset[Book]],
 ) -> None:
     """
     Update the dataframe with the recorded changes
@@ -27,7 +30,7 @@ def update_bingo_dataframe(
     """
 
     # This makes lookups easier
-    inverted_replacements = {v: key for key, val in vals_to_replace.items() for v in val}
+    inverted_replacements = {v: key for key, val in books_to_replace.items() for v in val}
 
     for title_col, author_col, _ in progressbar(ALL_TITLE_AUTHOR_HM_COLUMNS):
         for old, new in inverted_replacements.items():
@@ -40,6 +43,26 @@ def update_bingo_dataframe(
             )
             data.loc[paired_cols, title_col] = new_title
             data.loc[paired_cols, author_col] = new_author
+
+    data.to_csv(OUTPUT_DF_FILEPATH)
+
+
+def update_bingo_authors(
+    data: pandas.DataFrame,
+    authors_to_replace: Mapping[Author, frozenset[Author]],
+) -> None:
+    """
+    Update the dataframe with the recorded changes
+
+    Also saves dataframe
+    """
+
+    # This makes lookups easier
+    inverted_replacements = {v: key for key, val in authors_to_replace.items() for v in val}
+
+    for _, author_col, _ in progressbar(ALL_TITLE_AUTHOR_HM_COLUMNS):
+        for old_author, new_author in inverted_replacements.items():
+            data.loc[data[author_col] == old_author, author_col] = new_author
 
     data.to_csv(OUTPUT_DF_FILEPATH)
 

@@ -11,44 +11,43 @@ from typing import (
 
 from thefuzz import process  # type: ignore
 
-from ..types.defined_types import Book
-from process_data.types.defined_types import BookOrAuthor
+from ..types.defined_types import BookOrAuthor
 
 
 def process_new_pair(
-    dupes: defaultdict[Book, set[Book]],
-    non_dupes: set[Book],
-    unscanned_books: set[Book],
-    book_to_process: Book,
+    dupes: defaultdict[BookOrAuthor, set[BookOrAuthor]],
+    non_dupes: set[BookOrAuthor],
+    unscanned_items: set[BookOrAuthor],
+    item_to_process: BookOrAuthor,
     match_score: int,
 ) -> None:
     """Process an unscanned title/author pair"""
 
     dedupes = set().union(*(dupes.values()))
-    all_choices = set(dupes.keys()) | dedupes | unscanned_books
+    all_choices = set(dupes.keys()) | dedupes | unscanned_items
 
     print()
     results = process.extractBests(
-        query=book_to_process,
+        query=item_to_process,
         choices=all_choices,
         score_cutoff=match_score,
         limit=len(all_choices),
     )
     existing_match_keys = set()
-    possible_matches = {book_to_process}
+    possible_matches = {item_to_process}
     if results is not None and len(results) > 0:
-        print(f"Matching {book_to_process}:")
-        for book_match, _ in results:
-            if book_match in dedupes:
-                existing_match_keys.add(find_existing_match(dupes, book_match))
-            elif book_match in dupes.keys():
-                existing_match_keys.add(book_match)
+        print(f"Matching {item_to_process}:")
+        for item_match, _ in results:
+            if item_match in dedupes:
+                existing_match_keys.add(find_existing_match(dupes, item_match))
+            elif item_match in dupes.keys():
+                existing_match_keys.add(item_match)
             else:
-                possible_matches.add(book_match)
+                possible_matches.add(item_match)
 
         all_match_choices = possible_matches | existing_match_keys
 
-        best_match = get_best_match(matched_books=all_match_choices)
+        best_match = get_best_match(matched_items=all_match_choices)
 
         if best_match in (all_choices - all_match_choices) & dedupes:
             old_best = best_match
@@ -59,8 +58,8 @@ def process_new_pair(
         best_match = None
 
     if best_match is None:
-        print(f"No duplicates found for {book_to_process}")
-        non_dupes.add(book_to_process)
+        print(f"No duplicates found for {item_to_process}")
+        non_dupes.add(item_to_process)
     else:
         # Intersection discards matches removed in `get_best_match`
         possible_matches &= all_match_choices
@@ -78,9 +77,9 @@ def process_new_pair(
         )
 
         # Drop matches that were just unified
-        unscanned_books -= possible_matches
-        unscanned_books -= existing_match_keys
-        unscanned_books.discard(best_match)
+        unscanned_items -= possible_matches
+        unscanned_items -= existing_match_keys
+        unscanned_items.discard(best_match)
 
 
 def find_existing_match(
@@ -98,12 +97,12 @@ def find_existing_match(
     )
 
 
-def get_best_match(matched_books: set[Book]) -> Optional[Book]:
+def get_best_match(matched_items: set[BookOrAuthor]) -> Optional[BookOrAuthor]:
     """Process all possible matches for a book"""
 
     choice = "d"
     while choice == "d":
-        match_choices = tuple(matched_books)
+        match_choices = tuple(matched_items)
         print("Choose the best version:")
         for choice_num, match_choice in enumerate(match_choices):
             print(f"[{choice_num}] {match_choice}")
@@ -113,23 +112,26 @@ def get_best_match(matched_books: set[Book]) -> Optional[Book]:
         print("[e] Save and exit")
         choice = input("Selection: ")
         if choice == "r":
-            while len(matched_books) > 1 and choice != "d":
+            while len(matched_items) > 1 and choice != "d":
                 choice = input("Match to remove ([d] for done): ")
                 if choice != "d":
-                    matched_books.remove(match_choices[int(choice)])
+                    matched_items.remove(match_choices[int(choice)])
         elif choice == "c":
-            return cast(Book, input("Enter a better version, in the format 'title /// author':\n"))
+            return cast(
+                BookOrAuthor,
+                input("Enter a better version, being sure to use the proper format:\n"),
+            )
 
-    if len(matched_books) > 1:
+    if len(matched_items) > 1:
         return match_choices[int(choice)]
     return None
 
 
 def unify_matches(
-    dupes: defaultdict[Book, set[Book]],
-    best_match: Book,
-    other_matches: frozenset[Book],
-    existing_match_keys: frozenset[Book],
+    dupes: defaultdict[BookOrAuthor, set[BookOrAuthor]],
+    best_match: BookOrAuthor,
+    other_matches: frozenset[BookOrAuthor],
+    existing_match_keys: frozenset[BookOrAuthor],
 ) -> None:
     """Unify all books associated with other match and existing key to best match"""
 
