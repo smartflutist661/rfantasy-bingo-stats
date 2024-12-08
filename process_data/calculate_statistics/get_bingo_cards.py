@@ -16,11 +16,13 @@ from typing import (
 import pandas
 
 from ..data.current import (
+    CUSTOM_SEPARATOR,
     NOVEL_TITLE_AUTHOR_HM_COLS,
     SHORT_STORY_SQUARE_NUM,
     SHORT_STORY_TITLE_AUTHOR_HM_COLS,
     SQUARE_NAMES,
 )
+from ..data_operations.author_title_book_operations import title_author_to_book
 from ..types.bingo_card import (
     BingoCard,
     BingoSquare,
@@ -30,11 +32,11 @@ from ..types.bingo_statistics import UniqueStatistics
 from ..types.defined_types import (
     Author,
     AuthorCol,
+    Book,
     CardID,
     HardModeCol,
     SquareName,
     Title,
-    TitleAuthor,
     TitleCol,
 )
 
@@ -114,7 +116,8 @@ def get_bingo_cards(
     Counter[CardID],
     Counter[SquareName],
     Mapping[SquareName, UniqueStatistics],
-    Mapping[TitleAuthor, frozenset[SquareName]],
+    Mapping[Book, frozenset[SquareName]],
+    Mapping[Author, frozenset[SquareName]],
 ]:
     """Get tuple of bingo cards with substituted names"""
 
@@ -123,7 +126,8 @@ def get_bingo_cards(
     incomplete_card_count: Counter[CardID] = Counter()
     incomplete_square_count: Counter[SquareName] = Counter()
     square_uniques: defaultdict[SquareName, UniqueStatistics] = defaultdict(UniqueStatistics)
-    unique_square_usage: defaultdict[TitleAuthor, set[SquareName]] = defaultdict(set)
+    unique_square_book_usage: defaultdict[Book, set[SquareName]] = defaultdict(set)
+    unique_square_author_usage: defaultdict[Author, set[SquareName]] = defaultdict(set)
 
     for index, row in data.iterrows():
         index = CardID(str(index))
@@ -145,12 +149,12 @@ def get_bingo_cards(
 
         for square_name, square in bingo_card.items():
             if square is not None:
+                book = title_author_to_book((square.title, square.author), CUSTOM_SEPARATOR)
                 if not isinstance(square, ShortStorySquare):
                     square_uniques[square_name].unique_authors[square.author] += 1
-                    square_uniques[square_name].unique_title_authors[
-                        (square.title, square.author)
-                    ] += 1
-                    unique_square_usage[(square.title, square.author)].add(square_name)
+                    square_uniques[square_name].unique_books[book] += 1
+                    unique_square_book_usage[book].add(square_name)
+                    unique_square_author_usage[square.author].add(square_name)
 
     return (
         MAP(cards),
@@ -158,5 +162,6 @@ def get_bingo_cards(
         incomplete_card_count,
         incomplete_square_count,
         MAP(square_uniques),
-        MAP({key: frozenset(vals) for key, vals in unique_square_usage.items()}),
+        MAP({key: frozenset(vals) for key, vals in unique_square_book_usage.items()}),
+        MAP({key: frozenset(vals) for key, vals in unique_square_author_usage.items()}),
     )

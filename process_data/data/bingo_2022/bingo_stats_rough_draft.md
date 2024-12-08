@@ -21,28 +21,33 @@ In addition, if you did something like, say, put **Spinning Silver** as a short 
     
 ## Overall Stats
 
-* There were 825 cards submitted, 99 of which were incomplete.
-The minimum number of filled squares was 2. 6 were *this close*, with 24 filled squares.
-941 squares were left blank, leaving 19684 filled squares.
+* There were 823 cards submitted, 97 of which were incomplete.
+The minimum number of filled squares was -100. 6 were *this close*, with 24 filled squares.
+991 squares were left blank, leaving 19584 filled squares.
 * There were 20140 total stories, with 6123 unique stories read,
 by 3344 unique authors.
-* The top three squares left blank were: **Set in Africa**, blank on 69 cards; **Five Short Stories**, blank on 56 cards; **Self-Published**, blank on 54 cards. On the other hand, **Stand-alone** was only left blank 22 times.
-* The three squares most often substituted were: **Self-Published**, substituted on 29 cards; **Set in Africa**, substituted on 26 cards; **Book Club or Readalong Book**, substituted on 21 cards. **Published in 2022** was only left blank 1 time.
+* The top three squares left blank were: **Set in Africa**, blank on 71 cards; **Five Short Stories**, blank on 58 cards; **Self-Published**, blank on 56 cards. On the other hand, **Stand-alone** was only left blank 24 times.
+* The three squares most often substituted were: **Self-Published**, substituted on 29 cards; **Set in Africa**, substituted on 26 cards; **Book Club or Readalong Book**, substituted on 21 cards. **Non-Human Protagonist** and **No Ifs, Ands, or Buts** were never subsituted.
 
-This means that Set in Africa was the least favorite overall, skipped or substituted a total of 95 times.
+This means that Set in Africa was the least favorite overall, skipped or substituted a total of 97 times.
 
 The ten most-read books were:
 
-* **Legends & Lattes**, by Travis Baldree, read 278 times
-* **A Master of Djinn**, by P. Djèlí Clark, read 161 times
-* **Babel**, by R.F. Kuang, read 121 times
-* **The Cloud Roads**, by Martha Wells, read 111 times
-* **The Golden Enclaves**, by Naomi Novik, read 102 times
-* **Nettle & Bone**, by T. Kingfisher, read 97 times
-* **This is How You Lose the Time War**, by Amal El-Mohtar, Max Gladstone, read 87 times
-* **The Kaiju Preservation Society**, by John Scalzi, read 85 times
-* **Project Hail Mary**, by Andy Weir, read 85 times
-* **Piranesi**, by Susanna Clarke, read 84 times
+* **Legends & Lattes** by Travis Baldree, read 278 times
+* **A Master of Djinn** by P. Djèlí Clark, read 161 times
+* **Babel** by R.F. Kuang, read 121 times
+* **The Cloud Roads** by Martha Wells, read 111 times
+* **The Golden Enclaves** by Naomi Novik, read 102 times
+* **Nettle & Bone** by T. Kingfisher, read 97 times
+* **This is How You Lose the Time War** by Amal El-Mohtar, Max Gladstone, read 87 times
+* **The Kaiju Preservation Society** by John Scalzi, read 85 times
+* **Project Hail Mary** by Andy Weir, read 85 times
+* **Piranesi** by Susanna Clarke, read 84 times
+
+**Babel** by R.F. Kuang was used for the most individual squares, 13.
+
+**Dune Messiah** by Frank Herbert was the book read at least 10 times with the highest ratio of squares to times read:
+read 12 times for 8 squares. 
 
 The ten most-read authors were:
 
@@ -57,17 +62,22 @@ The ten most-read authors were:
 * Adrian Tchaikovsky, read 175 times
 * R.F. Kuang, read 163 times
 
-Now for the squares:
+Terry Pratchett was used for the most individual squares, 20.
+
+## Square Stats
 
 ### 1. LGBTQIA List Book
 
 #### Most Read Books
 
-* **Silver in the Wood**, by Emily Tesh, read 36 times
-* **The Song of Achilles**, by Madeline Miller, read 27 times
-* **The Cloud Roads**, by Martha Wells, read 26 times
-* **Foundryside**, by Robert Jackson Bennett, read 25 times
-* **Nona the Ninth**, by Tamsyn Muir, read 25 times
+* **Silver in the Wood** by Emily Tesh, read 36 times
+* **The Song of Achilles** by Madeline Miller, read 27 times
+* **The Cloud Roads** by Martha Wells, read 26 times
+* **Foundryside** by Robert Jackson Bennett, read 25 times
+* **Nona the Ninth** by Tamsyn Muir, read 25 times
+
+**TOTAL**: 775 books read, with 140 unique titles.
+Skipped 38 times. Substituted 14 times.
 
 #### Most Read Authors
 
@@ -77,15 +87,19 @@ Now for the squares:
 * Emily Tesh, read 41 times
 * T.J. Klune, read 31 times
 
+**TOTAL**: 65 unique authors read.
 ### 2. Weird Ecology
 
 #### Most Read Books
 
-* **The Kaiju Preservation Society**, by John Scalzi, read 62 times
-* **The Bone Ships**, by R.J. Barker, read 38 times
-* **Semiosis**, by Sue Burke, read 31 times
-* **The Fifth Season**, by N.K. Jemisin, read 28 times
-* **Tress of the Emerald Sea**, by Brandon Sanderson, read 23 times
+* **The Kaiju Preservation Society** by John Scalzi, read 62 times
+* **The Bone Ships** by R.J. Barker, read 38 times
+* **Semiosis** by Sue Burke, read 31 times
+* **The Fifth Season** by N.K. Jemisin, read 28 times
+* **Tress of the Emerald Sea** by Brandon Sanderson, read 23 times
+
+**TOTAL**: 781 books read, with 299 unique titles.
+Skipped 41 times. Substituted 3 times.
 
 #### Most Read Authors
 
@@ -95,15 +109,19 @@ Now for the squares:
 * N.K. Jemisin, read 37 times
 * Adrian Tchaikovsky, read 35 times
 
+**TOTAL**: 209 unique authors read.
 ### 3. Two or More Authors
 
 #### Most Read Books
 
-* **The Vela**, by Yoon Ha Lee, Becky Chambers, Rivers Solomon, S.L. Huang, read 65 times
-* **This is How You Lose the Time War**, by Amal El-Mohtar, Max Gladstone, read 41 times
-* **The Mask of Mirrors**, by M.A. Carrick, read 33 times
-* **Leviathan Wakes**, by James S.A. Corey, read 33 times
-* **Vita Nostra**, by Marina Dyachenko, Sergey Dyachenko, read 26 times
+* **The Vela** by Yoon Ha Lee, Becky Chambers, Rivers Solomon, S.L. Huang, read 65 times
+* **This is How You Lose the Time War** by Amal El-Mohtar, Max Gladstone, read 41 times
+* **The Mask of Mirrors** by M.A. Carrick, read 33 times
+* **Leviathan Wakes** by James S.A. Corey, read 33 times
+* **Vita Nostra** by Marina Dyachenko, Sergey Dyachenko, read 26 times
+
+**TOTAL**: 764 books read, with 332 unique titles.
+Skipped 40 times. Substituted 21 times.
 
 #### Most Read Authors
 
@@ -113,15 +131,19 @@ Now for the squares:
 * Amal El-Mohtar, Max Gladstone, read 41 times
 * Ilona Andrews, read 38 times
 
+**TOTAL**: 261 unique authors read.
 ### 4. Historical SFF
 
 #### Most Read Books
 
-* **She Who Became the Sun**, by Shelley Parker-Chan, read 39 times
-* **Babel**, by R.F. Kuang, read 24 times
-* **Siren Queen**, by Nghi Vo, read 21 times
-* **A Marvellous Light**, by Freya Marske, read 15 times
-* **A Master of Djinn**, by P. Djèlí Clark, read 15 times
+* **She Who Became the Sun** by Shelley Parker-Chan, read 39 times
+* **Babel** by R.F. Kuang, read 24 times
+* **Siren Queen** by Nghi Vo, read 21 times
+* **A Marvellous Light** by Freya Marske, read 15 times
+* **A Master of Djinn** by P. Djèlí Clark, read 15 times
+
+**TOTAL**: 783 books read, with 371 unique titles.
+Skipped 39 times. Substituted 5 times.
 
 #### Most Read Authors
 
@@ -131,15 +153,19 @@ Now for the squares:
 * R.F. Kuang, read 30 times
 * Madeline Miller, read 25 times
 
+**TOTAL**: 275 unique authors read.
 ### 5. Set In Space
 
 #### Most Read Books
 
-* **Project Hail Mary**, by Andy Weir, read 46 times
-* **The Long Way to a Small, Angry Planet**, by Becky Chambers, read 46 times
-* **A Desolation Called Peace**, by Arkady Martine, read 32 times
-* **Ninefox Gambit**, by Yoon Ha Lee, read 19 times
-* **Harrow the Ninth**, by Tamsyn Muir, read 19 times
+* **Project Hail Mary** by Andy Weir, read 46 times
+* **The Long Way to a Small, Angry Planet** by Becky Chambers, read 46 times
+* **A Desolation Called Peace** by Arkady Martine, read 32 times
+* **Ninefox Gambit** by Yoon Ha Lee, read 19 times
+* **Harrow the Ninth** by Tamsyn Muir, read 19 times
+
+**TOTAL**: 791 books read, with 297 unique titles.
+Skipped 30 times. Substituted 6 times.
 
 #### Most Read Authors
 
@@ -149,15 +175,19 @@ Now for the squares:
 * Martha Wells, read 32 times
 * Adrian Tchaikovsky, read 26 times
 
+**TOTAL**: 205 unique authors read.
 ### 6. Stand-alone
 
 #### Most Read Books
 
-* **Piranesi**, by Susanna Clarke, read 40 times
-* **Under the Whispering Door**, by T.J. Klune, read 13 times
-* **Legends & Lattes**, by Travis Baldree, read 12 times
-* **The Kaiju Preservation Society**, by John Scalzi, read 12 times
-* **The Very Secret Society of Irregular Witches**, by Sangu Mandanna, read 12 times
+* **Piranesi** by Susanna Clarke, read 40 times
+* **Under the Whispering Door** by T.J. Klune, read 13 times
+* **Legends & Lattes** by Travis Baldree, read 12 times
+* **The Kaiju Preservation Society** by John Scalzi, read 12 times
+* **The Very Secret Society of Irregular Witches** by Sangu Mandanna, read 12 times
+
+**TOTAL**: 799 books read, with 475 unique titles.
+Skipped 24 times. Substituted 4 times.
 
 #### Most Read Authors
 
@@ -167,15 +197,19 @@ Now for the squares:
 * John Scalzi, read 14 times
 * Travis Baldree, read 12 times
 
+**TOTAL**: 392 unique authors read.
 ### 7. Anti-Hero
 
 #### Most Read Books
 
-* **Iron Widow**, by Xiran Jay Zhao, read 52 times
-* **Six of Crows**, by Leigh Bardugo, read 35 times
-* **A Deadly Education**, by Naomi Novik, read 27 times
-* **The Blade Itself**, by Joe Abercrombie, read 22 times
-* **Half a King**, by Joe Abercrombie, read 20 times
+* **Iron Widow** by Xiran Jay Zhao, read 52 times
+* **Six of Crows** by Leigh Bardugo, read 35 times
+* **A Deadly Education** by Naomi Novik, read 27 times
+* **The Blade Itself** by Joe Abercrombie, read 22 times
+* **Half a King** by Joe Abercrombie, read 20 times
+
+**TOTAL**: 794 books read, with 358 unique titles.
+Skipped 29 times. Substituted 4 times.
 
 #### Most Read Authors
 
@@ -185,15 +219,19 @@ Now for the squares:
 * Naomi Novik, read 40 times
 * Holly Black, read 30 times
 
+**TOTAL**: 275 unique authors read.
 ### 8. Book Club or Readalong Book
 
 #### Most Read Books
 
-* **Legends & Lattes**, by Travis Baldree, read 42 times
-* **The Cartographers**, by Peng Shepherd, read 25 times
-* **The Blacktongue Thief**, by Christopher Buehlman, read 22 times
-* **The Order of the Pure Moon Reflected in Water**, by Zen Cho, read 18 times
-* **All the Murmuring Bones**, by A.G. Slatter, read 16 times
+* **Legends & Lattes** by Travis Baldree, read 42 times
+* **The Cartographers** by Peng Shepherd, read 25 times
+* **The Blacktongue Thief** by Christopher Buehlman, read 22 times
+* **The Order of the Pure Moon Reflected in Water** by Zen Cho, read 18 times
+* **All the Murmuring Bones** by A.G. Slatter, read 16 times
+
+**TOTAL**: 756 books read, with 248 unique titles.
+Skipped 46 times. Substituted 21 times.
 
 #### Most Read Authors
 
@@ -203,15 +241,19 @@ Now for the squares:
 * Zen Cho, read 18 times
 * A.G. Slatter, read 16 times
 
+**TOTAL**: 208 unique authors read.
 ### 9. Cool Weapon
 
 #### Most Read Books
 
-* **Spear**, by Nicola Griffith, read 40 times
-* **Daughter of the Moon Goddess**, by Sue Lynn Tan, read 19 times
-* **Legendborn**, by Tracy Deonn, read 19 times
-* **Elric of Melniboné**, by Michael Moorcock, read 17 times
-* **Kings of the Wyld**, by Nicholas Eames, read 17 times
+* **Spear** by Nicola Griffith, read 40 times
+* **Daughter of the Moon Goddess** by Sue Lynn Tan, read 19 times
+* **Legendborn** by Tracy Deonn, read 19 times
+* **Elric of Melniboné** by Michael Moorcock, read 17 times
+* **Kings of the Wyld** by Nicholas Eames, read 17 times
+
+**TOTAL**: 793 books read, with 360 unique titles.
+Skipped 27 times. Substituted 7 times.
 
 #### Most Read Authors
 
@@ -221,15 +263,19 @@ Now for the squares:
 * Andrew Rowe, read 29 times
 * Nicholas Eames, read 29 times
 
+**TOTAL**: 236 unique authors read.
 ### 10. Revolutions and Rebellions
 
 #### Most Read Books
 
-* **Babel**, by R.F. Kuang, read 52 times
-* **She Who Became the Sun**, by Shelley Parker-Chan, read 28 times
-* **Red Rising**, by Pierce Brown, read 21 times
-* **Mistborn**, by Brandon Sanderson, read 17 times
-* **The Unbroken**, by C.L. Clark, read 17 times
+* **Babel** by R.F. Kuang, read 52 times
+* **She Who Became the Sun** by Shelley Parker-Chan, read 28 times
+* **Red Rising** by Pierce Brown, read 21 times
+* **Mistborn** by Brandon Sanderson, read 17 times
+* **The Unbroken** by C.L. Clark, read 17 times
+
+**TOTAL**: 795 books read, with 377 unique titles.
+Skipped 27 times. Substituted 5 times.
 
 #### Most Read Authors
 
@@ -239,15 +285,19 @@ Now for the squares:
 * Brandon Sanderson, read 22 times
 * Seth Dickinson, read 20 times
 
+**TOTAL**: 297 unique authors read.
 ### 11. Name in the Title
 
 #### Most Read Books
 
-* **The Seven Deaths of Evelyn Hardcastle**, by Stuart Turton, read 43 times
-* **The Invisible Life of Addie LaRue**, by V.E. Schwab, read 39 times
-* **The Traitor Baru Cormorant**, by Seth Dickinson, read 27 times
-* **Piranesi**, by Susanna Clarke, read 24 times
-* **The Lies of Locke Lamora**, by Scott Lynch, read 22 times
+* **The Seven Deaths of Evelyn Hardcastle** by Stuart Turton, read 43 times
+* **The Invisible Life of Addie LaRue** by V.E. Schwab, read 39 times
+* **The Traitor Baru Cormorant** by Seth Dickinson, read 27 times
+* **Piranesi** by Susanna Clarke, read 24 times
+* **The Lies of Locke Lamora** by Scott Lynch, read 22 times
+
+**TOTAL**: 787 books read, with 298 unique titles.
+Skipped 36 times. Substituted 4 times.
 
 #### Most Read Authors
 
@@ -257,15 +307,19 @@ Now for the squares:
 * V.E. Schwab, read 40 times
 * Seth Dickinson, read 38 times
 
+**TOTAL**: 245 unique authors read.
 ### 12. Author Uses Initials
 
 #### Most Read Books
 
-* **Nettle & Bone**, by T. Kingfisher, read 80 times
-* **A Wizard's Guide to Defensive Baking**, by T. Kingfisher, read 54 times
-* **What Moves the Dead**, by T. Kingfisher, read 21 times
-* **The Mask of Mirrors**, by M.A. Carrick, read 18 times
-* **Sixteen Ways to Defend a Walled City**, by K.J. Parker, read 17 times
+* **Nettle & Bone** by T. Kingfisher, read 80 times
+* **A Wizard's Guide to Defensive Baking** by T. Kingfisher, read 54 times
+* **What Moves the Dead** by T. Kingfisher, read 21 times
+* **The Mask of Mirrors** by M.A. Carrick, read 18 times
+* **Sixteen Ways to Defend a Walled City** by K.J. Parker, read 17 times
+
+**TOTAL**: 791 books read, with 320 unique titles.
+Skipped 33 times. Substituted 3 times.
 
 #### Most Read Authors
 
@@ -275,15 +329,19 @@ Now for the squares:
 * M.A. Carrick, read 25 times
 * N.K. Jemisin, read 21 times
 
+**TOTAL**: 190 unique authors read.
 ### 13. Published in 2022
 
 #### Most Read Books
 
-* **Legends & Lattes**, by Travis Baldree, read 120 times
-* **The Golden Enclaves**, by Naomi Novik, read 41 times
-* **Daughter of the Moon Goddess**, by Sue Lynn Tan, read 26 times
-* **The Lost Metal**, by Brandon Sanderson, read 21 times
-* **Kaikeyi**, by Vaishnavi Patel, read 19 times
+* **Legends & Lattes** by Travis Baldree, read 120 times
+* **The Golden Enclaves** by Naomi Novik, read 41 times
+* **Daughter of the Moon Goddess** by Sue Lynn Tan, read 26 times
+* **The Lost Metal** by Brandon Sanderson, read 21 times
+* **Kaikeyi** by Vaishnavi Patel, read 19 times
+
+**TOTAL**: 798 books read, with 301 unique titles.
+Skipped 28 times. Substituted 1 times.
 
 #### Most Read Authors
 
@@ -293,15 +351,19 @@ Now for the squares:
 * Brandon Sanderson, read 21 times
 * Vaishnavi Patel, read 19 times
 
+**TOTAL**: 292 unique authors read.
 ### 14. Urban Fantasy
 
 #### Most Read Books
 
-* **Jade City**, by Fonda Lee, read 26 times
-* **The Atlas Six**, by Olivie Blake, read 21 times
-* **The Golden Enclaves**, by Naomi Novik, read 16 times
-* **The City We Became**, by N.K. Jemisin, read 16 times
-* **White Trash Warlock**, by David R. Slayton, read 16 times
+* **Jade City** by Fonda Lee, read 26 times
+* **The Atlas Six** by Olivie Blake, read 21 times
+* **The Golden Enclaves** by Naomi Novik, read 16 times
+* **The City We Became** by N.K. Jemisin, read 16 times
+* **White Trash Warlock** by David R. Slayton, read 16 times
+
+**TOTAL**: 788 books read, with 389 unique titles.
+Skipped 35 times. Substituted 4 times.
 
 #### Most Read Authors
 
@@ -311,15 +373,19 @@ Now for the squares:
 * N.K. Jemisin, read 29 times
 * Olivie Blake, read 21 times
 
+**TOTAL**: 281 unique authors read.
 ### 15. Set in Africa
 
 #### Most Read Books
 
-* **A Master of Djinn**, by P. Djèlí Clark, read 105 times
-* **The Rage of Dragons**, by Evan Winter, read 43 times
-* **Remote Control**, by Nnedi Okorafor, read 31 times
-* **Raybearer**, by Jordan Ifueko, read 29 times
-* **Rosewater**, by Tade Thompson, read 23 times
+* **A Master of Djinn** by P. Djèlí Clark, read 105 times
+* **The Rage of Dragons** by Evan Winter, read 43 times
+* **Remote Control** by Nnedi Okorafor, read 31 times
+* **Raybearer** by Jordan Ifueko, read 29 times
+* **Rosewater** by Tade Thompson, read 23 times
+
+**TOTAL**: 726 books read, with 145 unique titles.
+Skipped 71 times. Substituted 26 times.
 
 #### Most Read Authors
 
@@ -329,15 +395,19 @@ Now for the squares:
 * Jordan Ifueko, read 45 times
 * Tade Thompson, read 29 times
 
+**TOTAL**: 107 unique authors read.
 ### 16. Non-Human Protagonist
 
 #### Most Read Books
 
-* **Legends & Lattes**, by Travis Baldree, read 65 times
-* **Hollow Kingdom**, by Kira Jane Buxton, read 54 times
-* **Children of Time**, by Adrian Tchaikovsky, read 26 times
-* **Tooth and Claw**, by Jo Walton, read 25 times
-* **The Last Unicorn**, by Peter S. Beagle, read 21 times
+* **Legends & Lattes** by Travis Baldree, read 65 times
+* **Hollow Kingdom** by Kira Jane Buxton, read 54 times
+* **Children of Time** by Adrian Tchaikovsky, read 26 times
+* **Tooth and Claw** by Jo Walton, read 25 times
+* **The Last Unicorn** by Peter S. Beagle, read 21 times
+
+**TOTAL**: 781 books read, with 308 unique titles.
+Skipped 46 times. Substituted 0 times.
 
 #### Most Read Authors
 
@@ -347,15 +417,19 @@ Now for the squares:
 * Adrian Tchaikovsky, read 35 times
 * Becky Chambers, read 30 times
 
+**TOTAL**: 237 unique authors read.
 ### 17. Wibbly Wobbly Timey Wimey
 
 #### Most Read Books
 
-* **Sea of Tranquility**, by Emily St. John Mandel, read 32 times
-* **The Space Between Worlds**, by Micaiah Johnson, read 23 times
-* **This is How You Lose the Time War**, by Amal El-Mohtar, Max Gladstone, read 22 times
-* **Mother of Learning**, by Domagoj Kurmaić, read 21 times
-* **The Seven Deaths of Evelyn Hardcastle**, by Stuart Turton, read 21 times
+* **Sea of Tranquility** by Emily St. John Mandel, read 32 times
+* **The Space Between Worlds** by Micaiah Johnson, read 23 times
+* **This is How You Lose the Time War** by Amal El-Mohtar, Max Gladstone, read 22 times
+* **Mother of Learning** by Domagoj Kurmaić, read 21 times
+* **The Seven Deaths of Evelyn Hardcastle** by Stuart Turton, read 21 times
+
+**TOTAL**: 787 books read, with 366 unique titles.
+Skipped 33 times. Substituted 6 times.
 
 #### Most Read Authors
 
@@ -365,15 +439,19 @@ Now for the squares:
 * Domagoj Kurmaić, read 21 times
 * Stuart Turton, read 21 times
 
+**TOTAL**: 289 unique authors read.
 ### 18. Five Short Stories
 
 #### Most Read Books
 
-* **Exhalation**, by Ted Chiang, read 30 times
-* **Stories of Your Life and Others**, by Ted Chiang, read 16 times
-* **Sooner or Later Everything Falls Into the Sea**, by Sarah Pinsker, read 11 times
-* **Her Body and Other Parties**, by Carmen Maria Machado, read 11 times
-* **How Long 'til Black Future Month?**, by N.K. Jemisin, read 10 times
+* **Exhalation** by Ted Chiang, read 30 times
+* **Stories of Your Life and Others** by Ted Chiang, read 16 times
+* **Sooner or Later Everything Falls Into the Sea** by Sarah Pinsker, read 11 times
+* **Her Body and Other Parties** by Carmen Maria Machado, read 11 times
+* **How Long 'til Black Future Month?** by N.K. Jemisin, read 10 times
+
+**TOTAL**: 634 books read, with 368 unique titles.
+Skipped 58 times. Substituted 16 times.
 
 #### Most Read Authors
 
@@ -383,15 +461,19 @@ Now for the squares:
 * Jonathan Strahan, read 13 times
 * N.K. Jemisin, read 11 times
 
+**TOTAL**: 306 unique authors read.
 ### 19. Mental Health
 
 #### Most Read Books
 
-* **A Psalm for the Wild-Built**, by Becky Chambers, read 23 times
-* **A Taste of Gold and Iron**, by Alexandra Rowland, read 19 times
-* **Elder Race**, by Adrian Tchaikovsky, read 19 times
-* **The Midnight Library**, by Matt Haig, read 17 times
-* **Witchmark**, by C.L. Polk, read 14 times
+* **A Psalm for the Wild-Built** by Becky Chambers, read 23 times
+* **A Taste of Gold and Iron** by Alexandra Rowland, read 19 times
+* **Elder Race** by Adrian Tchaikovsky, read 19 times
+* **The Midnight Library** by Matt Haig, read 17 times
+* **Witchmark** by C.L. Polk, read 14 times
+
+**TOTAL**: 772 books read, with 393 unique titles.
+Skipped 49 times. Substituted 6 times.
 
 #### Most Read Authors
 
@@ -401,15 +483,19 @@ Now for the squares:
 * Alexandra Rowland, read 21 times
 * Adrian Tchaikovsky, read 19 times
 
+**TOTAL**: 300 unique authors read.
 ### 20. Self-Published
 
 #### Most Read Books
 
-* **Legends & Lattes**, by Travis Baldree, read 28 times
-* **Unsouled**, by Will Wight, read 23 times
-* **The Midnight Bargain**, by C.L. Polk, read 14 times
-* **The Sword of Kaigen**, by M.L. Wang, read 11 times
-* **The Lord of Stariel**, by A.J. Lancaster, read 11 times
+* **Legends & Lattes** by Travis Baldree, read 28 times
+* **Unsouled** by Will Wight, read 23 times
+* **The Midnight Bargain** by C.L. Polk, read 14 times
+* **The Sword of Kaigen** by M.L. Wang, read 11 times
+* **The Lord of Stariel** by A.J. Lancaster, read 11 times
+
+**TOTAL**: 739 books read, with 502 unique titles.
+Skipped 56 times. Substituted 29 times.
 
 #### Most Read Authors
 
@@ -419,15 +505,19 @@ Now for the squares:
 * A.J. Lancaster, read 15 times
 * M.L. Wang, read 11 times
 
+**TOTAL**: 420 unique authors read.
 ### 21. Award Finalist
 
 #### Most Read Books
 
-* **A Deadly Education**, by Naomi Novik, read 24 times
-* **A Natural History of Dragons**, by Marie Brennan, read 16 times
-* **The Bear and the Nightingale**, by Katherine Arden, read 14 times
-* **Last Argument of Kings**, by Joe Abercrombie, read 11 times
-* **A Psalm for the Wild-Built**, by Becky Chambers, read 10 times
+* **A Deadly Education** by Naomi Novik, read 24 times
+* **A Natural History of Dragons** by Marie Brennan, read 16 times
+* **The Bear and the Nightingale** by Katherine Arden, read 14 times
+* **Last Argument of Kings** by Joe Abercrombie, read 11 times
+* **A Psalm for the Wild-Built** by Becky Chambers, read 10 times
+
+**TOTAL**: 761 books read, with 444 unique titles.
+Skipped 55 times. Substituted 11 times.
 
 #### Most Read Authors
 
@@ -437,15 +527,19 @@ Now for the squares:
 * Marie Brennan, read 17 times
 * Catherynne M. Valente, read 16 times
 
+**TOTAL**: 327 unique authors read.
 ### 22. BIPOC Author
 
 #### Most Read Books
 
-* **Black Sun**, by Rebecca Roanhorse, read 66 times
-* **Fevered Star**, by Rebecca Roanhorse, read 35 times
-* **Elatsoe**, by Darcie Little Badger, read 34 times
-* **The Only Good Indians**, by Stephen Graham Jones, read 24 times
-* **Trail of Lightning**, by Rebecca Roanhorse, read 19 times
+* **Black Sun** by Rebecca Roanhorse, read 66 times
+* **Fevered Star** by Rebecca Roanhorse, read 35 times
+* **Elatsoe** by Darcie Little Badger, read 34 times
+* **The Only Good Indians** by Stephen Graham Jones, read 24 times
+* **Trail of Lightning** by Rebecca Roanhorse, read 19 times
+
+**TOTAL**: 777 books read, with 323 unique titles.
+Skipped 46 times. Substituted 4 times.
 
 #### Most Read Authors
 
@@ -455,15 +549,19 @@ Now for the squares:
 * N.K. Jemisin, read 28 times
 * Octavia E. Butler, read 27 times
 
+**TOTAL**: 220 unique authors read.
 ### 23. Shapeshifters
 
 #### Most Read Books
 
-* **The Cloud Roads**, by Martha Wells, read 43 times
-* **A Wizard of Earthsea**, by Ursula K. Le Guin, read 24 times
-* **Paladin's Strength**, by T. Kingfisher, read 18 times
-* **The Hand of the Sun King**, by J.T. Greathouse, read 14 times
-* **When Women Were Dragons**, by Kelly Barnhill, read 12 times
+* **The Cloud Roads** by Martha Wells, read 43 times
+* **A Wizard of Earthsea** by Ursula K. Le Guin, read 24 times
+* **Paladin's Strength** by T. Kingfisher, read 18 times
+* **The Hand of the Sun King** by J.T. Greathouse, read 14 times
+* **When Women Were Dragons** by Kelly Barnhill, read 12 times
+
+**TOTAL**: 783 books read, with 432 unique titles.
+Skipped 42 times. Substituted 2 times.
 
 #### Most Read Authors
 
@@ -473,15 +571,19 @@ Now for the squares:
 * T. Kingfisher, read 18 times
 * J.T. Greathouse, read 16 times
 
+**TOTAL**: 318 unique authors read.
 ### 24. No Ifs, Ands, or Buts
 
 #### Most Read Books
 
-* **Light from Uncommon Stars**, by Ryka Aoki, read 25 times
-* **Project Hail Mary**, by Andy Weir, read 23 times
-* **All Systems Red**, by Martha Wells, read 20 times
-* **Black Water Sister**, by Zen Cho, read 15 times
-* **Howl's Moving Castle**, by Diana Wynne Jones, read 14 times
+* **Light from Uncommon Stars** by Ryka Aoki, read 25 times
+* **Project Hail Mary** by Andy Weir, read 23 times
+* **All Systems Red** by Martha Wells, read 20 times
+* **Black Water Sister** by Zen Cho, read 15 times
+* **Howl's Moving Castle** by Diana Wynne Jones, read 14 times
+
+**TOTAL**: 801 books read, with 489 unique titles.
+Skipped 26 times. Substituted 0 times.
 
 #### Most Read Authors
 
@@ -491,15 +593,19 @@ Now for the squares:
 * Terry Pratchett, read 15 times
 * Zen Cho, read 15 times
 
+**TOTAL**: 394 unique authors read.
 ### 25. Family Matters
 
 #### Most Read Books
 
-* **Jade City**, by Fonda Lee, read 29 times
-* **The Inheritance of Orquídea Divina**, by Zoraida Córdova, read 21 times
-* **The Golden Enclaves**, by Naomi Novik, read 19 times
-* **Black Water Sister**, by Zen Cho, read 15 times
-* **Jade Legacy**, by Fonda Lee, read 15 times
+* **Jade City** by Fonda Lee, read 29 times
+* **The Inheritance of Orquídea Divina** by Zoraida Córdova, read 21 times
+* **The Golden Enclaves** by Naomi Novik, read 19 times
+* **Black Water Sister** by Zen Cho, read 15 times
+* **Jade Legacy** by Fonda Lee, read 15 times
+
+**TOTAL**: 791 books read, with 476 unique titles.
+Skipped 33 times. Substituted 3 times.
 
 #### Most Read Authors
 
@@ -509,4 +615,54 @@ Now for the squares:
 * Zoraida Córdova, read 22 times
 * Zen Cho, read 15 times
 
+**TOTAL**: 356 unique authors read.
 
+## Substitutions
+
+Out of 823 cards, 205 used the Substitution rule.
+
+### Books
+
+* **The Very Secret Society of Irregular Witches** by Sangu Mandanna, read 3 times
+* **The Grief of Stones** by Katherine Addison, read 3 times
+* **The Priory of the Orange Tree** by Samantha Shannon, read 3 times
+
+### Authors
+
+* Terry Pratchett, read 5 times
+* Mark Lawrence, read 5 times
+* Becky Chambers, read 4 times
+
+### Squares
+
+**Cat Squasher 2021**, substituted on 8 cards; **Set in Asia 2021**, substituted on 7 cards; **Comfort Read 2021**, substituted on 6 cards.
+
+## Variety
+
+|SQUARE|BOOK|AUTHOR|
+|---------|:---------:|:---------:|
+|LGBTQIA List Book|55.0|50.9|
+|Weird Ecology|54.1|64.3|
+|Two or More Authors|51.1|59.1|
+|Historical SFF|45.3|55.2|
+|Set In Space|51.8|60.9|
+|Stand-alone|35.4|43.7|
+|Anti-Hero|49.5|58.2|
+|Book Club or Readalong Book|49.6|50.0|
+|Cool Weapon|46.0|58.0|
+|Revolutions and Rebellions|46.4|54.1|
+|Name in the Title|53.2|58.3|
+|Author Uses Initials|52.0|68.7|
+|Published in 2022|55.7|56.4|
+|Urban Fantasy|43.9|55.0|
+|Set in Africa|63.8|73.1|
+|Non-Human Protagonist|54.9|62.3|
+|Wibbly Wobbly Timey Wimey|46.7|53.9|
+|Five Short Stories|36.3|42.8|
+|Mental Health|42.0|51.0|
+|Self-Published|29.1|38.6|
+|Award Finalist|35.1|47.0|
+|BIPOC Author|50.8|62.4|
+|Shapeshifters|39.2|49.9|
+|No Ifs, Ands, or Buts|34.6|43.1|
+|Family Matters|35.8|46.5|

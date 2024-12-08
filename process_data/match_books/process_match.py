@@ -29,7 +29,6 @@ def process_new_pair(
     all_choices = set(dupes.keys()) | dedupes | unscanned_items
     new_matches_to_ignore: AbstractSet[BookOrAuthor] = set()
 
-    print()
     results = process.extractBests(
         query=item_to_process,
         choices=all_choices,

@@ -110,6 +110,7 @@ def get_possible_book_matches(
     print(f"Scanning {total_to_scan} unscanned books{non_dupe_str}.")
     while len(unscanned_books) > 0:
         count += 1
+        print()
         print(f"{count}/{total_to_scan}")
         new_book = unscanned_books.pop()
 
