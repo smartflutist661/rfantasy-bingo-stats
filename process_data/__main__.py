@@ -74,6 +74,7 @@ def collect_statistics(bingo_data: pandas.DataFrame, separator: str) -> None:
 
     markdown_lines: list[str] = []
 
+    print()
     add_to_markdown(markdown_lines, "**Overall Stats**\n")
 
     bingo_cards, subbed_squares, incomplete_cards, incomplete_squares = get_bingo_cards(bingo_data)
