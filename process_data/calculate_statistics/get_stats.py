@@ -90,7 +90,6 @@ def format_bottom_square_counts(bingo_stats: BingoStatistics, bottom_n: int = 3)
 
 def format_favorite_square(bingo_stats: BingoStatistics) -> str:
     """Format square completed most often"""
-    print(bingo_stats.incomplete_squares)
     fewest_incomplete = min(
         incomplete
         for square, incomplete in bingo_stats.incomplete_squares.items()
