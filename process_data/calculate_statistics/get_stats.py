@@ -430,11 +430,23 @@ def create_markdown(bingo_stats: BingoStatistics) -> None:
                 max_ratio = count_ratio
                 max_square_ratio_book = book
 
+    max_ratio = 0.0
+    for author, square_count in bingo_stats.unique_squares_by_author.items():
+        total_count = bingo_stats.overall_uniques.unique_authors[author]
+        if total_count >= 10:
+            count_ratio = square_count / total_count
+            if count_ratio > max_ratio:
+                max_ratio = count_ratio
+                max_square_ratio_author = author
+
     mean_uniques = np.mean(list(bingo_stats.card_uniques.values()))
 
     hard_mode_by_card_counts = Counter(bingo_stats.hard_mode_by_card.values())
 
     avg_hm = np.mean(list(bingo_stats.hard_mode_by_card.values()))
+
+    avg_reads_per_book = np.mean(list(bingo_stats.overall_uniques.unique_books.values()))
+    avg_reads_per_author = np.mean(list(bingo_stats.overall_uniques.unique_authors.values()))
 
     markdown_lines = f"""# Preliminary Notes
 
@@ -496,7 +508,11 @@ The books used for the most squares were:
 {format_most_square_books(bingo_stats.unique_squares_by_book)}
 
 {format_book(max_square_ratio_book)} was the book read at least 10 times with the highest ratio of squares to times read:
-read {bingo_stats.overall_uniques.unique_books[max_square_ratio_book]} times for {bingo_stats.unique_squares_by_book[max_square_ratio_book]} squares. 
+read {bingo_stats.overall_uniques.unique_books[max_square_ratio_book]} times for {bingo_stats.unique_squares_by_book[max_square_ratio_book]} squares.
+
+<INSERT PLOT HERE>
+
+There were an average of {avg_reads_per_book} reads per book.
 
 ### Authors
 
@@ -508,9 +524,16 @@ The authors used for the most squares were:
 
 {format_most_square_authors(bingo_stats.unique_squares_by_author)}
 
+{max_square_ratio_author} was the author read at least 10 times with the highest ratio of squares to times read:
+read {bingo_stats.overall_uniques.unique_authors[max_square_ratio_author]} times for {bingo_stats.unique_squares_by_author[max_square_ratio_author]} squares.
+
 The authors with the most unique books read were:
 
 {format_unique_author_books(bingo_stats.books_per_author)}
+
+<INSERT_PLOT_HERE>
+
+There were an average of {avg_reads_per_author} reads per author.
 
 ## Stats for Individual Squares
 
@@ -522,7 +545,7 @@ The authors with the most unique books read were:
 ## Variety
 
 Values close to 0 suggest a square was well-varied; 0 means no book was repeated for a square.
-Values close to 1 suggest the same books were used repeatedly for a square; 1 means only one book was used for a square.
+Values close to 100 suggest the same books were used repeatedly for a square; 100 means only one book was used for a square.
 
 {format_farragini(bingo_stats)}
 
@@ -536,6 +559,3 @@ Values close to 1 suggest the same books were used repeatedly for a square; 1 me
 
     with OUTPUT_MD_FILEPATH.open("w", encoding="utf8") as md_file:
         md_file.write(markdown_lines)
-
-    print(np.mean(list(bingo_stats.overall_uniques.unique_books.values())))
-    print(np.mean(list(bingo_stats.overall_uniques.unique_authors.values())))
