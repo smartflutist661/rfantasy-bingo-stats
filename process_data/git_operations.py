@@ -80,7 +80,6 @@ def synchronize_github(github_pat: str) -> None:
     branch_name = get_branch_name(github_client)
     remote_repo = repo.remote()
 
-    print(repo.active_branch)
     if str(repo.active_branch) == "main":
         remote_repo.pull()
     elif str(repo.active_branch) == branch_name:
