@@ -88,11 +88,11 @@ def synchronize_github(github_pat: str) -> None:
             github_remote_repo.get_branch(branch=branch_name)
         except GithubException:
             if repo.is_dirty():
-                commit_push_pr(github_pat)
                 repo.git.pull("main")
+                commit_push_pr(github_pat)
             else:
                 repo.git.checkout("main")
-                remote_repo.pull()
+        repo.git.pull()
 
     else:
         raise ValueError(
