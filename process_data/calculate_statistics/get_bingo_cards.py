@@ -17,7 +17,6 @@ import pandas
 
 from ..data.author_records import AUTHOR_INFO
 from ..data.current import (
-    CUSTOM_SEPARATOR,
     NOVEL_TITLE_AUTHOR_HM_COLS,
     SHORT_STORY_SQUARE_NUM,
     SHORT_STORY_TITLE_AUTHOR_HM_COLS,
@@ -173,14 +172,14 @@ def get_bingo_stats(
         for square_name, square in bingo_card.items():
             if square is not None:
                 if not isinstance(square, ShortStorySquare):
-                    book = title_author_to_book((square.title, square.author), CUSTOM_SEPARATOR)
-                    _, author = book_to_title_author(book, CUSTOM_SEPARATOR)
+                    book = title_author_to_book((square.title, square.author))
+                    _, author = book_to_title_author(book)
 
                     if book in book_dedupe_map:
                         orig_book = book
                         book = book_dedupe_map[book]
 
-                        _, author = book_to_title_author(book, CUSTOM_SEPARATOR)
+                        _, author = book_to_title_author(book)
 
                         dedupes_by_card[card_id] += 1
                         dedupes_by_book[book].add(orig_book)
@@ -227,7 +226,7 @@ def get_bingo_stats(
         card_uniques[card_id] += 0
         for square_name, square in card.items():
             if square is not None:
-                book = title_author_to_book((square.title, square.author), CUSTOM_SEPARATOR)
+                book = title_author_to_book((square.title, square.author))
                 if book in book_dedupe_map:
                     book = book_dedupe_map[book]
 

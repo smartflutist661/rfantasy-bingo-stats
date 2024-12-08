@@ -117,9 +117,7 @@ def normalize_books(
         json.dump(recorded_dupes.to_data(), dupe_file, indent=2)
 
     print("Updating Bingo authors.")
-    updated_data, author_dedupes = update_bingo_authors(
-        bingo_data, recorded_dupes.author_dupes, recorded_dupes.book_separator
-    )
+    updated_data, author_dedupes = update_bingo_authors(bingo_data, recorded_dupes.author_dupes)
     print("Bingo authors updated.")
 
     print("Collecting all misspellings.")
@@ -127,7 +125,7 @@ def normalize_books(
 
     all_title_author_combos = get_all_title_author_combos(updated_data)
 
-    unique_books = get_unique_books(all_title_author_combos, recorded_dupes.book_separator)
+    unique_books = get_unique_books(all_title_author_combos)
 
     print(f"Starting with {len(unique_books)} unique books.")
 

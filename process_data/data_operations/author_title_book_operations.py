@@ -11,6 +11,7 @@ from typing import (
 
 import pandas
 
+from ..constants import TITLE_AUTHOR_SEPARATOR
 from ..data.current import ALL_TITLE_AUTHOR_HM_COLUMNS
 from ..types.defined_types import (
     Author,
@@ -35,28 +36,25 @@ def get_all_title_author_combos(data: pandas.DataFrame) -> tuple[TitleAuthor, ..
     return tuple((title, author) for title, author in title_author_pairs if title and author)
 
 
-def book_to_title_author(book: Book, separator: str) -> TitleAuthor:
+def book_to_title_author(book: Book, separator: str = TITLE_AUTHOR_SEPARATOR) -> TitleAuthor:
     """Convert book to title/author pair"""
     title, author = book.split(separator)
     return Title(title), Author(author)
 
 
-def books_to_title_authors(books: Iterable[Book], separator: str) -> tuple[TitleAuthor, ...]:
+def books_to_title_authors(books: Iterable[Book]) -> tuple[TitleAuthor, ...]:
     """Convert iterable of books to tuple of title/author pairs"""
-    return tuple(book_to_title_author(book, separator) for book in books)
+    return tuple(book_to_title_author(book) for book in books)
 
 
-def title_author_to_book(title_author_pair: TitleAuthor, separator: str) -> Book:
+def title_author_to_book(title_author_pair: TitleAuthor) -> Book:
     """Convert title/author pair to book form"""
-    return Book(separator.join(str(elem) for elem in title_author_pair))
+    return Book(TITLE_AUTHOR_SEPARATOR.join(str(elem) for elem in title_author_pair))
 
 
-def title_authors_to_books(
-    title_author_pairs: Iterable[TitleAuthor],
-    separator: str,
-) -> tuple[Book, ...]:
+def title_authors_to_books(title_author_pairs: Iterable[TitleAuthor]) -> tuple[Book, ...]:
     """Convert an iterable of title/author pairs to a tuple of Books"""
-    return tuple(title_author_to_book(pair, separator) for pair in title_author_pairs)
+    return tuple(title_author_to_book(pair) for pair in title_author_pairs)
 
 
 def get_unique_author_counts(authors: Iterable[Author]) -> Counter[Author]:
@@ -76,23 +74,20 @@ def get_unique_title_author_counts(
     return Counter(title_author_pairs)
 
 
-def get_unique_book_counts(
-    title_author_pairs: Iterable[TitleAuthor],
-    separator: str,
-) -> Counter[Book]:
+def get_unique_book_counts(title_author_pairs: Iterable[TitleAuthor]) -> Counter[Book]:
     """Get counter for unique books"""
     for pair in title_author_pairs:
         for elem in pair:
-            if separator in str(elem):
-                raise ValueError("Pick a different separator")
+            if TITLE_AUTHOR_SEPARATOR in elem:
+                raise ValueError(
+                    "Title/author separator appears in a raw title or author."
+                    + " Select a different separator."
+                )
 
-    return Counter(title_authors_to_books(title_author_pairs, separator))
+    return Counter(title_authors_to_books(title_author_pairs))
 
 
-def get_unique_books(
-    title_author_pairs: Iterable[TitleAuthor],
-    separator: str,
-) -> frozenset[Book]:
+def get_unique_books(title_author_pairs: Iterable[TitleAuthor]) -> frozenset[Book]:
     """Get every unique title/author combination"""
 
-    return frozenset(get_unique_book_counts(title_author_pairs, separator).keys())
+    return frozenset(get_unique_book_counts(title_author_pairs).keys())

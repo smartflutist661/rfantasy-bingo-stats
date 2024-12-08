@@ -18,7 +18,7 @@ from typing import (
     cast,
 )
 
-from ..data.current import CUSTOM_SEPARATOR
+from ..constants import SUBBED_SQUARE_SEPARATOR
 from .author_statistics import AuthorStatistics
 from .defined_types import (
     Author,
@@ -82,7 +82,7 @@ class BingoStatistics:
                 {
                     cast(
                         tuple[SquareName, SquareName],
-                        tuple(SquareName(k) for k in key.split(CUSTOM_SEPARATOR)),
+                        tuple(SquareName(k) for k in key.split(SUBBED_SQUARE_SEPARATOR)),
                     ): int(cast(int, val))
                     for key, val in data["subbed_squares"].items()
                 }
@@ -121,7 +121,8 @@ class BingoStatistics:
         }.items():
             if field_name == "subbed_squares":
                 out[field_name] = {
-                    CUSTOM_SEPARATOR.join(key): to_data(val) for key, val in field_val.items()
+                    SUBBED_SQUARE_SEPARATOR.join(key): to_data(val)
+                    for key, val in field_val.items()
                 }
             else:
                 out[field_name] = to_data(field_val)

@@ -8,7 +8,6 @@ from collections import Counter
 import numpy as np
 
 from ..data.current import (
-    CUSTOM_SEPARATOR,
     OUTPUT_MD_FILEPATH,
     SQUARE_NAMES,
 )
@@ -24,7 +23,7 @@ from .gini_function import calculate_gini_index
 
 def format_book(book: Book) -> str:
     """Format a title/author pair into a string"""
-    title_author = book_to_title_author(book, CUSTOM_SEPARATOR)
+    title_author = book_to_title_author(book)
     return f"**{title_author[0]}** by {title_author[1]}"
 
 

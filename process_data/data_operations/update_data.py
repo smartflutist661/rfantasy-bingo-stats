@@ -14,9 +14,11 @@ from typing import (
 import pandas
 from progressbar import progressbar  # type: ignore
 
+from process_data.data_operations.author_title_book_operations import title_author_to_book
+
+from ..constants import TITLE_AUTHOR_SEPARATOR
 from ..data.current import (
     ALL_TITLE_AUTHOR_HM_COLUMNS,
-    CUSTOM_SEPARATOR,
     OUTPUT_DF_FILEPATH,
 )
 from ..data.filepaths import DUPE_RECORD_FILEPATH
@@ -25,7 +27,6 @@ from ..types.defined_types import (
     Book,
 )
 from ..types.recorded_states import RecordedDupes
-from .author_title_book_operations import title_author_to_book
 
 
 def update_bingo_books(
@@ -45,8 +46,8 @@ def update_bingo_books(
 
     for title_col, author_col, _ in progressbar(ALL_TITLE_AUTHOR_HM_COLUMNS):
         for old, new in inverted_replacements.items():
-            old_title, old_author = old.split(CUSTOM_SEPARATOR)
-            new_title, new_author = new.split(CUSTOM_SEPARATOR)
+            old_title, old_author = old.split(TITLE_AUTHOR_SEPARATOR)
+            new_title, new_author = new.split(TITLE_AUTHOR_SEPARATOR)
             paired_cols = (
                 new_data[title_col] == old_title  # pylint: disable=unsubscriptable-object
             ) & (
@@ -63,7 +64,6 @@ def update_bingo_books(
 def update_bingo_authors(
     data: pandas.DataFrame,
     authors_to_replace: Mapping[Author, AbstractSet[Author]],
-    separator: str,
 ) -> tuple[pandas.DataFrame, Mapping[Book, frozenset[Book]]]:
     """
     Update the dataframe with the recorded changes
@@ -80,8 +80,8 @@ def update_bingo_authors(
     for title_col, author_col, _ in progressbar(ALL_TITLE_AUTHOR_HM_COLUMNS):
         for old_author, new_author in inverted_replacements.items():
             for title in new_data.loc[new_data[author_col] == old_author, title_col].unique():
-                all_author_dedupes[title_author_to_book((title, new_author), separator)].add(
-                    title_author_to_book((title, old_author), separator)
+                all_author_dedupes[title_author_to_book((title, new_author))].add(
+                    title_author_to_book((title, old_author))
                 )
             new_data.loc[new_data[author_col] == old_author, author_col] = new_author
 

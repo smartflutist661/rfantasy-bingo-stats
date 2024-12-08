@@ -10,7 +10,7 @@ from typing import (
     cast,
 )
 
-from process_data.types.defined_types import (
+from .defined_types import (
     Author,
     Book,
     CardID,
