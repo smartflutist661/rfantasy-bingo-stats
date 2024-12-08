@@ -12,6 +12,7 @@ from ..data.current import (
     SQUARE_NAMES,
 )
 from ..data_operations.author_title_book_operations import book_to_title_author
+from ..logger import LOGGER
 from ..types.bingo_statistics import BingoStatistics
 from ..types.defined_types import (
     Author,
@@ -554,8 +555,7 @@ Values close to 100 suggest the same books were used repeatedly for a square; 10
 {format_dedupe_counts(bingo_stats)}
 """
 
-    print()
-    print(markdown_lines)
+    LOGGER.info(f"Markdown output:\n\n{markdown_lines}\n")
 
     with OUTPUT_MD_FILEPATH.open("w", encoding="utf8") as md_file:
         md_file.write(markdown_lines)

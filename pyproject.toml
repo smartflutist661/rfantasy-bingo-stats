@@ -12,3 +12,10 @@ follow_imports = "silent"
 warn_no_return = true
 warn_unreachable = true
 strict = true
+
+[tool.pylint]
+disable = [
+  "logging-fstring-interpolation",
+  "logging-not-lazy",
+]
+

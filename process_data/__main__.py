@@ -38,6 +38,7 @@ from .git_operations import (
     commit_push_pr,
     synchronize_github,
 )
+from .logger import LOGGER
 from .match_books.get_matches import (
     get_possible_matches,
     update_dedupes_from_authors,
@@ -61,14 +62,12 @@ def normalize_books(
 
     unique_authors = get_unique_authors(all_authors)
 
-    print(f"Starting with {len(unique_authors)} unique authors.")
-
-    print(
-        "Processing possible misspellings."
+    LOGGER.info(
+        f"Starting with {len(unique_authors)} unique authors.\n\n"
+        + "Processing possible misspellings."
         + " You may hit ctrl+C at any point to exit, or enter `e` at the prompt."
-        + " Progress will be saved."
+        + " Progress will be saved.\n"
     )
-    print()
 
     if not skip_authors:
         get_possible_matches(
@@ -116,33 +115,31 @@ def normalize_books(
     with DUPE_RECORD_FILEPATH.open("w", encoding="utf8") as dupe_file:
         json.dump(recorded_dupes.to_data(), dupe_file, indent=2)
 
-    print("Updating Bingo authors.")
+    LOGGER.info("Updating Bingo authors.")
     updated_data, author_dedupes = update_bingo_authors(bingo_data, recorded_dupes.author_dupes)
-    print("Bingo authors updated.")
+    LOGGER.info("Bingo authors updated.")
 
-    print("Collecting all misspellings.")
+    LOGGER.info("Collecting all misspellings.")
     update_dedupes_from_authors(recorded_dupes, author_dedupes)
 
     all_title_author_combos = get_all_title_author_combos(updated_data)
 
     unique_books = get_unique_books(all_title_author_combos)
 
-    print(f"Starting with {len(unique_books)} unique books.")
-
-    print(
-        "Processing possible misspellings."
+    LOGGER.info(
+        f"Starting with {len(unique_books)} unique books.\n\n"
+        + "Processing possible misspellings."
         + " You may hit ctrl+C at any point to exit, or enter `e` at the prompt."
-        + " Progress will be saved."
+        + " Progress will be saved.\n"
     )
-    print()
 
     get_possible_matches(
         unique_books, match_score, rescan_non_dupes, recorded_dupes, recorded_ignores, "Book"
     )
 
-    print("Updating Bingo books.")
+    LOGGER.info("Updating Bingo books.")
     update_bingo_books(updated_data, recorded_dupes.book_dupes)
-    print("Bingo books updated.")
+    LOGGER.info("Bingo books updated.")
 
 
 def collect_statistics(
@@ -167,7 +164,7 @@ def main(args: argparse.Namespace) -> None:
 
     bingo_data = get_bingo_dataframe(BINGO_DATA_FILEPATH)
 
-    print("Loading data.")
+    LOGGER.info("Loading data.")
     recorded_duplicates, recorded_ignores = get_existing_states(
         DUPE_RECORD_FILEPATH, IGNORED_RECORD_FILEPATH, args.skip_updates
     )
@@ -182,12 +179,11 @@ def main(args: argparse.Namespace) -> None:
             args.skip_authors,
         )
 
-    print("Collecting statistics.")
+    LOGGER.info("Collecting statistics.")
     collect_statistics(bingo_data, recorded_duplicates, args.show_plots)
 
     if args.github_pat is not None:
-        print()
-        print("Pushing changes and opening pull request.")
+        LOGGER.info("Pushing changes and opening pull request.")
         commit_push_pr(args.github_pat)
 
 

@@ -4,7 +4,6 @@ Created on Apr 7, 2023
 @author: fred
 """
 import json
-import traceback
 from typing import (
     AbstractSet,
     Literal,
@@ -16,6 +15,7 @@ from ..data.filepaths import (
     DUPE_RECORD_FILEPATH,
     IGNORED_RECORD_FILEPATH,
 )
+from ..logger import LOGGER
 from ..types.defined_types import (
     Author,
     Book,
@@ -81,20 +81,20 @@ def get_possible_matches(
             )
 
     except ValueError:
-        print("Saving progress and exiting")
-    except Exception:  # pylint: disable=broad-exception-caught
-        print("Unexpected error:")
-        print(traceback.format_exc())
-        print("Saving progress and exiting")
+        LOGGER.info("Saving progress and exiting")
+    except Exception:
+        LOGGER.error("Unexpected error. Saving progress and exiting.")
+        # Note `finally` is executed before `raise`ing
+        raise
     else:
-        print(f"All {ret_type}s scanned!")
+        LOGGER.info(f"All {ret_type}s scanned!")
 
     finally:
         with DUPE_RECORD_FILEPATH.open("w", encoding="utf8") as dupe_file:
             json.dump(known_states.to_data(), dupe_file, indent=2)
         with IGNORED_RECORD_FILEPATH.open("w", encoding="utf8") as ignore_file:
             json.dump(known_ignores.to_data(), ignore_file, indent=2)
-        print("Updated duplicates saved.")
+        LOGGER.info("Updated duplicates saved.")
 
 
 def get_possible_book_matches(
@@ -120,11 +120,10 @@ def get_possible_book_matches(
 
     total_to_scan = len(unscanned_books)
     count = 0
-    print(f"Scanning {total_to_scan} unscanned books{non_dupe_str}.")
+    LOGGER.info(f"Scanning {total_to_scan} unscanned books{non_dupe_str}.")
     while len(unscanned_books) > 0:
         count += 1
-        print()
-        print(f"{count}/{total_to_scan}")
+        print(f"\n{count}/{total_to_scan}")
         new_book = unscanned_books.pop()
 
         process_new_pair(
@@ -160,11 +159,10 @@ def get_possible_author_matches(
 
     total_to_scan = len(unscanned_authors)
     count = 0
-    print(f"Scanning {len(unscanned_authors)} unscanned authors{non_dupe_str}.")
+    LOGGER.info(f"Scanning {len(unscanned_authors)} unscanned authors{non_dupe_str}.")
     while len(unscanned_authors) > 0:
         count += 1
-        print()
-        print(f"{count}/{total_to_scan}")
+        print(f"\n{count}/{total_to_scan}")
         new_author = unscanned_authors.pop()
 
         process_new_pair(
@@ -190,4 +188,4 @@ def update_dedupes_from_authors(
 
     with DUPE_RECORD_FILEPATH.open("w", encoding="utf8") as dupe_file:
         json.dump(recorded_states.to_data(), dupe_file, indent=2)
-    print("Updated duplicates saved.")
+    LOGGER.info("Updated duplicates saved.")
