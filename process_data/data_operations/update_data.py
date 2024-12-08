@@ -3,6 +3,7 @@ Created on Apr 7, 2023
 
 @author: fred
 """
+
 import json
 from collections import defaultdict
 from pathlib import Path
@@ -13,7 +14,7 @@ from typing import (
 )
 
 import pandas
-from progressbar import progressbar  # type: ignore
+from progressbar import progressbar
 
 from ..constants import (
     DUPE_RECORD_FILEPATH,
@@ -46,7 +47,7 @@ def update_bingo_books(
     # This makes lookups easier
     inverted_replacements = {v: key for key, val in books_to_replace.items() for v in val}
 
-    for title_col, author_col, _ in progressbar(all_cols):
+    for title_col, author_col, _ in progressbar(all_cols):  # type: ignore[no-untyped-call]
         for old, new in inverted_replacements.items():
             old_title, old_author = old.split(TITLE_AUTHOR_SEPARATOR)
             new_title, new_author = new.split(TITLE_AUTHOR_SEPARATOR)
@@ -81,7 +82,7 @@ def update_bingo_authors(
     inverted_replacements = {v: key for key, val in authors_to_replace.items() for v in val}
 
     all_author_dedupes: defaultdict[Book, set[Book]] = defaultdict(set)
-    for title_col, author_col, _ in progressbar(all_cols):
+    for title_col, author_col, _ in progressbar(all_cols):  # type: ignore[no-untyped-call]
         for old_author, new_author in inverted_replacements.items():
             for title in new_data.loc[new_data[author_col] == old_author, title_col].unique():
                 all_author_dedupes[title_author_to_book((title, new_author))].add(

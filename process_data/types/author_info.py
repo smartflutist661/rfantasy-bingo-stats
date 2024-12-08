@@ -3,6 +3,7 @@ Created on Apr 7, 2023
 
 @author: fred
 """
+
 from __future__ import annotations
 
 from dataclasses import (

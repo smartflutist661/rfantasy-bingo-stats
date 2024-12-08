@@ -3,6 +3,7 @@ Created on Apr 9, 2023
 
 @author: fred
 """
+
 from collections import (
     Counter,
     defaultdict,
@@ -73,13 +74,14 @@ def get_bingo_square(
     card_data: CardData,
 ) -> Optional[BingoSquare]:
     """Get a single bingo square"""
-    title = Title(row[title_col])
-    author = Author(row[author_col])
+    title = Title(str(row[title_col]))
+    author = Author(str(row[author_col]))
     if len(hm_col) > 0:
         hard_mode = bool(row[hm_col])
     else:
         hard_mode = True
 
+    # This captures hard mode short story squares (collections/anthologies)
     if title and author:
         return BingoSquare(
             title=title,
@@ -149,11 +151,14 @@ def get_bingo_stats(
         if card_id == "nan":
             continue
 
-        subbed_square_map = {}
-        for square_num, square_name in enumerate(card_data.square_names.values()):
-            subbed_square_name = SquareName(row[f"SQUARE {square_num+1}: SUBSTITUTION"])
-            if subbed_square_name is not None and len(subbed_square_name) > 0:
-                subbed_square_map[square_name] = subbed_square_name
+        if card_data.subbed_by_square:
+            subbed_square_map = {}
+            for square_num, square_name in enumerate(card_data.square_names.values()):
+                subbed_square_name = SquareName(row[f"SQUARE {square_num+1}: SUBSTITUTION"])
+                if subbed_square_name is not None and len(subbed_square_name) > 0:
+                    subbed_square_map[square_name] = subbed_square_name
+        else:
+            subbed_square_map = {SquareName(row["SUBBED OUT"]): SquareName(row["SUBBED IN"])}
 
         for square_tuple in tuple(subbed_square_map.items()):
             if square_tuple[0] and square_tuple[1]:
@@ -195,7 +200,7 @@ def get_bingo_stats(
                         unique_square_author_usage[single_author].add(square_name)
                         books_by_author[single_author].add(book)
 
-                        author_info = author_data[single_author]
+                        author_info = author_data.get(single_author, AuthorInfo())
 
                         overall_author_stats.gender_count[author_info.gender] += 1
                         overall_author_stats.race_count[author_info.race] += 1

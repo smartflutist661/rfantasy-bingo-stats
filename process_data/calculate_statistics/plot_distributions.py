@@ -3,21 +3,285 @@ Created on Apr 22, 2023
 
 @author: fred
 """
+
+import json
 from collections import Counter
 from pathlib import Path
-from typing import Any
+from types import MappingProxyType as MAP
+from typing import (
+    Any,
+    Optional,
+    SupportsFloat,
+)
 
 import matplotlib.pyplot as plt
 import numpy as np
 from lmfit.model import ModelResult  # type: ignore
 
+from ..constants import (
+    CURRENT_YEAR,
+    YOY_DATA_FILEPATH,
+    YearlyDataPaths,
+)
 from ..types.bingo_statistics import BingoStatistics
 from ..types.fit_props import FitProps
+from ..types.yearly_stats import YearlyBingoStatistics
 
 # from lmfit.models import SkewedGaussianModel  # type: ignore
 
 
-def create_all_plots(bingo_stats: BingoStatistics, output_root: Path, show_plots: bool) -> None:
+def none_divide(num: Optional[SupportsFloat], denom: Optional[SupportsFloat]) -> Optional[float]:
+    if num is None or denom is None:
+        return None
+    return float(num) / float(denom)
+
+
+def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
+    """Plot distributions of interest"""
+
+    output_root.mkdir(exist_ok=True)
+
+    plt.style.use("fivethirtyeight")
+
+    with YOY_DATA_FILEPATH.open("r", encoding="utf8") as yoy_file:
+        yoy_data = MAP(
+            {
+                int(key): YearlyBingoStatistics.from_data(val)
+                for key, val in json.load(yoy_file).items()
+            }
+        )
+
+    current_year_stats = yoy_data[CURRENT_YEAR]
+
+    years = []
+    current_total_participant_counts = []
+    current_total_card_counts = []
+    current_total_square_counts = []
+    current_total_story_counts = []
+    current_unique_story_counts = []
+    current_total_author_counts = []
+    current_unique_author_counts = []
+    current_hard_mode_card_counts = []
+    current_hard_mode_square_counts = []
+    current_hero_mode_card_counts = []
+    current_misspelling_counts = []
+    hard_mode_square_counts = []
+    hard_mode_card_counts = []
+    hero_mode_card_counts = []
+    misspelling_counts = []
+    participants_vs_cards = []
+    squares_vs_cards = []
+    total_vs_unique_stories = []
+    total_vs_unique_authors = []
+    for year, stats in yoy_data.items():
+        stats_path = YearlyDataPaths(year).output_stats
+        if stats_path.exists():
+            with stats_path.open("r", encoding="utf8") as stats_file:
+                bingo_stats = BingoStatistics.from_data(json.load(stats_file))
+                books_read_more_than_once = Counter(
+                    {
+                        book: read_count
+                        for book, read_count in bingo_stats.overall_uniques.unique_books.items()
+                        if read_count > 1
+                    }
+                )
+                total_books_read_more_than_once = books_read_more_than_once.total()
+        else:
+            total_books_read_more_than_once = None
+
+        years.append(year)
+        current_total_participant_counts.append(
+            stats.total_participant_count / current_year_stats.total_participant_count
+        )
+        current_total_card_counts.append(
+            stats.total_card_count / current_year_stats.total_card_count
+        )
+        current_total_square_counts.append(
+            none_divide(stats.total_square_count, current_year_stats.total_square_count)
+        )
+        current_total_story_counts.append(
+            none_divide(stats.total_story_count, current_year_stats.total_story_count)
+        )
+        current_unique_story_counts.append(
+            none_divide(stats.unique_story_count, current_year_stats.unique_story_count)
+        )
+        current_total_author_counts.append(
+            none_divide(stats.total_author_count, current_year_stats.total_author_count)
+        )
+        current_unique_author_counts.append(
+            none_divide(stats.unique_author_count, current_year_stats.unique_author_count)
+        )
+        current_hard_mode_card_counts.append(
+            none_divide(stats.hard_mode_cards, current_year_stats.hard_mode_cards)
+        )
+        current_hard_mode_square_counts.append(
+            none_divide(stats.hard_mode_squares, current_year_stats.hard_mode_squares)
+        )
+        current_hero_mode_card_counts.append(
+            none_divide(stats.hero_mode_cards, current_year_stats.hero_mode_cards)
+        )
+        current_misspelling_counts.append(
+            none_divide(stats.total_misspellings, current_year_stats.total_misspellings)
+        )
+        hard_mode_square_counts.append(
+            none_divide(stats.hard_mode_squares, stats.total_square_count)
+        )
+        hard_mode_card_counts.append(none_divide(stats.hard_mode_cards, stats.total_card_count))
+        hero_mode_card_counts.append(none_divide(stats.hero_mode_cards, stats.total_card_count))
+        misspelling_counts.append(
+            none_divide(stats.total_misspellings, total_books_read_more_than_once)
+        )
+        participants_vs_cards.append(stats.total_card_count / stats.total_participant_count)
+        squares_vs_cards.append(none_divide(stats.total_square_count, stats.total_card_count))
+        total_vs_unique_stories.append(
+            none_divide(stats.total_story_count, stats.unique_story_count)
+        )
+        total_vs_unique_authors.append(
+            none_divide(stats.total_author_count, stats.unique_author_count)
+        )
+
+    plt.figure(figsize=(16, 9))
+    plt.suptitle(
+        "title",
+        fontsize=26,
+        weight="bold",
+        alpha=0.75,
+        wrap=True,
+    )
+    plt.title(
+        "Historical counts compared to the current year",
+        fontsize=19,
+        alpha=0.85,
+        wrap=True,
+    )
+    # plt.plot(years, current_total_participant_counts, label="Participants")
+    plt.plot(years, current_total_card_counts, label="Cards")
+    # plt.plot(years, current_total_square_counts, label="Squares")# type: ignore[arg-type]
+    # plt.plot(years, current_total_story_counts, label="Stories")# type: ignore[arg-type]
+    plt.plot(years, current_unique_story_counts, label="Unique Stories")  # type: ignore[arg-type]
+    # plt.plot(years, current_total_author_counts, label="Authors")# type: ignore[arg-type]
+    plt.plot(years, current_unique_author_counts, label="Unique Authors")  # type: ignore[arg-type]
+    plt.plot(years, current_hard_mode_card_counts, label="Hard Mode Cards")  # type: ignore[arg-type]
+    plt.plot(years, current_hard_mode_square_counts, label="Hard Mode Squares")  # type: ignore[arg-type]
+    plt.plot(years, current_hero_mode_card_counts, label="Hero Mode Cards")  # type: ignore[arg-type]
+    plt.plot(years, current_misspelling_counts, label="Misspellings")  # type: ignore[arg-type]
+    plt.ylim(-0.1, None)
+    plt.legend()
+    plt.savefig(output_root / "comparison_to_current.png")
+
+    plt.figure(figsize=(16, 9))
+    plt.suptitle(
+        "Misspellings improve slightly",
+        fontsize=26,
+        weight="bold",
+        alpha=0.75,
+        wrap=True,
+    )
+    plt.title(
+        "Misspellings compared to the number of books read more than once",
+        fontsize=19,
+        alpha=0.85,
+        wrap=True,
+    )
+    plt.plot(years, misspelling_counts)  # type: ignore[arg-type]
+    plt.savefig(output_root / "misspellings_change.png")
+
+    plt.figure(figsize=(16, 9))
+    plt.suptitle(
+        "Hard mode squares are the majority, cards not so much",
+        fontsize=26,
+        weight="bold",
+        alpha=0.75,
+        wrap=True,
+    )
+    plt.title(
+        "Hard mode cards and squares compared to the total number of cards and squares",
+        fontsize=19,
+        alpha=0.85,
+        wrap=True,
+    )
+    plt.plot(years, hard_mode_square_counts, label="Squares")  # type: ignore[arg-type]
+    plt.plot(years, hard_mode_card_counts, label="Cards")  # type: ignore[arg-type]
+    plt.legend()
+    plt.ylim(-0.01, None)
+    plt.savefig(output_root / "hard_mode_change.png")
+
+    plt.figure(figsize=(16, 9))
+    plt.suptitle(
+        "title",
+        fontsize=26,
+        weight="bold",
+        alpha=0.75,
+        wrap=True,
+    )
+    plt.title(
+        "Hero mode cards compared to the total number of cards",
+        fontsize=19,
+        alpha=0.85,
+        wrap=True,
+    )
+    plt.plot(years, hero_mode_card_counts)  # type: ignore[arg-type]
+    plt.ylim(-0.01, None)
+    plt.savefig(output_root / "hero_mode_change.png")
+
+    plt.figure(figsize=(16, 9))
+    plt.suptitle(
+        "More people do multiple cards",
+        fontsize=26,
+        weight="bold",
+        alpha=0.75,
+        wrap=True,
+    )
+    plt.title(
+        "Cards per participant over time",
+        fontsize=19,
+        alpha=0.85,
+        wrap=True,
+    )
+    plt.plot(years, participants_vs_cards)
+    plt.savefig(output_root / "multi_card_change.png")
+
+    plt.figure(figsize=(16, 9))
+    plt.suptitle(
+        "title",
+        fontsize=26,
+        weight="bold",
+        alpha=0.75,
+        wrap=True,
+    )
+    plt.title(
+        "Squares per card over time",
+        fontsize=19,
+        alpha=0.85,
+        wrap=True,
+    )
+    plt.plot(years, squares_vs_cards)  # type: ignore[arg-type]
+    plt.savefig(output_root / "complete_squares_change.png")
+
+    plt.figure(figsize=(16, 9))
+    plt.suptitle(
+        "title",
+        fontsize=26,
+        weight="bold",
+        alpha=0.75,
+        wrap=True,
+    )
+    plt.title(
+        "Total vs unique stories and authors over time",
+        fontsize=19,
+        alpha=0.85,
+        wrap=True,
+    )
+    plt.plot(years, total_vs_unique_stories, label="Stories")  # type: ignore[arg-type]
+    plt.plot(years, total_vs_unique_authors, label="Authors")  # type: ignore[arg-type]
+    plt.legend()
+    plt.savefig(output_root / "uniques_change.png")
+
+    if show_plots:
+        plt.show()
+
+
+def create_yearly_plots(bingo_stats: BingoStatistics, output_root: Path, show_plots: bool) -> None:
     """Plot distributions of interest"""
 
     output_root.mkdir(exist_ok=True)
@@ -61,6 +325,7 @@ def create_all_plots(bingo_stats: BingoStatistics, output_root: Path, show_plots
 
     if show_plots:
         plt.show()
+    plt.close("all")
 
 
 # I feel like it should be possible to fit these pre-histogram
@@ -80,7 +345,7 @@ def plot_card_hist(
 
     edges = bin_vals - 0.5
 
-    plt.hist(counter.values(), bins=edges)
+    plt.hist(counter.values(), bins=edges)  # type: ignore[arg-type]
 
     plt.suptitle(title, fontsize=26, weight="bold", alpha=0.75, wrap=True)
     plt.title(subtitle, fontsize=19, alpha=0.85, wrap=True)
