@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+isort process_data
+black process_data
+pylint -d C,R process_data
+mypy -p process_data
