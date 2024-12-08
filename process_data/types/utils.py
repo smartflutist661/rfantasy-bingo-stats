@@ -14,7 +14,11 @@ def to_data(data: Any) -> AnyData:
     if isinstance(data, dict):
         return {key: to_data(val) for key, val in data.items()}
     if isinstance(data, (list, set)):
-        return [to_data(val) for val in data]
+        vals = [to_data(val) for val in data]
+        try:
+            return sorted(vals)
+        except TypeError:
+            return vals
     if not isinstance(data, ANY_DATA_TYPES):
         raise ValueError(f"Unable to process {type(data)}. Please implement.")
 
