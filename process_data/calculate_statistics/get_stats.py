@@ -7,24 +7,35 @@ Created on Apr 7, 2023
 from collections import Counter
 from collections.abc import (
     Callable,
+    Collection,
     Container,
     Iterable,
     Sequence,
 )
 from pathlib import Path
-from typing import Optional
+from typing import (
+    Literal,
+    Optional,
+)
 
 import numpy as np
 
 from ..data_operations.author_title_book_operations import book_to_title_author
 from ..logger import LOGGER
 from ..types.bingo_statistics import BingoStatistics
+from ..types.bingo_type_statistics import BingoTypeStatistics
 from ..types.card_data import CardData
 from ..types.defined_types import (
     Author,
+    BingoName,
     Book,
     BookOrAuthor,
+    CardID,
     SquareName,
+)
+from .get_bingo_cards import (
+    BINGO_SIZE,
+    POSSIBLE_BINGOS,
 )
 from .gini_function import calculate_gini_index
 
@@ -491,6 +502,104 @@ def get_used_once(unique_counts: Counter[BookOrAuthor]) -> int:
     return Counter(unique_counts.values())[1]
 
 
+def get_single_ties(
+    ranked_vals: Sequence[tuple[BingoName, int]],
+    high_or_low: Literal["high", "low"],
+) -> tuple[Sequence[BingoName], int]:
+    if high_or_low == "high":
+        index = 0
+    else:
+        index = -1
+    cur_top, top_count = ranked_vals[index]
+    cur_count = top_count
+    all_tops = []
+    while cur_count == top_count:
+        all_tops.append(cur_top)
+        if index >= 0:
+            index += 1
+        else:
+            index -= 1
+        cur_top, cur_count = ranked_vals[index]
+
+    return all_tops, top_count
+
+
+def format_inline_bingo_ties(
+    ties: Sequence[str],
+    hard_or_easy: Literal["hard", "easi"],
+    card_or_square: Literal["card", "square"],
+) -> str:
+    multiples = len(ties) > 1
+    if multiples:
+        fave_str = (
+            ", ".join(bingo_name for bingo_name in ties[:-1])
+            + f"{','*(len(ties)>2)} and {ties[-1]}"
+        )
+    else:
+        fave_str = ties[0]
+
+    return (
+        f"The {hard_or_easy}est bingo{'s'*multiples} by number of {card_or_square}s"
+        + f" {'were' * multiples}{'was' * (not multiples)} {fave_str}"
+    )
+
+
+def format_bingos(
+    bingo_type_stats: BingoTypeStatistics,
+    incomplete_cards: Collection[CardID],
+) -> str:
+
+    total_nonblackout_bingos = 0
+    for card_id in incomplete_cards:
+        total_nonblackout_bingos += bingo_type_stats.complete_bingos_by_card[card_id]
+
+    ranked_bingos_by_card = bingo_type_stats.incomplete_bingos.most_common()
+    ranked_bingos_by_squares = bingo_type_stats.incomplete_squares_by_bingo.most_common()
+
+    hardest_bingos_by_card, hardest_bingo_by_card_count = get_single_ties(
+        ranked_bingos_by_card, "high"
+    )
+    hardest_bingos_by_square, hardest_bingo_by_square_count = get_single_ties(
+        ranked_bingos_by_squares, "high"
+    )
+    easiest_bingos_by_card, easiest_bingo_by_card_count = get_single_ties(
+        ranked_bingos_by_card, "low"
+    )
+    easiest_bingos_by_square, easiest_bingo_by_square_count = get_single_ties(
+        ranked_bingos_by_squares, "low"
+    )
+
+    cards_per_complete_bingo = Counter(bingo_type_stats.complete_bingos_by_card.values())
+
+    bingo_str = f"""
+There were {bingo_type_stats.complete_bingos_by_card.total()} complete bingos.
+Non-blackout cards completed an average of {total_nonblackout_bingos/len(incomplete_cards):.1f} bingos.
+There were {cards_per_complete_bingo[0]} cards that did not complete any bingos.
+
+{format_inline_bingo_ties(hardest_bingos_by_card, 'hard', 'card')}, incomplete on {hardest_bingo_by_card_count} cards.
+{format_inline_bingo_ties(hardest_bingos_by_square, 'hard', 'square')}, with a total of {hardest_bingo_by_square_count} squares left blank.
+
+{format_inline_bingo_ties(easiest_bingos_by_card, 'easi', 'card')}, incomplete on {easiest_bingo_by_card_count} cards.
+{format_inline_bingo_ties(easiest_bingos_by_square, 'easi', 'square')}, with a total of {easiest_bingo_by_square_count} squares left blank.
+
+"""
+
+    table_strs: list[tuple[str, str, str]] = [
+        ("BINGO TYPE", "INCOMPLETE CARDS", "INCOMPLETE SQUARES"),
+        ("---------", ":---------:", ":---------:"),
+    ]
+    for bingo_name in POSSIBLE_BINGOS.keys():
+        table_strs.append(
+            (
+                bingo_name,
+                str(bingo_type_stats.incomplete_bingos[bingo_name]),
+                str(bingo_type_stats.incomplete_squares_by_bingo[bingo_name]),
+            )
+        )
+
+    return bingo_str + "\n".join("|" + "|".join(row) + "|" for row in table_strs)
+
+
 def create_markdown(bingo_stats: BingoStatistics, card_data: CardData, output_path: Path) -> None:
     """Create a Markdown draft of stats"""
 
@@ -624,6 +733,14 @@ The authors with the most unique books read were:
 
 As with books, most authors were read only once.
 There were an average of {avg_reads_per_author:.1f} reads per author.
+
+### Bingos
+
+#### Normal Mode
+{format_bingos(bingo_stats.normal_bingo_type_stats, bingo_stats.incomplete_cards.keys())}
+
+#### Hard Mode
+{format_bingos(bingo_stats.hardmode_bingo_type_stats, [card_id for card_id, hm_count in bingo_stats.hard_mode_by_card.items() if hm_count != BINGO_SIZE**2])}
 
 ## Stats for Individual Squares
 

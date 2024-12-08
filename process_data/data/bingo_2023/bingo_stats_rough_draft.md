@@ -23,7 +23,7 @@ In addition, if you did something like, say, put **The Lost Metal** as a short s
 3. Books by multiple authors were counted once for each author. E.g.: **In the Heart of Darkness** by Eric Flint and David Drake counts as a read for both Eric Flint and David Drake.
 *However*, books by a writing team with a single-author pseudonym, e.g. M.A. Carrick, were counted once for the pseudonym, and not for the authors behind the pseudonym.
 4. Author demographic statistics are not included below, for two reasons: it quickly gets messy and culturally-specific,
-and I didn't want to stalk all 3934 individual authors. Machinery for these calculations are included in the script, however,
+and I didn't want to stalk all 3935 individual authors. Machinery for these calculations are included in the script, however,
 so if anyone would like to supply demographic information, it is easy to include.
 5. Short stories were excluded from most of the stats below. They *were* included in the total story count.
 
@@ -37,8 +37,8 @@ so if anyone would like to supply demographic information, it is easy to include
 The minimum number of filled squares was 5. 5 were *this close*, with 24 filled squares.
 649 squares were left blank, leaving 22576 filled squares.
 - There were 23096 total stories, with 6700 unique stories read,
-by 3934 unique authors (23666 total).
-4150 books and 2120 authors were used only once. 
+by 3935 unique authors (23667 total).
+4150 books and 2121 authors were used only once. 
 - The top squares left blank were: **Druid** and **Set in the Middle East**, blank on 46 cards each; **Superheroes**, blank on 44 cards; **Elemental Magic**, blank on 38 cards. On the other hand, **Sequel** was only left blank 9 times.
 - The three squares most often substituted were: **Druid**, substituted on 58 cards; **Superheroes**, substituted on 34 cards; **Book Club or Readalong Book**, substituted on 31 cards.
 **Sequel** and **Multiverses** were never substituted.
@@ -149,6 +149,62 @@ The authors with the most unique books read were:
 
 As with books, most authors were read only once.
 There were an average of 6.0 reads per author.
+
+### Bingos
+
+#### Normal Mode
+
+There were 10400 complete bingos.
+Non-blackout cards completed an average of 3.1 bingos.
+There were 10 cards that did not complete any bingos.
+
+The hardest bingos by number of cards were Second Row and Third Column, incomplete on 69 cards.
+The hardest bingo by number of squares was Second Row, with a total of 161 squares left blank.
+
+The easiest bingo by number of cards was Fifth Row, incomplete on 52 cards.
+The easiest bingo by number of squares was Fifth Row, with a total of 87 squares left blank.
+
+|BINGO TYPE|INCOMPLETE CARDS|INCOMPLETE SQUARES|
+|---------|:---------:|:---------:|
+|First Row|55|104|
+|Second Row|69|161|
+|Third Row|65|142|
+|Fourth Row|68|155|
+|Fifth Row|52|87|
+|First Column|65|125|
+|Second Column|64|130|
+|Third Column|69|141|
+|Fourth Column|62|124|
+|Fifth Column|56|129|
+|Diagonal|59|112|
+|Antidiagonal|64|113|
+
+#### Hard Mode
+
+There were 3578 complete bingos.
+Non-blackout cards completed an average of 1.9 bingos.
+There were 296 cards that did not complete any bingos.
+
+The hardest bingo by number of cards was First Row, incomplete on 715 cards.
+The hardest bingo by number of squares was Third Column, with a total of 2306 squares left blank.
+
+The easiest bingo by number of cards was First Column, incomplete on 469 cards.
+The easiest bingo by number of squares was First Column, with a total of 839 squares left blank.
+
+|BINGO TYPE|INCOMPLETE CARDS|INCOMPLETE SQUARES|
+|---------|:---------:|:---------:|
+|First Row|715|2051|
+|Second Row|627|1486|
+|Third Row|651|1529|
+|Fourth Row|560|1118|
+|Fifth Row|610|1292|
+|First Column|469|839|
+|Second Column|628|1327|
+|Third Column|705|2306|
+|Fourth Column|695|1627|
+|Fifth Column|602|1377|
+|Diagonal|652|1366|
+|Antidiagonal|656|1678|
 
 ## Stats for Individual Squares
 
@@ -695,8 +751,8 @@ Skipped 21 times. Substituted 12 times.
 - M.A. Carrick, read 29 times
 - TIE: Martha Wells and Samantha Shannon, each read 24 times
 
-**TOTAL**: 905 total authors read, with 233 unique.
-135 authors were used only once for this square.
+**TOTAL**: 906 total authors read, with 234 unique.
+136 authors were used only once for this square.
 
 ### 22. Coastal Setting
 
@@ -896,7 +952,7 @@ Quoting the [very first bingo stats post](https://www.reddit.com/r/Fantasy/comme
 
 A "misspelling" for the purposes of these statistics is any book (title/author combination)
 that does not match the version used as the canonical version during cleaning.
-There were a total of 5858 misspellings.
+There were a total of 5859 misspellings.
 (Note that this does not include short stories.)
 
 The books with the most variation in title or author spellings were:

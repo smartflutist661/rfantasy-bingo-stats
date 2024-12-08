@@ -13,6 +13,7 @@ from typing import (
 
 from .defined_types import (
     Author,
+    BingoName,
     Book,
     CardID,
     SquareName,
@@ -63,3 +64,8 @@ def square_name_counter_from_data(data: dict[Any, Any]) -> Counter[SquareName]:
 def card_id_counter_from_data(data: dict[Any, Any]) -> Counter[CardID]:
     """Shortcut for getting square name counter from data"""
     return Counter({CardID(str(key)): int(val) for key, val in data.items()})
+
+
+def bingo_name_counter_from_data(data: dict[Any, Any]) -> Counter[BingoName]:
+    """Shortcut for getting square name counter from data"""
+    return Counter({BingoName(str(key)): int(val) for key, val in data.items()})

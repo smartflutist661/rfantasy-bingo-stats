@@ -19,6 +19,7 @@ from typing import (
 
 from ..constants import SUBBED_SQUARE_SEPARATOR
 from .author_statistics import AuthorStatistics
+from .bingo_type_statistics import BingoTypeStatistics
 from .defined_types import (
     Author,
     Book,
@@ -61,6 +62,8 @@ class BingoStatistics:
     books_per_author: Counter[Author]
     overall_author_stats: AuthorStatistics
     square_author_stats: Mapping[SquareName, AuthorStatistics]
+    normal_bingo_type_stats: BingoTypeStatistics
+    hardmode_bingo_type_stats: BingoTypeStatistics
 
     @classmethod
     def from_data(cls, data: Any) -> BingoStatistics:
@@ -106,6 +109,10 @@ class BingoStatistics:
                     SquareName(key): AuthorStatistics.from_data(val)
                     for key, val in data["square_author_stats"].items()
                 }
+            ),
+            normal_bingo_type_stats=BingoTypeStatistics.from_data(data["normal_bingo_type_stats"]),
+            hardmode_bingo_type_stats=BingoTypeStatistics.from_data(
+                data["hardmode_bingo_type_stats"]
             ),
         )
 

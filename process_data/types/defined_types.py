@@ -29,7 +29,7 @@ class SquareName(str):
     pass
 
 
-SquareNumber = NewType("SquareNumber", str)
+BingoName = NewType("BingoName", str)
 
 TitleCol = NewType("TitleCol", str)
 AuthorCol = NewType("AuthorCol", str)
