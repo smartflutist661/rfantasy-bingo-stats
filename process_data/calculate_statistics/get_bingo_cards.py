@@ -3,7 +3,10 @@ Created on Apr 9, 2023
 
 @author: fred
 """
-from collections import Counter
+from collections import (
+    Counter,
+    defaultdict,
+)
 from types import MappingProxyType as MAP
 from typing import (
     Mapping,
@@ -23,6 +26,7 @@ from ..types.bingo_card import (
     BingoSquare,
     ShortStorySquare,
 )
+from ..types.bingo_statistics import UniqueStatistics
 from ..types.defined_types import (
     Author,
     AuthorCol,
@@ -30,6 +34,7 @@ from ..types.defined_types import (
     HardModeCol,
     SquareName,
     Title,
+    TitleAuthor,
     TitleCol,
 )
 
@@ -102,11 +107,14 @@ def get_bingo_card(
 
 def get_bingo_cards(
     data: pandas.DataFrame,
+    # recorded_states: RecordedStates,
 ) -> tuple[
     Mapping[CardID, BingoCard],
     Counter[tuple[SquareName, SquareName]],
     Counter[CardID],
     Counter[SquareName],
+    Mapping[SquareName, UniqueStatistics],
+    Mapping[TitleAuthor, frozenset[SquareName]],
 ]:
     """Get tuple of bingo cards with substituted names"""
 
@@ -114,6 +122,9 @@ def get_bingo_cards(
     subbed_count: Counter[tuple[SquareName, SquareName]] = Counter()
     incomplete_card_count: Counter[CardID] = Counter()
     incomplete_square_count: Counter[SquareName] = Counter()
+    square_uniques: defaultdict[SquareName, UniqueStatistics] = defaultdict(UniqueStatistics)
+    unique_square_usage: defaultdict[TitleAuthor, set[SquareName]] = defaultdict(set)
+
     for index, row in data.iterrows():
         index = CardID(str(index))
 
@@ -123,11 +134,29 @@ def get_bingo_cards(
             if square_tuple[0] and square_tuple[1]:
                 subbed_count[square_tuple] += 1
 
-        cards[index], incomplete_squares = get_bingo_card(row, subbed_square_map)
+        bingo_card, incomplete_squares = get_bingo_card(row, subbed_square_map)
+
+        cards[index] = bingo_card
 
         if len(incomplete_squares) > 0:
             incomplete_card_count[index] += len(incomplete_squares)
         for square_name in incomplete_squares:
             incomplete_square_count[square_name] += 1
 
-    return MAP(cards), subbed_count, incomplete_card_count, incomplete_square_count
+        for square_name, square in bingo_card.items():
+            if square is not None:
+                if not isinstance(square, ShortStorySquare):
+                    square_uniques[square_name].unique_authors[square.author] += 1
+                    square_uniques[square_name].unique_title_authors[
+                        (square.title, square.author)
+                    ] += 1
+                    unique_square_usage[(square.title, square.author)].add(square_name)
+
+    return (
+        MAP(cards),
+        subbed_count,
+        incomplete_card_count,
+        incomplete_square_count,
+        MAP(square_uniques),
+        MAP({key: frozenset(vals) for key, vals in unique_square_usage.items()}),
+    )
