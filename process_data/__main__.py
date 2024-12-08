@@ -34,6 +34,7 @@ from .git_operations import (
 )
 from .match_books.get_matches import get_possible_matches
 from .types.recorded_states import RecordedStates
+from .data_operations.author_title_book_operations import get_all_authors
 
 
 def normalize_books(
@@ -43,6 +44,10 @@ def normalize_books(
     recorded_states: RecordedStates,
 ) -> None:
     """Normalize book titles and authors"""
+
+    all_authors = get_all_authors(bingo_data)
+    
+    unique_authors = get_unique_authors()
 
     all_title_author_combos = get_all_title_author_combos(bingo_data)
 
