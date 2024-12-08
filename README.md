@@ -1,6 +1,6 @@
 # What It Does
 
-This script is designed to make regularizing title/author pairs from data relatively painless. It uses fuzzy matching to compare an instance of "{title} by {author}" with every other title/author combination, retrieving the best match either from pairs that have already been regularized (preferentially) or from pairs that have not yet had a similar comparison run.
+This script is designed to make regularizing title/author pairs (books) from data relatively painless. It uses fuzzy matching to compare an instance of "{title} /// {author}" with every other book, retrieving the best matches from books that have already been regularized or from books that have not yet had a similar comparison run.
 
 # How to Use
 
@@ -38,7 +38,7 @@ You'll likely need to install Python. Download the installer from the [Python we
 
 ### Install Dependencies
 
-From a terminal at the top level of the cloned repository (likely `rfantasy-bingo-stats`), run `pip install -r requirements.txt`. (If you need to use a virtual environment, you should know; otherwise this should not conflict with the system Python.)
+From a terminal at the top level of the cloned repository (likely `rfantasy-bingo-stats`), run `pip install -r requirements.txt`. You may need to use a virtual environment or include the `--break-system-python` argument (which is generally safe when installing, but _not_ when uninstalling).
 
 ## Running the Script
 
@@ -47,22 +47,35 @@ Open a terminal at the top level of the cloned repository (likely `rfantasy-bing
 ```
 Processing possible misspellings. You may hit ctrl+C at any point to exit, or enter `e` at the prompt. Progress will be saved.
 
-Tentative match found: Sweep of the Heart by Ilona Andres -> Sweep of the Heart by Ilona Andrews, score 99
+Matching Asher Elbein, Tiffany Turrill:
 Choose the best version:
-[1] Sweep of the Heart by Ilona Andres
-[2] Sweep of the Heart by Ilona Andrews
-[3] Not a match
+[0] Asher Elbein, Tiffany Turrill
+[1] Tiffany Turrill
+
+[r] Remove one or more matches
+[c] Enter a better version of all
 [e] Save and exit
 Selection: 
 ```
 
-Type the value of your selection in the prompt and hit Enter. You'll see something like
+Remove any matches that are not actually duplicates of the primary item by entering `r`, then selecting the appropriate numbers.
+Enter `d` when you have removed all of the non-duplicates to return to this selection.
+(You can enter `d` at any time and then select `r` again, which can be useful for particularly long lists of bad matches.)
+If you remove all of the potential matches, the primary item will be recorded as unique.
+Future matches of the primary item with any removed items are automatically ignored.
+
+Enter the number of the best (preferably canonical) version of the remaining matches,
+or enter `c` to mark all of the potential matches as a duplicate of a value not present in the match list.
+For multiple authors, be sure they are comma-separated. For books, be sure to use the appropriate separator format.
+
+Once you've made the final selection, you'll see something like this,
+so you can double-check the decisions you've made and fix them manually if you hit the wrong button or some such.
 
 ```
 Sweep of the Heart by Ilona Andres recorded as duplicate of Sweep of the Heart by Ilona Andrews
 ```
 
-You can exit at any time using Ctrl + C to kill the script, or by entering `e` (really, anything but a valid selection) at the selection prompt. The script will go on to calculate stats on the updated version of the bingo data, which may or may not be complete.
+You can exit at any time using Ctrl + C to kill the script, or by entering `e` (really, anything but a valid selection) at the selection prompt. There are two phases of author cleaning and one of book cleaning, then the script will go on to calculate stats on the updated version of the bingo data, even if cleaning is not complete.
 
 For instructions on sharing your updates, see the guide to CONTRIBUTING.
 

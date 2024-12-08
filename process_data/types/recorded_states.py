@@ -67,7 +67,7 @@ class RecordedDupes:
     def from_data(cls, data: Any, skip_updates: bool = False) -> RecordedDupes:
         """Restore from JSON data"""
 
-        # Should try to handle duplicated keys... this does not
+        # Note that it is impossible to handle duplicated keys because dict keys are always unique
         book_dupes: defaultdict[Book, set[Book]] = defaultdict(
             set,
             {key: {Book(str(v)) for v in val} for key, val in data["book_dupes"].items()},
