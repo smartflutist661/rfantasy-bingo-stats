@@ -11,20 +11,36 @@ from github import Github
 from github.GithubException import GithubException
 
 from .data.constants import REMOTE_REPO
+from time import sleep
 
 REPO_PATH = Path(__file__).parents[1]
 
 
+def get_github_user(github_client: Github) -> str:
+    """Attempt to retrieve the GitHub username"""
+    long_retries = 0
+    while True:
+        try:
+            return github_client.get_user().login
+        except ConnectionError as exc:
+            long_retries += 1
+            if long_retries > 3:
+                raise exc
+            print("Failed to connect to GitHub. Retrying in 10 seconds.")
+            sleep(10)
+
+
 def get_branch_name(github_client: Github) -> str:
     """Generate a branch name for the changes"""
-    github_user = github_client.get_user().login
+
+    github_user = get_github_user(github_client)
     return f"updates/{github_user}"
 
 
 def commit_push_pr(github_pat: str) -> None:
     """Commit changes, push to remote, and open a PR if one doesn't exist"""
     github_client = Github(github_pat)
-    github_user = github_client.get_user().login
+    github_user = get_github_user(github_client)
 
     repo = Repo(REPO_PATH)
 
