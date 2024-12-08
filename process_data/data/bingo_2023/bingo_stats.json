@@ -1,22 +1,22 @@
 {
-  "total_card_count": 930,
-  "total_story_count": 23193,
+  "total_card_count": 929,
+  "total_story_count": 23090,
   "incomplete_cards": {
     "179": 20,
     "182": 10,
     "195": 8,
     "210": 7,
     "212": 4,
-    "233": 11,
+    "233": 12,
     "235": 5,
-    "261": 12,
+    "261": 15,
     "302": 14,
     "308": 6,
     "34": 1,
     "364": 7,
     "367": 4,
     "375": 8,
-    "414": 10,
+    "414": 19,
     "439": 6,
     "444": 11,
     "47": 7,
@@ -30,7 +30,7 @@
     "530": 8,
     "539": 7,
     "552": 8,
-    "563": 5,
+    "563": 6,
     "565": 3,
     "578": 8,
     "584": 2,
@@ -52,16 +52,16 @@
     "716": 5,
     "719": 10,
     "724": 6,
-    "725": 9,
+    "725": 13,
     "735": 9,
     "747": 4,
     "748": 13,
-    "749": 7,
+    "749": 9,
     "751": 7,
     "757": 5,
     "77": 1,
-    "772": 7,
-    "780": 7,
+    "772": 11,
+    "780": 9,
     "79": 20,
     "792": 12,
     "794": 8,
@@ -75,10 +75,10 @@
     "857": 8,
     "864": 6,
     "869": 12,
-    "874": 19,
+    "874": 20,
     "882": 10,
     "891": 13,
-    "892": 6,
+    "892": 7,
     "900": 4,
     "906": 3,
     "913": 10,
@@ -94,10 +94,10 @@
     "Author uses initials Sff 2022": 1,
     "Book Club or Readalong Book": 23,
     "Bottom of the TBR": 26,
-    "Coastal Setting": 18,
-    "Druid": 42,
-    "Elemental Magic": 38,
-    "Features Robots": 26,
+    "Coastal Setting": 21,
+    "Druid": 46,
+    "Elemental Magic": 39,
+    "Features Robots": 32,
     "Five Short Stories": 37,
     "Genevieve Gornichec": 1,
     "Horror": 15,
@@ -105,14 +105,15 @@
     "Magical Realism": 27,
     "Multiverses": 21,
     "Mundane Jobs": 14,
-    "Mythical Beasts": 19,
-    "Myths and Retellings": 25,
-    "Novella": 17,
+    "Mythical Beasts": 20,
+    "Myths and Retellings": 26,
+    "Novella": 18,
     "POC Author": 20,
     "Published in 2023": 22,
     "Published in the 2000s": 30,
-    "Queernorm Setting": 21,
+    "Queernorm Setting": 22,
     "Self Published or Indie Publisher": 32,
+    "Sequel": 10,
     "Set in the Middle East": 46,
     "Superheroes": 44,
     "Title with a Title": 12,
@@ -125,19 +126,20 @@
     "2": 3,
     "3": 5,
     "4": 7,
-    "5": 10,
+    "5": 9,
     "6": 5,
-    "7": 12,
+    "7": 10,
     "8": 9,
-    "9": 3,
-    "10": 9,
+    "9": 4,
+    "10": 8,
     "11": 5,
     "12": 3,
-    "13": 3,
+    "13": 4,
     "14": 1,
+    "15": 1,
     "16": 1,
     "19": 1,
-    "20": 2
+    "20": 3
   },
   "max_incomplete_squares": 20,
   "subbed_squares": {
@@ -459,10 +461,10 @@
     "Author uses initials Sff 2022": 1,
     "Book Club or Readalong Book": 52,
     "Bottom of the TBR": 33,
-    "Coastal Setting": 19,
-    "Druid": 88,
-    "Elemental Magic": 55,
-    "Features Robots": 30,
+    "Coastal Setting": 22,
+    "Druid": 92,
+    "Elemental Magic": 56,
+    "Features Robots": 36,
     "Five Short Stories": 54,
     "Genevieve Gornichec": 1,
     "Horror": 28,
@@ -470,14 +472,15 @@
     "Magical Realism": 39,
     "Multiverses": 21,
     "Mundane Jobs": 15,
-    "Mythical Beasts": 21,
-    "Myths and Retellings": 29,
-    "Novella": 19,
+    "Mythical Beasts": 22,
+    "Myths and Retellings": 30,
+    "Novella": 20,
     "POC Author": 23,
     "Published in 2023": 25,
     "Published in the 2000s": 44,
-    "Queernorm Setting": 33,
+    "Queernorm Setting": 34,
     "Self Published or Indie Publisher": 57,
+    "Sequel": 10,
     "Set in the Middle East": 74,
     "Superheroes": 75,
     "Title with a Title": 16,
@@ -3461,7 +3464,6 @@
       "No Safe Haven /// James Lloyd Dulin": 1,
       "Nocturna /// Maya Motayne": 1,
       "Nona the Ninth /// Tamsyn Muir": 30,
-      "None /// None": 102,
       "Noor /// Nnedi Okorafor": 16,
       "Norse Mythology /// Neil Gaiman": 14,
       "North American Lake Monsters /// Nathan Ballingrud": 2,
@@ -7131,7 +7133,6 @@
       "Year of the Reaper /// Makiia Lucier": 1,
       "Yellow Jessamine /// Caitlin Starling": 4,
       "Yellowface /// R.F. Kuang": 1,
-      "Yes /// None": 1,
       "Yokohama Kaidashi Kikou /// Hitoshi Ashinano": 1,
       "You Always Cry At Endings /// S.J. Whitby": 1,
       "You Can Be a Cyborg When You're Older /// Richard Roberts": 2,
@@ -10045,7 +10046,6 @@
       "Nnedi Okorafor": 67,
       "NoViolet Bulawayo": 1,
       "Noel Verlag": 1,
-      "None": 103,
       "Nora Roberts": 3,
       "Norman Erikson Pasaribu": 1,
       "Norman Partridge": 2,
@@ -11433,7 +11433,6 @@
         "Night of the Dragon /// Julie Kagawa": 1,
         "Night's Master /// Tanith Lee": 3,
         "Nona the Ninth /// Tamsyn Muir": 1,
-        "None /// None": 3,
         "Not Your Ex's Hexes /// April Asher": 1,
         "Of Deeds Most Valiant /// Sarah K.L. Wilson": 2,
         "One Dark Window /// Rachel Gillig": 1,
@@ -11759,7 +11758,6 @@
         "Natalie Wish": 1,
         "Neil Gaiman": 93,
         "Neon Yang": 2,
-        "None": 3,
         "Oliver Potzsch": 1,
         "Olivia Atwater": 84,
         "Olivia Wildenstein": 2,
@@ -12041,7 +12039,6 @@
         "Nine Princes in Amber /// Roger Zelazny": 2,
         "Ninefox Gambit /// Yoon Ha Lee": 2,
         "Nona the Ninth /// Tamsyn Muir": 2,
-        "None /// None": 3,
         "Oak King Holly King /// Sebastian Nothwell": 4,
         "Ogres /// Adrian Tchaikovsky": 1,
         "One Last Stop /// Casey McQuiston": 2,
@@ -12353,7 +12350,6 @@
         "Nicky Drayden": 1,
         "Nicola Griffith": 3,
         "Nino Cipri": 1,
-        "None": 3,
         "Norton Juster": 1,
         "Octavia E. Butler": 16,
         "Olivia Atwater": 4,
@@ -12740,7 +12736,6 @@
         "Ninefox Gambit /// Yoon Ha Lee": 3,
         "Ninth House /// Leigh Bardugo": 1,
         "Nona the Ninth /// Tamsyn Muir": 1,
-        "None /// None": 3,
         "Not Dead Yet /// Jenn Burke": 1,
         "Notes from the Burning Age /// Claire North": 1,
         "Now, Then, and Everywhen /// Rysa Walker": 1,
@@ -13408,7 +13403,6 @@
         "Nicky Drayden": 1,
         "Nicole Jarvis": 1,
         "Nihad Sirees": 1,
-        "None": 3,
         "Octavia E. Butler": 12,
         "Orson Scott Card": 2,
         "Oscar Wilde": 2,
@@ -13765,7 +13759,6 @@
         "Night of Knives /// Ian C. Esslemont": 1,
         "No Gods for Drowning /// Hailey Piper": 1,
         "Nona the Ninth /// Tamsyn Muir": 1,
-        "None /// None": 6,
         "Obsidian Island /// Arden Powell": 1,
         "Odder Still /// D.N. Bryn": 1,
         "Of Sea and Shadow /// Will Wight": 1,
@@ -14226,7 +14219,6 @@
         "Nicky Drayden": 1,
         "Nicolas Lietzau": 1,
         "Nnedi Okorafor": 1,
-        "None": 6,
         "Octavia E. Butler": 2,
         "Oleg Sapphire": 1,
         "P. Dj\u00e8l\u00ed Clark": 1,
@@ -14501,7 +14493,6 @@
         "Naamah's Blessing /// Jacqueline Carey": 1,
         "Naamah's Curse /// Jacqueline Carey": 1,
         "Naamah's Kiss /// Jacqueline Carey": 4,
-        "None /// None": 7,
         "Od Magic /// Patricia A. McKillip": 2,
         "Of War and Ruin /// Ryan Cahill": 2,
         "Of the Wild /// Elizabeth Wambheim": 1,
@@ -14854,7 +14845,6 @@
         "Nigel Findley": 1,
         "Nina Kiriki Hoffman": 1,
         "Nisha J. Tuli": 1,
-        "None": 7,
         "Nora Roberts": 1,
         "O.R. Melling": 1,
         "Olivia Samson": 3,
@@ -15098,7 +15088,6 @@
         "No Heart for a Thief /// James Lloyd Dulin": 1,
         "No Safe Haven /// James Lloyd Dulin": 1,
         "Nocturna /// Maya Motayne": 1,
-        "None /// None": 4,
         "North and South /// Gene Luen Yang": 1,
         "Notorious Sorcerer /// Davinia Evans": 4,
         "Oculta /// Maya Motayne": 1,
@@ -15478,7 +15467,6 @@
         "Naomi Novik": 3,
         "Naseem Jamnia": 2,
         "Neon Yang": 2,
-        "None": 4,
         "Olivie Blake": 1,
         "Pari Thomson": 1,
         "Patricia A. McKillip": 2,
@@ -15720,7 +15708,6 @@
         "Neom /// Lavie Tidhar": 2,
         "Network Effect /// Martha Wells": 31,
         "Ninefox Gambit /// Yoon Ha Lee": 1,
-        "None /// None": 9,
         "Noor /// Nnedi Okorafor": 1,
         "O Human Star /// Blue Delliquanti": 2,
         "Off Armageddon Reef /// David Weber": 1,
@@ -15990,7 +15977,6 @@
         "Nike Sulway": 2,
         "Nina Varela": 2,
         "Nnedi Okorafor": 2,
-        "None": 9,
         "ONE": 1,
         "Olga Ravn": 1,
         "P. Dj\u00e8l\u00ed Clark": 1,
@@ -16272,7 +16258,6 @@
         "No Man of Woman Born /// Ana Mardoll": 1,
         "No One Will Come Back For Us and Other Stories /// Premee Mohamed": 2,
         "No One Will Come Back for Us /// Premee Mohamed": 2,
-        "None /// None": 3,
         "Norse Mythology /// Neil Gaiman": 1,
         "North American Lake Monsters /// Nathan Ballingrud": 1,
         "Nova Hellas: Stories from Future Greece /// Francesca T. Barbini": 2,
@@ -16975,7 +16960,6 @@
         "Nisi Shawl": 9,
         "Nnedi Okorafor": 7,
         "Noel Verlag": 1,
-        "None": 3,
         "Norman Erikson Pasaribu": 1,
         "Octavia E. Butler": 1,
         "Oghenechovwe Donald Ekpeki": 4,
@@ -17527,7 +17511,6 @@
         "Ninth House /// Leigh Bardugo": 7,
         "No One Gets Out Alive /// Adam Nevill": 1,
         "Nona the Ninth /// Tamsyn Muir": 2,
-        "None /// None": 3,
         "North American Lake Monsters /// Nathan Ballingrud": 1,
         "Nuestra parte de noche /// Mariana Enr\u00edquez": 1,
         "Obsolescence: A Dark Sci-Fi, Fantasy, and Horror Anthology /// Alan Lastufka, Kristina Horner": 1,
@@ -17973,7 +17956,6 @@
         "Nick Cutter": 2,
         "Nick Horvath": 1,
         "Nicole Lesperance": 1,
-        "None": 3,
         "Norman Partridge": 1,
         "Octavia E. Butler": 2,
         "Olivia Atwater": 2,
@@ -18292,7 +18274,6 @@
         "Nightbitch /// Rachel Yoder": 2,
         "Ninth House /// Leigh Bardugo": 1,
         "No Gods, No Monsters /// Cadwell Turnbull": 1,
-        "None /// None": 3,
         "Nothing to See Here /// Kevin Wilson": 4,
         "Now She is Witch /// Kirsty Logan": 1,
         "OKPsyche /// Anya Johanna DeNiro": 1,
@@ -18804,7 +18785,6 @@
         "Nghi Vo": 7,
         "Nikki Erlick": 2,
         "Nina Allan": 1,
-        "None": 3,
         "Octavia E. Butler": 7,
         "Olga Grushin": 1,
         "Olga Tokarczuk": 1,
@@ -19116,7 +19096,6 @@
         "Night Watch on the Hinterlands /// K. Eason": 1,
         "Nightfall /// Will Elliott": 1,
         "Nine Princes in Amber /// Roger Zelazny": 4,
-        "None /// None": 3,
         "Not Another Vampire Book /// Cassandra Gannon": 3,
         "Oathbringer /// Brandon Sanderson": 1,
         "Of Feathers and Thorns /// Kit Vincent": 1,
@@ -19542,7 +19521,6 @@
         "Nicole Galland": 1,
         "Nikki St. Crowe": 1,
         "Nino Cipri": 6,
-        "None": 3,
         "Nora Roberts": 1,
         "Oli Jacobs": 1,
         "Olivia Atwater": 3,
@@ -19806,7 +19784,6 @@
         "Night Watch /// Terry Pratchett": 2,
         "No Gods for Drowning /// Hailey Piper": 2,
         "No Gods, No Monsters /// Cadwell Turnbull": 1,
-        "None /// None": 3,
         "Noor /// Nnedi Okorafor": 1,
         "Nothing to See Here /// Kevin Wilson": 2,
         "Of Books and Paper Dragons /// Vaela Denarr": 2,
@@ -20287,7 +20264,6 @@
         "Nikki Erlick": 2,
         "Nino Cipri": 6,
         "Nnedi Okorafor": 1,
-        "None": 3,
         "Olaf Stapledon": 1,
         "Olga Ravn": 2,
         "Olivia Atwater": 1,
@@ -20636,7 +20612,6 @@
         "Nine Goblins /// T. Kingfisher": 1,
         "No Gods, No Monsters /// Cadwell Turnbull": 1,
         "No Good Dragon Goes Unpunished /// Rachel Aaron": 1,
-        "None /// None": 4,
         "Norse Mythology /// Neil Gaiman": 1,
         "Not Before Sundown /// Johanna Sinisalo": 1,
         "Not Even Bones /// Rebecca Schaeffer": 1,
@@ -21092,7 +21067,6 @@
         "Nicki Pau Preto": 5,
         "Nicole Jarvis": 2,
         "Nnedi Okorafor": 2,
-        "None": 4,
         "Olivia Atwater": 1,
         "P. Dj\u00e8l\u00ed Clark": 2,
         "P.C. Hodgell": 1,
@@ -21396,7 +21370,6 @@
         "Mythos /// Stephen Fry": 1,
         "Necessity /// Jo Walton": 2,
         "Neon Gods /// Katee Robert": 2,
-        "None /// None": 4,
         "Norse Mythology /// Neil Gaiman": 12,
         "Northern Wrath /// Thilde Kold Holdt": 1,
         "Not So Stories /// David Thomas Moore": 1,
@@ -21836,7 +21809,6 @@
         "Nicola Griffith": 19,
         "Nikita Gill": 1,
         "Nikki Marmery": 1,
-        "None": 4,
         "Olesya Salnikova Gilmore": 3,
         "Oliver K. Langmead": 2,
         "Oliver Potzsch": 1,
@@ -22499,7 +22471,6 @@
         "Mysteries of Thorn Manor /// Margaret Rogerson": 3,
         "New Atlantis /// Lavie Tidhar": 1,
         "Nine Goblins /// T. Kingfisher": 1,
-        "None /// None": 3,
         "Nothing But the Rain /// Naomi Salman": 1,
         "Nothing but Blackened Teeth /// Cassandra Khaw": 2,
         "Oceanic /// Greg Egan": 1,
@@ -22753,7 +22724,6 @@
         "Witch in the Lighthouse /// Azalea Forrest": 1,
         "Wylding Hall /// Elizabeth Hand": 4,
         "Yellow Jessamine /// Caitlin Starling": 2,
-        "Yes /// None": 1,
         "You Always Cry At Endings /// S.J. Whitby": 1,
         "You Should Have Left /// Daniel Kehlmann": 1,
         "maybe this time (i'll be lucky) /// Butterfly": 1
@@ -22987,7 +22957,6 @@
         "Nils \u00d6dlund": 2,
         "Nino Cipri": 2,
         "Nnedi Okorafor": 8,
-        "None": 4,
         "Olga Ravn": 11,
         "Olivia Atwater": 1,
         "P. Dj\u00e8l\u00ed Clark": 10,
@@ -23225,7 +23194,6 @@
         "Never and Again /// Justina Ireland": 1,
         "Ninefox Gambit /// Yoon Ha Lee": 15,
         "No Gods, No Monsters /// Cadwell Turnbull": 1,
-        "None /// None": 3,
         "Noor /// Nnedi Okorafor": 14,
         "Nothing but Blackened Teeth /// Cassandra Khaw": 1,
         "Nova /// Samuel R. Delany": 5,
@@ -23630,7 +23598,6 @@
         "Nisi Shawl": 1,
         "Nnedi Okorafor": 41,
         "NoViolet Bulawayo": 1,
-        "None": 3,
         "Octavia E. Butler": 78,
         "Odour Okwiri": 1,
         "Okina Baba": 1,
@@ -23990,7 +23957,6 @@
         "Night Angel Nemesis /// Brent Weeks": 2,
         "Nightborn: Coldfire Rising /// C.S. Friedman": 1,
         "No Edges: Swahili Stories /// Fatma Shafii, Lusajo Mwaikenda Israel, Mwas Mahugu, Clara Momanyi, Fadhy Mtanga, Katama G.C. Mkangi, Lilian Mbaga, Euphrase Kezilahabi": 1,
-        "None /// None": 3,
         "Nothing But the Rain /// Naomi Salman": 1,
         "Observer /// Robert Lanza, Nancy Kress": 1,
         "Of Blood, Bones, and Truth /// T.M. Ledvina": 1,
@@ -24409,7 +24375,6 @@
         "Nicholas Binge": 2,
         "Nick Fuller Googins": 1,
         "Nick Harkaway": 2,
-        "None": 3,
         "P. Dj\u00e8l\u00ed Clark": 1,
         "Pascale Lacelle": 1,
         "Patrick Rothfuss": 1,
@@ -24736,7 +24701,6 @@
         "New Spring /// Robert Jordan": 2,
         "Night Music /// Tobias F. Cabral": 1,
         "No Country for Old Men /// Cormac McCarthy": 1,
-        "None /// None": 3,
         "Not Really the Prisoner of Zenda /// Joel Rosenberg": 1,
         "Nous les dieux /// Bernard Werber": 1,
         "Od Magic /// Patricia A. McKillip": 4,
@@ -25219,7 +25183,6 @@
         "Neil Gaiman": 34,
         "Ninni Holmqvist": 1,
         "Nnedi Okorafor": 1,
-        "None": 3,
         "Norman Partridge": 1,
         "Octavia E. Butler": 3,
         "Oliver Bowden": 1,
@@ -25440,7 +25403,6 @@
         "Ninefox Gambit /// Yoon Ha Lee": 1,
         "No Gods for Drowning /// Hailey Piper": 3,
         "Nona the Ninth /// Tamsyn Muir": 4,
-        "None /// None": 4,
         "Not Good for Maidens /// Tori Bovalino": 1,
         "Oathbound Healer /// Selkie Myth": 1,
         "Ocean's Echo /// Everina Maxwell": 4,
@@ -25824,7 +25786,6 @@
         "Nicholas Eames": 1,
         "Nikki Erlick": 1,
         "Nisha J. Tuli": 1,
-        "None": 4,
         "Nora Roberts": 1,
         "Olivia Atwater": 2,
         "Olivie Blake": 1,
@@ -26316,7 +26277,6 @@
         "No Heart for a Thief /// James Lloyd Dulin": 1,
         "No Land for Heroes /// Cal Black": 1,
         "No Man Left Behind /// W.R. Gingell": 1,
-        "None /// None": 3,
         "Oak King Holly King /// Sebastian Nothwell": 1,
         "Object Impermenance /// Margery Bayne": 1,
         "Obsidian: Awakening /// Sienna Frost": 1,
@@ -27033,7 +26993,6 @@
         "Niranjan K": 1,
         "Nisha J. Tuli": 3,
         "Nisi Shawl": 1,
-        "None": 3,
         "Olga Wojtas": 1,
         "Olivia Atwater": 12,
         "P.L. McMillan": 1,
@@ -27473,7 +27432,6 @@
         "Network Effect /// Martha Wells": 2,
         "No Good Dragon Goes Unpunished /// Rachel Aaron": 1,
         "Nona the Ninth /// Tamsyn Muir": 13,
-        "None /// None": 13,
         "Oath of Gold /// Elizabeth Moon": 1,
         "Oathbringer /// Brandon Sanderson": 1,
         "Obsidian Butterfly /// Laurell K. Hamilton": 1,
@@ -28026,7 +27984,6 @@
         "Nicole Galland": 2,
         "Nicole Kornher-Stace": 1,
         "Nnedi Okorafor": 1,
-        "None": 13,
         "Oliver Bowden": 1,
         "Olivia Atwater": 2,
         "Olivie Blake": 7,
@@ -28266,7 +28223,6 @@
         "M.F.K. /// Nilah Magruder": 1,
         "Necropolis /// Jordan L. Hawk": 1,
         "Neom /// Lavie Tidhar": 13,
-        "None /// None": 3,
         "One Thousand and One Nights /// Hanan al-Shakyh": 1,
         "Palestine +100 /// Basma Ghalayini": 2,
         "Pearls on a Branch: Oral Tales /// Najla Khoury": 1,
@@ -28475,7 +28431,6 @@
         "Nazl\u0131 Eray": 1,
         "Nikki Marmery": 2,
         "Nilah Magruder": 1,
-        "None": 3,
         "Oliver Bowden": 1,
         "P. Dj\u00e8l\u00ed Clark": 62,
         "Paulo Coelho": 2,
@@ -28747,7 +28702,6 @@
         "Nightcrawler /// Roberto Aguirre-Sacasa": 1,
         "Nimona /// N.D. Stevenson": 8,
         "Nona the Ninth /// Tamsyn Muir": 1,
-        "None /// None": 3,
         "Not All Himbos Wear Capes /// C. Rochelle": 9,
         "Not Your Backup /// C.B. Lee": 1,
         "Not Your Sidekick /// C.B. Lee": 7,
@@ -29081,7 +29035,6 @@
         "Nick Harkaway": 9,
         "Nicole Goux": 1,
         "Nnedi Okorafor": 2,
-        "None": 3,
         "ONE": 3,
         "Olivie Blake": 2,
         "P.K. Gardner": 1,
@@ -29340,7 +29293,6 @@
         "My Lady Jane /// Cynthia Hand, Brodi Ashton, Jodi Meadows": 1,
         "Mystic and Rider /// Sharon Shinn": 1,
         "Nona the Ninth /// Tamsyn Muir": 5,
-        "None /// None": 3,
         "Once Upon a Tome: The Misadventures of a Rare Bookseller /// Oliver Darkshire": 1,
         "Padawan /// Kiersten White": 1,
         "Page /// Tamora Pierce": 2,
@@ -29897,7 +29849,6 @@
         "Nick Cole": 1,
         "Nicki Pau Preto": 2,
         "Nina Croft": 1,
-        "None": 3,
         "Obert Skye": 1,
         "Octavia E. Butler": 6,
         "Oliver Darkshire": 1,
@@ -30455,7 +30406,6 @@
         "Nettle & Bone /// T. Kingfisher": 1,
         "Night of Madness /// Lawrence Watt-Evans": 1,
         "Nightsworn /// Casey White": 1,
-        "None /// None": 3,
         "Once Upon a Broken Heart /// Stephanie Garber": 4,
         "One Dark Window /// Rachel Gillig": 3,
         "Our Divine Mischief /// Hanna C. Howard": 1,
@@ -31002,7 +30952,6 @@
         "Neil Gaiman": 2,
         "Nicole Kornher-Stace": 1,
         "Nnedi Okorafor": 1,
-        "None": 3,
         "Norton Juster": 2,
         "Obert Skye": 1,
         "Olivia Stephens": 2,
@@ -34086,7 +34035,6 @@
     "No Safe Haven /// James Lloyd Dulin": 1,
     "Nocturna /// Maya Motayne": 1,
     "Nona the Ninth /// Tamsyn Muir": 9,
-    "None /// None": 25,
     "Noor /// Nnedi Okorafor": 3,
     "Norse Mythology /// Neil Gaiman": 3,
     "North American Lake Monsters /// Nathan Ballingrud": 2,
@@ -37756,7 +37704,6 @@
     "Year of the Reaper /// Makiia Lucier": 1,
     "Yellow Jessamine /// Caitlin Starling": 2,
     "Yellowface /// R.F. Kuang": 1,
-    "Yes /// None": 1,
     "Yokohama Kaidashi Kikou /// Hitoshi Ashinano": 1,
     "You Always Cry At Endings /// S.J. Whitby": 1,
     "You Can Be a Cyborg When You're Older /// Richard Roberts": 1,
@@ -40670,7 +40617,6 @@
     "Nnedi Okorafor": 11,
     "NoViolet Bulawayo": 1,
     "Noel Verlag": 1,
-    "None": 25,
     "Nora Roberts": 3,
     "Norman Erikson Pasaribu": 1,
     "Norman Partridge": 2,
@@ -45393,7 +45339,7 @@
     "411": 7,
     "412": 1,
     "413": 17,
-    "414": 2,
+    "414": 1,
     "415": 0,
     "416": 5,
     "417": 3,
@@ -45971,8 +45917,7 @@
     "96": 5,
     "97": 4,
     "98": 5,
-    "99": 3,
-    "None": 0
+    "99": 3
   },
   "hard_mode_by_card": {
     "1": 18,
@@ -46903,8 +46848,7 @@
     "96": 25,
     "97": 16,
     "98": 19,
-    "99": 14,
-    "None": 3
+    "99": 14
   },
   "hard_mode_by_square": {
     "A Book from r/Fantasy's Top LGBTQIA List with 10 votes or less 2022": 1,
@@ -46912,7 +46856,7 @@
     "Angels and Demons": 508,
     "Award Finalist, But Not Won": 1,
     "Book Club or Readalong Book": 288,
-    "Bottom of the TBR": 899,
+    "Bottom of the TBR": 896,
     "Cat Squasher 2021": 2,
     "Coastal Setting": 642,
     "Comfort Read 2021": 2,
@@ -49851,7 +49795,6 @@
     "Nnedi Okorafor": 15,
     "NoViolet Bulawayo": 1,
     "Noel Verlag": 1,
-    "None": 2,
     "Nora Roberts": 3,
     "Norman Erikson Pasaribu": 1,
     "Norman Partridge": 1,
@@ -50932,16 +50875,16 @@
   },
   "overall_author_stats": {
     "gender_count": {
-      "Unknown": 23763
+      "Unknown": 23660
     },
     "race_count": {
-      "Unknown": 23763
+      "Unknown": 23660
     },
     "queer_count": {
-      "null": 23763
+      "null": 23660
     },
     "nationality_count": {
-      "Unknown": 23763
+      "Unknown": 23660
     }
   },
   "square_author_stats": {
@@ -51185,16 +51128,16 @@
     },
     "Angels and Demons": {
       "gender_count": {
-        "Unknown": 992
+        "Unknown": 989
       },
       "race_count": {
-        "Unknown": 992
+        "Unknown": 989
       },
       "queer_count": {
-        "null": 992
+        "null": 989
       },
       "nationality_count": {
-        "Unknown": 992
+        "Unknown": 989
       }
     },
     "Anti-Hero 2022": {
@@ -51353,16 +51296,16 @@
     },
     "Book Club or Readalong Book": {
       "gender_count": {
-        "Unknown": 893
+        "Unknown": 890
       },
       "race_count": {
-        "Unknown": 893
+        "Unknown": 890
       },
       "queer_count": {
-        "null": 893
+        "null": 890
       },
       "nationality_count": {
-        "Unknown": 893
+        "Unknown": 890
       }
     },
     "Books about Books 2020": {
@@ -51381,16 +51324,16 @@
     },
     "Bottom of the TBR": {
       "gender_count": {
-        "Unknown": 912
+        "Unknown": 909
       },
       "race_count": {
-        "Unknown": 912
+        "Unknown": 909
       },
       "queer_count": {
-        "null": 912
+        "null": 909
       },
       "nationality_count": {
-        "Unknown": 912
+        "Unknown": 909
       }
     },
     "Canadian Author, 2020": {
@@ -51493,16 +51436,16 @@
     },
     "Coastal Setting": {
       "gender_count": {
-        "Unknown": 931
+        "Unknown": 925
       },
       "race_count": {
-        "Unknown": 931
+        "Unknown": 925
       },
       "queer_count": {
-        "null": 931
+        "null": 925
       },
       "nationality_count": {
-        "Unknown": 931
+        "Unknown": 925
       }
     },
     "Color Title (2020)": {
@@ -51591,16 +51534,16 @@
     },
     "Druid": {
       "gender_count": {
-        "Unknown": 866
+        "Unknown": 859
       },
       "race_count": {
-        "Unknown": 866
+        "Unknown": 859
       },
       "queer_count": {
-        "null": 866
+        "null": 859
       },
       "nationality_count": {
-        "Unknown": 866
+        "Unknown": 859
       }
     },
     "Dying Earth 2017": {
@@ -51619,16 +51562,16 @@
     },
     "Elemental Magic": {
       "gender_count": {
-        "Unknown": 929
+        "Unknown": 925
       },
       "race_count": {
-        "Unknown": 929
+        "Unknown": 925
       },
       "queer_count": {
-        "null": 929
+        "null": 925
       },
       "nationality_count": {
-        "Unknown": 929
+        "Unknown": 925
       }
     },
     "Family Matters 2022": {
@@ -51717,16 +51660,16 @@
     },
     "Features Robots": {
       "gender_count": {
-        "Unknown": 913
+        "Unknown": 904
       },
       "race_count": {
-        "Unknown": 913
+        "Unknown": 904
       },
       "queer_count": {
-        "null": 913
+        "null": 904
       },
       "nationality_count": {
-        "Unknown": 913
+        "Unknown": 904
       }
     },
     "Featuring a Ghost 2020": {
@@ -51801,16 +51744,16 @@
     },
     "Five Short Stories": {
       "gender_count": {
-        "Unknown": 1232
+        "Unknown": 1229
       },
       "race_count": {
-        "Unknown": 1232
+        "Unknown": 1229
       },
       "queer_count": {
-        "null": 1232
+        "null": 1229
       },
       "nationality_count": {
-        "Unknown": 1232
+        "Unknown": 1229
       }
     },
     "Forest Setting": {
@@ -52095,16 +52038,16 @@
     },
     "Horror": {
       "gender_count": {
-        "Unknown": 923
+        "Unknown": 920
       },
       "race_count": {
-        "Unknown": 923
+        "Unknown": 920
       },
       "queer_count": {
-        "null": 923
+        "null": 920
       },
       "nationality_count": {
-        "Unknown": 923
+        "Unknown": 920
       }
     },
     "LGBTQIA LIST 2022": {
@@ -52207,16 +52150,16 @@
     },
     "Magical Realism": {
       "gender_count": {
-        "Unknown": 902
+        "Unknown": 899
       },
       "race_count": {
-        "Unknown": 902
+        "Unknown": 899
       },
       "queer_count": {
-        "null": 902
+        "null": 899
       },
       "nationality_count": {
-        "Unknown": 902
+        "Unknown": 899
       }
     },
     "Media Tie In 2019": {
@@ -52291,30 +52234,30 @@
     },
     "Multiverses": {
       "gender_count": {
-        "Unknown": 951
+        "Unknown": 948
       },
       "race_count": {
-        "Unknown": 951
+        "Unknown": 948
       },
       "queer_count": {
-        "null": 951
+        "null": 948
       },
       "nationality_count": {
-        "Unknown": 951
+        "Unknown": 948
       }
     },
     "Mundane Jobs": {
       "gender_count": {
-        "Unknown": 929
+        "Unknown": 926
       },
       "race_count": {
-        "Unknown": 929
+        "Unknown": 926
       },
       "queer_count": {
-        "null": 929
+        "null": 926
       },
       "nationality_count": {
-        "Unknown": 929
+        "Unknown": 926
       }
     },
     "Mystery Plot": {
@@ -52347,30 +52290,30 @@
     },
     "Mythical Beasts": {
       "gender_count": {
-        "Unknown": 924
+        "Unknown": 920
       },
       "race_count": {
-        "Unknown": 924
+        "Unknown": 920
       },
       "queer_count": {
-        "null": 924
+        "null": 920
       },
       "nationality_count": {
-        "Unknown": 924
+        "Unknown": 920
       }
     },
     "Myths and Retellings": {
       "gender_count": {
-        "Unknown": 932
+        "Unknown": 928
       },
       "race_count": {
-        "Unknown": 932
+        "Unknown": 928
       },
       "queer_count": {
-        "null": 932
+        "null": 928
       },
       "nationality_count": {
-        "Unknown": 932
+        "Unknown": 928
       }
     },
     "Name in Title, 2022": {
@@ -53019,30 +52962,30 @@
     },
     "Novella": {
       "gender_count": {
-        "Unknown": 949
+        "Unknown": 945
       },
       "race_count": {
-        "Unknown": 949
+        "Unknown": 945
       },
       "queer_count": {
-        "null": 949
+        "null": 945
       },
       "nationality_count": {
-        "Unknown": 949
+        "Unknown": 945
       }
     },
     "POC Author": {
       "gender_count": {
-        "Unknown": 948
+        "Unknown": 945
       },
       "race_count": {
-        "Unknown": 948
+        "Unknown": 945
       },
       "queer_count": {
-        "null": 948
+        "null": 945
       },
       "nationality_count": {
-        "Unknown": 948
+        "Unknown": 945
       }
     },
     "Pre-Tolkien 2015": {
@@ -53173,20 +53116,6 @@
     },
     "Published in 2023": {
       "gender_count": {
-        "Unknown": 921
-      },
-      "race_count": {
-        "Unknown": 921
-      },
-      "queer_count": {
-        "null": 921
-      },
-      "nationality_count": {
-        "Unknown": 921
-      }
-    },
-    "Published in the 2000s": {
-      "gender_count": {
         "Unknown": 918
       },
       "race_count": {
@@ -53199,18 +53128,32 @@
         "Unknown": 918
       }
     },
-    "Queernorm Setting": {
+    "Published in the 2000s": {
       "gender_count": {
-        "Unknown": 908
+        "Unknown": 915
       },
       "race_count": {
-        "Unknown": 908
+        "Unknown": 915
       },
       "queer_count": {
-        "null": 908
+        "null": 915
       },
       "nationality_count": {
-        "Unknown": 908
+        "Unknown": 915
+      }
+    },
+    "Queernorm Setting": {
+      "gender_count": {
+        "Unknown": 904
+      },
+      "race_count": {
+        "Unknown": 904
+      },
+      "queer_count": {
+        "null": 904
+      },
+      "nationality_count": {
+        "Unknown": 904
       }
     },
     "Revenge 2021": {
@@ -53439,30 +53382,30 @@
     },
     "Self Published or Indie Publisher": {
       "gender_count": {
-        "Unknown": 927
+        "Unknown": 924
       },
       "race_count": {
-        "Unknown": 927
+        "Unknown": 924
       },
       "queer_count": {
-        "null": 927
+        "null": 924
       },
       "nationality_count": {
-        "Unknown": 927
+        "Unknown": 924
       }
     },
     "Sequel": {
       "gender_count": {
-        "Unknown": 948
+        "Unknown": 935
       },
       "race_count": {
-        "Unknown": 948
+        "Unknown": 935
       },
       "queer_count": {
-        "null": 948
+        "null": 935
       },
       "nationality_count": {
-        "Unknown": 948
+        "Unknown": 935
       }
     },
     "Set In Asia (2021)": {
@@ -53565,16 +53508,16 @@
     },
     "Set in the Middle East": {
       "gender_count": {
-        "Unknown": 893
+        "Unknown": 890
       },
       "race_count": {
-        "Unknown": 893
+        "Unknown": 890
       },
       "queer_count": {
-        "null": 893
+        "null": 890
       },
       "nationality_count": {
-        "Unknown": 893
+        "Unknown": 890
       }
     },
     "Shape-shifters 2022": {
@@ -53719,30 +53662,30 @@
     },
     "Superheroes": {
       "gender_count": {
-        "Unknown": 951
+        "Unknown": 948
       },
       "race_count": {
-        "Unknown": 951
+        "Unknown": 948
       },
       "queer_count": {
-        "null": 951
+        "null": 948
       },
       "nationality_count": {
-        "Unknown": 951
+        "Unknown": 948
       }
     },
     "Title with a Title": {
       "gender_count": {
-        "Unknown": 927
+        "Unknown": 924
       },
       "race_count": {
-        "Unknown": 927
+        "Unknown": 924
       },
       "queer_count": {
-        "null": 927
+        "null": 924
       },
       "nationality_count": {
-        "Unknown": 927
+        "Unknown": 924
       }
     },
     "Title: _ of _ 2021": {
@@ -54041,16 +53984,16 @@
     },
     "Young Adult": {
       "gender_count": {
-        "Unknown": 927
+        "Unknown": 924
       },
       "race_count": {
-        "Unknown": 927
+        "Unknown": 924
       },
       "queer_count": {
-        "null": 927
+        "null": 924
       },
       "nationality_count": {
-        "Unknown": 927
+        "Unknown": 924
       }
     }
   }

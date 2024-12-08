@@ -36,6 +36,18 @@ def none_divide(num: Optional[SupportsFloat], denom: Optional[SupportsFloat]) ->
     return float(num) / float(denom)
 
 
+def none_subtract(lhs: Optional[SupportsFloat], rhs: Optional[SupportsFloat]) -> Optional[float]:
+    if lhs is None or rhs is None:
+        return None
+    return float(lhs) - float(rhs)
+
+
+def none_multiply(lhs: Optional[SupportsFloat], rhs: Optional[SupportsFloat]) -> Optional[float]:
+    if lhs is None or rhs is None:
+        return None
+    return float(lhs) * float(rhs)
+
+
 def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
     """Plot distributions of interest"""
 
@@ -73,6 +85,8 @@ def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
     squares_vs_cards = []
     total_vs_unique_stories = []
     total_vs_unique_authors = []
+    hard_mode_square_per_noncard_counts = []
+    hard_mode_square_per_card_counts = []
     for year, stats in yoy_data.items():
         stats_path = YearlyDataPaths(year).output_stats
         if stats_path.exists():
@@ -127,6 +141,15 @@ def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
             none_divide(stats.hard_mode_squares, stats.total_square_count)
         )
         hard_mode_card_counts.append(none_divide(stats.hard_mode_cards, stats.total_card_count))
+        hard_mode_square_per_noncard_counts.append(
+            none_divide(
+                none_subtract(stats.hard_mode_squares, none_multiply(stats.hard_mode_cards, 25)),
+                none_subtract(stats.total_card_count, stats.hard_mode_cards),
+            )
+        )
+        hard_mode_square_per_card_counts.append(
+            none_divide(stats.hard_mode_squares, stats.total_card_count)
+        )
         hero_mode_card_counts.append(none_divide(stats.hero_mode_cards, stats.total_card_count))
         misspelling_counts.append(
             none_divide(stats.total_misspellings, total_books_read_more_than_once)
@@ -134,15 +157,15 @@ def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
         participants_vs_cards.append(stats.total_card_count / stats.total_participant_count)
         squares_vs_cards.append(none_divide(stats.total_square_count, stats.total_card_count))
         total_vs_unique_stories.append(
-            none_divide(stats.total_story_count, stats.unique_story_count)
+            none_divide(stats.unique_story_count, stats.total_story_count)
         )
         total_vs_unique_authors.append(
-            none_divide(stats.total_author_count, stats.unique_author_count)
+            none_divide(stats.unique_author_count, stats.total_author_count)
         )
 
     plt.figure(figsize=(16, 9))
     plt.suptitle(
-        "title",
+        "Different trends trend differently",
         fontsize=26,
         weight="bold",
         alpha=0.75,
@@ -208,7 +231,24 @@ def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
 
     plt.figure(figsize=(16, 9))
     plt.suptitle(
-        "title",
+        "Is hard mode getting easier?",
+        fontsize=26,
+        weight="bold",
+        alpha=0.75,
+        wrap=True,
+    )
+    plt.title(
+        "Hard mode squares per non-HM card",
+        fontsize=19,
+        alpha=0.85,
+        wrap=True,
+    )
+    plt.plot(years, hard_mode_square_per_noncard_counts)  # type: ignore[arg-type]
+    plt.savefig(output_root / "hard_mode_noncard_change.png")
+
+    plt.figure(figsize=(16, 9))
+    plt.suptitle(
+        "More people are reviewing what they read",
         fontsize=26,
         weight="bold",
         alpha=0.75,
@@ -221,7 +261,6 @@ def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
         wrap=True,
     )
     plt.plot(years, hero_mode_card_counts)  # type: ignore[arg-type]
-    plt.ylim(-0.01, None)
     plt.savefig(output_root / "hero_mode_change.png")
 
     plt.figure(figsize=(16, 9))
@@ -243,7 +282,7 @@ def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
 
     plt.figure(figsize=(16, 9))
     plt.suptitle(
-        "title",
+        "Blackout has been common since the beginning",
         fontsize=26,
         weight="bold",
         alpha=0.75,
@@ -260,14 +299,14 @@ def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
 
     plt.figure(figsize=(16, 9))
     plt.suptitle(
-        "title",
+        "Uniqueness has decreased",
         fontsize=26,
         weight="bold",
         alpha=0.75,
         wrap=True,
     )
     plt.title(
-        "Total vs unique stories and authors over time",
+        "Unique vs total stories and authors over time",
         fontsize=19,
         alpha=0.85,
         wrap=True,
@@ -297,7 +336,7 @@ def create_yearly_plots(bingo_stats: BingoStatistics, output_root: Path, show_pl
 
     plot_card_hist(
         counter=bingo_stats.incomplete_cards,
-        title="Read over three rows, probably read a whole card",
+        title="Read more than a few rows, probably read a whole card",
         subtitle="Number of cards with each count of incomplete squares",
         filepath=output_root / "per_card_incompletes.png",
     )
@@ -377,7 +416,7 @@ def plot_count_hist(
 ) -> None:
     """Plot histogram of unique values"""
 
-    edges = np.arange(0, counter.most_common(1)[0][1], 10)
+    edges = np.arange(0, counter.most_common(1)[0][1] + 10, 10)
     hist, _ = np.histogram(list(counter.values()), bins=edges)
 
     fig, (axis1, axis2) = plt.subplots(2, 1, sharex=True, figsize=(16, 9))
