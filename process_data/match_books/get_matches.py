@@ -137,7 +137,7 @@ def get_possible_book_matches(
 
 
 def get_possible_author_matches(
-    books: frozenset[Author],
+    authors: frozenset[Author],
     match_score: int,
     rescan_keys: bool,
     known_states: RecordedDupes,
@@ -145,7 +145,7 @@ def get_possible_author_matches(
 ) -> None:
     """Get possible matches for un-checked authors"""
     unscanned_authors = set(
-        books
+        authors
         - (
             set(known_states.author_dupes.keys())
             | set().union(*(known_states.author_dupes.values()))
@@ -158,8 +158,13 @@ def get_possible_author_matches(
         unscanned_authors |= best_authors
         non_dupe_str = f", of which {len(best_authors)} are being rescanned"
 
+    total_to_scan = len(unscanned_authors)
+    count = 0
     print(f"Scanning {len(unscanned_authors)} unscanned authors{non_dupe_str}.")
     while len(unscanned_authors) > 0:
+        count += 1
+        print()
+        print(f"{count}/{total_to_scan}")
         new_author = unscanned_authors.pop()
 
         process_new_pair(

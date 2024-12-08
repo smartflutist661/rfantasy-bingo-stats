@@ -24,6 +24,8 @@ HardModeCol = NewType("HardModeCol", str)
 
 CardID = NewType("CardID", str)
 
+DistName = NewType("DistName", str)
+
 # These are aliases for convenience
 TitleAuthor = tuple[Title, Author]
 TitleAuthorHMCols = tuple[TitleCol, AuthorCol, HardModeCol]

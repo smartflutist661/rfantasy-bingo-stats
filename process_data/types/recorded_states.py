@@ -46,6 +46,16 @@ class RecordedDupes:
             }
         )
 
+    def get_author_dedupe_map(self) -> Mapping[Author, Author]:
+        """Reverse the book dupes to get bad values as keys"""
+        return MAP(
+            {
+                dedupe_author: primary_author
+                for primary_author, dedupe_authors in self.author_dupes.items()
+                for dedupe_author in dedupe_authors
+            }
+        )
+
     @classmethod
     def from_data(cls, data: Any, skip_updates: bool = False) -> RecordedDupes:
         """Restore from JSON data"""

@@ -18,13 +18,6 @@ from typing import (
     cast,
 )
 
-from process_data.types.utils import (
-    author_counter_from_data,
-    book_counter_from_data,
-    card_id_counter_from_data,
-    square_name_counter_from_data,
-)
-
 from ..data.current import CUSTOM_SEPARATOR
 from .defined_types import (
     Author,
@@ -35,6 +28,10 @@ from .defined_types import (
 from .unique_statistics import UniqueStatistics
 from .utils import (
     AnyData,
+    author_counter_from_data,
+    book_counter_from_data,
+    card_id_counter_from_data,
+    square_name_counter_from_data,
     to_data,
 )
 
@@ -58,6 +55,10 @@ class BingoStatistics:
     unique_squares_by_author: Counter[Author]
     bad_spellings_by_card: Counter[CardID]
     bad_spellings_by_book: Counter[Book]
+    card_uniques: Counter[CardID]
+    hard_mode_by_card: Counter[CardID]
+    hard_mode_by_square: Counter[SquareName]
+    books_per_author: Counter[Author]
 
     @classmethod
     def from_data(cls, data: Any) -> BingoStatistics:
@@ -96,6 +97,10 @@ class BingoStatistics:
             unique_squares_by_author=author_counter_from_data(data["unique_squares_by_author"]),
             bad_spellings_by_card=card_id_counter_from_data(data["bad_spellings_by_card"]),
             bad_spellings_by_book=book_counter_from_data(data["bad_spellings_by_book"]),
+            card_uniques=card_id_counter_from_data(data["card_uniques"]),
+            hard_mode_by_card=card_id_counter_from_data(data["hard_mode_by_card"]),
+            hard_mode_by_square=square_name_counter_from_data(data["hard_mode_by_square"]),
+            books_per_author=author_counter_from_data(data["books_per_author"]),
         )
 
     def to_data(self) -> dict[str, Any]:

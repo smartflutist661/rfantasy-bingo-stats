@@ -5,6 +5,8 @@ Created on Apr 7, 2023
 """
 from collections import Counter
 
+import numpy as np
+
 from ..data.current import (
     CUSTOM_SEPARATOR,
     OUTPUT_MD_FILEPATH,
@@ -34,18 +36,55 @@ def format_square(square_name: SquareName) -> str:
 def format_top_book_counts(unique_books: Counter[Book], top_n: int = 10) -> str:
     """Format counts of top N unique reads"""
     book_count_strs = []
-    for book, count in unique_books.most_common(top_n):
-        book_count_strs.append(f"* {format_book(book)}, read {count} times")
+    last_count = -1
+    place_count = 0
+    cur_ties = []
+    for book, count in unique_books.most_common():
+        if last_count == count:
+            cur_ties.append(format_book(book))
+        else:
+            if len(cur_ties) == 1:
+                book_count_strs.append("- " + cur_ties[0] + f", read {last_count} times")
+            elif len(cur_ties) > 1:
+                book_count_strs.append(
+                    "- TIE: " + " and ".join(cur_ties) + f", read {last_count} times"
+                )
+
+            place_count += 1
+            if place_count > top_n:
+                break
+
+            cur_ties = []
+            cur_ties.append(format_book(book))
+
+        last_count = count
     return "\n".join(book_count_strs)
 
 
 def format_bottom_square_counts(bingo_stats: BingoStatistics, bottom_n: int = 3) -> str:
     """Format most-incomplete squares"""
     incomplete_square_strs = []
-    for incomplete_square, blank_count in bingo_stats.incomplete_squares.most_common(bottom_n):
-        incomplete_square_strs.append(
-            f"{format_square(incomplete_square)}, blank on {blank_count} cards"
-        )
+    last_count = -1
+    place_count = 0
+    cur_ties = []
+    for incomplete_square, count in bingo_stats.incomplete_squares.most_common():
+        if last_count == count:
+            cur_ties.append(format_square(incomplete_square))
+        else:
+            if len(cur_ties) > 1:
+                incomplete_square_strs.append(
+                    " and ".join(cur_ties) + f", blank on {last_count} cards"
+                )
+            elif len(cur_ties) == 1:
+                incomplete_square_strs.append("".join(cur_ties) + f", blank on {last_count} cards")
+            cur_ties = []
+            place_count += 1
+            if place_count > bottom_n:
+                break
+
+            cur_ties.append(format_square(incomplete_square))
+
+        last_count = count
     return "; ".join(incomplete_square_strs)
 
 
@@ -80,10 +119,31 @@ def format_favorite_square(bingo_stats: BingoStatistics) -> str:
 def format_most_subbed_squares(subbed_squares: Counter[SquareName], top_n: int = 3) -> str:
     """Format the sqaure subbed most often"""
     subbed_square_strs = []
-    for subbed_square, subbed_count in subbed_squares.most_common(top_n):
-        subbed_square_strs.append(
-            f"{format_square(subbed_square)}, substituted on {subbed_count} cards"
-        )
+    last_count = -1
+    place_count = 0
+    cur_ties = []
+    for subbed_square, count in subbed_squares.most_common():
+        if last_count == count:
+            cur_ties.append(format_square(subbed_square))
+        else:
+            if len(cur_ties) > 1:
+                subbed_square_strs.append(
+                    " and ".join(cur_ties) + f", substituted on {last_count} cards"
+                )
+            elif len(cur_ties) == 1:
+                subbed_square_strs.append(
+                    "".join(cur_ties) + f", substituted on {last_count} cards"
+                )
+            cur_ties = []
+
+            place_count += 1
+            if place_count > top_n:
+                break
+
+            cur_ties.append(format_square(subbed_square))
+
+        last_count = count
+
     return "; ".join(subbed_square_strs)
 
 
@@ -115,8 +175,28 @@ def format_least_subbed_square(subbed_squares: Counter[SquareName]) -> str:
 def format_top_author_counts(unique_authors: Counter[Author], top_n: int = 10) -> str:
     """Format counts of top N unique authors"""
     author_count_strs = []
-    for author, count in unique_authors.most_common(top_n):
-        author_count_strs.append(f"* {author}, read {count} times")
+    last_count = -1
+    place_count = 0
+    cur_ties = []
+    for author, count in unique_authors.most_common():
+        if last_count == count:
+            cur_ties.append(author)
+        else:
+            if len(cur_ties) == 1:
+                author_count_strs.append("- " + cur_ties[0] + f", read {last_count} times")
+            elif len(cur_ties) > 1:
+                author_count_strs.append(
+                    "- TIE: " + " and ".join(cur_ties) + f", read {last_count} times"
+                )
+
+            place_count += 1
+            if place_count > top_n:
+                break
+
+            cur_ties = []
+            cur_ties.append(author)
+
+        last_count = count
     return "\n".join(author_count_strs)
 
 
@@ -139,7 +219,8 @@ Skipped {bingo_stats.incomplete_squares[square_name]} times. Substituted {bingo_
 
 {format_top_author_counts(bingo_stats.square_uniques[square_name].unique_authors, 5)}
 
-**TOTAL**: {len(bingo_stats.square_uniques[square_name].unique_authors)} unique authors read."""
+**TOTAL**: {len(bingo_stats.square_uniques[square_name].unique_authors)} unique authors read.
+"""
 
 
 def format_all_squares(bingo_stats: BingoStatistics) -> str:
@@ -162,6 +243,24 @@ def format_farragini(bingo_stats: BingoStatistics) -> str:
                 square_name,
                 f"{calculate_gini_index(tuple(bingo_stats.square_uniques[square_name].unique_books.values()))*100:.1f}",
                 f"{calculate_gini_index(tuple(bingo_stats.square_uniques[square_name].unique_authors.values()))*100:.1f}",
+            )
+        )
+    return "\n".join("|" + "|".join(row) + "|" for row in table_strs)
+
+
+def format_square_table(bingo_stats: BingoStatistics) -> str:
+    """Format a table of FarraGini indices"""
+    table_strs: list[tuple[str, str, str]] = [
+        ("SQUARE", "% COMPLETE", "% HARD MODE"),
+        ("---------", ":---------:", ":---------:"),
+    ]
+    total_cards = bingo_stats.total_card_count
+    for square_name in SQUARE_NAMES.values():
+        table_strs.append(
+            (
+                square_name,
+                f"{100 - bingo_stats.incomplete_squares[square_name]/total_cards*100:.1f}",
+                f"{bingo_stats.hard_mode_by_square[square_name]/total_cards*100:.1f}",
             )
         )
     return "\n".join("|" + "|".join(row) + "|" for row in table_strs)
@@ -195,15 +294,130 @@ def format_subbed_stats(bingo_stats: BingoStatistics) -> str:
 {format_most_subbed_squares(subbed_in_squares, 3)}."""
 
 
+def format_dedupe_counts(bingo_stats: BingoStatistics) -> str:
+    """Format the counts of book variations"""
+    book_vars = []
+    cur_ties: list[str] = []
+    last_count = -1
+    place_count = 0
+    for book, count in bingo_stats.bad_spellings_by_book.most_common():
+        if last_count == count:
+            cur_ties.append(format_book(book))
+        else:
+            if len(cur_ties) == 1:
+                book_vars.append("- " + cur_ties[0] + f", with {last_count} variations")
+            elif len(cur_ties) > 1:
+                book_vars.append(
+                    "- TIE: " + " and ".join(cur_ties) + f", with {last_count} variations"
+                )
+
+            place_count += 1
+            if place_count > 10:
+                break
+
+            cur_ties = []
+            cur_ties.append(format_book(book))
+
+        last_count = count
+
+    book_str = "\n".join(book_vars)
+
+    return f"""The books with the most variation in title or author spellings were:
+
+{book_str}"""
+
+
+def format_most_square_books(unique_squares_by_book: Counter[Book]) -> str:
+    """Format the books used for the most different squares"""
+    book_strs = []
+    cur_ties: list[str] = []
+    last_count = -1
+    place_count = 0
+    for book, count in unique_squares_by_book.most_common():
+        if last_count == count:
+            cur_ties.append(format_book(book))
+        else:
+            if len(cur_ties) == 1:
+                book_strs.append("- " + cur_ties[0] + f", used for {last_count} squares")
+            elif len(cur_ties) > 1:
+                book_strs.append(
+                    "- TIE: " + " and ".join(cur_ties) + f", used for {last_count} squares"
+                )
+
+            place_count += 1
+            if place_count > 3:
+                break
+
+            cur_ties = []
+            cur_ties.append(format_book(book))
+
+        last_count = count
+
+    return "\n".join(book_strs)
+
+
+def format_most_square_authors(unique_squares_by_author: Counter[Author]) -> str:
+    """Format the authors used for the most different squares"""
+    book_strs = []
+    cur_ties: list[str] = []
+    last_count = -1
+    place_count = 0
+    for author, count in unique_squares_by_author.most_common():
+        if last_count == count:
+            cur_ties.append(author)
+        else:
+            if len(cur_ties) == 1:
+                book_strs.append("- " + cur_ties[0] + f", used for {last_count} squares")
+            elif len(cur_ties) > 1:
+                book_strs.append(
+                    "- TIE: " + " and ".join(cur_ties) + f", used for {last_count} squares"
+                )
+
+            place_count += 1
+            if place_count > 3:
+                break
+
+            cur_ties = []
+            cur_ties.append(author)
+
+        last_count = count
+
+    return "\n".join(book_strs)
+
+
+def format_unique_author_books(books_per_author: Counter[Author]) -> str:
+    """Format the counts of author varieties"""
+    book_strs = []
+    cur_ties: list[str] = []
+    last_count = -1
+    place_count = 0
+    for author, count in books_per_author.most_common():
+        if last_count == count:
+            cur_ties.append(author)
+        else:
+            if len(cur_ties) == 1:
+                book_strs.append("- " + cur_ties[0] + f", with {last_count} unique books read")
+            elif len(cur_ties) > 1:
+                book_strs.append(
+                    "- TIE: " + " and ".join(cur_ties) + f", with {last_count} unique books read"
+                )
+
+            place_count += 1
+            if place_count > 10:
+                break
+
+            cur_ties = []
+            cur_ties.append(author)
+
+        last_count = count
+
+    return "\n".join(book_strs)
+
+
 def create_markdown(bingo_stats: BingoStatistics) -> None:
     """Create a Markdown draft of stats"""
 
     most_avoided_square, most_avoided_count = bingo_stats.avoided_squares.most_common(1)[0]
-
-    (
-        book_with_most_squares,
-        book_with_most_squares_count,
-    ) = bingo_stats.unique_squares_by_book.most_common(1)[0]
 
     max_ratio = 0.0
     for book, square_count in bingo_stats.unique_squares_by_book.items():
@@ -214,23 +428,26 @@ def create_markdown(bingo_stats: BingoStatistics) -> None:
                 max_ratio = count_ratio
                 max_square_ratio_book = book
 
-    (
-        author_with_most_squares,
-        author_with_most_squares_count,
-    ) = bingo_stats.unique_squares_by_author.most_common(1)[0]
+    mean_uniques = np.mean(list(bingo_stats.card_uniques.values()))
+
+    hard_mode_by_card_counts = Counter(bingo_stats.hard_mode_by_card.values())
+
+    avg_hm = np.mean(list(bingo_stats.hard_mode_by_card.values()))
 
     markdown_lines = f"""# Preliminary Notes
 
 Most of this post, and all of these statistics, were generated by a script I wrote, [available on GitHub](https://github.com/smartflutist661/rfantasy-bingo-stats).
-Anyone is welcome to contribute there. The raw data is also available.
+Anyone is welcome to contribute there. You can find the raw data, corrected data, and some more extensive summary statistics at that link, as well.
+See my [earlier post](https://www.reddit.com/r/Fantasy/comments/12gyb45/cleaning_2022_and_future_bingo_data/) for some technical details.
 
-Format has been shamelessly copied from u/FarragutCircle's previous bingo stats:
+Format has been shamelessly copied from previous bingo stats posts:
 
-  * [2020](https://www.reddit.com/r/Fantasy/comments/npvigf/2020_rfantasy_bingo_statistics/)
-  * [2019](https://www.reddit.com/r/Fantasy/comments/gjq0ym/2019_rfantasy_bingo_statistics/)
-  * [2018](https://www.reddit.com/r/Fantasy/comments/bbm35a/2018_rfantasy_bingo_statistics/)
-  * [2017](https://www.reddit.com/r/Fantasy/comments/89esvx/2017_fantasy_bingo_statistics/)
-  * [2016](https://www.reddit.com/r/Fantasy/comments/62sp9h/2016_fantasy_bingo_statistics/)
+  - [2021](https://www.reddit.com/r/Fantasy/comments/ude8f4/2021_rfantasy_bingo_stats/)
+  - [2020](https://www.reddit.com/r/Fantasy/comments/npvigf/2020_rfantasy_bingo_statistics/)
+  - [2019](https://www.reddit.com/r/Fantasy/comments/gjq0ym/2019_rfantasy_bingo_statistics/)
+  - [2018](https://www.reddit.com/r/Fantasy/comments/bbm35a/2018_rfantasy_bingo_statistics/)
+  - [2017](https://www.reddit.com/r/Fantasy/comments/89esvx/2017_fantasy_bingo_statistics/)
+  - [2016](https://www.reddit.com/r/Fantasy/comments/62sp9h/2016_fantasy_bingo_statistics/)
 
 Likewise, the following notes are shamelessly adapted.
 
@@ -242,35 +459,54 @@ In addition, if you did something like, say, put **Spinning Silver** as a short 
     
 ## Overall Stats
 
-* There were {bingo_stats.total_card_count} cards submitted, {len(bingo_stats.incomplete_cards)} of which were incomplete.
+### Squares and Cards
+
+- There were {bingo_stats.total_card_count} cards submitted, {len(bingo_stats.incomplete_cards)} of which were incomplete.
 The minimum number of filled squares was {25 - bingo_stats.max_incomplete_squares}. {bingo_stats.incomplete_squares_per_card[1]} were *this close*, with 24 filled squares.
 {bingo_stats.incomplete_squares.total()} squares were left blank, leaving {bingo_stats.total_card_count*25 - bingo_stats.incomplete_cards.total()} filled squares.
-* There were {bingo_stats.total_story_count} total stories, with {len(bingo_stats.overall_uniques.unique_books)} unique stories read,
+- There were {bingo_stats.total_story_count} total stories, with {len(bingo_stats.overall_uniques.unique_books)} unique stories read,
 by {len(bingo_stats.overall_uniques.unique_authors)} unique authors.
-* The top three squares left blank were: {format_bottom_square_counts(bingo_stats)}. On the other hand, {format_favorite_square(bingo_stats)}.
-* The three squares most often substituted were: {format_most_subbed_squares(bingo_stats.subbed_out_squares)}. {format_least_subbed_square(bingo_stats.subbed_out_squares)}.
-
+- The top three squares left blank were: {format_bottom_square_counts(bingo_stats)}. On the other hand, {format_favorite_square(bingo_stats)}.
+- The three squares most often substituted were: {format_most_subbed_squares(bingo_stats.subbed_out_squares)}. {format_least_subbed_square(bingo_stats.subbed_out_squares)}.
 This means that {most_avoided_square} was the least favorite overall, skipped or substituted a total of {most_avoided_count} times.
+- There were an average of {mean_uniques:.1f} unique books per card.
+- {hard_mode_by_card_counts[25]} cards claimed an all-hard-mode card, while {hard_mode_by_card_counts[24]} cards were short by one square.
+{hard_mode_by_card_counts[0]} cards claimed no hard-mode squares at all. The average number of hard-mode squares per card was {avg_hm:.1f}.
+
+{format_square_table(bingo_stats)}
+
+<INSERT PLOTS HERE>
+
+### Books
 
 The ten most-read books were:
 
 {format_top_book_counts(bingo_stats.overall_uniques.unique_books)}
 
-{format_book(book_with_most_squares)} was used for the most individual squares, {book_with_most_squares_count}.
+The books used for the most squares were:
+
+{format_most_square_books(bingo_stats.unique_squares_by_book)}
 
 {format_book(max_square_ratio_book)} was the book read at least 10 times with the highest ratio of squares to times read:
 read {bingo_stats.overall_uniques.unique_books[max_square_ratio_book]} times for {bingo_stats.unique_squares_by_book[max_square_ratio_book]} squares. 
+
+### Authors
 
 The ten most-read authors were:
 
 {format_top_author_counts(bingo_stats.overall_uniques.unique_authors)}
 
-{author_with_most_squares} was used for the most individual squares, {author_with_most_squares_count}.
+The authors used for the most squares were:
 
-## Square Stats
+{format_most_square_authors(bingo_stats.unique_squares_by_author)}
+
+The authors with the most unique books read were:
+
+{format_unique_author_books(bingo_stats.books_per_author)}
+
+## Stats for Individual Squares
 
 {format_all_squares(bingo_stats)}
-
 ## Substitutions
 
 {format_subbed_stats(bingo_stats)}
@@ -278,6 +514,10 @@ The ten most-read authors were:
 ## Variety
 
 {format_farragini(bingo_stats)}
+
+## Wall of Shame
+
+{format_dedupe_counts(bingo_stats)}
 """
 
     print()
