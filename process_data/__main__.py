@@ -4,10 +4,14 @@ Created on Apr 7, 2023
 @author: fred
 """
 import argparse
-import sys
 from collections import Counter
 
 import pandas
+
+from process_data.get_data import (
+    books_to_title_authors,
+    get_bingo_cards,
+)
 
 from .constants import (
     BINGO_DATA_FILEPATH,
@@ -19,7 +23,6 @@ from .get_data import (
     get_unique_books,
 )
 from .get_matches import get_possible_matches
-from .get_stats import get_incomplete_info
 from .update_data import (
     add_to_markdown,
     update_bingo_dataframe,
@@ -51,42 +54,59 @@ def normalize_books(
 
 
 # TODO: Collect many statistics based on old posts
-# TODO: Add multiindex to dataframe
 def collect_statistics(bingo_data: pandas.DataFrame) -> None:
     """Collect statistics on normalized books"""
-    all_title_author_combos = get_all_title_author_combos(bingo_data)
-    updated_unique_books = get_unique_books(all_title_author_combos)
+    all_title_authors = get_all_title_author_combos(bingo_data)
+    unique_books = get_unique_books(all_title_authors)
+
+    unique_authors = set()
+    for _, author in books_to_title_authors(unique_books):
+        unique_authors.add(author)
 
     markdown_lines: list[str] = []
 
     add_to_markdown(markdown_lines, "*Overall Stats*\n")
 
-    total_card_count = bingo_data.shape[0]
+    bingo_cards, subbed_squares, incomplete_cards, incomplete_squares = get_bingo_cards(bingo_data)
+    subbed_out_squares = Counter(subbed_out for subbed_out, _ in subbed_squares.keys())
 
-    incomplete_cards, incomplete_squares = get_incomplete_info(bingo_data)
+    assert incomplete_cards.total() == incomplete_squares.total()
 
-    min_incomplete_count = min(incomplete_cards.values())
-    num_almost_complete_count = Counter(
+    total_card_count = len(bingo_cards)
+
+    max_incomplete_squares = max(incomplete_cards.values())
+    num_cards_almost_complete = Counter(
         num_incomplete for num_incomplete in incomplete_cards.values() if num_incomplete == 1
     )
-    total_incomplete_count = incomplete_cards.total()
+    total_incomplete_squares = incomplete_cards.total()
 
     add_to_markdown(
         markdown_lines,
         f"* There were {total_card_count} cards submitted, {len(incomplete_cards)} of which were incomplete."
-        + f" The minimum number of filled squares was {min_incomplete_count}."
-        + f" {num_almost_complete_count} were _this close_, with 24 filled squares."
-        + f" {total_incomplete_count} squares were left blank, leaving {total_card_count*25 - total_incomplete_count} filled squares.",
+        + f" The minimum number of filled squares was {25 - max_incomplete_squares}."
+        + f" {num_cards_almost_complete} were _this close_, with 24 filled squares."
+        + f" {total_incomplete_squares} squares were left blank, leaving {total_card_count*25 - total_incomplete_squares} filled squares.",
     )
 
+    add_to_markdown(
+        markdown_lines,
+        f"* There were {len(all_title_authors)} total stories, with {len(unique_books)} unique stories read,"
+        + f" by {len(unique_authors)} unique authors.",
+    )
+
+    incomplete_count_counts = Counter(incomplete_squares.values())
+    print(incomplete_count_counts[0])
+
+    incomplete_square_strs = []
+    for incomplete_square, blank_count in incomplete_squares.most_common(3):
+        incomplete_square_strs.append(f"{incomplete_square}, blank on {blank_count} cards")
+    incomplete_square_str = "; ".join(incomplete_square_strs)
+    add_to_markdown(
+        markdown_lines, f"* The top three squares left blank were {incomplete_square_str}. "
+    )
     add_to_markdown(markdown_lines, f"* ")
 
-    add_to_markdown(markdown_lines, f"* There were {len(updated_unique_books)} unique books read.")
-    add_to_markdown(markdown_lines, f"* ")
-
-    book_count = Counter(all_title_author_combos)
-    del book_count[(None, None)]
-    del book_count[("", "")]
+    book_count = Counter(all_title_authors)
 
     print(f"The ten most-read books were {book_count.most_common(10)}.")
 
@@ -100,7 +120,7 @@ def main(args: argparse.Namespace) -> None:
 
     normalize_books(bingo_data, args.match_score, args.rescan_non_dupes)
 
-    # collect_statistics(bingo_data)
+    collect_statistics(bingo_data)
 
 
 def cli() -> argparse.Namespace:

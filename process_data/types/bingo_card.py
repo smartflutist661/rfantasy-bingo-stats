@@ -30,7 +30,7 @@ class BingoSquare:
 class ShortStorySquare(BingoSquare):
     """A short story square"""
 
-    stories = tuple[TitleAuthor, ...]
+    stories: tuple[TitleAuthor, ...]
 
 
 BingoCard = Mapping[SquareName, Optional[BingoSquare]]
