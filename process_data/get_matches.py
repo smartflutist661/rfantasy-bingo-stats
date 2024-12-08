@@ -10,24 +10,29 @@ from typing import Mapping
 from .constants import DUPE_RECORD_FILEPATH
 from .get_data import get_existing_states
 from .process_match import process_new_pair
+from .types.defined_types import Book
 
 
 def get_possible_matches(
-    title_author_pairs: frozenset[str],
+    books: frozenset[Book],
     match_score: int,
     rescan_non_dupes: bool,
-) -> Mapping[str, frozenset[str]]:
+) -> Mapping[Book, frozenset[Book]]:
     """Determine all possible misspellings for each title/author pair"""
     known_states = get_existing_states(DUPE_RECORD_FILEPATH)
     try:
         unscanned_pairs = set(
-            title_author_pairs
-            - (set(known_states.dupes.keys()) | set().union(*(known_states.dupes.values())))
+            books - (set(known_states.dupes.keys()) | set().union(*(known_states.dupes.values())))
         )
         if rescan_non_dupes is False:
             unscanned_pairs -= known_states.non_dupes
+            non_dupe_str = f", of which {len(known_states.non_dupes)} are being rescanned"
+        else:
+            non_dupe_str = ""
 
-        while len(unscanned_pairs) > 0:
+        unscanned_pair_count = len(unscanned_pairs)
+        print(f"Scanning {unscanned_pair_count} unscanned books{non_dupe_str}.")
+        while unscanned_pair_count > 0:
             title_author_pair = unscanned_pairs.pop()
             process_new_pair(
                 known_states.dupes,

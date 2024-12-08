@@ -10,17 +10,21 @@ from dataclasses import (
     dataclass,
     fields,
 )
-from typing import Any
+from typing import (
+    Any,
+    cast,
+)
 
+from .defined_types import Book
 from .utils import to_data
 
 
-@dataclass
+@dataclass(frozen=True)
 class RecordedStates:
     """Known duplicate title/author pairs and likely non-duplicate title/author pairs"""
 
-    dupes: defaultdict[str, set[str]]
-    non_dupes: set[str]
+    dupes: defaultdict[Book, set[Book]]
+    non_dupes: set[Book]
 
     @classmethod
     def from_data(cls, data: Any) -> RecordedStates:
@@ -28,9 +32,12 @@ class RecordedStates:
         return cls(
             dupes=defaultdict(
                 set,
-                {str(key): {str(v) for v in val} for key, val in data["dupes"].items()},
+                {
+                    cast(Book, str(key)): {cast(Book, str(v)) for v in val}
+                    for key, val in data["dupes"].items()
+                },
             ),
-            non_dupes={str(val) for val in data["non_dupes"]},
+            non_dupes={cast(Book, str(val)) for val in data["non_dupes"]},
         )
 
     def to_data(self) -> dict[str, Any]:

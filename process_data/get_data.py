@@ -5,11 +5,35 @@ Created on Apr 7, 2023
 """
 import json
 from pathlib import Path
+from types import MappingProxyType as MAP
+from typing import (
+    Iterable,
+    Mapping,
+    Optional,
+    cast,
+)
 
 import pandas
 from pyexcel_ods3 import get_data  # type: ignore
 
-from .constants import CUSTOM_SEPARATOR
+from .constants import (
+    ALL_TITLE_AUTHOR_HM_COLUMNS,
+    CUSTOM_SEPARATOR,
+    NOVEL_TITLE_AUTHOR_HM_COLS,
+    SQUARE_NAMES,
+)
+from .types.bingo_card import (
+    BingoCard,
+    BingoSquare,
+)
+from .types.defined_types import (
+    Author,
+    Book,
+    CardID,
+    SquareName,
+    Title,
+    TitleAuthor,
+)
 from .types.recorded_states import RecordedStates
 
 
@@ -36,32 +60,17 @@ def get_bingo_dataframe(bingo_data_filepath: Path) -> pandas.DataFrame:
     return bingo_data
 
 
-def get_title_author_colpairs(data: pandas.DataFrame) -> tuple[tuple[str, str], ...]:
-    """Get column name pairs representing same square"""
-    column_names = data.columns
-    return tuple(
-        (col_name_1, col_name_2)
-        for col_name_1 in column_names
-        for col_name_2 in column_names
-        if "TITLE" in col_name_1
-        and "AUTHOR" in col_name_2
-        and col_name_1.split(":")[0] == col_name_2.split(":")[0]
-    )
-
-
-def get_all_title_author_combos(
-    data: pandas.DataFrame,
-    title_author_colnames: tuple[tuple[str, str], ...],
-) -> tuple[tuple[str, str], ...]:
-    title_author_pairs: list[tuple[str, str]] = []
-    for title_col, author_col in title_author_colnames:
-        title_author_pairs.extend(zip(data[title_col], data[author_col]))
+def get_all_title_author_combos(data: pandas.DataFrame) -> tuple[TitleAuthor, ...]:
+    """Get every title/author pair in data"""
+    title_author_pairs: list[TitleAuthor] = []
+    for title_col, author_col, _ in ALL_TITLE_AUTHOR_HM_COLUMNS:
+        title_author_pairs.extend(
+            cast(Iterable[TitleAuthor], zip(data[title_col], data[author_col]))
+        )
     return tuple(title_author_pairs)
 
 
-def get_unique_books(
-    title_author_pairs: tuple[tuple[str, str], ...],
-) -> frozenset[str]:
+def get_unique_books(title_author_pairs: tuple[TitleAuthor, ...]) -> frozenset[Book]:
     """Get every unique title/author combination"""
 
     for pair in title_author_pairs:
@@ -70,5 +79,41 @@ def get_unique_books(
                 raise ValueError("Pick a different separator")
 
     return frozenset(
-        {CUSTOM_SEPARATOR.join(str(elem) for elem in pair) for pair in title_author_pairs}
+        {
+            cast(Book, CUSTOM_SEPARATOR.join(str(elem) for elem in pair))
+            for pair in title_author_pairs
+        }
     )
+
+
+def get_indexed_bingo_cards(data: pandas.DataFrame) -> Mapping[CardID, BingoCard]:
+    """Get tuple of bingo cards with substituted names"""
+
+    # TODO: Make this a multiindexed dataframe
+
+    cards: dict[CardID, BingoCard] = {}
+    for index, row in data.iterrows():
+
+        subbed_square_map = {
+            cast(SquareName, row["SUBBED OUT"]): cast(SquareName, row["SUBBED IN"])
+        }
+
+        card: dict[SquareName, Optional[BingoSquare]] = {}
+        for title_col, author_col, hm_col in NOVEL_TITLE_AUTHOR_HM_COLS:
+            square_name = SQUARE_NAMES[title_col]
+
+            # TODO: count subs
+
+            real_square_name = subbed_square_map.get(square_name, square_name)
+            title = cast(Title, row[title_col])
+            author = cast(Author, row[author_col])
+            hard_mode = bool(row[hm_col])
+
+            card[real_square_name] = BingoSquare(
+                title=title,
+                author=author,
+                hard_mode=hard_mode,
+            )
+        cards[cast(CardID, index)] = MAP(card)
+
+    return MAP(cards)
