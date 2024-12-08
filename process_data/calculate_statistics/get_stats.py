@@ -249,21 +249,148 @@ def format_all_squares(
 def format_farragini(
     bingo_stats: BingoStatistics,
     square_names: Iterable[SquareName],
+    top_n: int = 3,
 ) -> str:
     """Format a table of FarraGini indices"""
     table_strs: list[tuple[str, str, str]] = [
         ("SQUARE", "BOOK", "AUTHOR"),
         ("---------", ":---------:", ":---------:"),
     ]
+    book_ginis = {}
+    author_ginis = {}
     for square_name in square_names:
-        table_strs.append(
-            (
-                square_name,
-                f"{calculate_gini_index(tuple(bingo_stats.square_uniques[square_name].unique_books.values()))*100:.1f}",
-                f"{calculate_gini_index(tuple(bingo_stats.square_uniques[square_name].unique_authors.values()))*100:.1f}",
+        book_gini = (
+            calculate_gini_index(
+                tuple(bingo_stats.square_uniques[square_name].unique_books.values())
             )
+            * 100
         )
-    return "\n".join("|" + "|".join(row) + "|" for row in table_strs)
+        author_gini = (
+            calculate_gini_index(
+                tuple(bingo_stats.square_uniques[square_name].unique_authors.values())
+            )
+            * 100
+        )
+        book_ginis[square_name] = book_gini
+        author_ginis[square_name] = author_gini
+        table_strs.append((square_name, f"{book_gini:.1f}", f"{author_gini:.1f}"))
+    highest_book_ginis = sorted(book_ginis.items(), key=lambda item: item[1], reverse=True)
+    highest_author_ginis = sorted(author_ginis.items(), key=lambda item: item[1], reverse=True)
+    lowest_book_ginis = sorted(book_ginis.items(), key=lambda item: item[1])
+    lowest_author_ginis = sorted(author_ginis.items(), key=lambda item: item[1])
+
+    high_book_gini_strs = []
+    last_book_gini: float = -1
+    place_count = 0
+    cur_ties = []
+    for square_name, book_gini in highest_book_ginis:
+        if last_book_gini == book_gini:
+            cur_ties.append(format_square(square_name))
+        else:
+            if len(cur_ties) == 1:
+                high_book_gini_strs.append("- " + cur_ties[0])
+            elif len(cur_ties) > 1:
+                high_book_gini_strs.append("- TIE: " + " and ".join(cur_ties))
+
+            place_count += 1
+            if place_count > top_n:
+                break
+
+            cur_ties = []
+            cur_ties.append(format_square(square_name))
+
+        last_book_gini = book_gini
+
+    low_book_gini_strs = []
+    last_book_gini = -1
+    place_count = 0
+    cur_ties = []
+    for square_name, book_gini in lowest_book_ginis:
+        if last_book_gini == book_gini:
+            cur_ties.append(format_square(square_name))
+        else:
+            if len(cur_ties) == 1:
+                low_book_gini_strs.append("- " + cur_ties[0])
+            elif len(cur_ties) > 1:
+                low_book_gini_strs.append("- TIE: " + " and ".join(cur_ties))
+
+            place_count += 1
+            if place_count > top_n:
+                break
+
+            cur_ties = []
+            cur_ties.append(format_square(square_name))
+
+        last_book_gini = book_gini
+
+    high_author_gini_strs = []
+    last_author_gini: float = -1
+    place_count = 0
+    cur_ties = []
+    for square_name, author_gini in highest_author_ginis:
+        if last_author_gini == author_gini:
+            cur_ties.append(format_square(square_name))
+        else:
+            if len(cur_ties) == 1:
+                high_author_gini_strs.append("- " + cur_ties[0])
+            elif len(cur_ties) > 1:
+                high_author_gini_strs.append("- TIE: " + " and ".join(cur_ties))
+
+            place_count += 1
+            if place_count > top_n:
+                break
+
+            cur_ties = []
+            cur_ties.append(format_square(square_name))
+
+        last_author_gini = author_gini
+
+    low_author_gini_strs = []
+    last_author_gini = -1
+    place_count = 0
+    cur_ties = []
+    for square_name, author_gini in lowest_author_ginis:
+        if last_author_gini == author_gini:
+            cur_ties.append(format_square(square_name))
+        else:
+            if len(cur_ties) == 1:
+                low_author_gini_strs.append("- " + cur_ties[0])
+            elif len(cur_ties) > 1:
+                low_author_gini_strs.append("- TIE: " + " and ".join(cur_ties))
+
+            place_count += 1
+            if place_count > top_n:
+                break
+
+            cur_ties = []
+            cur_ties.append(format_square(square_name))
+
+        last_author_gini = author_gini
+
+    table_str = "\n".join("|" + "|".join(row) + "|" for row in table_strs)
+    low_book_gini_str = "The squares with the most variety in books:\n" + "\n".join(
+        low_book_gini_strs
+    )
+    low_author_gini_str = "The squares with the most variety in authors:\n" + "\n".join(
+        low_author_gini_strs
+    )
+    high_book_gini_str = "The squares with the least variety in books:\n" + "\n".join(
+        high_book_gini_strs
+    )
+    high_author_gini_str = "The squares with the least variety in authors:\n" + "\n".join(
+        high_author_gini_strs
+    )
+    return (
+        table_str
+        + "\n\n"
+        + low_book_gini_str
+        + "\n\n"
+        + low_author_gini_str
+        + "\n\n"
+        + high_book_gini_str
+        + "\n\n"
+        + high_author_gini_str
+    )
 
 
 def format_square_table(
