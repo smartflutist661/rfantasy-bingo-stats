@@ -5,82 +5,19 @@ Created on Apr 7, 2023
 """
 from collections import Counter
 
-import pandas
-
 from ..data.current import (
     CUSTOM_SEPARATOR,
     OUTPUT_MD_FILEPATH,
     SQUARE_NAMES,
 )
-from ..data_operations.author_title_book_operations import (
-    book_to_title_author,
-    get_all_title_author_combos,
-    get_unique_book_counts,
-)
-from ..types.bingo_statistics import (
-    BingoStatistics,
-    UniqueStatistics,
-)
+from ..data_operations.author_title_book_operations import book_to_title_author
+from ..types.bingo_statistics import BingoStatistics
 from ..types.defined_types import (
     Author,
     Book,
     SquareName,
 )
-from .get_bingo_cards import get_bingo_cards
 from .gini_function import calculate_gini_index
-
-
-def get_summary_statistics(bingo_data: pandas.DataFrame) -> BingoStatistics:
-    """Do preliminary math and prepare to save to file"""
-    all_title_authors = get_all_title_author_combos(bingo_data)
-    unique_book_counts = get_unique_book_counts(all_title_authors, CUSTOM_SEPARATOR)
-
-    unique_author_counts = Counter(author for _, author in all_title_authors)
-
-    (
-        bingo_cards,
-        subbed_squares,
-        incomplete_cards,
-        incomplete_squares,
-        square_uniques,
-        unique_square_usage_by_book,
-        unique_square_usage_by_author,
-    ) = get_bingo_cards(bingo_data)
-
-    assert incomplete_cards.total() == incomplete_squares.total()
-
-    subbed_out_squares = Counter(subbed_out for subbed_out, _ in subbed_squares.keys())
-    for square_name in SQUARE_NAMES.values():
-        subbed_out_squares[square_name] += 0
-
-    unique_square_usage_count_by_book: Counter[Book] = Counter()
-    for book, squares in unique_square_usage_by_book.items():
-        unique_square_usage_count_by_book[book] = len(squares)
-
-    unique_square_usage_count_by_author: Counter[Author] = Counter()
-    for author, squares in unique_square_usage_by_author.items():
-        unique_square_usage_count_by_author[author] = len(squares)
-
-    return BingoStatistics(
-        total_card_count=len(bingo_cards),
-        incomplete_cards=incomplete_cards,
-        incomplete_squares=incomplete_squares,
-        max_incomplete_squares=max(
-            incomplete for incomplete in incomplete_cards.values() if incomplete != 25
-        ),
-        incomplete_squares_per_card=Counter(incomplete_cards.values()),
-        total_story_count=len(all_title_authors),
-        subbed_squares=subbed_squares,
-        subbed_out_squares=subbed_out_squares,
-        avoided_squares=incomplete_squares + subbed_out_squares,
-        overall_uniques=UniqueStatistics(
-            unique_books=unique_book_counts,
-            unique_authors=unique_author_counts,
-        ),
-        square_uniques=square_uniques,
-        unique_squares_by_book=unique_square_usage_count_by_book,
-        unique_squares_by_author=unique_square_usage_count_by_author,
-    )
 
 
 def format_book(book: Book) -> str:

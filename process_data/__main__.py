@@ -6,19 +6,18 @@ Created on Apr 7, 2023
 import argparse
 import json
 
-import numpy
 import pandas
 
-from .calculate_statistics.get_stats import (
-    create_markdown,
-    get_summary_statistics,
-)
+from .calculate_statistics.get_bingo_cards import get_bingo_stats
+from .calculate_statistics.get_stats import create_markdown
 from .data.current import (
     BINGO_DATA_FILEPATH,
-    OUTPUT_DF_FILEPATH,
     OUTPUT_STATS_FILEPATH,
 )
-from .data.filepaths import DUPE_RECORD_FILEPATH
+from .data.filepaths import (
+    DUPE_RECORD_FILEPATH,
+    IGNORED_RECORD_FILEPATH,
+)
 from .data_operations.author_title_book_operations import (
     get_all_authors,
     get_all_title_author_combos,
@@ -42,14 +41,16 @@ from .match_books.get_matches import (
     get_possible_matches,
     update_dedupes_from_authors,
 )
-from .types.recorded_states import RecordedStates
+from .types.recorded_ignores import RecordedIgnores
+from .types.recorded_states import RecordedDupes
 
 
 def normalize_books(
     bingo_data: pandas.DataFrame,
     match_score: int,
     rescan_non_dupes: bool,
-    recorded_states: RecordedStates,
+    recorded_dupes: RecordedDupes,
+    recorded_ignores: RecordedIgnores,
 ) -> None:
     """Normalize book titles and authors"""
 
@@ -66,19 +67,24 @@ def normalize_books(
     )
     print()
 
-    get_possible_matches(unique_authors, match_score, rescan_non_dupes, recorded_states, "Author")
+    comma_separate_authors(recorded_dupes)
 
-    comma_separate_authors(recorded_states)
+    get_possible_matches(
+        unique_authors, match_score, rescan_non_dupes, recorded_dupes, recorded_ignores, "Author"
+    )
 
     print("Updating Bingo authors.")
-    author_dedupes = update_bingo_authors(
-        bingo_data, recorded_states.author_dupes, recorded_states.book_separator
+    updated_data, author_dedupes = update_bingo_authors(
+        bingo_data, recorded_dupes.author_dupes, recorded_dupes.book_separator
     )
     print("Bingo authors updated.")
 
-    all_title_author_combos = get_all_title_author_combos(bingo_data)
+    print("Collecting all misspellings.")
+    update_dedupes_from_authors(recorded_dupes, author_dedupes)
 
-    unique_books = get_unique_books(all_title_author_combos, recorded_states.book_separator)
+    all_title_author_combos = get_all_title_author_combos(updated_data)
+
+    unique_books = get_unique_books(all_title_author_combos, recorded_dupes.book_separator)
 
     print(f"Starting with {len(unique_books)} unique books.")
 
@@ -89,20 +95,19 @@ def normalize_books(
     )
     print()
 
-    get_possible_matches(unique_books, match_score, rescan_non_dupes, recorded_states, "Book")
-
-    print("Collecting all misspellings.")
-    update_dedupes_from_authors(recorded_states, author_dedupes)
+    get_possible_matches(
+        unique_books, match_score, rescan_non_dupes, recorded_dupes, recorded_ignores, "Book"
+    )
 
     print("Updating Bingo books.")
-    update_bingo_books(bingo_data, recorded_states.book_dupes)
+    update_bingo_books(updated_data, recorded_dupes.book_dupes)
     print("Bingo books updated.")
 
 
-def collect_statistics(bingo_data: pandas.DataFrame) -> None:
+def collect_statistics(bingo_data: pandas.DataFrame, recorded_states: RecordedDupes) -> None:
     """Collect statistics on normalized books and create a rough draft post"""
 
-    bingo_stats = get_summary_statistics(bingo_data)
+    bingo_stats = get_bingo_stats(bingo_data, recorded_states)
 
     with OUTPUT_STATS_FILEPATH.open("w", encoding="utf8") as stats_file:
         json.dump(bingo_stats.to_data(), stats_file, indent=2)
@@ -115,19 +120,19 @@ def main(args: argparse.Namespace) -> None:
     if args.github_pat is not None:
         synchronize_github(args.github_pat)
 
+    bingo_data = get_bingo_dataframe(BINGO_DATA_FILEPATH)
+
+    recorded_duplicates, recorded_ignores = get_existing_states(
+        DUPE_RECORD_FILEPATH, IGNORED_RECORD_FILEPATH, args.skip_updates
+    )
+
     if args.skip_updates is False:
-        bingo_data = get_bingo_dataframe(BINGO_DATA_FILEPATH)
-
-        recorded_duplicates = get_existing_states(DUPE_RECORD_FILEPATH)
-
-        normalize_books(bingo_data, args.match_score, args.rescan_keys, recorded_duplicates)
-    else:
-        with OUTPUT_DF_FILEPATH.open("r") as bingo_data_file:
-            bingo_data = pandas.read_csv(bingo_data_file)
-            bingo_data = bingo_data.replace(numpy.nan, None)
+        normalize_books(
+            bingo_data, args.match_score, args.rescan_keys, recorded_duplicates, recorded_ignores
+        )
 
     print("Collecting statistics.")
-    collect_statistics(bingo_data)
+    collect_statistics(bingo_data, recorded_duplicates)
 
     if args.github_pat is not None:
         print()

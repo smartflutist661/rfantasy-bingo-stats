@@ -10,20 +10,25 @@ from pathlib import Path
 import pandas
 from pyexcel_ods3 import get_data  # type: ignore
 
-from ..types.recorded_states import RecordedStates
+from ..types.recorded_ignores import RecordedIgnores
+from ..types.recorded_states import RecordedDupes
 
 
-def get_existing_states(dupe_path: Path) -> RecordedStates:
-    """Attempt to retrieve existing RecordedStates, returning empty on failure"""
+def get_existing_states(
+    dupe_path: Path, ignore_path: Path, skip_updates: bool
+) -> tuple[RecordedDupes, RecordedIgnores]:
+    """Attempt to retrieve existing RecordedDupes, returning empty on failure"""
     try:
         with dupe_path.open("r", encoding="utf8") as dupe_file:
-            return RecordedStates.from_data(json.load(dupe_file))
+            dupes = RecordedDupes.from_data(json.load(dupe_file), skip_updates)
+        with ignore_path.open("r", encoding="utf8") as ignore_file:
+            ignores = RecordedIgnores.from_data(json.load(ignore_file))
+        return dupes, ignores
     except IOError:
-        return RecordedStates(
-            author_dupes=defaultdict(set),
-            book_dupes=defaultdict(set),
-            ignored_author_dupes=defaultdict(set),
-            ignored_book_dupes=defaultdict(set),
+        return RecordedDupes(
+            author_dupes=defaultdict(set), book_dupes=defaultdict(set)
+        ), RecordedIgnores(
+            ignored_author_dupes=defaultdict(set), ignored_book_dupes=defaultdict(set)
         )
 
 
