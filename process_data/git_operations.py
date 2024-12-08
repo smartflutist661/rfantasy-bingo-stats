@@ -8,7 +8,7 @@ from pathlib import Path
 from git.exc import GitCommandError
 from git.repo import Repo
 from github import Github
-from github.GithubException import UnknownObjectException
+from github.GithubException import GithubException
 
 from .data.constants import REMOTE_REPO
 
@@ -42,7 +42,7 @@ def commit_push_pr(github_pat: str) -> None:
 
     repo.index.commit(f"Auto-commit changes from {github_user}")
 
-    remote_repo.push()
+    remote_repo.push(refspec=f"origin/{branch_name}")
 
     github_repo = github_client.get_repo(REMOTE_REPO)
     prs = github_repo.get_pulls(state="open", base="main", head=branch_name)
@@ -68,9 +68,12 @@ def synchronize_github(github_pat: str) -> None:
         github_remote_repo = github_client.get_repo(REMOTE_REPO)
         try:
             github_remote_repo.get_branch(branch=branch_name)
-        except UnknownObjectException:
-            repo.git.checkout("main")
-        remote_repo.pull()
+        except GithubException:
+            if repo.is_dirty():
+                commit_push_pr(github_pat)
+            else:
+                repo.git.checkout("main")
+                remote_repo.pull()
 
     else:
         raise ValueError(
