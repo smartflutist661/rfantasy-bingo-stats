@@ -99,10 +99,9 @@ def get_bingo_card(
     row: pandas.Series,  # type: ignore[type-arg]
     subbed_square_map: Mapping[SquareName, SquareName],
     card_data: CardData,
-) -> tuple[BingoCard, frozenset[SquareName]]:
+) -> BingoCard:
     """Get a single bingo card"""
     card: dict[SquareName, Optional[BingoSquare]] = {}
-    incomplete_squares = set()
     for title_col, author_col, hm_col in card_data.novel_title_author_hm_cols:
         square_name = card_data.square_names[title_col]
 
@@ -114,22 +113,43 @@ def get_bingo_card(
             print(row, square.hard_mode)
 
         card[real_square_name] = square
-        if square is None:
-            incomplete_squares.add(real_square_name)
 
-    return MAP(card), frozenset(incomplete_squares)
+    return MAP(card)
+
+
+def get_bingo_cards(data: pandas.DataFrame, card_data: CardData) -> Mapping[CardID, BingoCard]:
+    cards: dict[CardID, BingoCard] = {}
+    for index, row in data.iterrows():
+        card_id = CardID(str(index))
+        if card_id in ("nan", "None"):
+            continue
+
+        if card_data.subbed_by_square:
+            subbed_square_map = {}
+            for square_num, square_name in enumerate(card_data.square_names.values()):
+                subbed_square_name = SquareName(row[f"SQUARE {square_num+1}: SUBSTITUTION"])
+                if subbed_square_name is not None and len(subbed_square_name) > 0:
+                    subbed_square_map[square_name] = subbed_square_name
+        else:
+            subbed_square_map = {SquareName(row["SUBBED OUT"]): SquareName(row["SUBBED IN"])}
+
+        bingo_card = get_bingo_card(row, subbed_square_map, card_data)
+
+        cards[card_id] = bingo_card
+
+    return MAP(cards)
 
 
 def get_bingo_stats(
-    data: pandas.DataFrame,
+    cards: Mapping[CardID, BingoCard],
     recorded_states: RecordedDupes,
     card_data: CardData,
     author_data: Mapping[Author, AuthorInfo],
 ) -> BingoStatistics:
     """Get tuple of bingo cards with substituted names"""
 
-    cards: dict[CardID, BingoCard] = {}
     subbed_count: Counter[tuple[SquareName, SquareName]] = Counter()
+    subbed_out_squares: Counter[SquareName] = Counter()
     incomplete_card_count: Counter[CardID] = Counter()
     incomplete_square_count: Counter[SquareName] = Counter()
     square_uniques: defaultdict[SquareName, UniqueStatistics] = defaultdict(UniqueStatistics)
@@ -150,35 +170,23 @@ def get_bingo_stats(
 
     book_dedupe_map = recorded_states.get_book_dedupe_map()
 
-    for index, row in data.iterrows():
-        card_id = CardID(str(index))
-        if card_id in ("nan", "None"):
-            continue
+    current_square_names = frozenset(card_data.square_names.values())
+    for square_name in current_square_names:
+        subbed_out_squares[square_name] += 0
 
-        if card_data.subbed_by_square:
-            subbed_square_map = {}
-            for square_num, square_name in enumerate(card_data.square_names.values()):
-                subbed_square_name = SquareName(row[f"SQUARE {square_num+1}: SUBSTITUTION"])
-                if subbed_square_name is not None and len(subbed_square_name) > 0:
-                    subbed_square_map[square_name] = subbed_square_name
-        else:
-            subbed_square_map = {SquareName(row["SUBBED OUT"]): SquareName(row["SUBBED IN"])}
+    for card_id, bingo_card in cards.items():
 
-        for square_tuple in tuple(subbed_square_map.items()):
-            if square_tuple[0] and square_tuple[1]:
-                subbed_count[square_tuple] += 1
-
-        bingo_card, incomplete_squares = get_bingo_card(row, subbed_square_map, card_data)
-
-        cards[card_id] = bingo_card
         hard_mode_by_card[card_id] += 0
-
-        if len(incomplete_squares) > 0:
-            incomplete_card_count[card_id] += len(incomplete_squares)
-        for square_name in incomplete_squares:
-            incomplete_square_count[square_name] += 1
-
         for square_name, square in bingo_card.items():
+            if square_name not in current_square_names:
+                subbed_in_square = square_name
+                card_subbed_out_squares = current_square_names - bingo_card.keys()
+                if len(card_subbed_out_squares) != 1:
+                    raise ValueError("Too many subbed-out squares. Handle this.")
+                (subbed_out_square,) = card_subbed_out_squares
+                subbed_count[(subbed_out_square, subbed_in_square)] += 1
+                subbed_out_squares[subbed_out_square] += 1
+
             if square is not None:
                 if not isinstance(square, ShortStorySquare):
                     book = title_author_to_book((square.title, square.author))
@@ -227,11 +235,11 @@ def get_bingo_stats(
 
                 else:
                     total_story_count += len(square.stories)
+            else:
+                incomplete_card_count[card_id] += 1
+                incomplete_square_count[square_name] += 1
 
-    subbed_out_squares = Counter(subbed_out for subbed_out, _ in subbed_count.keys())
-    for square_name in card_data.square_names.values():
-        subbed_out_squares[square_name] += 0
-
+    # Loop again after collecting `all_books` to determine uniques
     for card_id, card in cards.items():
         card_uniques[card_id] += 0
         for square_name, square in card.items():
