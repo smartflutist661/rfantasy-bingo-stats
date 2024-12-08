@@ -3,11 +3,13 @@ Created on Apr 7, 2023
 
 @author: fred
 """
+import json
 from collections import defaultdict
 from types import MappingProxyType as MAP
 from typing import (
     AbstractSet,
     Mapping,
+    cast,
 )
 
 import pandas
@@ -18,10 +20,12 @@ from ..data.current import (
     CUSTOM_SEPARATOR,
     OUTPUT_DF_FILEPATH,
 )
+from ..data.filepaths import DUPE_RECORD_FILEPATH
 from ..types.defined_types import (
     Author,
     Book,
 )
+from ..types.recorded_states import RecordedStates
 from .author_title_book_operations import title_author_to_book
 
 
@@ -84,6 +88,22 @@ def update_bingo_authors(
             for author_dedupe, author_dedupes in all_author_dedupes.items()
         }
     )
+
+
+def comma_separate_authors(recorded_states: RecordedStates) -> None:
+    """Turn all multi-authors into comma-separated"""
+
+    for string in (" , ", ", & ", " & ", ", and ", " and "):
+        for author, author_dedupes in tuple(recorded_states.author_dupes.items()):
+            if string in author:
+                updated_author = cast(Author, author.replace(string, ", "))
+                recorded_states.author_dupes[updated_author] |= author_dedupes
+                recorded_states.author_dupes[updated_author].add(author)
+                del recorded_states.author_dupes[author]
+
+    with DUPE_RECORD_FILEPATH.open("w", encoding="utf8") as dupe_file:
+        json.dump(recorded_states.to_data(), dupe_file, indent=2)
+    print("Updated duplicates saved.")
 
 
 def add_to_markdown(lines: list[str], new_str: str) -> None:

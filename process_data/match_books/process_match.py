@@ -18,7 +18,6 @@ from ..types.defined_types import BookOrAuthor
 
 def process_new_pair(
     dupes: defaultdict[BookOrAuthor, set[BookOrAuthor]],
-    non_dupes: set[BookOrAuthor],
     unscanned_items: set[BookOrAuthor],
     item_to_process: BookOrAuthor,
     match_score: int,
@@ -61,7 +60,7 @@ def process_new_pair(
 
     if best_match is None:
         print(f"No duplicates found for {item_to_process}")
-        non_dupes.add(item_to_process)
+        dupes[item_to_process] |= set()
     else:
         # Intersection discards matches removed in `get_best_match`
         possible_matches &= all_match_choices
