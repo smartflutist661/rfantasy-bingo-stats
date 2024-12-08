@@ -15,6 +15,7 @@ from typing import (
     cast,
 )
 
+from ..data.current import CUSTOM_SEPARATOR
 from .defined_types import Book
 from .utils import to_data
 
@@ -25,6 +26,7 @@ class RecordedStates:
 
     dupes: defaultdict[Book, set[Book]]
     non_dupes: set[Book]
+    book_separator: str = CUSTOM_SEPARATOR
 
     @classmethod
     def from_data(cls, data: Any) -> RecordedStates:
@@ -38,6 +40,7 @@ class RecordedStates:
                 },
             ),
             non_dupes={cast(Book, str(val)) for val in data["non_dupes"]},
+            book_separator=str(data["book_separator"]),
         )
 
     def to_data(self) -> dict[str, Any]:
@@ -48,9 +51,10 @@ class RecordedStates:
         return out
 
     @classmethod
-    def empty(cls) -> RecordedStates:
+    def empty(cls, book_separator: str = CUSTOM_SEPARATOR) -> RecordedStates:
         """Create an empty RecordedStates"""
         return cls(
             dupes=defaultdict(set),
             non_dupes=set(),
+            book_separator=book_separator,
         )

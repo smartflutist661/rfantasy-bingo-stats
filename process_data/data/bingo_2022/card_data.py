@@ -1,31 +1,21 @@
 """
-Created on Apr 7, 2023
+Created on Apr 9, 2023
 
 @author: fred
 """
-from pathlib import Path
 from types import MappingProxyType as MAP
 from typing import (
     Mapping,
     cast,
 )
 
-from .types.defined_types import (
+from ...types.defined_types import (
     SquareName,
     TitleAuthorHMCols,
     TitleCol,
 )
 
-BINGO_DATA_FILEPATH: Path = Path(__file__).parent.parent / "bingo_data.ods"
-DUPE_RECORD_FILEPATH: Path = Path(__file__).parent / "resolved_duplicates.json"
-
-OUTPUT_DF_FILEPATH: Path = Path(__file__).parent / "updated_bingo_data.csv"
-OUTPUT_MD_FILEPATH: Path = Path(__file__).parent / "bingo_stats_rough_draft.md"
-
-CUSTOM_SEPARATOR = " /// "
-
 SHORT_STORY_SQUARE_NUM = "18"
-
 
 SQUARE_NAMES: Mapping[TitleCol, SquareName] = MAP(
     cast(

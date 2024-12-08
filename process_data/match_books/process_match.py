@@ -8,8 +8,8 @@ from typing import Optional
 
 from thefuzz import process  # type: ignore
 
-from .types.defined_types import Book
-from .types.match_choice import MatchChoice
+from ..types.defined_types import Book
+from ..types.match_choice import MatchChoice
 
 
 def process_new_pair(

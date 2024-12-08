@@ -10,8 +10,8 @@ from typing import (
     cast,
 )
 
-from .types.author_info import AuthorInfo
-from .types.defined_types import Author
+from ..types.author_info import AuthorInfo
+from ..types.defined_types import Author
 
 AUTHOR_INFO: Mapping[Author, AuthorInfo] = MAP(
     defaultdict(
