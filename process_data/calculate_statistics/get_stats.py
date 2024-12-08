@@ -9,7 +9,7 @@ from collections.abc import Iterable
 from pathlib import Path
 
 import numpy as np
-from _collections_abc import Container
+from collections.abc import Container
 
 from ..data_operations.author_title_book_operations import book_to_title_author
 from ..logger import LOGGER
@@ -21,6 +21,7 @@ from ..types.defined_types import (
     SquareName,
 )
 from .gini_function import calculate_gini_index
+from ..types.defined_types import BookOrAuthor
 
 
 def format_book(book: Book) -> str:
@@ -213,20 +214,23 @@ def format_square_stats(
     bingo_stats: BingoStatistics,
 ) -> str:
     """Format stats for a single square"""
+    square_uniques = bingo_stats.square_uniques[square_name]
     return f"""### {square_num}. {square_name}
 
 #### Most Read Books
 
-{format_top_book_counts(bingo_stats.square_uniques[square_name].unique_books, 5)}
+{format_top_book_counts(square_uniques.unique_books, 5)}
 
-**TOTAL**: {bingo_stats.square_uniques[square_name].unique_books.total()} books read, with {len(bingo_stats.square_uniques[square_name].unique_books)} unique titles.
+**TOTAL**: {square_uniques.unique_books.total()} books read, with {len(square_uniques.unique_books)} unique titles.
+{get_used_once(square_uniques.unique_books)} books were used only once for this square.
 Skipped {bingo_stats.incomplete_squares[square_name]} times. Substituted {bingo_stats.subbed_out_squares[square_name]} times.
 
 #### Most Read Authors
 
-{format_top_author_counts(bingo_stats.square_uniques[square_name].unique_authors, 5)}
+{format_top_author_counts(square_uniques.unique_authors, 5)}
 
-**TOTAL**: {bingo_stats.square_uniques[square_name].unique_authors.total()} total authors read, with {len(bingo_stats.square_uniques[square_name].unique_authors)} unique.
+**TOTAL**: {square_uniques.unique_authors.total()} total authors read, with {len(square_uniques.unique_authors)} unique.
+{get_used_once(square_uniques.unique_authors)} authors were used only once for this square.
 """
 
 
@@ -433,6 +437,10 @@ def format_unique_author_books(books_per_author: Counter[Author]) -> str:
     return "\n".join(book_strs)
 
 
+def get_used_once(unique_counts: Counter[BookOrAuthor]) -> int:
+    return Counter(unique_counts.values())[1]
+
+
 def create_markdown(bingo_stats: BingoStatistics, card_data: CardData, output_path: Path) -> None:
     """Create a Markdown draft of stats"""
 
@@ -512,6 +520,7 @@ The minimum number of filled squares was {25 - bingo_stats.max_incomplete_square
 {bingo_stats.incomplete_squares.total()} squares were left blank, leaving {bingo_stats.total_card_count*25 - bingo_stats.incomplete_cards.total()} filled squares.
 - There were {bingo_stats.total_story_count} total stories, with {len(bingo_stats.overall_uniques.unique_books)} unique stories read,
 by {len(bingo_stats.overall_uniques.unique_authors)} unique authors ({bingo_stats.overall_uniques.unique_authors.total()} total).
+{get_used_once(bingo_stats.overall_uniques.unique_books)} books and {get_used_once(bingo_stats.overall_uniques.unique_authors)} authors were used only once. 
 - The top squares left blank were: {format_bottom_square_counts(bingo_stats)}. On the other hand, {format_favorite_square(bingo_stats, card_data.square_names.values())}.
 - The three squares most often substituted were: {format_most_subbed_squares(bingo_stats.subbed_out_squares)}.
 {format_least_subbed_square(bingo_stats.subbed_out_squares, card_data.square_names.values())}.
