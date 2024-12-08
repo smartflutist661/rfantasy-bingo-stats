@@ -1,9 +1,11 @@
 black~=23.0
+gitpython~=3.1
 isort>=5
 mypy>=1
 pandas~=2.0
 pandas-stubs>=1.5
 pyexcel-ods3==0.6.1
+pygithub~=1.58
 pylint>=2
 python-levenshtein==0.20.9
 thefuzz==0.19.0
