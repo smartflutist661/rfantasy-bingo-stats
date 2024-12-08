@@ -49,10 +49,10 @@ def process_new_pair(
 
         best_match = get_best_match(matched_books=all_match_choices)
 
-        if best_match in all_choices - all_match_choices:
-            raise KeyError(
-                "Manual best match that overlaps with non-matches not currently handled."
-            )
+        if best_match in (all_choices - all_match_choices) & dedupes:
+            old_best = best_match
+            best_match = find_existing_match(dupes, old_best)
+            print(f"{old_best} already deduped to {best_match}. Using {best_match}.")
 
     else:
         best_match = None

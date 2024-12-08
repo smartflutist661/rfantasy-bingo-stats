@@ -4,6 +4,7 @@ isort>=5
 mypy>=1
 pandas~=2.0
 pandas-stubs>=1.5
+progressbar2~=4.2
 pyexcel-ods3==0.6.1
 pygithub~=1.58
 pylint>=2
