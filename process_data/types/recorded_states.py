@@ -119,7 +119,8 @@ def unify_overlapped_values(
 
 
 def unify_key_value_overlaps(
-    dupes: defaultdict[Book, set[Book]], overlapping_dedupes: set[Book]
+    dupes: defaultdict[Book, set[Book]],
+    overlapping_dedupes: set[Book],
 ) -> None:
     """Unify books that are duplicated as keys and values"""
     for overlap in overlapping_dedupes:
