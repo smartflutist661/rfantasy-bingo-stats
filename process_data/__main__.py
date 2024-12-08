@@ -53,6 +53,7 @@ def normalize_books(
     rescan_non_dupes: bool,
     recorded_dupes: RecordedDupes,
     recorded_ignores: RecordedIgnores,
+    skip_authors: bool,
 ) -> None:
     """Normalize book titles and authors"""
 
@@ -69,28 +70,35 @@ def normalize_books(
     )
     print()
 
-    get_possible_matches(
-        unique_authors, match_score, rescan_non_dupes, recorded_dupes, recorded_ignores, "Author"
-    )
+    if not skip_authors:
+        get_possible_matches(
+            unique_authors,
+            match_score,
+            rescan_non_dupes,
+            recorded_dupes,
+            recorded_ignores,
+            "Author",
+        )
 
     comma_separate_authors(recorded_dupes)
 
-    unique_single_authors = frozenset(
-        {
-            Author(single_author)
-            for author in recorded_dupes.author_dupes.keys()
-            for single_author in author.split(", ")
-        }
-    )
+    if not skip_authors:
+        unique_single_authors = frozenset(
+            {
+                Author(single_author)
+                for author in recorded_dupes.author_dupes.keys()
+                for single_author in author.split(", ")
+            }
+        )
 
-    get_possible_matches(
-        unique_single_authors | unique_authors,
-        match_score,
-        rescan_non_dupes,
-        recorded_dupes,
-        recorded_ignores,
-        "Author",
-    )
+        get_possible_matches(
+            unique_single_authors | unique_authors,
+            match_score,
+            rescan_non_dupes,
+            recorded_dupes,
+            recorded_ignores,
+            "Author",
+        )
 
     author_dedupe_map = recorded_dupes.get_author_dedupe_map()
 
@@ -99,12 +107,14 @@ def normalize_books(
         for single_author in author.split(", "):
             single_author = Author(single_author)
             updated_single_author = author_dedupe_map.get(single_author, single_author)
-            final_author.replace(single_author, updated_single_author)
-        recorded_dupes.author_dupes[final_author] |= recorded_dupes.author_dupes[author]
-        recorded_dupes.author_dupes[final_author].add(author)
+            final_author = Author(final_author.replace(single_author, updated_single_author))
+        if final_author != author:
+            recorded_dupes.author_dupes[final_author] |= recorded_dupes.author_dupes[author]
+            recorded_dupes.author_dupes[final_author].add(author)
+            del recorded_dupes.author_dupes[author]
 
     with DUPE_RECORD_FILEPATH.open("w", encoding="utf8") as dupe_file:
-        json.dump(recorded_dupes.to_data(), dupe_file)
+        json.dump(recorded_dupes.to_data(), dupe_file, indent=2)
 
     print("Updating Bingo authors.")
     updated_data, author_dedupes = update_bingo_authors(
@@ -166,7 +176,12 @@ def main(args: argparse.Namespace) -> None:
 
     if args.skip_updates is False:
         normalize_books(
-            bingo_data, args.match_score, args.rescan_keys, recorded_duplicates, recorded_ignores
+            bingo_data,
+            args.match_score,
+            args.rescan_keys,
+            recorded_duplicates,
+            recorded_ignores,
+            args.skip_authors,
         )
 
     print("Collecting statistics.")
@@ -205,7 +220,15 @@ def cli() -> argparse.Namespace:
         "--skip-updates",
         action="store_true",
         help="""
-        Use the most recent version of the updated Bingo data instead of 
+        Use the existing resolved duplicates, don't attempt to find new duplicates 
+        """,
+    )
+
+    parser.add_argument(
+        "--skip-authors",
+        action="store_true",
+        help="""
+        Skip deduplicating authors, go straight to books 
         """,
     )
 
