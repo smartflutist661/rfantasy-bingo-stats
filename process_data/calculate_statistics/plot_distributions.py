@@ -24,42 +24,37 @@ def create_all_plots(bingo_stats: BingoStatistics, show_plots: bool) -> None:
 
     plot_card_hist(
         counter=bingo_stats.card_uniques,
-        title="Unique Books per Card",
-        x_label="Number of Unique Books",
-        y_label="Number of Cards",
+        title="Most people read a couple of unique books",
+        subtitle="Number of cards with each count of unique books read",
         filename="per_card_uniques.png",
     )
 
     plot_card_hist(
         counter=bingo_stats.incomplete_cards,
-        title="Incomplete Squares per Card",
-        x_label="Number of Incomplete Squares",
-        y_label="Number of Cards",
+        title="Read over three rows, probably read a whole card",
+        subtitle="Number of cards with each count of incomplete squares",
         filename="per_card_incompletes.png",
     )
 
     plot_card_hist(
         counter=bingo_stats.hard_mode_by_card,
-        title="Hard Mode Squares per Card",
-        x_label="Number of Hard Mode Squares",
-        y_label="Number of Cards",
+        title="Law of Large Numbers with a goal",
+        subtitle="Number of cards with a particular count of hard mode squares",
         filename="per_card_hms.png",
     )
 
     plot_count_hist(
-        bingo_stats.overall_uniques.unique_authors,
-        "Reads per Unique Author",
-        "Number of Reads",
-        "Number of Authors",
-        "per_author_reads.png",
+        counter=bingo_stats.overall_uniques.unique_authors,
+        title="Most authors were only read once",
+        subtitle="Number of reads per author, in 10-read bins",
+        filename="per_author_reads.png",
     )
 
     plot_count_hist(
-        bingo_stats.overall_uniques.unique_books,
-        "Reads per Unique Book",
-        "Number of Reads",
-        "Number of Authors",
-        "per_book_reads.png",
+        counter=bingo_stats.overall_uniques.unique_books,
+        title="Most books were only read once",
+        subtitle="Number of reads per book, in 10-read bins",
+        filename="per_book_reads.png",
     )
 
     if show_plots:
@@ -70,13 +65,12 @@ def create_all_plots(bingo_stats: BingoStatistics, show_plots: bool) -> None:
 def plot_card_hist(
     counter: Counter[Any],
     title: str,
-    x_label: str,
-    y_label: str,
+    subtitle: str,
     filename: str,
 ) -> None:
     """Plot histogram of unique values"""
 
-    plt.figure(figsize=(19, 12))
+    plt.figure(figsize=(16, 9))
 
     max_val = 26
 
@@ -85,11 +79,16 @@ def plot_card_hist(
     edges = bin_vals - 0.5
 
     plt.hist(counter.values(), bins=edges)
-    plt.title(title)
-    plt.xlabel(x_label)
-    plt.ylabel(y_label)
+
+    plt.suptitle(title, fontsize=26, weight="bold", alpha=0.75, wrap=True)
+    plt.title(subtitle, fontsize=19, alpha=0.85, wrap=True)
     plt.xticks(range(max_val))
-    plt.xlim([edges[0], edges[-1]])
+    plt.xlim(-1, max_val)
+    ymax = plt.gca().get_ylim()[1]
+    plt.ylim(-0.01 * ymax, None)
+    plt.tick_params(labelsize=18)
+    plt.axhline(y=0, color="black", linewidth=1.3, alpha=0.7)
+    plt.axvline(x=-0.75, color="black", linewidth=1.3, alpha=0.3)
 
     # model = SkewedGaussianModel()
     # params = model.make_params(amplitude=len(counter), center=3, sigma=2, gamma=1)
@@ -106,8 +105,7 @@ def plot_card_hist(
 def plot_count_hist(
     counter: Counter[Any],
     title: str,
-    x_label: str,
-    y_label: str,
+    subtitle: str,
     filename: str,
 ) -> None:
     """Plot histogram of unique values"""
@@ -115,24 +113,34 @@ def plot_count_hist(
     edges = np.arange(0, counter.most_common(1)[0][1], 10)
     hist, _ = np.histogram(list(counter.values()), bins=edges)
 
-    fig, (axis1, axis2) = plt.subplots(2, 1, sharex=True, figsize=(19, 12))
+    fig, (axis1, axis2) = plt.subplots(2, 1, sharex=True, figsize=(16, 9))
+
+    plt.tick_params(labelsize=18)
+    plt.axhline(y=0, color="black", linewidth=1.3, alpha=0.7)
 
     # Labels for entire figure
     fig.add_subplot(111, frameon=False)
     plt.tick_params(labelcolor="none", top=False, bottom=False, left=False, right=False)
     plt.grid(False)
-    plt.xlabel(x_label, labelpad=0.1)
-    plt.ylabel(y_label)
     plt.gca().yaxis.set_label_coords(-0.05, 0.5)
-    fig.suptitle(title)
+    plt.suptitle(title, fontsize=26, weight="bold", alpha=0.75, wrap=True)
+    plt.title(subtitle, fontsize=19, alpha=0.85, wrap=True)
 
     # Plot on multiple axes, hide overlapping elements
     axis1.hist(counter.values(), bins=edges)
     axis2.hist(counter.values(), bins=edges)
 
     axis1.set_ylim(hist[1] - 0.2 * hist[1], None)
-    axis2.set_ylim(0, hist[2] + 0.2 * hist[2])
-    axis1.set_yticks(np.arange(hist[1], hist[0] + 350, 350))
+    axis2.set_ylim(-0.02 * 1.5 * hist[2], 1.2 * hist[2])
+    tick_spacing = (hist[0] - hist[1]) / 10
+    axis1.set_yticks(np.arange(hist[1], hist[0] + tick_spacing, tick_spacing))
+
+    xmax = axis1.get_xlim()[1]
+    axis1.set_xlim(-0.025 * xmax, None)
+
+    xmin = axis1.get_xlim()[0]
+    axis1.axvline(x=0.70 * xmin, color="black", linewidth=1.3, alpha=0.3)
+    axis2.axvline(x=0.70 * xmin, color="black", linewidth=1.3, alpha=0.3)
 
     axis1.spines["bottom"].set_visible(False)
     axis2.spines["top"].set_visible(False)
