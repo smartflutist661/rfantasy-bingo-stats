@@ -8,7 +8,6 @@ from types import MappingProxyType as MAP
 from typing import (
     Mapping,
     Optional,
-    cast,
 )
 
 import pandas
@@ -41,8 +40,8 @@ def get_short_story_square(
     """Get a square of five short stories"""
     shorts = []
     for ss_title_col, ss_author_col, _ in SHORT_STORY_TITLE_AUTHOR_HM_COLS:
-        ss_title = cast(Title, row[ss_title_col])
-        ss_author = cast(Author, row[ss_author_col])
+        ss_title = Title(row[ss_title_col])
+        ss_author = Author(row[ss_author_col])
 
         if ss_title and ss_author:
             shorts.append((ss_title, ss_author))
@@ -50,8 +49,8 @@ def get_short_story_square(
             return None
 
     return ShortStorySquare(
-        title=cast(Title, ""),
-        author=cast(Author, ""),
+        title=Title(""),
+        author=Author(""),
         hard_mode=False,
         stories=tuple(shorts),
     )
@@ -64,8 +63,8 @@ def get_bingo_square(
     hm_col: HardModeCol,
 ) -> Optional[BingoSquare]:
     """Get a single bingo square"""
-    title = cast(Title, row[title_col])
-    author = cast(Author, row[author_col])
+    title = Title(row[title_col])
+    author = Author(row[author_col])
     hard_mode = bool(row[hm_col])
 
     if title and author:
@@ -116,11 +115,9 @@ def get_bingo_cards(
     incomplete_card_count: Counter[CardID] = Counter()
     incomplete_square_count: Counter[SquareName] = Counter()
     for index, row in data.iterrows():
-        index = cast(CardID, index)
+        index = CardID(str(index))
 
-        subbed_square_map = {
-            cast(SquareName, row["SUBBED OUT"]): cast(SquareName, row["SUBBED IN"])
-        }
+        subbed_square_map = {SquareName(row["SUBBED OUT"]): SquareName(row["SUBBED IN"])}
 
         for square_tuple in tuple(subbed_square_map.items()):
             if square_tuple[0] and square_tuple[1]:

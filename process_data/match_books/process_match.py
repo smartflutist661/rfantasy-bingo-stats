@@ -18,6 +18,7 @@ from ..types.defined_types import BookOrAuthor
 
 def process_new_pair(
     dupes: defaultdict[BookOrAuthor, set[BookOrAuthor]],
+    all_matches_to_ignore: defaultdict[BookOrAuthor, set[BookOrAuthor]],
     unscanned_items: set[BookOrAuthor],
     item_to_process: BookOrAuthor,
     match_score: int,
@@ -26,6 +27,7 @@ def process_new_pair(
 
     dedupes = set().union(*(dupes.values()))
     all_choices = set(dupes.keys()) | dedupes | unscanned_items
+    new_matches_to_ignore: AbstractSet[BookOrAuthor] = set()
 
     print()
     results = process.extractBests(
@@ -46,25 +48,41 @@ def process_new_pair(
             else:
                 possible_matches.add(item_match)
 
-        all_match_choices = possible_matches | existing_match_keys
+        all_match_choices = (
+            frozenset(possible_matches | existing_match_keys)
+            - all_matches_to_ignore[item_to_process]
+        )
 
-        best_match = get_best_match(matched_items=all_match_choices)
+        if len(all_match_choices) > 1:
+            best_match, other_matches = get_best_match(original_matched_items=all_match_choices)
 
-        if best_match in (all_choices - all_match_choices) & dedupes:
-            old_best = best_match
-            best_match = find_existing_match(dupes, old_best)
-            print(f"{old_best} already deduped to {best_match}. Using {best_match}.")
+            if best_match in (all_choices - all_match_choices) & dedupes:
+                old_best = best_match
+                best_match = find_existing_match(dupes, old_best)
+                print(f"{old_best} already deduped to {best_match}. Using {best_match}.")
+
+            new_matches_to_ignore = all_match_choices - (
+                other_matches | {best_match, item_to_process}
+            )
+
+        else:
+            print(f"No new matches for {item_to_process}.")
+            best_match = None
 
     else:
         best_match = None
+
+    all_matches_to_ignore[item_to_process] |= new_matches_to_ignore
+    for match_to_ignore in new_matches_to_ignore:
+        all_matches_to_ignore[match_to_ignore].add(item_to_process)
 
     if best_match is None:
         print(f"No duplicates found for {item_to_process}")
         dupes[item_to_process] |= set()
     else:
         # Intersection discards matches removed in `get_best_match`
-        possible_matches &= all_match_choices
-        existing_match_keys &= all_match_choices
+        possible_matches &= other_matches
+        existing_match_keys &= other_matches
 
         # This discards the match chosen from one of these two sets
         possible_matches.discard(best_match)
@@ -98,9 +116,12 @@ def find_existing_match(
     )
 
 
-def get_best_match(matched_items: set[BookOrAuthor]) -> Optional[BookOrAuthor]:
+def get_best_match(
+    original_matched_items: AbstractSet[BookOrAuthor],
+) -> tuple[Optional[BookOrAuthor], frozenset[BookOrAuthor]]:
     """Process all possible matches for a book"""
 
+    matched_items = set(original_matched_items)
     choice = "d"
     while choice == "d":
         match_choices = tuple(matched_items)
@@ -121,11 +142,11 @@ def get_best_match(matched_items: set[BookOrAuthor]) -> Optional[BookOrAuthor]:
             return cast(
                 BookOrAuthor,
                 input("Enter a better version, being sure to use the proper format:\n"),
-            )
+            ), frozenset(matched_items)
 
     if len(matched_items) > 1:
-        return match_choices[int(choice)]
-    return None
+        return match_choices[int(choice)], frozenset(matched_items)
+    return None, frozenset()
 
 
 def unify_matches(

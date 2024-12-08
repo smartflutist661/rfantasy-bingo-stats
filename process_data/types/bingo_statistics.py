@@ -60,13 +60,13 @@ class BingoStatistics:
             total_card_count=int(cast(int, data["total_card_count"])),
             incomplete_cards=Counter(
                 {
-                    cast(CardID, str(key)): int(cast(int, val))
+                    CardID(str(key)): int(cast(int, val))
                     for key, val in data["incomplete_cards"].items()
                 }
             ),
             incomplete_squares=Counter(
                 {
-                    cast(SquareName, str(key)): int(cast(int, val))
+                    SquareName(str(key)): int(cast(int, val))
                     for key, val in data["incomplete_squares"].items()
                 }
             ),
@@ -81,15 +81,13 @@ class BingoStatistics:
             total_story_count=int(cast(int, data["total_story_count"])),
             unique_title_authors=Counter(
                 {
-                    book_to_title_author(cast(Book, str(key)), CUSTOM_SEPARATOR): int(
-                        cast(int, val)
-                    )
+                    book_to_title_author(Book(str(key)), CUSTOM_SEPARATOR): int(cast(int, val))
                     for key, val in data["unique_title_authors"].items()
                 }
             ),
             unique_authors=Counter(
                 {
-                    cast(Author, str(key)): int(cast(int, val))
+                    Author(str(key)): int(cast(int, val))
                     for key, val in data["unique_authors"].items()
                 }
             ),
@@ -97,21 +95,22 @@ class BingoStatistics:
             unique_author_count=int(cast(int, data["unique_author_count"])),
             subbed_squares=Counter(
                 {
-                    cast(tuple[SquareName, SquareName], tuple(key.split(CUSTOM_SEPARATOR))): int(
-                        cast(int, val)
-                    )
+                    cast(
+                        tuple[SquareName, SquareName],
+                        tuple(SquareName(k) for k in key.split(CUSTOM_SEPARATOR)),
+                    ): int(cast(int, val))
                     for key, val in data["subbed_squares"].items()
                 }
             ),
             subbed_out_squares=Counter(
                 {
-                    cast(SquareName, str(key)): int(cast(int, val))
+                    SquareName(str(key)): int(cast(int, val))
                     for key, val in data["subbed_out_squares"].items()
                 }
             ),
             avoided_squares=Counter(
                 {
-                    cast(SquareName, str(key)): int(cast(int, val))
+                    SquareName(str(key)): int(cast(int, val))
                     for key, val in data["avoided_squares"].items()
                 }
             ),

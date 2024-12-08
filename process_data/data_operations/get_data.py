@@ -4,6 +4,7 @@ Created on Apr 7, 2023
 @author: fred
 """
 import json
+from collections import defaultdict
 from pathlib import Path
 
 import pandas
@@ -18,7 +19,12 @@ def get_existing_states(dupe_path: Path) -> RecordedStates:
         with dupe_path.open("r", encoding="utf8") as dupe_file:
             return RecordedStates.from_data(json.load(dupe_file))
     except IOError:
-        return RecordedStates.empty()
+        return RecordedStates(
+            author_dupes=defaultdict(set),
+            book_dupes=defaultdict(set),
+            ignored_author_dupes=defaultdict(set),
+            ignored_book_dupes=defaultdict(set),
+        )
 
 
 def get_bingo_dataframe(bingo_data_filepath: Path) -> pandas.DataFrame:
