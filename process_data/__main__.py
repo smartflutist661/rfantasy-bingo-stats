@@ -4,19 +4,22 @@ Created on Apr 7, 2023
 @author: fred
 """
 import argparse
+import json
 
 import numpy
 import pandas
 
-from .calculate_statistics.get_stats import create_markdown
+from .calculate_statistics.get_stats import (
+    create_markdown,
+    get_summary_statistics,
+)
 from .data.current import (
     BINGO_DATA_FILEPATH,
-    CUSTOM_SEPARATOR,
     OUTPUT_DF_FILEPATH,
+    OUTPUT_STATS_FILEPATH,
 )
 from .data.filepaths import DUPE_RECORD_FILEPATH
 from .data_operations.author_title_book_operations import (
-    books_to_title_authors,
     get_all_authors,
     get_all_title_author_combos,
     get_unique_authors,
@@ -96,18 +99,15 @@ def normalize_books(
     print("Bingo books updated.")
 
 
-def collect_statistics(bingo_data: pandas.DataFrame, separator: str) -> None:
-    """Collect statistics on normalized books"""
-    all_title_authors = get_all_title_author_combos(bingo_data)
-    unique_books = get_unique_books(all_title_authors, separator)
+def collect_statistics(bingo_data: pandas.DataFrame) -> None:
+    """Collect statistics on normalized books and create a rough draft post"""
 
-    unique_authors = set()
-    for _, author in books_to_title_authors(unique_books, separator):
-        unique_authors.add(author)
+    bingo_stats = get_summary_statistics(bingo_data)
 
-    create_markdown(
-        bingo_data, all_title_authors, frozenset(unique_authors), frozenset(unique_books)
-    )
+    with OUTPUT_STATS_FILEPATH.open("w", encoding="utf8") as stats_file:
+        json.dump(bingo_stats.to_data(), stats_file, indent=2)
+
+    create_markdown(bingo_stats)
 
 
 def main(args: argparse.Namespace) -> None:
@@ -126,11 +126,8 @@ def main(args: argparse.Namespace) -> None:
             bingo_data = pandas.read_csv(bingo_data_file)
             bingo_data = bingo_data.replace(numpy.nan, None)
 
-    print(bingo_data)
-
     print("Collecting statistics.")
-    print()
-    collect_statistics(bingo_data, CUSTOM_SEPARATOR)
+    collect_statistics(bingo_data)
 
     if args.github_pat is not None:
         print()
