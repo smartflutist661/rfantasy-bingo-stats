@@ -9,10 +9,7 @@ from pydantic import ValidationError
 from pydantic.functional_serializers import field_serializer
 from pydantic.functional_validators import field_validator
 from pydantic.main import BaseModel
-from pydantic_core.core_schema import (
-    SerializerFunctionWrapHandler,
-    ValidatorFunctionWrapHandler,
-)
+from pydantic_core.core_schema import ValidatorFunctionWrapHandler
 
 from rfantasy_bingo_stats.models.author_info import (
     Ethnicity,
@@ -30,13 +27,18 @@ class AuthorStatistics(BaseModel):
     queer_count: Counter[Optional[bool]] = Counter()
     nationality_count: SortedCounter[Nationality] = Counter()
 
-    @field_serializer("queer_count", mode="wrap")
+    @field_serializer("queer_count", mode="plain")
     def sort_ser_none_key(
         self,
         data: Counter[Optional[bool]],
-        handler: SerializerFunctionWrapHandler,
     ) -> dict[str, int]:
-        out = handler(data)
+        out = {}
+        if data.get(None) is not None:
+            out["None"] = data[None]
+        if data.get(True) is not None:
+            out["true"] = data[True]
+        if data.get(False) is not None:
+            out["false"] = data[False]
         return dict(sorted(out.items()))
 
     @field_validator("queer_count", mode="wrap")
@@ -50,10 +52,10 @@ class AuthorStatistics(BaseModel):
             return cast(Counter[Optional[bool]], handler(data))
         except ValidationError as exc:
             error = exc.errors()[0]
-            if error["type"] == "bool_parsing" and error["input"] == "null":
+            if error["type"] == "bool_parsing" and error["input"] in ("null", "None"):
                 rehandle = {}
                 for key, val in data.items():
-                    if key == "null":
+                    if key in ("null", "None"):
                         key = None
                     rehandle[key] = val
                     return cast(Counter[Optional[bool]], handler(rehandle))

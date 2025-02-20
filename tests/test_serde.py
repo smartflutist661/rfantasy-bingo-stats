@@ -6,6 +6,7 @@ from rfantasy_bingo_stats.constants import YearlyDataPaths
 from rfantasy_bingo_stats.models.author_info import (
     AuthorInfoAdapter,
 )
+from rfantasy_bingo_stats.models.bingo_statistics import BingoStatistics
 from rfantasy_bingo_stats.models.card_data import CardData
 from rfantasy_bingo_stats.models.recorded_ignores import RecordedIgnores
 from rfantasy_bingo_stats.models.recorded_states import RecordedDupes
@@ -18,6 +19,7 @@ DUPE_TEST_FILEPATH = TEST_DATA_FOLDER / "resolved_duplicates.json"
 IGNORED_TEST_FILEPATH = TEST_DATA_FOLDER / "ignored_duplicates.json"
 YOY_TEST_FILEPATH = TEST_DATA_FOLDER / "year_over_year_stats.json"
 AUTHOR_TEST_FILEPATH = TEST_DATA_FOLDER / "author_records.json"
+BINGO_TEST_FILEPATH = TEST_DATA_FOLDER / "bingo_stats.json"
 
 
 @fixture(name="data_paths")
@@ -56,4 +58,14 @@ def test_author_data_serde() -> None:
         orig = author_info_file.read()
     validated = AuthorInfoAdapter.validate_json(orig)
     dump = AuthorInfoAdapter.dump_json(validated, indent=2).decode("utf8")
+    assert orig == dump
+
+
+def test_bingo_stats_serde() -> None:
+    with BINGO_TEST_FILEPATH.open("r", encoding="utf8") as bingo_stats_file:
+        orig = bingo_stats_file.read()
+    validated = BingoStatistics.model_validate_json(orig)
+    dump = validated.model_dump_json(indent=2)
+    # with BINGO_TEST_FILEPATH.open("w", encoding="utf8") as bingo_stats_file:
+    #     bingo_stats_file.write(dump)
     assert orig == dump
