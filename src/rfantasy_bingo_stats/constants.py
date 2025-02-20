@@ -11,6 +11,7 @@ SUBBED_SQUARE_SEPARATOR = " /// "
 # Global paths
 ROOT = Path(__file__).parent
 BINGO_DATA_PATH = ROOT / "bingo_data"
+POLL_DATA_PATH = ROOT / "poll_data"
 DUPE_RECORD_FILEPATH: Path = BINGO_DATA_PATH / "resolved_duplicates.json"
 IGNORED_RECORD_FILEPATH: Path = BINGO_DATA_PATH / "ignored_duplicates.json"
 AUTHOR_INFO_FILEPATH: Path = BINGO_DATA_PATH / "author_records.json"
