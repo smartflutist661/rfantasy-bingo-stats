@@ -249,7 +249,7 @@ def main(args: argparse.Namespace) -> None:
         commit_push_pr(args.github_pat)
 
 
-def cli() -> argparse.Namespace:
+def cli() -> None:
     """Define command-line interface for this program"""
     parser = argparse.ArgumentParser()
 
@@ -309,8 +309,9 @@ def cli() -> argparse.Namespace:
         help="Pass to process a year other than the current.",
     )
 
-    return parser.parse_args()
+    args = parser.parse_args()
+    main(args)
 
 
 if __name__ == "__main__":
-    main(cli())
+    cli()

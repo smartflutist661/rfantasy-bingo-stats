@@ -42,14 +42,15 @@ def main(args: argparse.Namespace) -> None:
             )
 
 
-def cli() -> argparse.Namespace:
+def cli() -> None:
     parser = argparse.ArgumentParser()
 
     parser.add_argument("author", type=Author)
     parser.add_argument("--year", type=int, default=date.today().year - 1)
 
-    return parser.parse_args()
+    args = parser.parse_args()
+    main(args)
 
 
 if __name__ == "__main__":
-    main(cli())
+    cli()
