@@ -96,7 +96,7 @@ def update_bingo_authors(
 def comma_separate_authors(recorded_states: RecordedDupes) -> None:
     """Turn all multi-authors into comma-separated"""
 
-    for string in (";", " , ", ", & ", " & ", ", and ", " and ", ", with ", " with "):
+    for string in (";", " , ", ", & ", " & ", " & & ", ", and ", " and ", ", with ", " with "):
         for author, author_dedupes in tuple(recorded_states.author_dupes.items()):
             if string in author:
                 updated_author = Author(author.replace(string, ", "))
