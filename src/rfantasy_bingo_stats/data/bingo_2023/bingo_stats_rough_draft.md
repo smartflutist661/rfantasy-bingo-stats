@@ -37,11 +37,11 @@ so if anyone would like to supply demographic information, it is easy to include
 The minimum number of filled squares was 5. 5 were *this close*, with 24 filled squares.
 649 squares were left blank, leaving 22576 filled squares.
 - There were 23096 total stories, with 6700 unique stories read,
-by 3935 unique authors (23667 total).
-4150 books and 2121 authors were used only once. 
+by 3935 unique authors (23664 total).
+4150 books and 2122 authors were used only once. 
 - The top squares left blank were: **Druid** and **Set in the Middle East**, blank on 46 cards each; **Superheroes**, blank on 44 cards; **Elemental Magic**, blank on 38 cards. On the other hand, **Sequel** was only left blank 9 times.
 - The three squares most often substituted were: **Druid**, substituted on 58 cards; **Superheroes**, substituted on 34 cards; **Book Club or Readalong Book**, substituted on 31 cards.
-**Multiverses** and **Sequel** were never substituted.
+**Sequel** and **Multiverses** were never substituted.
 This means that Druid was the least favorite overall, skipped or substituted a total of 104 times, and
 Sequel was the favorite, skipped or substituted only 9 times.
 - There were an average of 4.5 unique books per card.
@@ -283,8 +283,8 @@ Skipped 26 times. Substituted 7 times.
 - TIE: Brandon Sanderson and Guy Gavriel Kay, each read 13 times
 - TIE: Octavia E. Butler and Terry Pratchett, each read 12 times
 
-**TOTAL**: 909 total authors read, with 452 unique.
-299 authors were used only once for this square.
+**TOTAL**: 908 total authors read, with 451 unique.
+298 authors were used only once for this square.
 
 ### 4. Magical Realism
 
@@ -439,7 +439,7 @@ Skipped 37 times. Substituted 18 times.
 - TIE: Jonathan Strahan and Isaac Asimov and Kelly Link, each read 11 times
 - Joe Abercrombie, read 10 times
 
-**TOTAL**: 1229 total authors read, with 625 unique.
+**TOTAL**: 1227 total authors read, with 624 unique.
 416 authors were used only once for this square.
 
 ### 10. Horror
@@ -898,7 +898,7 @@ Values close to 100 suggest the same books were used repeatedly for a square; 10
 |Mundane Jobs|48.4|55.2|
 |Published in the 2000s|38.6|53.1|
 |Angels and Demons|57.3|65.0|
-|Five Short Stories|36.1|40.6|
+|Five Short Stories|36.1|40.7|
 |Horror|47.6|55.8|
 |Self Published or Indie Publisher|27.6|37.1|
 |Set in the Middle East|69.8|71.8|
@@ -952,7 +952,7 @@ Quoting the [very first bingo stats post](https://www.reddit.com/r/Fantasy/comme
 
 A "misspelling" for the purposes of these statistics is any book (title/author combination)
 that does not match the version used as the canonical version during cleaning.
-There were a total of 5859 misspellings.
+There were a total of 5861 misspellings.
 (Note that this does not include short stories.)
 
 The books with the most variation in title or author spellings were:
