@@ -137,12 +137,13 @@ def unify_overlapped_values(
 ) -> None:
     """Unify books that are duplicated as values"""
     for (dupe_key_1, dupe_key_2), overlaps in all_overlaps.items():
-        print(f"{overlaps} are saved as duplicates for both {dupe_key_1} and {dupe_key_2}")
+        choice_str = [f"{overlaps} are saved as duplicates for both {dupe_key_1} and {dupe_key_2}"]
 
-        print("Choose the best version:")
-        print(f"[{MatchChoice.MATCH.value}] {dupe_key_1}")
-        print(f"[{MatchChoice.NEW.value}] {dupe_key_2}")
-        choice = MatchChoice(int(input("Selection: ")))
+        choice_str.append("Choose the best version:")
+        choice_str.append(f"[{MatchChoice.MATCH.value}] {dupe_key_1}")
+        choice_str.append(f"[{MatchChoice.NEW.value}] {dupe_key_2}")
+        choice_str.append("Selection: ")
+        choice = MatchChoice(int(input("\n".join(choice_str))))
 
         if choice == MatchChoice.MATCH:
             best = dupe_key_1
@@ -168,12 +169,15 @@ def unify_key_value_overlaps(
         if overlap == existing_match_key:
             dupes[existing_match_key].remove(overlap)
         else:
-            print(f"{overlap} is a corrected version and a duplicate for {existing_match_key}")
+            choice_str = [
+                f"{overlap} is a corrected version and a duplicate for {existing_match_key}"
+            ]
 
-            print("Choose the best version:")
-            print(f"[{MatchChoice.MATCH.value}] {existing_match_key}")
-            print(f"[{MatchChoice.NEW.value}] {overlap}")
-            choice = MatchChoice(int(input("Selection: ")))
+            choice_str.append("Choose the best version:")
+            choice_str.append(f"[{MatchChoice.MATCH.value}] {existing_match_key}")
+            choice_str.append(f"[{MatchChoice.NEW.value}] {overlap}")
+            choice_str.append("Selection: ")
+            choice = MatchChoice(int(input("\n".join(choice_str))))
 
             if choice == MatchChoice.MATCH:
                 best = existing_match_key

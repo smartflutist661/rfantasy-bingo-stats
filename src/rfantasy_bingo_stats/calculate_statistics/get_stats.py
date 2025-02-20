@@ -544,12 +544,14 @@ def create_markdown(bingo_stats: BingoStatistics, card_data: CardData, output_pa
     most_avoided_square, most_avoided_count = bingo_stats.avoided_squares.most_common(1)[0]
     fav_index = 0
     least_avoided_square = ""
+    least_avoided_count = None
     while least_avoided_square not in card_data.square_names.values():
         fav_index -= 1
         least_avoided_square, least_avoided_count = bingo_stats.avoided_squares.most_common()[
             fav_index
         ]
 
+    max_square_ratio_book = None
     max_ratio = 0.0
     for book, square_count in bingo_stats.unique_squares_by_book.items():
         total_count = bingo_stats.overall_uniques.unique_books[book]
@@ -559,6 +561,10 @@ def create_markdown(bingo_stats: BingoStatistics, card_data: CardData, output_pa
                 max_ratio = count_ratio
                 max_square_ratio_book = book
 
+    if max_square_ratio_book is None:
+        raise ValueError("No book found for max unique squares to total times read ratio")
+
+    max_square_ratio_author = None
     max_ratio = 0.0
     for author, square_count in bingo_stats.unique_squares_by_author.items():
         total_count = bingo_stats.overall_uniques.unique_authors[author]
@@ -567,6 +573,9 @@ def create_markdown(bingo_stats: BingoStatistics, card_data: CardData, output_pa
             if count_ratio > max_ratio:
                 max_ratio = count_ratio
                 max_square_ratio_author = author
+
+    if max_square_ratio_author is None:
+        raise ValueError("No author found for max unique squares to total times read ratio")
 
     mean_uniques = np.mean(list(bingo_stats.card_uniques.values()))
 

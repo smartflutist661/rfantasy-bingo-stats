@@ -8,13 +8,12 @@ from typing import (
 
 from thefuzz import process  # type: ignore[import-untyped]
 
+from rfantasy_bingo_stats.data_operations.author_title_book_operations import split_multi_author
+from rfantasy_bingo_stats.logger import LOGGER
 from rfantasy_bingo_stats.models.defined_types import (
     Author,
     BookOrAuthor,
 )
-
-from ..data_operations.author_title_book_operations import split_multi_author
-from ..logger import LOGGER
 
 
 def process_new_pair(
@@ -92,9 +91,11 @@ def process_new_pair(
             new_matches_to_ignore = initial_match_choices - filtered_match_choices
             LOGGER.info(f"No new matches for {item_to_process}.")
             best_match = None
+            other_matches = frozenset()
 
     else:
         best_match = None
+        other_matches = frozenset()
 
     all_matches_to_ignore[item_to_process] |= new_matches_to_ignore
     for match_to_ignore in new_matches_to_ignore:
@@ -149,14 +150,15 @@ def get_best_match(
     choice = "d"
     while choice == "d":
         match_choices = tuple(matched_items)
-        print("Choose the best version:")
+        choice_str = ["Choose the best version:"]
         for choice_num, match_choice in enumerate(match_choices):
-            print(f"[{choice_num}] {match_choice}")
-        print()
-        print("[r] Remove one or more matches")
-        print("[c] Enter a better version of all")
-        print("[e] Save and exit")
-        choice = input("Selection: ")
+            choice_str.append(f"[{choice_num}] {match_choice}")
+        choice_str.append("")
+        choice_str.append("[r] Remove one or more matches")
+        choice_str.append("[c] Enter a better version of all")
+        choice_str.append("[e] Save and exit")
+        choice_str.append("Selection: ")
+        choice = input("\n".join(choice_str))
         if choice == "r":
             while len(matched_items) > 1 and choice != "d":
                 choice = input("Match to remove ([d] for done): ")
@@ -169,7 +171,7 @@ def get_best_match(
             ), frozenset(matched_items)
 
     if len(matched_items) > 1:
-        return match_choices[int(choice)], frozenset(matched_items)
+        return match_choices[int(choice)], frozenset(matched_items)  # type: ignore[possibly-undefined]  # Never undefined since `choice` inits to `"d"`
     return None, frozenset()
 
 
