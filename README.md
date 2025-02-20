@@ -8,15 +8,11 @@ retrieving the best matches from books that have already been regularized or fro
 
 ## Clone the Repository
 
-### Acquiring `git`
-
-If you already have `git`, skip to the next section.
-
-#### Linux/Unix
+### Linux/Unix
 
 `git` is available in the package manager for most distributions.
 
-#### Windows
+### Windows
 
 The easiest way to get `git` is to install [Git for Windows](https://gitforwindows.org/), which comes with a terminal, Git Bash.
 
@@ -24,27 +20,21 @@ The easiest way to get `git` is to install [Git for Windows](https://gitforwindo
 
 Find the green `Code` button towards the top right of your screen. Open a terminal (Git Bash or your preferred), navigate to the folder you want to work in, and `git clone https://github.com/smartflutist661/rfantasy-bingo-stats.git`. You can also use SSH, if you have a key set up.
 
-## Install Python (>=3.10) and Dependencies
+## Install `uv`
 
-### Install Python
+To install `uv`, see [the documentation](https://docs.astral.sh/uv/getting-started/installation/), abbreviated below.
 
-If you already have Python 3.10 installed and you can run it from your terminal of choice, you can skip this step.
+### Linux/Unix
 
-#### Linux/Unix
+Run `curl -LsSf https://astral.sh/uv/install.sh | sh`. 
 
-It's likely your distro has Python 3.10 available. Follow [the instructions](https://docs.python.org/3/using/unix.html) in the Python documentation if running `python --version` in your terminal of choice doesn't show at least 3.10.
+### Windows
 
-#### Windows
-
-You'll likely need to install Python. Download the installer from the [Python website](https://www.python.org/downloads/) and follow the wizard.
-
-### Install Dependencies
-
-From a terminal at the top level of the cloned repository (likely `rfantasy-bingo-stats`), run `pip install -r requirements.txt`. You may need to use a virtual environment or include the `--break-system-python` argument (which is generally safe when installing, but _not_ when uninstalling).
+Run `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"`.
 
 ## Running the Script
 
-Open a terminal at the top level of the cloned repository (likely `rfantasy-bingo-stats`). Run `python -m process_data`. You will see a list of choices that looks something like this:
+Open a terminal at the top level of the cloned repository (likely `rfantasy-bingo-stats`). Run `uv run clean-data`. You will see a list of choices that looks something like this:
 
 ```
 Processing possible misspellings. You may hit ctrl+C at any point to exit, or enter `e` at the prompt. Progress will be saved.
@@ -86,7 +76,7 @@ For instructions on sharing your updates, see the guide to CONTRIBUTING.
 
 ### Options
 
-Run `python -m process_data -h` to see a list of options.
+Run `uv run clean-data -h` to see a list of options.
 
 ### Adjusting the Match Sensitivity
 
@@ -94,8 +84,8 @@ I believe the default sensitivity is set reasonably well.
 However, if you'd like to make matching more or less sensitive, pass the argument `--match-score` to the command.
 The default value is 90. This is approximately a percentage; adjust accordingly.
 For example, to make title/author combinations match only if they're already almost perfect,
-run `python -m process_data --match-score 99`.
-On the other hand, to make some pretty bad matches appear, run `python -m process_data --match-score 80`.
+run `uv run clean-data --match-score 99`.
+On the other hand, to make some pretty bad matches appear, run `uv run clean-data --match-score 80`.
 
 ### Rescanning previously-unmatched books
 
