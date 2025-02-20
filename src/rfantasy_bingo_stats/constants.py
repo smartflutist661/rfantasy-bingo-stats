@@ -10,11 +10,11 @@ SUBBED_SQUARE_SEPARATOR = " /// "
 
 # Global paths
 ROOT = Path(__file__).parent
-DATA_PATH = ROOT / "data"
-DUPE_RECORD_FILEPATH: Path = DATA_PATH / "resolved_duplicates.json"
-IGNORED_RECORD_FILEPATH: Path = DATA_PATH / "ignored_duplicates.json"
-AUTHOR_INFO_FILEPATH: Path = DATA_PATH / "author_records.json"
-YOY_DATA_FILEPATH: Path = DATA_PATH / "year_over_year_stats.json"
+BINGO_DATA_PATH = ROOT / "bingo_data"
+DUPE_RECORD_FILEPATH: Path = BINGO_DATA_PATH / "resolved_duplicates.json"
+IGNORED_RECORD_FILEPATH: Path = BINGO_DATA_PATH / "ignored_duplicates.json"
+AUTHOR_INFO_FILEPATH: Path = BINGO_DATA_PATH / "author_records.json"
+YOY_DATA_FILEPATH: Path = BINGO_DATA_PATH / "year_over_year_stats.json"
 
 
 @dataclass(frozen=True)
@@ -23,7 +23,7 @@ class YearlyDataPaths:
 
     @property
     def root(self) -> Path:
-        return DATA_PATH / f"bingo_{self.year}"
+        return BINGO_DATA_PATH / f"bingo_{self.year}"
 
     @property
     def raw_data_path(self) -> Path:
