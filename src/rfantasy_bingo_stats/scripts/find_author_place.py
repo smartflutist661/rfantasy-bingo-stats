@@ -10,10 +10,10 @@ from datetime import date
 
 import numpy as np
 
-from process_data.constants import YearlyDataPaths
-from process_data.types.bingo_statistics import BingoStatistics
-from process_data.types.defined_types import Author
-from script_utils import calc_percentiles
+from rfantasy_bingo_stats.constants import YearlyDataPaths
+from rfantasy_bingo_stats.scripts.utils import calc_percentiles
+from rfantasy_bingo_stats.types.bingo_statistics import BingoStatistics
+from rfantasy_bingo_stats.types.defined_types import Author
 
 
 def main(args: argparse.Namespace) -> None:
@@ -38,12 +38,12 @@ def main(args: argparse.Namespace) -> None:
             last_count = count
 
         if author == args.author:
-            print(
+            print(  # noqa: T201
                 f" \t -----> {author}: Place {place} | Read count {count} |"
                 + f" Percentile by count {percentiles[author]:.1f} | Percentile by total place {100*total_place/len(bingo_stats.overall_uniques.unique_authors):.1f} <-----"
             )
         else:
-            print(
+            print(  # noqa: T201
                 f"{author}: Place {place} | Read count {count} |"
                 + f" Percentile {percentiles[author]:.1f} | Percentile by total place {100*total_place/len(bingo_stats.overall_uniques.unique_authors):.1f}"
             )

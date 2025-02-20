@@ -146,7 +146,7 @@ def handle_overlaps(dupes: defaultdict[BookOrAuthor, set[BookOrAuthor]]) -> None
 
 
 def get_all_value_overlaps(
-    dupes: Mapping[BookOrAuthor, AbstractSet[BookOrAuthor]]
+    dupes: Mapping[BookOrAuthor, AbstractSet[BookOrAuthor]],
 ) -> Mapping[tuple[BookOrAuthor, BookOrAuthor], AbstractSet[BookOrAuthor]]:
     """Get overlaps in value fields"""
     all_overlaps = {}

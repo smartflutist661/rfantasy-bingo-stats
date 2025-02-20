@@ -8,21 +8,21 @@ import argparse
 import json
 from datetime import date
 
-from process_data.calculate_statistics.get_bingo_cards import get_bingo_cards
-from process_data.calculate_statistics.get_stats import format_book
-from process_data.constants import (
+from rfantasy_bingo_stats.calculate_statistics.get_bingo_cards import get_bingo_cards
+from rfantasy_bingo_stats.calculate_statistics.get_stats import format_book
+from rfantasy_bingo_stats.constants import (
     DUPE_RECORD_FILEPATH,
     IGNORED_RECORD_FILEPATH,
     YearlyDataPaths,
 )
-from process_data.data_operations.author_title_book_operations import title_author_to_book
-from process_data.data_operations.get_data import (
+from rfantasy_bingo_stats.data_operations.author_title_book_operations import title_author_to_book
+from rfantasy_bingo_stats.data_operations.get_data import (
     get_bingo_dataframe,
     get_existing_states,
 )
-from process_data.types.bingo_statistics import BingoStatistics
-from process_data.types.card_data import CardData
-from process_data.types.defined_types import CardID
+from rfantasy_bingo_stats.types.bingo_statistics import BingoStatistics
+from rfantasy_bingo_stats.types.card_data import CardData
+from rfantasy_bingo_stats.types.defined_types import CardID
 
 
 def main(args: argparse.Namespace) -> None:
@@ -37,7 +37,7 @@ def main(args: argparse.Namespace) -> None:
         DUPE_RECORD_FILEPATH, IGNORED_RECORD_FILEPATH, skip_updates=True
     )
 
-    bingo_data = get_bingo_dataframe(year_data_paths.raw_data_path, card_data)
+    bingo_data = get_bingo_dataframe(year_data_paths.raw_data_path)
 
     cards = get_bingo_cards(bingo_data, card_data)
 
@@ -47,7 +47,7 @@ def main(args: argparse.Namespace) -> None:
     overall_uniques = []
     square_uniques = []
     nonuniques = []
-    for square_name, square in card_to_process.items():
+    for square_name, square in card_to_process.squares.items():
         if square is not None:
             book = title_author_to_book((square.title, square.author))
             if book in book_dedupe_map.keys():
@@ -68,7 +68,7 @@ def main(args: argparse.Namespace) -> None:
     formatted_square_uniques = "\n".join(square_uniques)
     formatted_nonuniques = "\n".join(nonuniques)
 
-    print(
+    print(  # noqa: T201
         f"""
 Your card had {len(overall_uniques)} unique books:
 
@@ -88,7 +88,7 @@ For the remaining books:
 def cli() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("--card_id", type=CardID, default="1")
+    parser.add_argument("--card-id", type=CardID, default="1")
     parser.add_argument("--year", type=int, default=date.today().year - 1)
 
     return parser.parse_args()
