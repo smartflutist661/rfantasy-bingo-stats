@@ -13,8 +13,8 @@ from github import Github
 from github.GithubException import GithubException
 from requests import exceptions
 
-from .constants import REMOTE_REPO
-from .logger import LOGGER
+from rfantasy_bingo_stats.constants import REMOTE_REPO
+from rfantasy_bingo_stats.logger import LOGGER
 
 REPO_PATH = Path(__file__).parents[1]
 

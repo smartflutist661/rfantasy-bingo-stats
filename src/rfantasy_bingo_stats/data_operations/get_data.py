@@ -11,8 +11,8 @@ from pathlib import Path
 import numpy as np
 import pandas
 
-from ..types.recorded_ignores import RecordedIgnores
-from ..types.recorded_states import RecordedDupes
+from rfantasy_bingo_stats.models.recorded_ignores import RecordedIgnores
+from rfantasy_bingo_stats.models.recorded_states import RecordedDupes
 
 
 def get_existing_states(

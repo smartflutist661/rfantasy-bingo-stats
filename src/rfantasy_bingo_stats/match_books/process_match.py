@@ -12,14 +12,15 @@ from typing import (
     cast,
 )
 
-from thefuzz import process  # type: ignore
+from thefuzz import process  # type: ignore[import-untyped]
 
-from ..data_operations.author_title_book_operations import split_multi_author
-from ..logger import LOGGER
-from ..types.defined_types import (
+from rfantasy_bingo_stats.models.defined_types import (
     Author,
     BookOrAuthor,
 )
+
+from ..data_operations.author_title_book_operations import split_multi_author
+from ..logger import LOGGER
 
 
 def process_new_pair(
@@ -44,7 +45,7 @@ def process_new_pair(
     existing_match_keys = set()
     possible_matches = {item_to_process}
     if results is not None and len(results) > 0:
-        print(f"Matching {item_to_process}:")
+        print(f"Matching {item_to_process}:")  # noqa: T201
         for item_match, _ in results:
             if item_match in dedupes:
                 existing_match_keys.add(find_existing_match(dupes, item_match))

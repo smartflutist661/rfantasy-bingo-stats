@@ -20,21 +20,21 @@ import inflect
 import numpy as np
 import pandas
 
-from ..data_operations.author_title_book_operations import (
+from rfantasy_bingo_stats.data_operations.author_title_book_operations import (
     book_to_title_author,
     title_author_to_book,
 )
-from ..types.author_info import AuthorInfo
-from ..types.author_statistics import AuthorStatistics
-from ..types.bingo_card import (
+from rfantasy_bingo_stats.models.author_info import AuthorInfo
+from rfantasy_bingo_stats.models.author_statistics import AuthorStatistics
+from rfantasy_bingo_stats.models.bingo_card import (
     BingoCard,
     BingoSquare,
     ShortStorySquare,
 )
-from ..types.bingo_statistics import BingoStatistics
-from ..types.bingo_type_statistics import BingoTypeStatistics
-from ..types.card_data import CardData
-from ..types.defined_types import (
+from rfantasy_bingo_stats.models.bingo_statistics import BingoStatistics
+from rfantasy_bingo_stats.models.bingo_type_statistics import BingoTypeStatistics
+from rfantasy_bingo_stats.models.card_data import CardData
+from rfantasy_bingo_stats.models.defined_types import (
     Author,
     AuthorCol,
     BingoName,
@@ -45,8 +45,8 @@ from ..types.defined_types import (
     Title,
     TitleCol,
 )
-from ..types.recorded_states import RecordedDupes
-from ..types.unique_statistics import UniqueStatistics
+from rfantasy_bingo_stats.models.recorded_states import RecordedDupes
+from rfantasy_bingo_stats.models.unique_statistics import UniqueStatistics
 
 BINGO_SIZE = 5
 

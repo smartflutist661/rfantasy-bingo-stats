@@ -12,22 +12,22 @@ from typing import (
     overload,
 )
 
-from ..constants import (
+from rfantasy_bingo_stats.constants import (
     DUPE_RECORD_FILEPATH,
     IGNORED_RECORD_FILEPATH,
 )
-from ..logger import LOGGER
-from ..types.defined_types import (
+from rfantasy_bingo_stats.logger import LOGGER
+from rfantasy_bingo_stats.match_books.process_match import (
+    find_existing_match,
+    process_new_pair,
+)
+from rfantasy_bingo_stats.models.defined_types import (
     Author,
     Book,
     BookOrAuthor,
 )
-from ..types.recorded_ignores import RecordedIgnores
-from ..types.recorded_states import RecordedDupes
-from .process_match import (
-    find_existing_match,
-    process_new_pair,
-)
+from rfantasy_bingo_stats.models.recorded_ignores import RecordedIgnores
+from rfantasy_bingo_stats.models.recorded_states import RecordedDupes
 
 
 @overload
@@ -122,7 +122,7 @@ def get_possible_book_matches(
     LOGGER.info(f"Scanning {total_to_scan} unscanned books{non_dupe_str}.")
     while len(unscanned_books) > 0:
         count += 1
-        print(f"\n{count}/{total_to_scan}")
+        print(f"\n{count}/{total_to_scan}")  # noqa: T201
         new_book = unscanned_books.pop()
 
         process_new_pair(
@@ -161,7 +161,7 @@ def get_possible_author_matches(
     LOGGER.info(f"Scanning {len(unscanned_authors)} unscanned authors{non_dupe_str}.")
     while len(unscanned_authors) > 0:
         count += 1
-        print(f"\n{count}/{total_to_scan}")
+        print(f"\n{count}/{total_to_scan}")  # noqa: T201
         new_author = unscanned_authors.pop()
 
         process_new_pair(

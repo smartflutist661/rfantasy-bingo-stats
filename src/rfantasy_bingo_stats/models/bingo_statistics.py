@@ -17,17 +17,17 @@ from typing import (
     Mapping,
 )
 
-from ..constants import SUBBED_SQUARE_SEPARATOR
-from .author_statistics import AuthorStatistics
-from .bingo_type_statistics import BingoTypeStatistics
-from .defined_types import (
+from rfantasy_bingo_stats.constants import SUBBED_SQUARE_SEPARATOR
+from rfantasy_bingo_stats.models.author_statistics import AuthorStatistics
+from rfantasy_bingo_stats.models.bingo_type_statistics import BingoTypeStatistics
+from rfantasy_bingo_stats.models.defined_types import (
     Author,
     Book,
     CardID,
     SquareName,
 )
-from .unique_statistics import UniqueStatistics
-from .utils import (
+from rfantasy_bingo_stats.models.unique_statistics import UniqueStatistics
+from rfantasy_bingo_stats.models.utils import (
     AnyData,
     author_counter_from_data,
     book_counter_from_data,

@@ -12,56 +12,56 @@ from types import MappingProxyType as MAP
 
 import pandas
 
-from .calculate_statistics.get_bingo_cards import (
+from rfantasy_bingo_stats.calculate_statistics.get_bingo_cards import (
     get_bingo_cards,
     get_bingo_stats,
 )
-from .calculate_statistics.get_stats import create_markdown
-from .calculate_statistics.plot_distributions import (
+from rfantasy_bingo_stats.calculate_statistics.get_stats import create_markdown
+from rfantasy_bingo_stats.calculate_statistics.plot_distributions import (
     create_yearly_plots,
     create_yoy_plots,
 )
-from .constants import (
+from rfantasy_bingo_stats.constants import (
     AUTHOR_INFO_FILEPATH,
     CURRENT_YEAR,
     DUPE_RECORD_FILEPATH,
     IGNORED_RECORD_FILEPATH,
     YearlyDataPaths,
 )
-from .data_operations.author_title_book_operations import (
+from rfantasy_bingo_stats.data_operations.author_title_book_operations import (
     get_all_authors,
     get_all_title_author_combos,
     get_unique_authors,
     get_unique_books,
 )
-from .data_operations.get_data import (
+from rfantasy_bingo_stats.data_operations.get_data import (
     get_bingo_dataframe,
     get_existing_states,
 )
-from .data_operations.update_data import (
+from rfantasy_bingo_stats.data_operations.update_data import (
     comma_separate_authors,
     update_bingo_authors,
     update_bingo_books,
 )
-from .git_operations import (
+from rfantasy_bingo_stats.git_operations import (
     commit_push_pr,
     synchronize_github,
 )
-from .logger import LOGGER
-from .match_books.get_matches import (
+from rfantasy_bingo_stats.logger import LOGGER
+from rfantasy_bingo_stats.match_books.get_matches import (
     get_possible_matches,
     update_dedupes_from_authors,
 )
-from .types.author_info import AuthorInfo
-from .types.bingo_card import BingoCard
-from .types.card_data import CardData
-from .types.defined_types import (
+from rfantasy_bingo_stats.models.author_info import AuthorInfo
+from rfantasy_bingo_stats.models.bingo_card import BingoCard
+from rfantasy_bingo_stats.models.card_data import CardData
+from rfantasy_bingo_stats.models.defined_types import (
     Author,
     CardID,
 )
-from .types.recorded_ignores import RecordedIgnores
-from .types.recorded_states import RecordedDupes
-from .types.utils import to_data
+from rfantasy_bingo_stats.models.recorded_ignores import RecordedIgnores
+from rfantasy_bingo_stats.models.recorded_states import RecordedDupes
+from rfantasy_bingo_stats.models.utils import to_data
 
 pandas.options.mode.copy_on_write = True
 

@@ -1,9 +1,3 @@
-"""
-Created on Apr 22, 2023
-
-@author: fred
-"""
-
 import json
 from collections import Counter
 from pathlib import Path
@@ -16,17 +10,15 @@ from typing import (
 
 import matplotlib.pyplot as plt
 import numpy as np
-from lmfit.model import ModelResult  # type: ignore
+from lmfit.model import ModelResult  # type: ignore[import-untyped]
 
-from ..constants import (
+from rfantasy_bingo_stats.constants import (
     YOY_DATA_FILEPATH,
     YearlyDataPaths,
 )
-from ..types.bingo_statistics import BingoStatistics
-from ..types.fit_props import FitProps
-from ..types.yearly_stats import YearlyBingoStatistics
-
-# from lmfit.models import SkewedGaussianModel  # type: ignore
+from rfantasy_bingo_stats.models.bingo_statistics import BingoStatistics
+from rfantasy_bingo_stats.models.fit_props import FitProps
+from rfantasy_bingo_stats.models.yearly_stats import YearlyBingoStatistics
 
 
 def none_divide(num: Optional[SupportsFloat], denom: Optional[SupportsFloat]) -> Optional[float]:

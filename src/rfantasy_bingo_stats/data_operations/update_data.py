@@ -16,18 +16,18 @@ from typing import (
 import pandas
 from progressbar import progressbar
 
-from ..constants import (
+from rfantasy_bingo_stats.constants import (
     DUPE_RECORD_FILEPATH,
     TITLE_AUTHOR_SEPARATOR,
 )
-from ..logger import LOGGER
-from ..types.defined_types import (
+from rfantasy_bingo_stats.data_operations.author_title_book_operations import title_author_to_book
+from rfantasy_bingo_stats.logger import LOGGER
+from rfantasy_bingo_stats.models.defined_types import (
     Author,
     Book,
     TitleAuthorHMCols,
 )
-from ..types.recorded_states import RecordedDupes
-from .author_title_book_operations import title_author_to_book
+from rfantasy_bingo_stats.models.recorded_states import RecordedDupes
 
 
 def update_bingo_books(

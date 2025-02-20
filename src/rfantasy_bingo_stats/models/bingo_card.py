@@ -10,7 +10,7 @@ from typing import (
     Optional,
 )
 
-from .defined_types import (
+from rfantasy_bingo_stats.models.defined_types import (
     Author,
     SquareName,
     Title,

@@ -11,9 +11,9 @@ from datetime import date
 import numpy as np
 
 from rfantasy_bingo_stats.constants import YearlyDataPaths
+from rfantasy_bingo_stats.models.bingo_statistics import BingoStatistics
+from rfantasy_bingo_stats.models.defined_types import Author
 from rfantasy_bingo_stats.scripts.utils import calc_percentiles
-from rfantasy_bingo_stats.types.bingo_statistics import BingoStatistics
-from rfantasy_bingo_stats.types.defined_types import Author
 
 
 def main(args: argparse.Namespace) -> None:

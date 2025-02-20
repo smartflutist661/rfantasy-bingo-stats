@@ -20,12 +20,17 @@ from typing import (
 
 import numpy as np
 
-from ..data_operations.author_title_book_operations import book_to_title_author
-from ..logger import LOGGER
-from ..types.bingo_statistics import BingoStatistics
-from ..types.bingo_type_statistics import BingoTypeStatistics
-from ..types.card_data import CardData
-from ..types.defined_types import (
+from rfantasy_bingo_stats.calculate_statistics.get_bingo_cards import (
+    BINGO_SIZE,
+    POSSIBLE_BINGOS,
+)
+from rfantasy_bingo_stats.calculate_statistics.gini_function import calculate_gini_index
+from rfantasy_bingo_stats.data_operations.author_title_book_operations import book_to_title_author
+from rfantasy_bingo_stats.logger import LOGGER
+from rfantasy_bingo_stats.models.bingo_statistics import BingoStatistics
+from rfantasy_bingo_stats.models.bingo_type_statistics import BingoTypeStatistics
+from rfantasy_bingo_stats.models.card_data import CardData
+from rfantasy_bingo_stats.models.defined_types import (
     Author,
     BingoName,
     Book,
@@ -33,11 +38,6 @@ from ..types.defined_types import (
     CardID,
     SquareName,
 )
-from .get_bingo_cards import (
-    BINGO_SIZE,
-    POSSIBLE_BINGOS,
-)
-from .gini_function import calculate_gini_index
 
 
 def format_book(book: Book) -> str:

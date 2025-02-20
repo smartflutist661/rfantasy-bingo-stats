@@ -17,7 +17,7 @@ from typing import (
     cast,
 )
 
-from .utils import (
+from rfantasy_bingo_stats.models.utils import (
     AnyData,
     to_data,
 )

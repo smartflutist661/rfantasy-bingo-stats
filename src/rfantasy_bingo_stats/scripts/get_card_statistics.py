@@ -20,9 +20,9 @@ from rfantasy_bingo_stats.data_operations.get_data import (
     get_bingo_dataframe,
     get_existing_states,
 )
-from rfantasy_bingo_stats.types.bingo_statistics import BingoStatistics
-from rfantasy_bingo_stats.types.card_data import CardData
-from rfantasy_bingo_stats.types.defined_types import CardID
+from rfantasy_bingo_stats.models.bingo_statistics import BingoStatistics
+from rfantasy_bingo_stats.models.card_data import CardData
+from rfantasy_bingo_stats.models.defined_types import CardID
 
 
 def main(args: argparse.Namespace) -> None:

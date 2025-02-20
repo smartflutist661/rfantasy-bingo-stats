@@ -9,8 +9,8 @@ from typing import Iterable
 
 import pandas
 
-from ..constants import TITLE_AUTHOR_SEPARATOR
-from ..types.defined_types import (
+from rfantasy_bingo_stats.constants import TITLE_AUTHOR_SEPARATOR
+from rfantasy_bingo_stats.models.defined_types import (
     Author,
     Book,
     Title,
