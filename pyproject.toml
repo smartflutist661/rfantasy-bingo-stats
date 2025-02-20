@@ -1,11 +1,34 @@
-[tool.isort]
-profile = "black"
-line_length = 99
-combine_as_imports = true
-force_grid_wrap = 2
+[project]
+name = "rfantasy-bingo-stats"
+version = "1.0.0"
+description = "CLI for cleaning r/fantasy Bingo data and producing statistics"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.12"
+dependencies = [
+  "gitpython~=3.1",
+  "inflect~=7.2",
+  "lmfit~=1.2",
+  "matplotlib~=3.7",
+  "numpy~=1.24",
+  "pandas~=2.0",
+  "progressbar2~=4.2",
+  "pygithub~=1.58",
+  "python-levenshtein==0.26.1",
+  "thefuzz==0.22.1",
+]
 
-[tool.black]
-line_length = 99
+[dependency-groups]
+dev = [
+    "black>=24.10.0",
+    "flake8-print>=5.0.0",
+    "isort>=5.13.2",
+    "mypy>=1.14.1",
+    "pandas-stubs>=2.0",
+    "pylint>=3.3.3",
+    "types-requests>=2.32.0.20241016",
+]
 
 [tool.mypy]
 follow_imports = "silent"
@@ -19,3 +42,11 @@ disable = [
   "logging-not-lazy",
 ]
 
+[tool.black]
+line_length = 99
+
+[tool.isort]
+profile = "black"
+line_length = 99
+combine_as_imports = true
+force_grid_wrap = 2

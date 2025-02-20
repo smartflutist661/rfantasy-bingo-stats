@@ -1,24 +1,13 @@
-# Basics
+# Development Environment
 
-If you have not done so, run `git checkout -b [some-meaningful-name]`, where `some-meaningful-name` is a meaningful name you choose to represent your updates.
-Run `git push -u origin [some-meaningful-name]` to send these changes to GitHub.
+The repository is set up to use `uv`'s project management utilities.
 
-## Pushing changes
+To install `uv`, run `curl -LsSf https://astral.sh/uv/install.sh | sh`.
+You can run scripts in the project environment with `uv run`, update dependencies with `uv sync`, etc.
+See the `uv` documentation for full capabilities.
 
-After you've run the script, run:
+# Pre-commit
 
-```
-git add -u
-git commit -m "a useful message"
-git push
-```
-
-Ideally, you then go to GitHub, create a Pull Request into `main`, and your updates become available for others to use after approval. Admins of the repository can also merge changes to `main` manually, and email alerts are set up for pushes.
-
-# For developers
-
-## Pre-commit
-
-There's a very basic `pyproject.toml` with settings for mypy, pylint, black, and isort, and a `pre-commit` shell script (intended for bash, but should be agnostic) that you can run before submitting a pull request. The requirements for the pre-commit script are included in `requirements.txt`. An identical sequence is run as an Action for each pull request.
-
-The only standard not currently enforced by this script is using relative imports.
+The `pyproject.toml` manifest contains settings for mypy, pylint, black, and isort.
+A `pre-commit` bash script that you can run before submitting a pull request is included.
+An identical sequence is run as an Action for each pull request.

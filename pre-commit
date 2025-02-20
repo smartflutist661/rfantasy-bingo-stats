@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-isort process_data
-black process_data
-pylint -d C,R process_data
-mypy -p process_data
+isort src/rfantasy_bingo_stats
+black src/rfantasy_bingo_stats
+pylint -d C,R src/rfantasy_bingo_stats
+mypy src/rfantasy_bingo_stats
