@@ -1,0 +1,56 @@
+{
+  "Aaron Paquette": {
+    "gender": "Man",
+    "ethnicity": "Native",
+    "queer": false,
+    "nationality": "Unknown"
+  },
+  "Valerie Valdes": {
+    "gender": "Woman",
+    "ethnicity": "Hispanic",
+    "queer": false,
+    "nationality": "Unknown"
+  },
+  "Wole Talabi": {
+    "gender": "Man",
+    "ethnicity": "Black",
+    "queer": false,
+    "nationality": "Unknown"
+  },
+  "Wren Douglas": {
+    "gender": "Nonbinary",
+    "ethnicity": "White",
+    "queer": true,
+    "nationality": "Unknown"
+  },
+  "Yan Ge": {
+    "gender": "Woman",
+    "ethnicity": "Asian",
+    "queer": false,
+    "nationality": "Unknown"
+  },
+  "Yan Huo Cheng Cheng": {
+    "gender": "Man",
+    "ethnicity": "Asian",
+    "queer": false,
+    "nationality": "Unknown"
+  },
+  "undertheopensky": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "Élisabeth Vonarburg": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "촉수벌레": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  }
+}

@@ -12,11 +12,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: pytest
+      run: uv run -- pytest
     - name: mypy
-      run: uv run -- mypy src/rfantasy_bingo_stats
+      run: uv run -- mypy src/rfantasy_bingo_stats tests
     - name: pylint
-      run: uv run -- pylint -d C,R src/rfantasy_bingo_stats
+      run: uv run -- pylint -d C,R src/rfantasy_bingo_stats tests
     - name: black
-      run: uv run -- black src/rfantasy_bingo_stats --check
+      run: uv run -- black src/rfantasy_bingo_stats tests --check
     - name: isort
-      run: uv run -- isort src/rfantasy_bingo_stats --check-only
+      run: uv run -- isort src/rfantasy_bingo_stats tests --check-only

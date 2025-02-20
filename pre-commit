@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-isort src/rfantasy_bingo_stats
-black src/rfantasy_bingo_stats
-pylint -d C,R src/rfantasy_bingo_stats
-mypy src/rfantasy_bingo_stats
+isort src/rfantasy_bingo_stats tests
+black src/rfantasy_bingo_stats tests
+pylint -d C,R src/rfantasy_bingo_stats tests
+mypy src/rfantasy_bingo_stats tests
+pytest

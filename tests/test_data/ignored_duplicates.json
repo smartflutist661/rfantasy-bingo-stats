@@ -1,0 +1,137 @@
+{
+  "ignored_author_dupes": {
+    " Catherynne M. Valente": [
+      "Catherynne M. Valente, Annie Wu",
+      "Catherynne M. Valente, Julia Talbot, Amal El-Mohtar, JoSelle Vanderhooft, Erzebet YellowBoy",
+      "S.L. Huang,  Catherynne M. Valente,  Wole Talabi,  Marie Vibbert,  Valerie Hunter,  Lulu Kadhim"
+    ],
+    " Wole Talabi": [],
+    "\"Eiko Kadono, Emily Balistrieri \"": [],
+    "\"Neil Gaiman (Writer)\"": [],
+    "A K Caggiano": [],
+    "A Que": [],
+    "A. Alex Logan": [],
+    "A. Ali Hasan Ali": [],
+    "A. C. Wise": [],
+    "A. Deborah Baker": [
+      "BO"
+    ],
+    "A. F. Steadmand": [],
+    "A. J. Sherwood": [],
+    "A. K. Asif": [],
+    "A. K. DuBoff": [
+      "BO"
+    ],
+    "A. K. M. Beach": [],
+    "A.J. Sherwood": [
+      "A.J. Sherwood, Jocelynn Drake"
+    ],
+    "A.J. Sherwood, Jocelynn Drake": [
+      "A.J. Sherwood",
+      "Jocelynn Drake"
+    ],
+    "A.M. Tuomala": [
+      "Tuí"
+    ],
+    "Shannon Watters": [
+      "N.D. Stevenson, Grace Ellis, Shannon Watters, Brooklyn Allen",
+      "Shannon Watters, Branden Boyer-White, Berenice Nelle",
+      "Watt"
+    ],
+    "Élan Marché": [
+      "Élan Marché, Christopher Warman"
+    ],
+    "Élan Marché, Christopher Warman": [
+      "Christopher Warman",
+      "Élan Marché"
+    ],
+    "Élisabeth Vonarburg": [],
+    "Éléonore Devillepoix": [],
+    "Александр Григоренко / Alexander Grigorenko": [],
+    "Дара Корній": [],
+    "Леся Яцута та ін.": [],
+    "Марина Козинаки и Софи Авдюхина / Marina Kozinaki and Sophie Avdyukhina": [],
+    "Марина Козинаки и Софи Авдюхина / Marina Kozinaki, Sophie Avdyukhina": [
+      "Sophie Avdyukhina"
+    ],
+    "Мария Гуцол": [],
+    "Михаил Булгаков / Mikhail Bulgakov": [],
+    "Наталья Щерба / Natalia Shcherba": [],
+    "Павло Дерев'янко": [],
+    "Яна Лехчина / Yana Lekhchina": [],
+    "รอมแพง": [],
+    "一世华裳": [],
+    "一十四洲": [],
+    "天良永动机": [],
+    "戏子祭酒": [],
+    "星子": [],
+    "星河蛋挞": [],
+    "木下雉水": [],
+    "林知落": [],
+    "森見登美彦 (Morimi Tomihiko)": [],
+    "每月一更": [],
+    "真島ヒロ (Hiro Mashima)": [],
+    "石黒正数": [],
+    "竹亦心": [],
+    "筱玄": [],
+    "肉包不吃肉 (Meatbun Does Not Eat Meat)": [],
+    "鄭丰": [],
+    "駄犬": [],
+    "龍應台": [],
+    "촉수벌레": []
+  },
+  "ignored_book_dupes": {
+    "\"A Dead Djinn in Cairo\", \"The Angel of Khan el-Khalili\", and \"The Haunting of Tram Car 015\" /// P. Djèlí Clark": [],
+    "\"I Am A Handsome Man,\" Said Apollo Crow /// Kate Elliott": [],
+    "\"Run,\" Says Bakri /// Ferrett Steinmetz": [],
+    "\"Superman Punches the Clan\" and \"The Unbeatable Squirrel Girl Vol 1\" /// Gene Luen Yang, Ryan North": [],
+    "#ClimbingNation /// Kim Fu": [],
+    "#Selfcare /// Annalee Newitz": [],
+    "& This is How to Stay Alive /// Shingai Njeri Kagunda": [],
+    "1,000 Open Doors /// John Barnes": [],
+    "10 Steps To Effective Mold Removal /// Derrick Boden": [],
+    "10,000 Doors of January /// Alix E. Harrow": [],
+    "1000 Ships /// Kate Weinberg": [],
+    "11/22/63 /// Stephen King": [],
+    "12 Miles Below /// Mark Arrows": [],
+    "12 Things a Trini Should Know Before Travelling to a Back in Times Fete™ /// R.S.A. Garcia": [],
+    "13th Hour /// Trudie Skies": [],
+    "1602: Witch Hunter Angela /// Marguerite Bennett, Kieron Gillen, Neil Gaiman": [],
+    "1632 /// Eric Flint": [],
+    "180 Angel /// King Katbird": [],
+    "1984 /// George Orwell": [],
+    "1Q84 /// Haruki Murakami": [],
+    "1Q84 third book /// Haruki Murakami": [],
+    "A Dead Djinn in Cairo /// P. Djèlí Clark": [
+      "The Angel of Khan-el-Khalili /// P. Djèlí Clark"
+    ],
+    "A Psalm for the Wild-Built, A Prayer for the Crown-Shy /// Becky Chambers": [
+      "A Prayer For The Crown Shy /// Becky Chambers",
+      "A Prayer for the Crown-Shy /// Becky Chambers",
+      "Prayer for the Crown-Shy /// Becky Chambers",
+      "a Prayer for the Crown Shy /// Becky Chambers"
+    ],
+    "Über den wilden Fluss /// Philip Pullman": [],
+    "Аркан вовків /// Павло Дерев'янко": [],
+    "Год Змея /// Yana Lekhchina": [],
+    "Ильгет. Три имени судьбы / Mebet /// Alexander Grigorenko": [],
+    "Лихо. Медь и мёд /// Yana Lekhchina": [],
+    "Лунастры. Прыжок над звездами /// Natalia Shcherba": [],
+    "Мастер и Маргарита / The Master and Margarita /// Mikhail Bulgakov": [],
+    "Осенняя жатва /// Мария Гуцол": [],
+    "По ту сторону реки. Русалий круг /// Marina Kozinaki, Sophie Avdyukhina": [],
+    "Тіни забутих предків /// Mykhailo Kotsiubynsky": [],
+    "Хроніки уламків /// Леся Яцута та ін.": [],
+    "Чарівні істоти українського міфу. Духи-шкідники /// Dara Korniy": [],
+    "ตำนานดวงดาว /// Rompaeng": [],
+    "วินธัย /// Srisurang": [],
+    "フェアリーテイル 2 (Fairy Tail 2) /// Hiro Mashima": [],
+    "余污 (Yu Wu) /// 肉包不吃肉 (Meatbun Does Not Eat Meat)": [],
+    "夜行 (Yakou) /// Tomihiko Morimi": [],
+    "大武山下 /// Lung Ying-tai": [],
+    "天国大魔境 /// 石黒正数": [],
+    "太歲 /// 星子": [],
+    "巫王志·卷四 /// 鄭丰": [],
+    "誰が勇者を殺したか /// 駄犬": []
+  }
+}
