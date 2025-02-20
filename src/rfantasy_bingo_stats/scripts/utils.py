@@ -1,9 +1,3 @@
-"""
-Created on Apr 25, 2023
-
-@author: fred
-"""
-
 from collections import Counter
 from typing import (
     Iterable,

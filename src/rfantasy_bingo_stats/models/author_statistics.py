@@ -1,72 +1,60 @@
-"""
-Created on Apr 22, 2023
-
-@author: fred
-"""
-
-from __future__ import annotations
-
 from collections import Counter
-from dataclasses import (
-    dataclass,
-    field,
-    fields,
-)
 from typing import (
     Any,
     Optional,
     cast,
 )
 
-from .author_info import (
+from pydantic import ValidationError
+from pydantic.functional_serializers import field_serializer
+from pydantic.functional_validators import field_validator
+from pydantic.main import BaseModel
+from pydantic_core.core_schema import (
+    SerializerFunctionWrapHandler,
+    ValidatorFunctionWrapHandler,
+)
+
+from rfantasy_bingo_stats.models.author_info import (
+    Ethnicity,
     Gender,
     Nationality,
-    Race,
 )
-from .utils import (
-    AnyData,
-    to_data,
-)
+from rfantasy_bingo_stats.models.defined_types import SortedCounter
 
 
-@dataclass(frozen=True)
-class AuthorStatistics:
+class AuthorStatistics(BaseModel):
     """Counters for unique books + authors"""
 
-    gender_count: Counter[Gender] = field(default_factory=Counter)
-    race_count: Counter[Race] = field(default_factory=Counter)
-    queer_count: Counter[Optional[bool]] = field(default_factory=Counter)
-    nationality_count: Counter[Nationality] = field(default_factory=Counter)
+    gender_count: SortedCounter[Gender] = Counter()
+    ethnicity_count: SortedCounter[Ethnicity] = Counter()
+    queer_count: Counter[Optional[bool]] = Counter()
+    nationality_count: SortedCounter[Nationality] = Counter()
 
+    @field_serializer("queer_count", mode="wrap")
+    def sort_ser_none_key(
+        self,
+        data: Counter[Optional[bool]],
+        handler: SerializerFunctionWrapHandler,
+    ) -> dict[str, int]:
+        out = handler(data)
+        return dict(sorted(out.items()))
+
+    @field_validator("queer_count", mode="wrap")
     @classmethod
-    def from_data(cls, data: Any) -> AuthorStatistics:
-        """Construct from JSON data"""
-        return cls(
-            gender_count=Counter(
-                {cast(Gender, str(key)): int(val) for key, val in data["gender_count"].items()}
-            ),
-            race_count=Counter(
-                {cast(Race, str(key)): int(val) for key, val in data["race_count"].items()}
-            ),
-            queer_count=Counter(
-                {
-                    bool(key) if key is not None else key: int(val)
-                    for key, val in data["queer_count"].items()
-                }
-            ),
-            nationality_count=Counter(
-                {
-                    cast(Nationality, str(key)): int(val)
-                    for key, val in data["nationality_count"].items()
-                }
-            ),
-        )
-
-    def to_data(self) -> dict[str, Any]:
-        """Write to JSON data"""
-        out: dict[str, AnyData] = {}
-        for field_name, field_val in {
-            field.name: getattr(self, field.name) for field in fields(self)
-        }.items():
-            out[field_name] = to_data(field_val)
-        return out
+    def deser_none_key(  # type: ignore[explicit-any]
+        cls,
+        data: Any,
+        handler: ValidatorFunctionWrapHandler,
+    ) -> Counter[Optional[bool]]:
+        try:
+            return cast(Counter[Optional[bool]], handler(data))
+        except ValidationError as exc:
+            error = exc.errors()[0]
+            if error["type"] == "bool_parsing" and error["input"] == "null":
+                rehandle = {}
+                for key, val in data.items():
+                    if key == "null":
+                        key = None
+                    rehandle[key] = val
+                    return cast(Counter[Optional[bool]], handler(rehandle))
+            raise

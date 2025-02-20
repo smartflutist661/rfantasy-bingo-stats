@@ -1,11 +1,4 @@
-"""
-Created on Apr 25, 2023
-
-@author: fred
-"""
-
 import argparse
-import json
 from datetime import date
 
 import numpy as np
@@ -18,7 +11,7 @@ from rfantasy_bingo_stats.scripts.utils import calc_percentiles
 
 def main(args: argparse.Namespace) -> None:
     with YearlyDataPaths(args.year).output_stats.open("r", encoding="utf8") as stats_file:
-        bingo_stats = BingoStatistics.from_data(json.load(stats_file))
+        bingo_stats = BingoStatistics.model_validate_json(stats_file.read())
 
     percentiles = {
         author: percentile

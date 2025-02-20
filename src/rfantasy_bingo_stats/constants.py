@@ -1,9 +1,3 @@
-"""
-Created on Apr 9, 2023
-
-@author: fred
-"""
-
 from dataclasses import dataclass
 from datetime import date
 from pathlib import Path

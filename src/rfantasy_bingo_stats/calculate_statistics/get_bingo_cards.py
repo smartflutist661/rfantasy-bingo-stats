@@ -1,9 +1,3 @@
-"""
-Created on Apr 9, 2023
-
-@author: fred
-"""
-
 from collections import (
     Counter,
     defaultdict,
@@ -265,12 +259,14 @@ def get_bingo_stats(
                         author_info = author_data.get(single_author, AuthorInfo())
 
                         overall_author_stats.gender_count[author_info.gender] += 1
-                        overall_author_stats.race_count[author_info.race] += 1
+                        overall_author_stats.ethnicity_count[author_info.ethnicity] += 1
                         overall_author_stats.queer_count[author_info.queer] += 1
                         overall_author_stats.nationality_count[author_info.nationality] += 1
 
                         square_author_stats[square_name].gender_count[author_info.gender] += 1
-                        square_author_stats[square_name].race_count[author_info.race] += 1
+                        square_author_stats[square_name].ethnicity_count[
+                            author_info.ethnicity
+                        ] += 1
                         square_author_stats[square_name].queer_count[author_info.queer] += 1
                         square_author_stats[square_name].nationality_count[
                             author_info.nationality
@@ -333,7 +329,7 @@ def get_bingo_stats(
         subbed_squares=subbed_count,
         subbed_out_squares=subbed_out_squares,
         avoided_squares=incomplete_square_count + subbed_out_squares,
-        overall_uniques=UniqueStatistics(all_books, all_authors),
+        overall_uniques=UniqueStatistics(unique_books=all_books, unique_authors=all_authors),
         square_uniques=MAP(square_uniques),
         unique_squares_by_book=Counter(
             {book: len(squares) for book, squares in unique_square_book_usage.items()}

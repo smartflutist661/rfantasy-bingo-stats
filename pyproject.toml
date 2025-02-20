@@ -14,6 +14,7 @@ dependencies = [
   "numpy~=1.24",
   "pandas~=2.0",
   "progressbar2~=4.2",
+  "pydantic~=2.10",
   "pygithub~=1.58",
   "python-levenshtein==0.26.1",
   "thefuzz==0.22.1",
@@ -32,9 +33,14 @@ dev = [
 
 [tool.mypy]
 follow_imports = "silent"
+plugins = ['pydantic.mypy']
+strict = true
 warn_no_return = true
 warn_unreachable = true
-strict = true
+
+[tool.pydantic-mypy]
+init_forbid_extra = true
+init_typed = true
 
 [tool.pylint]
 disable = [

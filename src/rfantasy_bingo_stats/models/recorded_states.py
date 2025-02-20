@@ -1,47 +1,75 @@
-"""
-Created on Apr 7, 2023
-
-@author: fred
-"""
-
-from __future__ import annotations
-
 from collections import defaultdict
-from dataclasses import (
-    dataclass,
-    fields,
-)
 from types import MappingProxyType as MAP
 from typing import (
     AbstractSet,
-    Any,
     Mapping,
+    Self,
 )
 
-from ..constants import TITLE_AUTHOR_SEPARATOR
-from ..data_operations.author_title_book_operations import (
+from pydantic.functional_validators import (
+    field_validator,
+    model_validator,
+)
+from pydantic.main import BaseModel
+
+from rfantasy_bingo_stats.constants import TITLE_AUTHOR_SEPARATOR
+from rfantasy_bingo_stats.data_operations.author_title_book_operations import (
     book_to_title_author,
     title_author_to_book,
 )
-from ..logger import LOGGER
-from ..match_books.process_match import find_existing_match
-from .defined_types import (
+from rfantasy_bingo_stats.logger import LOGGER
+from rfantasy_bingo_stats.match_books.process_match import find_existing_match
+from rfantasy_bingo_stats.models.defined_types import (
     Author,
     Book,
     BookOrAuthor,
+    SortedDefaultdict,
+    SortedSet,
 )
-from .match_choice import MatchChoice
-from .utils import to_data
+from rfantasy_bingo_stats.models.match_choice import MatchChoice
 
 
-@dataclass(frozen=True)
-class RecordedDupes:
+class RecordedDupes(BaseModel):
     """Known duplicate title/author pairs and likely non-duplicate title/author pairs"""
 
-    author_dupes: defaultdict[Author, set[Author]]
-    book_dupes: defaultdict[Book, set[Book]]
+    author_dupes: SortedDefaultdict[Author, SortedSet[Author]]
+    book_dupes: SortedDefaultdict[Book, SortedSet[Book]]
     # Specifically for deserialization checks if the separator needs to change
     title_author_separator: str = TITLE_AUTHOR_SEPARATOR
+
+    @field_validator("author_dupes", "book_dupes")
+    @classmethod
+    def dedupe(
+        cls,
+        data: defaultdict[BookOrAuthor, set[BookOrAuthor]],
+    ) -> defaultdict[BookOrAuthor, set[BookOrAuthor]]:
+        handle_overlaps(data)
+        return data
+
+    @model_validator(mode="after")
+    def validate_separator(self) -> Self:
+        """Override default init to handle overlaps and changes in separator"""
+        if self.title_author_separator != TITLE_AUTHOR_SEPARATOR:
+            LOGGER.warning(
+                "Title/author separator has changed since last serialization."
+                + " Updating old data to use the new separator."
+            )
+
+            new_book_dupes: defaultdict[Book, set[Book]] = defaultdict(set)
+            for book_dupe_key, book_dupe_vals in self.book_dupes.items():
+                new_book_key = convert_title_author_separator(
+                    book_dupe_key, self.title_author_separator
+                )
+                new_book_dupes[new_book_key] = set()
+                for book in book_dupe_vals:
+                    new_book_dupes[new_book_key].add(
+                        convert_title_author_separator(book, self.title_author_separator)
+                    )
+
+            self.book_dupes = new_book_dupes
+            self.title_author_separator = TITLE_AUTHOR_SEPARATOR
+
+        return self
 
     def get_book_dedupe_map(self) -> Mapping[Book, Book]:
         """Reverse the book dupes to get bad values as keys"""
@@ -54,7 +82,7 @@ class RecordedDupes:
         )
 
     def get_author_dedupe_map(self) -> Mapping[Author, Author]:
-        """Reverse the book dupes to get bad values as keys"""
+        """Reverse the author dupes to get bad values as keys"""
         return MAP(
             {
                 dedupe_author: primary_author
@@ -62,62 +90,6 @@ class RecordedDupes:
                 for dedupe_author in dedupe_authors
             }
         )
-
-    @classmethod
-    def from_data(cls, data: Any, skip_updates: bool = False) -> RecordedDupes:
-        """Restore from JSON data"""
-
-        # Note that it is impossible to handle duplicated keys because dict keys are always unique
-        book_dupes: defaultdict[Book, set[Book]] = defaultdict(
-            set,
-            {Book(key): {Book(v) for v in val} for key, val in data["book_dupes"].items()},
-        )
-
-        if not skip_updates:
-            handle_overlaps(book_dupes)
-
-        author_dupes: defaultdict[Author, set[Author]] = defaultdict(
-            set,
-            {Author(key): {Author(v) for v in val} for key, val in data["author_dupes"].items()},
-        )
-
-        if not skip_updates:
-            handle_overlaps(author_dupes)
-
-        old_title_author_separator = str(data["title_author_separator"])
-        if old_title_author_separator != TITLE_AUTHOR_SEPARATOR:
-            LOGGER.warning(
-                "Title/author separator has changed since last serialization."
-                + " Updating old data to use the new separator."
-            )
-
-            new_book_dupes: dict[Book, set[Book]] = {}
-            for book_dupe_key, book_dupe_vals in book_dupes.items():
-                new_book_key = convert_title_author_separator(
-                    book_dupe_key, old_title_author_separator
-                )
-                new_book_dupes[new_book_key] = set()
-                for book in book_dupe_vals:
-                    new_book_dupes[new_book_key].add(
-                        convert_title_author_separator(book, old_title_author_separator)
-                    )
-
-            return cls(
-                author_dupes=author_dupes,
-                book_dupes=book_dupes,
-            )
-
-        return cls(
-            author_dupes=author_dupes,
-            book_dupes=book_dupes,
-        )
-
-    def to_data(self) -> dict[str, Any]:
-        """Write to JSON data"""
-        out = {}
-        for key, val in {field.name: getattr(self, field.name) for field in fields(self)}.items():
-            out[key] = to_data(val)
-        return out
 
 
 def convert_title_author_separator(book: Book, old_separator: str) -> Book:

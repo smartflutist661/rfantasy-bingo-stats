@@ -1,9 +1,3 @@
-"""
-Created on Apr 7, 2023
-
-@author: fred
-"""
-
 from dataclasses import dataclass
 from typing import (
     Mapping,

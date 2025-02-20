@@ -1,10 +1,3 @@
-"""
-Created on Apr 7, 2023
-
-@author: fred
-"""
-
-import json
 from collections import defaultdict
 from pathlib import Path
 from types import MappingProxyType as MAP
@@ -112,5 +105,5 @@ def comma_separate_authors(recorded_states: RecordedDupes) -> None:
                 del recorded_states.author_dupes[author]
 
     with DUPE_RECORD_FILEPATH.open("w", encoding="utf8") as dupe_file:
-        json.dump(recorded_states.to_data(), dupe_file, indent=2)
+        dupe_file.write(recorded_states.model_dump_json(indent=2))
     LOGGER.info("Updated duplicates saved.")

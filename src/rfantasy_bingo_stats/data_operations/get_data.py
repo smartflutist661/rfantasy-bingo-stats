@@ -1,10 +1,3 @@
-"""
-Created on Apr 7, 2023
-
-@author: fred
-"""
-
-import json
 from collections import defaultdict
 from pathlib import Path
 
@@ -18,14 +11,13 @@ from rfantasy_bingo_stats.models.recorded_states import RecordedDupes
 def get_existing_states(
     dupe_path: Path,
     ignore_path: Path,
-    skip_updates: bool,
 ) -> tuple[RecordedDupes, RecordedIgnores]:
     """Attempt to retrieve existing RecordedDupes, returning empty on failure"""
     try:
         with dupe_path.open("r", encoding="utf8") as dupe_file:
-            dupes = RecordedDupes.from_data(json.load(dupe_file), skip_updates)
+            dupes = RecordedDupes.model_validate_json(dupe_file.read())
         with ignore_path.open("r", encoding="utf8") as ignore_file:
-            ignores = RecordedIgnores.from_data(json.load(ignore_file))
+            ignores = RecordedIgnores.model_validate_json(ignore_file.read())
         return dupes, ignores
     except IOError:
         return RecordedDupes(

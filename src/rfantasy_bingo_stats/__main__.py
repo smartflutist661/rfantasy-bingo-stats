@@ -1,14 +1,6 @@
-"""
-Created on Apr 7, 2023
-
-@author: fred
-"""
-
 import argparse
-import json
 from collections.abc import Mapping
 from pathlib import Path
-from types import MappingProxyType as MAP
 
 import pandas
 
@@ -52,7 +44,10 @@ from rfantasy_bingo_stats.match_books.get_matches import (
     get_possible_matches,
     update_dedupes_from_authors,
 )
-from rfantasy_bingo_stats.models.author_info import AuthorInfo
+from rfantasy_bingo_stats.models.author_info import (
+    AuthorInfo,
+    AuthorInfoAdapter,
+)
 from rfantasy_bingo_stats.models.bingo_card import BingoCard
 from rfantasy_bingo_stats.models.card_data import CardData
 from rfantasy_bingo_stats.models.defined_types import (
@@ -61,7 +56,6 @@ from rfantasy_bingo_stats.models.defined_types import (
 )
 from rfantasy_bingo_stats.models.recorded_ignores import RecordedIgnores
 from rfantasy_bingo_stats.models.recorded_states import RecordedDupes
-from rfantasy_bingo_stats.models.utils import to_data
 
 pandas.options.mode.copy_on_write = True
 
@@ -134,7 +128,7 @@ def normalize_books(
             del recorded_dupes.author_dupes[author]
 
     with DUPE_RECORD_FILEPATH.open("w", encoding="utf8") as dupe_file:
-        json.dump(recorded_dupes.to_data(), dupe_file, indent=2)
+        dupe_file.write(recorded_dupes.model_dump_json(indent=2))
 
     LOGGER.info("Updating Bingo authors.")
     updated_data, author_dedupes = update_bingo_authors(
@@ -188,7 +182,7 @@ def collect_statistics(
     bingo_stats = get_bingo_stats(cards, recorded_states, card_data, author_data)
 
     with yearly_paths.output_stats.open("w", encoding="utf8") as stats_file:
-        json.dump(bingo_stats.to_data(), stats_file, indent=2)
+        stats_file.write(bingo_stats.model_dump_json(indent=2))
 
     create_markdown(bingo_stats, card_data, yearly_paths.output_md)
 
@@ -208,13 +202,13 @@ def main(args: argparse.Namespace) -> None:
         data_paths = YearlyDataPaths(CURRENT_YEAR)
 
     with data_paths.card_info.open("r", encoding="utf8") as card_data_file:
-        card_data = CardData.from_data(json.load(card_data_file))
+        card_data = CardData.model_validate_json(card_data_file.read())
 
     bingo_data = get_bingo_dataframe(data_paths.raw_data_path)
 
     LOGGER.info("Loading data.")
     recorded_duplicates, recorded_ignores = get_existing_states(
-        DUPE_RECORD_FILEPATH, IGNORED_RECORD_FILEPATH, args.skip_updates
+        DUPE_RECORD_FILEPATH, IGNORED_RECORD_FILEPATH
     )
 
     if args.skip_updates is False:
@@ -230,17 +224,18 @@ def main(args: argparse.Namespace) -> None:
         )
 
     with AUTHOR_INFO_FILEPATH.open("r", encoding="utf8") as author_info_file:
-        author_dedupe_map = recorded_duplicates.get_author_dedupe_map()
-        author_data: Mapping[Author, AuthorInfo] = MAP(
-            {
-                author_dedupe_map.get(Author(key), Author(key)): AuthorInfo.from_data(val)
-                for key, val in json.load(author_info_file).items()
-            }
-        )
+        author_data = AuthorInfoAdapter.validate_json(author_info_file.read())
+
+    # Correct author info keys as necessary
+    author_dedupe_map = recorded_duplicates.get_author_dedupe_map()
+    author_data = {
+        author_dedupe_map.get(author, author): author_info
+        for author, author_info in author_data.items()
+    }
 
     with AUTHOR_INFO_FILEPATH.open("w", encoding="utf8") as author_info_file:
-        json.dump(to_data(author_data), author_info_file)
-        LOGGER.info("Wrote corrected author info.")
+        author_info_file.write(AuthorInfoAdapter.dump_json(author_data, indent=2).decode("utf8"))
+    LOGGER.info("Wrote corrected author info.")
 
     LOGGER.info("Collecting corrected bingo cards.")
     cards = get_bingo_cards(bingo_data, card_data)

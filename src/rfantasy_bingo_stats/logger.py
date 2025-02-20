@@ -1,9 +1,3 @@
-"""
-Created on Apr 21, 2024
-
-@author: fred
-"""
-
 import logging
 import sys
 from logging import StreamHandler

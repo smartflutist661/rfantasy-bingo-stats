@@ -1,10 +1,3 @@
-"""
-Created on Apr 7, 2023
-
-@author: fred
-"""
-
-import json
 from typing import (
     AbstractSet,
     Literal,
@@ -90,9 +83,9 @@ def get_possible_matches(
 
     finally:
         with DUPE_RECORD_FILEPATH.open("w", encoding="utf8") as dupe_file:
-            json.dump(known_states.to_data(), dupe_file, indent=2)
+            dupe_file.write(known_states.model_dump_json(indent=2))
         with IGNORED_RECORD_FILEPATH.open("w", encoding="utf8") as ignore_file:
-            json.dump(known_ignores.to_data(), ignore_file, indent=2)
+            ignore_file.write(known_ignores.model_dump_json(indent=2))
         LOGGER.info("Updated duplicates saved.")
 
 
@@ -186,5 +179,5 @@ def update_dedupes_from_authors(
             recorded_states.book_dupes[existing_key] |= author_dupes
 
     with DUPE_RECORD_FILEPATH.open("w", encoding="utf8") as dupe_file:
-        json.dump(recorded_states.to_data(), dupe_file, indent=2)
+        dupe_file.write(recorded_states.model_dump_json(indent=2))
     LOGGER.info("Updated duplicates saved.")

@@ -1,20 +1,16 @@
-"""
-Created on Apr 15, 2023
-
-@author: fred
-"""
-
-from __future__ import annotations
-
+import warnings
 from collections import Counter
-from dataclasses import (
-    dataclass,
-    fields,
-)
-from types import MappingProxyType as MAP
 from typing import (
     Any,
-    Mapping,
+    cast,
+)
+
+from pydantic.functional_serializers import field_serializer
+from pydantic.functional_validators import field_validator
+from pydantic.main import BaseModel
+from pydantic_core.core_schema import (
+    SerializerFunctionWrapHandler,
+    ValidatorFunctionWrapHandler,
 )
 
 from rfantasy_bingo_stats.constants import SUBBED_SQUARE_SEPARATOR
@@ -24,109 +20,64 @@ from rfantasy_bingo_stats.models.defined_types import (
     Author,
     Book,
     CardID,
+    SortedCounter,
+    SortedMapping,
     SquareName,
 )
 from rfantasy_bingo_stats.models.unique_statistics import UniqueStatistics
-from rfantasy_bingo_stats.models.utils import (
-    AnyData,
-    author_counter_from_data,
-    book_counter_from_data,
-    card_id_counter_from_data,
-    square_name_counter_from_data,
-    to_data,
-)
 
 
-@dataclass(frozen=True)
-class BingoStatistics:
+class BingoStatistics(BaseModel):
     """All summary statistics for a year of Bingo"""
 
     total_card_count: int
     total_story_count: int
-    incomplete_cards: Counter[CardID]
-    incomplete_squares: Counter[SquareName]
-    incomplete_squares_per_card: Counter[int]
+    incomplete_cards: SortedCounter[CardID]
+    incomplete_squares: SortedCounter[SquareName]
+    incomplete_squares_per_card: SortedCounter[int]
     max_incomplete_squares: int
-    subbed_squares: Counter[tuple[SquareName, SquareName]]
-    subbed_out_squares: Counter[SquareName]
-    avoided_squares: Counter[SquareName]
+    subbed_squares: SortedCounter[tuple[SquareName, SquareName]]
+    subbed_out_squares: SortedCounter[SquareName]
+    avoided_squares: SortedCounter[SquareName]
     overall_uniques: UniqueStatistics
-    square_uniques: Mapping[SquareName, UniqueStatistics]
-    unique_squares_by_book: Counter[Book]
-    unique_squares_by_author: Counter[Author]
-    bad_spellings_by_card: Counter[CardID]
-    bad_spellings_by_book: Counter[Book]
-    card_uniques: Counter[CardID]
-    hard_mode_by_card: Counter[CardID]
-    hard_mode_by_square: Counter[SquareName]
-    books_per_author: Counter[Author]
+    square_uniques: SortedMapping[SquareName, UniqueStatistics]
+    unique_squares_by_book: SortedCounter[Book]
+    unique_squares_by_author: SortedCounter[Author]
+    bad_spellings_by_card: SortedCounter[CardID]
+    bad_spellings_by_book: SortedCounter[Book]
+    card_uniques: SortedCounter[CardID]
+    hard_mode_by_card: SortedCounter[CardID]
+    hard_mode_by_square: SortedCounter[SquareName]
+    books_per_author: SortedCounter[Author]
     overall_author_stats: AuthorStatistics
-    square_author_stats: Mapping[SquareName, AuthorStatistics]
+    square_author_stats: SortedMapping[SquareName, AuthorStatistics]
     normal_bingo_type_stats: BingoTypeStatistics
     hardmode_bingo_type_stats: BingoTypeStatistics
 
-    @classmethod
-    def from_data(cls, data: Any) -> BingoStatistics:
-        """Create BingoStatistics from JSON data"""
-        return cls(
-            total_card_count=int(data["total_card_count"]),
-            incomplete_cards=card_id_counter_from_data(data["incomplete_cards"]),
-            incomplete_squares=square_name_counter_from_data(data["incomplete_squares"]),
-            max_incomplete_squares=int(data["max_incomplete_squares"]),
-            incomplete_squares_per_card=Counter(
-                {int(key): int(val) for key, val in data["incomplete_squares_per_card"].items()}
-            ),
-            total_story_count=int(data["total_story_count"]),
-            subbed_squares=Counter(
-                {
-                    (
-                        SquareName(key.split(SUBBED_SQUARE_SEPARATOR)[0]),
-                        SquareName(key.split(SUBBED_SQUARE_SEPARATOR)[1]),
-                    ): int(val)
-                    for key, val in data["subbed_squares"].items()
-                }
-            ),
-            subbed_out_squares=square_name_counter_from_data(data["subbed_out_squares"]),
-            avoided_squares=square_name_counter_from_data(data["avoided_squares"]),
-            overall_uniques=UniqueStatistics.from_data(data["overall_uniques"]),
-            square_uniques=MAP(
-                {
-                    SquareName(key): UniqueStatistics.from_data(val)
-                    for key, val in data["square_uniques"].items()
-                }
-            ),
-            unique_squares_by_book=book_counter_from_data(data["unique_squares_by_book"]),
-            unique_squares_by_author=author_counter_from_data(data["unique_squares_by_author"]),
-            bad_spellings_by_card=card_id_counter_from_data(data["bad_spellings_by_card"]),
-            bad_spellings_by_book=book_counter_from_data(data["bad_spellings_by_book"]),
-            card_uniques=card_id_counter_from_data(data["card_uniques"]),
-            hard_mode_by_card=card_id_counter_from_data(data["hard_mode_by_card"]),
-            hard_mode_by_square=square_name_counter_from_data(data["hard_mode_by_square"]),
-            books_per_author=author_counter_from_data(data["books_per_author"]),
-            overall_author_stats=AuthorStatistics.from_data(data["overall_author_stats"]),
-            square_author_stats=MAP(
-                {
-                    SquareName(key): AuthorStatistics.from_data(val)
-                    for key, val in data["square_author_stats"].items()
-                }
-            ),
-            normal_bingo_type_stats=BingoTypeStatistics.from_data(data["normal_bingo_type_stats"]),
-            hardmode_bingo_type_stats=BingoTypeStatistics.from_data(
-                data["hardmode_bingo_type_stats"]
-            ),
-        )
+    @field_serializer("subbed_squares", mode="wrap")
+    def ser_tuple_key(
+        self,
+        data: Counter[tuple[str, ...]],
+        handler: SerializerFunctionWrapHandler,
+    ) -> dict[str, int]:
+        out: Counter[str] = Counter()
+        for key, val in data.items():
+            out[SUBBED_SQUARE_SEPARATOR.join(key)] = val
+        # Ignore the warning generated when the default handler receives a str instead of a tuple
+        with warnings.catch_warnings(action="ignore", category=UserWarning):
+            return cast(dict[str, int], handler(out))
 
-    def to_data(self) -> dict[str, Any]:
-        """Write to JSON data"""
-        out: dict[str, AnyData] = {}
-        for field_name, field_val in {
-            field.name: getattr(self, field.name) for field in fields(self)
-        }.items():
-            if field_name == "subbed_squares":
-                out[field_name] = {
-                    SUBBED_SQUARE_SEPARATOR.join(key): to_data(val)
-                    for key, val in field_val.items()
-                }
+    @field_validator("subbed_squares", mode="wrap")
+    @classmethod
+    def deser_tuple_key(  # type: ignore[explicit-any]
+        cls,
+        data: Any,
+        handler: ValidatorFunctionWrapHandler,
+    ) -> Counter[tuple[SquareName, SquareName]]:
+        out: Counter[tuple[str, ...]] = Counter()
+        for key, val in data.items():
+            if isinstance(key, tuple):
+                out[key] = val
             else:
-                out[field_name] = to_data(field_val)
-        return out
+                out[tuple(key.split(SUBBED_SQUARE_SEPARATOR))] = val
+        return cast(Counter[tuple[SquareName, SquareName]], handler(out))

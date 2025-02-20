@@ -1,9 +1,6 @@
-import json
 from collections import Counter
 from pathlib import Path
-from types import MappingProxyType as MAP
 from typing import (
-    Any,
     Optional,
     SupportsFloat,
 )
@@ -17,8 +14,13 @@ from rfantasy_bingo_stats.constants import (
     YearlyDataPaths,
 )
 from rfantasy_bingo_stats.models.bingo_statistics import BingoStatistics
+from rfantasy_bingo_stats.models.defined_types import (
+    Author,
+    Book,
+    CardID,
+)
 from rfantasy_bingo_stats.models.fit_props import FitProps
-from rfantasy_bingo_stats.models.yearly_stats import YearlyBingoStatistics
+from rfantasy_bingo_stats.models.yearly_stats import YearStatsAdapter
 
 
 def none_divide(num: Optional[SupportsFloat], denom: Optional[SupportsFloat]) -> Optional[float]:
@@ -47,12 +49,7 @@ def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
     plt.style.use("fivethirtyeight")
 
     with YOY_DATA_FILEPATH.open("r", encoding="utf8") as yoy_file:
-        yoy_data = MAP(
-            {
-                int(key): YearlyBingoStatistics.from_data(val)
-                for key, val in json.load(yoy_file).items()
-            }
-        )
+        yoy_data = YearStatsAdapter.validate_json(yoy_file.read())
 
     years = []
     total_participant_counts = []
@@ -72,15 +69,15 @@ def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
         stats_path = YearlyDataPaths(year).output_stats
         if stats_path.exists():
             with stats_path.open("r", encoding="utf8") as stats_file:
-                bingo_stats = BingoStatistics.from_data(json.load(stats_file))
-                books_read_more_than_once = Counter(
-                    {
-                        book: read_count
-                        for book, read_count in bingo_stats.overall_uniques.unique_books.items()
-                        if read_count > 1
-                    }
-                )
-                total_books_read_more_than_once = books_read_more_than_once.total()
+                bingo_stats = BingoStatistics.model_validate_json(stats_file.read())
+            books_read_more_than_once = Counter(
+                {
+                    book: read_count
+                    for book, read_count in bingo_stats.overall_uniques.unique_books.items()
+                    if read_count > 1
+                }
+            )
+            total_books_read_more_than_once = books_read_more_than_once.total()
         else:
             total_books_read_more_than_once = None
 
@@ -331,7 +328,7 @@ def create_yearly_plots(bingo_stats: BingoStatistics, output_root: Path, show_pl
 
 # I feel like it should be possible to fit these pre-histogram
 def plot_card_hist(
-    counter: Counter[Any],
+    counter: Counter[CardID],
     title: str,
     subtitle: str,
     filepath: Path,
@@ -358,20 +355,11 @@ def plot_card_hist(
     plt.axhline(y=0, color="black", linewidth=1.3, alpha=0.7)
     plt.axvline(x=-0.75, color="black", linewidth=1.3, alpha=0.3)
 
-    # model = SkewedGaussianModel()
-    # params = model.make_params(amplitude=len(counter), center=3, sigma=2, gamma=1)
-    # hist, _ = np.histogram(list(counter.values()), bins=edges)
-    # result = model.fit(hist, params, x=bin_vals[:-1])
-    #
-    # smoothed_x = np.arange(-1, 26, 0.01)
-    # smoothed_y = result.model.func(smoothed_x, **result.best_values)
-    # plt.plot(smoothed_x, smoothed_y)
-
     plt.savefig(filepath)
 
 
 def plot_count_hist(
-    counter: Counter[Any],
+    counter: Counter[Author] | Counter[Book],
     title: str,
     subtitle: str,
     filepath: Path,

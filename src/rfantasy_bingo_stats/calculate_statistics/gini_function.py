@@ -1,9 +1,3 @@
-"""
-Created on Apr 16, 2023
-
-@author: fred
-"""
-
 import numpy as np
 from numpy.typing import ArrayLike
 

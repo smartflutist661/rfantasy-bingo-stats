@@ -1,9 +1,3 @@
-"""
-Created on Apr 22, 2023
-
-@author: fred
-"""
-
 from dataclasses import dataclass
 
 

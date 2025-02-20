@@ -1,11 +1,4 @@
-"""
-Created on Apr 25, 2023
-
-@author: fred
-"""
-
 import argparse
-import json
 from datetime import date
 
 from rfantasy_bingo_stats.calculate_statistics.get_bingo_cards import get_bingo_cards
@@ -28,14 +21,12 @@ from rfantasy_bingo_stats.models.defined_types import CardID
 def main(args: argparse.Namespace) -> None:
     year_data_paths = YearlyDataPaths(args.year)
     with year_data_paths.output_stats.open("r", encoding="utf8") as stats_file:
-        bingo_stats = BingoStatistics.from_data(json.load(stats_file))
+        bingo_stats = BingoStatistics.model_validate_json(stats_file.read())
 
     with year_data_paths.card_info.open("r", encoding="utf8") as card_data_file:
-        card_data = CardData.from_data(json.load(card_data_file))
+        card_data = CardData.model_validate_json(card_data_file.read())
 
-    recorded_duplicates, _ = get_existing_states(
-        DUPE_RECORD_FILEPATH, IGNORED_RECORD_FILEPATH, skip_updates=True
-    )
+    recorded_duplicates, _ = get_existing_states(DUPE_RECORD_FILEPATH, IGNORED_RECORD_FILEPATH)
 
     bingo_data = get_bingo_dataframe(year_data_paths.raw_data_path)
 
