@@ -232,6 +232,7 @@ class Ethnicity(StrEnum):
     ASIAN = "Asian"
     BLACK = "Black"
     HISPANIC = "Hispanic"
+    MIXED = "Multiracial"
     NATIVE = "Native"
     WHITE = "White"
     U = "Unknown"
