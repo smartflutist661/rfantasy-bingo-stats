@@ -523,7 +523,7 @@ There were {cards_per_complete_bingo[0]} cards that did not complete any bingos.
 """
 
     table_strs: list[tuple[str, str, str]] = [
-        ("BINGO TYPE", "INCOMPLETE CARDS", "INCOMPLETE SQUARES"),
+        ("BINGO TYPE", "# CARDS INCOMPLETE", "# SQUARES INCOMPLETE"),
         ("---------", ":---------:", ":---------:"),
     ]
     for bingo_name in POSSIBLE_BINGOS.keys():
