@@ -3,14 +3,14 @@ from datetime import date
 
 import numpy as np
 
-from rfantasy_bingo_stats.constants import YearlyDataPaths
+from rfantasy_bingo_stats.constants import BingoYearDataPaths
 from rfantasy_bingo_stats.models.bingo_statistics import BingoStatistics
 from rfantasy_bingo_stats.models.defined_types import Author
 from rfantasy_bingo_stats.scripts.utils import calc_percentiles
 
 
 def main(args: argparse.Namespace) -> None:
-    with YearlyDataPaths(args.year).output_stats.open("r", encoding="utf8") as stats_file:
+    with BingoYearDataPaths(args.year).output_stats.open("r", encoding="utf8") as stats_file:
         bingo_stats = BingoStatistics.model_validate_json(stats_file.read())
 
     percentiles = {

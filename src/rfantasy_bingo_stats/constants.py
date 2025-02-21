@@ -2,7 +2,7 @@ from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
 
-CURRENT_YEAR = date.today().year - 1
+CURRENT_YEAR = date.today().year
 
 REMOTE_REPO = "smartflutist661/rfantasy-bingo-stats"
 TITLE_AUTHOR_SEPARATOR = " /// "
@@ -19,7 +19,7 @@ YOY_DATA_FILEPATH: Path = BINGO_DATA_PATH / "year_over_year_stats.json"
 
 
 @dataclass(frozen=True)
-class YearlyDataPaths:
+class BingoYearDataPaths:
     year: int
 
     @property
@@ -27,7 +27,7 @@ class YearlyDataPaths:
         return BINGO_DATA_PATH / f"bingo_{self.year}"
 
     @property
-    def raw_data_path(self) -> Path:
+    def raw_data(self) -> Path:
         return self.root / "raw_bingo_data.csv"
 
     @property
@@ -49,3 +49,50 @@ class YearlyDataPaths:
     @property
     def card_info(self) -> Path:
         return self.root / "card_data.json"
+
+
+@dataclass(frozen=True)
+class PollDataPaths:
+    poll_type: str
+    year: int
+
+    @property
+    def poll_name(self) -> str:
+        return f"{self.poll_type} {self.year}"
+
+    @property
+    def root(self) -> Path:
+        return POLL_DATA_PATH / self.poll_name.lower().replace(" ", "_")
+
+    @property
+    def raw_data(self) -> Path:
+        return self.root / "raw_poll_data.json"
+
+    @property
+    def processed_votes(self) -> Path:
+        return self.root / "poll_votes.json"
+
+    @property
+    def output_md(self) -> Path:
+        return self.root / "poll_results_rough_draft.md"
+
+
+POLL_SPLIT_OPTIONS = (
+    " by ",
+    " By ",
+    " BY ",
+    " - ",
+    " – ",
+    " — ",
+    " -",
+    "- ",
+    "-",
+    " –",
+    "– ",
+    "–",
+    " —",
+    "— ",
+    "—",
+    ". ",
+    ", ",
+)

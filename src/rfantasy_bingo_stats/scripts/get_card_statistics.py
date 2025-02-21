@@ -6,7 +6,7 @@ from rfantasy_bingo_stats.calculate_statistics.get_stats import format_book
 from rfantasy_bingo_stats.constants import (
     DUPE_RECORD_FILEPATH,
     IGNORED_RECORD_FILEPATH,
-    YearlyDataPaths,
+    BingoYearDataPaths,
 )
 from rfantasy_bingo_stats.data_operations.author_title_book_operations import title_author_to_book
 from rfantasy_bingo_stats.data_operations.get_data import (
@@ -19,7 +19,7 @@ from rfantasy_bingo_stats.models.defined_types import CardID
 
 
 def main(args: argparse.Namespace) -> None:
-    year_data_paths = YearlyDataPaths(args.year)
+    year_data_paths = BingoYearDataPaths(args.year)
     with year_data_paths.output_stats.open("r", encoding="utf8") as stats_file:
         bingo_stats = BingoStatistics.model_validate_json(stats_file.read())
 
@@ -28,7 +28,7 @@ def main(args: argparse.Namespace) -> None:
 
     recorded_duplicates, _ = get_existing_states(DUPE_RECORD_FILEPATH, IGNORED_RECORD_FILEPATH)
 
-    bingo_data = get_bingo_dataframe(year_data_paths.raw_data_path)
+    bingo_data = get_bingo_dataframe(year_data_paths.raw_data)
 
     cards = get_bingo_cards(bingo_data, card_data)
 

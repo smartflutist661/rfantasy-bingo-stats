@@ -2,7 +2,7 @@ from pathlib import Path
 
 from pytest import fixture
 
-from rfantasy_bingo_stats.constants import YearlyDataPaths
+from rfantasy_bingo_stats.constants import BingoYearDataPaths
 from rfantasy_bingo_stats.models.author_info import (
     AuthorInfoAdapter,
 )
@@ -23,11 +23,11 @@ BINGO_TEST_FILEPATH = TEST_DATA_FOLDER / "bingo_stats.json"
 
 
 @fixture(name="data_paths")
-def get_data_paths() -> YearlyDataPaths:
-    return YearlyDataPaths(2023)
+def get_data_paths() -> BingoYearDataPaths:
+    return BingoYearDataPaths(2023)
 
 
-def test_card_data_deser(data_paths: YearlyDataPaths) -> None:
+def test_card_data_deser(data_paths: BingoYearDataPaths) -> None:
     with data_paths.card_info.open("r", encoding="utf8") as card_data_file:
         CardData.model_validate_json(card_data_file.read())
 

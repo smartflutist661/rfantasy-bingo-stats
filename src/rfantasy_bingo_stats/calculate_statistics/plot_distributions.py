@@ -11,7 +11,7 @@ from lmfit.model import ModelResult  # type: ignore[import-untyped]
 
 from rfantasy_bingo_stats.constants import (
     YOY_DATA_FILEPATH,
-    YearlyDataPaths,
+    BingoYearDataPaths,
 )
 from rfantasy_bingo_stats.models.bingo_statistics import BingoStatistics
 from rfantasy_bingo_stats.models.defined_types import (
@@ -66,7 +66,7 @@ def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
     hard_mode_square_per_noncard_counts = []
     hard_mode_square_per_card_counts = []
     for year, stats in yoy_data.items():
-        stats_path = YearlyDataPaths(year).output_stats
+        stats_path = BingoYearDataPaths(year).output_stats
         if stats_path.exists():
             with stats_path.open("r", encoding="utf8") as stats_file:
                 bingo_stats = BingoStatistics.model_validate_json(stats_file.read())

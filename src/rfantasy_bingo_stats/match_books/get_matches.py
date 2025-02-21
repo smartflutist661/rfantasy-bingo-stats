@@ -25,7 +25,7 @@ from rfantasy_bingo_stats.models.recorded_states import RecordedDupes
 
 @overload
 def get_possible_matches(
-    all_choices: frozenset[Author],
+    all_choices: AbstractSet[Author],
     match_score: int,
     rescan_keys: bool,
     known_states: RecordedDupes,
@@ -36,7 +36,7 @@ def get_possible_matches(
 
 @overload
 def get_possible_matches(
-    all_choices: frozenset[Book],
+    all_choices: AbstractSet[Book],
     match_score: int,
     rescan_keys: bool,
     known_states: RecordedDupes,
@@ -46,7 +46,7 @@ def get_possible_matches(
 
 
 def get_possible_matches(
-    all_choices: frozenset[BookOrAuthor],
+    all_choices: AbstractSet[BookOrAuthor],
     match_score: int,
     rescan_keys: bool,
     known_states: RecordedDupes,
@@ -90,7 +90,7 @@ def get_possible_matches(
 
 
 def get_possible_book_matches(
-    books: frozenset[Book],
+    books: AbstractSet[Book],
     match_score: int,
     rescan_keys: bool,
     known_states: RecordedDupes,
@@ -128,7 +128,7 @@ def get_possible_book_matches(
 
 
 def get_possible_author_matches(
-    authors: frozenset[Author],
+    authors: AbstractSet[Author],
     match_score: int,
     rescan_keys: bool,
     known_states: RecordedDupes,
