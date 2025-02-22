@@ -51,6 +51,8 @@ class BingoStatistics(BaseModel):
     books_per_author: SortedCounter[Author]
     overall_author_stats: AuthorStatistics
     square_author_stats: SortedMapping[SquareName, AuthorStatistics]
+    unique_author_stats: AuthorStatistics
+    unique_square_author_stats: SortedMapping[SquareName, AuthorStatistics]
     normal_bingo_type_stats: BingoTypeStatistics
     hardmode_bingo_type_stats: BingoTypeStatistics
 

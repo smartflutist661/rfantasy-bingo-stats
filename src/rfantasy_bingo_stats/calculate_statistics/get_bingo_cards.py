@@ -210,6 +210,10 @@ def get_bingo_stats(
 
     overall_author_stats: AuthorStatistics = AuthorStatistics()
     square_author_stats: defaultdict[SquareName, AuthorStatistics] = defaultdict(AuthorStatistics)
+    unique_author_stats: AuthorStatistics = AuthorStatistics()
+    unique_square_author_stats: defaultdict[SquareName, AuthorStatistics] = defaultdict(
+        AuthorStatistics
+    )
 
     book_dedupe_map = recorded_states.get_book_dedupe_map()
 
@@ -251,6 +255,13 @@ def get_bingo_stats(
 
                     for split_author in author.split(", "):  # pylint: disable=no-member
                         single_author = Author(split_author)
+                        new_author = False
+                        new_square_author = False
+                        if author not in all_authors:
+                            new_author = True
+                        if author not in square_uniques[square_name].unique_authors:
+                            new_square_author = True
+
                         all_authors[single_author] += 1
                         square_uniques[square_name].unique_authors[single_author] += 1
                         unique_square_author_usage[single_author].add(square_name)
@@ -271,6 +282,25 @@ def get_bingo_stats(
                         square_author_stats[square_name].nationality_count[
                             author_info.nationality
                         ] += 1
+
+                        if new_author:
+                            unique_author_stats.gender_count[author_info.gender] += 1
+                            unique_author_stats.ethnicity_count[author_info.ethnicity] += 1
+                            unique_author_stats.queer_count[author_info.queer] += 1
+                            unique_author_stats.nationality_count[author_info.nationality] += 1
+                        if new_square_author:
+                            unique_square_author_stats[square_name].gender_count[
+                                author_info.gender
+                            ] += 1
+                            unique_square_author_stats[square_name].ethnicity_count[
+                                author_info.ethnicity
+                            ] += 1
+                            unique_square_author_stats[square_name].queer_count[
+                                author_info.queer
+                            ] += 1
+                            unique_square_author_stats[square_name].nationality_count[
+                                author_info.nationality
+                            ] += 1
 
                     total_story_count += 1
 
@@ -349,6 +379,8 @@ def get_bingo_stats(
         ),
         overall_author_stats=overall_author_stats,
         square_author_stats=square_author_stats,
+        unique_author_stats=unique_author_stats,
+        unique_square_author_stats=unique_square_author_stats,
         normal_bingo_type_stats=BingoTypeStatistics(
             complete_bingos_by_card=complete_bingos_by_card,
             incomplete_bingos=incomplete_bingos,

@@ -66,6 +66,4 @@ def test_bingo_stats_serde() -> None:
         orig = bingo_stats_file.read()
     validated = BingoStatistics.model_validate_json(orig)
     dump = validated.model_dump_json(indent=2)
-    # with BINGO_TEST_FILEPATH.open("w", encoding="utf8") as bingo_stats_file:
-    #     bingo_stats_file.write(dump)
     assert orig == dump

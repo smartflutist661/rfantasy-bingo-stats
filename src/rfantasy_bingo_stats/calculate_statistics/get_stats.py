@@ -1,3 +1,4 @@
+import random
 from collections import Counter
 from collections.abc import (
     Callable,
@@ -6,10 +7,12 @@ from collections.abc import (
     Iterable,
     Sequence,
 )
+from enum import StrEnum
 from pathlib import Path
 from typing import (
     Literal,
     Optional,
+    TypeVar,
 )
 
 import numpy as np
@@ -21,6 +24,7 @@ from rfantasy_bingo_stats.calculate_statistics.get_bingo_cards import (
 from rfantasy_bingo_stats.calculate_statistics.gini_function import calculate_gini_index
 from rfantasy_bingo_stats.data_operations.author_title_book_operations import book_to_title_author
 from rfantasy_bingo_stats.logger import LOGGER
+from rfantasy_bingo_stats.models.author_statistics import AuthorStatistics
 from rfantasy_bingo_stats.models.bingo_statistics import BingoStatistics
 from rfantasy_bingo_stats.models.bingo_type_statistics import BingoTypeStatistics
 from rfantasy_bingo_stats.models.card_data import CardData
@@ -32,6 +36,7 @@ from rfantasy_bingo_stats.models.defined_types import (
     CardID,
     SquareName,
 )
+from rfantasy_bingo_stats.models.unique_statistics import UniqueStatistics
 
 
 def format_book(book: Book) -> str:
@@ -300,6 +305,10 @@ Skipped {bingo_stats.incomplete_squares[square_name]} times. Substituted {bingo_
 
 **TOTAL**: {square_uniques.unique_authors.total()} total authors read, with {len(square_uniques.unique_authors)} unique.
 {get_used_once(square_uniques.unique_authors)} authors were used only once for this square.
+
+Author demographics, as described in the overall stats on authors:
+
+{format_author_statistics(bingo_stats.square_author_stats[square_name], bingo_stats.unique_square_author_stats[square_name])}
 """
 
 
@@ -416,8 +425,8 @@ def format_subbed_stats(bingo_stats: BingoStatistics) -> str:
     subbed_in_books: Counter[Book] = Counter()
     subbed_in_authors: Counter[Author] = Counter()
     for square_name in subbed_in_squares:
-        books = bingo_stats.square_uniques[square_name].unique_books
-        authors = bingo_stats.square_uniques[square_name].unique_authors
+        books = bingo_stats.square_uniques.get(square_name, UniqueStatistics()).unique_books
+        authors = bingo_stats.square_uniques.get(square_name, UniqueStatistics()).unique_authors
         subbed_in_books += books
         subbed_in_authors += authors
 
@@ -538,6 +547,72 @@ There were {cards_per_complete_bingo[0]} cards that did not complete any bingos.
     return bingo_str + "\n".join("|" + "|".join(row) + "|" for row in table_strs)
 
 
+StrEnumT = TypeVar("StrEnumT", bound=StrEnum)
+
+
+def format_author_demo(
+    overall_demo_count: Counter[StrEnumT],
+    unique_demo_count: Counter[StrEnumT],
+    demo_name: Literal["ETHNICITY", "GENDER", "NATIONALITY"],
+) -> str:
+    table_strs: list[tuple[str, str, str]] = [
+        (demo_name, "% OVERALL", "% UNIQUE"),
+        ("---------", ":---------:", ":---------:"),
+    ]
+    enum_type = type(list(overall_demo_count.keys())[0])
+    for demo in sorted(set(overall_demo_count.keys()) - {"Unknown"}) + [enum_type("Unknown")]:  # type: ignore[arg-type]
+        overall_prop = (overall_demo_count[demo] / overall_demo_count.total()) * 100
+        unique_prop = (unique_demo_count[demo] / unique_demo_count.total()) * 100
+        if unique_prop > 1:
+            table_strs.append(
+                (
+                    demo.value,
+                    f"{overall_prop:.1f}",
+                    f"{unique_prop:.1f}",
+                )
+            )
+    return "\n".join("|" + "|".join(row) + "|" for row in table_strs)
+
+
+def format_author_statistics(
+    overall_author_stats: AuthorStatistics,
+    unique_author_stats: AuthorStatistics,
+) -> str:
+    eth_table = format_author_demo(
+        overall_author_stats.ethnicity_count, unique_author_stats.ethnicity_count, "ETHNICITY"
+    )
+    nat_table = format_author_demo(
+        overall_author_stats.nationality_count,
+        unique_author_stats.nationality_count,
+        "NATIONALITY",
+    )
+    gender_table = format_author_demo(
+        overall_author_stats.gender_count, unique_author_stats.gender_count, "GENDER"
+    )
+
+    table_strs: list[tuple[str, str, str]] = [
+        ("QUEER?", "% OVERALL", "% UNIQUE"),
+        ("---------", ":---------:", ":---------:"),
+    ]
+    for demo in (True, False, None):
+        overall_prop = (
+            overall_author_stats.queer_count[demo] / overall_author_stats.queer_count.total()
+        ) * 100
+        unique_prop = (
+            unique_author_stats.queer_count[demo] / unique_author_stats.queer_count.total()
+        ) * 100
+        if unique_prop > 1:
+            table_strs.append(
+                (
+                    "Yes" if demo is True else "No" if demo is False else "Unknown",
+                    f"{overall_prop:.1f}",
+                    f"{unique_prop:.1f}",
+                )
+            )
+    queer_table = "\n".join("|" + "|".join(row) + "|" for row in table_strs)
+    return "\n\n".join([eth_table, nat_table, gender_table, queer_table])
+
+
 def create_markdown(bingo_stats: BingoStatistics, card_data: CardData, output_path: Path) -> None:
     """Create a Markdown draft of stats"""
 
@@ -594,7 +669,7 @@ You can find the raw data, corrected data, and some more extensive summary stati
 See [this post](https://www.reddit.com/r/Fantasy/comments/12gyb45/cleaning_2022_and_future_bingo_data/) for some technical details.
 
 Format has been shamelessly copied from previous bingo stats posts:
-
+  - [2023](https://www.reddit.com/r/Fantasy/comments/1cd0kdk/statistics_for_the_2023_rfantasy_bingo/)
   - [2022](https://www.reddit.com/r/Fantasy/comments/12xs3c1/2022_rfantasy_bingo_statistics/)
   - [2021](https://www.reddit.com/r/Fantasy/comments/ude8f4/2021_rfantasy_bingo_stats/)
   - [2020](https://www.reddit.com/r/Fantasy/comments/npvigf/2020_rfantasy_bingo_statistics/)
@@ -608,11 +683,12 @@ Likewise, the following notes are shamelessly adapted.
 1. Stories were not examined for fitness. If you used **1984** for **Novella**, it was included in the statistics for that square.
 In addition, if you did something like, say, put **The Lost Metal** as a short story, I made no effort to figure out where it actually belonged.
 2. When a series was specified, it was collapsed to the first book. Graphic novels, light novels, manga, and webserials were collapsed from issues to the overall series.
-3. Books by multiple authors were counted once for each author. E.g.: **In the Heart of Darkness** by Eric Flint and David Drake counts as a read for both Eric Flint and David Drake.
+3. Books by multiple authors were counted once for each author.
+E.g.: **In the Heart of Darkness** by Eric Flint and David Drake counts as a read for both Eric Flint and David Drake.
 *However*, books by a writing team with a single-author pseudonym, e.g. M.A. Carrick, were counted once for the pseudonym, and not for the authors behind the pseudonym.
-4. Author demographic statistics are not included below, for two reasons: it quickly gets messy and culturally-specific,
-and I didn't want to stalk all {len(bingo_stats.overall_uniques.unique_authors)} individual authors. Machinery for these calculations are included in the script, however,
-so if anyone would like to supply demographic information, it is easy to include.
+4. Author demographic statistics are now included below. However, researching all {len(bingo_stats.overall_uniques.unique_authors)} individual authors
+is quite an undertaking, and there is still a reasonable amount of information missing, especially regarding Nationality.
+By the time next year's stats roll around I hope to have it reasonably complete.
 5. Short stories were excluded from most of the stats below. They *were* included in the total story count.
 
 # And Now: The Stats
@@ -680,6 +756,16 @@ The authors with the most unique books read were:
 
 As with books, most authors were read only once.
 There were an average of {avg_reads_per_author:.1f} reads per author.
+
+The following tables represent a best-effort attempt at a statistical breakdown of author demographics.
+The "Overall %" column represents the _total_ number of times a demographic appeared in Bingo data,
+i.e. Brandon Sanderson counts {random.randrange(100000, 1000000)} times for each of his demographic groups.
+The "Unique %" column represents the unique number of times a demographic appeared in Bingo data,
+i.e. Brandon Sanderson counts only once, no matter how many squares or cards he appears on.
+
+Demographics representing less than 1% of the unique authors are not included in these tables. 
+
+{format_author_statistics(bingo_stats.overall_author_stats, bingo_stats.unique_author_stats)}
 
 ### Bingos
 

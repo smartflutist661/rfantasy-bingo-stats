@@ -23,7 +23,7 @@ In addition, if you did something like, say, put **The Lost Metal** as a short s
 3. Books by multiple authors were counted once for each author. E.g.: **In the Heart of Darkness** by Eric Flint and David Drake counts as a read for both Eric Flint and David Drake.
 *However*, books by a writing team with a single-author pseudonym, e.g. M.A. Carrick, were counted once for the pseudonym, and not for the authors behind the pseudonym.
 4. Author demographic statistics are not included below, for two reasons: it quickly gets messy and culturally-specific,
-and I didn't want to stalk all 3413 individual authors. Machinery for these calculations are included in the script, however,
+and I didn't want to stalk all 3423 individual authors. Machinery for these calculations are included in the script, however,
 so if anyone would like to supply demographic information, it is easy to include.
 5. Short stories were excluded from most of the stats below. They *were* included in the total story count.
 
@@ -36,9 +36,9 @@ so if anyone would like to supply demographic information, it is easy to include
 - There were 822 cards submitted, 96 of which were incomplete.
 The minimum number of filled squares was 2. 6 were *this close*, with 24 filled squares.
 863 squares were left blank, leaving 19687 filled squares.
-- There were 20143 total stories, with 5607 unique stories read,
-by 3413 unique authors (21171 total).
-3447 books and 1823 authors were used only once. 
+- There were 20143 total stories, with 5602 unique stories read,
+by 3423 unique authors (21197 total).
+3443 books and 1829 authors were used only once. 
 - The top squares left blank were: **Set in Africa**, blank on 66 cards; **Five Short Stories**, blank on 53 cards; **Self-Published**, blank on 50 cards. On the other hand, **No Ifs, Ands, or Buts** was only left blank 18 times.
 - The three squares most often substituted were: **Self-Published**, substituted on 32 cards; **Set in Africa**, substituted on 30 cards; **Book Club or Readalong Book**, substituted on 24 cards.
 **Non-Human Protagonist** and **No Ifs, Ands, or Buts** were never substituted.
@@ -112,7 +112,7 @@ There were an average of 3.5 reads per book.
 
 The ten most-read authors were:
 
-- T. Kingfisher, read 349 times
+- T. Kingfisher, read 350 times
 - Becky Chambers, read 317 times
 - Travis Baldree, read 278 times
 - Brandon Sanderson, read 271 times
@@ -139,9 +139,9 @@ The authors with the most unique books read were:
 - Lois McMaster Bujold, with 27 unique books read
 - Adrian Tchaikovsky, with 26 unique books read
 - TIE: Jim Butcher and Seanan McGuire, each with 23 unique books read
-- TIE: Mercedes Lackey and T. Kingfisher, each with 22 unique books read
+- Mercedes Lackey, with 22 unique books read
 - Neil Gaiman, with 21 unique books read
-- TIE: Ilona Andrews and K.J. Parker, each with 19 unique books read
+- TIE: T. Kingfisher and Ilona Andrews and K.J. Parker, each with 19 unique books read
 - C.J. Cherryh, with 18 unique books read
 - TIE: Martha Wells and Will Wight, each with 17 unique books read
 
@@ -149,6 +149,36 @@ The authors with the most unique books read were:
 
 As with books, most authors were read only once.
 There were an average of 6.2 reads per author.
+
+The following tables represent a best-effort attempt at a statistical breakdown of author demographics.
+The "Overall %" column represents the _total_ number of times a demographic appeared in Bingo data,
+i.e. Brandon Sanderson counts 338265 times for each of his demographic groups.
+The "Unique %" column represents the unique number of times a demographic appeared in Bingo data,
+i.e. Brandon Sanderson counts only once, no matter how many squares or cards he appears on.
+
+Demographics representing less than 1% of the unique authors are not included in these tables. 
+
+|Ethnicity|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|White|0.6|0.3|
+|Asian|0.1|0.1|
+|Unknown|0.2|0.5|
+|Black|0.1|0.0|
+|Hispanic|0.0|0.0|
+|Nationality|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|1.0|1.0|
+|Gender|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Woman|0.4|0.2|
+|Unknown|0.2|0.5|
+|Nonbinary|0.0|0.0|
+|Man|0.3|0.2|
+|Queer?|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|No|64.0|38.8|
+|Unknown|18.8|52.1|
+|Yes|17.2|9.2|
 
 ### Bingos
 
@@ -164,7 +194,7 @@ The hardest bingo by number of squares was Fourth Column, with a total of 219 sq
 The easiest bingo by number of cards was Second Column, incomplete on 58 cards.
 The easiest bingo by number of squares was Second Column, with a total of 129 squares left blank.
 
-|BINGO TYPE|INCOMPLETE CARDS|INCOMPLETE SQUARES|
+|BINGO TYPE|# CARDS INCOMPLETE|# SQUARES INCOMPLETE|
 |---------|:---------:|:---------:|
 |First Row|75|174|
 |Second Row|65|157|
@@ -191,7 +221,7 @@ The hardest bingo by number of squares was Third Column, with a total of 1963 sq
 The easiest bingo by number of cards was Fourth Row, incomplete on 563 cards.
 The easiest bingo by number of squares was Fourth Row, with a total of 1370 squares left blank.
 
-|BINGO TYPE|INCOMPLETE CARDS|INCOMPLETE SQUARES|
+|BINGO TYPE|# CARDS INCOMPLETE|# SQUARES INCOMPLETE|
 |---------|:---------:|:---------:|
 |First Row|603|1647|
 |Second Row|632|1766|
@@ -234,6 +264,29 @@ Skipped 33 times. Substituted 14 times.
 **TOTAL**: 798 total authors read, with 70 unique.
 18 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|Ethnicity|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|White|0.9|0.6|
+|Black|0.1|0.0|
+|Asian|0.0|0.2|
+|Unknown|0.0|0.1|
+|Nationality|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|1.0|1.0|
+|Gender|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Woman|0.7|0.6|
+|Nonbinary|0.1|0.0|
+|Man|0.2|0.3|
+|Unknown|0.0|0.1|
+|Queer?|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|No|53.5|63.1|
+|Yes|44.4|26.2|
+|Unknown|2.1|10.7|
+
 ### 2. Weird Ecology
 
 #### Most Read Books
@@ -260,6 +313,29 @@ Skipped 37 times. Substituted 4 times.
 **TOTAL**: 799 total authors read, with 218 unique.
 137 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|Ethnicity|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Asian|0.1|0.1|
+|White|0.8|0.6|
+|Unknown|0.1|0.3|
+|Black|0.1|0.0|
+|Nationality|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|1.0|1.0|
+|Gender|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Woman|0.4|0.3|
+|Unknown|0.1|0.3|
+|Man|0.5|0.3|
+|Nonbinary|0.0|0.0|
+|Queer?|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|No|80.2|56.5|
+|Yes|9.8|11.7|
+|Unknown|10.0|31.8|
+
 ### 3. Two or More Authors
 
 #### Most Read Books
@@ -283,8 +359,31 @@ Skipped 36 times. Substituted 23 times.
 - TIE: Yoon Ha Lee and S.L. Huang, each read 65 times
 - Max Gladstone, read 45 times
 
-**TOTAL**: 1623 total authors read, with 526 unique.
-316 authors were used only once for this square.
+**TOTAL**: 1649 total authors read, with 545 unique.
+328 authors were used only once for this square.
+
+Author demographics, as described above:
+
+|Ethnicity|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|0.4|0.5|
+|Asian|0.1|0.1|
+|White|0.4|0.3|
+|Black|0.1|0.1|
+|Nationality|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|1.0|1.0|
+|Gender|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|0.4|0.5|
+|Woman|0.2|0.3|
+|Man|0.3|0.2|
+|Nonbinary|0.1|0.1|
+|Queer?|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|41.0|45.3|
+|Yes|17.5|16.1|
+|No|41.5|38.5|
 
 ### 4. Historical SFF
 
@@ -312,6 +411,30 @@ Skipped 36 times. Substituted 5 times.
 **TOTAL**: 789 total authors read, with 278 unique.
 176 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|Ethnicity|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Asian|0.2|0.1|
+|White|0.6|0.6|
+|Unknown|0.1|0.3|
+|Black|0.1|0.1|
+|Hispanic|0.0|0.0|
+|Nationality|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|1.0|1.0|
+|Gender|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Woman|0.6|0.5|
+|Man|0.2|0.2|
+|Unknown|0.1|0.3|
+|Nonbinary|0.1|0.0|
+|Queer?|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Yes|19.6|9.6|
+|No|67.7|62.1|
+|Unknown|12.7|28.2|
+
 ### 5. Set In Space
 
 #### Most Read Books
@@ -337,6 +460,30 @@ Skipped 25 times. Substituted 5 times.
 
 **TOTAL**: 828 total authors read, with 214 unique.
 113 authors were used only once for this square.
+
+Author demographics, as described above:
+
+|Ethnicity|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|White|0.7|0.5|
+|Asian|0.1|0.1|
+|Black|0.1|0.0|
+|Unknown|0.1|0.3|
+|Hispanic|0.0|0.0|
+|Nationality|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|1.0|1.0|
+|Gender|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Woman|0.4|0.3|
+|Man|0.4|0.3|
+|Unknown|0.1|0.3|
+|Nonbinary|0.1|0.0|
+|Queer?|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|No|52.9|49.2|
+|Yes|33.3|16.3|
+|Unknown|13.8|34.5|
 
 ### 6. Stand-alone
 
@@ -364,6 +511,30 @@ Skipped 19 times. Substituted 4 times.
 **TOTAL**: 805 total authors read, with 392 unique.
 271 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|Ethnicity|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Asian|0.1|0.1|
+|White|0.6|0.5|
+|Unknown|0.2|0.3|
+|Hispanic|0.0|0.0|
+|Black|0.0|0.0|
+|Nationality|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|1.0|1.0|
+|Gender|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Woman|0.4|0.3|
+|Man|0.3|0.3|
+|Unknown|0.2|0.3|
+|Nonbinary|0.0|0.0|
+|Queer?|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|No|64.1|53.0|
+|Yes|16.4|13.8|
+|Unknown|19.5|33.2|
+
 ### 7. Anti-Hero
 
 #### Most Read Books
@@ -390,6 +561,30 @@ Skipped 24 times. Substituted 4 times.
 **TOTAL**: 812 total authors read, with 282 unique.
 194 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|Ethnicity|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|White|0.7|0.5|
+|Asian|0.2|0.1|
+|Unknown|0.1|0.3|
+|Black|0.0|0.0|
+|Hispanic|0.0|0.0|
+|Nationality|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|1.0|1.0|
+|Gender|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Woman|0.5|0.3|
+|Man|0.3|0.3|
+|Unknown|0.1|0.3|
+|Nonbinary|0.1|0.0|
+|Queer?|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|No|72.8|59.3|
+|Unknown|11.6|30.0|
+|Yes|15.6|10.8|
+
 ### 8. Book Club or Readalong Book
 
 #### Most Read Books
@@ -400,9 +595,9 @@ Skipped 24 times. Substituted 4 times.
 - **The Order of the Pure Moon Reflected in Water** by Zen Cho, read 18 times
 - **All the Murmuring Bones** by A.G. Slatter, read 16 times
 
-**TOTAL**: 757 books read, with 248 unique titles.
+**TOTAL**: 757 books read, with 247 unique titles.
 255 books were claimed to qualify for hard mode.
-113 books were used only once for this square.
+112 books were used only once for this square.
 Skipped 41 times. Substituted 24 times.
 
 #### Most Read Authors
@@ -416,6 +611,30 @@ Skipped 41 times. Substituted 24 times.
 **TOTAL**: 789 total authors read, with 212 unique.
 77 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|Ethnicity|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Asian|0.2|0.1|
+|Black|0.1|0.1|
+|White|0.6|0.6|
+|Unknown|0.1|0.2|
+|Hispanic|0.0|0.0|
+|Nationality|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|1.0|1.0|
+|Gender|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Nonbinary|0.1|0.1|
+|Woman|0.5|0.4|
+|Man|0.3|0.3|
+|Unknown|0.1|0.2|
+|Queer?|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Yes|31.1|22.4|
+|No|55.1|59.8|
+|Unknown|13.8|17.7|
+
 ### 9. Cool Weapon
 
 #### Most Read Books
@@ -426,7 +645,7 @@ Skipped 41 times. Substituted 24 times.
 - TIE: **Elric of Melniboné** by Michael Moorcock and **Kings of the Wyld** by Nicholas Eames, each read 17 times
 - **Warbreaker** by Brandon Sanderson, read 16 times
 
-**TOTAL**: 793 books read, with 355 unique titles.
+**TOTAL**: 793 books read, with 354 unique titles.
 601 books were claimed to qualify for hard mode.
 235 books were used only once for this square.
 Skipped 22 times. Substituted 6 times.
@@ -439,8 +658,31 @@ Skipped 22 times. Substituted 6 times.
 - TIE: Andrew Rowe and Nicholas Eames, each read 29 times
 - Tracy Deonn, read 26 times
 
-**TOTAL**: 808 total authors read, with 238 unique.
+**TOTAL**: 808 total authors read, with 237 unique.
 134 authors were used only once for this square.
+
+Author demographics, as described above:
+
+|Ethnicity|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|0.1|0.2|
+|Asian|0.1|0.1|
+|White|0.8|0.7|
+|Black|0.0|0.0|
+|Hispanic|0.0|0.0|
+|Nationality|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|1.0|1.0|
+|Gender|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|0.1|0.2|
+|Woman|0.3|0.3|
+|Man|0.6|0.5|
+|Queer?|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|7.9|21.3|
+|No|82.7|73.1|
+|Yes|9.4|5.5|
 
 ### 10. Revolutions and Rebellions
 
@@ -468,6 +710,30 @@ Skipped 22 times. Substituted 5 times.
 **TOTAL**: 807 total authors read, with 307 unique.
 207 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|Ethnicity|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Asian|0.2|0.1|
+|Unknown|0.1|0.3|
+|White|0.6|0.6|
+|Black|0.1|0.0|
+|Hispanic|0.0|0.0|
+|Nationality|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|1.0|1.0|
+|Gender|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Woman|0.4|0.3|
+|Unknown|0.1|0.3|
+|Man|0.4|0.3|
+|Nonbinary|0.1|0.0|
+|Queer?|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|No|69.5|60.4|
+|Unknown|11.4|27.6|
+|Yes|19.1|12.0|
+
 ### 11. Name in the Title
 
 #### Most Read Books
@@ -494,6 +760,30 @@ Skipped 31 times. Substituted 4 times.
 **TOTAL**: 794 total authors read, with 251 unique.
 153 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|Ethnicity|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|White|0.7|0.5|
+|Unknown|0.2|0.3|
+|Black|0.0|0.0|
+|Asian|0.0|0.1|
+|Hispanic|0.0|0.0|
+|Nationality|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|1.0|1.0|
+|Gender|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Woman|0.5|0.3|
+|Unknown|0.2|0.3|
+|Man|0.4|0.3|
+|Nonbinary|0.0|0.0|
+|Queer?|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|No|72.0|57.7|
+|Yes|11.0|6.7|
+|Unknown|17.0|35.6|
+
 ### 12. Author Uses Initials
 
 #### Most Read Books
@@ -504,9 +794,9 @@ Skipped 31 times. Substituted 4 times.
 - **The Mask of Mirrors** by M.A. Carrick, read 18 times
 - **Sixteen Ways to Defend a Walled City** by K.J. Parker, read 17 times
 
-**TOTAL**: 791 books read, with 318 unique titles.
+**TOTAL**: 791 books read, with 317 unique titles.
 390 books were claimed to qualify for hard mode.
-215 books were used only once for this square.
+214 books were used only once for this square.
 Skipped 28 times. Substituted 3 times.
 
 #### Most Read Authors
@@ -519,6 +809,30 @@ Skipped 28 times. Substituted 3 times.
 
 **TOTAL**: 797 total authors read, with 192 unique.
 121 authors were used only once for this square.
+
+Author demographics, as described above:
+
+|Ethnicity|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|White|0.8|0.5|
+|Black|0.1|0.0|
+|Unknown|0.1|0.4|
+|Hispanic|0.0|0.0|
+|Asian|0.0|0.0|
+|Nationality|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|1.0|1.0|
+|Gender|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Woman|0.5|0.3|
+|Man|0.3|0.3|
+|Unknown|0.1|0.4|
+|Nonbinary|0.1|0.0|
+|Queer?|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Yes|13.9|11.1|
+|No|72.5|49.2|
+|Unknown|13.6|39.7|
 
 ### 13. Published in 2022
 
@@ -546,6 +860,29 @@ Skipped 23 times. Substituted 1 times.
 **TOTAL**: 808 total authors read, with 297 unique.
 207 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|Ethnicity|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Asian|0.1|0.1|
+|Unknown|0.3|0.5|
+|White|0.6|0.4|
+|Black|0.0|0.0|
+|Nationality|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|1.0|1.0|
+|Gender|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Woman|0.3|0.2|
+|Unknown|0.3|0.5|
+|Man|0.3|0.2|
+|Nonbinary|0.0|0.0|
+|Queer?|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|No|43.9|39.5|
+|Unknown|31.4|50.5|
+|Yes|24.6|10.0|
+
 ### 14. Urban Fantasy
 
 #### Most Read Books
@@ -571,6 +908,30 @@ Skipped 31 times. Substituted 4 times.
 
 **TOTAL**: 823 total authors read, with 309 unique.
 205 authors were used only once for this square.
+
+Author demographics, as described above:
+
+|Ethnicity|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Asian|0.1|0.1|
+|White|0.6|0.5|
+|Unknown|0.2|0.4|
+|Hispanic|0.0|0.0|
+|Black|0.1|0.0|
+|Nationality|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|1.0|1.0|
+|Gender|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Woman|0.5|0.4|
+|Man|0.3|0.2|
+|Nonbinary|0.0|0.0|
+|Unknown|0.2|0.4|
+|Queer?|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|No|63.8|47.5|
+|Yes|19.4|14.2|
+|Unknown|16.8|38.3|
 
 ### 15. Set in Africa
 
@@ -598,6 +959,29 @@ Skipped 66 times. Substituted 30 times.
 **TOTAL**: 776 total authors read, with 130 unique.
 66 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|Ethnicity|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Black|0.8|0.3|
+|Unknown|0.2|0.5|
+|White|0.1|0.1|
+|Asian|0.0|0.0|
+|Nationality|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|1.0|1.0|
+|Gender|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Woman|0.4|0.2|
+|Man|0.4|0.2|
+|Unknown|0.2|0.6|
+|Nonbinary|0.0|0.0|
+|Queer?|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|No|78.6|42.0|
+|Unknown|17.0|54.3|
+|Yes|4.4|3.7|
+
 ### 16. Non-Human Protagonist
 
 #### Most Read Books
@@ -623,6 +1007,30 @@ Skipped 42 times. Substituted 0 times.
 
 **TOTAL**: 790 total authors read, with 241 unique.
 163 authors were used only once for this square.
+
+Author demographics, as described above:
+
+|Ethnicity|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|White|0.8|0.5|
+|Unknown|0.2|0.4|
+|Asian|0.0|0.0|
+|Black|0.0|0.0|
+|Hispanic|0.0|0.0|
+|Nationality|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|1.0|1.0|
+|Gender|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Woman|0.5|0.3|
+|Unknown|0.2|0.4|
+|Man|0.4|0.3|
+|Nonbinary|0.0|0.0|
+|Queer?|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Yes|16.1|8.1|
+|Unknown|17.5|40.7|
+|No|66.5|51.2|
 
 ### 17. Wibbly Wobbly Timey Wimey
 
@@ -650,6 +1058,29 @@ Skipped 29 times. Substituted 7 times.
 **TOTAL**: 826 total authors read, with 298 unique.
 200 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|Ethnicity|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|White|0.7|0.6|
+|Unknown|0.1|0.3|
+|Asian|0.1|0.1|
+|Black|0.0|0.0|
+|Nationality|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|1.0|1.0|
+|Gender|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Woman|0.4|0.3|
+|Man|0.4|0.4|
+|Unknown|0.1|0.3|
+|Nonbinary|0.0|0.0|
+|Queer?|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Yes|10.5|7.1|
+|No|75.1|64.8|
+|Unknown|14.4|28.1|
+
 ### 18. Five Short Stories
 
 #### Most Read Books
@@ -676,6 +1107,30 @@ Skipped 53 times. Substituted 20 times.
 **TOTAL**: 929 total authors read, with 446 unique.
 275 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|Ethnicity|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|White|0.4|0.4|
+|Black|0.1|0.1|
+|Asian|0.1|0.1|
+|Unknown|0.4|0.5|
+|Hispanic|0.0|0.0|
+|Nationality|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|1.0|1.0|
+|Gender|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Woman|0.3|0.2|
+|Man|0.3|0.3|
+|Unknown|0.4|0.5|
+|Nonbinary|0.0|0.0|
+|Queer?|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|No|55.3|43.2|
+|Unknown|35.3|48.5|
+|Yes|9.4|8.3|
+
 ### 19. Mental Health
 
 #### Most Read Books
@@ -686,9 +1141,9 @@ Skipped 53 times. Substituted 20 times.
 - **Witchmark** by C.L. Polk, read 15 times
 - TIE: **Under the Whispering Door** by T.J. Klune and **A Prayer for the Crown-Shy** by Becky Chambers, each read 13 times
 
-**TOTAL**: 772 books read, with 391 unique titles.
+**TOTAL**: 772 books read, with 389 unique titles.
 640 books were claimed to qualify for hard mode.
-282 books were used only once for this square.
+280 books were used only once for this square.
 Skipped 44 times. Substituted 6 times.
 
 #### Most Read Authors
@@ -699,8 +1154,32 @@ Skipped 44 times. Substituted 6 times.
 - Adrian Tchaikovsky, read 19 times
 - Matt Haig, read 17 times
 
-**TOTAL**: 778 total authors read, with 304 unique.
-196 authors were used only once for this square.
+**TOTAL**: 778 total authors read, with 303 unique.
+195 authors were used only once for this square.
+
+Author demographics, as described above:
+
+|Ethnicity|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|0.1|0.3|
+|White|0.7|0.6|
+|Black|0.1|0.0|
+|Asian|0.1|0.1|
+|Hispanic|0.0|0.0|
+|Nationality|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|1.0|1.0|
+|Gender|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|0.1|0.3|
+|Woman|0.5|0.4|
+|Nonbinary|0.1|0.1|
+|Man|0.2|0.3|
+|Queer?|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|14.8|30.2|
+|Yes|30.7|17.0|
+|No|54.5|52.8|
 
 ### 20. Self-Published
 
@@ -728,6 +1207,28 @@ Skipped 50 times. Substituted 32 times.
 **TOTAL**: 768 total authors read, with 436 unique.
 332 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|Ethnicity|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|White|0.5|0.4|
+|Unknown|0.4|0.6|
+|Asian|0.1|0.0|
+|Nationality|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|1.0|1.0|
+|Gender|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Woman|0.2|0.2|
+|Man|0.3|0.2|
+|Unknown|0.4|0.6|
+|Nonbinary|0.0|0.0|
+|Queer?|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Yes|11.5|6.5|
+|No|50.3|38.3|
+|Unknown|38.3|55.3|
+
 ### 21. Award Finalist
 
 #### Most Read Books
@@ -753,6 +1254,30 @@ Skipped 49 times. Substituted 11 times.
 
 **TOTAL**: 775 total authors read, with 332 unique.
 213 authors were used only once for this square.
+
+Author demographics, as described above:
+
+|Ethnicity|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|White|0.8|0.7|
+|Unknown|0.1|0.2|
+|Asian|0.1|0.1|
+|Hispanic|0.0|0.0|
+|Black|0.0|0.0|
+|Nationality|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|1.0|1.0|
+|Gender|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Nonbinary|0.1|0.0|
+|Woman|0.5|0.4|
+|Man|0.3|0.3|
+|Unknown|0.1|0.2|
+|Queer?|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Yes|19.9|14.5|
+|No|71.5|67.2|
+|Unknown|8.6|18.3|
 
 ### 22. BIPOC Author
 
@@ -780,6 +1305,31 @@ Skipped 39 times. Substituted 4 times.
 **TOTAL**: 789 total authors read, with 224 unique.
 132 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|Ethnicity|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Hispanic|0.0|0.1|
+|Asian|0.2|0.3|
+|Native|0.3|0.0|
+|Black|0.2|0.2|
+|Unknown|0.2|0.4|
+|White|0.0|0.0|
+|Nationality|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|1.0|1.0|
+|Gender|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Nonbinary|0.1|0.1|
+|Woman|0.6|0.4|
+|Man|0.2|0.2|
+|Unknown|0.2|0.4|
+|Queer?|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Yes|10.9|10.5|
+|No|72.5|50.2|
+|Unknown|16.6|39.3|
+
 ### 23. Shapeshifters
 
 #### Most Read Books
@@ -805,6 +1355,30 @@ Skipped 36 times. Substituted 2 times.
 
 **TOTAL**: 801 total authors read, with 329 unique.
 212 authors were used only once for this square.
+
+Author demographics, as described above:
+
+|Ethnicity|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|0.2|0.4|
+|White|0.7|0.5|
+|Asian|0.1|0.1|
+|Black|0.0|0.0|
+|Hispanic|0.0|0.0|
+|Nationality|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|1.0|1.0|
+|Gender|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|0.2|0.4|
+|Man|0.3|0.3|
+|Woman|0.5|0.3|
+|Nonbinary|0.0|0.0|
+|Queer?|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|20.2|39.8|
+|No|69.3|52.5|
+|Yes|10.5|7.7|
 
 ### 24. No Ifs, Ands, or Buts
 
@@ -832,6 +1406,30 @@ Skipped 18 times. Substituted 0 times.
 **TOTAL**: 818 total authors read, with 408 unique.
 282 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|Ethnicity|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|0.2|0.3|
+|White|0.6|0.5|
+|Black|0.0|0.0|
+|Asian|0.1|0.1|
+|Hispanic|0.0|0.0|
+|Nationality|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|1.0|1.0|
+|Gender|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|0.2|0.3|
+|Woman|0.4|0.3|
+|Man|0.4|0.3|
+|Nonbinary|0.0|0.0|
+|Queer?|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|20.0|34.5|
+|No|64.8|54.5|
+|Yes|15.2|11.0|
+
 ### 25. Family Matters
 
 #### Most Read Books
@@ -855,8 +1453,32 @@ Skipped 27 times. Substituted 3 times.
 - Zen Cho, read 15 times
 - Victoria Goddard, read 14 times
 
-**TOTAL**: 816 total authors read, with 363 unique.
-237 authors were used only once for this square.
+**TOTAL**: 816 total authors read, with 362 unique.
+236 authors were used only once for this square.
+
+Author demographics, as described above:
+
+|Ethnicity|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|White|0.5|0.5|
+|Unknown|0.2|0.3|
+|Asian|0.2|0.1|
+|Hispanic|0.1|0.0|
+|Black|0.0|0.0|
+|Nationality|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|1.0|1.0|
+|Gender|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Woman|0.6|0.4|
+|Unknown|0.2|0.3|
+|Man|0.2|0.2|
+|Nonbinary|0.0|0.0|
+|Queer?|% Overall|% Unique|
+|---------|:---------:|:---------:|
+|Unknown|20.2|33.7|
+|Yes|7.6|8.2|
+|No|72.2|58.2|
 
 ## Substitutions
 
@@ -891,23 +1513,23 @@ Values close to 100 suggest the same books were used repeatedly for a square; 10
 |---------|:---------:|:---------:|
 |LGBTQIA List Book|55.2|53.2|
 |Weird Ecology|54.2|63.9|
-|Two or More Authors|51.5|59.1|
+|Two or More Authors|51.5|58.5|
 |Historical SFF|45.9|55.1|
 |Set In Space|52.0|61.1|
 |Stand-alone|35.5|43.9|
 |Anti-Hero|49.7|58.0|
 |Book Club or Readalong Book|49.7|49.9|
-|Cool Weapon|46.3|58.3|
+|Cool Weapon|46.4|58.4|
 |Revolutions and Rebellions|46.4|53.7|
 |Name in the Title|53.2|58.0|
-|Author Uses Initials|52.0|68.5|
+|Author Uses Initials|52.1|68.5|
 |Published in 2022|55.8|56.3|
 |Urban Fantasy|43.9|54.0|
 |Set in Africa|63.6|71.7|
 |Non-Human Protagonist|55.1|62.2|
 |Wibbly Wobbly Timey Wimey|46.9|54.3|
 |Five Short Stories|37.3|41.6|
-|Mental Health|42.3|50.9|
+|Mental Health|42.4|51.0|
 |Self-Published|29.2|38.6|
 |Award Finalist|35.3|47.3|
 |BIPOC Author|51.0|62.1|
@@ -951,7 +1573,7 @@ Quoting the [very first bingo stats post](https://www.reddit.com/r/Fantasy/comme
 
 A "misspelling" for the purposes of these statistics is any book (title/author combination)
 that does not match the version used as the canonical version during cleaning.
-There were a total of 5626 misspellings.
+There were a total of 5684 misspellings.
 (Note that this does not include short stories.)
 
 The books with the most variation in title or author spellings were:

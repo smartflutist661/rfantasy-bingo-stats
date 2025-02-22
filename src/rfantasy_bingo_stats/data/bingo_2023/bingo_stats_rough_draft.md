@@ -23,7 +23,7 @@ In addition, if you did something like, say, put **The Lost Metal** as a short s
 3. Books by multiple authors were counted once for each author. E.g.: **In the Heart of Darkness** by Eric Flint and David Drake counts as a read for both Eric Flint and David Drake.
 *However*, books by a writing team with a single-author pseudonym, e.g. M.A. Carrick, were counted once for the pseudonym, and not for the authors behind the pseudonym.
 4. Author demographic statistics are not included below, for two reasons: it quickly gets messy and culturally-specific,
-and I didn't want to stalk all 3935 individual authors. Machinery for these calculations are included in the script, however,
+and I didn't want to stalk all 3948 individual authors. Machinery for these calculations are included in the script, however,
 so if anyone would like to supply demographic information, it is easy to include.
 5. Short stories were excluded from most of the stats below. They *were* included in the total story count.
 
@@ -37,11 +37,11 @@ so if anyone would like to supply demographic information, it is easy to include
 The minimum number of filled squares was 5. 5 were *this close*, with 24 filled squares.
 649 squares were left blank, leaving 22576 filled squares.
 - There were 23096 total stories, with 6700 unique stories read,
-by 3935 unique authors (23664 total).
-4150 books and 2122 authors were used only once. 
+by 3948 unique authors (23679 total).
+4150 books and 2134 authors were used only once. 
 - The top squares left blank were: **Druid** and **Set in the Middle East**, blank on 46 cards each; **Superheroes**, blank on 44 cards; **Elemental Magic**, blank on 38 cards. On the other hand, **Sequel** was only left blank 9 times.
 - The three squares most often substituted were: **Druid**, substituted on 58 cards; **Superheroes**, substituted on 34 cards; **Book Club or Readalong Book**, substituted on 31 cards.
-**Sequel** and **Multiverses** were never substituted.
+**Multiverses** and **Sequel** were never substituted.
 This means that Druid was the least favorite overall, skipped or substituted a total of 104 times, and
 Sequel was the favorite, skipped or substituted only 9 times.
 - There were an average of 4.5 unique books per card.
@@ -150,6 +150,40 @@ The authors with the most unique books read were:
 As with books, most authors were read only once.
 There were an average of 6.0 reads per author.
 
+The following tables represent a best-effort attempt at a statistical breakdown of author demographics.
+The "Overall %" column represents the _total_ number of times a demographic appeared in Bingo data,
+i.e. Brandon Sanderson counts 214412 times for each of his demographic groups.
+The "Unique %" column represents the unique number of times a demographic appeared in Bingo data,
+i.e. Brandon Sanderson counts only once, no matter how many squares or cards he appears on.
+
+Demographics representing less than 1% of the unique authors are not included in these tables. 
+
+|ETHNICITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Asian|9.9|5.9|
+|Black|4.4|2.1|
+|Hispanic|1.6|1.1|
+|White|59.1|31.5|
+|Unknown|23.8|59.0|
+
+|NATIONALITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Canada|0.5|1.5|
+|United States|3.8|1.4|
+|Unknown|93.7|96.1|
+
+|GENDER|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Man|32.2|21.4|
+|Nonbinary|2.9|1.5|
+|Woman|40.8|18.1|
+|Unknown|24.1|59.0|
+
+|QUEER?|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Yes|13.1|5.2|
+|Unknown|86.6|94.7|
+
 ### Bingos
 
 #### Normal Mode
@@ -164,7 +198,7 @@ The hardest bingo by number of squares was Second Row, with a total of 161 squar
 The easiest bingo by number of cards was Fifth Row, incomplete on 52 cards.
 The easiest bingo by number of squares was Fifth Row, with a total of 87 squares left blank.
 
-|BINGO TYPE|INCOMPLETE CARDS|INCOMPLETE SQUARES|
+|BINGO TYPE|# CARDS INCOMPLETE|# SQUARES INCOMPLETE|
 |---------|:---------:|:---------:|
 |First Row|55|104|
 |Second Row|69|161|
@@ -191,7 +225,7 @@ The hardest bingo by number of squares was Third Column, with a total of 2306 sq
 The easiest bingo by number of cards was First Column, incomplete on 469 cards.
 The easiest bingo by number of squares was First Column, with a total of 839 squares left blank.
 
-|BINGO TYPE|INCOMPLETE CARDS|INCOMPLETE SQUARES|
+|BINGO TYPE|# CARDS INCOMPLETE|# SQUARES INCOMPLETE|
 |---------|:---------:|:---------:|
 |First Row|715|2051|
 |Second Row|627|1486|
@@ -234,6 +268,33 @@ Skipped 12 times. Substituted 4 times.
 **TOTAL**: 924 total authors read, with 374 unique.
 237 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|ETHNICITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Asian|6.6|5.9|
+|Black|4.0|2.7|
+|Hispanic|2.1|1.9|
+|White|68.6|54.0|
+|Unknown|18.3|35.0|
+
+|NATIONALITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|United States|4.9|1.9|
+|Unknown|91.1|96.0|
+
+|GENDER|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Man|37.9|30.5|
+|Nonbinary|1.3|1.3|
+|Woman|42.6|33.4|
+|Unknown|18.2|34.8|
+
+|QUEER?|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Yes|8.7|7.5|
+|Unknown|91.3|92.5|
+
 ### 2. Superheroes
 
 #### Most Read Books
@@ -259,6 +320,32 @@ Skipped 44 times. Substituted 34 times.
 
 **TOTAL**: 948 total authors read, with 256 unique.
 157 authors were used only once for this square.
+
+Author demographics, as described above:
+
+|ETHNICITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Asian|3.2|3.0|
+|Black|3.2|2.1|
+|White|60.9|25.4|
+|Unknown|32.2|68.4|
+
+|NATIONALITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|United States|2.7|1.2|
+|Unknown|96.8|97.9|
+
+|GENDER|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Man|27.5|20.3|
+|Nonbinary|2.3|1.2|
+|Woman|37.8|9.9|
+|Unknown|32.4|68.7|
+
+|QUEER?|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Yes|28.5|5.4|
+|Unknown|71.4|94.3|
 
 ### 3. Bottom of the TBR
 
@@ -286,6 +373,33 @@ Skipped 26 times. Substituted 7 times.
 **TOTAL**: 908 total authors read, with 451 unique.
 298 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|ETHNICITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Asian|4.4|6.2|
+|Black|3.0|2.8|
+|Hispanic|1.4|2.4|
+|White|75.8|60.2|
+|Unknown|15.0|27.5|
+
+|NATIONALITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|United States|2.5|1.9|
+|Unknown|93.9|94.2|
+
+|GENDER|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Man|50.4|40.0|
+|Nonbinary|1.2|1.7|
+|Woman|33.4|30.8|
+|Unknown|15.0|27.5|
+
+|QUEER?|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Yes|6.2|8.2|
+|Unknown|93.1|91.4|
+
 ### 4. Magical Realism
 
 #### Most Read Books
@@ -311,6 +425,34 @@ Skipped 27 times. Substituted 12 times.
 
 **TOTAL**: 899 total authors read, with 354 unique.
 227 authors were used only once for this square.
+
+Author demographics, as described above:
+
+|ETHNICITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Asian|19.2|9.9|
+|Black|4.3|5.0|
+|Hispanic|6.5|4.4|
+|Native|0.8|1.1|
+|White|40.8|31.2|
+|Unknown|28.4|48.3|
+
+|NATIONALITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|United States|1.6|1.4|
+|Unknown|96.1|96.1|
+
+|GENDER|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Man|26.7|18.5|
+|Nonbinary|1.9|1.9|
+|Woman|43.0|31.2|
+|Unknown|28.4|48.3|
+
+|QUEER?|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Yes|6.6|5.8|
+|Unknown|93.2|93.9|
 
 ### 5. Young Adult
 
@@ -338,6 +480,34 @@ Skipped 16 times. Substituted 4 times.
 **TOTAL**: 924 total authors read, with 370 unique.
 234 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|ETHNICITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Asian|5.7|7.2|
+|Black|4.5|4.2|
+|Hispanic|2.9|3.2|
+|Native|2.3|1.1|
+|White|60.8|44.8|
+|Unknown|23.7|39.5|
+
+|NATIONALITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|United States|5.7|2.9|
+|Unknown|91.5|95.0|
+
+|GENDER|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Man|18.7|18.3|
+|Nonbinary|5.0|3.2|
+|Woman|52.6|39.0|
+|Unknown|23.7|39.5|
+
+|QUEER?|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Yes|12.3|8.8|
+|Unknown|87.1|90.7|
+
 ### 6. Mundane Jobs
 
 #### Most Read Books
@@ -363,6 +533,33 @@ Skipped 14 times. Substituted 1 times.
 
 **TOTAL**: 926 total authors read, with 343 unique.
 232 authors were used only once for this square.
+
+Author demographics, as described above:
+
+|ETHNICITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Asian|3.9|4.9|
+|Black|1.4|2.6|
+|Hispanic|0.4|1.2|
+|White|74.0|52.9|
+|Unknown|20.0|37.8|
+
+|NATIONALITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|United States|2.2|2.3|
+|Unknown|96.0|95.3|
+
+|GENDER|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Man|48.1|31.7|
+|Nonbinary|2.5|2.9|
+|Woman|29.2|27.6|
+|Unknown|20.3|37.8|
+
+|QUEER?|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Yes|25.3|9.9|
+|Unknown|74.4|89.8|
 
 ### 7. Published in the 2000s
 
@@ -390,6 +587,33 @@ Skipped 31 times. Substituted 13 times.
 **TOTAL**: 914 total authors read, with 316 unique.
 181 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|ETHNICITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Asian|3.6|4.3|
+|Black|1.5|1.2|
+|Hispanic|0.7|1.2|
+|White|76.9|51.9|
+|Unknown|17.1|40.9|
+
+|NATIONALITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|United Kingdom|3.2|1.2|
+|United States|6.6|1.7|
+|Unknown|89.2|95.7|
+
+|GENDER|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Man|44.0|29.9|
+|Woman|38.3|29.3|
+|Unknown|17.7|40.9|
+
+|QUEER?|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Yes|3.1|3.2|
+|Unknown|95.4|96.2|
+
 ### 8. Angels and Demons
 
 #### Most Read Books
@@ -416,6 +640,31 @@ Skipped 30 times. Substituted 6 times.
 **TOTAL**: 989 total authors read, with 251 unique.
 145 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|ETHNICITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Asian|4.2|3.2|
+|Black|2.8|1.9|
+|White|70.4|68.9|
+|Unknown|21.2|25.3|
+
+|NATIONALITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Unknown|98.7|98.6|
+
+|GENDER|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Man|38.1|58.9|
+|Nonbinary|2.1|1.2|
+|Woman|38.4|14.4|
+|Unknown|21.3|25.5|
+
+|QUEER?|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Yes|6.5|4.4|
+|Unknown|93.4|95.4|
+
 ### 9. Five Short Stories
 
 #### Most Read Books
@@ -439,8 +688,35 @@ Skipped 37 times. Substituted 18 times.
 - TIE: Jonathan Strahan and Isaac Asimov and Kelly Link, each read 11 times
 - Joe Abercrombie, read 10 times
 
-**TOTAL**: 1227 total authors read, with 624 unique.
-416 authors were used only once for this square.
+**TOTAL**: 1241 total authors read, with 637 unique.
+428 authors were used only once for this square.
+
+Author demographics, as described above:
+
+|ETHNICITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Asian|12.2|4.1|
+|Black|5.2|5.0|
+|Hispanic|1.8|1.1|
+|White|40.4|37.3|
+|Unknown|39.6|51.5|
+
+|NATIONALITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|United States|3.1|2.6|
+|Unknown|94.4|96.0|
+
+|GENDER|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Man|30.2|21.2|
+|Nonbinary|1.2|1.2|
+|Woman|28.1|24.9|
+|Unknown|40.5|52.6|
+
+|QUEER?|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Yes|8.0|7.7|
+|Unknown|91.8|92.2|
 
 ### 10. Horror
 
@@ -468,6 +744,33 @@ Skipped 16 times. Substituted 11 times.
 **TOTAL**: 920 total authors read, with 304 unique.
 179 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|ETHNICITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Asian|3.9|5.4|
+|Black|5.2|3.5|
+|Hispanic|3.9|2.2|
+|White|62.8|43.3|
+|Unknown|23.0|44.9|
+
+|NATIONALITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|United States|1.5|2.6|
+|Unknown|97.4|96.2|
+
+|GENDER|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Man|37.5|29.5|
+|Nonbinary|2.8|2.6|
+|Woman|36.5|22.8|
+|Unknown|23.2|45.2|
+
+|QUEER?|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Yes|9.9|9.0|
+|Unknown|90.0|90.7|
+
 ### 11. Self Published or Indie Publisher
 
 #### Most Read Books
@@ -493,6 +796,30 @@ Skipped 33 times. Substituted 25 times.
 
 **TOTAL**: 924 total authors read, with 543 unique.
 427 authors were used only once for this square.
+
+Author demographics, as described above:
+
+|ETHNICITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Asian|6.7|3.6|
+|White|46.1|32.1|
+|Unknown|45.5|62.6|
+
+|NATIONALITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Unknown|97.6|98.9|
+
+|GENDER|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Man|26.2|16.4|
+|Nonbinary|2.3|2.2|
+|Woman|25.6|18.6|
+|Unknown|45.9|62.8|
+
+|QUEER?|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Yes|6.5|6.9|
+|Unknown|93.5|93.1|
 
 ### 12. Set in the Middle East
 
@@ -520,6 +847,33 @@ Skipped 46 times. Substituted 30 times.
 **TOTAL**: 891 total authors read, with 143 unique.
 71 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|ETHNICITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Arabic|12.7|2.7|
+|Asian|21.2|12.4|
+|Black|8.3|2.2|
+|White|29.2|22.0|
+|Unknown|28.2|60.2|
+
+|NATIONALITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|United States|10.5|1.6|
+|Unknown|87.1|96.2|
+
+|GENDER|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Man|26.9|18.8|
+|Nonbinary|2.5|2.7|
+|Woman|42.3|17.7|
+|Unknown|28.3|60.8|
+
+|QUEER?|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Yes|4.4|4.8|
+|Unknown|95.6|95.2|
+
 ### 13. Published in 2023
 
 #### Most Read Books
@@ -545,6 +899,33 @@ Skipped 21 times. Substituted 3 times.
 
 **TOTAL**: 919 total authors read, with 337 unique.
 208 authors were used only once for this square.
+
+Author demographics, as described above:
+
+|ETHNICITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Asian|5.1|5.9|
+|Black|2.1|1.5|
+|Hispanic|0.5|1.2|
+|White|41.2|36.1|
+|Unknown|49.8|55.0|
+
+|NATIONALITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|United States|8.2|2.7|
+|Unknown|90.4|95.9|
+
+|GENDER|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Man|27.5|20.1|
+|Nonbinary|1.4|2.4|
+|Woman|20.7|21.9|
+|Unknown|50.4|55.6|
+
+|QUEER?|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Yes|7.4|7.7|
+|Unknown|92.2|92.0|
 
 ### 14. Multiverses
 
@@ -572,6 +953,33 @@ Skipped 21 times. Substituted 0 times.
 **TOTAL**: 948 total authors read, with 280 unique.
 186 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|ETHNICITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Asian|7.8|12.8|
+|Black|0.9|1.4|
+|Hispanic|5.8|1.4|
+|White|69.5|52.5|
+|Unknown|15.8|31.6|
+
+|NATIONALITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Canada|3.5|9.3|
+|Unknown|90.4|88.4|
+
+|GENDER|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Man|46.6|36.8|
+|Nonbinary|1.7|1.4|
+|Woman|35.5|29.6|
+|Unknown|16.1|32.2|
+
+|QUEER?|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Yes|7.3|4.6|
+|Unknown|92.7|95.4|
+
 ### 15. POC Author
 
 #### Most Read Books
@@ -597,6 +1005,35 @@ Skipped 20 times. Substituted 3 times.
 
 **TOTAL**: 945 total authors read, with 288 unique.
 176 authors were used only once for this square.
+
+Author demographics, as described above:
+
+|ETHNICITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Asian|32.8|22.4|
+|Black|36.8|18.4|
+|Hispanic|4.1|3.9|
+|Native|1.9|2.0|
+|White|2.6|4.9|
+|Unknown|21.6|48.0|
+
+|NATIONALITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Canada|3.1|1.6|
+|United States|3.2|2.6|
+|Unknown|92.0|93.8|
+
+|GENDER|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Man|21.8|19.1|
+|Nonbinary|9.5|5.3|
+|Woman|47.0|27.3|
+|Unknown|21.7|48.4|
+
+|QUEER?|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Yes|19.9|11.2|
+|Unknown|78.9|88.5|
 
 ### 16. Book Club or Readalong Book
 
@@ -624,6 +1061,35 @@ Skipped 24 times. Substituted 31 times.
 **TOTAL**: 890 total authors read, with 229 unique.
 95 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|ETHNICITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Asian|9.9|13.0|
+|Black|3.3|3.2|
+|Hispanic|1.1|1.2|
+|White|66.7|60.7|
+|Unknown|18.8|21.1|
+
+|NATIONALITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Canada|0.4|1.6|
+|United Kingdom|1.1|1.2|
+|United States|1.5|2.0|
+|Unknown|94.6|93.1|
+
+|GENDER|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Man|33.3|32.0|
+|Nonbinary|3.7|6.9|
+|Woman|43.4|39.7|
+|Unknown|19.7|21.5|
+
+|QUEER?|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Yes|16.2|17.4|
+|Unknown|83.8|82.6|
+
 ### 17. Novella
 
 #### Most Read Books
@@ -650,6 +1116,34 @@ Skipped 18 times. Substituted 2 times.
 **TOTAL**: 945 total authors read, with 307 unique.
 202 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|ETHNICITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Asian|16.5|13.8|
+|Black|5.6|3.0|
+|Hispanic|0.7|1.6|
+|White|59.7|48.2|
+|Unknown|16.9|32.8|
+
+|NATIONALITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Canada|3.2|8.1|
+|United States|6.1|1.6|
+|Unknown|87.9|88.6|
+
+|GENDER|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Man|28.8|29.0|
+|Nonbinary|6.7|3.5|
+|Woman|46.8|34.4|
+|Unknown|17.8|33.1|
+
+|QUEER?|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Yes|26.6|10.0|
+|Unknown|73.4|90.0|
+
 ### 18. Mythical Beasts
 
 #### Most Read Books
@@ -673,8 +1167,35 @@ Skipped 19 times. Substituted 2 times.
 - Marie Brennan, read 24 times
 - Heather Fawcett, read 20 times
 
-**TOTAL**: 921 total authors read, with 335 unique.
-215 authors were used only once for this square.
+**TOTAL**: 922 total authors read, with 336 unique.
+216 authors were used only once for this square.
+
+Author demographics, as described above:
+
+|ETHNICITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Asian|13.0|6.6|
+|Black|2.3|3.2|
+|Hispanic|0.8|1.7|
+|White|61.4|53.7|
+|Unknown|21.4|33.9|
+
+|NATIONALITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|United States|3.3|3.2|
+|Unknown|93.4|94.5|
+
+|GENDER|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Man|30.8|30.5|
+|Nonbinary|2.6|3.4|
+|Woman|43.9|32.2|
+|Unknown|22.7|33.9|
+
+|QUEER?|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Yes|10.7|10.1|
+|Unknown|88.6|89.4|
 
 ### 19. Elemental Magic
 
@@ -702,6 +1223,33 @@ Skipped 38 times. Substituted 20 times.
 **TOTAL**: 926 total authors read, with 259 unique.
 152 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|ETHNICITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Asian|19.7|18.0|
+|Black|4.6|2.5|
+|Hispanic|1.4|1.4|
+|White|45.9|34.3|
+|Unknown|28.4|43.8|
+
+|NATIONALITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|United States|0.9|1.4|
+|Unknown|98.5|97.0|
+
+|GENDER|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Man|22.6|28.8|
+|Nonbinary|1.4|1.9|
+|Woman|47.6|25.5|
+|Unknown|28.4|43.8|
+
+|QUEER?|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Yes|5.6|6.9|
+|Unknown|94.4|93.1|
+
 ### 20. Myths and Retellings
 
 #### Most Read Books
@@ -727,6 +1275,33 @@ Skipped 25 times. Substituted 4 times.
 
 **TOTAL**: 929 total authors read, with 325 unique.
 215 authors were used only once for this square.
+
+Author demographics, as described above:
+
+|ETHNICITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Asian|9.8|8.1|
+|Black|1.9|2.4|
+|Hispanic|1.4|1.8|
+|White|62.4|43.9|
+|Unknown|23.9|43.3|
+
+|NATIONALITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|United States|1.5|1.8|
+|Unknown|97.6|97.3|
+
+|GENDER|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Man|14.4|16.1|
+|Nonbinary|2.7|2.4|
+|Woman|59.0|38.2|
+|Unknown|23.9|43.3|
+
+|QUEER?|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Yes|14.6|9.9|
+|Unknown|85.4|90.1|
 
 ### 21. Queernorm Setting
 
@@ -754,6 +1329,33 @@ Skipped 21 times. Substituted 12 times.
 **TOTAL**: 906 total authors read, with 234 unique.
 136 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|ETHNICITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Asian|7.9|6.3|
+|Black|1.5|3.4|
+|Hispanic|0.9|1.3|
+|White|73.0|54.6|
+|Unknown|15.7|33.6|
+
+|NATIONALITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|United States|4.6|1.7|
+|Unknown|91.2|96.2|
+
+|GENDER|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Man|23.6|15.1|
+|Nonbinary|10.9|8.4|
+|Woman|49.8|42.9|
+|Unknown|15.7|33.6|
+
+|QUEER?|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Yes|48.0|23.5|
+|Unknown|52.0|76.5|
+
 ### 22. Coastal Setting
 
 #### Most Read Books
@@ -779,6 +1381,33 @@ Skipped 21 times. Substituted 1 times.
 
 **TOTAL**: 925 total authors read, with 326 unique.
 221 authors were used only once for this square.
+
+Author demographics, as described above:
+
+|ETHNICITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Asian|9.3|5.5|
+|Black|2.2|4.0|
+|Native|1.1|1.2|
+|White|70.9|53.1|
+|Unknown|16.4|35.9|
+
+|NATIONALITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|United States|8.1|1.5|
+|Unknown|89.5|96.3|
+
+|GENDER|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Man|36.5|31.6|
+|Nonbinary|1.6|2.1|
+|Woman|45.4|30.4|
+|Unknown|16.4|35.9|
+
+|QUEER?|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Yes|8.9|9.8|
+|Unknown|91.1|90.2|
 
 ### 23. Druid
 
@@ -806,6 +1435,34 @@ Skipped 46 times. Substituted 58 times.
 **TOTAL**: 859 total authors read, with 246 unique.
 161 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|ETHNICITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Asian|7.3|3.1|
+|Black|2.9|1.5|
+|Hispanic|0.8|1.5|
+|White|61.8|41.3|
+|Unknown|27.0|52.1|
+
+|NATIONALITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Denmark|0.3|1.2|
+|United States|0.6|1.5|
+|Unknown|98.7|96.1|
+
+|GENDER|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Man|21.9|17.8|
+|Nonbinary|0.7|1.5|
+|Woman|50.3|29.3|
+|Unknown|27.1|51.4|
+
+|QUEER?|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Yes|8.4|6.2|
+|Unknown|91.6|93.8|
+
 ### 24. Features Robots
 
 #### Most Read Books
@@ -832,6 +1489,33 @@ Skipped 32 times. Substituted 4 times.
 **TOTAL**: 904 total authors read, with 193 unique.
 119 authors were used only once for this square.
 
+Author demographics, as described above:
+
+|ETHNICITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Asian|6.0|6.5|
+|Black|0.9|2.5|
+|Hispanic|1.0|1.5|
+|White|78.7|45.8|
+|Unknown|13.5|43.8|
+
+|NATIONALITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|United States|1.1|2.0|
+|Unknown|98.0|96.0|
+
+|GENDER|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Man|33.8|35.8|
+|Nonbinary|3.9|1.5|
+|Woman|48.8|18.9|
+|Unknown|13.5|43.8|
+
+|QUEER?|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Yes|20.5|7.0|
+|Unknown|79.3|92.0|
+
 ### 25. Sequel
 
 #### Most Read Books
@@ -857,6 +1541,33 @@ Skipped 9 times. Substituted 0 times.
 
 **TOTAL**: 936 total authors read, with 346 unique.
 214 authors were used only once for this square.
+
+Author demographics, as described above:
+
+|ETHNICITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Asian|6.2|6.4|
+|Black|1.3|1.7|
+|Hispanic|1.2|1.1|
+|White|81.6|68.1|
+|Unknown|9.1|21.8|
+
+|NATIONALITY|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|United States|5.2|3.9|
+|Unknown|89.7|93.8|
+
+|GENDER|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Man|47.9|37.3|
+|Nonbinary|2.1|2.5|
+|Woman|40.3|38.1|
+|Unknown|9.7|22.1|
+
+|QUEER?|% OVERALL|% UNIQUE|
+|---------|:---------:|:---------:|
+|Yes|11.0|7.3|
+|Unknown|88.7|92.4|
 
 ## Substitutions
 
@@ -898,7 +1609,7 @@ Values close to 100 suggest the same books were used repeatedly for a square; 10
 |Mundane Jobs|48.4|55.2|
 |Published in the 2000s|38.6|53.1|
 |Angels and Demons|57.3|65.0|
-|Five Short Stories|36.1|40.7|
+|Five Short Stories|36.1|40.4|
 |Horror|47.6|55.8|
 |Self Published or Indie Publisher|27.6|37.1|
 |Set in the Middle East|69.8|71.8|
@@ -952,7 +1663,7 @@ Quoting the [very first bingo stats post](https://www.reddit.com/r/Fantasy/comme
 
 A "misspelling" for the purposes of these statistics is any book (title/author combination)
 that does not match the version used as the canonical version during cleaning.
-There were a total of 5861 misspellings.
+There were a total of 5857 misspellings.
 (Note that this does not include short stories.)
 
 The books with the most variation in title or author spellings were:

@@ -1038,7 +1038,7 @@
       "Batman: White Knight /// Sean Murphy": 1,
       "Battle Ground /// Jim Butcher": 2,
       "Battle Mage /// Peter A. Flannery": 1,
-      "Battle Royale /// Takami Koushun": 1,
+      "Battle Royale /// Koushun Takami": 1,
       "Battle of the Linguist Mages /// Scotto Moore": 6,
       "Battlecry /// Emerald Dodge": 1,
       "Battletech Pride Anthology 2023 Queer Tales From the Inner Sphere /// Uncredited": 1,
@@ -1871,7 +1871,7 @@
       "Dungeon Crawler Carl /// Matt Dinniman": 26,
       "Dungeon Eternium /// Dakota Krout": 1,
       "Durarara!! /// Ryohgo Narita": 2,
-      "Dusk Mountain Blues /// Deston J. Mundin": 1,
+      "Dusk Mountain Blues /// Deston J. Munden": 1,
       "Dust /// Elizabeth Bear": 2,
       "Dust /// Hugh Howey": 1,
       "Dust of Dreams /// Steven Erikson": 3,
@@ -3179,7 +3179,7 @@
       "Master of Crows /// Grace Draven": 1,
       "Master of Fiends /// Douglas Hill": 1,
       "Master of Poisons /// Andrea Hairston": 3,
-      "Master of Sorrows /// Justin T. Call": 1,
+      "Master of Sorrows /// Justin Call": 1,
       "Master of the Revels /// Nicole Galland": 3,
       "Master of the Void /// Wend Raven": 2,
       "Masters of Death /// Olivie Blake": 5,
@@ -6524,7 +6524,7 @@
       "They Were Here Before Us /// Eric LaRocca": 1,
       "Thick as Thieves /// Megan Whalen Turner": 1,
       "Thief Liar Lady /// D.L. Soria": 2,
-      "Thieves' World /// Robert Lynn Asprin, Lynn Abbey": 3,
+      "Thieves' World /// Robert Asprin": 3,
       "Things Have Gotten Worse Since We Last Spoke and Other Misfortunes /// Eric LaRocca": 2,
       "Things They Lost /// Odour Okwiri": 1,
       "Things We Lost in the Fire /// Mariana Enríquez": 1,
@@ -8095,7 +8095,7 @@
       "Derek Lubangakene": 1,
       "Derin Edala": 1,
       "Desmond Doane": 1,
-      "Deston J. Mundin": 1,
+      "Deston J. Munden": 1,
       "Deva Fagan": 1,
       "Devaki Devay": 1,
       "Devin Grayson": 1,
@@ -9105,12 +9105,12 @@
       "Junji Ito": 9,
       "Juno Dawson": 20,
       "Justin A. Reynolds": 1,
+      "Justin Call": 1,
       "Justin Cronin": 8,
       "Justin Isis": 1,
       "Justin Lee Anderson": 7,
       "Justin Lemire": 1,
       "Justin Randall": 1,
-      "Justin T. Call": 1,
       "Justin Woolley": 1,
       "Justina Ireland": 14,
       "Justine Larbalestier": 1,
@@ -9326,6 +9326,7 @@
       "Kiyash Monsef": 1,
       "Kohei Horikoshi": 3,
       "Kouhei Kadono": 1,
+      "Koushun Takami": 1,
       "Koyoharu Gotouge": 3,
       "Krista D. Ball": 15,
       "Kristen Banet": 1,
@@ -9537,7 +9538,7 @@
       "Lydia Kwa": 1,
       "Lyndsie Manusos": 1,
       "Lynette Noni": 1,
-      "Lynn Abbey": 4,
+      "Lynn Abbey": 1,
       "Lynn Flewelling": 16,
       "Lynne M. Thomas": 1,
       "Lyra Selene": 2,
@@ -10327,6 +10328,7 @@
       "Rob Kutner": 2,
       "Rob Thurman": 1,
       "Robert A. Heinlein": 8,
+      "Robert Asprin": 3,
       "Robert Bose": 1,
       "Robert Charles Wilson": 1,
       "Robert E. Howard": 2,
@@ -10344,7 +10346,6 @@
       "Robert Kurvitz": 1,
       "Robert Lanza": 1,
       "Robert Louis Stevenson": 9,
-      "Robert Lynn Asprin": 3,
       "Robert N. Charrette": 2,
       "Robert R. Chase": 1,
       "Robert R. McCammon": 4,
@@ -10780,7 +10781,6 @@
       "Tade Thompson": 30,
       "Tae Keller": 2,
       "Tahereh Mafi": 22,
-      "Takami Koushun": 1,
       "Takuto Kashiki": 2,
       "Talia Clayton": 1,
       "Talia Rhea": 1,
@@ -13026,7 +13026,7 @@
         "The Word for World is Forest /// Ursula K. Le Guin": 1,
         "The Year of the Flood /// Margaret Atwood": 1,
         "Theft of Swords /// Michael J. Sullivan": 3,
-        "Thieves' World /// Robert Lynn Asprin, Lynn Abbey": 1,
+        "Thieves' World /// Robert Asprin": 1,
         "This is How You Lose the Time War /// Amal El-Mohtar, Max Gladstone": 3,
         "Three Parts Dead /// Max Gladstone": 1,
         "Tigana /// Guy Gavriel Kay": 6,
@@ -13323,7 +13323,6 @@
         "Lois McMaster Bujold": 8,
         "Lord Dunsany": 2,
         "Luke Tarzian": 1,
-        "Lynn Abbey": 1,
         "Lynn Flewelling": 3,
         "M.L. Brennan": 1,
         "M.R. James": 1,
@@ -13433,11 +13432,11 @@
         "Richard Matheson": 1,
         "Rick Riordan": 2,
         "Robert A. Heinlein": 4,
+        "Robert Asprin": 1,
         "Robert Charles Wilson": 1,
         "Robert F. Young": 1,
         "Robert Jackson Bennett": 9,
         "Robert Jordan": 5,
-        "Robert Lynn Asprin": 1,
         "Robin Hobb": 6,
         "Robin Lovett": 1,
         "Robin McKinley": 3,
@@ -16447,7 +16446,7 @@
         "The Year's Best Science Fiction Volume 2 /// Jonathan Strahan": 1,
         "These Our Monsters /// Paul Kingsnorth, Graeme Macrae Burnet, Fiona Mozley, Sarah Hall, Adam Thorpe, Edward Carey, Sarah Moss, Alison MacLeod": 1,
         "They Were Here Before Us /// Eric LaRocca": 1,
-        "Thieves' World /// Robert Lynn Asprin, Lynn Abbey": 2,
+        "Thieves' World /// Robert Asprin": 2,
         "Things Have Gotten Worse Since We Last Spoke and Other Misfortunes /// Eric LaRocca": 1,
         "Things We Lost in the Fire /// Mariana Enríquez": 1,
         "Thirteen Storeys /// Jonathan Sims": 1,
@@ -16872,7 +16871,6 @@
         "Lucienne Diver": 1,
         "Luke Chmilenko": 2,
         "Lyndsie Manusos": 1,
-        "Lynn Abbey": 2,
         "Lynne M. Thomas": 1,
         "M. Lopes da Silva": 1,
         "M. Shayne Bell": 1,
@@ -16999,9 +16997,9 @@
         "RoAnna Sylver": 2,
         "Roald Dahl": 1,
         "Robert A. Heinlein": 1,
+        "Robert Asprin": 2,
         "Robert Bose": 1,
         "Robert E. Howard": 1,
-        "Robert Lynn Asprin": 2,
         "Robert R. Chase": 1,
         "Robert Silverberg": 1,
         "Robert W. Chambers": 1,
@@ -17347,7 +17345,7 @@
         "At the Mountains of Madness /// H.P. Lovecraft": 2,
         "Authority /// Jeff VanderMeer": 2,
         "Bad Cree /// Jessica Johns": 2,
-        "Battle Royale /// Takami Koushun": 1,
+        "Battle Royale /// Koushun Takami": 1,
         "Beholder /// Ryan La Sala": 1,
         "Berserk /// Kentaro Miura": 1,
         "Between Two Fires /// Christopher Buehlman": 12,
@@ -17895,6 +17893,7 @@
         "Kian N. Ardalan": 1,
         "Kiersten White": 3,
         "Kira Jane Buxton": 1,
+        "Koushun Takami": 1,
         "Kristina Horner": 1,
         "Kristoffer Pauly": 1,
         "Kristopher Triana": 1,
@@ -18010,7 +18009,6 @@
         "Sunyi Dean": 9,
         "T. Kingfisher": 96,
         "Tade Thompson": 1,
-        "Takami Koushun": 1,
         "Tamsyn Muir": 7,
         "Tananarive Due": 1,
         "Tanith Lee": 1,
@@ -23093,7 +23091,7 @@
         "Dawn /// Yoshiki Tanaka": 1,
         "Death's End /// Cixin Liu": 1,
         "Dragon Pearl /// Yoon Ha Lee": 1,
-        "Dusk Mountain Blues /// Deston J. Mundin": 1,
+        "Dusk Mountain Blues /// Deston J. Munden": 1,
         "Ebony Gate /// Julia Vee, Ken Bebelle": 2,
         "Elatsoe /// Darcie Little Badger": 3,
         "Emergency Skin /// N.K. Jemisin": 1,
@@ -23473,7 +23471,7 @@
         "David Ramirez": 1,
         "Deborah Falaye": 1,
         "Derek Lubangakene": 1,
-        "Deston J. Mundin": 1,
+        "Deston J. Munden": 1,
         "Deya Muniz": 1,
         "Diane Marie Brown": 1,
         "Dilman Dila": 1,
@@ -29273,7 +29271,7 @@
         "Master Assassins /// Robert V.S. Redick": 1,
         "Master and Apprentice /// Claudia Gray": 2,
         "Master of Poisons /// Andrea Hairston": 2,
-        "Master of Sorrows /// Justin T. Call": 1,
+        "Master of Sorrows /// Justin Call": 1,
         "Melinda West: Monster Gunslinger /// K.C. Grifant": 1,
         "Mindwalker /// Kate Dylan": 1,
         "Miss Percy's Travel Guide to Welsh Moors and Feral Dragons /// Quenby Olson": 1,
@@ -29741,8 +29739,8 @@
         "Jordie Bellaire": 1,
         "Josiah Bancroft": 6,
         "Julie Abe": 1,
+        "Justin Call": 1,
         "Justin Cronin": 3,
-        "Justin T. Call": 1,
         "Justin Woolley": 1,
         "K. Arsenault Rivera": 1,
         "K.A. Doore": 2,
@@ -31616,7 +31614,7 @@
     "Batman: White Knight /// Sean Murphy": 1,
     "Battle Ground /// Jim Butcher": 2,
     "Battle Mage /// Peter A. Flannery": 1,
-    "Battle Royale /// Takami Koushun": 1,
+    "Battle Royale /// Koushun Takami": 1,
     "Battle of the Linguist Mages /// Scotto Moore": 1,
     "Battlecry /// Emerald Dodge": 1,
     "Battletech Pride Anthology 2023 Queer Tales From the Inner Sphere /// Uncredited": 1,
@@ -32449,7 +32447,7 @@
     "Dungeon Crawler Carl /// Matt Dinniman": 5,
     "Dungeon Eternium /// Dakota Krout": 1,
     "Durarara!! /// Ryohgo Narita": 2,
-    "Dusk Mountain Blues /// Deston J. Mundin": 1,
+    "Dusk Mountain Blues /// Deston J. Munden": 1,
     "Dust /// Elizabeth Bear": 2,
     "Dust /// Hugh Howey": 1,
     "Dust of Dreams /// Steven Erikson": 1,
@@ -33757,7 +33755,7 @@
     "Master of Crows /// Grace Draven": 1,
     "Master of Fiends /// Douglas Hill": 1,
     "Master of Poisons /// Andrea Hairston": 2,
-    "Master of Sorrows /// Justin T. Call": 1,
+    "Master of Sorrows /// Justin Call": 1,
     "Master of the Revels /// Nicole Galland": 2,
     "Master of the Void /// Wend Raven": 1,
     "Masters of Death /// Olivie Blake": 2,
@@ -37102,7 +37100,7 @@
     "They Were Here Before Us /// Eric LaRocca": 1,
     "Thick as Thieves /// Megan Whalen Turner": 1,
     "Thief Liar Lady /// D.L. Soria": 1,
-    "Thieves' World /// Robert Lynn Asprin, Lynn Abbey": 2,
+    "Thieves' World /// Robert Asprin": 2,
     "Things Have Gotten Worse Since We Last Spoke and Other Misfortunes /// Eric LaRocca": 2,
     "Things They Lost /// Odour Okwiri": 1,
     "Things We Lost in the Fire /// Mariana Enríquez": 1,
@@ -38673,7 +38671,7 @@
     "Derek Lubangakene": 1,
     "Derin Edala": 1,
     "Desmond Doane": 1,
-    "Deston J. Mundin": 1,
+    "Deston J. Munden": 1,
     "Deva Fagan": 1,
     "Devaki Devay": 1,
     "Devin Grayson": 1,
@@ -39683,12 +39681,12 @@
     "Junji Ito": 3,
     "Juno Dawson": 4,
     "Justin A. Reynolds": 1,
+    "Justin Call": 1,
     "Justin Cronin": 5,
     "Justin Isis": 1,
     "Justin Lee Anderson": 3,
     "Justin Lemire": 1,
     "Justin Randall": 1,
-    "Justin T. Call": 1,
     "Justin Woolley": 1,
     "Justina Ireland": 7,
     "Justine Larbalestier": 1,
@@ -39904,6 +39902,7 @@
     "Kiyash Monsef": 1,
     "Kohei Horikoshi": 1,
     "Kouhei Kadono": 1,
+    "Koushun Takami": 1,
     "Koyoharu Gotouge": 2,
     "Krista D. Ball": 9,
     "Kristen Banet": 1,
@@ -40115,7 +40114,7 @@
     "Lydia Kwa": 1,
     "Lyndsie Manusos": 1,
     "Lynette Noni": 1,
-    "Lynn Abbey": 3,
+    "Lynn Abbey": 1,
     "Lynn Flewelling": 7,
     "Lynne M. Thomas": 1,
     "Lyra Selene": 2,
@@ -40905,6 +40904,7 @@
     "Rob Kutner": 1,
     "Rob Thurman": 1,
     "Robert A. Heinlein": 5,
+    "Robert Asprin": 2,
     "Robert Bose": 1,
     "Robert Charles Wilson": 1,
     "Robert E. Howard": 2,
@@ -40922,7 +40922,6 @@
     "Robert Kurvitz": 1,
     "Robert Lanza": 1,
     "Robert Louis Stevenson": 5,
-    "Robert Lynn Asprin": 2,
     "Robert N. Charrette": 2,
     "Robert R. Chase": 1,
     "Robert R. McCammon": 2,
@@ -41358,7 +41357,6 @@
     "Tade Thompson": 5,
     "Tae Keller": 1,
     "Tahereh Mafi": 6,
-    "Takami Koushun": 1,
     "Takuto Kashiki": 1,
     "Talia Clayton": 1,
     "Talia Rhea": 1,
@@ -41995,7 +41993,7 @@
     "377": 1,
     "378": 9,
     "379": 10,
-    "38": 3,
+    "38": 4,
     "380": 8,
     "381": 1,
     "382": 5,
@@ -42481,7 +42479,7 @@
     "826": 4,
     "827": 8,
     "828": 8,
-    "829": 6,
+    "829": 7,
     "83": 8,
     "830": 2,
     "831": 5,
@@ -42808,7 +42806,7 @@
     "Banished /// Michael Wisehart": 1,
     "Batman: The Long Halloween /// Jeph Loeb, Tim Sale": 1,
     "Battle Mage /// Peter A. Flannery": 1,
-    "Battle Royale /// Takami Koushun": 1,
+    "Battle Royale /// Koushun Takami": 1,
     "Battle of the Linguist Mages /// Scotto Moore": 3,
     "Batwoman /// J.H. Williams III, Greg Rucka": 1,
     "Be the Serpent /// Seanan McGuire": 1,
@@ -43085,6 +43083,7 @@
     "Dungeon Club: Roll Call /// Molly Knox Ostertag, Xanthe Bouma": 1,
     "Dungeon Crawler Carl /// Matt Dinniman": 5,
     "Durarara!! /// Ryohgo Narita": 2,
+    "Dusk Mountain Blues /// Deston J. Munden": 1,
     "Earthship /// John Triptych, Michel Lamontagne": 1,
     "Ebony Gate /// Julia Vee, Ken Bebelle": 4,
     "Elatsoe /// Darcie Little Badger": 3,
@@ -43552,7 +43551,7 @@
     "Mark of the Crijick /// ThinkTwice": 1,
     "Mark of the Fool /// J.M. Clarke": 7,
     "Master and Apprentice /// Claudia Gray": 1,
-    "Master of Sorrows /// Justin T. Call": 1,
+    "Master of Sorrows /// Justin Call": 1,
     "Master of the Revels /// Nicole Galland": 1,
     "Master of the Void /// Wend Raven": 1,
     "Mayhem in Montreal /// Auburn Tempest, Michael Anderle": 1,
@@ -44747,7 +44746,7 @@
     "They Mostly Come Out at Night /// Benedict Patrick": 1,
     "They Thirst /// Robert R. McCammon": 1,
     "Thief Liar Lady /// D.L. Soria": 2,
-    "Thieves' World /// Robert Lynn Asprin, Lynn Abbey": 2,
+    "Thieves' World /// Robert Asprin": 3,
     "Things Have Gotten Worse Since We Last Spoke and Other Misfortunes /// Eric LaRocca": 1,
     "Things They Lost /// Odour Okwiri": 1,
     "Things We Lost in the Fire /// Mariana Enríquez": 1,
@@ -47852,7 +47851,7 @@
     "Derek Lubangakene": 1,
     "Derin Edala": 1,
     "Desmond Doane": 1,
-    "Deston J. Mundin": 1,
+    "Deston J. Munden": 1,
     "Deva Fagan": 1,
     "Devaki Devay": 1,
     "Devin Grayson": 1,
@@ -48862,12 +48861,12 @@
     "Junji Ito": 7,
     "Juno Dawson": 2,
     "Justin A. Reynolds": 1,
+    "Justin Call": 1,
     "Justin Cronin": 2,
     "Justin Isis": 1,
     "Justin Lee Anderson": 2,
     "Justin Lemire": 1,
     "Justin Randall": 1,
-    "Justin T. Call": 1,
     "Justin Woolley": 1,
     "Justina Ireland": 6,
     "Justine Larbalestier": 1,
@@ -49083,6 +49082,7 @@
     "Kiyash Monsef": 1,
     "Kohei Horikoshi": 1,
     "Kouhei Kadono": 1,
+    "Koushun Takami": 1,
     "Koyoharu Gotouge": 1,
     "Krista D. Ball": 11,
     "Kristen Banet": 1,
@@ -49294,7 +49294,7 @@
     "Lydia Kwa": 1,
     "Lyndsie Manusos": 1,
     "Lynette Noni": 1,
-    "Lynn Abbey": 2,
+    "Lynn Abbey": 1,
     "Lynn Flewelling": 7,
     "Lynne M. Thomas": 1,
     "Lyra Selene": 1,
@@ -50084,6 +50084,7 @@
     "Rob Kutner": 1,
     "Rob Thurman": 1,
     "Robert A. Heinlein": 4,
+    "Robert Asprin": 1,
     "Robert Bose": 1,
     "Robert Charles Wilson": 1,
     "Robert E. Howard": 2,
@@ -50101,7 +50102,6 @@
     "Robert Kurvitz": 1,
     "Robert Lanza": 1,
     "Robert Louis Stevenson": 1,
-    "Robert Lynn Asprin": 1,
     "Robert N. Charrette": 2,
     "Robert R. Chase": 1,
     "Robert R. McCammon": 3,
@@ -50537,7 +50537,6 @@
     "Tade Thompson": 5,
     "Tae Keller": 1,
     "Tahereh Mafi": 4,
-    "Takami Koushun": 1,
     "Takuto Kashiki": 1,
     "Talia Clayton": 1,
     "Talia Rhea": 1,
@@ -50871,24 +50870,40 @@
   },
   "overall_author_stats": {
     "gender_count": {
-      "Unknown": 23667
+      "Man": 7555,
+      "Nonbinary": 693,
+      "Unknown": 5838,
+      "Woman": 9578
     },
-    "ethnicity_count": {},
+    "ethnicity_count": {
+      "Arabic": 1,
+      "Asian": 2392,
+      "Black": 1039,
+      "Hispanic": 387,
+      "Native": 120,
+      "Unknown": 5761,
+      "White": 13964
+    },
     "queer_count": {
-      "None": 23667
+      "None": 5806
     },
     "nationality_count": {
-      "Unknown": 23667
+      "Australia": 29,
+      "United Arab Emirates": 1,
+      "United States": 17,
+      "Unknown": 23617
     }
   },
   "square_author_stats": {
     "\"Standalone\" square": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -50896,11 +50911,13 @@
     },
     "\"Weird Ecologies\" from 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -50910,7 +50927,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -50920,11 +50939,13 @@
     },
     "2017 Dystopia": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -50934,7 +50955,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -50944,11 +50967,13 @@
     },
     "2021 - First Person POV": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Hispanic": 1
+      },
       "queer_count": {
-        "None": 1
+        "true": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -50956,11 +50981,13 @@
     },
     "2021 New to You Author": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -50968,11 +50995,13 @@
     },
     "2021: New to you Author": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -50980,11 +51009,13 @@
     },
     "2022 Revolutions and Rebellions": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -50992,11 +51023,13 @@
     },
     "2022 SET IN SPACE": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51004,11 +51037,13 @@
     },
     "2022 Urban Fantasy Square": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51016,11 +51051,13 @@
     },
     "2022 Weird Ecology (book takes place in a city entirely made of trees)": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51028,11 +51065,13 @@
     },
     "A Book from r/Fantasy's Top LGBTQIA List with 10 votes or less 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51042,7 +51081,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -51052,11 +51093,13 @@
     },
     "A Novel From r/Fantasy's Official Underated and Under-read List 2015": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51064,11 +51107,13 @@
     },
     "A novel published before you were born, 2018": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Black": 1
+      },
       "queer_count": {
-        "None": 1
+        "true": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51078,7 +51123,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -51088,11 +51135,21 @@
     },
     "Angels and Demons": {
       "gender_count": {
-        "Unknown": 989
+        "Man": 376,
+        "Nonbinary": 21,
+        "Unknown": 212,
+        "Woman": 380
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 42,
+        "Black": 28,
+        "Hispanic": 5,
+        "Native": 8,
+        "Unknown": 211,
+        "White": 695
+      },
       "queer_count": {
-        "None": 989
+        "None": 211
       },
       "nationality_count": {
         "Unknown": 989
@@ -51100,11 +51157,13 @@
     },
     "Anti-Hero 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51114,7 +51173,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -51124,11 +51185,13 @@
     },
     "Author Uses Initials": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51136,11 +51199,13 @@
     },
     "Author Uses Initials 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51148,11 +51213,13 @@
     },
     "Author Using Initials 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51162,7 +51229,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -51172,11 +51241,13 @@
     },
     "Author uses initials 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Nonbinary": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "true": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51184,11 +51255,13 @@
     },
     "Award Finalist": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51196,11 +51269,13 @@
     },
     "Award Finalist, But Not Won": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51208,11 +51283,13 @@
     },
     "Award-Winning Novel 2015": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51220,11 +51297,13 @@
     },
     "Backlist Book 2021": {
       "gender_count": {
-        "Unknown": 2
+        "Woman": 2
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 2
+      },
       "queer_count": {
-        "None": 2
+        "false": 2
       },
       "nationality_count": {
         "Unknown": 2
@@ -51232,21 +51311,34 @@
     },
     "Book Club or Readalong Book": {
       "gender_count": {
-        "Unknown": 890
+        "Man": 295,
+        "Nonbinary": 33,
+        "Unknown": 176,
+        "Woman": 386
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 80,
+        "Black": 29,
+        "Hispanic": 10,
+        "Native": 2,
+        "Unknown": 176,
+        "White": 593
+      },
       "queer_count": {
-        "None": 890
+        "None": 179
       },
       "nationality_count": {
-        "Unknown": 890
+        "Australia": 3,
+        "Unknown": 887
       }
     },
     "Books about Books 2020": {
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -51256,23 +51348,37 @@
     },
     "Bottom of the TBR": {
       "gender_count": {
-        "Unknown": 909
+        "Man": 458,
+        "Nonbinary": 11,
+        "Unknown": 136,
+        "Woman": 303
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 40,
+        "Black": 27,
+        "Hispanic": 13,
+        "Native": 4,
+        "Unknown": 136,
+        "White": 688
+      },
       "queer_count": {
-        "None": 909
+        "None": 139
       },
       "nationality_count": {
-        "Unknown": 909
+        "Australia": 2,
+        "United States": 1,
+        "Unknown": 905
       }
     },
     "Canadian Author, 2020": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51280,11 +51386,13 @@
     },
     "Cat Squasher (500+ pages) 2021": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51292,11 +51400,13 @@
     },
     "Cat Squasher - 2021": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51304,11 +51414,15 @@
     },
     "Cat Squasher 2021": {
       "gender_count": {
-        "Unknown": 4
+        "Unknown": 2,
+        "Woman": 2
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 2,
+        "White": 2
+      },
       "queer_count": {
-        "None": 4
+        "None": 2
       },
       "nationality_count": {
         "Unknown": 4
@@ -51316,11 +51430,13 @@
     },
     "Cat Squasher: 500+ Pages (2021)": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51330,7 +51446,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -51340,11 +51458,13 @@
     },
     "Climate Fiction 2020": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51352,23 +51472,36 @@
     },
     "Coastal Setting": {
       "gender_count": {
-        "Unknown": 925
+        "Man": 337,
+        "Nonbinary": 15,
+        "Unknown": 160,
+        "Woman": 413
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 86,
+        "Black": 15,
+        "Hispanic": 1,
+        "Native": 8,
+        "Unknown": 160,
+        "White": 655
+      },
       "queer_count": {
-        "None": 925
+        "None": 163
       },
       "nationality_count": {
-        "Unknown": 925
+        "Australia": 3,
+        "Unknown": 922
       }
     },
     "Color Title (2020)": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51376,11 +51509,14 @@
     },
     "Comfort Read 2021": {
       "gender_count": {
-        "Unknown": 3
+        "Man": 2,
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 3
+      },
       "queer_count": {
-        "None": 3
+        "false": 3
       },
       "nationality_count": {
         "Unknown": 3
@@ -51388,11 +51524,14 @@
     },
     "Cool Weapon 2022": {
       "gender_count": {
-        "Unknown": 3
+        "Man": 3
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Black": 1,
+        "White": 2
+      },
       "queer_count": {
-        "None": 3
+        "false": 3
       },
       "nationality_count": {
         "Unknown": 3
@@ -51400,11 +51539,13 @@
     },
     "Cool weapon 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51412,11 +51553,13 @@
     },
     "Disability 2019": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51424,11 +51567,13 @@
     },
     "Doorstop/Cat Squasher 2021": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51436,11 +51581,21 @@
     },
     "Druid": {
       "gender_count": {
-        "Unknown": 859
+        "Man": 187,
+        "Nonbinary": 6,
+        "Unknown": 237,
+        "Woman": 429
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 63,
+        "Black": 25,
+        "Hispanic": 7,
+        "Native": 1,
+        "Unknown": 233,
+        "White": 530
+      },
       "queer_count": {
-        "None": 859
+        "None": 233
       },
       "nationality_count": {
         "Unknown": 859
@@ -51448,11 +51603,13 @@
     },
     "Dying Earth 2017": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51460,11 +51617,20 @@
     },
     "Elemental Magic": {
       "gender_count": {
-        "Unknown": 926
+        "Man": 206,
+        "Nonbinary": 13,
+        "Unknown": 266,
+        "Woman": 441
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 182,
+        "Black": 43,
+        "Hispanic": 13,
+        "Unknown": 265,
+        "White": 423
+      },
       "queer_count": {
-        "None": 926
+        "None": 265
       },
       "nationality_count": {
         "Unknown": 926
@@ -51474,7 +51640,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -51484,11 +51652,13 @@
     },
     "Family Matters 2022 (hard mode)": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51498,7 +51668,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -51508,11 +51680,13 @@
     },
     "Fantasy of Manner 2017": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51520,11 +51694,13 @@
     },
     "Fantasy of Manners 2017": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "true": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51532,11 +51708,13 @@
     },
     "Features Mental Health 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Black": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51544,23 +51722,35 @@
     },
     "Features Robots": {
       "gender_count": {
-        "Unknown": 904
+        "Man": 306,
+        "Nonbinary": 35,
+        "Unknown": 122,
+        "Woman": 441
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 54,
+        "Black": 8,
+        "Hispanic": 9,
+        "Unknown": 122,
+        "White": 711
+      },
       "queer_count": {
-        "None": 904
+        "None": 128
       },
       "nationality_count": {
-        "Unknown": 904
+        "United States": 6,
+        "Unknown": 898
       }
     },
     "Featuring a Ghost 2020": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51570,7 +51760,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -51580,11 +51772,13 @@
     },
     "First Contact 2021": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51592,11 +51786,13 @@
     },
     "First Person POV - 2021": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51604,11 +51800,13 @@
     },
     "First Person POV 2021": {
       "gender_count": {
-        "Unknown": 2
+        "Woman": 2
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 2
+      },
       "queer_count": {
-        "None": 2
+        "false": 2
       },
       "nationality_count": {
         "Unknown": 2
@@ -51616,23 +51814,36 @@
     },
     "Five Short Stories": {
       "gender_count": {
-        "Unknown": 1229
+        "Man": 374,
+        "Nonbinary": 14,
+        "Unknown": 497,
+        "Woman": 342
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 152,
+        "Black": 64,
+        "Hispanic": 22,
+        "Native": 10,
+        "Unknown": 481,
+        "White": 498
+      },
       "queer_count": {
-        "None": 1229
+        "None": 482
       },
       "nationality_count": {
-        "Unknown": 1229
+        "Australia": 1,
+        "Unknown": 1226
       }
     },
     "Forest Setting": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51642,7 +51853,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -51652,11 +51865,13 @@
     },
     "Forest Setting 2021": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51664,11 +51879,13 @@
     },
     "Format Graphic Novel or Audiobook 2017": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51676,11 +51893,15 @@
     },
     "Format: Graphic Novel (at least 1 vol.) OR Audiobook / Audio drama 2020": {
       "gender_count": {
-        "Unknown": 2
+        "Man": 1,
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 1,
+        "White": 1
+      },
       "queer_count": {
-        "None": 2
+        "false": 2
       },
       "nationality_count": {
         "Unknown": 2
@@ -51688,11 +51909,13 @@
     },
     "Found Family 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51700,11 +51923,13 @@
     },
     "From /r/fantasy Women in Fantasy list 2015": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51714,7 +51939,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -51724,11 +51951,16 @@
     },
     "Genre Mashup 2021": {
       "gender_count": {
-        "Unknown": 6
+        "Nonbinary": 1,
+        "Unknown": 4,
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 4,
+        "White": 2
+      },
       "queer_count": {
-        "None": 6
+        "None": 4
       },
       "nationality_count": {
         "Unknown": 6
@@ -51736,11 +51968,13 @@
     },
     "Gothic 2021": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51748,11 +51982,13 @@
     },
     "Gothic Fantasy": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "true": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51760,11 +51996,13 @@
     },
     "Gothic Fantasy 2021": {
       "gender_count": {
-        "Unknown": 2
+        "Woman": 2
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 2
+      },
       "queer_count": {
-        "None": 2
+        "false": 2
       },
       "nationality_count": {
         "Unknown": 2
@@ -51772,11 +52010,13 @@
     },
     "Graphic Novel (at least 1 vol.) OR Audiobook / Audio drama 2020": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51786,7 +52026,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -51796,11 +52038,15 @@
     },
     "Graphic Novel 2019": {
       "gender_count": {
-        "Unknown": 2
+        "Man": 1,
+        "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1,
+        "White": 1
+      },
       "queer_count": {
-        "None": 2
+        "None": 1
       },
       "nationality_count": {
         "Unknown": 2
@@ -51810,7 +52056,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -51822,7 +52070,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -51832,11 +52082,17 @@
     },
     "Historical SFF 2022": {
       "gender_count": {
-        "Unknown": 13
+        "Man": 1,
+        "Unknown": 2,
+        "Woman": 10
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 3,
+        "Unknown": 2,
+        "White": 8
+      },
       "queer_count": {
-        "None": 13
+        "None": 2
       },
       "nationality_count": {
         "Unknown": 13
@@ -51844,11 +52100,13 @@
     },
     "Historical SFF, 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51856,11 +52114,13 @@
     },
     "Hopeful Fiction 2018": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "true": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51868,23 +52128,36 @@
     },
     "Horror": {
       "gender_count": {
-        "Unknown": 920
+        "Man": 345,
+        "Nonbinary": 26,
+        "Unknown": 214,
+        "Woman": 335
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 35,
+        "Black": 48,
+        "Hispanic": 36,
+        "Native": 10,
+        "Unknown": 214,
+        "White": 577
+      },
       "queer_count": {
-        "None": 920
+        "None": 218
       },
       "nationality_count": {
-        "Unknown": 920
+        "United States": 4,
+        "Unknown": 916
       }
     },
     "LGBTQIA LIST 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "true": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51892,11 +52165,13 @@
     },
     "LGBTQIA List Book 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51904,11 +52179,13 @@
     },
     "Lion Squasher 2021": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51916,11 +52193,15 @@
     },
     "LitRPG 2019": {
       "gender_count": {
-        "Unknown": 2
+        "Man": 1,
+        "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1,
+        "White": 1
+      },
       "queer_count": {
-        "None": 2
+        "None": 1
       },
       "nationality_count": {
         "Unknown": 2
@@ -51928,11 +52209,13 @@
     },
     "LitRPG, 2019": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51940,11 +52223,13 @@
     },
     "Made You Laugh 2020": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51952,11 +52237,13 @@
     },
     "Magical Pet 2020": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51964,11 +52251,21 @@
     },
     "Magical Realism": {
       "gender_count": {
-        "Unknown": 899
+        "Man": 237,
+        "Nonbinary": 17,
+        "Unknown": 262,
+        "Woman": 383
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 169,
+        "Black": 37,
+        "Hispanic": 58,
+        "Native": 7,
+        "Unknown": 262,
+        "White": 366
+      },
       "queer_count": {
-        "None": 899
+        "None": 262
       },
       "nationality_count": {
         "Unknown": 899
@@ -51976,11 +52273,13 @@
     },
     "Media Tie In 2019": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -51988,11 +52287,13 @@
     },
     "Media Tie-In 2019": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52000,11 +52301,13 @@
     },
     "Military Fantasy 2016": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52014,7 +52317,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -52024,11 +52329,15 @@
     },
     "Multiple Authors 2022": {
       "gender_count": {
-        "Unknown": 2
+        "Man": 1,
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 1,
+        "White": 1
+      },
       "queer_count": {
-        "None": 2
+        "false": 2
       },
       "nationality_count": {
         "Unknown": 2
@@ -52036,11 +52345,21 @@
     },
     "Multiverses": {
       "gender_count": {
-        "Unknown": 948
+        "Man": 440,
+        "Nonbinary": 16,
+        "Unknown": 155,
+        "Woman": 337
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 74,
+        "Black": 9,
+        "Hispanic": 55,
+        "Native": 1,
+        "Unknown": 152,
+        "White": 657
+      },
       "queer_count": {
-        "None": 948
+        "None": 152
       },
       "nationality_count": {
         "Unknown": 948
@@ -52048,23 +52367,36 @@
     },
     "Mundane Jobs": {
       "gender_count": {
-        "Unknown": 926
+        "Man": 443,
+        "Nonbinary": 23,
+        "Unknown": 192,
+        "Woman": 268
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 35,
+        "Black": 13,
+        "Hispanic": 4,
+        "Native": 3,
+        "Unknown": 188,
+        "White": 683
+      },
       "queer_count": {
-        "None": 926
+        "None": 192
       },
       "nationality_count": {
-        "Unknown": 926
+        "Australia": 4,
+        "Unknown": 922
       }
     },
     "Mystery Plot": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52072,11 +52404,17 @@
     },
     "Mystery Plot 2021": {
       "gender_count": {
-        "Unknown": 16
+        "Man": 6,
+        "Unknown": 6,
+        "Woman": 4
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Native": 1,
+        "Unknown": 6,
+        "White": 9
+      },
       "queer_count": {
-        "None": 16
+        "None": 6
       },
       "nationality_count": {
         "Unknown": 16
@@ -52084,23 +52422,44 @@
     },
     "Mythical Beasts": {
       "gender_count": {
-        "Unknown": 921
+        "Man": 280,
+        "Nonbinary": 24,
+        "Unknown": 219,
+        "Woman": 398
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 120,
+        "Black": 20,
+        "Hispanic": 7,
+        "Native": 6,
+        "Unknown": 204,
+        "White": 564
+      },
       "queer_count": {
-        "None": 921
+        "None": 218
       },
       "nationality_count": {
-        "Unknown": 921
+        "Australia": 15,
+        "Unknown": 906
       }
     },
     "Myths and Retellings": {
       "gender_count": {
-        "Unknown": 929
+        "Man": 134,
+        "Nonbinary": 25,
+        "Unknown": 226,
+        "Woman": 544
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 93,
+        "Black": 18,
+        "Hispanic": 13,
+        "Native": 3,
+        "Unknown": 224,
+        "White": 578
+      },
       "queer_count": {
-        "None": 929
+        "None": 224
       },
       "nationality_count": {
         "Unknown": 929
@@ -52108,11 +52467,13 @@
     },
     "Name in Title, 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52120,11 +52481,13 @@
     },
     "Name in the Title": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52132,11 +52495,15 @@
     },
     "Name in the Title 2022": {
       "gender_count": {
-        "Unknown": 4
+        "Unknown": 3,
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 3,
+        "White": 1
+      },
       "queer_count": {
-        "None": 4
+        "None": 3
       },
       "nationality_count": {
         "Unknown": 4
@@ -52144,11 +52511,13 @@
     },
     "New To You": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52156,11 +52525,13 @@
     },
     "New To You Author 2021": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52168,11 +52539,13 @@
     },
     "New to You 2021": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52180,11 +52553,15 @@
     },
     "New to You Author 2021": {
       "gender_count": {
-        "Unknown": 5
+        "Man": 3,
+        "Woman": 2
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 2,
+        "White": 3
+      },
       "queer_count": {
-        "None": 5
+        "false": 5
       },
       "nationality_count": {
         "Unknown": 5
@@ -52194,7 +52571,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -52204,11 +52583,13 @@
     },
     "New to me Author": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52216,11 +52597,13 @@
     },
     "New to you author 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52228,11 +52611,13 @@
     },
     "New-to-me Author": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52240,11 +52625,13 @@
     },
     "No If Ands or Buts - 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Native": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52252,11 +52639,13 @@
     },
     "No Ifs Ands or Buts 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52266,7 +52655,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -52276,11 +52667,13 @@
     },
     "No Ifs, And or Buts 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52288,11 +52681,13 @@
     },
     "No Ifs, Ands, or Buts (2022)": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52300,11 +52695,13 @@
     },
     "No Ifs, Ands, or Buts - 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52312,11 +52709,15 @@
     },
     "No Ifs, Ands, or Buts 2022": {
       "gender_count": {
-        "Unknown": 6
+        "Man": 3,
+        "Unknown": 3
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 3,
+        "White": 3
+      },
       "queer_count": {
-        "None": 6
+        "None": 3
       },
       "nationality_count": {
         "Unknown": 6
@@ -52324,11 +52725,13 @@
     },
     "No ifs ands or buts 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52336,11 +52739,13 @@
     },
     "No ifs, ands or buts 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52348,11 +52753,13 @@
     },
     "Non Human Protagonist 2023": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52360,11 +52767,13 @@
     },
     "Non human protagonist, 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "true": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52374,7 +52783,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -52386,7 +52797,9 @@
       "gender_count": {
         "Unknown": 3
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 3
+      },
       "queer_count": {
         "None": 3
       },
@@ -52396,11 +52809,15 @@
     },
     "Non-Human Protagonist": {
       "gender_count": {
-        "Unknown": 2
+        "Unknown": 1,
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 1,
+        "Unknown": 1
+      },
       "queer_count": {
-        "None": 2
+        "None": 1
       },
       "nationality_count": {
         "Unknown": 2
@@ -52408,11 +52825,13 @@
     },
     "Non-Human Protagonist - 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "true": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52420,11 +52839,15 @@
     },
     "Non-Human Protagonist 2022": {
       "gender_count": {
-        "Unknown": 4
+        "Man": 3,
+        "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1,
+        "White": 3
+      },
       "queer_count": {
-        "None": 4
+        "None": 1
       },
       "nationality_count": {
         "Unknown": 4
@@ -52432,11 +52855,13 @@
     },
     "Non-Human Protagonist 2023": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "true": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52446,7 +52871,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -52458,7 +52885,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -52468,11 +52897,13 @@
     },
     "Novel Adapted to Screen 2018": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52480,11 +52911,13 @@
     },
     "Novel Adapted to Stage, Screen, or Game 2018": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52492,11 +52925,13 @@
     },
     "Novel Featuring Exploration 2020": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52504,11 +52939,13 @@
     },
     "Novel Featuring Necromancy 2020": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52516,11 +52953,13 @@
     },
     "Novel Featuring a God as a Character, 2018": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 1
+      },
       "queer_count": {
-        "None": 1
+        "true": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52528,11 +52967,15 @@
     },
     "Novel Featuring a Library 2018": {
       "gender_count": {
-        "Unknown": 2
+        "Man": 1,
+        "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1,
+        "White": 1
+      },
       "queer_count": {
-        "None": 2
+        "None": 1
       },
       "nationality_count": {
         "Unknown": 2
@@ -52540,11 +52983,13 @@
     },
     "Novel Featuring an AI Character 2019": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52552,11 +52997,13 @@
     },
     "Novel Set at School or University 2020": {
       "gender_count": {
-        "Unknown": 2
+        "Woman": 2
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 2
+      },
       "queer_count": {
-        "None": 2
+        "false": 2
       },
       "nationality_count": {
         "Unknown": 2
@@ -52564,11 +53011,13 @@
     },
     "Novel Translated from its Original Language 2020": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Hispanic": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52578,7 +53027,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -52590,7 +53041,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -52600,11 +53053,13 @@
     },
     "Novel by an Author Writing Under a Pseudonym (2018)": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52614,7 +53069,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -52624,11 +53081,13 @@
     },
     "Novel translated from its Original Language 2020": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52636,11 +53095,13 @@
     },
     "Novel with Chapter Epigraphs 2020": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52648,11 +53109,13 @@
     },
     "Novel with a One Word Title 2018": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52660,11 +53123,21 @@
     },
     "Novella": {
       "gender_count": {
-        "Unknown": 945
+        "Man": 270,
+        "Nonbinary": 63,
+        "Unknown": 171,
+        "Woman": 441
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 154,
+        "Black": 52,
+        "Hispanic": 7,
+        "Native": 5,
+        "Unknown": 164,
+        "White": 563
+      },
       "queer_count": {
-        "None": 945
+        "None": 164
       },
       "nationality_count": {
         "Unknown": 945
@@ -52672,11 +53145,21 @@
     },
     "POC Author": {
       "gender_count": {
-        "Unknown": 945
+        "Man": 202,
+        "Nonbinary": 90,
+        "Unknown": 213,
+        "Woman": 440
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 308,
+        "Black": 344,
+        "Hispanic": 39,
+        "Native": 16,
+        "Unknown": 213,
+        "White": 25
+      },
       "queer_count": {
-        "None": 945
+        "None": 213
       },
       "nationality_count": {
         "Unknown": 945
@@ -52686,7 +53169,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -52696,11 +53181,13 @@
     },
     "Protagonist Flies 2016": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52710,7 +53197,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -52720,11 +53209,13 @@
     },
     "Published Before 2000 2015": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52732,11 +53223,13 @@
     },
     "Published Before You Were Born 2018": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52746,7 +53239,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -52756,11 +53251,13 @@
     },
     "Published before the year 2000, 2015": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52768,11 +53265,13 @@
     },
     "Published in 2020, Bingo 2020": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52780,11 +53279,13 @@
     },
     "Published in 2022 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52792,11 +53293,20 @@
     },
     "Published in 2023": {
       "gender_count": {
-        "Unknown": 919
+        "Man": 244,
+        "Nonbinary": 13,
+        "Unknown": 484,
+        "Woman": 178
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 37,
+        "Black": 19,
+        "Hispanic": 5,
+        "Unknown": 482,
+        "White": 376
+      },
       "queer_count": {
-        "None": 919
+        "None": 482
       },
       "nationality_count": {
         "Unknown": 919
@@ -52804,35 +53314,58 @@
     },
     "Published in the 2000s": {
       "gender_count": {
-        "Unknown": 914
+        "Man": 401,
+        "Unknown": 165,
+        "Woman": 348
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 31,
+        "Black": 14,
+        "Hispanic": 6,
+        "Native": 2,
+        "Unknown": 158,
+        "White": 703
+      },
       "queer_count": {
-        "None": 914
+        "None": 161
       },
       "nationality_count": {
-        "Unknown": 914
+        "United States": 3,
+        "Unknown": 911
       }
     },
     "Queernorm Setting": {
       "gender_count": {
-        "Unknown": 906
+        "Man": 214,
+        "Nonbinary": 99,
+        "Unknown": 144,
+        "Woman": 449
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 72,
+        "Black": 14,
+        "Hispanic": 8,
+        "Native": 8,
+        "Unknown": 144,
+        "White": 660
+      },
       "queer_count": {
-        "None": 906
+        "None": 145
       },
       "nationality_count": {
-        "Unknown": 906
+        "Australia": 1,
+        "Unknown": 905
       }
     },
     "Revenge 2021": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52840,11 +53373,13 @@
     },
     "Revenge Seeking Character 2021": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52852,11 +53387,13 @@
     },
     "Revenge-Seeking Character 2021 (Hard Mode)": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52864,11 +53401,13 @@
     },
     "Revenge-seeking character 2021": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52878,7 +53417,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -52888,11 +53429,18 @@
     },
     "Revolutions and Rebellions 2022": {
       "gender_count": {
-        "Unknown": 6
+        "Man": 3,
+        "Nonbinary": 1,
+        "Woman": 2
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 3,
+        "Black": 1,
+        "White": 2
+      },
       "queer_count": {
-        "None": 6
+        "false": 5,
+        "true": 1
       },
       "nationality_count": {
         "Unknown": 6
@@ -52900,11 +53448,13 @@
     },
     "Romantic Fantasy 2016": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52914,7 +53464,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -52924,11 +53476,13 @@
     },
     "SFF Novel Featuring Twins 2019": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52936,11 +53490,13 @@
     },
     "SFF Novel Featuring an Ocean Setting 2019": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52948,11 +53504,13 @@
     },
     "SFF Novel with 4 or more words in the title 2019": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52960,11 +53518,13 @@
     },
     "SFF That Has a Title of 4 or More Words 2019": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52972,11 +53532,13 @@
     },
     "SFF novel that has a title of four or more words 2019": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "true": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -52984,11 +53546,15 @@
     },
     "SFF-Related Nonfiction 2021": {
       "gender_count": {
-        "Unknown": 2
+        "Unknown": 1,
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1,
+        "White": 1
+      },
       "queer_count": {
-        "None": 2
+        "None": 1
       },
       "nationality_count": {
         "Unknown": 2
@@ -52998,7 +53564,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -53010,7 +53578,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -53020,11 +53590,21 @@
     },
     "Self Published or Indie Publisher": {
       "gender_count": {
-        "Unknown": 924
+        "Man": 241,
+        "Nonbinary": 21,
+        "Unknown": 427,
+        "Woman": 235
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 61,
+        "Black": 12,
+        "Hispanic": 2,
+        "Native": 1,
+        "Unknown": 422,
+        "White": 426
+      },
       "queer_count": {
-        "None": 924
+        "None": 422
       },
       "nationality_count": {
         "Unknown": 924
@@ -53032,21 +53612,34 @@
     },
     "Sequel": {
       "gender_count": {
-        "Unknown": 936
+        "Man": 448,
+        "Nonbinary": 20,
+        "Unknown": 95,
+        "Woman": 373
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 56,
+        "Black": 12,
+        "Hispanic": 11,
+        "Native": 6,
+        "Unknown": 89,
+        "White": 762
+      },
       "queer_count": {
-        "None": 936
+        "None": 90
       },
       "nationality_count": {
-        "Unknown": 936
+        "United States": 1,
+        "Unknown": 935
       }
     },
     "Set In Asia (2021)": {
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -53056,11 +53649,13 @@
     },
     "Set in Africa 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Black": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -53068,11 +53663,15 @@
     },
     "Set in Asia 2021": {
       "gender_count": {
-        "Unknown": 3
+        "Unknown": 2,
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 1,
+        "Unknown": 2
+      },
       "queer_count": {
-        "None": 3
+        "None": 2
       },
       "nationality_count": {
         "Unknown": 3
@@ -53080,11 +53679,13 @@
     },
     "Set in Asia, Author is of Asian heritage": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 1
+      },
       "queer_count": {
-        "None": 1
+        "true": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -53092,23 +53693,31 @@
     },
     "Set in Space 2022": {
       "gender_count": {
-        "Unknown": 12
+        "Man": 5,
+        "Unknown": 1,
+        "Woman": 6
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1,
+        "White": 11
+      },
       "queer_count": {
-        "None": 12
+        "None": 2
       },
       "nationality_count": {
-        "Unknown": 12
+        "United States": 1,
+        "Unknown": 11
       }
     },
     "Set in a School or University, 2020": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -53116,11 +53725,13 @@
     },
     "Set in space 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -53128,21 +53739,34 @@
     },
     "Set in the Middle East": {
       "gender_count": {
-        "Unknown": 891
+        "Man": 221,
+        "Nonbinary": 22,
+        "Unknown": 273,
+        "Woman": 375
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Arabic": 1,
+        "Asian": 280,
+        "Black": 74,
+        "Hispanic": 4,
+        "Unknown": 272,
+        "White": 260
+      },
       "queer_count": {
-        "None": 891
+        "None": 273
       },
       "nationality_count": {
-        "Unknown": 891
+        "United Arab Emirates": 1,
+        "Unknown": 890
       }
     },
     "Shape-shifters 2022": {
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -53152,11 +53776,13 @@
     },
     "Shapeshifter 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -53164,11 +53790,13 @@
     },
     "Shapeshifters 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -53176,11 +53804,13 @@
     },
     "Shapeshifters, 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -53188,11 +53818,13 @@
     },
     "Space Opera 2018": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -53200,11 +53832,13 @@
     },
     "Stand Alone 2018": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -53212,11 +53846,13 @@
     },
     "Standalone (2022)": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -53224,11 +53860,16 @@
     },
     "Standalone 2022": {
       "gender_count": {
-        "Unknown": 12
+        "Man": 3,
+        "Unknown": 5,
+        "Woman": 4
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 5,
+        "White": 7
+      },
       "queer_count": {
-        "None": 12
+        "None": 5
       },
       "nationality_count": {
         "Unknown": 12
@@ -53238,7 +53879,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -53248,11 +53891,13 @@
     },
     "Steampunk, 2017": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -53260,11 +53905,21 @@
     },
     "Superheroes": {
       "gender_count": {
-        "Unknown": 948
+        "Man": 259,
+        "Nonbinary": 22,
+        "Unknown": 309,
+        "Woman": 358
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 30,
+        "Black": 30,
+        "Hispanic": 4,
+        "Native": 2,
+        "Unknown": 307,
+        "White": 575
+      },
       "queer_count": {
-        "None": 948
+        "None": 307
       },
       "nationality_count": {
         "Unknown": 948
@@ -53272,11 +53927,21 @@
     },
     "Title with a Title": {
       "gender_count": {
-        "Unknown": 924
+        "Man": 347,
+        "Nonbinary": 12,
+        "Unknown": 172,
+        "Woman": 393
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 60,
+        "Black": 37,
+        "Hispanic": 19,
+        "Native": 2,
+        "Unknown": 172,
+        "White": 634
+      },
       "queer_count": {
-        "None": 924
+        "None": 172
       },
       "nationality_count": {
         "Unknown": 924
@@ -53286,7 +53951,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -53296,11 +53963,13 @@
     },
     "Title: __ of __ and __": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -53308,11 +53977,13 @@
     },
     "Title: ____ of ____ 2021": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -53320,11 +53991,13 @@
     },
     "Trans or NB Character 2021": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -53332,11 +54005,15 @@
     },
     "Trans or Nonbinary Character 2021": {
       "gender_count": {
-        "Unknown": 2
+        "Unknown": 1,
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1,
+        "White": 1
+      },
       "queer_count": {
-        "None": 2
+        "None": 1
       },
       "nationality_count": {
         "Unknown": 2
@@ -53344,11 +54021,16 @@
     },
     "Two or More Authors": {
       "gender_count": {
-        "Unknown": 2
+        "Man": 1,
+        "Nonbinary": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 1,
+        "White": 1
+      },
       "queer_count": {
-        "None": 2
+        "false": 1,
+        "true": 1
       },
       "nationality_count": {
         "Unknown": 2
@@ -53356,11 +54038,15 @@
     },
     "Two or More Authors 2022": {
       "gender_count": {
-        "Unknown": 3
+        "Nonbinary": 1,
+        "Unknown": 2
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 2,
+        "White": 1
+      },
       "queer_count": {
-        "None": 3
+        "None": 2
       },
       "nationality_count": {
         "Unknown": 3
@@ -53368,11 +54054,15 @@
     },
     "Two or more authors - 2022": {
       "gender_count": {
-        "Unknown": 2
+        "Nonbinary": 1,
+        "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1,
+        "White": 1
+      },
       "queer_count": {
-        "None": 2
+        "None": 1
       },
       "nationality_count": {
         "Unknown": 2
@@ -53380,11 +54070,14 @@
     },
     "Urban Fantasy": {
       "gender_count": {
-        "Unknown": 2
+        "Man": 1,
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 2
+      },
       "queer_count": {
-        "None": 2
+        "false": 2
       },
       "nationality_count": {
         "Unknown": 2
@@ -53392,11 +54085,13 @@
     },
     "Urban Fantasy - 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -53404,11 +54099,16 @@
     },
     "Urban Fantasy 2022": {
       "gender_count": {
-        "Unknown": 7
+        "Unknown": 3,
+        "Woman": 4
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 1,
+        "Unknown": 2,
+        "White": 4
+      },
       "queer_count": {
-        "None": 7
+        "None": 2
       },
       "nationality_count": {
         "Unknown": 7
@@ -53416,11 +54116,13 @@
     },
     "VAMPIRES - FROM 2019 (HARD MODE - VAMPIRE IS A MAIN CHARACTER)": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -53430,7 +54132,9 @@
       "gender_count": {
         "Unknown": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Unknown": 1
+      },
       "queer_count": {
         "None": 1
       },
@@ -53440,11 +54144,13 @@
     },
     "Vampires": {
       "gender_count": {
-        "Unknown": 1
+        "Woman": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -53452,11 +54158,13 @@
     },
     "Weird Ecology": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -53464,11 +54172,13 @@
     },
     "Weird Ecology 2022": {
       "gender_count": {
-        "Unknown": 4
+        "Man": 4
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 4
+      },
       "queer_count": {
-        "None": 4
+        "false": 4
       },
       "nationality_count": {
         "Unknown": 4
@@ -53476,11 +54186,13 @@
     },
     "Wibbly Wobbly Timey Wimey": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -53488,11 +54200,14 @@
     },
     "Wibbly Wobbly Timey Wimey (2022)": {
       "gender_count": {
-        "Unknown": 2
+        "Man": 2
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 1,
+        "White": 1
+      },
       "queer_count": {
-        "None": 2
+        "false": 2
       },
       "nationality_count": {
         "Unknown": 2
@@ -53500,11 +54215,16 @@
     },
     "Wibbly Wobbly Timey Wimey 2022": {
       "gender_count": {
-        "Unknown": 5
+        "Man": 3,
+        "Woman": 2
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 1,
+        "White": 4
+      },
       "queer_count": {
-        "None": 5
+        "false": 3,
+        "true": 2
       },
       "nationality_count": {
         "Unknown": 5
@@ -53512,11 +54232,13 @@
     },
     "Wibbly wobbly timey wimey 2022": {
       "gender_count": {
-        "Unknown": 1
+        "Man": 1
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "White": 1
+      },
       "queer_count": {
-        "None": 1
+        "false": 1
       },
       "nationality_count": {
         "Unknown": 1
@@ -53524,11 +54246,17 @@
     },
     "Witches 2021": {
       "gender_count": {
-        "Unknown": 5
+        "Man": 1,
+        "Unknown": 2,
+        "Woman": 2
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 2,
+        "Unknown": 2,
+        "White": 1
+      },
       "queer_count": {
-        "None": 5
+        "None": 2
       },
       "nationality_count": {
         "Unknown": 5
@@ -53536,14 +54264,3443 @@
     },
     "Young Adult": {
       "gender_count": {
-        "Unknown": 924
+        "Man": 172,
+        "Nonbinary": 46,
+        "Unknown": 228,
+        "Woman": 478
       },
-      "ethnicity_count": {},
+      "ethnicity_count": {
+        "Asian": 52,
+        "Black": 42,
+        "Hispanic": 27,
+        "Native": 13,
+        "Unknown": 228,
+        "White": 562
+      },
       "queer_count": {
-        "None": 924
+        "None": 228
       },
       "nationality_count": {
-        "Unknown": 924
+        "United States": 1,
+        "Unknown": 923
+      }
+    }
+  },
+  "unique_author_stats": {
+    "gender_count": {
+      "Man": 1098,
+      "Nonbinary": 79,
+      "Unknown": 3135,
+      "Woman": 920
+    },
+    "ethnicity_count": {
+      "Arabic": 1,
+      "Asian": 299,
+      "Black": 107,
+      "Hispanic": 58,
+      "Native": 17,
+      "Unknown": 3120,
+      "White": 1630
+    },
+    "queer_count": {
+      "None": 3123
+    },
+    "nationality_count": {
+      "Australia": 1,
+      "United Arab Emirates": 1,
+      "United States": 3,
+      "Unknown": 5227
+    }
+  },
+  "unique_square_author_stats": {
+    "\"Standalone\" square": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "\"Weird Ecologies\" from 2022": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "2016: Dark Fantasy": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "2017 Dystopia": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "2018 Novel with Fewer Than 2500 Goodreads Ratings": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "2021 - First Person POV": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "Hispanic": 1
+      },
+      "queer_count": {
+        "true": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "2021 New to You Author": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "Asian": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "2021: New to you Author": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "2022 Revolutions and Rebellions": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "2022 SET IN SPACE": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "2022 Urban Fantasy Square": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "2022 Weird Ecology (book takes place in a city entirely made of trees)": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "A Book from r/Fantasy's Top LGBTQIA List with 10 votes or less 2022": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "A Book that Made You Laugh 2020": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "A Novel From r/Fantasy's Official Underated and Under-read List 2015": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "A novel published before you were born, 2018": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "Black": 1
+      },
+      "queer_count": {
+        "true": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "An Author's Debut Fantasy Novel 2017": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Angels and Demons": {
+      "gender_count": {
+        "Man": 253,
+        "Nonbinary": 5,
+        "Unknown": 111,
+        "Woman": 62
+      },
+      "ethnicity_count": {
+        "Asian": 14,
+        "Black": 8,
+        "Hispanic": 2,
+        "Native": 1,
+        "Unknown": 110,
+        "White": 296
+      },
+      "queer_count": {
+        "None": 110
+      },
+      "nationality_count": {
+        "Unknown": 431
+      }
+    },
+    "Anti-Hero 2022": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Australian Author (2019)": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Author Uses Initials": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Author Uses Initials 2022": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Author Using Initials 2022": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Author uses Initials 2022": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Author uses initials 2022": {
+      "gender_count": {
+        "Nonbinary": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "true": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Award Finalist": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Award Finalist, But Not Won": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Award-Winning Novel 2015": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Backlist Book 2021": {
+      "gender_count": {
+        "Woman": 2
+      },
+      "ethnicity_count": {
+        "White": 2
+      },
+      "queer_count": {
+        "false": 2
+      },
+      "nationality_count": {
+        "Unknown": 2
+      }
+    },
+    "Book Club or Readalong Book": {
+      "gender_count": {
+        "Man": 78,
+        "Nonbinary": 17,
+        "Unknown": 54,
+        "Woman": 98
+      },
+      "ethnicity_count": {
+        "Asian": 31,
+        "Black": 8,
+        "Hispanic": 3,
+        "Native": 2,
+        "Unknown": 54,
+        "White": 149
+      },
+      "queer_count": {
+        "None": 55
+      },
+      "nationality_count": {
+        "Australia": 1,
+        "Unknown": 246
+      }
+    },
+    "Books about Books 2020": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Bottom of the TBR": {
+      "gender_count": {
+        "Man": 186,
+        "Nonbinary": 8,
+        "Unknown": 128,
+        "Woman": 143
+      },
+      "ethnicity_count": {
+        "Asian": 29,
+        "Black": 13,
+        "Hispanic": 11,
+        "Native": 4,
+        "Unknown": 128,
+        "White": 280
+      },
+      "queer_count": {
+        "None": 130
+      },
+      "nationality_count": {
+        "Australia": 1,
+        "United States": 1,
+        "Unknown": 463
+      }
+    },
+    "Canadian Author, 2020": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Cat Squasher (500+ pages) 2021": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Cat Squasher - 2021": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Cat Squasher 2021": {
+      "gender_count": {
+        "Unknown": 2,
+        "Woman": 2
+      },
+      "ethnicity_count": {
+        "Unknown": 2,
+        "White": 2
+      },
+      "queer_count": {
+        "None": 2
+      },
+      "nationality_count": {
+        "Unknown": 4
+      }
+    },
+    "Cat Squasher: 500+ Pages (2021)": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Character with Disability 2019": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Climate Fiction 2020": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Coastal Setting": {
+      "gender_count": {
+        "Man": 102,
+        "Nonbinary": 7,
+        "Unknown": 120,
+        "Woman": 97
+      },
+      "ethnicity_count": {
+        "Asian": 18,
+        "Black": 12,
+        "Hispanic": 1,
+        "Native": 3,
+        "Unknown": 120,
+        "White": 172
+      },
+      "queer_count": {
+        "None": 121
+      },
+      "nationality_count": {
+        "Australia": 1,
+        "Unknown": 325
+      }
+    },
+    "Color Title (2020)": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Comfort Read 2021": {
+      "gender_count": {
+        "Man": 2,
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 3
+      },
+      "queer_count": {
+        "false": 3
+      },
+      "nationality_count": {
+        "Unknown": 3
+      }
+    },
+    "Cool Weapon 2022": {
+      "gender_count": {
+        "Man": 3
+      },
+      "ethnicity_count": {
+        "Black": 1,
+        "White": 2
+      },
+      "queer_count": {
+        "false": 3
+      },
+      "nationality_count": {
+        "Unknown": 3
+      }
+    },
+    "Cool weapon 2022": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Disability 2019": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Doorstop/Cat Squasher 2021": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Druid": {
+      "gender_count": {
+        "Man": 45,
+        "Nonbinary": 4,
+        "Unknown": 137,
+        "Woman": 73
+      },
+      "ethnicity_count": {
+        "Asian": 8,
+        "Black": 4,
+        "Hispanic": 4,
+        "Native": 1,
+        "Unknown": 136,
+        "White": 106
+      },
+      "queer_count": {
+        "None": 136
+      },
+      "nationality_count": {
+        "Unknown": 259
+      }
+    },
+    "Dying Earth 2017": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Elemental Magic": {
+      "gender_count": {
+        "Man": 101,
+        "Nonbinary": 7,
+        "Unknown": 161,
+        "Woman": 92
+      },
+      "ethnicity_count": {
+        "Asian": 65,
+        "Black": 9,
+        "Hispanic": 5,
+        "Unknown": 160,
+        "White": 122
+      },
+      "queer_count": {
+        "None": 160
+      },
+      "nationality_count": {
+        "Unknown": 361
+      }
+    },
+    "Family Matters 2022": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Family Matters 2022 (hard mode)": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Fantasy Novel featuring Dragons 2017": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Fantasy of Manner 2017": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Fantasy of Manners 2017": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "true": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Features Mental Health 2022": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "Black": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Features Robots": {
+      "gender_count": {
+        "Man": 72,
+        "Nonbinary": 3,
+        "Unknown": 88,
+        "Woman": 38
+      },
+      "ethnicity_count": {
+        "Asian": 13,
+        "Black": 5,
+        "Hispanic": 3,
+        "Unknown": 88,
+        "White": 92
+      },
+      "queer_count": {
+        "None": 89
+      },
+      "nationality_count": {
+        "United States": 1,
+        "Unknown": 200
+      }
+    },
+    "Featuring a Ghost 2020": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Feminist Novel 2020": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "First Contact 2021": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "First Person POV - 2021": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "First Person POV 2021": {
+      "gender_count": {
+        "Woman": 2
+      },
+      "ethnicity_count": {
+        "White": 2
+      },
+      "queer_count": {
+        "false": 2
+      },
+      "nationality_count": {
+        "Unknown": 2
+      }
+    },
+    "Five Short Stories": {
+      "gender_count": {
+        "Man": 187,
+        "Nonbinary": 10,
+        "Unknown": 456,
+        "Woman": 216
+      },
+      "ethnicity_count": {
+        "Asian": 36,
+        "Black": 44,
+        "Hispanic": 10,
+        "Native": 8,
+        "Unknown": 444,
+        "White": 327
+      },
+      "queer_count": {
+        "None": 445
+      },
+      "nationality_count": {
+        "Australia": 1,
+        "Unknown": 868
+      }
+    },
+    "Forest Setting": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "Asian": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Forest Setting - 2021": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Forest Setting 2021": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "Asian": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Format Graphic Novel or Audiobook 2017": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Format: Graphic Novel (at least 1 vol.) OR Audiobook / Audio drama 2020": {
+      "gender_count": {
+        "Man": 1,
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "Asian": 1,
+        "White": 1
+      },
+      "queer_count": {
+        "false": 2
+      },
+      "nationality_count": {
+        "Unknown": 2
+      }
+    },
+    "Found Family 2022": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "Asian": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "From /r/fantasy Women in Fantasy list 2015": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Genre Mashup": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Genre Mashup 2021": {
+      "gender_count": {
+        "Nonbinary": 1,
+        "Unknown": 4,
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 4,
+        "White": 2
+      },
+      "queer_count": {
+        "None": 4
+      },
+      "nationality_count": {
+        "Unknown": 6
+      }
+    },
+    "Gothic 2021": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Gothic Fantasy": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "true": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Gothic Fantasy 2021": {
+      "gender_count": {
+        "Woman": 2
+      },
+      "ethnicity_count": {
+        "White": 2
+      },
+      "queer_count": {
+        "false": 2
+      },
+      "nationality_count": {
+        "Unknown": 2
+      }
+    },
+    "Graphic Novel (at least 1 vol.) OR Audiobook / Audio drama 2020": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Graphic Novel 2018": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Graphic Novel 2019": {
+      "gender_count": {
+        "Man": 1,
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1,
+        "White": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 2
+      }
+    },
+    "Graphic Novel or Audiobook 2018": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Graphic novel (2020)": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Historical SFF 2022": {
+      "gender_count": {
+        "Man": 1,
+        "Unknown": 2,
+        "Woman": 10
+      },
+      "ethnicity_count": {
+        "Asian": 3,
+        "Unknown": 2,
+        "White": 8
+      },
+      "queer_count": {
+        "None": 2
+      },
+      "nationality_count": {
+        "Unknown": 13
+      }
+    },
+    "Historical SFF, 2022": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Hopeful Fiction 2018": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "true": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Horror": {
+      "gender_count": {
+        "Man": 92,
+        "Nonbinary": 8,
+        "Unknown": 142,
+        "Woman": 70
+      },
+      "ethnicity_count": {
+        "Asian": 16,
+        "Black": 11,
+        "Hispanic": 7,
+        "Native": 2,
+        "Unknown": 142,
+        "White": 134
+      },
+      "queer_count": {
+        "None": 143
+      },
+      "nationality_count": {
+        "United States": 1,
+        "Unknown": 311
+      }
+    },
+    "LGBTQIA LIST 2022": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "true": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "LGBTQIA List Book 2022": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Lion Squasher 2021": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "LitRPG 2019": {
+      "gender_count": {
+        "Man": 1,
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1,
+        "White": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 2
+      }
+    },
+    "LitRPG, 2019": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Made You Laugh 2020": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Magical Pet 2020": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Magical Realism": {
+      "gender_count": {
+        "Man": 65,
+        "Nonbinary": 7,
+        "Unknown": 180,
+        "Woman": 110
+      },
+      "ethnicity_count": {
+        "Asian": 33,
+        "Black": 17,
+        "Hispanic": 16,
+        "Native": 4,
+        "Unknown": 180,
+        "White": 112
+      },
+      "queer_count": {
+        "None": 180
+      },
+      "nationality_count": {
+        "Unknown": 362
+      }
+    },
+    "Media Tie In 2019": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Media Tie-In 2019": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Military Fantasy 2016": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Mountain Setting 2018": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Multiple Authors 2022": {
+      "gender_count": {
+        "Man": 1,
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "Asian": 1,
+        "White": 1
+      },
+      "queer_count": {
+        "false": 2
+      },
+      "nationality_count": {
+        "Unknown": 2
+      }
+    },
+    "Multiverses": {
+      "gender_count": {
+        "Man": 125,
+        "Nonbinary": 5,
+        "Unknown": 113,
+        "Woman": 102
+      },
+      "ethnicity_count": {
+        "Asian": 44,
+        "Black": 5,
+        "Hispanic": 5,
+        "Native": 1,
+        "Unknown": 111,
+        "White": 179
+      },
+      "queer_count": {
+        "None": 111
+      },
+      "nationality_count": {
+        "Unknown": 345
+      }
+    },
+    "Mundane Jobs": {
+      "gender_count": {
+        "Man": 107,
+        "Nonbinary": 10,
+        "Unknown": 134,
+        "Woman": 93
+      },
+      "ethnicity_count": {
+        "Asian": 16,
+        "Black": 9,
+        "Hispanic": 4,
+        "Native": 2,
+        "Unknown": 133,
+        "White": 180
+      },
+      "queer_count": {
+        "None": 134
+      },
+      "nationality_count": {
+        "Australia": 1,
+        "Unknown": 343
+      }
+    },
+    "Mystery Plot": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Mystery Plot 2021": {
+      "gender_count": {
+        "Man": 4,
+        "Unknown": 6,
+        "Woman": 4
+      },
+      "ethnicity_count": {
+        "Native": 1,
+        "Unknown": 6,
+        "White": 7
+      },
+      "queer_count": {
+        "None": 6
+      },
+      "nationality_count": {
+        "Unknown": 14
+      }
+    },
+    "Mythical Beasts": {
+      "gender_count": {
+        "Man": 104,
+        "Nonbinary": 12,
+        "Unknown": 122,
+        "Woman": 109
+      },
+      "ethnicity_count": {
+        "Asian": 23,
+        "Black": 10,
+        "Hispanic": 6,
+        "Native": 2,
+        "Unknown": 121,
+        "White": 185
+      },
+      "queer_count": {
+        "None": 121
+      },
+      "nationality_count": {
+        "Australia": 1,
+        "Unknown": 346
+      }
+    },
+    "Myths and Retellings": {
+      "gender_count": {
+        "Man": 54,
+        "Nonbinary": 8,
+        "Unknown": 148,
+        "Woman": 125
+      },
+      "ethnicity_count": {
+        "Asian": 28,
+        "Black": 8,
+        "Hispanic": 6,
+        "Native": 1,
+        "Unknown": 146,
+        "White": 146
+      },
+      "queer_count": {
+        "None": 146
+      },
+      "nationality_count": {
+        "Unknown": 335
+      }
+    },
+    "Name in Title, 2022": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Name in the Title": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Name in the Title 2022": {
+      "gender_count": {
+        "Unknown": 3,
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 3,
+        "White": 1
+      },
+      "queer_count": {
+        "None": 3
+      },
+      "nationality_count": {
+        "Unknown": 4
+      }
+    },
+    "New To You": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "New To You Author 2021": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "New to You 2021": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "New to You Author 2021": {
+      "gender_count": {
+        "Man": 3,
+        "Woman": 2
+      },
+      "ethnicity_count": {
+        "Asian": 2,
+        "White": 3
+      },
+      "queer_count": {
+        "false": 5
+      },
+      "nationality_count": {
+        "Unknown": 5
+      }
+    },
+    "New to You Author 2022": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "New to me Author": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "New to you author 2022": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "New-to-me Author": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "No If Ands or Buts - 2022": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "Native": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "No Ifs Ands or Buts 2022": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "No Ifs ands or Buts 2022": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "No Ifs, And or Buts 2022": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "No Ifs, Ands, or Buts (2022)": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "No Ifs, Ands, or Buts - 2022": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "No Ifs, Ands, or Buts 2022": {
+      "gender_count": {
+        "Man": 2,
+        "Unknown": 3
+      },
+      "ethnicity_count": {
+        "Unknown": 3,
+        "White": 2
+      },
+      "queer_count": {
+        "None": 3
+      },
+      "nationality_count": {
+        "Unknown": 5
+      }
+    },
+    "No ifs ands or buts 2022": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "No ifs, ands or buts 2022": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Non Human Protagonist 2023": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Non human protagonist, 2022": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "true": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Non-Fantasy 2016": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Non-Fantasy Novel 2016": {
+      "gender_count": {
+        "Unknown": 3
+      },
+      "ethnicity_count": {
+        "Unknown": 3
+      },
+      "queer_count": {
+        "None": 3
+      },
+      "nationality_count": {
+        "Unknown": 3
+      }
+    },
+    "Non-Human Protagonist": {
+      "gender_count": {
+        "Unknown": 1,
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "Asian": 1,
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 2
+      }
+    },
+    "Non-Human Protagonist - 2022": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "true": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Non-Human Protagonist 2022": {
+      "gender_count": {
+        "Man": 3,
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1,
+        "White": 3
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 4
+      }
+    },
+    "Non-Human Protagonist 2023": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "true": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Non-Human Protagonist from 2022": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Non-SFF Novel": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Novel Adapted to Screen 2018": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Novel Adapted to Stage, Screen, or Game 2018": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Novel Featuring Exploration 2020": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Novel Featuring Necromancy 2020": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Novel Featuring a God as a Character, 2018": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "Asian": 1
+      },
+      "queer_count": {
+        "true": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Novel Featuring a Library 2018": {
+      "gender_count": {
+        "Man": 1,
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1,
+        "White": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 2
+      }
+    },
+    "Novel Featuring an AI Character 2019": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Novel Set at School or University 2020": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Novel Translated from its Original Language 2020": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "Hispanic": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Novel by a Canadian Author 2020": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Novel by a local to you Author 2019": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Novel by an Author Writing Under a Pseudonym (2018)": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Novel featuring a ghost (2020)": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Novel translated from its Original Language 2020": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "Asian": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Novel with Chapter Epigraphs 2020": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Novel with a One Word Title 2018": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Novella": {
+      "gender_count": {
+        "Man": 105,
+        "Nonbinary": 13,
+        "Unknown": 125,
+        "Woman": 126
+      },
+      "ethnicity_count": {
+        "Asian": 50,
+        "Black": 10,
+        "Hispanic": 6,
+        "Native": 2,
+        "Unknown": 124,
+        "White": 177
+      },
+      "queer_count": {
+        "None": 124
+      },
+      "nationality_count": {
+        "Unknown": 369
+      }
+    },
+    "POC Author": {
+      "gender_count": {
+        "Man": 56,
+        "Nonbinary": 16,
+        "Unknown": 152,
+        "Woman": 80
+      },
+      "ethnicity_count": {
+        "Asian": 66,
+        "Black": 54,
+        "Hispanic": 12,
+        "Native": 5,
+        "Unknown": 152,
+        "White": 15
+      },
+      "queer_count": {
+        "None": 152
+      },
+      "nationality_count": {
+        "Unknown": 304
+      }
+    },
+    "Pre-Tolkien 2015": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Protagonist Flies 2016": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Protagonist is a Writer/Artist/Musician 2018": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Published Before 2000 2015": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Published Before You Were Born 2018": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Published Before the Year 2000 2015": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Published before the year 2000, 2015": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Published in 2020, Bingo 2020": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Published in 2022 2022": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Published in 2023": {
+      "gender_count": {
+        "Man": 66,
+        "Nonbinary": 8,
+        "Unknown": 192,
+        "Woman": 72
+      },
+      "ethnicity_count": {
+        "Asian": 18,
+        "Black": 5,
+        "Hispanic": 4,
+        "Unknown": 191,
+        "White": 120
+      },
+      "queer_count": {
+        "None": 191
+      },
+      "nationality_count": {
+        "Unknown": 338
+      }
+    },
+    "Published in the 2000s": {
+      "gender_count": {
+        "Man": 102,
+        "Unknown": 143,
+        "Woman": 100
+      },
+      "ethnicity_count": {
+        "Asian": 14,
+        "Black": 4,
+        "Hispanic": 4,
+        "Native": 2,
+        "Unknown": 142,
+        "White": 179
+      },
+      "queer_count": {
+        "None": 143
+      },
+      "nationality_count": {
+        "United States": 1,
+        "Unknown": 344
+      }
+    },
+    "Queernorm Setting": {
+      "gender_count": {
+        "Man": 36,
+        "Nonbinary": 20,
+        "Unknown": 82,
+        "Woman": 100
+      },
+      "ethnicity_count": {
+        "Asian": 15,
+        "Black": 8,
+        "Hispanic": 3,
+        "Native": 1,
+        "Unknown": 82,
+        "White": 129
+      },
+      "queer_count": {
+        "None": 83
+      },
+      "nationality_count": {
+        "Australia": 1,
+        "Unknown": 237
+      }
+    },
+    "Revenge 2021": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Revenge Seeking Character 2021": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Revenge-Seeking Character 2021 (Hard Mode)": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Revenge-seeking character 2021": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Revolutions and Rebellions - 2022": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Revolutions and Rebellions 2022": {
+      "gender_count": {
+        "Man": 3,
+        "Nonbinary": 1,
+        "Woman": 2
+      },
+      "ethnicity_count": {
+        "Asian": 3,
+        "Black": 1,
+        "White": 2
+      },
+      "queer_count": {
+        "false": 5,
+        "true": 1
+      },
+      "nationality_count": {
+        "Unknown": 6
+      }
+    },
+    "Romantic Fantasy 2016": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Romantic Fantasy 2020": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "SFF Novel Featuring Twins 2019": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "SFF Novel Featuring an Ocean Setting 2019": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "SFF Novel with 4 or more words in the title 2019": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "SFF That Has a Title of 4 or More Words 2019": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "SFF novel that has a title of four or more words 2019": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "true": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "SFF-Related Nonfiction 2021": {
+      "gender_count": {
+        "Unknown": 1,
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1,
+        "White": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 2
+      }
+    },
+    "SFF-related nonfiction 2021": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "School 2020": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Self Published or Indie Publisher": {
+      "gender_count": {
+        "Man": 90,
+        "Nonbinary": 12,
+        "Unknown": 351,
+        "Woman": 101
+      },
+      "ethnicity_count": {
+        "Asian": 19,
+        "Black": 5,
+        "Hispanic": 2,
+        "Native": 1,
+        "Unknown": 349,
+        "White": 178
+      },
+      "queer_count": {
+        "None": 349
+      },
+      "nationality_count": {
+        "Unknown": 554
+      }
+    },
+    "Sequel": {
+      "gender_count": {
+        "Man": 133,
+        "Nonbinary": 9,
+        "Unknown": 83,
+        "Woman": 132
+      },
+      "ethnicity_count": {
+        "Asian": 21,
+        "Black": 6,
+        "Hispanic": 4,
+        "Native": 3,
+        "Unknown": 82,
+        "White": 241
+      },
+      "queer_count": {
+        "None": 83
+      },
+      "nationality_count": {
+        "United States": 1,
+        "Unknown": 356
+      }
+    },
+    "Set In Asia (2021)": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Set in Africa 2022": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "Black": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Set in Asia 2021": {
+      "gender_count": {
+        "Unknown": 2,
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "Asian": 1,
+        "Unknown": 2
+      },
+      "queer_count": {
+        "None": 2
+      },
+      "nationality_count": {
+        "Unknown": 3
+      }
+    },
+    "Set in Asia, Author is of Asian heritage": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "Asian": 1
+      },
+      "queer_count": {
+        "true": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Set in Space 2022": {
+      "gender_count": {
+        "Man": 5,
+        "Unknown": 1,
+        "Woman": 6
+      },
+      "ethnicity_count": {
+        "Unknown": 1,
+        "White": 11
+      },
+      "queer_count": {
+        "None": 2
+      },
+      "nationality_count": {
+        "United States": 1,
+        "Unknown": 11
+      }
+    },
+    "Set in a School or University, 2020": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Set in space 2022": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Set in the Middle East": {
+      "gender_count": {
+        "Man": 33,
+        "Nonbinary": 5,
+        "Unknown": 117,
+        "Woman": 31
+      },
+      "ethnicity_count": {
+        "Arabic": 1,
+        "Asian": 23,
+        "Black": 4,
+        "Hispanic": 1,
+        "Unknown": 116,
+        "White": 41
+      },
+      "queer_count": {
+        "None": 117
+      },
+      "nationality_count": {
+        "United Arab Emirates": 1,
+        "Unknown": 185
+      }
+    },
+    "Shape-shifters 2022": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Shapeshifter 2022": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Shapeshifters 2022": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Shapeshifters, 2022": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Space Opera 2018": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Stand Alone 2018": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Standalone (2022)": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Standalone 2022": {
+      "gender_count": {
+        "Man": 3,
+        "Unknown": 5,
+        "Woman": 4
+      },
+      "ethnicity_count": {
+        "Unknown": 5,
+        "White": 7
+      },
+      "queer_count": {
+        "None": 5
+      },
+      "nationality_count": {
+        "Unknown": 12
+      }
+    },
+    "Standalone, 2022": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Steampunk, 2017": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Superheroes": {
+      "gender_count": {
+        "Man": 66,
+        "Nonbinary": 4,
+        "Unknown": 232,
+        "Woman": 33
+      },
+      "ethnicity_count": {
+        "Asian": 10,
+        "Black": 7,
+        "Hispanic": 3,
+        "Native": 1,
+        "Unknown": 231,
+        "White": 83
+      },
+      "queer_count": {
+        "None": 231
+      },
+      "nationality_count": {
+        "Unknown": 335
+      }
+    },
+    "Title with a Title": {
+      "gender_count": {
+        "Man": 113,
+        "Nonbinary": 5,
+        "Unknown": 132,
+        "Woman": 124
+      },
+      "ethnicity_count": {
+        "Asian": 22,
+        "Black": 10,
+        "Hispanic": 7,
+        "Native": 1,
+        "Unknown": 132,
+        "White": 202
+      },
+      "queer_count": {
+        "None": 132
+      },
+      "nationality_count": {
+        "Unknown": 374
+      }
+    },
+    "Title: _ of _ 2021": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Title: __ of __ and __": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Title: ____ of ____ 2021": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Trans or NB Character 2021": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Trans or Nonbinary Character 2021": {
+      "gender_count": {
+        "Unknown": 1,
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1,
+        "White": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 2
+      }
+    },
+    "Two or More Authors": {
+      "gender_count": {
+        "Man": 1,
+        "Nonbinary": 1
+      },
+      "ethnicity_count": {
+        "Asian": 1,
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1,
+        "true": 1
+      },
+      "nationality_count": {
+        "Unknown": 2
+      }
+    },
+    "Two or More Authors 2022": {
+      "gender_count": {
+        "Nonbinary": 1,
+        "Unknown": 2
+      },
+      "ethnicity_count": {
+        "Unknown": 2,
+        "White": 1
+      },
+      "queer_count": {
+        "None": 2
+      },
+      "nationality_count": {
+        "Unknown": 3
+      }
+    },
+    "Two or more authors - 2022": {
+      "gender_count": {
+        "Nonbinary": 1,
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1,
+        "White": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 2
+      }
+    },
+    "Urban Fantasy": {
+      "gender_count": {
+        "Man": 1,
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 2
+      },
+      "queer_count": {
+        "false": 2
+      },
+      "nationality_count": {
+        "Unknown": 2
+      }
+    },
+    "Urban Fantasy - 2022": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "Asian": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Urban Fantasy 2022": {
+      "gender_count": {
+        "Unknown": 3,
+        "Woman": 4
+      },
+      "ethnicity_count": {
+        "Asian": 1,
+        "Unknown": 2,
+        "White": 4
+      },
+      "queer_count": {
+        "None": 2
+      },
+      "nationality_count": {
+        "Unknown": 7
+      }
+    },
+    "VAMPIRES - FROM 2019 (HARD MODE - VAMPIRE IS A MAIN CHARACTER)": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Vampire POC 2019": {
+      "gender_count": {
+        "Unknown": 1
+      },
+      "ethnicity_count": {
+        "Unknown": 1
+      },
+      "queer_count": {
+        "None": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Vampires": {
+      "gender_count": {
+        "Woman": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Weird Ecology": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Weird Ecology 2022": {
+      "gender_count": {
+        "Man": 3
+      },
+      "ethnicity_count": {
+        "White": 3
+      },
+      "queer_count": {
+        "false": 3
+      },
+      "nationality_count": {
+        "Unknown": 3
+      }
+    },
+    "Wibbly Wobbly Timey Wimey": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Wibbly Wobbly Timey Wimey (2022)": {
+      "gender_count": {
+        "Man": 2
+      },
+      "ethnicity_count": {
+        "Asian": 1,
+        "White": 1
+      },
+      "queer_count": {
+        "false": 2
+      },
+      "nationality_count": {
+        "Unknown": 2
+      }
+    },
+    "Wibbly Wobbly Timey Wimey 2022": {
+      "gender_count": {
+        "Man": 3,
+        "Woman": 2
+      },
+      "ethnicity_count": {
+        "Asian": 1,
+        "White": 4
+      },
+      "queer_count": {
+        "false": 3,
+        "true": 2
+      },
+      "nationality_count": {
+        "Unknown": 5
+      }
+    },
+    "Wibbly wobbly timey wimey 2022": {
+      "gender_count": {
+        "Man": 1
+      },
+      "ethnicity_count": {
+        "White": 1
+      },
+      "queer_count": {
+        "false": 1
+      },
+      "nationality_count": {
+        "Unknown": 1
+      }
+    },
+    "Witches 2021": {
+      "gender_count": {
+        "Man": 1,
+        "Unknown": 2,
+        "Woman": 2
+      },
+      "ethnicity_count": {
+        "Asian": 2,
+        "Unknown": 2,
+        "White": 1
+      },
+      "queer_count": {
+        "None": 2
+      },
+      "nationality_count": {
+        "Unknown": 5
+      }
+    },
+    "Young Adult": {
+      "gender_count": {
+        "Man": 68,
+        "Nonbinary": 12,
+        "Unknown": 151,
+        "Woman": 146
+      },
+      "ethnicity_count": {
+        "Asian": 26,
+        "Black": 16,
+        "Hispanic": 12,
+        "Native": 3,
+        "Unknown": 151,
+        "White": 169
+      },
+      "queer_count": {
+        "None": 151
+      },
+      "nationality_count": {
+        "United States": 1,
+        "Unknown": 376
       }
     }
   },
