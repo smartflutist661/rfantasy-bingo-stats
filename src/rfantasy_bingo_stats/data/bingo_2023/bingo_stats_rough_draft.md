@@ -6,7 +6,7 @@ You can find the raw data, corrected data, and some more extensive summary stati
 See [this post](https://www.reddit.com/r/Fantasy/comments/12gyb45/cleaning_2022_and_future_bingo_data/) for some technical details.
 
 Format has been shamelessly copied from previous bingo stats posts:
-
+  - [2023](https://www.reddit.com/r/Fantasy/comments/1cd0kdk/statistics_for_the_2023_rfantasy_bingo/)
   - [2022](https://www.reddit.com/r/Fantasy/comments/12xs3c1/2022_rfantasy_bingo_statistics/)
   - [2021](https://www.reddit.com/r/Fantasy/comments/ude8f4/2021_rfantasy_bingo_stats/)
   - [2020](https://www.reddit.com/r/Fantasy/comments/npvigf/2020_rfantasy_bingo_statistics/)
@@ -20,11 +20,12 @@ Likewise, the following notes are shamelessly adapted.
 1. Stories were not examined for fitness. If you used **1984** for **Novella**, it was included in the statistics for that square.
 In addition, if you did something like, say, put **The Lost Metal** as a short story, I made no effort to figure out where it actually belonged.
 2. When a series was specified, it was collapsed to the first book. Graphic novels, light novels, manga, and webserials were collapsed from issues to the overall series.
-3. Books by multiple authors were counted once for each author. E.g.: **In the Heart of Darkness** by Eric Flint and David Drake counts as a read for both Eric Flint and David Drake.
+3. Books by multiple authors were counted once for each author.
+E.g.: **In the Heart of Darkness** by Eric Flint and David Drake counts as a read for both Eric Flint and David Drake.
 *However*, books by a writing team with a single-author pseudonym, e.g. M.A. Carrick, were counted once for the pseudonym, and not for the authors behind the pseudonym.
-4. Author demographic statistics are not included below, for two reasons: it quickly gets messy and culturally-specific,
-and I didn't want to stalk all 3948 individual authors. Machinery for these calculations are included in the script, however,
-so if anyone would like to supply demographic information, it is easy to include.
+4. Author demographic statistics are now included below. However, researching all 3947 individual authors
+is quite an undertaking, and there is still a reasonable amount of information missing, especially regarding Nationality.
+By the time next year's stats roll around I hope to have it reasonably complete.
 5. Short stories were excluded from most of the stats below. They *were* included in the total story count.
 
 # And Now: The Stats
@@ -37,11 +38,11 @@ so if anyone would like to supply demographic information, it is easy to include
 The minimum number of filled squares was 5. 5 were *this close*, with 24 filled squares.
 649 squares were left blank, leaving 22576 filled squares.
 - There were 23096 total stories, with 6700 unique stories read,
-by 3948 unique authors (23679 total).
-4150 books and 2134 authors were used only once. 
+by 3947 unique authors (23679 total).
+4150 books and 2133 authors were used only once. 
 - The top squares left blank were: **Druid** and **Set in the Middle East**, blank on 46 cards each; **Superheroes**, blank on 44 cards; **Elemental Magic**, blank on 38 cards. On the other hand, **Sequel** was only left blank 9 times.
 - The three squares most often substituted were: **Druid**, substituted on 58 cards; **Superheroes**, substituted on 34 cards; **Book Club or Readalong Book**, substituted on 31 cards.
-**Multiverses** and **Sequel** were never substituted.
+**Sequel** and **Multiverses** were never substituted.
 This means that Druid was the least favorite overall, skipped or substituted a total of 104 times, and
 Sequel was the favorite, skipped or substituted only 9 times.
 - There were an average of 4.5 unique books per card.
@@ -152,7 +153,7 @@ There were an average of 6.0 reads per author.
 
 The following tables represent a best-effort attempt at a statistical breakdown of author demographics.
 The "Overall %" column represents the _total_ number of times a demographic appeared in Bingo data,
-i.e. Brandon Sanderson counts 214412 times for each of his demographic groups.
+i.e. Brandon Sanderson counts 413156 times for each of his demographic groups.
 The "Unique %" column represents the unique number of times a demographic appeared in Bingo data,
 i.e. Brandon Sanderson counts only once, no matter how many squares or cards he appears on.
 
@@ -268,7 +269,7 @@ Skipped 12 times. Substituted 4 times.
 **TOTAL**: 924 total authors read, with 374 unique.
 237 authors were used only once for this square.
 
-Author demographics, as described above:
+Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -321,7 +322,7 @@ Skipped 44 times. Substituted 34 times.
 **TOTAL**: 948 total authors read, with 256 unique.
 157 authors were used only once for this square.
 
-Author demographics, as described above:
+Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -373,7 +374,7 @@ Skipped 26 times. Substituted 7 times.
 **TOTAL**: 908 total authors read, with 451 unique.
 298 authors were used only once for this square.
 
-Author demographics, as described above:
+Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -426,7 +427,7 @@ Skipped 27 times. Substituted 12 times.
 **TOTAL**: 899 total authors read, with 354 unique.
 227 authors were used only once for this square.
 
-Author demographics, as described above:
+Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -480,7 +481,7 @@ Skipped 16 times. Substituted 4 times.
 **TOTAL**: 924 total authors read, with 370 unique.
 234 authors were used only once for this square.
 
-Author demographics, as described above:
+Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -534,7 +535,7 @@ Skipped 14 times. Substituted 1 times.
 **TOTAL**: 926 total authors read, with 343 unique.
 232 authors were used only once for this square.
 
-Author demographics, as described above:
+Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -587,7 +588,7 @@ Skipped 31 times. Substituted 13 times.
 **TOTAL**: 914 total authors read, with 316 unique.
 181 authors were used only once for this square.
 
-Author demographics, as described above:
+Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -640,7 +641,7 @@ Skipped 30 times. Substituted 6 times.
 **TOTAL**: 989 total authors read, with 251 unique.
 145 authors were used only once for this square.
 
-Author demographics, as described above:
+Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -691,7 +692,7 @@ Skipped 37 times. Substituted 18 times.
 **TOTAL**: 1241 total authors read, with 637 unique.
 428 authors were used only once for this square.
 
-Author demographics, as described above:
+Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -744,7 +745,7 @@ Skipped 16 times. Substituted 11 times.
 **TOTAL**: 920 total authors read, with 304 unique.
 179 authors were used only once for this square.
 
-Author demographics, as described above:
+Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -797,7 +798,7 @@ Skipped 33 times. Substituted 25 times.
 **TOTAL**: 924 total authors read, with 543 unique.
 427 authors were used only once for this square.
 
-Author demographics, as described above:
+Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -847,7 +848,7 @@ Skipped 46 times. Substituted 30 times.
 **TOTAL**: 891 total authors read, with 143 unique.
 71 authors were used only once for this square.
 
-Author demographics, as described above:
+Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -900,7 +901,7 @@ Skipped 21 times. Substituted 3 times.
 **TOTAL**: 919 total authors read, with 337 unique.
 208 authors were used only once for this square.
 
-Author demographics, as described above:
+Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -953,7 +954,7 @@ Skipped 21 times. Substituted 0 times.
 **TOTAL**: 948 total authors read, with 280 unique.
 186 authors were used only once for this square.
 
-Author demographics, as described above:
+Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -1006,7 +1007,7 @@ Skipped 20 times. Substituted 3 times.
 **TOTAL**: 945 total authors read, with 288 unique.
 176 authors were used only once for this square.
 
-Author demographics, as described above:
+Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -1061,7 +1062,7 @@ Skipped 24 times. Substituted 31 times.
 **TOTAL**: 890 total authors read, with 229 unique.
 95 authors were used only once for this square.
 
-Author demographics, as described above:
+Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -1116,7 +1117,7 @@ Skipped 18 times. Substituted 2 times.
 **TOTAL**: 945 total authors read, with 307 unique.
 202 authors were used only once for this square.
 
-Author demographics, as described above:
+Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -1170,7 +1171,7 @@ Skipped 19 times. Substituted 2 times.
 **TOTAL**: 922 total authors read, with 336 unique.
 216 authors were used only once for this square.
 
-Author demographics, as described above:
+Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -1223,7 +1224,7 @@ Skipped 38 times. Substituted 20 times.
 **TOTAL**: 926 total authors read, with 259 unique.
 152 authors were used only once for this square.
 
-Author demographics, as described above:
+Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -1276,7 +1277,7 @@ Skipped 25 times. Substituted 4 times.
 **TOTAL**: 929 total authors read, with 325 unique.
 215 authors were used only once for this square.
 
-Author demographics, as described above:
+Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -1329,7 +1330,7 @@ Skipped 21 times. Substituted 12 times.
 **TOTAL**: 906 total authors read, with 234 unique.
 136 authors were used only once for this square.
 
-Author demographics, as described above:
+Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -1382,7 +1383,7 @@ Skipped 21 times. Substituted 1 times.
 **TOTAL**: 925 total authors read, with 326 unique.
 221 authors were used only once for this square.
 
-Author demographics, as described above:
+Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -1435,7 +1436,7 @@ Skipped 46 times. Substituted 58 times.
 **TOTAL**: 859 total authors read, with 246 unique.
 161 authors were used only once for this square.
 
-Author demographics, as described above:
+Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -1489,7 +1490,7 @@ Skipped 32 times. Substituted 4 times.
 **TOTAL**: 904 total authors read, with 193 unique.
 119 authors were used only once for this square.
 
-Author demographics, as described above:
+Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -1542,7 +1543,7 @@ Skipped 9 times. Substituted 0 times.
 **TOTAL**: 936 total authors read, with 346 unique.
 214 authors were used only once for this square.
 
-Author demographics, as described above:
+Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -1663,7 +1664,7 @@ Quoting the [very first bingo stats post](https://www.reddit.com/r/Fantasy/comme
 
 A "misspelling" for the purposes of these statistics is any book (title/author combination)
 that does not match the version used as the canonical version during cleaning.
-There were a total of 5857 misspellings.
+There were a total of 5863 misspellings.
 (Note that this does not include short stories.)
 
 The books with the most variation in title or author spellings were:
