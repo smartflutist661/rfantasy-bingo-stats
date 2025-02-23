@@ -5,6 +5,10 @@ from typing import AbstractSet
 import numpy as np
 import pandas
 
+from rfantasy_bingo_stats.constants import (
+    DUPE_RECORD_FILEPATH,
+    IGNORED_RECORD_FILEPATH,
+)
 from rfantasy_bingo_stats.data_operations.author_title_book_operations import (
     get_all_authors,
     get_all_title_author_combos,
@@ -20,15 +24,12 @@ from rfantasy_bingo_stats.models.recorded_ignores import RecordedIgnores
 from rfantasy_bingo_stats.models.recorded_states import RecordedDupes
 
 
-def get_existing_states(
-    dupe_path: Path,
-    ignore_path: Path,
-) -> tuple[RecordedDupes, RecordedIgnores]:
+def get_existing_states() -> tuple[RecordedDupes, RecordedIgnores]:
     """Attempt to retrieve existing RecordedDupes, returning empty on failure"""
     try:
-        with dupe_path.open("r", encoding="utf8") as dupe_file:
+        with DUPE_RECORD_FILEPATH.open("r", encoding="utf8") as dupe_file:
             dupes = RecordedDupes.model_validate_json(dupe_file.read())
-        with ignore_path.open("r", encoding="utf8") as ignore_file:
+        with IGNORED_RECORD_FILEPATH.open("r", encoding="utf8") as ignore_file:
             ignores = RecordedIgnores.model_validate_json(ignore_file.read())
         return dupes, ignores
     except IOError:

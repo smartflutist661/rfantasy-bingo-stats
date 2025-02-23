@@ -3,11 +3,7 @@ from datetime import date
 
 from rfantasy_bingo_stats.calculate_statistics.get_bingo_cards import get_bingo_cards
 from rfantasy_bingo_stats.calculate_statistics.get_stats import format_book
-from rfantasy_bingo_stats.constants import (
-    DUPE_RECORD_FILEPATH,
-    IGNORED_RECORD_FILEPATH,
-    BingoYearDataPaths,
-)
+from rfantasy_bingo_stats.constants import BingoYearDataPaths
 from rfantasy_bingo_stats.data_operations.author_title_book_operations import title_author_to_book
 from rfantasy_bingo_stats.data_operations.get_data import (
     get_bingo_dataframe,
@@ -26,7 +22,7 @@ def main(args: argparse.Namespace) -> None:
     with year_data_paths.card_info.open("r", encoding="utf8") as card_data_file:
         card_data = CardData.model_validate_json(card_data_file.read())
 
-    recorded_duplicates, _ = get_existing_states(DUPE_RECORD_FILEPATH, IGNORED_RECORD_FILEPATH)
+    recorded_duplicates, _ = get_existing_states()
 
     bingo_data = get_bingo_dataframe(year_data_paths.raw_data)
 

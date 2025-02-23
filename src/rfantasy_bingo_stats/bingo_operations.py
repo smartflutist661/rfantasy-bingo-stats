@@ -13,11 +13,7 @@ from rfantasy_bingo_stats.cli import (
     Args,
     BingoArgs,
 )
-from rfantasy_bingo_stats.constants import (
-    DUPE_RECORD_FILEPATH,
-    IGNORED_RECORD_FILEPATH,
-    BingoYearDataPaths,
-)
+from rfantasy_bingo_stats.constants import BingoYearDataPaths
 from rfantasy_bingo_stats.data_operations.get_data import (
     get_bingo_dataframe,
     get_existing_states,
@@ -76,9 +72,7 @@ def bingo_main(args: Args, bingo_args: BingoArgs) -> None:
     bingo_data = get_bingo_dataframe(data_paths.raw_data)
 
     LOGGER.info("Loading data.")
-    recorded_duplicates, recorded_ignores = get_existing_states(
-        DUPE_RECORD_FILEPATH, IGNORED_RECORD_FILEPATH
-    )
+    recorded_duplicates, recorded_ignores = get_existing_states()
 
     if args.skip_updates is False:
         unique_authors = get_unique_bingo_authors(bingo_data, card_data)

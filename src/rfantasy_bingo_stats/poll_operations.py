@@ -12,8 +12,6 @@ from rfantasy_bingo_stats.cli import (
     PollArgs,
 )
 from rfantasy_bingo_stats.constants import (
-    DUPE_RECORD_FILEPATH,
-    IGNORED_RECORD_FILEPATH,
     POLL_SPLIT_OPTIONS,
     PollDataPaths,
 )
@@ -120,9 +118,7 @@ def poll_main(args: Args, poll_args: PollArgs) -> None:
         poll_data_file.write(valid_votes.model_dump_json(indent=2))
 
     LOGGER.info("Loading data.")
-    recorded_duplicates, recorded_ignores = get_existing_states(
-        DUPE_RECORD_FILEPATH, IGNORED_RECORD_FILEPATH
-    )
+    recorded_duplicates, recorded_ignores = get_existing_states()
 
     if args.skip_updates is False:
         unique_authors = frozenset(author for votes in valid_votes.votes for _, author in votes)
