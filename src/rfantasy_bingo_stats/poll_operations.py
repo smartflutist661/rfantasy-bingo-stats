@@ -32,6 +32,7 @@ from rfantasy_bingo_stats.normalization import (
     normalize_authors,
     normalize_books,
     update_author_info_map,
+    update_book_info_map,
 )
 
 
@@ -164,4 +165,5 @@ def poll_main(args: Args, poll_args: PollArgs) -> None:
         LOGGER.info("Vote books updated.")
 
     update_author_info_map(recorded_duplicates)
-    LOGGER.info("Wrote corrected author info.")
+    update_book_info_map(recorded_duplicates)
+    LOGGER.info("Wrote corrected metadata.")

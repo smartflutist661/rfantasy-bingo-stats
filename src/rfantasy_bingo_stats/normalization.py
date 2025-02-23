@@ -3,6 +3,7 @@ from typing import AbstractSet
 
 from rfantasy_bingo_stats.constants import (
     AUTHOR_INFO_FILEPATH,
+    BOOK_INFO_FILEPATH,
     DUPE_RECORD_FILEPATH,
 )
 from rfantasy_bingo_stats.data_operations.update_data import comma_separate_authors
@@ -11,6 +12,10 @@ from rfantasy_bingo_stats.match_books.get_matches import get_possible_matches
 from rfantasy_bingo_stats.models.author_info import (
     AuthorInfo,
     AuthorInfoAdapter,
+)
+from rfantasy_bingo_stats.models.book_info import (
+    BookInfo,
+    BookInfoAdapter,
 )
 from rfantasy_bingo_stats.models.defined_types import (
     Author,
@@ -34,7 +39,7 @@ def normalize_authors(
         f"Starting with {len(unique_authors)} unique authors.\n\n"
         + "Processing possible misspellings."
         + " You may hit ctrl+C at any point to exit, or enter `e` at the prompt."
-        + " Progress will be saved.\n"
+        + " Progress will be saved.\n\nCurrent canonical versions are marked with {CK}\n"
     )
 
     if not skip_authors:
@@ -126,3 +131,20 @@ def update_author_info_map(recorded_duplicates: RecordedDupes) -> Mapping[Author
         author_info_file.write(AuthorInfoAdapter.dump_json(author_data, indent=2).decode("utf8"))
 
     return author_data
+
+
+def update_book_info_map(recorded_duplicates: RecordedDupes) -> Mapping[Book, BookInfo]:
+    """If a book in the current info map has been corrected, swap the info key"""
+    with BOOK_INFO_FILEPATH.open("r", encoding="utf8") as book_info_file:
+        book_data = BookInfoAdapter.validate_json(book_info_file.read())
+
+    # Correct author info keys as necessary
+    book_dedupe_map = recorded_duplicates.get_book_dedupe_map()
+    book_data = {
+        book_dedupe_map.get(book, book): book_info for book, book_info in book_data.items()
+    }
+
+    with BOOK_INFO_FILEPATH.open("w", encoding="utf8") as book_info_file:
+        book_info_file.write(BookInfoAdapter.dump_json(book_data, indent=2).decode("utf8"))
+
+    return book_data

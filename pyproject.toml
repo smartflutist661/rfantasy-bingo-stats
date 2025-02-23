@@ -27,6 +27,7 @@ clean-data = "rfantasy_bingo_stats.__main__:cli"
 find-author-rank = "rfantasy_bingo_stats.scripts.find_author_place:cli"
 get-card-stats = "rfantasy_bingo_stats.scripts.get_card_statistics:cli"
 load-author-data = "rfantasy_bingo_stats.scripts.process_author_data:cli"
+load-book-data = "rfantasy_bingo_stats.scripts.process_book_data:cli"
 
 [build-system]
 requires = ["hatchling"]

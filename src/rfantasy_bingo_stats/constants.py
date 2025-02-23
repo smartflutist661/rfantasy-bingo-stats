@@ -15,6 +15,7 @@ POLL_DATA_PATH = ROOT / "poll_data"
 DUPE_RECORD_FILEPATH: Path = BINGO_DATA_PATH / "resolved_duplicates.json"
 IGNORED_RECORD_FILEPATH: Path = BINGO_DATA_PATH / "ignored_duplicates.json"
 AUTHOR_INFO_FILEPATH: Path = BINGO_DATA_PATH / "author_records.json"
+BOOK_INFO_FILEPATH: Path = BINGO_DATA_PATH / "book_records.json"
 YOY_DATA_FILEPATH: Path = BINGO_DATA_PATH / "year_over_year_stats.json"
 
 

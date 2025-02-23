@@ -38,6 +38,7 @@ from rfantasy_bingo_stats.normalization import (
     normalize_authors,
     normalize_books,
     update_author_info_map,
+    update_book_info_map,
 )
 
 
@@ -114,7 +115,8 @@ def bingo_main(args: Args, bingo_args: BingoArgs) -> None:
         LOGGER.info("Bingo books updated.")
 
     author_data = update_author_info_map(recorded_duplicates)
-    LOGGER.info("Wrote corrected author info.")
+    update_book_info_map(recorded_duplicates)
+    LOGGER.info("Wrote corrected metadata.")
 
     LOGGER.info("Collecting corrected bingo cards.")
     cards = get_bingo_cards(bingo_data, card_data)

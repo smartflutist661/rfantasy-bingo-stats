@@ -28,26 +28,6 @@ from pydantic_core.core_schema import (
 # The purpose of these types is to make each kind of string distinct
 # More complex logic can be implemented as a class, if necessary
 # Inheritance employed for runtime-checkability
-class Book(str):
-    @classmethod
-    def __get_pydantic_core_schema__(
-        cls,
-        _source_type: Self,
-        handler: GetCoreSchemaHandler,
-    ) -> CoreSchema:
-        return no_info_after_validator_function(cls, handler(str))
-
-
-class Title(str):
-    @classmethod
-    def __get_pydantic_core_schema__(
-        cls,
-        _source_type: Self,
-        handler: GetCoreSchemaHandler,
-    ) -> CoreSchema:
-        return no_info_after_validator_function(cls, handler(str))
-
-
 class Author(str):
     @classmethod
     def __get_pydantic_core_schema__(
@@ -58,7 +38,37 @@ class Author(str):
         return no_info_after_validator_function(cls, handler(str))
 
 
+class Book(str):
+    @classmethod
+    def __get_pydantic_core_schema__(
+        cls,
+        _source_type: Self,
+        handler: GetCoreSchemaHandler,
+    ) -> CoreSchema:
+        return no_info_after_validator_function(cls, handler(str))
+
+
+class Series(str):
+    @classmethod
+    def __get_pydantic_core_schema__(
+        cls,
+        _source_type: Self,
+        handler: GetCoreSchemaHandler,
+    ) -> CoreSchema:
+        return no_info_after_validator_function(cls, handler(str))
+
+
 class SquareName(str):
+    @classmethod
+    def __get_pydantic_core_schema__(
+        cls,
+        _source_type: Self,
+        handler: GetCoreSchemaHandler,
+    ) -> CoreSchema:
+        return no_info_after_validator_function(cls, handler(str))
+
+
+class Title(str):
     @classmethod
     def __get_pydantic_core_schema__(
         cls,
