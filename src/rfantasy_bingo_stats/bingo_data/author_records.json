@@ -2507,12 +2507,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Andrzej Sapkowski": {
-    "gender": "Man",
-    "ethnicity": "White",
-    "queer": null,
-    "nationality": "Poland"
-  },
   "Andrzej Wronka": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -5579,7 +5573,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Camila Sosa Vilada": {
+  "Camila Sosa Villada": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -26603,7 +26597,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Matthew Stovet": {
+  "Matthew Stover": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -28499,12 +28493,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "NISIOISIN": {
-    "gender": "Man",
-    "ethnicity": "White",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "Naben Ruthnum": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -29504,6 +29492,12 @@
   "Nisi Shawl": {
     "gender": "Woman",
     "ethnicity": "Black",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "Nisio Isin": {
+    "gender": "Man",
+    "ethnicity": "White",
     "queer": null,
     "nationality": "Unknown"
   },
@@ -32327,7 +32321,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Rifujin Na Magonote": {
+  "Rifujin na Magonote": {
     "gender": "Man",
     "ethnicity": "Asian",
     "queer": null,
@@ -38850,12 +38844,6 @@
     "nationality": "Unknown"
   },
   "Various": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "Various Authors": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
