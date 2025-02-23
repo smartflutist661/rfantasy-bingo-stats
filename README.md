@@ -34,7 +34,9 @@ Run `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1
 
 ## Running the Script
 
-Open a terminal at the top level of the cloned repository (likely `rfantasy-bingo-stats`). Run `uv run clean-data`. You will see a list of choices that looks something like this:
+Open a terminal at the top level of the cloned repository (likely `rfantasy-bingo-stats`).
+Run `uv run clean-data bingo`.
+You will see a list of choices that looks something like this:
 
 ```
 Processing possible misspellings. You may hit ctrl+C at any point to exit, or enter `e` at the prompt. Progress will be saved.
@@ -46,14 +48,15 @@ Choose the best version:
 
 [r] Remove one or more matches
 [c] Enter a better version of all
+[i] Ignore all
 [e] Save and exit
 Selection: 
 ```
 
 Remove any matches that are not actually duplicates of the primary item by entering `r`, then selecting the appropriate numbers.
 Enter `d` when you have removed all of the non-duplicates to return to this selection.
-(You can enter `d` at any time and then select `r` again, which can be useful for particularly long lists of bad matches.)
-If you remove all of the potential matches, the primary item will be recorded as unique.
+You can ignore all of the matches with `i`. If you do so, or remove all of the potential matches,
+the primary item will be recorded as unique.
 Future matches of the primary item with any removed items are automatically ignored.
 
 Enter the number of the best (preferably canonical) version of the remaining matches,
@@ -78,7 +81,14 @@ For instructions on sharing your updates, see the guide to CONTRIBUTING.
 
 Run `uv run clean-data -h` to see a list of options.
 
-### Adjusting the Match Sensitivity
+#### Basic Options
+
+`--skip-updates` skips checking for duplicated authors/books and just proceeds to calculate stats.
+`--skip-authors` skips authors but deduplicates books.
+
+EXPERIMENTAL: Provide a `--github-pat` to automatically commit and push changes.
+
+#### Adjusting the Match Sensitivity
 
 I believe the default sensitivity is set reasonably well.
 However, if you'd like to make matching more or less sensitive, pass the argument `--match-score` to the command.
@@ -87,9 +97,29 @@ For example, to make title/author combinations match only if they're already alm
 run `uv run clean-data --match-score 99`.
 On the other hand, to make some pretty bad matches appear, run `uv run clean-data --match-score 80`.
 
-### Rescanning previously-unmatched books
+#### Rescanning previously-unmatched books
 
 If you'd like to go over books that were previously thought to be unique with a lower match sensitivity,
-pass `--rescan-non-dupes` to the module. Because this set gets smaller each time you find a match,
+pass `--rescan-keys` to the module. Because this set gets smaller each time you find a match,
 processing over lower and lower `match-score`s seems likely to be a useful strategy,
 though you'll reach a point of diminishing returns where most matches are just noise (at which point, congrats, I guess it's done!).
+
+#### Bingo-Only Options
+
+`--show-plots` will display the plots as well as save them to disk after the stats draft is produced.
+
+By default, data from the current (Bingo) year (i.e. the year before the current; 2024 in 2025, etc.) will be processed.
+Pass a year to `--year` to process that year instead. 
+
+#### EXPERIMENTAL: Poll-Only Options
+
+Processing poll data is still experimental and incomplete, but can be started with `uv run clean-data poll --poll-type <poll type>`.
+Poll type is required and may be of the form "Poll Type" or "poll_type"; see the `scripts/old_poll_data_raw` for examples of past polls.
+
+Pass the ID of the Reddit voting post for the poll to `--poll-post-id` to pull the raw top-level comments (votes).
+This is required if the poll you are attempting to process has not been downloaded.
+
+`--force-refresh` will redownload the raw vote comments. `--poll-post-id` is also required.
+
+By default, data from the current year (i.e. 2025 in 2025) will be processed.
+Pass a year to `--year` to process the specified poll type from that year instead.

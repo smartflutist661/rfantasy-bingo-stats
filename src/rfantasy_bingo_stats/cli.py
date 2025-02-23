@@ -23,10 +23,6 @@ class PollArgs(BaseModel):
     )
     poll_type: str = Field(description="Poll class, e.g. Top Novels")
     force_refresh: bool = Field(description="Force re-download of the poll results")
-    aggregate_series: bool = Field(
-        default=True,
-        description="Collect individual novels into series when applicable",
-    )
     year: int = Field(
         default=CURRENT_YEAR,
         description="Pass to process a year other than the current.",
