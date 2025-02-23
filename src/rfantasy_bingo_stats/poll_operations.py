@@ -59,7 +59,7 @@ def retrieve_poll_data(poll_args: PollArgs, raw_data_path: Path) -> None:
                 poll_post_id=poll_args.poll_post_id,
                 poll_type=poll_args.poll_type,
                 poll_year=poll_args.year,
-                comments=comment_bodies,
+                comments=tuple(comment_bodies),
             ).model_dump_json(indent=2)
         )
 
@@ -68,8 +68,9 @@ def validate_votes(data_paths: PollDataPaths) -> None:
     with data_paths.raw_data.open("r", encoding="utf8") as poll_data_file:
         raw_poll_data = RawPollData.model_validate_json(poll_data_file.read())
 
-    title_authors = []
+    title_author_votes = []
     for comment in raw_poll_data.comments:
+        title_authors = []
         for line in comment.split("\n"):
             if line.strip() in {"", "[deleted]", "[removed]"}:
                 continue
@@ -85,11 +86,14 @@ def validate_votes(data_paths: PollDataPaths) -> None:
                     break
             if potential_title_author is not None and len(potential_title_author) == 2:
                 title_authors.append(cast(TitleAuthor, tuple(potential_title_author)))
+            if len(title_authors) == 10:
+                break
+        title_author_votes.append(title_authors)
 
     processed_poll_data = ProcessedPollData(
         poll_type=raw_poll_data.poll_type,
         poll_year=raw_poll_data.poll_year,
-        votes=title_authors,
+        votes=tuple(tuple(title_authors) for title_authors in title_author_votes),
     )
     with data_paths.processed_votes.open("w", encoding="utf8") as poll_data_file:
         poll_data_file.write(processed_poll_data.model_dump_json(indent=2))
