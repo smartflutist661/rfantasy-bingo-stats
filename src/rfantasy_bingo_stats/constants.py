@@ -78,6 +78,14 @@ class PollDataPaths:
         return self.root / "cleaned_poll_votes.json"
 
     @property
+    def unagg_results(self) -> Path:
+        return self.root / "unagg_results.json"
+
+    @property
+    def results(self) -> Path:
+        return self.root / "results.json"
+
+    @property
     def output_md(self) -> Path:
         return self.root / "poll_results_rough_draft.md"
 
