@@ -1,4 +1,5 @@
 from collections import defaultdict
+from collections.abc import Iterable
 from pathlib import Path
 from types import MappingProxyType as MAP
 from typing import (
@@ -18,6 +19,7 @@ from rfantasy_bingo_stats.logger import LOGGER
 from rfantasy_bingo_stats.models.defined_types import (
     Author,
     Book,
+    TitleAuthor,
     TitleAuthorHMCols,
 )
 from rfantasy_bingo_stats.models.recorded_states import RecordedDupes
@@ -91,6 +93,43 @@ def update_bingo_authors(
             for author_dedupe, author_dedupes in all_author_dedupes.items()
         }
     )
+
+
+def update_poll_authors(
+    votes: Iterable[Iterable[TitleAuthor]],
+    author_dedupe_map: Mapping[Author, Author],
+) -> tuple[tuple[TitleAuthor, ...], ...]:
+    """
+    Update poll data for deduped authors
+    """
+
+    all_cleaned_votes = []
+    for single_votes in progressbar(votes):
+        cleaned_votes = []
+        for title, author in single_votes:
+            cleaned_votes.append((title, author_dedupe_map.get(author, author)))
+        all_cleaned_votes.append(tuple(cleaned_votes))
+
+    return tuple(all_cleaned_votes)
+
+
+def update_poll_books(
+    votes: Iterable[Iterable[TitleAuthor]],
+    book_dedupe_map: Mapping[Book, Book],
+) -> tuple[frozenset[Book], ...]:
+    """
+    Update poll data for deduped authors
+    """
+
+    all_cleaned_votes = []
+    for single_votes in progressbar(votes):
+        cleaned_votes = set()
+        for title_author in single_votes:
+            book = title_author_to_book(title_author)
+            cleaned_votes.add(book_dedupe_map.get(book, book))
+        all_cleaned_votes.append(frozenset(cleaned_votes))
+
+    return tuple(all_cleaned_votes)
 
 
 def comma_separate_authors(recorded_states: RecordedDupes) -> None:

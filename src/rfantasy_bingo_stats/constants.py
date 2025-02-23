@@ -70,7 +70,11 @@ class PollDataPaths:
 
     @property
     def processed_votes(self) -> Path:
-        return self.root / "poll_votes.json"
+        return self.root / "processed_poll_votes.json"
+
+    @property
+    def cleaned_votes(self) -> Path:
+        return self.root / "cleaned_poll_votes.json"
 
     @property
     def output_md(self) -> Path:

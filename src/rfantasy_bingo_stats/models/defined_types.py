@@ -7,6 +7,7 @@ from collections.abc import (
     Mapping,
 )
 from typing import (
+    AbstractSet,
     Annotated,
     NewType,
     Self,
@@ -114,3 +115,6 @@ SortedCounter = Annotated[Counter[K], PlainSerializer(sort)]
 SortedDefaultdict = Annotated[defaultdict[K, V], PlainSerializer(sort)]
 SortedMapping = Annotated[Mapping[K, V], PlainSerializer(sort)]
 SortedSet = Annotated[set[T], PlainSerializer(sort), Field(default_factory=set)]
+SortedAbstractSet = Annotated[
+    AbstractSet[T], PlainSerializer(sort), Field(default_factory=frozenset)
+]
