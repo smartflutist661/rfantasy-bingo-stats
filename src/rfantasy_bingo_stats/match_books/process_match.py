@@ -161,6 +161,7 @@ def get_best_match(
         choice_str.append("")
         choice_str.append("[r] Remove one or more matches")
         choice_str.append("[c] Enter a better version of all")
+        choice_str.append("[i] Ignore all")
         choice_str.append("[e] Save and exit")
         choice_str.append("Selection: ")
         choice = input("\n".join(choice_str))
@@ -174,6 +175,8 @@ def get_best_match(
                 BookOrAuthor,
                 input("Enter a better version, being sure to use the proper format:\n"),
             ), frozenset(matched_items)
+        elif choice == "i":
+            return None, frozenset()
 
     if len(matched_items) > 1:
         return match_choices[int(choice)], frozenset(matched_items)  # type: ignore[possibly-undefined]  # Never undefined since `choice` inits to `"d"`
