@@ -157,7 +157,7 @@
     [
       "A Song of Ice and Fire /// George R.R. Martin",
       "Blood Over Bright Haven /// M.L. Wang",
-      "Dead Djinn Universe /// P. Djeli Clark.",
+      "Dead Djinn Universe /// P. Djèlí Clark",
       "Harry Potter /// J.K. Rowling",
       "Murderbot Diaries /// Martha Wells",
       "Red Rising /// Pierce Brown",
@@ -246,7 +246,7 @@
       "Nine Princes in Amber /// Roger Zelazny",
       "Saga of Pliocene Exile /// Julian May",
       "The Book of the New Sun /// Gene Wolfe",
-      "The Curse of Chalion /// Lois McMaster Bujold [[World of the Five Gods]]",
+      "The Curse of Chalion /// Lois McMaster Bujold",
       "The Gold Coast /// Kim Stanley Robinson",
       "The Yiddish Policemen's Union /// Michael Chabon"
     ],
@@ -926,7 +926,7 @@
       "Hexwood /// Diana Wynne Jones",
       "His Dark Materials /// Philip Pullman",
       "Memory, Sorrow and Thorn /// Tad Williams",
-      "Penric and Desdemona /// Lois McMaster Bujold [[World of the Five Gods]]",
+      "Penric's Demon /// Lois McMaster Bujold",
       "Rivers of London /// Ben Aaronovitch",
       "Song of the Lioness /// Tamora Pierce",
       "The Old Kingdom /// Garth Nix",
@@ -1728,7 +1728,7 @@
       "The Shining /// Stephen King",
       "Titus Groan /// Mervyn Peake",
       "Wizard and Glass /// Stephen King",
-      "X-Men: The Dark Phoenix Saga /// Chris Claremont and John Byrne"
+      "X-Men: The Dark Phoenix Saga /// Chris Claremont, John Byrne"
     ],
     [
       "Ammonite /// Nicola Griffith",
@@ -2661,7 +2661,7 @@
       "Titan Wars /// Samuel Gately"
     ],
     [
-      "Book of the Ancestor /// Mark Lawerence",
+      "Book of the Ancestor /// Mark Lawrence",
       "Discworld /// Terry Pratchett",
       "Green Bone Saga /// Fonda Lee",
       "Kingkiller Chronicles /// Patrick Rothfuss",
@@ -3456,7 +3456,7 @@
     [
       "Broken Earth trilogy /// N.K. Jemisin",
       "Malazan book of the Fallen /// Steven Erikson",
-      "Novels of the Malazan Empire /// Ian Esslemont",
+      "Novels of the Malazan Empire /// Ian C. Esslemont",
       "Stormlight archive /// Brandon Sanderson",
       "Sunlit man/Tress of the Emerald Sea /// Brandon Sanderson",
       "The Black Company /// Glen Cook",
@@ -4192,7 +4192,7 @@
       "Deerskin /// Robin McKinley",
       "Howl's Moving Castle /// Diana Wynne Jones",
       "Mirror Dance /// Lois McMaster Bujold",
-      "Paladin of Souls /// Lois McMaster Bujold [[World of the Five Gods]]",
+      "Paladin of Souls /// Lois McMaster Bujold",
       "The Captive Prince trilogy /// C.S. Pacat",
       "The Earthsea Cycle /// Ursula K. Le Guin",
       "The Goblin Emperor /// Katherine Addison",
@@ -4344,7 +4344,7 @@
       "Discworld /// Terry Pratchett",
       "Legend of Eli Monpress /// Rachel Aaron",
       "Realm of the elderlings /// Robin Hobb",
-      "The Golden Key /// Jennifer Roberson, Kate Elliott, Melanie Rawn",
+      "The Golden Key /// Melanie Rawn, Jennifer Roberson, Kate Elliott",
       "The Midnight Library /// Matt Haig",
       "The Night Circus /// Erin Morgenstern",
       "The Wolf in the Whale /// Jordanna Max Brodsky",
@@ -4390,7 +4390,7 @@
       "Dark Elf Trilogy /// R.A. Salvatore",
       "Enders Game /// Orson Scott Card",
       "Gardens of the Moon /// Steven Erikson",
-      "Horus Rising /// Dan Abbnet",
+      "Horus Rising /// Dan Abnett",
       "Jade City /// Fonda Lee",
       "Licanius /// James Islington",
       "Mistborn /// Brandon Sanderson",
@@ -4449,9 +4449,9 @@
     [
       "Dune /// Frank Herbert",
       "Gentleman Bastards /// Scott Lynch",
+      "Hard Contact /// Karen Traviss",
       "Outlander /// Diana Gabaldon",
       "Powder Mage /// Brian McClellan",
-      "Star Wars: Republic Commandos /// Karen Traviss",
       "The Fellowship of the Ring /// J.R.R. Tolkien",
       "The Final Architecture /// Adrian Tchaikovsky",
       "The Greed Bone Saga /// Fonda Lee",
@@ -4593,9 +4593,9 @@
       "Tuyo series /// Rachel Neumeier"
     ],
     [
-      "A Storm of Swords /// George R.R. Martin [[A Song of Ice and Fire]]",
+      "A Storm of Swords /// George R.R. Martin",
       "Dragon Mage /// M.L. Spencer",
-      "Oathbringer /// Brandon Sanderson [[The Stormlight Archive]]",
+      "Oathbringer /// Brandon Sanderson",
       "Red Country /// Joe Abercrombie",
       "The Bonehunters /// Steven Erikson",
       "The Gathering Storm /// Robert Jordan",
@@ -4609,7 +4609,7 @@
       "Finder Chronicles /// Suzanne Palmer",
       "Nevermoor /// Jessica Townsend",
       "Piranesi /// Susanna Clarke",
-      "Stars Uncharted /// S. K. Dunstall",
+      "Stars Uncharted /// S.K. Dunstall",
       "The Burning Kingdoms /// Tasha Suri",
       "The Stormlight Archive /// Brandon Sanderson",
       "The Will of the Many /// James Islington",
@@ -5559,11 +5559,11 @@
     ],
     [
       "Craft Sequence /// Max Gladstone",
+      "Dust and Light /// Carol Berg",
       "Kushiel's Universe /// Jacqueline Carey",
-      "Locked Tomb /// Tamsyn Miur",
+      "Locked Tomb /// Tamsyn Muir",
       "Queen's Thief /// Megan Whalen Turner",
       "Realm of Elderlings /// Robin Hobb",
-      "Sanctuary Duet /// Carol Berg",
       "Sholomance /// Naomi Novik",
       "Stormlight Arhive /// Brandon Sanderson",
       "Sun Sword /// Michelle West",
@@ -5829,12 +5829,12 @@
       "Xeelee /// Stephen Baxter"
     ],
     [
-      "discworld /// terry pratchett (specifically the guards series, if the whole is not acceptable)",
+      "discworld /// Terry Pratchett",
       "dragonlance legends /// Margaret Weis, Tracy Hickman",
       "earthsea /// Ursula K. Le Guin",
       "memory sorrow and thorn /// Tad Williams",
       "song of the lioness series /// Tamora Pierce",
-      "the book of swords series /// fred saberhagen",
+      "the book of swords series /// Fred Saberhagen",
       "the enchanted forest chronicles /// Patricia C. Wrede",
       "the iron dragon trilogy /// Michael Swanwick",
       "the lord of the rings /// J.R.R. Tolkien",
@@ -6008,7 +6008,7 @@
       "Broken Earth /// N.K. Jemisin",
       "Discworld /// Terry Pratchett",
       "Frankenstein /// Mary Shelley",
-      "IT /// Stephen King.",
+      "IT /// Stephen King",
       "Lord of the Rings /// J.R.R. Tolkien",
       "Never Let Me Go /// Kazuo Ishiguro",
       "The Eye of the World /// Robert Jordan",
@@ -6141,7 +6141,7 @@
       "Blood Over Bright Haven /// M.L. Wang",
       "Deerskin /// Robin McKinley",
       "Kindred /// Octavia E. Butler",
-      "Lays of the Hearth-Fire /// Victoria Goddard \\[\\[Nine Worlds\\]\\]",
+      "Lays of the Hearth-Fire /// Victoria Goddard",
       "Murderbot Diaries /// Martha Wells",
       "Protector of the Small /// Tamora Pierce",
       "The House of Rust /// Khadija Abdalla Bajaber",
@@ -7098,7 +7098,7 @@
       "Twilight /// Stephenie Meyer"
     ],
     [
-      "Dragonlance, /// Margaret Weis & Tracy Hickman (not sure if I should enter a specific trilogy for this one, if so, then The Legends Trilogy)",
+      "Dragonlance, /// Margaret Weis, Tracy Hickman",
       "Elantris /// Brandon Sanderson",
       "Heaven Official's Blessing (Tian Guan Ci Fu) /// Mò Xiāng Tóng Xiù",
       "Night Angel /// Brent Weeks",
@@ -7427,7 +7427,7 @@
       "A Song of Ice and Fire /// George R.R. Martin",
       "Daughter of the Empire /// Raymond E. Feist",
       "Dune /// Frank Herbert",
-      "Lion of Macedon /// David Gemell",
+      "Lion of Macedon /// David Gemmell",
       "The Fellowship of the Ring /// J.R.R. Tolkien",
       "The First Law Trilogy /// Joe Abercrombie",
       "The Second Apocalypse /// R. Scott Bakker",
@@ -7582,7 +7582,7 @@
       "Stormlight Archive /// Brandon Sanderson",
       "The Outside /// Ada Hoffmann",
       "The Traitor Baru Cormorant /// Seth Dickinson",
-      "Vita Nostra /// Maryna and Sergey Dyachenko",
+      "Vita Nostra /// Marina Dyachenko, Sergey Dyachenko",
       "Xenogenisis /// Octavia E. Butler"
     ],
     [
@@ -7642,7 +7642,7 @@
       "Realm of the Elderlings /// Robin Hobb",
       "Riftwar saga /// Raymond E. Feist",
       "Shadows of the apt /// Adrian Tchaikovsky",
-      "The painted man /// Peter v. Brett.",
+      "The painted man /// Peter V. Brett",
       "The symphony of ages /// Elizabeth Haydon"
     ],
     [
@@ -7653,7 +7653,7 @@
       "# A Knight of the Seven Kingdoms /// George R.R. Martin",
       "# Ashes of Honor /// Seanan McGuire",
       "# Captain Vorpatril's Alliance /// Lois McMaster Bujold",
-      "# Dungeon Crawler Carl /// [Matt Dinniman](https://www.goodreads.com/author/show/999015.Matt_Dinniman)",
+      "# Dungeon Crawler Carl /// Matt Dinniman",
       "# Hell's Wardens /// Pirateaba",
       "# Red Country /// Joe Abercrombie",
       "# Super Supportive /// [Sleyca](https://www.goodreads.com/author/show/42810991.Sleyca)",
@@ -8086,7 +8086,7 @@
       "Stormlight archive /// Brandon Sanderson",
       "Sun Eater /// Christopher Ruocchio",
       "The Dandelion dynasty /// Ken Liu",
-      "The beginning after the end /// Turtleme",
+      "The beginning after the end /// TurtleMe",
       "The bound and the broken /// Ryan Cahill",
       "The first law /// Joe Abercrombie"
     ],
@@ -8346,7 +8346,7 @@
       "The Fifth Season /// N.K. Jemisin",
       "The First Law /// Joe Abercrombie",
       "The Goblin Emperor /// Katherine Addison",
-      "The Hands of the Emperor /// Victoria A. Goddard",
+      "The Hands of the Emperor /// Victoria Goddard",
       "The Song of Achilles /// Madeline Miller",
       "The Spear Cuts Through Water /// Simon Jimenez"
     ],
@@ -8492,7 +8492,7 @@
       "Locked Tomb /// Tamsyn Muir",
       "Malazan Book of the Fallen /// Steven Erikson",
       "Red Rising /// Pierce Brown",
-      "Tell Me I'm Worthless /// Allison Rumfitt",
+      "Tell Me I'm Worthless /// Alison Rumfitt",
       "The Broken Earth Trilogy /// N.K. Jemisin",
       "The Library at Mount Char /// Scott Hawkins",
       "The Road /// Cormac McCarthy",
@@ -8629,7 +8629,7 @@
       "Mistborn /// Brandon Sanderson",
       "Realm of the Elderlings /// Robin Hobb",
       "Red Rising /// Pierce Brown",
-      "Riftwar Cycle, Raymond E /// Feist",
+      "Riftwar Cycle, Raymond E /// Raymond E. Feist",
       "The Dresden Files /// Jim Butcher",
       "The Kingkiller Chronicle /// Patrick Rothfuss",
       "The Stormlight Archive /// Brandon Sanderson",
@@ -9576,7 +9576,7 @@
     [
       "A Song of Ice and Fire /// George R.R. Martin",
       "Bridge Trilogy /// William Gibson",
-      "Ficciones /// Jose Luis Borges",
+      "Ficciones /// Jorge Luis Borges",
       "Foucault's Pendulum /// Umberto Eco",
       "Jonathan Strange & Mr. Norrell /// Susanna Clarke",
       "Kharkanas Trilogy /// Steven Erikson",
@@ -9820,7 +9820,7 @@
       "The Malazan Book of the Fallen /// Steven Erikson"
     ],
     [
-      "A Lush and Seething Hell /// John Horner Jacobs",
+      "A Lush and Seething Hell /// John Hornor Jacobs",
       "Dungeon Crawler Carl /// Matt Dinniman",
       "Gentleman Bastards /// Scott Lynch",
       "John Dies at the End /// David Wong",
@@ -9936,7 +9936,7 @@
       "The Library at Mount Char /// Scott Hawkins",
       "The Lions of Al-Rassan /// Guy Gavriel Kay",
       "The Name of the Wind /// Patrick Rothfuss",
-      "The Night Lords Trilogy /// Aaron Demski-Bowden",
+      "The Night Lords Trilogy /// Aaron Dembski-Bowden",
       "The Traitor Baru Cormorant /// Seth Dickinson"
     ],
     [
@@ -10057,7 +10057,7 @@
       "Invisible Cities /// Italo Calvino",
       "Jonathan Strange & Mr. Norrell /// Susanna Clarke",
       "Mars Trilogy /// Kim Stanley Robinson",
-      "The book of the new sun /// gene wolfe",
+      "The book of the new sun /// Gene Wolfe",
       "The dispossessed /// Ursula K. Le Guin",
       "The lord of the rings /// J.R.R. Tolkien",
       "The malazan book of the fallen /// Steven Erikson",
@@ -10172,7 +10172,7 @@
       "A Song of Ice and Fire /// George R.R. Martin",
       "Greenbone Saga /// Fonda Lee",
       "Harry Potter /// J.K. Rowling",
-      "Horus Heresy /// Multiple Writers",
+      "Horus Heresy /// Multiple",
       "Malazan Book of the Fallen /// Steven Erikson",
       "Mistborn /// Brandon Sanderson",
       "Red Rising /// Pierce Brown",
@@ -12119,7 +12119,7 @@
       "The Realm of the Elderlings /// Robin Hobb"
     ],
     [
-      "Empire /// Feist, Wurst",
+      "Empire /// Raymond E. Feist, Wurst",
       "Going Postal /// Terry Pratchett",
       "Harry Potter /// J.K. Rowling",
       "Iron Druid Chronicles /// Hearne",
@@ -12179,7 +12179,7 @@
       "The Witcher /// ‎Andrzej Sapkowski"
     ],
     [
-      "(arc of a ) Scythe, /// Neil Schusterman",
+      "(arc of a ) Scythe, /// Neal Shusterman",
       "Harry Potter, /// J.K. Rowling",
       "Howl's Moving Castle, /// Diana Wynne Jones",
       "Mistborn, /// Brandon Sanderson",
@@ -12187,7 +12187,7 @@
       "The Stormlight Archive, /// Brandon Sanderson",
       "The memoirs of Lady Trent, /// Marie Brennan",
       "The princess bride, /// William Goldman",
-      "The psychology of Time Travel, /// Kate Mascharenhas",
+      "The psychology of Time Travel, /// Kate Mascarenhas",
       "Tress of the Emerald Sea, /// Brandon Sanderson"
     ],
     [
