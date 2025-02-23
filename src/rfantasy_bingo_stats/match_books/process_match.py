@@ -71,7 +71,8 @@ def process_new_pair(
 
         if len(filtered_match_choices) > 1:
             best_match, other_matches = get_best_match(
-                original_matched_items=filtered_match_choices
+                original_matched_items=filtered_match_choices,
+                existing_match_keys=existing_match_keys,
             )
 
             if best_match in dedupes:
@@ -143,6 +144,7 @@ def find_existing_match(
 
 def get_best_match(
     original_matched_items: AbstractSet[BookOrAuthor],
+    existing_match_keys: AbstractSet[BookOrAuthor],
 ) -> tuple[Optional[BookOrAuthor], frozenset[BookOrAuthor]]:
     """Process all possible matches for a book"""
 
@@ -152,7 +154,10 @@ def get_best_match(
         match_choices = tuple(matched_items)
         choice_str = ["Choose the best version:"]
         for choice_num, match_choice in enumerate(match_choices):
-            choice_str.append(f"[{choice_num}] {match_choice}")
+            if match_choice in existing_match_keys:
+                choice_str.append(f"[{choice_num}] {match_choice} {{CK}}")
+            else:
+                choice_str.append(f"[{choice_num}] {match_choice}")
         choice_str.append("")
         choice_str.append("[r] Remove one or more matches")
         choice_str.append("[c] Enter a better version of all")
