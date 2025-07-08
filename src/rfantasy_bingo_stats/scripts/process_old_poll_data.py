@@ -1,7 +1,6 @@
 import argparse
 from collections import Counter
 from pathlib import Path
-from typing import cast
 
 import pandas
 
@@ -15,7 +14,6 @@ from rfantasy_bingo_stats.data_operations.update_data import (
 from rfantasy_bingo_stats.models.defined_types import (
     Author,
     Title,
-    TitleAuthor,
 )
 from rfantasy_bingo_stats.models.unagg_poll_results import UnaggregatedPollResults
 from rfantasy_bingo_stats.normalization import (
@@ -33,8 +31,7 @@ def main(_: argparse.Namespace) -> None:
         poll_name = poll_data_filepath.stem
         df = pandas.read_csv(poll_data_filepath)
         all_poll_votes[poll_name] = [
-            cast(TitleAuthor, (Title(row["Name"]), Author(row["Author"])))
-            for _, row in df.iterrows()
+            (Title(row["Name"]), Author(row["Author"])) for _, row in df.iterrows()
         ]
 
     unique_authors = frozenset(

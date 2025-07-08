@@ -71,8 +71,8 @@ def get_possible_bingos() -> Mapping[BingoName, frozenset[int]]:
 POSSIBLE_BINGOS = get_possible_bingos()
 
 
-def get_short_story_square(
-    row: pandas.Series,  # type: ignore[type-arg]
+def get_short_story_square(  # type: ignore[explicit-any]
+    row: pandas.Series,
     card_data: CardData,
 ) -> Optional[ShortStorySquare]:
     """Get a square of five short stories"""
@@ -99,8 +99,8 @@ def get_short_story_square(
     )
 
 
-def get_bingo_square(
-    row: pandas.Series,  # type: ignore[type-arg]
+def get_bingo_square(  # type: ignore[explicit-any]
+    row: pandas.Series,
     title_col: TitleCol,
     author_col: AuthorCol,
     hm_col: HardModeCol,
@@ -128,8 +128,8 @@ def get_bingo_square(
     return None
 
 
-def get_bingo_card(
-    row: pandas.Series,  # type: ignore[type-arg]
+def get_bingo_card(  # type: ignore[explicit-any]
+    row: pandas.Series,
     subbed_square_map: Mapping[SquareName, SquareName],
     card_data: CardData,
 ) -> BingoCard:
