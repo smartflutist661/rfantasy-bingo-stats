@@ -2123,6 +2123,12 @@
     "queer": null,
     "nationality": "Unknown"
   },
+  "Amy E. Reichert": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
   "Amy Griswold": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -2154,12 +2160,6 @@
     "nationality": "Unknown"
   },
   "Amy Raphael": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "Amy Reichert": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -3788,12 +3788,6 @@
   "Bailey Cates": {
     "gender": "Woman",
     "ethnicity": "White",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "Bakker": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
     "queer": null,
     "nationality": "Unknown"
   },
@@ -34391,12 +34385,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "S.A. Chakraborty": {
-    "gender": "Woman",
-    "ethnicity": "White",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "S.A. Hunt": {
     "gender": "Woman",
     "ethnicity": "White",
@@ -36068,6 +36056,12 @@
   "Shannon Appelcline": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "Shannon Chakraborty": {
+    "gender": "Woman",
+    "ethnicity": "White",
     "queer": null,
     "nationality": "Unknown"
   },
