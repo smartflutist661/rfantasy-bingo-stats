@@ -15,6 +15,22 @@ from rfantasy_bingo_stats.models.defined_types import (
     BookOrAuthor,
 )
 
+BANNED_MATCHES = {
+    "BO",
+    "CED",
+    "Das",
+    "DC",
+    "H A",
+    "Jae",
+    "Lee",
+    "Noc",
+    "ONE",
+    "SIU",
+    "Tan",
+    "Tuí",
+    "âge",
+}
+
 
 def process_new_pair(
     dupes: defaultdict[BookOrAuthor, set[BookOrAuthor]],
@@ -47,9 +63,8 @@ def process_new_pair(
             else:
                 possible_matches.add(item_match)
 
-        initial_match_choices = (
-            frozenset(possible_matches | existing_match_keys)
-            - all_matches_to_ignore[item_to_process]
+        initial_match_choices = frozenset(possible_matches | existing_match_keys) - (
+            all_matches_to_ignore[item_to_process] | BANNED_MATCHES
         )
 
         filtered_match_choices = set(initial_match_choices)
