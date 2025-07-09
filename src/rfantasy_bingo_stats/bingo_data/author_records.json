@@ -1853,12 +1853,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Alvaro Enrigue": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "Alvin Schwartz": {
     "gender": "Man",
     "ethnicity": "White",
@@ -10985,7 +10979,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Elia Barcelo": {
+  "Elia Barceló": {
     "gender": "Woman",
     "ethnicity": "White",
     "queer": null,
@@ -36317,12 +36311,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Sherilyn Kenyon": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "Sherman Alexie": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -36330,6 +36318,12 @@
     "nationality": "Unknown"
   },
   "Sherri Browning Erwin": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "Sherrilyn Kenyon": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -40061,7 +40055,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Vince Liaguno": {
+  "Vince A. Liaguno": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -41652,6 +41646,12 @@
     "nationality": "Unknown"
   },
   "zechamp": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "Álvaro Enrigue": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
