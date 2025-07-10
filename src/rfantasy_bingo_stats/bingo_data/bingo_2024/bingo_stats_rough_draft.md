@@ -23,7 +23,7 @@ In addition, if you did something like, say, put **The Lost Metal** as a short s
 3. Books by multiple authors were counted once for each author.
 E.g.: **In the Heart of Darkness** by Eric Flint and David Drake counts as a read for both Eric Flint and David Drake.
 *However*, books by a writing team with a single-author pseudonym, e.g. M.A. Carrick, were counted once for the pseudonym, and not for the authors behind the pseudonym.
-4. Author demographic statistics are now included below. However, researching all 6550 individual authors
+4. Author demographic statistics are now included below. However, researching all 6543 individual authors
 is quite an undertaking, and there is still a reasonable amount of information missing, especially regarding Nationality.
 By the time next year's stats roll around I hope to have it reasonably complete.
 5. Short stories were excluded from most of the stats below. They *were* included in the total story count.
@@ -37,12 +37,12 @@ By the time next year's stats roll around I hope to have it reasonably complete.
 - There were 1353 cards submitted, 140 of which were incomplete.
 The minimum number of filled squares was 4. 25 were *this close*, with 24 filled squares.
 1073 squares were left blank, leaving 32752 filled squares.
-- There were 33444 total stories, with 11413 unique stories read,
-by 6550 unique authors (33752 total).
-8375 books and 4208 authors were used only once. 
+- There were 33444 total stories, with 11406 unique stories read,
+by 6543 unique authors (33752 total).
+8365 books and 4199 authors were used only once. 
 - The top squares left blank were: **Published in the 1990s**, blank on 65 cards; **Bards** and **Five SFF Short Stories** and **Dark Academia**, blank on 63 cards each; **Space Opera**, blank on 61 cards. On the other hand, **First in a Series** was only left blank 11 times.
-- The three squares most often substituted were: **Book Club or Readalong Book** and **Bards**, substituted on 64 cards each; **Dark Academia**, substituted on 42 cards; **Self-Published or Indie Publisher**, substituted on 40 cards.
-**Multi-POV**, **Survival**, and **Alliterative Title** were never substituted.
+- The three squares most often substituted were: **Bards** and **Book Club or Readalong Book**, substituted on 64 cards each; **Dark Academia**, substituted on 42 cards; **Self-Published or Indie Publisher**, substituted on 40 cards.
+**Survival**, **Alliterative Title**, and **Multi-POV** were never substituted.
 This means that Bards was the least favorite overall, skipped or substituted a total of 127 times, and
 First in a Series was the favorite, skipped or substituted only 14 times.
 - There were an average of 6.2 unique books per card.
@@ -153,7 +153,7 @@ There were an average of 5.2 reads per author.
 
 The following tables represent a best-effort attempt at a statistical breakdown of author demographics.
 The "Overall %" column represents the _total_ number of times a demographic appeared in Bingo data,
-i.e. Brandon Sanderson counts 187010 times for each of his demographic groups.
+i.e. Brandon Sanderson counts 840701 times for each of his demographic groups.
 The "Unique %" column represents the unique number of times a demographic appeared in Bingo data,
 i.e. Brandon Sanderson counts only once, no matter how many squares or cards he appears on.
 
@@ -847,10 +847,10 @@ Author demographics, as described in the overall stats on authors:
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Asian|10.5|5.5|
-|Black|1.7|2.3|
+|Black|1.6|2.1|
 |Hispanic|2.5|1.1|
 |White|57.3|42.9|
-|Unknown|26.5|47.5|
+|Unknown|26.6|47.7|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -860,10 +860,10 @@ Author demographics, as described in the overall stats on authors:
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|37.6|26.2|
+|Man|37.5|26.0|
 |Nonbinary|1.6|1.8|
 |Woman|34.3|24.6|
-|Unknown|26.5|47.5|
+|Unknown|26.6|47.7|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -1035,9 +1035,9 @@ Author demographics, as described in the overall stats on authors:
 - **Nine Goblins** by T. Kingfisher, read 59 times
 - **The Unspoken Name** by A.K. Larkwood, read 40 times
 
-**TOTAL**: 1280 books read, with 434 unique titles.
+**TOTAL**: 1280 books read, with 433 unique titles.
 824 books were claimed to qualify for hard mode.
-345 books were used only once for this square.
+343 books were used only once for this square.
 Skipped 57 times. Substituted 16 times.
 
 #### Most Read Authors
@@ -1048,8 +1048,8 @@ Skipped 57 times. Substituted 16 times.
 - Christopher Buehlman, read 58 times
 - A.K. Larkwood, read 52 times
 
-**TOTAL**: 1302 total authors read, with 300 unique.
-208 authors were used only once for this square.
+**TOTAL**: 1302 total authors read, with 299 unique.
+207 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
@@ -1057,8 +1057,8 @@ Author demographics, as described in the overall stats on authors:
 |---------|:---------:|:---------:|
 |Asian|0.5|1.3|
 |Black|0.4|1.3|
-|White|76.6|30.6|
-|Unknown|22.6|66.8|
+|White|76.6|30.7|
+|Unknown|22.6|66.7|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -1068,12 +1068,12 @@ Author demographics, as described in the overall stats on authors:
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Man|51.4|19.4|
-|Woman|25.8|13.2|
-|Unknown|22.6|66.8|
+|Woman|25.8|13.3|
+|Unknown|22.6|66.7|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|29.5|3.5|
+|Yes|29.5|3.6|
 |Unknown|70.3|95.8|
 
 ### 17. Space Opera
@@ -1086,9 +1086,9 @@ Author demographics, as described in the overall stats on authors:
 - **Ancillary Justice** by Ann Leckie, read 36 times
 - **Space Opera** by Catherynne M. Valente, read 29 times
 
-**TOTAL**: 1269 books read, with 469 unique titles.
+**TOTAL**: 1269 books read, with 468 unique titles.
 795 books were claimed to qualify for hard mode.
-328 books were used only once for this square.
+326 books were used only once for this square.
 Skipped 61 times. Substituted 23 times.
 
 #### Most Read Authors
@@ -1099,8 +1099,8 @@ Skipped 61 times. Substituted 23 times.
 - Arkady Martine, read 67 times
 - James S.A. Corey, read 53 times
 
-**TOTAL**: 1296 total authors read, with 308 unique.
-200 authors were used only once for this square.
+**TOTAL**: 1296 total authors read, with 307 unique.
+198 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
@@ -1109,20 +1109,20 @@ Author demographics, as described in the overall stats on authors:
 |Asian|4.3|3.1|
 |Black|2.1|3.4|
 |Hispanic|1.1|1.2|
-|White|71.7|37.4|
-|Unknown|20.8|54.9|
+|White|71.7|37.5|
+|Unknown|20.8|54.8|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |United States|5.9|4.6|
-|Unknown|92.1|93.3|
+|Unknown|92.1|93.2|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|28.1|23.0|
+|Man|28.1|23.1|
 |Nonbinary|3.1|2.8|
-|Woman|48.0|19.3|
-|Unknown|20.8|54.9|
+|Woman|48.0|19.4|
+|Unknown|20.8|54.8|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -1152,19 +1152,19 @@ Skipped 47 times. Substituted 2 times.
 - Moniquill Blackgoose, read 34 times
 - Nghi Vo, read 29 times
 
-**TOTAL**: 1349 total authors read, with 473 unique.
-304 authors were used only once for this square.
+**TOTAL**: 1349 total authors read, with 472 unique.
+303 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Asian|28.1|17.5|
-|Black|20.6|9.4|
+|Black|20.6|9.5|
 |Hispanic|3.6|2.1|
-|Native|4.6|2.1|
+|Native|4.7|2.1|
 |White|0.6|1.4|
-|Unknown|42.0|67.4|
+|Unknown|42.0|67.3|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -1177,12 +1177,12 @@ Author demographics, as described in the overall stats on authors:
 |Man|19.6|11.1|
 |Nonbinary|5.0|2.3|
 |Woman|33.4|19.3|
-|Unknown|42.0|67.4|
+|Unknown|42.0|67.3|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Yes|13.0|5.1|
-|Unknown|86.0|94.5|
+|Unknown|86.0|94.4|
 
 ### 19. Survival
 
@@ -1299,9 +1299,9 @@ Author demographics, as described in the overall stats on authors:
 - **The Sword of Kaigen** by M.L. Wang, read 17 times
 - TIE: **Emily Wilde's Map of the Otherlands** by Heather Fawcett and **The Unmaking of June Farrow** by Adrienne Young, each read 16 times
 
-**TOTAL**: 1311 books read, with 698 unique titles.
+**TOTAL**: 1311 books read, with 697 unique titles.
 942 books were claimed to qualify for hard mode.
-538 books were used only once for this square.
+537 books were used only once for this square.
 Skipped 34 times. Substituted 8 times.
 
 #### Most Read Authors
@@ -1312,8 +1312,8 @@ Skipped 34 times. Substituted 8 times.
 - T. Kingfisher, read 28 times
 - Sarah Beth Durst, read 26 times
 
-**TOTAL**: 1346 total authors read, with 535 unique.
-374 authors were used only once for this square.
+**TOTAL**: 1346 total authors read, with 534 unique.
+373 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
@@ -1323,25 +1323,25 @@ Author demographics, as described in the overall stats on authors:
 |Black|2.0|1.8|
 |Hispanic|1.4|1.1|
 |Native|2.2|1.1|
-|White|50.9|32.7|
-|Unknown|40.1|61.3|
+|White|51.0|32.7|
+|Unknown|40.0|61.3|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |United States|5.3|3.0|
-|Unknown|92.8|95.3|
+|Unknown|92.8|95.2|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Man|23.0|16.5|
 |Nonbinary|1.6|1.2|
-|Woman|34.5|20.7|
-|Unknown|40.9|61.5|
+|Woman|34.6|20.8|
+|Unknown|40.8|61.4|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|9.1|4.4|
-|Unknown|90.9|95.6|
+|Yes|9.2|4.4|
+|Unknown|90.8|95.6|
 
 ### 22. Five SFF Short Stories
 
@@ -1510,9 +1510,9 @@ Author demographics, as described in the overall stats on authors:
 - **The Spear Cuts Through Water** by Simon Jimenez, read 22 times
 - TIE: **Murder at Spindle Manor** by Morgan Stang and **Someone You Can Build a Nest In** by John Wiswell, each read 20 times
 
-**TOTAL**: 1230 books read, with 435 unique titles.
+**TOTAL**: 1230 books read, with 434 unique titles.
 402 books were claimed to qualify for hard mode.
-266 books were used only once for this square.
+264 books were used only once for this square.
 Skipped 59 times. Substituted 64 times.
 
 #### Most Read Authors
@@ -1523,36 +1523,36 @@ Skipped 59 times. Substituted 64 times.
 - John Wiswell, read 25 times
 - Octavia E. Butler, read 24 times
 
-**TOTAL**: 1251 total authors read, with 320 unique.
-168 authors were used only once for this square.
+**TOTAL**: 1251 total authors read, with 319 unique.
+167 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|12.9|11.5|
+|Asian|13.0|11.5|
 |Black|4.6|4.6|
 |Hispanic|0.5|1.1|
-|White|58.0|48.7|
-|Unknown|23.7|33.2|
+|White|58.0|48.9|
+|Unknown|23.7|33.0|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Canada|1.5|4.6|
-|United States|7.1|5.4|
-|Unknown|88.6|88.0|
+|United States|7.2|5.5|
+|Unknown|88.6|87.9|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|31.1|27.5|
+|Man|31.1|27.6|
 |Nonbinary|2.0|3.4|
-|Woman|42.9|35.5|
-|Unknown|24.0|33.5|
+|Woman|43.0|35.6|
+|Unknown|23.9|33.3|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|14.5|13.2|
-|Unknown|85.5|86.8|
+|Yes|14.6|13.2|
+|Unknown|85.4|86.8|
 
 ## Substitutions
 
@@ -1601,12 +1601,12 @@ Values close to 100 suggest the same books were used repeatedly for a square; 10
 |Published in 2024|48.1|52.7|
 |Character with a Disability|47.6|58.0|
 |Published in the 1990s|51.3|65.1|
-|Orcs, Trolls, and Goblins - Oh My!|62.8|72.1|
-|Space Opera|55.3|68.1|
-|Author of Color|43.6|55.3|
+|Orcs, Trolls, and Goblins - Oh My!|62.9|72.1|
+|Space Opera|55.3|68.0|
+|Author of Color|43.6|55.4|
 |Survival|39.1|49.7|
 |Judge a Book by Its Cover|25.1|35.1|
-|Set in a Small Town|42.3|53.4|
+|Set in a Small Town|42.4|53.4|
 |Five SFF Short Stories|34.6|41.7|
 |Eldritch Creatures|45.0|56.8|
 |Reference Materials|38.6|53.5|
@@ -1648,7 +1648,7 @@ Quoting the [very first bingo stats post](https://www.reddit.com/r/Fantasy/comme
 
 A "misspelling" for the purposes of these statistics is any book (title/author combination)
 that does not match the version used as the canonical version during cleaning.
-There were a total of 3264 misspellings.
+There were a total of 3271 misspellings.
 (Note that this does not include short stories.)
 
 The books with the most variation in title or author spellings were:

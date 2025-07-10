@@ -11249,7 +11249,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Elizabeth PEters": {
+  "Elizabeth Peters": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -13194,12 +13194,6 @@
     "nationality": "Unknown"
   },
   "G.Z. Schmidt": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "GGK": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -29147,18 +29141,6 @@
     "queer": null,
     "nationality": "China"
   },
-  "N. D. Wilson": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "N. K. Jameson": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "N.C. Scrimgeour": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -29169,6 +29151,12 @@
     "gender": "Nonbinary",
     "ethnicity": "White",
     "queer": true,
+    "nationality": "Unknown"
+  },
+  "N.D. Wilson": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
+    "queer": null,
     "nationality": "Unknown"
   },
   "N.E. Davenport": {
@@ -29806,12 +29794,6 @@
     "ethnicity": "Asian",
     "queer": true,
     "nationality": "United States"
-  },
-  "Ngugi wa Thiong'o": {
-    "gender": "Man",
-    "ethnicity": "Black",
-    "queer": null,
-    "nationality": "Unknown"
   },
   "Ngũgĩ wa Thiong'o": {
     "gender": "Unknown",
@@ -30714,12 +30696,6 @@
     "nationality": "Unknown"
   },
   "P.N. Elrod": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "PKD": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
