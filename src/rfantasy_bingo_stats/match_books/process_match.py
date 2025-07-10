@@ -16,8 +16,13 @@ from rfantasy_bingo_stats.models.defined_types import (
 )
 
 BANNED_MATCHES = {
+    "âge",
+    "Anderson",
     "BO",
+    "Brown",
+    "Catlin",
     "CED",
+    "Clarke",
     "Das",
     "DC",
     "H A",
@@ -25,10 +30,13 @@ BANNED_MATCHES = {
     "Lee",
     "Noc",
     "ONE",
+    "P",
+    "Rowe",
     "SIU",
     "Tan",
     "Tuí",
-    "âge",
+    "Watt",
+    "Williams",
 }
 
 
