@@ -2586,12 +2586,6 @@
     "nationality": "Unknown"
   },
   "Andy Weir": {
-    "gender": "Man",
-    "ethnicity": "White",
-    "queer": null,
-    "nationality": "United States"
-  },
-  "Andy Wier": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -4625,7 +4619,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Bree Paulson": {
+  "Bree Paulsen": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -4937,6 +4931,12 @@
     "queer": true,
     "nationality": "Unknown"
   },
+  "Brigitte Knightley": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
   "Brittany N. Williams": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -5144,12 +5144,6 @@
   "C. Greenwood": {
     "gender": "Woman",
     "ethnicity": "White",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "C. M. Kosemen": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
     "queer": null,
     "nationality": "Unknown"
   },
@@ -5406,6 +5400,12 @@
     "nationality": "Unknown"
   },
   "C.M. Debell": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "C.M. Kosemen": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -7073,6 +7073,12 @@
     "queer": null,
     "nationality": "Unknown"
   },
+  "Christina Rossetti": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
   "Christina Scull": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -7955,18 +7961,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Cristina Rosetti": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "Critical Role": {
-    "gender": "Unknown",
-    "ethnicity": "White",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "Crystal M. Huff": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -8346,18 +8340,6 @@
     "nationality": "Unknown"
   },
   "Dan Abnett": {
-    "gender": "Man",
-    "ethnicity": "White",
-    "queer": null,
-    "nationality": "United Kingdom"
-  },
-  "Dan Abnett [[[The Horus Heresy](https://wh40k.lexicanum.com/wiki/Horus_Heresy_Series)]]": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "Dan Abnett [[[Warhammer 40K Inquisitor](https://wh40k.lexicanum.com/wiki/Inquisitor_(Novel_Series\\))]]": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -9473,12 +9455,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "David Wong": {
-    "gender": "Man",
-    "ethnicity": "White",
-    "queer": null,
-    "nationality": "United States"
-  },
   "David Wragg": {
     "gender": "Man",
     "ethnicity": "White",
@@ -10247,7 +10223,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Dragos C. Costache": {
+  "Dragoș C. Costache": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -12870,8 +12846,8 @@
     "nationality": "Unknown"
   },
   "Frank Herbert": {
-    "gender": "Man",
-    "ethnicity": "White",
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
     "queer": null,
     "nationality": "Unknown"
   },
@@ -13067,7 +13043,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Fyodor Dostojevskij": {
+  "Fyodor Dostoevsky": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -13102,12 +13078,6 @@
     "ethnicity": "White",
     "queer": null,
     "nationality": "United States"
-  },
-  "G.A. Aiken": {
-    "gender": "Woman",
-    "ethnicity": "White",
-    "queer": null,
-    "nationality": "Unknown"
   },
   "G.A. Effinger": {
     "gender": "Man",
@@ -13391,12 +13361,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Gareth Hanrahan": {
-    "gender": "Man",
-    "ethnicity": "White",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "Gareth Hinds": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -13418,6 +13382,12 @@
   "Gareth Roberts": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "Gareth Ryder-Hanrahan": {
+    "gender": "Man",
+    "ethnicity": "White",
     "queer": null,
     "nationality": "Unknown"
   },
@@ -13464,18 +13434,12 @@
     "nationality": "Unknown"
   },
   "Garth Nix": {
-    "gender": "Man",
-    "ethnicity": "White",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "Garth Nyx": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
     "nationality": "Unknown"
   },
-  "Gary K Wolf": {
+  "Gary K. Wolf": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -15107,12 +15071,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Herbert": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "Herbert Mason": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -15576,12 +15534,6 @@
     "nationality": "Unknown"
   },
   "Ian C. Esslemont": {
-    "gender": "Man",
-    "ethnicity": "White",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "Ian Cameron Esslemont": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -15617,7 +15569,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Ian Livingstone \\[\\[Fighting Fantasy\\]\\]": {
+  "Ian Livingstone": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -15659,7 +15611,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Ian R. McCloud": {
+  "Ian R. MacLeod": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -15682,12 +15634,6 @@
     "ethnicity": "White",
     "queer": null,
     "nationality": "United Kingdom"
-  },
-  "Ian. R. MacLeod": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
   },
   "Iasmin Omar Ata": {
     "gender": "Unknown",
@@ -15749,7 +15695,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Inadvisably Compelled": {
+  "InadvisablyCompelled": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -16632,18 +16578,6 @@
     "nationality": "Unknown"
   },
   "J.Y. Harris": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "JC McCray": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "JS Morin": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -17555,7 +17489,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Jared Pecachek": {
+  "Jared Pechaček": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -17692,6 +17626,12 @@
     "ethnicity": "Unknown",
     "queer": null,
     "nationality": "Unknown"
+  },
+  "Jason Pargin": {
+    "gender": "Man",
+    "ethnicity": "White",
+    "queer": null,
+    "nationality": "United States"
   },
   "Jason Rekulak": {
     "gender": "Unknown",
@@ -18569,7 +18509,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Jesse Burlington": {
+  "Jesse Bullington": {
     "gender": "Woman",
     "ethnicity": "White",
     "queer": true,
@@ -19925,12 +19865,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Jose Donoso": {
-    "gender": "Man",
-    "ethnicity": "Hispanic",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "Joseph A. McCullough": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -20174,6 +20108,12 @@
   "Jostein Gaarder": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "José Donoso": {
+    "gender": "Man",
+    "ethnicity": "Hispanic",
     "queer": null,
     "nationality": "Unknown"
   },
@@ -20747,12 +20687,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "K. X. Song": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "K.A. Applegate": {
     "gender": "Woman",
     "ethnicity": "White",
@@ -21008,6 +20942,12 @@
   "K.W. Jeter": {
     "gender": "Man",
     "ethnicity": "White",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "K.X. Song": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
     "queer": null,
     "nationality": "Unknown"
   },
@@ -22055,7 +21995,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Kay O'Neill": {
+  "Kay O’Neill": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -25524,10 +25464,10 @@
     "nationality": "Unknown"
   },
   "M.L. Wang": {
-    "gender": "Woman",
-    "ethnicity": "Asian",
-    "queer": true,
-    "nationality": "United States"
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
   },
   "M.L.D. Curelas": {
     "gender": "Unknown",
@@ -25590,12 +25530,6 @@
     "nationality": "Unknown"
   },
   "MKRNYILGLD": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "ML Want": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -27485,7 +27419,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "McKenzie Catron": {
+  "McKenzie Catron-Pichan": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -28145,12 +28079,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Michael LIvingston": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "Michael La Ronn": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -28158,6 +28086,18 @@
     "nationality": "Unknown"
   },
   "Michael Ledwidge": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "Michael Livingston": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "Michael Mammay": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -28374,12 +28314,6 @@
     "nationality": "Unknown"
   },
   "Michalis Manolios": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "Micheal Mammay": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -29453,6 +29387,12 @@
     "queer": null,
     "nationality": "Unknown"
   },
+  "Natalie Maher": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
   "Natalie Wish": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -30383,13 +30323,13 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Oleg Sapphire": {
+  "Olan Thorensen": {
     "gender": "Man",
     "ethnicity": "White",
     "queer": null,
     "nationality": "Unknown"
   },
-  "Olen Thorensen": {
+  "Oleg Sapphire": {
     "gender": "Man",
     "ethnicity": "White",
     "queer": null,
@@ -30834,12 +30774,6 @@
     "nationality": "Unknown"
   },
   "Patricia A. McKillip": {
-    "gender": "Woman",
-    "ethnicity": "White",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "Patricia A. McWilliams": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -31548,8 +31482,8 @@
     "nationality": "Unknown"
   },
   "Philip Pullman": {
-    "gender": "Man",
-    "ethnicity": "White",
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
     "queer": null,
     "nationality": "Unknown"
   },
@@ -31746,12 +31680,6 @@
     "nationality": "Unknown"
   },
   "Pseudonymous Bosch": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "Pullman": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -33414,18 +33342,12 @@
     "nationality": "Canada"
   },
   "Robert Jackson Bennett": {
-    "gender": "Man",
-    "ethnicity": "White",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "Robert Jackson Ford": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
     "nationality": "Unknown"
   },
-  "Robert Johnson Bennett": {
+  "Robert Jackson Ford": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -35873,6 +35795,12 @@
     "queer": null,
     "nationality": "Unknown"
   },
+  "SenLinYu": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
   "Senaa Ahmad": {
     "gender": "Woman",
     "ethnicity": "Asian",
@@ -35880,12 +35808,6 @@
     "nationality": "Unknown"
   },
   "Seneca": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "Senlinyu": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -36338,12 +36260,6 @@
   "Shin Noah": {
     "gender": "Man",
     "ethnicity": "Asian",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "Shing n Shong": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
     "queer": null,
     "nationality": "Unknown"
   },
@@ -38753,12 +38669,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Thundamoo": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "Tia Tashiro": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -40823,6 +40733,12 @@
     "queer": null,
     "nationality": "Unknown"
   },
+  "XKarnation": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
   "Xan West": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -40858,12 +40774,6 @@
     "ethnicity": "Asian",
     "queer": true,
     "nationality": "Canada"
-  },
-  "Xkarnation": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
   },
   "Xueting Christine Ni": {
     "gender": "Unknown",
@@ -41351,7 +41261,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Zigzag Clayborne": {
+  "Zig Zag Claybourne": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -41447,12 +41357,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "[Sleyca](https://www.goodreads.com/author/show/42810991.Sleyca)": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "adastra339": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -41477,12 +41381,6 @@
     "queer": null,
     "nationality": "United States"
   },
-  "cuttlefishlovesdiving": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "dirgewithoutmusic": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -41502,12 +41400,6 @@
     "nationality": "Unknown"
   },
   "grasslilies": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "isthisselfcare": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
