@@ -1223,12 +1223,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Alex Gilbert": {
-    "gender": "Man",
-    "ethnicity": "White",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "Alex Grecian": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -5117,12 +5111,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "C Pam Zhang": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "C. Chancy": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -5150,6 +5138,12 @@
   "C. Mantis": {
     "gender": "Man",
     "ethnicity": "White",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "C. Pam Zhang": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
     "queer": null,
     "nationality": "Unknown"
   },
@@ -5294,12 +5288,6 @@
   "C.J. Milbrandt": {
     "gender": "Woman",
     "ethnicity": "White",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "C.J. Piper": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
     "queer": null,
     "nationality": "Unknown"
   },
@@ -6749,12 +6737,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Chloe Chevalier": {
-    "gender": "Woman",
-    "ethnicity": "White",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "Chloe Gong": {
     "gender": "Woman",
     "ethnicity": "Asian",
@@ -6776,6 +6758,12 @@
   "Chloe Timms": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "Chloé Chevalier": {
+    "gender": "Woman",
+    "ethnicity": "White",
     "queer": null,
     "nationality": "Unknown"
   },
@@ -9749,7 +9737,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Derek Kunsken": {
+  "Derek Künsken": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -15827,7 +15815,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Isaac Fellman": {
+  "Isaac R. Fellman": {
     "gender": "Man",
     "ethnicity": "White",
     "queer": true,
@@ -22883,7 +22871,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Kristen O'Neal": {
+  "Kristen O’Neal": {
     "gender": "Woman",
     "ethnicity": "White",
     "queer": null,
@@ -31553,6 +31541,12 @@
     "queer": null,
     "nationality": "Unknown"
   },
+  "Piper C.J.": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
   "Piper J. Drake": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -33665,7 +33659,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Roger Macbride Allen": {
+  "Roger MacBride Allen": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -36768,6 +36762,12 @@
     "nationality": "United States"
   },
   "Sophocles": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "SpaizZzer": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -41477,12 +41477,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "spaizzzer": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "stewart92": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -41516,6 +41510,12 @@
   "zechamp": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "Álex Gilbert": {
+    "gender": "Man",
+    "ethnicity": "White",
     "queer": null,
     "nationality": "Unknown"
   },
