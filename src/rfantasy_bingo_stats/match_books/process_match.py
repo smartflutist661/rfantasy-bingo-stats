@@ -56,6 +56,7 @@ BANNED_MATCHES = {
     "Tan",
     "Taylor",
     "Tuí",
+    "Umi",
     "Vaughan",
     "Watt",
     "Williams",

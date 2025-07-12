@@ -4955,7 +4955,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Bronte Christopher Wieland": {
+  "Brontë Christopher Wieland": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -13403,12 +13403,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Garry Whitta": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "Garth Ennis": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -13458,6 +13452,12 @@
     "nationality": "Unknown"
   },
   "Gary Wassner": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "Gary Whitta": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -20651,12 +20651,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "K. H. Scheer": {
-    "gender": "Man",
-    "ethnicity": "White",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "K. Lynn Harrison": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -20792,6 +20786,12 @@
   "K.G. Lewis": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "K.H. Scheer": {
+    "gender": "Man",
+    "ethnicity": "White",
     "queer": null,
     "nationality": "Unknown"
   },
@@ -36569,7 +36569,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Sjon": {
+  "Sjón": {
     "gender": "Man",
     "ethnicity": "White",
     "queer": null,
