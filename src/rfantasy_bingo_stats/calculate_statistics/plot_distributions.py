@@ -330,11 +330,7 @@ def create_yearly_plots(bingo_stats: BingoStatistics, output_root: Path, show_pl
 
 # I feel like it should be possible to fit these pre-histogram
 def plot_card_hist(
-    counter: Counter[CardID],
-    title: str,
-    subtitle: str,
-    filepath: Path,
-    max_val: int = 26
+    counter: Counter[CardID], title: str, subtitle: str, filepath: Path, max_val: int = 26
 ) -> None:
     """Plot histogram of unique values"""
 
