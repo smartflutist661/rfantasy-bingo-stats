@@ -23,7 +23,7 @@ In addition, if you did something like, say, put **The Lost Metal** as a short s
 3. Books by multiple authors were counted once for each author.
 E.g.: **In the Heart of Darkness** by Eric Flint and David Drake counts as a read for both Eric Flint and David Drake.
 *However*, books by a writing team with a single-author pseudonym, e.g. M.A. Carrick, were counted once for the pseudonym, and not for the authors behind the pseudonym.
-4. Author demographic statistics are now included below. However, researching all 5623 individual authors
+4. Author demographic statistics are now included below. However, researching all 4882 individual authors
 is quite an undertaking, and there is still a reasonable amount of information missing, especially regarding Nationality.
 By the time next year's stats roll around I hope to have it reasonably complete.
 5. Short stories were excluded from most of the stats below. They *were* included in the total story count.
@@ -37,15 +37,15 @@ By the time next year's stats roll around I hope to have it reasonably complete.
 - There were 1353 cards submitted, 140 of which were incomplete.
 The minimum number of filled squares was 4. 25 were *this close*, with 24 filled squares.
 1073 squares were left blank, leaving 32752 filled squares.
-- There were 33444 total stories, with 9694 unique stories read,
-by 5623 unique authors (33816 total).
-6626 books and 3344 authors were used only once. 
+- There were 33444 total stories, with 8487 unique stories read,
+by 4882 unique authors (33885 total).
+5238 books and 2596 authors were used only once. 
 - The top squares left blank were: **Published in the 1990s**, blank on 65 cards; **Bards** and **Five SFF Short Stories** and **Dark Academia**, blank on 63 cards each; **Space Opera**, blank on 61 cards. On the other hand, **First in a Series** was only left blank 11 times.
 - The three squares most often substituted were: **Book Club or Readalong Book** and **Bards**, substituted on 64 cards each; **Dark Academia**, substituted on 42 cards; **Self-Published or Indie Publisher**, substituted on 40 cards.
-**Alliterative Title**, **Multi-POV**, and **Survival** were never substituted.
+**Multi-POV**, **Alliterative Title**, and **Survival** were never substituted.
 This means that Bards was the least favorite overall, skipped or substituted a total of 127 times, and
 First in a Series was the favorite, skipped or substituted only 14 times.
-- There were an average of 4.9 unique books per card.
+- There were an average of 3.9 unique books per card.
 - 263 cards claimed an all-hard-mode card, while 45 cards were short by one square.
 44 cards claimed no hard-mode squares at all. The average number of hard-mode squares per card was 14.6.
 There were a total of 19714 hard-mode squares claimed.
@@ -85,14 +85,14 @@ There were a total of 19714 hard-mode squares claimed.
 The ten most-read books were:
 
 - **The Tainted Cup** by Robert Jackson Bennett, read 262 times
-- **Dungeon Crawler Carl** by Matt Dinniman, read 228 times
+- **Dungeon Crawler Carl** by Matt Dinniman, read 229 times
 - **Bookshops & Bonedust** by Travis Baldree, read 191 times
 - **The Adventures of Amina al-Sirafi** by Shannon Chakraborty, read 179 times
-- **Legends & Lattes** by Travis Baldree, read 172 times
+- **Legends & Lattes** by Travis Baldree, read 174 times
 - **Someone You Can Build a Nest In** by John Wiswell, read 155 times
 - **The Spear Cuts Through Water** by Simon Jimenez, read 148 times
+- **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett, read 143 times
 - **A River Enchanted** by Rebecca Ross, read 142 times
-- **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett, read 141 times
 - **Wind and Truth** by Brandon Sanderson, read 137 times
 
 The books used for the most squares were:
@@ -101,27 +101,27 @@ The books used for the most squares were:
 - TIE: **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett and **Piranesi** by Susanna Clarke and **Tress of the Emerald Sea** by Brandon Sanderson, each used for 14 squares
 - **The Tainted Cup** by Robert Jackson Bennett, used for 13 squares
 
-**The Master and Margarita** by Mikhail Bulgakov was the book read at least 10 times with the highest ratio of squares to times read:
-read 10 times for 7 squares.
+**Thousand Autumns** by Meng Xi Shi was the book read at least 10 times with the highest ratio of squares to times read:
+read 11 times for 8 squares.
 
 <INSERT PLOT HERE>
 
 One of those interesting stats phenomena: even though most cards only include a few unique books, most of the books read are unique.
-There were an average of 3.4 reads per book.
+There were an average of 3.8 reads per book.
 
 ### Authors
 
 The ten most-read authors were:
 
-- T. Kingfisher, read 442 times
-- Brandon Sanderson, read 439 times
+- T. Kingfisher, read 447 times
+- Brandon Sanderson, read 445 times
 - Travis Baldree, read 370 times
 - Robert Jackson Bennett, read 351 times
-- Leigh Bardugo, read 339 times
-- Matt Dinniman, read 318 times
-- TIE: Naomi Novik and Terry Pratchett, each read 271 times
-- Martha Wells, read 253 times
-- Adrian Tchaikovsky, read 228 times
+- Leigh Bardugo, read 341 times
+- Matt Dinniman, read 320 times
+- TIE: Naomi Novik and Terry Pratchett, each read 274 times
+- Martha Wells, read 257 times
+- Adrian Tchaikovsky, read 229 times
 - Heather Fawcett, read 210 times
 
 The authors used for the most squares were:
@@ -135,25 +135,25 @@ read 10 times for 9 squares.
 
 The authors with the most unique books read were:
 
-- Terry Pratchett, with 48 unique books read
-- Brandon Sanderson, with 47 unique books read
-- Stephen King, with 45 unique books read
-- T. Kingfisher, with 39 unique books read
-- Seanan McGuire, with 34 unique books read
-- Lois McMaster Bujold, with 33 unique books read
-- Neil Gaiman, with 30 unique books read
-- TIE: Martha Wells and Adrian Tchaikovsky, each with 29 unique books read
-- Rick Riordan, with 26 unique books read
-- Ursula K. Le Guin, with 25 unique books read
+- Terry Pratchett, with 46 unique books read
+- TIE: Brandon Sanderson and Stephen King, each with 43 unique books read
+- Seanan McGuire, with 31 unique books read
+- Lois McMaster Bujold, with 30 unique books read
+- TIE: T. Kingfisher and Adrian Tchaikovsky, each with 27 unique books read
+- Neil Gaiman, with 23 unique books read
+- TIE: Martha Wells and Ursula K. Le Guin, each with 22 unique books read
+- Jim Butcher, with 21 unique books read
+- TIE: Ilona Andrews and Will Wight and Michael J. Sullivan, each with 19 unique books read
+- TIE: Tamora Pierce and Mercedes Lackey and Robin Hobb and Rick Riordan, each with 18 unique books read
 
 <INSERT_PLOT_HERE>
 
 As with books, most authors were read only once.
-There were an average of 6.0 reads per author.
+There were an average of 6.9 reads per author.
 
 The following tables represent a best-effort attempt at a statistical breakdown of author demographics.
 The "Overall %" column represents the _total_ number of times a demographic appeared in Bingo data,
-i.e. Brandon Sanderson counts 363262 times for each of his demographic groups.
+i.e. Brandon Sanderson counts 476722 times for each of his demographic groups.
 The "Unique %" column represents the unique number of times a demographic appeared in Bingo data,
 i.e. Brandon Sanderson counts only once, no matter how many squares or cards he appears on.
 
@@ -161,28 +161,29 @@ Demographics representing less than 1% of the unique authors are not included in
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|7.1|3.9|
-|Black|3.8|1.4|
-|White|53.5|21.8|
-|Unknown|33.8|71.8|
+|Asian|7.3|4.5|
+|Black|3.8|1.7|
+|Hispanic|1.0|1.0|
+|White|54.6|25.1|
+|Unknown|32.3|67.2|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Canada|0.7|1.1|
-|United States|6.7|2.2|
-|Unknown|90.3|95.7|
+|Canada|0.7|1.3|
+|United States|6.9|2.5|
+|Unknown|90.1|95.0|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|29.3|13.7|
-|Nonbinary|2.3|1.2|
-|Woman|34.4|13.2|
-|Unknown|34.0|71.9|
+|Man|29.9|15.8|
+|Nonbinary|2.4|1.4|
+|Woman|35.1|15.4|
+|Unknown|32.5|67.4|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|11.0|3.6|
-|Unknown|88.8|96.3|
+|Yes|11.2|4.2|
+|Unknown|88.5|95.6|
 
 ### Bingos
 
@@ -246,53 +247,53 @@ The easiest bingo by number of squares was Fifth Column, with a total of 2435 sq
 
 #### Most Read Books
 
-- **Dungeon Crawler Carl** by Matt Dinniman, read 28 times
+- **Dungeon Crawler Carl** by Matt Dinniman, read 29 times
 - **All Systems Red** by Martha Wells, read 18 times
 - TIE: **The Will of the Many** by James Islington and **Rivers of London** by Ben Aaronovitch and **Empire of Silence** by Christopher Ruocchio, each read 13 times
 - TIE: **Paladin's Grace** by T. Kingfisher and **The Color of Magic** by Terry Pratchett, each read 12 times
-- TIE: **Before the Coffee Gets Cold** by Toshikazu Kawaguchi and **The Grace of Kings** by Ken Liu and **Every Heart a Doorway** by Seanan McGuire and **Gideon the Ninth** by Tamsyn Muir, each read 11 times
+- TIE: **Before the Coffee Gets Cold** by Toshikazu Kawaguchi and **A Wizard of Earthsea** by Ursula K. Le Guin and **The Grace of Kings** by Ken Liu and **Every Heart a Doorway** by Seanan McGuire and **Gideon the Ninth** by Tamsyn Muir, each read 11 times
 
-**TOTAL**: 1339 books read, with 711 unique titles.
+**TOTAL**: 1339 books read, with 683 unique titles.
 898 books were claimed to qualify for hard mode.
-511 books were used only once for this square.
+472 books were used only once for this square.
 Skipped 11 times. Substituted 3 times.
 
 #### Most Read Authors
 
 - Matt Dinniman, read 29 times
-- Martha Wells, read 25 times
-- TIE: Terry Pratchett and Sarah J. Maas, each read 18 times
+- Martha Wells, read 26 times
+- TIE: Terry Pratchett and Sarah J. Maas, each read 19 times
 - TIE: Seanan McGuire and Brandon Sanderson, each read 17 times
 - TIE: T. Kingfisher and Becky Chambers, each read 16 times
 
-**TOTAL**: 1372 total authors read, with 612 unique.
-413 authors were used only once for this square.
+**TOTAL**: 1374 total authors read, with 597 unique.
+395 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|7.1|7.1|
-|Black|0.9|1.1|
-|White|66.5|47.1|
-|Unknown|24.9|43.9|
+|Asian|7.3|7.5|
+|Black|0.9|1.2|
+|White|67.1|48.8|
+|Unknown|23.9|41.5|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|7.9|4.4|
-|Unknown|88.5|93.1|
+|United States|8.0|4.5|
+|Unknown|88.4|92.9|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|37.0|25.6|
-|Nonbinary|0.8|1.6|
-|Woman|36.8|28.7|
-|Unknown|25.4|44.0|
+|Man|37.5|26.9|
+|Nonbinary|0.8|1.7|
+|Woman|37.2|29.9|
+|Unknown|24.5|41.6|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|7.4|6.3|
-|Unknown|92.0|93.2|
+|Yes|7.4|6.5|
+|Unknown|92.0|93.0|
 
 ### 2. Alliterative Title
 
@@ -304,48 +305,48 @@ Author demographics, as described in the overall stats on authors:
 - **Princess Floralinda and the Forty-Flight Tower** by Tamsyn Muir, read 34 times
 - **The Utterly Uninteresting and Unadventurous Tales of Fred, the Vampire Accountant** by Drew Hayes, read 27 times
 
-**TOTAL**: 1328 books read, with 555 unique titles.
+**TOTAL**: 1328 books read, with 520 unique titles.
 627 books were claimed to qualify for hard mode.
-405 books were used only once for this square.
+359 books were used only once for this square.
 Skipped 25 times. Substituted 0 times.
 
 #### Most Read Authors
 
 - Shannon Chakraborty, read 107 times
 - Scott Lynch, read 81 times
-- TIE: Shirley Jackson and Tamsyn Muir, each read 42 times
-- Seanan McGuire, read 36 times
-- Drew Hayes, read 28 times
+- Tamsyn Muir, read 43 times
+- Shirley Jackson, read 42 times
+- Seanan McGuire, read 37 times
 
-**TOTAL**: 1343 total authors read, with 471 unique.
-314 authors were used only once for this square.
+**TOTAL**: 1350 total authors read, with 451 unique.
+286 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|3.9|4.6|
-|Black|1.3|1.5|
-|White|67.4|43.6|
-|Unknown|27.4|50.3|
+|Asian|4.1|5.0|
+|Black|1.4|1.5|
+|White|68.7|46.8|
+|Unknown|25.8|46.8|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Canada|0.6|1.3|
-|United States|3.7|3.8|
-|Unknown|91.4|93.7|
+|Canada|0.7|1.5|
+|United States|4.0|4.1|
+|Unknown|91.0|93.1|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|29.9|21.1|
-|Nonbinary|1.1|1.7|
-|Woman|41.5|26.9|
-|Unknown|27.4|50.3|
+|Man|31.0|23.5|
+|Nonbinary|1.2|1.7|
+|Woman|42.0|28.0|
+|Unknown|25.8|46.8|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|11.9|6.1|
-|Unknown|87.2|93.7|
+|Yes|12.1|6.2|
+|Unknown|87.0|93.5|
 
 ### 3. Under the Surface
 
@@ -355,11 +356,11 @@ Author demographics, as described in the overall stats on authors:
 - **The Luminous Dead** by Caitlin Starling, read 52 times
 - **Our Wives Under the Sea** by Julia Armfield, read 50 times
 - **A Letter to the Luminous Deep** by Sylvie Cathrall, read 49 times
-- **The Deep** by Rivers Solomon, read 43 times
+- **The Deep** by Rivers Solomon, read 44 times
 
-**TOTAL**: 1313 books read, with 465 unique titles.
+**TOTAL**: 1313 books read, with 440 unique titles.
 892 books were claimed to qualify for hard mode.
-345 books were used only once for this square.
+315 books were used only once for this square.
 Skipped 32 times. Substituted 8 times.
 
 #### Most Read Authors
@@ -367,39 +368,39 @@ Skipped 32 times. Substituted 8 times.
 - Matt Dinniman, read 145 times
 - Caitlin Starling, read 53 times
 - TIE: Julia Armfield and Sylvie Cathrall, each read 50 times
-- Rivers Solomon, read 43 times
+- Rivers Solomon, read 44 times
 - Martha Wells, read 42 times
 
-**TOTAL**: 1326 total authors read, with 367 unique.
-258 authors were used only once for this square.
+**TOTAL**: 1328 total authors read, with 359 unique.
+247 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|2.8|4.3|
-|Black|5.5|1.6|
+|Asian|2.8|4.4|
+|Black|5.6|1.6|
 |Hispanic|0.5|1.9|
-|White|65.3|46.0|
-|Unknown|25.9|46.2|
+|White|65.7|47.5|
+|Unknown|25.5|44.5|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |United Kingdom|0.5|1.1|
-|United States|6.2|4.3|
-|Unknown|92.3|92.7|
+|United States|6.2|4.4|
+|Unknown|92.2|92.6|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|38.4|27.2|
-|Nonbinary|4.4|3.5|
-|Woman|31.2|22.8|
-|Unknown|25.9|46.5|
+|Man|38.4|27.9|
+|Nonbinary|4.5|3.6|
+|Woman|31.6|23.8|
+|Unknown|25.5|44.8|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|16.8|9.1|
-|Unknown|83.0|90.6|
+|Yes|16.9|9.3|
+|Unknown|82.9|90.4|
 
 ### 4. Criminals
 
@@ -408,12 +409,12 @@ Author demographics, as described in the overall stats on authors:
 - **Six of Crows** by Leigh Bardugo, read 70 times
 - **Foundryside** by Robert Jackson Bennett, read 59 times
 - **A Tempest of Tea** by Hafsah Faizal, read 51 times
-- TIE: **The Lies of Locke Lamora** by Scott Lynch and **The Palace Job** by Patrick Weekes, each read 37 times
-- **The Blacktongue Thief** by Christopher Buehlman, read 35 times
+- **The Palace Job** by Patrick Weekes, read 39 times
+- **The Lies of Locke Lamora** by Scott Lynch, read 37 times
 
-**TOTAL**: 1319 books read, with 532 unique titles.
+**TOTAL**: 1319 books read, with 501 unique titles.
 730 books were claimed to qualify for hard mode.
-406 books were used only once for this square.
+365 books were used only once for this square.
 Skipped 28 times. Substituted 6 times.
 
 #### Most Read Authors
@@ -422,36 +423,36 @@ Skipped 28 times. Substituted 6 times.
 - Robert Jackson Bennett, read 67 times
 - Scott Lynch, read 54 times
 - Hafsah Faizal, read 53 times
-- Patrick Weekes, read 41 times
+- Patrick Weekes, read 42 times
 
-**TOTAL**: 1350 total authors read, with 422 unique.
-284 authors were used only once for this square.
+**TOTAL**: 1349 total authors read, with 406 unique.
+266 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|8.2|5.0|
-|Black|3.0|2.3|
-|White|57.1|40.6|
-|Unknown|30.7|50.0|
+|Asian|8.3|5.2|
+|Black|3.0|2.4|
+|White|57.5|43.7|
+|Unknown|30.2|46.6|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|7.9|3.9|
-|Unknown|90.2|93.8|
+|United States|8.0|4.3|
+|Unknown|90.1|93.4|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|29.7|26.7|
-|Nonbinary|6.1|2.7|
-|Woman|33.5|20.5|
-|Unknown|30.7|50.0|
+|Man|30.2|29.1|
+|Nonbinary|6.5|3.1|
+|Woman|33.1|21.3|
+|Unknown|30.2|46.6|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|9.6|7.3|
-|Unknown|90.4|92.5|
+|Yes|10.0|7.8|
+|Unknown|89.9|92.0|
 
 ### 5. Dreams
 
@@ -460,154 +461,155 @@ Author demographics, as described in the overall stats on authors:
 - **The Lathe of Heaven** by Ursula K. Le Guin, read 34 times
 - **Thornhedge** by T. Kingfisher, read 27 times
 - **The Spear Cuts Through Water** by Simon Jimenez, read 24 times
-- **The Princess Bride** by William Goldman, read 17 times
-- **Red Rising** by Pierce Brown, read 16 times
+- TIE: **The Princess Bride** by William Goldman and **Red Rising** by Pierce Brown, each read 17 times
+- **Strange the Dreamer** by Laini Taylor, read 15 times
 
-**TOTAL**: 1318 books read, with 827 unique titles.
+**TOTAL**: 1318 books read, with 788 unique titles.
 593 books were claimed to qualify for hard mode.
-643 books were used only once for this square.
+591 books were used only once for this square.
 Skipped 26 times. Substituted 9 times.
 
 #### Most Read Authors
 
-- T. Kingfisher, read 48 times
+- T. Kingfisher, read 49 times
 - Ursula K. Le Guin, read 46 times
 - Simon Jimenez, read 25 times
 - TIE: Neil Gaiman and Pierce Brown, each read 18 times
 - TIE: William Goldman and Robin Hobb, each read 17 times
 
-**TOTAL**: 1332 total authors read, with 628 unique.
-442 authors were used only once for this square.
+**TOTAL**: 1331 total authors read, with 603 unique.
+413 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|6.6|5.9|
-|Black|2.8|2.9|
-|Hispanic|1.3|1.7|
-|White|57.4|42.6|
-|Unknown|31.5|46.3|
+|Asian|6.7|6.1|
+|Black|2.9|3.1|
+|Hispanic|1.4|1.8|
+|White|59.1|45.5|
+|Unknown|29.5|42.7|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|4.4|4.0|
-|Unknown|92.4|92.7|
+|United States|4.6|4.1|
+|Unknown|92.2|92.4|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|28.8|22.3|
-|Nonbinary|2.0|2.1|
-|Woman|37.5|29.2|
-|Unknown|31.8|46.4|
+|Man|29.7|23.9|
+|Nonbinary|2.0|2.3|
+|Woman|38.5|30.9|
+|Unknown|29.8|42.9|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|9.1|7.3|
-|Unknown|90.5|92.2|
+|Yes|9.4|8.1|
+|Unknown|90.2|91.4|
 
 ### 6. Entitled Animals
 
 #### Most Read Books
 
-- **The Last Unicorn** by Peter S. Beagle, read 54 times
+- **The Last Unicorn** by Peter S. Beagle, read 55 times
 - **I’m Afraid You’ve Got Dragons** by Peter S. Beagle, read 42 times
-- **The Kaiju Preservation Society** by John Scalzi, read 39 times
-- TIE: **To Shape a Dragon's Breath** by Moniquill Blackgoose and **A Natural History of Dragons** by Marie Brennan, each read 37 times
-- TIE: **When Among Crows** by Veronica Roth and **His Majesty's Dragon** by Naomi Novik and **The Rage of Dragons** by Evan Winter and **The Bear and the Nightingale** by Katherine Arden, each read 22 times
+- **The Kaiju Preservation Society** by John Scalzi, read 41 times
+- **A Natural History of Dragons** by Marie Brennan, read 40 times
+- **To Shape a Dragon's Breath** by Moniquill Blackgoose, read 37 times
 
-**TOTAL**: 1301 books read, with 526 unique titles.
+**TOTAL**: 1301 books read, with 473 unique titles.
 768 books were claimed to qualify for hard mode.
-373 books were used only once for this square.
+312 books were used only once for this square.
 Skipped 46 times. Substituted 6 times.
 
 #### Most Read Authors
 
-- Peter S. Beagle, read 98 times
+- Peter S. Beagle, read 99 times
 - Marie Brennan, read 66 times
 - John Scalzi, read 41 times
 - Moniquill Blackgoose, read 37 times
-- Naomi Novik, read 29 times
+- S.A. MacLean, read 31 times
 
-**TOTAL**: 1324 total authors read, with 428 unique.
-263 authors were used only once for this square.
+**TOTAL**: 1324 total authors read, with 393 unique.
+231 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|8.2|5.0|
-|Black|3.2|1.6|
-|Native|3.4|1.4|
-|White|56.4|38.1|
-|Unknown|28.5|53.2|
+|Asian|8.5|5.4|
+|Black|3.2|1.7|
+|Native|3.4|1.5|
+|White|57.5|41.9|
+|Unknown|27.0|48.8|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|9.6|5.9|
-|Unknown|88.3|92.9|
+|United States|9.8|6.4|
+|Unknown|88.1|92.4|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|33.2|21.7|
-|Woman|37.8|24.7|
-|Unknown|28.5|53.2|
+|Man|33.8|23.6|
+|Woman|38.6|26.8|
+|Unknown|27.0|48.8|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|8.2|4.3|
-|Unknown|91.7|95.4|
+|Yes|8.4|4.9|
+|Unknown|91.5|94.8|
 
 ### 7. Bards
 
 #### Most Read Books
 
 - **A River Enchanted** by Rebecca Ross, read 138 times
-- **The Bone Harp** by Victoria Goddard, read 65 times
-- **The Harp of Kings** by Juliet Marillier, read 56 times
+- **The Bone Harp** by Victoria Goddard, read 68 times
+- **The Harp of Kings** by Juliet Marillier, read 58 times
 - **Bloody Rose** by Nicholas Eames, read 49 times
-- **The Lark and the Wren** by Mercedes Lackey, read 39 times
+- **The Lark and the Wren** by Mercedes Lackey, read 43 times
 
-**TOTAL**: 1225 books read, with 402 unique titles.
+**TOTAL**: 1225 books read, with 356 unique titles.
 677 books were claimed to qualify for hard mode.
-283 books were used only once for this square.
+234 books were used only once for this square.
 Skipped 63 times. Substituted 64 times.
 
 #### Most Read Authors
 
-- Rebecca Ross, read 164 times
+- Rebecca Ross, read 165 times
 - Victoria Goddard, read 74 times
-- Juliet Marillier, read 60 times
+- Juliet Marillier, read 62 times
 - Mercedes Lackey, read 57 times
 - Nicholas Eames, read 51 times
 
-**TOTAL**: 1243 total authors read, with 309 unique.
-205 authors were used only once for this square.
+**TOTAL**: 1243 total authors read, with 291 unique.
+185 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|5.9|4.8|
-|Black|1.9|2.2|
-|White|63.9|39.0|
-|Unknown|27.9|53.0|
+|Asian|6.0|5.3|
+|Black|2.0|2.7|
+|White|64.8|41.9|
+|Unknown|26.7|49.2|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|5.2|2.5|
-|Unknown|93.6|95.2|
+|United States|5.3|3.0|
+|Unknown|93.2|94.0|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|20.2|23.5|
-|Woman|50.2|22.5|
-|Unknown|27.9|53.0|
+|Man|20.6|24.9|
+|Nonbinary|1.8|1.3|
+|Woman|51.0|24.9|
+|Unknown|26.6|48.8|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|9.3|6.7|
-|Unknown|90.7|93.3|
+|Yes|9.5|7.6|
+|Unknown|90.5|92.4|
 
 ### 8. Prologues and Epilogues
 
@@ -616,51 +618,51 @@ Author demographics, as described in the overall stats on authors:
 - TIE: **Wind and Truth** by Brandon Sanderson and **Bride** by Ali Hazelwood, each read 37 times
 - **The Way of Kings** by Brandon Sanderson, read 13 times
 - TIE: **Going Postal** by Terry Pratchett and **Legends & Lattes** by Travis Baldree and **Iron Widow** by Xiran Jay Zhao, each read 12 times
-- TIE: **The Jasmine Throne** by Tasha Suri and **Red Sister** by Mark Lawrence and **Leviathan Wakes** by James S.A. Corey and **Somewhere Beyond the Sea** by T.J. Klune, each read 10 times
-- TIE: **A Memory Called Empire** by Arkady Martine and **Bookshops & Bonedust** by Travis Baldree and **Orconomics** by J. Zachary Pike and **The Cruel Prince** by Holly Black, each read 9 times
+- TIE: **The Jasmine Throne** by Tasha Suri and **Red Sister** by Mark Lawrence and **Orconomics** by J. Zachary Pike and **Leviathan Wakes** by James S.A. Corey and **Somewhere Beyond the Sea** by T.J. Klune, each read 10 times
+- TIE: **A Memory Called Empire** by Arkady Martine and **Bookshops & Bonedust** by Travis Baldree and **The Cruel Prince** by Holly Black, each read 9 times
 
-**TOTAL**: 1313 books read, with 753 unique titles.
+**TOTAL**: 1313 books read, with 734 unique titles.
 834 books were claimed to qualify for hard mode.
-551 books were used only once for this square.
+522 books were used only once for this square.
 Skipped 37 times. Substituted 3 times.
 
 #### Most Read Authors
 
-- Brandon Sanderson, read 102 times
+- Brandon Sanderson, read 104 times
 - Ali Hazelwood, read 37 times
 - TIE: Travis Baldree and Will Wight, each read 21 times
 - TIE: James S.A. Corey and Tasha Suri, each read 20 times
 - Mark Lawrence, read 18 times
 
-**TOTAL**: 1326 total authors read, with 543 unique.
-354 authors were used only once for this square.
+**TOTAL**: 1335 total authors read, with 532 unique.
+336 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|6.3|4.6|
-|Black|1.9|1.7|
+|Asian|6.2|4.6|
+|Black|1.9|1.8|
 |Hispanic|1.2|1.1|
-|White|59.0|44.0|
-|Unknown|31.2|48.3|
+|White|59.8|45.6|
+|Unknown|30.4|46.5|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|12.1|3.7|
-|Unknown|84.5|94.7|
+|United States|12.3|4.4|
+|Unknown|84.3|93.9|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|39.2|25.0|
-|Nonbinary|2.3|2.2|
-|Woman|27.1|24.4|
-|Unknown|31.4|48.4|
+|Man|39.8|26.3|
+|Nonbinary|2.4|2.4|
+|Woman|27.3|24.6|
+|Unknown|30.6|46.7|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|8.9|5.7|
-|Unknown|91.0|94.1|
+|Yes|8.9|5.9|
+|Unknown|90.9|93.9|
 
 ### 9. Self-Published or Indie Publisher
 
@@ -668,103 +670,103 @@ Author demographics, as described in the overall stats on authors:
 
 - **The Sign of the Dragon** by Mary Soon Lee, read 19 times
 - TIE: **The Wings Upon Her Back** by Samantha Mills and **The Sword of Kaigen** by M.L. Wang, each read 17 times
-- **Murder at Spindle Manor** by Morgan Stang, read 14 times
+- **Murder at Spindle Manor** by Morgan Stang, read 16 times
 - **Unsouled** by Will Wight, read 12 times
-- TIE: **Mother of Learning** by Domagoj Kurmaić and **Dungeon Crawler Carl** by Matt Dinniman, each read 9 times
+- **Mother of Learning** by Domagoj Kurmaić, read 10 times
 
-**TOTAL**: 1253 books read, with 917 unique titles.
+**TOTAL**: 1253 books read, with 885 unique titles.
 536 books were claimed to qualify for hard mode.
-775 books were used only once for this square.
+729 books were used only once for this square.
 Skipped 60 times. Substituted 40 times.
 
 #### Most Read Authors
 
-- Morgan Stang, read 27 times
+- Morgan Stang, read 28 times
 - Will Wight, read 26 times
 - M.L. Wang, read 22 times
-- Mary Soon Lee, read 19 times
-- TIE: Raymond St. Elmo and Matt Dinniman, each read 18 times
+- TIE: Mary Soon Lee and Raymond St. Elmo, each read 19 times
+- Matt Dinniman, read 18 times
 
-**TOTAL**: 1273 total authors read, with 782 unique.
-626 authors were used only once for this square.
+**TOTAL**: 1281 total authors read, with 754 unique.
+583 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|3.6|1.7|
-|White|35.3|22.4|
-|Unknown|59.6|74.6|
+|Asian|3.7|1.8|
+|White|36.8|24.2|
+|Unknown|58.1|72.4|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |United States|3.2|1.4|
-|Unknown|95.4|97.2|
+|Unknown|95.3|97.0|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|19.2|11.6|
-|Nonbinary|2.2|1.4|
-|Woman|18.5|12.3|
-|Unknown|60.2|74.7|
+|Man|19.4|11.8|
+|Nonbinary|2.3|1.6|
+|Woman|19.7|14.1|
+|Unknown|58.6|72.5|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|4.8|4.2|
-|Unknown|95.2|95.8|
+|Yes|4.9|4.6|
+|Unknown|95.1|95.4|
 
 ### 10. Romantasy
 
 #### Most Read Books
 
-- **A Marvellous Light** by Freya Marske, read 36 times
-- **This is How You Lose the Time War** by Amal El-Mohtar, Max Gladstone, read 35 times
+- **This is How You Lose the Time War** by Amal El-Mohtar, Max Gladstone, read 39 times
+- **A Marvellous Light** by Freya Marske, read 37 times
 - **Fourth Wing** by Rebecca Yarros, read 33 times
 - **Someone You Can Build a Nest In** by John Wiswell, read 28 times
 - **Bride** by Ali Hazelwood, read 26 times
 
-**TOTAL**: 1307 books read, with 587 unique titles.
+**TOTAL**: 1307 books read, with 541 unique titles.
 699 books were claimed to qualify for hard mode.
-421 books were used only once for this square.
+367 books were used only once for this square.
 Skipped 36 times. Substituted 10 times.
 
 #### Most Read Authors
 
-- Freya Marske, read 69 times
+- Freya Marske, read 71 times
 - T. Kingfisher, read 58 times
 - Rebecca Yarros, read 52 times
-- Sarah J. Maas, read 41 times
-- Olivia Atwater, read 37 times
+- Sarah J. Maas, read 43 times
+- TIE: Amal El-Mohtar and Max Gladstone, each read 39 times
 
-**TOTAL**: 1354 total authors read, with 429 unique.
-270 authors were used only once for this square.
+**TOTAL**: 1357 total authors read, with 406 unique.
+247 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|6.2|10.4|
+|Asian|6.4|11.5|
 |Black|2.1|1.2|
-|White|53.1|35.5|
-|Unknown|37.8|51.9|
+|White|54.8|38.8|
+|Unknown|36.0|47.4|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Canada|2.7|7.2|
-|United States|4.6|2.6|
-|Unknown|92.1|89.4|
+|Canada|2.9|8.2|
+|United States|4.6|2.9|
+|Unknown|91.8|88.0|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|10.6|13.0|
-|Nonbinary|6.5|3.0|
-|Woman|44.7|31.9|
-|Unknown|38.2|52.1|
+|Man|11.1|14.4|
+|Nonbinary|6.6|3.3|
+|Woman|46.0|34.6|
+|Unknown|36.3|47.6|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|23.3|11.2|
-|Unknown|76.7|88.8|
+|Yes|23.9|11.8|
+|Unknown|76.1|88.2|
 
 ### 11. Dark Academia
 
@@ -772,51 +774,51 @@ Author demographics, as described in the overall stats on authors:
 
 - **Ninth House** by Leigh Bardugo, read 119 times
 - **Blood Over Bright Haven** by M.L. Wang, read 85 times
-- TIE: **Bunny** by Mona Awad and **Babel** by R.F. Kuang, each read 66 times
+- **Bunny** by Mona Awad, read 67 times
+- **Babel** by R.F. Kuang, read 66 times
 - **A Study in Drowning** by Ava Reid, read 55 times
-- **A Deadly Education** by Naomi Novik, read 53 times
 
-**TOTAL**: 1247 books read, with 295 unique titles.
+**TOTAL**: 1247 books read, with 275 unique titles.
 582 books were claimed to qualify for hard mode.
-208 books were used only once for this square.
+187 books were used only once for this square.
 Skipped 63 times. Substituted 42 times.
 
 #### Most Read Authors
 
 - Leigh Bardugo, read 151 times
 - M.L. Wang, read 85 times
-- Naomi Novik, read 72 times
-- TIE: Mona Awad and R.F. Kuang, each read 67 times
+- Naomi Novik, read 73 times
+- TIE: Mona Awad and R.F. Kuang, each read 68 times
 - Ava Reid, read 55 times
 
-**TOTAL**: 1312 total authors read, with 253 unique.
-161 authors were used only once for this square.
+**TOTAL**: 1312 total authors read, with 236 unique.
+144 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|6.7|2.8|
-|Black|5.3|2.2|
-|White|54.2|22.7|
-|Unknown|31.8|71.5|
+|Asian|6.8|2.9|
+|Black|5.3|2.3|
+|White|55.2|24.3|
+|Unknown|30.6|69.6|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |United States|1.3|1.7|
-|Unknown|98.5|97.5|
+|Unknown|98.5|97.4|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|11.1|11.4|
-|Nonbinary|1.8|1.1|
-|Woman|55.4|16.1|
-|Unknown|31.8|71.5|
+|Man|11.2|11.9|
+|Nonbinary|1.8|1.2|
+|Woman|56.5|17.4|
+|Unknown|30.6|69.6|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|5.2|4.7|
-|Unknown|94.8|95.3|
+|Yes|5.3|4.9|
+|Unknown|94.7|95.1|
 
 ### 12. Multi-POV
 
@@ -824,13 +826,13 @@ Author demographics, as described in the overall stats on authors:
 
 - **Spinning Silver** by Naomi Novik, read 33 times
 - **Wind and Truth** by Brandon Sanderson, read 26 times
-- **Jade City** by Fonda Lee, read 20 times
-- **The Atlas Six** by Olivie Blake, read 19 times
+- TIE: **The Atlas Six** by Olivie Blake and **Jade City** by Fonda Lee, each read 20 times
 - TIE: **The Blade Itself** by Joe Abercrombie and **Floating Hotel** by Grace Curtis, each read 16 times
+- **Five Broken Blades** by Mai Corland, read 14 times
 
-**TOTAL**: 1322 books read, with 733 unique titles.
+**TOTAL**: 1322 books read, with 710 unique titles.
 895 books were claimed to qualify for hard mode.
-542 books were used only once for this square.
+512 books were used only once for this square.
 Skipped 31 times. Substituted 0 times.
 
 #### Most Read Authors
@@ -841,35 +843,36 @@ Skipped 31 times. Substituted 0 times.
 - Joe Abercrombie, read 34 times
 - Naomi Novik, read 33 times
 
-**TOTAL**: 1340 total authors read, with 516 unique.
-331 authors were used only once for this square.
+**TOTAL**: 1341 total authors read, with 502 unique.
+313 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|10.6|5.9|
-|Black|1.7|2.3|
-|Hispanic|2.6|1.1|
-|White|58.8|46.3|
-|Unknown|24.9|43.6|
+|Asian|10.7|6.2|
+|Black|1.8|2.3|
+|Hispanic|2.8|1.6|
+|White|60.0|48.6|
+|Unknown|23.3|40.5|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|8.7|3.6|
-|Unknown|87.6|94.3|
+|United Kingdom|3.2|1.2|
+|United States|8.8|4.1|
+|Unknown|87.3|93.4|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|38.2|28.0|
+|Man|39.1|29.8|
 |Nonbinary|1.6|2.1|
-|Woman|35.3|26.3|
-|Unknown|24.9|43.6|
+|Woman|35.9|27.6|
+|Unknown|23.3|40.5|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|6.6|6.3|
-|Unknown|93.2|93.5|
+|Yes|6.7|6.6|
+|Unknown|93.1|93.2|
 
 ### 13. Published in 2024
 
@@ -881,9 +884,9 @@ Author demographics, as described in the overall stats on authors:
 - TIE: **The Ministry of Time** by Kaliane Bradley and **The Wings Upon Her Back** by Samantha Mills, each read 30 times
 - **The Familiar** by Leigh Bardugo, read 22 times
 
-**TOTAL**: 1317 books read, with 495 unique titles.
+**TOTAL**: 1317 books read, with 449 unique titles.
 583 books were claimed to qualify for hard mode.
-334 books were used only once for this square.
+278 books were used only once for this square.
 Skipped 31 times. Substituted 5 times.
 
 #### Most Read Authors
@@ -894,33 +897,34 @@ Skipped 31 times. Substituted 5 times.
 - TIE: Kaliane Bradley and Samantha Mills, each read 30 times
 - Leigh Bardugo, read 22 times
 
-**TOTAL**: 1330 total authors read, with 473 unique.
-308 authors were used only once for this square.
+**TOTAL**: 1333 total authors read, with 447 unique.
+274 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|3.2|4.0|
-|Black|0.8|1.7|
-|White|31.7|24.1|
-|Unknown|63.2|69.0|
+|Asian|3.3|4.4|
+|Black|0.9|2.0|
+|White|32.6|26.6|
+|Unknown|62.0|65.5|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|9.5|2.7|
-|Unknown|89.2|95.4|
+|United States|9.7|3.1|
+|Unknown|89.0|94.9|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|20.8|14.4|
-|Woman|15.7|15.7|
-|Unknown|63.2|69.0|
+|Man|21.2|15.8|
+|Nonbinary|0.5|1.1|
+|Woman|16.4|17.6|
+|Unknown|62.0|65.5|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|7.8|3.8|
-|Unknown|92.1|96.0|
+|Yes|8.0|4.2|
+|Unknown|92.0|95.6|
 
 ### 14. Character with a Disability
 
@@ -930,260 +934,260 @@ Author demographics, as described in the overall stats on authors:
 - **The Spear Cuts Through Water** by Simon Jimenez, read 53 times
 - **The Tainted Cup** by Robert Jackson Bennett, read 44 times
 - TIE: **The Blade Itself** by Joe Abercrombie and **Fourth Wing** by Rebecca Yarros, each read 35 times
-- **Sunbringer** by Hannah Kaner, read 27 times
+- **Sunbringer** by Hannah Kaner, read 29 times
 
-**TOTAL**: 1313 books read, with 590 unique titles.
+**TOTAL**: 1313 books read, with 559 unique titles.
 1093 books were claimed to qualify for hard mode.
-428 books were used only once for this square.
+389 books were used only once for this square.
 Skipped 37 times. Substituted 3 times.
 
 #### Most Read Authors
 
-- Hannah Kaner, read 93 times
+- Hannah Kaner, read 94 times
 - Joe Abercrombie, read 86 times
 - Rebecca Yarros, read 64 times
 - Simon Jimenez, read 53 times
 - Robert Jackson Bennett, read 45 times
 
-**TOTAL**: 1331 total authors read, with 452 unique.
-301 authors were used only once for this square.
+**TOTAL**: 1333 total authors read, with 428 unique.
+274 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|8.0|5.4|
-|Black|5.0|3.2|
-|Hispanic|0.9|1.5|
-|White|45.0|40.8|
-|Unknown|38.3|48.5|
+|Asian|8.4|6.1|
+|Black|5.0|3.4|
+|Hispanic|1.0|1.6|
+|White|46.1|43.7|
+|Unknown|36.7|44.6|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|7.9|3.6|
-|Unknown|83.0|94.2|
+|United States|8.0|4.1|
+|Unknown|82.7|93.7|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|28.6|23.2|
-|Nonbinary|4.4|3.2|
-|Woman|28.5|24.9|
-|Unknown|38.4|48.7|
+|Man|29.3|24.8|
+|Nonbinary|4.7|3.4|
+|Woman|29.3|27.0|
+|Unknown|36.8|44.8|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|14.9|10.7|
-|Unknown|85.0|89.1|
+|Yes|15.5|11.5|
+|Unknown|84.5|88.3|
 
 ### 15. Published in the 1990s
 
 #### Most Read Books
 
-- **Sabriel** by Garth Nix, read 59 times
-- **Assassin's Apprentice** by Robin Hobb, read 32 times
+- **Sabriel** by Garth Nix, read 61 times
+- **Assassin's Apprentice** by Robin Hobb, read 33 times
 - **I Who Have Never Known Men** by Jacqueline Harpman, read 29 times
-- **City of Bones** by Martha Wells, read 24 times
-- **Parable of the Sower** by Octavia E. Butler, read 23 times
+- TIE: **Parable of the Sower** by Octavia E. Butler and **City of Bones** by Martha Wells, each read 24 times
+- **Tigana** by Guy Gavriel Kay, read 20 times
 
-**TOTAL**: 1250 books read, with 479 unique titles.
+**TOTAL**: 1250 books read, with 437 unique titles.
 767 books were claimed to qualify for hard mode.
-336 books were used only once for this square.
+283 books were used only once for this square.
 Skipped 65 times. Substituted 36 times.
 
 #### Most Read Authors
 
-- Terry Pratchett, read 80 times
-- Robin Hobb, read 71 times
+- Terry Pratchett, read 81 times
+- Robin Hobb, read 72 times
 - Garth Nix, read 63 times
 - Guy Gavriel Kay, read 50 times
-- Martha Wells, read 42 times
+- Martha Wells, read 44 times
 
-**TOTAL**: 1288 total authors read, with 288 unique.
-169 authors were used only once for this square.
+**TOTAL**: 1291 total authors read, with 259 unique.
+138 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|3.0|3.6|
-|Black|3.6|1.8|
-|White|70.3|50.0|
-|Unknown|22.3|43.1|
+|Asian|3.0|3.9|
+|Black|3.8|1.9|
+|White|70.8|55.2|
+|Unknown|21.5|37.4|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|11.3|7.2|
-|Unknown|87.3|90.7|
+|United States|11.9|8.4|
+|Unknown|86.8|89.4|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|34.9|33.2|
-|Woman|42.8|23.7|
-|Unknown|22.3|43.1|
+|Man|36.1|36.8|
+|Woman|42.4|25.8|
+|Unknown|21.5|37.4|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|1.8|2.4|
-|Unknown|98.1|97.3|
+|Yes|1.8|2.6|
+|Unknown|98.1|97.1|
 
 ### 16. Orcs, Trolls, and Goblins - Oh My!
 
 #### Most Read Books
 
 - **Bookshops & Bonedust** by Travis Baldree, read 151 times
-- **Legends & Lattes** by Travis Baldree, read 137 times
-- **The Goblin Emperor** by Katherine Addison, read 109 times
-- **Nine Goblins** by T. Kingfisher, read 59 times
+- **Legends & Lattes** by Travis Baldree, read 138 times
+- **The Goblin Emperor** by Katherine Addison, read 112 times
+- **Nine Goblins** by T. Kingfisher, read 60 times
 - **The Unspoken Name** by A.K. Larkwood, read 44 times
 
-**TOTAL**: 1280 books read, with 357 unique titles.
+**TOTAL**: 1280 books read, with 331 unique titles.
 824 books were claimed to qualify for hard mode.
-258 books were used only once for this square.
+228 books were used only once for this square.
 Skipped 57 times. Substituted 16 times.
 
 #### Most Read Authors
 
 - Travis Baldree, read 293 times
-- Katherine Addison, read 122 times
+- Katherine Addison, read 124 times
 - T. Kingfisher, read 64 times
 - Christopher Buehlman, read 59 times
-- A.K. Larkwood, read 56 times
+- A.K. Larkwood, read 57 times
 
-**TOTAL**: 1310 total authors read, with 263 unique.
-172 authors were used only once for this square.
+**TOTAL**: 1311 total authors read, with 246 unique.
+155 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|0.6|1.7|
-|Black|0.4|1.4|
-|White|78.0|33.2|
-|Unknown|21.0|63.7|
+|Asian|0.7|2.2|
+|Black|0.5|1.8|
+|White|78.6|35.8|
+|Unknown|20.2|60.2|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|5.9|3.1|
-|Unknown|93.3|95.2|
+|United States|5.9|3.2|
+|Unknown|93.1|94.6|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|52.2|20.5|
-|Woman|26.6|15.1|
-|Unknown|21.0|63.7|
+|Man|52.6|22.2|
+|Woman|27.0|16.8|
+|Unknown|20.2|60.2|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|30.2|4.1|
-|Unknown|69.6|95.2|
+|Yes|30.2|4.3|
+|Unknown|69.6|95.0|
 
 ### 17. Space Opera
 
 #### Most Read Books
 
-- **Some Desperate Glory** by Emily Tesh, read 71 times
+- **Some Desperate Glory** by Emily Tesh, read 72 times
 - **The Long Way to a Small, Angry Planet** by Becky Chambers, read 60 times
-- **A Memory Called Empire** by Arkady Martine, read 41 times
-- **Ancillary Justice** by Ann Leckie, read 37 times
+- **A Memory Called Empire** by Arkady Martine, read 42 times
+- **Ancillary Justice** by Ann Leckie, read 40 times
 - **Space Opera** by Catherynne M. Valente, read 29 times
 
-**TOTAL**: 1269 books read, with 405 unique titles.
+**TOTAL**: 1269 books read, with 370 unique titles.
 795 books were claimed to qualify for hard mode.
-262 books were used only once for this square.
+218 books were used only once for this square.
 Skipped 61 times. Substituted 23 times.
 
 #### Most Read Authors
 
-- Ann Leckie, read 88 times
-- Becky Chambers, read 85 times
+- Ann Leckie, read 90 times
+- Becky Chambers, read 87 times
 - Emily Tesh, read 72 times
-- Arkady Martine, read 67 times
-- James S.A. Corey, read 66 times
+- TIE: James S.A. Corey and Arkady Martine, each read 67 times
+- Lois McMaster Bujold, read 51 times
 
-**TOTAL**: 1300 total authors read, with 268 unique.
-162 authors were used only once for this square.
+**TOTAL**: 1314 total authors read, with 251 unique.
+139 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|4.5|3.4|
-|Black|2.2|3.7|
-|Hispanic|1.1|1.3|
-|White|71.9|42.3|
-|Unknown|20.4|49.3|
+|Asian|4.8|5.1|
+|Black|2.4|4.4|
+|Hispanic|1.1|1.4|
+|White|72.7|45.9|
+|Unknown|19.0|43.2|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|5.6|4.7|
-|Unknown|92.4|93.3|
+|United States|5.6|5.1|
+|Unknown|92.4|92.9|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|27.2|25.8|
-|Nonbinary|3.2|3.0|
-|Woman|49.2|21.8|
-|Unknown|20.4|49.3|
+|Man|27.8|28.2|
+|Nonbinary|3.4|4.1|
+|Woman|49.8|24.5|
+|Unknown|19.0|43.2|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|25.7|10.1|
-|Unknown|74.0|89.3|
+|Yes|26.3|12.6|
+|Unknown|73.4|86.7|
 
 ### 18. Author of Color
 
 #### Most Read Books
 
-- **The Saint of Bright Doors** by Vajra Chandrasekera, read 45 times
+- **The Saint of Bright Doors** by Vajra Chandrasekera, read 46 times
 - **Chain-Gang All-Stars** by Nana Kwame Adjei-Brenyah, read 44 times
 - **To Shape a Dragon's Breath** by Moniquill Blackgoose, read 36 times
-- **She Who Became the Sun** by Shelley Parker-Chan, read 28 times
+- **She Who Became the Sun** by Shelley Parker-Chan, read 29 times
 - **The Teller of Small Fortunes** by Julie Leong, read 21 times
 
-**TOTAL**: 1304 books read, with 564 unique titles.
+**TOTAL**: 1304 books read, with 533 unique titles.
 613 books were claimed to qualify for hard mode.
-359 books were used only once for this square.
+325 books were used only once for this square.
 Skipped 47 times. Substituted 2 times.
 
 #### Most Read Authors
 
 - Vajra Chandrasekera, read 47 times
-- TIE: P. Djèlí Clark and Nana Kwame Adjei-Brenyah, each read 45 times
+- P. Djèlí Clark, read 46 times
+- Nana Kwame Adjei-Brenyah, read 45 times
 - Moniquill Blackgoose, read 36 times
-- Octavia E. Butler, read 30 times
-- Nghi Vo, read 29 times
+- TIE: Octavia E. Butler and Nghi Vo, each read 30 times
 
-**TOTAL**: 1343 total authors read, with 422 unique.
-249 authors were used only once for this square.
+**TOTAL**: 1344 total authors read, with 407 unique.
+235 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|27.8|19.5|
-|Black|22.1|11.0|
-|Hispanic|3.6|2.3|
-|Native|5.0|2.3|
-|White|0.7|1.8|
-|Unknown|40.3|62.8|
+|Asian|28.3|20.5|
+|Black|22.4|11.4|
+|Hispanic|3.9|2.6|
+|Native|5.1|2.4|
+|White|0.7|2.1|
+|Unknown|39.1|60.7|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Canada|1.9|1.4|
-|United States|8.5|4.1|
-|Unknown|84.4|92.4|
+|United States|8.6|4.3|
+|Unknown|84.4|92.1|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|20.6|12.4|
-|Nonbinary|5.1|2.5|
-|Woman|34.1|22.2|
-|Unknown|40.3|62.8|
+|Man|21.1|13.3|
+|Nonbinary|5.1|2.6|
+|Woman|34.7|23.3|
+|Unknown|39.1|60.7|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|12.7|5.5|
-|Unknown|86.3|94.0|
+|Yes|13.0|5.7|
+|Unknown|86.0|93.8|
 
 ### 19. Survival
 
@@ -1195,47 +1199,47 @@ Author demographics, as described in the overall stats on authors:
 - **The Martian** by Andy Weir, read 27 times
 - **Sixteen Ways to Defend a Walled City** by K.J. Parker, read 14 times
 
-**TOTAL**: 1319 books read, with 701 unique titles.
+**TOTAL**: 1319 books read, with 667 unique titles.
 1089 books were claimed to qualify for hard mode.
-538 books were used only once for this square.
+495 books were used only once for this square.
 Skipped 34 times. Substituted 0 times.
 
 #### Most Read Authors
 
 - Andy Weir, read 79 times
-- Matt Dinniman, read 57 times
+- Matt Dinniman, read 58 times
 - Adrian Tchaikovsky, read 39 times
 - Nana Kwame Adjei-Brenyah, read 38 times
 - T. Kingfisher, read 22 times
 
-**TOTAL**: 1337 total authors read, with 553 unique.
-380 authors were used only once for this square.
+**TOTAL**: 1337 total authors read, with 526 unique.
+347 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|5.5|6.1|
-|Black|6.9|3.2|
-|White|50.2|40.0|
-|Unknown|36.2|49.4|
+|Asian|5.8|6.6|
+|Black|6.9|3.4|
+|White|51.5|42.5|
+|Unknown|34.6|46.0|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|5.5|3.2|
-|Unknown|92.4|93.3|
+|United States|5.8|3.8|
+|Unknown|92.1|92.6|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|34.4|23.2|
-|Nonbinary|1.9|2.9|
-|Woman|27.2|24.1|
-|Unknown|36.5|49.7|
+|Man|35.4|24.9|
+|Nonbinary|1.9|3.0|
+|Woman|27.7|25.7|
+|Unknown|35.0|46.4|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|6.4|7.7|
-|Unknown|93.3|91.9|
+|Yes|6.7|8.3|
+|Unknown|93.0|91.3|
 
 ### 20. Judge a Book by Its Cover
 
@@ -1245,11 +1249,11 @@ Author demographics, as described in the overall stats on authors:
 - TIE: **Water Moon** by Samantha Sotto Yambao and **The Spellshop** by Sarah Beth Durst, each read 15 times
 - TIE: **When Among Crows** by Veronica Roth and **The Book That Wouldn't Burn** by Mark Lawrence, each read 10 times
 - TIE: **The Teller of Small Fortunes** by Julie Leong and **Someone You Can Build a Nest In** by John Wiswell, each read 9 times
-- TIE: **The Mountain in the Sea** by Ray Nayler and **How To Become the Dark Lord and Die Trying** by Django Wexler, each read 8 times
+- TIE: **A Magical Girl Retires** by Park Seolyeon and **The Mountain in the Sea** by Ray Nayler and **How To Become the Dark Lord and Die Trying** by Django Wexler, each read 8 times
 
-**TOTAL**: 1307 books read, with 907 unique titles.
+**TOTAL**: 1307 books read, with 880 unique titles.
 799 books were claimed to qualify for hard mode.
-741 books were used only once for this square.
+702 books were used only once for this square.
 Skipped 38 times. Substituted 8 times.
 
 #### Most Read Authors
@@ -1260,89 +1264,89 @@ Skipped 38 times. Substituted 8 times.
 - TIE: T. Kingfisher and Brandon Sanderson, each read 14 times
 - Mark Lawrence, read 13 times
 
-**TOTAL**: 1341 total authors read, with 765 unique.
-553 authors were used only once for this square.
+**TOTAL**: 1342 total authors read, with 746 unique.
+526 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|9.2|6.2|
-|Black|1.6|2.0|
+|Asian|9.7|6.9|
+|Black|1.6|2.1|
 |Hispanic|1.5|1.4|
-|White|41.8|33.0|
-|Unknown|45.7|57.1|
+|White|43.1|34.8|
+|Unknown|44.0|54.5|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|5.0|3.1|
-|Unknown|93.0|94.8|
+|United States|5.1|3.3|
+|Unknown|92.8|94.4|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|23.6|18.1|
-|Nonbinary|2.9|2.9|
-|Woman|27.7|21.7|
-|Unknown|45.9|57.3|
+|Man|24.1|19.0|
+|Nonbinary|3.1|3.3|
+|Woman|28.7|22.9|
+|Unknown|44.1|54.8|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|10.2|7.5|
-|Unknown|89.6|92.4|
+|Yes|10.5|8.0|
+|Unknown|89.3|91.9|
 
 ### 21. Set in a Small Town
 
 #### Most Read Books
 
-- TIE: **Starling House** by Alix E. Harrow and **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett, each read 69 times
+- **Starling House** by Alix E. Harrow, read 72 times
+- **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett, read 70 times
 - **The Spellshop** by Sarah Beth Durst, read 24 times
-- **Emily Wilde's Map of the Otherlands** by Heather Fawcett, read 18 times
-- **The Sword of Kaigen** by M.L. Wang, read 17 times
-- TIE: **The Bear and the Nightingale** by Katherine Arden and **The Unmaking of June Farrow** by Adrienne Young, each read 16 times
+- TIE: **The Library at Mount Char** by Scott Hawkins and **Emily Wilde's Map of the Otherlands** by Heather Fawcett, each read 18 times
+- TIE: **The Bear and the Nightingale** by Katherine Arden and **The Sword of Kaigen** by M.L. Wang, each read 17 times
 
-**TOTAL**: 1311 books read, with 651 unique titles.
+**TOTAL**: 1311 books read, with 608 unique titles.
 942 books were claimed to qualify for hard mode.
-489 books were used only once for this square.
+445 books were used only once for this square.
 Skipped 34 times. Substituted 8 times.
 
 #### Most Read Authors
 
 - Heather Fawcett, read 88 times
-- Alix E. Harrow, read 73 times
-- Stephen King, read 43 times
+- Alix E. Harrow, read 75 times
+- Stephen King, read 44 times
 - T.J. Klune, read 30 times
 - T. Kingfisher, read 28 times
 
-**TOTAL**: 1342 total authors read, with 509 unique.
-345 authors were used only once for this square.
+**TOTAL**: 1341 total authors read, with 483 unique.
+318 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|2.2|2.0|
-|Black|2.1|1.8|
-|Hispanic|1.4|1.1|
-|Native|2.2|1.1|
-|White|51.9|34.2|
-|Unknown|40.2|59.7|
+|Asian|2.2|2.1|
+|Black|2.3|2.5|
+|Hispanic|1.4|1.2|
+|Native|2.4|1.2|
+|White|53.4|36.5|
+|Unknown|38.3|56.6|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|3.9|2.7|
-|Unknown|94.1|95.4|
+|United States|4.4|3.1|
+|Unknown|93.5|94.8|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|23.6|17.6|
-|Nonbinary|1.6|1.3|
-|Woman|33.8|21.2|
-|Unknown|40.9|59.9|
+|Man|24.2|18.4|
+|Nonbinary|1.7|1.5|
+|Woman|35.0|23.2|
+|Unknown|39.1|56.8|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|8.4|4.4|
-|Unknown|91.6|95.6|
+|Yes|8.9|5.0|
+|Unknown|91.1|95.0|
 
 ### 22. Five SFF Short Stories
 
@@ -1350,52 +1354,54 @@ Author demographics, as described in the overall stats on authors:
 
 - **Exhalation** by Ted Chiang, read 40 times
 - **Buried Deep and Other Stories** by Naomi Novik, read 39 times
-- **Never Whistle at Night** by Shane Hawk, Theodore C. Van Alst Jr., read 24 times
+- **Never Whistle at Night** by Shane Hawk, Theodore C. Van Alst Jr., read 28 times
 - **Her Body and Other Parties** by Carmen Maria Machado, read 21 times
 - **Stories of Your Life and Others** by Ted Chiang, read 20 times
 
-**TOTAL**: 1083 books read, with 618 unique titles.
+**TOTAL**: 1083 books read, with 564 unique titles.
 1006 books were claimed to qualify for hard mode.
-490 books were used only once for this square.
+417 books were used only once for this square.
 Skipped 63 times. Substituted 34 times.
 
 #### Most Read Authors
 
 - Ted Chiang, read 60 times
-- Naomi Novik, read 50 times
+- Naomi Novik, read 51 times
 - Ken Liu, read 34 times
-- TIE: Shane Hawk and Theodore C. Van Alst Jr., each read 28 times
+- TIE: Shane Hawk and Theodore C. Van Alst Jr., each read 31 times
 - Carmen Maria Machado, read 21 times
 
-**TOTAL**: 1670 total authors read, with 771 unique.
-504 authors were used only once for this square.
+**TOTAL**: 1679 total authors read, with 709 unique.
+423 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|10.2|3.8|
-|Black|3.4|2.3|
-|White|38.4|31.1|
-|Unknown|44.7|60.8|
+|Asian|10.5|4.3|
+|Black|3.8|2.9|
+|Hispanic|2.9|1.5|
+|Native|0.8|1.1|
+|White|40.8|34.2|
+|Unknown|41.0|55.8|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |United Kingdom|1.7|1.2|
-|United States|5.9|4.7|
-|Unknown|91.6|93.3|
+|United States|6.4|5.4|
+|Unknown|91.0|92.6|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|26.1|18.3|
-|Nonbinary|1.0|1.2|
-|Woman|27.7|19.0|
-|Unknown|45.2|61.5|
+|Man|27.3|20.1|
+|Nonbinary|1.5|1.9|
+|Woman|29.5|21.3|
+|Unknown|41.7|56.7|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|5.9|4.7|
-|Unknown|94.0|95.2|
+|Yes|6.7|6.0|
+|Unknown|93.2|93.8|
 
 ### 23. Eldritch Creatures
 
@@ -1404,51 +1410,51 @@ Author demographics, as described in the overall stats on authors:
 - **Annihilation** by Jeff VanderMeer, read 76 times
 - **Ring Shout** by P. Djèlí Clark, read 71 times
 - **The Tainted Cup** by Robert Jackson Bennett, read 43 times
-- **The Fisherman** by John Langan, read 35 times
+- **The Fisherman** by John Langan, read 36 times
 - **Someone You Can Build a Nest In** by John Wiswell, read 28 times
 
-**TOTAL**: 1302 books read, with 586 unique titles.
+**TOTAL**: 1302 books read, with 547 unique titles.
 1076 books were claimed to qualify for hard mode.
-432 books were used only once for this square.
+385 books were used only once for this square.
 Skipped 39 times. Substituted 11 times.
 
 #### Most Read Authors
 
-- Jeff VanderMeer, read 90 times
+- Jeff VanderMeer, read 91 times
 - P. Djèlí Clark, read 74 times
-- T. Kingfisher, read 63 times
+- T. Kingfisher, read 64 times
 - Robert Jackson Bennett, read 51 times
 - John Langan, read 36 times
 
-**TOTAL**: 1346 total authors read, with 447 unique.
-295 authors were used only once for this square.
+**TOTAL**: 1350 total authors read, with 422 unique.
+270 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|7.3|7.7|
+|Asian|7.6|8.6|
 |Black|8.4|1.8|
-|Hispanic|0.7|1.4|
-|White|55.2|43.5|
-|Unknown|27.8|45.3|
+|Hispanic|0.8|1.6|
+|White|56.5|45.2|
+|Unknown|26.0|42.4|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|6.5|4.5|
-|Unknown|88.8|92.7|
+|United States|6.6|4.5|
+|Unknown|88.7|92.7|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|45.2|26.8|
-|Nonbinary|2.9|3.7|
-|Woman|23.8|23.8|
-|Unknown|28.0|45.7|
+|Man|46.2|27.9|
+|Nonbinary|3.0|4.1|
+|Woman|24.6|25.3|
+|Unknown|26.2|42.8|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|9.1|9.3|
-|Unknown|90.9|90.6|
+|Yes|9.3|9.8|
+|Unknown|90.7|90.0|
 
 ### 24. Reference Materials
 
@@ -1460,47 +1466,47 @@ Author demographics, as described in the overall stats on authors:
 - **The Sword of Kaigen** by M.L. Wang, read 25 times
 - TIE: **Wind and Truth** by Brandon Sanderson and **How To Become the Dark Lord and Die Trying** by Django Wexler, each read 19 times
 
-**TOTAL**: 1307 books read, with 685 unique titles.
+**TOTAL**: 1307 books read, with 663 unique titles.
 847 books were claimed to qualify for hard mode.
-498 books were used only once for this square.
+472 books were used only once for this square.
 Skipped 44 times. Substituted 2 times.
 
 #### Most Read Authors
 
-- Brandon Sanderson, read 54 times
+- Brandon Sanderson, read 55 times
 - Heather Fawcett, read 47 times
 - Robert Jackson Bennett, read 46 times
 - M.L. Wang, read 32 times
 - James Islington, read 28 times
 
-**TOTAL**: 1325 total authors read, with 483 unique.
-319 authors were used only once for this square.
+**TOTAL**: 1323 total authors read, with 459 unique.
+290 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|5.7|6.2|
-|Black|2.0|1.9|
-|White|57.5|46.0|
-|Unknown|33.3|44.9|
+|Asian|5.8|6.7|
+|Black|2.1|2.2|
+|White|59.4|49.6|
+|Unknown|30.9|40.3|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|10.0|3.5|
-|Unknown|86.6|94.2|
+|United States|10.2|3.9|
+|Unknown|86.4|93.7|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|32.5|24.1|
-|Nonbinary|1.7|1.9|
-|Woman|32.4|28.9|
-|Unknown|33.4|45.2|
+|Man|33.7|26.6|
+|Nonbinary|1.8|2.2|
+|Woman|33.5|30.7|
+|Unknown|31.0|40.5|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|6.4|5.4|
-|Unknown|92.7|94.2|
+|Yes|6.6|6.1|
+|Unknown|92.5|93.5|
 
 ### 25. Book Club or Readalong Book
 
@@ -1512,9 +1518,9 @@ Author demographics, as described in the overall stats on authors:
 - **Someone You Can Build a Nest In** by John Wiswell, read 26 times
 - **The Spear Cuts Through Water** by Simon Jimenez, read 23 times
 
-**TOTAL**: 1230 books read, with 386 unique titles.
+**TOTAL**: 1230 books read, with 342 unique titles.
 402 books were claimed to qualify for hard mode.
-216 books were used only once for this square.
+167 books were used only once for this square.
 Skipped 59 times. Substituted 64 times.
 
 #### Most Read Authors
@@ -1523,38 +1529,38 @@ Skipped 59 times. Substituted 64 times.
 - Hannah Kaner, read 43 times
 - Sarah Beth Durst, read 31 times
 - John Wiswell, read 26 times
-- Octavia E. Butler, read 24 times
+- Octavia E. Butler, read 25 times
 
-**TOTAL**: 1250 total authors read, with 289 unique.
-135 authors were used only once for this square.
+**TOTAL**: 1250 total authors read, with 269 unique.
+114 authors were used only once for this square.
 
 Author demographics, as described in the overall stats on authors:
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|13.2|12.2|
-|Black|4.7|5.0|
-|Hispanic|0.5|1.2|
-|White|54.6|53.1|
-|Unknown|26.7|27.5|
+|Asian|13.4|13.0|
+|Black|4.8|5.3|
+|Hispanic|0.5|1.3|
+|White|56.2|58.0|
+|Unknown|24.8|21.3|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Canada|1.5|5.0|
-|United States|7.0|5.3|
-|Unknown|88.7|87.5|
+|Canada|1.5|5.3|
+|United States|7.1|6.0|
+|Unknown|88.6|86.3|
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|26.3|29.1|
-|Nonbinary|2.0|3.8|
-|Woman|44.7|39.4|
-|Unknown|27.0|27.8|
+|Man|26.8|31.3|
+|Nonbinary|2.1|4.0|
+|Woman|46.1|43.0|
+|Unknown|25.0|21.7|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|14.6|14.1|
-|Unknown|85.4|85.9|
+|Yes|15.2|15.7|
+|Unknown|84.8|84.3|
 
 ## Substitutions
 
@@ -1563,8 +1569,8 @@ Out of 1353 cards, 403 used the Substitution rule.
 ### Books
 
 - TIE: **Dark Matter** by Blake Crouch and **A Psalm for the Wild-Built** by Becky Chambers and **All Systems Red** by Martha Wells, each read 4 times
-- TIE: **Piranesi** by Susanna Clarke and **Witch King** by Martha Wells and **Tress of the Emerald Sea** by Brandon Sanderson and **Project Hail Mary** by Andy Weir, each read 3 times
-- TIE: **Emperor of Thorns** by Mark Lawrence and **Rakesfall** by Vajra Chandrasekera and **The Legacy of Yangchen** by F.C. Yee and **Daughter of the Pirate King** by Tricia Levenseller and **Kings of the Wyld** by Nicholas Eames and **Navola** by Paolo Bacigalupi and **Sea of Tranquility** by Emily St. John Mandel and **The Space Between Worlds** by Micaiah Johnson and **Recursion** by Blake Crouch and **The Saint of Bright Doors** by Vajra Chandrasekera and **The City in Glass** by Nghi Vo and **Every Heart a Doorway** by Seanan McGuire and **The Tainted Cup** by Robert Jackson Bennett and **The House in the Cerulean Sea** by T.J. Klune and **I Who Have Never Known Men** by Jacqueline Harpman and **A Sorceress Comes to Call** by T. Kingfisher and **Memories of Ice** by Steven Erikson and **Hench** by Natalie Zina Walschots and **The Orb of Cairado** by Katherine Addison and **The Library at Mount Char** by Scott Hawkins, each read 2 times
+- TIE: **Piranesi** by Susanna Clarke and **Witch King** by Martha Wells and **The House in the Cerulean Sea** by T.J. Klune and **Tress of the Emerald Sea** by Brandon Sanderson and **Project Hail Mary** by Andy Weir, each read 3 times
+- TIE: **Emperor of Thorns** by Mark Lawrence and **Rakesfall** by Vajra Chandrasekera and **The Legacy of Yangchen** by F.C. Yee and **Daughter of the Pirate King** by Tricia Levenseller and **Lady Macbeth** by Ava Reid and **Kings of the Wyld** by Nicholas Eames and **Navola** by Paolo Bacigalupi and **Sea of Tranquility** by Emily St. John Mandel and **The Space Between Worlds** by Micaiah Johnson and **Recursion** by Blake Crouch and **The Saint of Bright Doors** by Vajra Chandrasekera and **The City in Glass** by Nghi Vo and **Every Heart a Doorway** by Seanan McGuire and **The Tainted Cup** by Robert Jackson Bennett and **I Who Have Never Known Men** by Jacqueline Harpman and **A Sorceress Comes to Call** by T. Kingfisher and **Memories of Ice** by Steven Erikson and **Hench** by Natalie Zina Walschots and **Deadman Walking** by C.B. Titus and **The Orb of Cairado** by Katherine Addison and **The Library at Mount Char** by Scott Hawkins, each read 2 times
 
 ### Authors
 
@@ -1588,31 +1594,31 @@ Values close to 100 suggest the same books were used repeatedly for a square; 10
 
 |SQUARE|BOOK|AUTHOR|
 |---------|:---------:|:---------:|
-|First in a Series|39.8|46.4|
-|Alliterative Title|52.7|57.5|
-|Under the Surface|58.9|65.5|
-|Criminals|54.7|61.3|
-|Dreams|32.9|45.8|
-|Entitled Animals|52.5|57.8|
-|Bards|60.7|67.4|
-|Prologues and Epilogues|36.7|50.1|
-|Self-Published or Indie Publisher|24.6|35.0|
-|Romantasy|48.4|59.5|
-|Dark Academia|69.7|72.7|
-|Multi-POV|38.7|52.9|
-|Published in 2024|53.9|55.0|
-|Character with a Disability|49.4|59.0|
-|Published in the 1990s|53.5|65.9|
-|Orcs, Trolls, and Goblins - Oh My!|67.4|74.0|
-|Space Opera|58.5|69.7|
-|Author of Color|47.5|57.0|
-|Survival|41.9|51.2|
-|Judge a Book by Its Cover|27.5|36.6|
-|Set in a Small Town|45.3|54.6|
-|Five SFF Short Stories|39.0|45.1|
-|Eldritch Creatures|49.3|58.6|
-|Reference Materials|41.7|54.7|
-|Book Club or Readalong Book|55.1|58.2|
+|First in a Series|40.9|47.0|
+|Alliterative Title|54.1|58.1|
+|Under the Surface|60.0|65.8|
+|Criminals|56.1|61.9|
+|Dreams|35.0|47.0|
+|Entitled Animals|55.0|59.4|
+|Bards|62.9|68.0|
+|Prologues and Epilogues|37.4|50.5|
+|Self-Published or Indie Publisher|26.6|36.7|
+|Romantasy|50.6|60.6|
+|Dark Academia|70.4|73.2|
+|Multi-POV|39.8|53.4|
+|Published in 2024|55.3|55.7|
+|Character with a Disability|50.8|59.9|
+|Published in the 1990s|55.1|66.2|
+|Orcs, Trolls, and Goblins - Oh My!|68.5|74.6|
+|Space Opera|59.4|69.9|
+|Author of Color|48.7|57.5|
+|Survival|43.5|52.2|
+|Judge a Book by Its Cover|28.9|37.4|
+|Set in a Small Town|47.8|55.7|
+|Five SFF Short Stories|42.3|47.0|
+|Eldritch Creatures|51.2|59.8|
+|Reference Materials|42.8|55.6|
+|Book Club or Readalong Book|55.4|58.0|
 
 The squares with the most variety in books:
 - **Self-Published or Indie Publisher**
@@ -1622,7 +1628,7 @@ The squares with the most variety in books:
 The squares with the most variety in authors:
 - **Self-Published or Indie Publisher**
 - **Judge a Book by Its Cover**
-- **Five SFF Short Stories**
+- **Dreams**
 
 The squares with the least variety in books:
 - **Dark Academia**
@@ -1650,21 +1656,21 @@ Quoting the [very first bingo stats post](https://www.reddit.com/r/Fantasy/comme
 
 A "misspelling" for the purposes of these statistics is any book (title/author combination)
 that does not match the version used as the canonical version during cleaning.
-There were a total of 5899 misspellings.
+There were a total of 7980 misspellings.
 (Note that this does not include short stories.)
 
 The books with the most variation in title or author spellings were:
 
 - **The Adventures of Amina al-Sirafi** by Shannon Chakraborty, with 37 variations
-- **This is How You Lose the Time War** by Amal El-Mohtar, Max Gladstone, with 27 variations
-- **Blood Over Bright Haven** by M.L. Wang, with 22 variations
-- **Chain-Gang All-Stars** by Nana Kwame Adjei-Brenyah, with 20 variations
-- **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett, with 19 variations
-- **Never Whistle at Night** by Shane Hawk, Theodore C. Van Alst Jr., with 18 variations
-- TIE: **Vita Nostra** by Marina Dyachenko, Sergey Dyachenko and **The Long Way to a Small, Angry Planet** by Becky Chambers and **Someone You Can Build a Nest In** by John Wiswell and **Dungeon Crawler Carl** by Matt Dinniman, with 17 variations each
+- **This is How You Lose the Time War** by Amal El-Mohtar, Max Gladstone, with 34 variations
+- TIE: **Never Whistle at Night** by Shane Hawk, Theodore C. Van Alst Jr. and **Blood Over Bright Haven** by M.L. Wang, with 22 variations each
+- **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett, with 21 variations
+- TIE: **Chain-Gang All-Stars** by Nana Kwame Adjei-Brenyah and **Monstress** by Marjorie M. Liu, Sana Takeda, with 20 variations each
+- **Dungeon Crawler Carl** by Matt Dinniman, with 18 variations
+- TIE: **Vita Nostra** by Marina Dyachenko, Sergey Dyachenko and **The Long Way to a Small, Angry Planet** by Becky Chambers and **Someone You Can Build a Nest In** by John Wiswell, with 17 variations each
 - TIE: **Bookshops & Bonedust** by Travis Baldree and **DallerGut Dream Department Store** by Lee Mi-ye, with 16 variations each
-- **Monstress** by Marjorie M. Liu, Sana Takeda, with 15 variations
-- **The Sword of Kaigen** by M.L. Wang, with 14 variations
+- **Legends & Lattes** by Travis Baldree, with 15 variations
+- TIE: **The Sword of Kaigen** by M.L. Wang and **Mother of Learning** by Domagoj Kurmaić, with 14 variations each
 
 What makes a book hard to "spell" correctly?
 

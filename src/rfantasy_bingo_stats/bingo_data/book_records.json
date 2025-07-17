@@ -619,16 +619,6 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "A Cat's Guide to Bonding with Dragons /// Chris Behrins": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
   "A Catalogue of Catastrophe /// Jodi Taylor": {
     "standalone": null,
     "self_published": null,
@@ -640,6 +630,16 @@
     "publication_year": null
   },
   "A Cathedral Myth and Bone /// Kat Howard": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
+  "A Cat’s Guide to Bonding with Dragons /// Chris Behrins": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -1539,7 +1539,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "A Duel With the Vampire Lord /// Elise Kova": {
+  "A Duel with the Vampire Lord /// Elise Kova": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -1629,7 +1629,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "A Fellowship of Bakers & Magic /// J. Penner": {
+  "A Fellowship of Bakers and Magic /// J. Penner": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -3629,7 +3629,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "A Tale of Stars and Shadows /// Lisa Cassidy": {
+  "A Tale of Stars and Shadow /// Lisa Cassidy": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -3889,7 +3889,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "A Universe of Wishes /// Dhonielle Clayton": {
+  "A Universe of Wishes /// Dhonielle Clayton, Anna-Marie McLemore, Rebecca Roanhorse, Libba Bray, Jenni Balch, V.E. Schwab, Tessa Gratton, Natalie C. Parker, Samira Ahmed, Tochi Onyebuchi, Mark Oshiro, Kwame Mbalia, Tara Sim, Zoraida Córdova, Nic Stone": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -4289,7 +4289,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "AITA /// Cassie Alexander": {
+  "AITA? /// Cassie Alexander": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -4329,7 +4329,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Abaddon's Gate /// James S.A. Corey": {
+  "Abaddon’s Gate /// James S.A. Corey": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -4620,6 +4620,16 @@
     "publication_year": null
   },
   "Across a Field of Starlight /// Blue Delliquanti": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
+  "Across the Great Barrier /// Patricia C. Wrede": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -5759,7 +5769,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "All You Need is Kill /// Hiroshi Sakurazaka": {
+  "All You Need Is Kill /// Hiroshi Sakurazaka": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -6099,7 +6109,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Also the Cat /// Rachel Swirsky": {
+  "Also, the Cat /// Rachel Swirsky": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -7089,7 +7099,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Another dimension of us /// Mike Albo": {
+  "Another Dimension of Us /// Mike Albo": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -10999,7 +11009,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Black Stars /// Nisi Shawl, Nnedi Okorafor, Chimamanda Ngozi Adichie, C.T. Rwizi, Nalo Hopkinson, Victor LaValle": {
+  "Black Stars: A Galaxy of New Worlds /// Nisi Shawl, Nnedi Okorafor, Chimamanda Ngozi Adichie, C.T. Rwizi, Nalo Hopkinson, Victor LaValle": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -12559,7 +12569,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Books of Blood, Volume 1 /// Clive Barker": {
+  "Books of Blood /// Clive Barker": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -13269,7 +13279,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Broken Sky /// Morgen K Bell": {
+  "Broken Sky /// Morgan K. Bell": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -17269,7 +17279,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Crier's War /// Nina Varela": {
+  "Crier’s War /// Nina Varela": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -19439,7 +19449,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Dead Collections /// Isaac Fellman": {
+  "Dead Collections /// Isaac R. Fellman": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -21679,7 +21689,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Don't Touch That: A Sci-Fi & Fantasy Parenting Anthology /// Jaymee Goh": {
+  "Don't Touch That!: A Sci-Fi & Fantasy Parenting Anthology /// Jaymee Goh": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -22249,7 +22259,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Dragonfall /// L.R. Lam": {
+  "Dragonfall /// Laura Lam": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -23009,16 +23019,6 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Dungeons and Dragons: Honor Among Thieves: The Road to Neverwinter /// Jaleigh Johnson": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
   "Durarara!! /// Ryohgo Narita": {
     "standalone": null,
     "self_published": null,
@@ -23570,6 +23570,16 @@
     "publication_year": null
   },
   "Eleceed /// Jeho Son": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
+  "Electric Dreams /// Philip K. Dick": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -24449,7 +24459,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Engines of Empire /// R.S. Ford": {
+  "Engines of Empire /// Richard S. Ford": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -25039,7 +25049,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Everyone is Young Except for Me /// Lee Hyeongdo": {
+  "Everyone Is Young Except for Me /// Lee Hyeongdo": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -25710,16 +25720,6 @@
     "publication_year": null
   },
   "Fall of Kings /// David Gemmell, Stella Gemmell": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
-  "Fall of the Kings /// Ellen Kushner, Delia Sherman": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -26759,16 +26759,6 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Fire keepers daughter /// Angeline Boulley": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
   "Fire of the Forebears /// L.A. Buck": {
     "standalone": null,
     "self_published": null,
@@ -26849,6 +26839,16 @@
     "genre": "Unknown",
     "publication_year": null
   },
+  "Firekeeper's Daughter /// Angeline Boulley": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
   "Fires of Azeroth /// C.J. Cherryh": {
     "standalone": null,
     "self_published": null,
@@ -26900,16 +26900,6 @@
     "publication_year": null
   },
   "First Angels /// Guerric Haché": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
-  "First Chronicles of Druss the Legend /// David Gemmell": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -27569,16 +27559,6 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Fool's Fate /// Robin Hobb": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
   "Fools' War /// Sarah Zettel": {
     "standalone": null,
     "self_published": null,
@@ -27590,6 +27570,16 @@
     "publication_year": null
   },
   "Fool’s Assassin /// Robin Hobb": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
+  "Fool’s Fate /// Robin Hobb": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -27930,16 +27920,6 @@
     "publication_year": null
   },
   "Forgotten Lore /// Blanket Fort Writers": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
-  "Fortress /// S.A. Jones": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -28339,7 +28319,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Free The Darkness /// Kel Kade": {
+  "Free the Darkness /// Kel Kade": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -29099,7 +29079,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Garlic and the Vampire /// Bree Paulson": {
+  "Garlic and the Vampire /// Bree Paulsen": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -29109,7 +29089,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Garlic and the Witch /// Bree Paulson": {
+  "Garlic and the Witch /// Bree Paulsen": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -29489,16 +29469,6 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Ghosts of The Tristan Basin /// Brian McClellan": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
   "Ghosts of Tomorrow /// Michael R. Fletcher": {
     "standalone": null,
     "self_published": null,
@@ -29520,6 +29490,16 @@
     "publication_year": null
   },
   "Ghosts of the Shadow Market /// Cassandra Clare": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
+  "Ghosts of the Tristan Basin /// Brian McClellan": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -30059,7 +30039,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Goblin Market /// Cristina Rosetti": {
+  "Goblin Market /// Christina Rossetti": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -31099,6 +31079,16 @@
     "genre": "Unknown",
     "publication_year": null
   },
+  "Guardian /// Priest": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
   "Guardian Demon /// Meljean Brook": {
     "standalone": null,
     "self_published": null,
@@ -31110,16 +31100,6 @@
     "publication_year": null
   },
   "Guardian of Chaos /// Michelle Manus": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
-  "Guardian: Zhen Hun /// Priest": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -31639,7 +31619,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Hamra & the Jungle of Memories /// Hanna Alkaf": {
+  "Hamra and the Jungle of Memories /// Hanna Alkaf": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -31799,7 +31779,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Hard to Be a God /// Arkady Strugatsky": {
+  "Hard to Be a God /// Arkady Strugatsky, Boris Strugatsky": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -33209,7 +33189,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Hi, I'm a Witch, and My Crush Wants Me to Make a Love Potion, Vol. 1 /// Kamada": {
+  "Hi, I'm a Witch, and My Crush Wants Me to Make a Love Potion /// Kamada": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -34969,7 +34949,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Hunter's Oath /// Michelle West": {
+  "Hunter's Run /// George R.R. Martin, Gardner Dozois, Daniel Abraham": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -34979,7 +34959,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Hunter's Run /// George R.R. Martin, Gardner Dozois, Daniel Abraham": {
+  "Hunter’s Oath /// Michelle West": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -35389,7 +35369,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "I'll Come Back For You /// Charish Reid": {
+  "I'll Come Back for You /// Charish Reid": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -36149,7 +36129,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "In These Hallowed Halls /// Marie O'Regan": {
+  "In These Hallowed Halls /// Marie O'Regan, Paul Kane": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -36979,7 +36959,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Interlude With Tattoos /// K.J. Charles": {
+  "Interlude with Tattoos /// K.J. Charles": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -40839,7 +40819,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Letters From Father Christmas /// J.R.R. Tolkien": {
+  "Letters from Father Christmas /// J.R.R. Tolkien": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -40999,7 +40979,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Liberty's Daughter /// Naomi Kritzer": {
+  "Liberty: Seeking Support for a Writ of Habeas Corpus for a Non-Human Being /// Samuel Peralta": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -41009,7 +40989,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Liberty: Seeking Support for a Writ of Habeas Corpus for a Non-Human Being /// Samuel Peralta": {
+  "Liberty’s Daughter /// Naomi Kritzer": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -42359,7 +42339,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Love Beyond Body, Space & Time /// Hope Nicholson": {
+  "Love Beyond Body, Space, and Time /// Hope Nicholson": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -42819,7 +42799,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Lycanthropy and Other Chronic Illnesses /// Kristen O'Neal": {
+  "Lycanthropy and Other Chronic Illnesses /// Kristen O’Neal": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -43339,27 +43319,17 @@
     "genre": "Unknown",
     "publication_year": null
   },
+  "Magician /// Raymond E. Feist": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
   "Magician's Hoard /// Celia Lake": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
-  "Magician: Apprentice /// Raymond E. Feist": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
-  "Magician: Master /// Raymond E. Feist": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -43579,7 +43549,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Manacled /// Senlinyu": {
+  "Manacled /// SenLinYu": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -43959,16 +43929,6 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Masque of the Red Death /// Edgar Allan Poe": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
   "Masquerade in Lodi /// Lois McMaster Bujold": {
     "standalone": null,
     "self_published": null,
@@ -43999,7 +43959,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Mass Effect Revelation /// Drew Karpyshyn": {
+  "Mass Effect: Revelation /// Drew Karpyshyn": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -44099,7 +44059,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Master of Sorrows /// Justin Call": {
+  "Master of Sorrows /// Justin Travis Call": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -44619,7 +44579,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Men, Women and Chainsaws /// Stephen Graham Jones": {
+  "Men, Women, and Chainsaws /// Stephen Graham Jones": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -45369,7 +45329,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Miss Peregrine's Home for Peculiar Children /// Ransom Riggs": {
+  "Miss Peregrine’s Home for Peculiar Children /// Ransom Riggs": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -45559,7 +45519,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Monday Starts on Saturday /// Arkady Strugatsky, Boris Strugatsky": {
+  "Monday Begins on Saturday /// Arkady Strugatsky, Boris Strugatsky": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -46569,16 +46529,6 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Mutant Pride /// S.J. Whitby": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
   "Mutated Pheromones /// 一世华裳": {
     "standalone": null,
     "self_published": null,
@@ -46609,7 +46559,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "My Aunt Is a Monster /// Reimena Yee": {
+  "My Aunt is a Monster /// Reimena Yee": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -46619,7 +46569,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "My Best Friend's Exorcism /// Grady Hendrix": {
+  "My Best Friend’s Exorcism /// Grady Hendrix": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -46829,7 +46779,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "My Roommate Is a Vampire /// Jenna Levine": {
+  "My Roommate is a Vampire /// Jenna Lewis": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -47809,16 +47759,6 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Night Fall /// Isaac Asimov": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
   "Night Music /// Tobias F. Cabral": {
     "standalone": null,
     "self_published": null,
@@ -48080,6 +48020,16 @@
     "publication_year": null
   },
   "Nightfall /// Daniel Barnett": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
+  "Nightfall /// Isaac Asimov": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -49219,7 +49169,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Ocean's Echo /// Everina Maxwell": {
+  "Oceanic /// Greg Egan": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -49229,7 +49179,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Oceanic /// Greg Egan": {
+  "Ocean’s Echo /// Everina Maxwell": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -50019,7 +49969,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Once Upon a December /// Amy Reichert": {
+  "Once Upon a December /// Amy E. Reichert": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -50259,7 +50209,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "One Man's Tresure /// Sarah Pinsker": {
+  "One Man's Treasure /// Sarah Pinsker": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -50509,7 +50459,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Open House On Haunted Hill /// John Wiswell": {
+  "Open House on Haunted Hill /// John Wiswell": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -51549,16 +51499,6 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Palm Wine Drinkard /// Amos Tutuola": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
   "Pan Lodowego Ogrodu księga IV /// Jarosław Grzędowicz": {
     "standalone": null,
     "self_published": null,
@@ -51799,7 +51739,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Paranoid Mage /// Inadvisably Compelled": {
+  "Paranoid Mage /// InadvisablyCompelled": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -52019,7 +51959,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Payback's a Witch /// Lana Harper": {
+  "Payback’s a Witch /// Lana Harper": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -52330,16 +52270,6 @@
     "publication_year": null
   },
   "Perdido Street Station /// China Miéville": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
-  "Perdition Score /// Richard Kadrey": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -52690,16 +52620,6 @@
     "publication_year": null
   },
   "Pheromone /// C.M. Stunich": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
-  "Philip K. Dick's Electric Dreams /// Philip K. Dick": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -53449,16 +53369,6 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Preludes & Nocturnes /// Neil Gaiman": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
   "Prep School for Serial Killers /// Tara Platt": {
     "standalone": null,
     "self_published": null,
@@ -53480,16 +53390,6 @@
     "publication_year": null
   },
   "Pretties /// Scott Westerfeld": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
-  "Pretty Guardian Sailor Moon Eternal Edition /// Naoko Takeuchi": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -53540,16 +53440,6 @@
     "publication_year": null
   },
   "Pride and Prejudice and Zombies /// Seth Grahame-Smith": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
-  "Pride of Chanur /// C.J. Cherryh": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -54219,7 +54109,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Ptolemy's Gate /// Jonathan Stroud": {
+  "Ptolemy’s Gate /// Jonathan Stroud": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -54579,7 +54469,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Queens of noise /// Leigh Harlen": {
+  "Queens of Noise /// Leigh Harlen": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -55419,7 +55309,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Reborn as a Demonic Tree /// Xkarnation": {
+  "Reborn as a Demonic Tree /// XKarnation": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -55449,7 +55339,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Reckless Souls /// K.C. Kean": {
+  "Reckless Eyeballing /// N.K. Jemisin": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -55459,7 +55349,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Recklessly Eyeballing /// N.K. Jemisin": {
+  "Reckless Souls /// K.C. Kean": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -56089,7 +55979,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Relic /// Douglas Preston": {
+  "Relic /// Douglas Preston, Lincoln Child": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -58359,7 +58249,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Sandry's Book /// Tamora Pierce": {
+  "Sandry’s Book /// Tamora Pierce": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -59639,7 +59529,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Sew You Want to be a Hero /// Andrew Seiple": {
+  "Sew You Want to Be a Hero /// Andrew Seiple": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -66389,26 +66279,6 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "THe Band /// Robert Eames": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
-  "THe Never King /// James Abbott": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
   "TOR.COM Nov/Dec 2023 Short Fiction /// Nghi Vo, Cory Doctorow, Kerstin Hall, Nisi Shawl, Lyndsie Manusos": {
     "standalone": null,
     "self_published": null,
@@ -68599,16 +68469,6 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Assassin's Blade /// Sarah J. Maas": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
   "The Assassins of Consequence /// Marshall Ryan Maresca": {
     "standalone": null,
     "self_published": null,
@@ -68620,6 +68480,16 @@
     "publication_year": null
   },
   "The Assassins of Thasalon /// Lois McMaster Bujold": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
+  "The Assassin’s Blade /// Sarah J. Maas": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -68689,7 +68559,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Aunt Who Wouldn't Die /// Shirshendu Mukhopadhyay": {
+  "The Aunt Who Wouldn’t Die /// Shirshendu Mukhopadhyay": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -68890,6 +68760,16 @@
     "publication_year": null
   },
   "The Ballad of Songbirds and Snakes /// Suzanne Collins": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
+  "The Band /// Robert Eames": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -69809,7 +69689,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Bloodborn Dragon /// J.C. Rycroft": {
+  "The Blood-Born Dragon /// J.C. Rycroft": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -70279,7 +70159,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Book of Disapperance /// Ibtisam Azem": {
+  "The Book of Disappearance /// Ibtisam Azem": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -70719,7 +70599,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Boy with a Bird in his Chest /// Emme Lund": {
+  "The Boy with a Bird in His Chest /// Emme Lund": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -70779,7 +70659,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Breath of the Sun /// Isaac Fellman": {
+  "The Breath of the Sun /// Isaac R. Fellman": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -70900,16 +70780,6 @@
     "publication_year": null
   },
   "The Broken Sword /// Poul Anderson": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
-  "The Bromeliad /// Terry Pratchett": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -71129,7 +70999,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Butcher's Masquerade /// Matt Dinniman": {
+  "The Butcher’s Masquerade /// Matt Dinniman": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -71689,7 +71559,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Chromatic Fantasy /// H A": {
+  "The Chromatic Fantasy /// H.A.": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -71899,7 +71769,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The City of Brass /// S.A. Chakraborty": {
+  "The City of Brass /// Shannon Chakraborty": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -72239,7 +72109,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Complete Tales And Poems Of Edgar Allen Poe /// Edgar Allan Poe": {
+  "The Complete Tales and Poems of Edgar Allen Poe /// Edgar Allan Poe": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -72509,16 +72379,6 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Creataceous Past /// Cixin Liu": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
   "The Creature in the Case /// Garth Nix": {
     "standalone": null,
     "self_published": null,
@@ -72540,6 +72400,16 @@
     "publication_year": null
   },
   "The Crescent Moon /// E.J. Doble": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
+  "The Cretaceous Past /// Cixin Liu": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -74229,16 +74099,6 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Dragon's Path /// Daniel Abraham": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
   "The Dragon's Promise /// Elizabeth Lim": {
     "standalone": null,
     "self_published": null,
@@ -74270,6 +74130,16 @@
     "publication_year": null
   },
   "The Dragons of Deepwood Fen /// Bradley P. Beaulieu": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
+  "The Dragon’s Path /// Daniel Abraham": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -75529,6 +75399,16 @@
     "genre": "Unknown",
     "publication_year": null
   },
+  "The Fall of the Kings /// Ellen Kushner, Delia Sherman": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
   "The Fall of the Readers /// Django Wexler": {
     "standalone": null,
     "self_published": null,
@@ -75990,6 +75870,16 @@
     "publication_year": null
   },
   "The First Bright Thing /// J.R. Dawson": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
+  "The First Chronicles of Druss the Legend /// David Gemmell": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -76469,6 +76359,16 @@
     "genre": "Unknown",
     "publication_year": null
   },
+  "The Fortress /// S.A. Jones": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
   "The Fortress of the Pearl /// Michael Moorcock": {
     "standalone": null,
     "self_published": null,
@@ -76529,7 +76429,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Foundling and other Tales of Prydain /// Lloyd Alexander": {
+  "The Foundling and Other Tales of Prydain /// Lloyd Alexander": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -76919,7 +76819,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Gap into Vision: Forbidden Knowledge /// Stephen R. Donaldson": {
+  "The Gap Into Vision: Forbidden Knowledge /// Stephen R. Donaldson": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -76979,7 +76879,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Gate to Women's Country /// Sheri S. Tepper": {
+  "The Gate to Women’s Country /// Sheri S. Tepper": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -77789,17 +77689,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Gollancz Book of South Asian Science Fiction, Vol. 10 /// Tarun K. Saint": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
-  "The Gollancz Book of South Asian Science Fiction, Vol. 2 /// Tarun K. Saint": {
+  "The Gollancz Book of South Asian Science Fiction /// Tarun K. Saint": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -78049,16 +77939,6 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Great Barrier /// Patricia C. Wrede": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
   "The Great Bear /// David Alexander Robertson": {
     "standalone": null,
     "self_published": null,
@@ -78109,7 +77989,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Great God Pan and Other Stories /// Arthur Machen": {
+  "The Great God Pan and Other Horror Stories /// Arthur Machen": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -78409,6 +78289,16 @@
     "genre": "Unknown",
     "publication_year": null
   },
+  "The Grimrose Girls /// Laura Pohl": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
   "The Ground Beneath Her Feet /// Salman Rushdie": {
     "standalone": null,
     "self_published": null,
@@ -78479,7 +78369,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Gutter Prayer /// Gareth Hanrahan": {
+  "The Gutter Prayer /// Gareth Ryder-Hanrahan": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -78789,16 +78679,6 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Haunting Hajji Hotak and Other Stories /// Jamil Jan Kochai": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
   "The Haunting Season /// Bridget Collins, Natasha Pulley, Imogen Hermes Gowar, Kiran Millwood Hargrave, Andrew Michael Hurley, Jess Kidd, Elizabeth Macneal, Laura Purcell": {
     "standalone": null,
     "self_published": null,
@@ -78820,6 +78700,16 @@
     "publication_year": null
   },
   "The Haunting of Brynn Wilder /// Wendy Webb": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
+  "The Haunting of Hajji Hotak and Other Stories /// Jamil Jan Kochai": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -78919,7 +78809,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Healers' Purpose /// S.E. Robertson": {
+  "The Healers' Road /// S.E. Robertson": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -78929,7 +78819,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Healers' Road /// S.E. Robertson": {
+  "The Healers’ Purpose /// S.E. Robertson": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -80199,7 +80089,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Infinity Gauntlet Omnibus /// Jim Starlin": {
+  "The Infinity Gauntlet /// Jim Starlin": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -80269,7 +80159,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Innkeeper's Song /// Peter S. Beagle": {
+  "The Innkeeper’s Song /// Peter S. Beagle": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -80989,7 +80879,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The King of Attolia /// Megan Whelan Turner": {
+  "The King of Attolia /// Megan Whalen Turner": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -81099,7 +80989,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Kingdom of Copper /// S.A. Chakraborty": {
+  "The Kingdom of Copper /// Shannon Chakraborty": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -81219,7 +81109,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Kraken's Sacrifice /// Katee Robert": {
+  "The Kraken’s Sacrifice /// Katee Robert": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -81239,7 +81129,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Labyrinth's Archivist /// Day Al-Mohamed": {
+  "The Labyrinth’s Archivist /// Day Al-Mohamed": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -81339,7 +81229,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Land of Silver Apples /// Nancy Farmer": {
+  "The Land of Stone Flowers /// Sveta Dorosheva": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -81349,7 +81239,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Land of Stone Flowers /// Sveta Dorosheva": {
+  "The Land of the Silver Apples /// Nancy Farmer": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -83939,7 +83829,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Martian Obelix /// Linda Nagata": {
+  "The Martian Obelisk /// Linda Nagata": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -83990,6 +83880,16 @@
     "publication_year": null
   },
   "The Masked City /// Genevieve Cogman": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
+  "The Masque of the Red Death /// Edgar Allan Poe": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -84849,6 +84749,16 @@
     "genre": "Unknown",
     "publication_year": null
   },
+  "The Moon Is a Harsh Mistress /// Robert A. Heinlein": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
   "The Moon Tartan /// Raymond St. Elmo": {
     "standalone": null,
     "self_published": null,
@@ -84860,16 +84770,6 @@
     "publication_year": null
   },
   "The Moon and the Sun /// Vonda N. McIntyre": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
-  "The Moon is a Harsh Mistress /// Robert A. Heinlein": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -84949,7 +84849,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Moth Keeper /// Kay O'Neill": {
+  "The Moth Keeper /// Kay O’Neill": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -85400,6 +85300,16 @@
     "publication_year": null
   },
   "The Never Dawn /// R.E. Palmer": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
+  "The Never King /// James Abbott": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -86869,6 +86779,16 @@
     "genre": "Unknown",
     "publication_year": null
   },
+  "The Perdition Score /// Richard Kadrey": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
   "The Perfect Assassin /// K.A. Doore": {
     "standalone": null,
     "self_published": null,
@@ -87389,6 +87309,16 @@
     "genre": "Unknown",
     "publication_year": null
   },
+  "The Pride of Chanur /// C.J. Cherryh": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
   "The Priestess and the Dragon /// Nicolette Andrews": {
     "standalone": null,
     "self_published": null,
@@ -87400,16 +87330,6 @@
     "publication_year": null
   },
   "The Primal Hunter /// Zogarth": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
-  "The Primrose Girls /// Laura Pohl": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -87869,7 +87789,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Rabbit Back Literary Society /// Pasi Ilmari Jääskeläinen": {
+  "The Rabbit Back Literature Society /// Pasi Ilmari Jääskeläinen": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -88119,7 +88039,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Red Scholar's Wake /// Aliette de Bodard": {
+  "The Red Scholar’s Wake /// Aliette de Bodard": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -88679,7 +88599,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The River of Silver /// S.A. Chakraborty": {
+  "The River of Silver /// Shannon Chakraborty": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -88700,6 +88620,16 @@
     "publication_year": null
   },
   "The Road /// Cormac McCarthy": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
+  "The Road to Neverwinter /// Jaleigh Johnson": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -89979,7 +89909,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Shadow Saint /// Gareth Hanrahan": {
+  "The Shadow Saint /// Gareth Ryder-Hanrahan": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -92139,7 +92069,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Sword Defiant /// Gareth Hanrahan": {
+  "The Sword Defiant /// Gareth Ryder-Hanrahan": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -93039,7 +92969,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Time Traveller's Almanac /// Ann VanderMeer, Jeff VanderMeer": {
+  "The Time Traveler's Almanac /// Ann VanderMeer, Jeff VanderMeer": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -93619,7 +93549,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Tyranny Of Shadows /// Timothy S. Currey": {
+  "The Tyranny of Faith /// Richard Swan": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -93629,7 +93559,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Tyranny of Faith /// Richard Swan": {
+  "The Tyranny of Shadows /// Timothy S. Currey": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -94249,7 +94179,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Villainess Is An SS+ Rank Adventurer /// Kaye Ng": {
+  "The Villainess is an SS+ Rank Adventurer /// Kaye Ng": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -94669,7 +94599,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Warrior Prophet /// R.S. Bakker": {
+  "The Warrior Prophet /// R. Scott Bakker": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -94739,7 +94669,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Watchmaker's Daughter /// C.J. Archer": {
+  "The Watchmaker’s Daughter /// C.J. Archer": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -95199,16 +95129,6 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Wicked + The Divine /// Kieron Gillen": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
   "The Wicked Bargain /// Gabe Cole Novoa": {
     "standalone": null,
     "self_published": null,
@@ -95240,6 +95160,16 @@
     "publication_year": null
   },
   "The Wicked King /// Holly Black": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
+  "The Wicked and the Divine /// Kieron Gillen": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -95709,16 +95639,6 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Witch & the Vampire /// Francesca Flores": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
   "The Witch /// Christopher Paolini": {
     "standalone": null,
     "self_published": null,
@@ -95759,7 +95679,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Witch Who Came In From The Cold /// Lindsay Smith, Max Gladstone, Cassandra Rose Clarke, Ian Tregillis, Michael Swanwick": {
+  "The Witch Who Came in from the Cold /// Lindsay Smith, Max Gladstone, Cassandra Rose Clarke, Ian Tregillis, Michael Swanwick": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -95790,6 +95710,16 @@
     "publication_year": null
   },
   "The Witch and the Tsar /// Olesya Salnikova Gilmore": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
+  "The Witch and the Vampire /// Francesca Flores": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -95909,7 +95839,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Witches of Vardo /// Anya Bergman": {
+  "The Witches of Vardø /// Anya Bergman": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -96040,6 +95970,16 @@
     "publication_year": null
   },
   "The Wolf and the Woodsman /// Ava Reid": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
+  "The Wolf at the Door /// Charlie Adhara": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -96529,16 +96469,6 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Theiftaker /// D.B. Jackson": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
   "Their Heart a Hive /// Fox N. Locke": {
     "standalone": null,
     "self_published": null,
@@ -96880,6 +96810,16 @@
     "publication_year": null
   },
   "Thief's Covenant /// Ari Marmell": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
+  "Thieftaker /// D.B. Jackson": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -97279,7 +97219,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "This Used to be About Dungeons /// Alexander Wales": {
+  "This Used to Be About Dungeons /// Alexander Wales": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -97949,7 +97889,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Through the Woods /// Emily Carroll": {
+  "Through the Woods /// E.M. Carroll": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -99949,6 +99889,16 @@
     "genre": "Unknown",
     "publication_year": null
   },
+  "Truckers /// Terry Pratchett": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
   "True Love Bites /// Joy Demorra": {
     "standalone": null,
     "self_published": null,
@@ -100419,6 +100369,16 @@
     "genre": "Unknown",
     "publication_year": null
   },
+  "UnDivided /// Neal Shusterman": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
   "Unbound /// Christy Healy": {
     "standalone": null,
     "self_published": null,
@@ -100750,16 +100710,6 @@
     "publication_year": null
   },
   "Undiscovered Country /// Scott Snyder": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
-  "Undivided /// Neal Shusterman": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -102639,16 +102589,6 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Warrior Prophet /// R. Scott Bakker": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
   "Warrior of the Altaii /// Robert Jordan": {
     "standalone": null,
     "self_published": null,
@@ -103819,7 +103759,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "When Immortal Ascension Fails, Time Travel To Try Again /// DragonOfRochester": {
+  "When Immortal Ascension Fails, Time Travel to Try Again /// DragonOfRochester": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -104149,7 +104089,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Where the River Turns To Concrete /// Brooke Bolander": {
+  "Where the River Turns to Concrete /// Brooke Bolander": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -104459,7 +104399,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Why Don't We Just Kill the Kid in the Omelas Hole /// Isabel J. Kim": {
+  "Why Don’t We Just Kill the Kid in the Omelas Hole /// Isabel J. Kim": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -105249,7 +105189,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Witcha Gonna Do /// Avery Flynn": {
+  "Witcha Gonna Do? /// Avery Flynn": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -105649,16 +105589,6 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Wolf at the Door /// Charlie Adhara": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
   "Wolf of Withervale /// Joaquin Baldwin": {
     "standalone": null,
     "self_published": null,
@@ -105789,7 +105719,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Wonder Woman: Historia /// Kelly Sue DeConnick": {
+  "Wonder Woman Historia: The Amazons /// Kelly Sue DeConnick": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -106329,7 +106259,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Year of the Griffin /// Diana Wynne Jones": {
+  "Year One /// Nora Roberts": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -106339,7 +106269,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Year of the One /// Nora Roberts": {
+  "Year of the Griffin /// Diana Wynne Jones": {
     "standalone": null,
     "self_published": null,
     "queer": null,
