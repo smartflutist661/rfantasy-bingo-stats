@@ -115,5 +115,18 @@
     "hard_mode_squares" : 15743,
     "hero_mode_cards" : 236,
     "total_misspellings" : 5859
+  },
+  "2024" : {
+    "total_participant_count" : 1235,
+    "total_card_count" : 1353,
+    "total_square_count" : 32752,
+    "total_story_count" : 33444,
+    "unique_story_count" : 8347,
+    "total_author_count" : 33917,
+    "unique_author_count" : 4864,
+    "hard_mode_cards" : 263,
+    "hard_mode_squares" : 19714,
+    "hero_mode_cards" : 340,
+    "total_misspellings" : 8368
   }
 }

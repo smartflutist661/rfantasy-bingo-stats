@@ -114,7 +114,7 @@ def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
 
     plt.figure(figsize=(16, 9))
     plt.suptitle(
-        "COVID-19 was good for Bingo",
+        "Same increase in the last year as during the two major pandemic years",
         fontsize=26,
         weight="bold",
         alpha=0.75,
@@ -171,7 +171,7 @@ def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
 
     plt.figure(figsize=(16, 9))
     plt.suptitle(
-        "Is hard mode getting easier?",
+        "A more balanced hard mode",
         fontsize=26,
         weight="bold",
         alpha=0.75,
@@ -207,7 +207,7 @@ def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
 
     plt.figure(figsize=(16, 9))
     plt.suptitle(
-        "More people do multiple cards",
+        "Fewer people doing a dozen cards?",
         fontsize=26,
         weight="bold",
         alpha=0.75,
@@ -295,9 +295,10 @@ def create_yearly_plots(bingo_stats: BingoStatistics, output_root: Path, show_pl
 
     plot_card_hist(
         counter=bingo_stats.normal_bingo_type_stats.complete_bingos_by_card,
-        title="Non-blackout cards get surprisingly few bingos",
+        title="Non-blackout cards don't try for more than one bingo",
         subtitle="Number of cards with a particular count of bingos",
         filepath=output_root / "per_card_bingos.png",
+        max_val=12,
     )
 
     plot_card_hist(
@@ -305,6 +306,7 @@ def create_yearly_plots(bingo_stats: BingoStatistics, output_root: Path, show_pl
         title="Cards that don't do all hard-mode don't pay attention to it at all",
         subtitle="Number of cards with a particular count of hard mode bingos",
         filepath=output_root / "per_card_hm_bingos.png",
+        max_val=12,
     )
 
     plot_count_hist(
@@ -332,12 +334,11 @@ def plot_card_hist(
     title: str,
     subtitle: str,
     filepath: Path,
+    max_val: int = 26
 ) -> None:
     """Plot histogram of unique values"""
 
     plt.figure(figsize=(16, 9))
-
-    max_val = 26
 
     bin_vals = np.arange(max_val + 1)
 
