@@ -8495,12 +8495,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Daniel Danielewski": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "Daniel Gailbraith": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -29598,8 +29592,8 @@
     "nationality": "Unknown"
   },
   "Neil Gaiman": {
-    "gender": "Man",
-    "ethnicity": "White",
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
     "queer": null,
     "nationality": "Unknown"
   },
@@ -38165,12 +38159,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Tatiana Tolstaya": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "Tatsuki Fujimoto": {
     "gender": "Man",
     "ethnicity": "Asian",
@@ -38180,6 +38168,12 @@
   "Tatsuya Endo": {
     "gender": "Man",
     "ethnicity": "Asian",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "Tatyana Tolstaya": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
     "queer": null,
     "nationality": "Unknown"
   },
@@ -41352,12 +41346,6 @@
     "nationality": "Unknown"
   },
   "alfgifu": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "but it is such a favorite of mine. I might never be able to read it again though.)": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
