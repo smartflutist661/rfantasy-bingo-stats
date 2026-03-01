@@ -215,8 +215,6 @@ The easiest bingo by number of squares was Second Column, with a total of 129 sq
 |Diagonal|63|151|
 |Antidiagonal|68|149|
 
-<INSERT per_card_bingos.png HERE>
-
 #### Hard Mode
 
 There were 2548 complete bingos.
@@ -243,8 +241,6 @@ The easiest bingo by number of squares was Fourth Row, with a total of 1370 squa
 |Fifth Column|585|1626|
 |Diagonal|618|1846|
 |Antidiagonal|599|1648|
-
-<INSERT per_card_hm_bingos.png HERE>
 
 ## Variety
 
@@ -303,8 +299,6 @@ The squares with the least variety in authors:
 - **Set in Africa**
 - **Author Uses Initials**
 - **Weird Ecology**
-
-<INSERT COMMENTARY HERE>
 
 ## Wall of Shame
 

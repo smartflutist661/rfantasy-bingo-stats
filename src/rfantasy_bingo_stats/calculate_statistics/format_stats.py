@@ -405,12 +405,8 @@ Demographics representing less than 1% of the unique authors are not included in
 #### Normal Mode
 {format_bingos(bingo_stats.normal_bingo_type_stats, bingo_stats.incomplete_cards.keys())}
 
-<INSERT per_card_bingos.png HERE>
-
 #### Hard Mode
 {format_bingos(bingo_stats.hardmode_bingo_type_stats, [card_id for card_id, hm_count in bingo_stats.hard_mode_by_card.items() if hm_count != BINGO_SIZE**2])}
-
-<INSERT per_card_hm_bingos.png HERE>
 
 ## Variety
 
@@ -423,8 +419,6 @@ Values close to 0 suggest a square was well-varied; 0 means no book was repeated
 Values close to 100 suggest the same books were used repeatedly for a square; 100 means only one book was used for a square.
 
 {format_farragini(bingo_stats, card_data.square_names.values())}
-
-<INSERT COMMENTARY HERE>
 
 ## Wall of Shame
 

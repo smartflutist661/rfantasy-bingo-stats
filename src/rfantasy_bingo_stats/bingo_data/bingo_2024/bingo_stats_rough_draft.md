@@ -215,8 +215,6 @@ The easiest bingo by number of squares was First Column, with a total of 122 squ
 |Diagonal|99|199|
 |Antidiagonal|101|212|
 
-<INSERT per_card_bingos.png HERE>
-
 #### Hard Mode
 
 There were 4288 complete bingos.
@@ -243,8 +241,6 @@ The easiest bingo by number of squares was Fifth Column, with a total of 2435 sq
 |Fifth Column|1005|2435|
 |Diagonal|1039|3052|
 |Antidiagonal|1012|3285|
-
-<INSERT per_card_hm_bingos.png HERE>
 
 ## Variety
 
@@ -303,8 +299,6 @@ The squares with the least variety in authors:
 - **Orcs, Trolls, and Goblins - Oh My!**
 - **Dark Academia**
 - **Space Opera**
-
-<INSERT COMMENTARY HERE>
 
 ## Wall of Shame
 

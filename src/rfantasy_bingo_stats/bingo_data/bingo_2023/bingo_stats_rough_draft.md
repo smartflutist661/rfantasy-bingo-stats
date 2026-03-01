@@ -215,8 +215,6 @@ The easiest bingo by number of squares was Fifth Row, with a total of 87 squares
 |Diagonal|59|112|
 |Antidiagonal|64|113|
 
-<INSERT per_card_bingos.png HERE>
-
 #### Hard Mode
 
 There were 3578 complete bingos.
@@ -243,8 +241,6 @@ The easiest bingo by number of squares was First Column, with a total of 839 squ
 |Fifth Column|602|1377|
 |Diagonal|652|1366|
 |Antidiagonal|656|1678|
-
-<INSERT per_card_hm_bingos.png HERE>
 
 ## Variety
 
@@ -303,8 +299,6 @@ The squares with the least variety in authors:
 - **Features Robots**
 - **Set in the Middle East**
 - **Angels and Demons**
-
-<INSERT COMMENTARY HERE>
 
 ## Wall of Shame
 
