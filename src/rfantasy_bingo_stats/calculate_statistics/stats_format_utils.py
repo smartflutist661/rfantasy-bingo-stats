@@ -73,7 +73,7 @@ def format_top_list_with_ties(
             else:
                 raise TypeError(f"Unhandled top-list type {type(item)} for {item}")
         else:
-            out_strs.append(format_template(cur_ties, last_count))
+            out_strs.append(format_template(sorted(cur_ties), last_count))
 
             place_count += 1
             if place_count > top_n:
@@ -300,6 +300,7 @@ def format_least_subbed_square(
     for square_name, subbed_count in subbed_squares.items():
         if subbed_count == fewest_subbed and square_name in square_names:
             fewest_subbed_squares.append(square_name)
+    fewest_subbed_squares.sort()
 
     multiple_low_subs = len(fewest_subbed_squares) > 1
     if multiple_low_subs:
@@ -332,6 +333,7 @@ def format_favorite_square(
     for square_name, incomplete_count in bingo_stats.incomplete_squares.items():
         if incomplete_count == fewest_incomplete and square_name in square_names:
             most_filled_squares.append(square_name)
+    most_filled_squares.sort()
 
     multiple_favorites = len(most_filled_squares) > 1
     if multiple_favorites:

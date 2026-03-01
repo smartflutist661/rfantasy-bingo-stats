@@ -1,8 +1,9 @@
-# Interactive Plots & Per-Square Statistics
+# New Bingo Stats Hub
 
-Because of the length of this post and to enable some fun new interactive plots (courtesy (Plotly)[https://plotly.com/python/]),
-all per-square statistics are now hosted on GitHub Pages. All stats posts are linked from the [main page](https://smartflutist661.github.io/rfantasy-bingo-stats),
-including this year's.
+This post was consistently too long to post in its entirety and making one comment per square was getting old.
+In order to better support the length, I've spun up a GitHub Pages site to host all of the stats: https://smartflutist661.github.io/rfantasy-bingo-stats.
+The remainder of this post is an _abbreviated_ version (no plots, no per-square statistics),
+but I recommend just going to the page for [this year's stats](https://smartflutist661.github.io/rfantasy-bingo-stats/2024).
 
 # Preliminary Notes
 
@@ -46,9 +47,9 @@ The minimum number of filled squares was 4. 25 were *this close*, with 24 filled
 - There were 33444 total stories, with 8347 unique stories read,
 by 4864 unique authors (33917 total).
 5059 books and 2559 authors were used only once. 
-- The top squares left blank were: **Published in the 1990s**, blank on 65 cards; **Bards** and **Five SFF Short Stories** and **Dark Academia**, blank on 63 cards each; **Space Opera**, blank on 61 cards. On the other hand, **First in a Series** was only left blank 11 times.
-- The squares most often substituted were: **Book Club or Readalong Book** and **Bards**, substituted on 64 cards each; **Dark Academia**, substituted on 42 cards; **Self-Published or Indie Publisher**, substituted on 40 cards.
-**Survival**, **Alliterative Title**, and **Multi-POV** were never substituted.
+- The top squares left blank were: **Published in the 1990s**, blank on 65 cards; **Bards** and **Dark Academia** and **Five SFF Short Stories**, blank on 63 cards each; **Space Opera**, blank on 61 cards. On the other hand, **First in a Series** was only left blank 11 times.
+- The squares most often substituted were: **Bards** and **Book Club or Readalong Book**, substituted on 64 cards each; **Dark Academia**, substituted on 42 cards; **Self-Published or Indie Publisher**, substituted on 40 cards.
+**Alliterative Title**, **Multi-POV**, and **Survival** were never substituted.
 This means that Bards was the least favorite overall, skipped or substituted a total of 127 times, and
 First in a Series was the favorite, skipped or substituted only 14 times.
 - There were an average of 3.7 unique books per card.
@@ -84,31 +85,6 @@ There were a total of 19714 hard-mode squares claimed.
 |Reference Materials|96.7|62.7|
 |Book Club or Readalong Book|95.4|31.2|
 
-#### Card Stat Breakdown
-
-<INSERT 
-
-per_card_hms.png 
-per_card_incompletes.png 
-
-HERE>
-
-#### Year-over-Year
-
-To see how these numbers have changed over the course of bingo, here are some plots.
-
-<INSERT YOY PLOTS
-
-complete_squares_change.png
-hard_mode_change.png
-hard_mode_noncard_change.png
-hero_mode_change.png
-multi_card_change.png
-participants_change.png
-uniques_change.png
-
-HERE>
-
 ### Books
 
 The ten most-read books were:
@@ -132,13 +108,6 @@ The books used for the most squares were:
 
 **Thousand Autumns** by Meng Xi Shi was the book read at least 10 times with the highest ratio of squares to times read:
 read 11 times for 8 squares.
-
-<INSERT
-
-per_book_reads.png
-per_card_uniques.png
-
-HERE>
 
 One of those interesting stats phenomena: even though most cards only include a few unique books, most of the books read are unique.
 There were an average of 3.9 reads per book.
@@ -174,13 +143,11 @@ The authors with the most unique books read were:
 - Brandon Sanderson, with 42 unique books read
 - Lois McMaster Bujold, with 30 unique books read
 - Seanan McGuire, with 29 unique books read
-- TIE: T. Kingfisher and Adrian Tchaikovsky, each with 27 unique books read
+- TIE: Adrian Tchaikovsky and T. Kingfisher, each with 27 unique books read
 - Ursula K. Le Guin, with 22 unique books read
-- TIE: Neil Gaiman and Jim Butcher, each with 21 unique books read
-- TIE: Martha Wells and Ilona Andrews and Michael J. Sullivan, each with 19 unique books read
-- TIE: Tamora Pierce and Mercedes Lackey and Will Wight and Robin Hobb and Rick Riordan, each with 18 unique books read
-
-<INSERT per_author_reads.png HERE>
+- TIE: Jim Butcher and Neil Gaiman, each with 21 unique books read
+- TIE: Ilona Andrews and Martha Wells and Michael J. Sullivan, each with 19 unique books read
+- TIE: Mercedes Lackey and Rick Riordan and Robin Hobb and Tamora Pierce and Will Wight, each with 18 unique books read
 
 As with books, most authors were read only once.
 There were an average of 7.0 reads per author.
@@ -354,13 +321,13 @@ The books with the most variation in title or author spellings were:
 
 - **The Adventures of Amina al-Sirafi** by Shannon Chakraborty, with 37 variations
 - **This is How You Lose the Time War** by Amal El-Mohtar, Max Gladstone, with 34 variations
-- TIE: **Never Whistle at Night** by Shane Hawk, Theodore C. Van Alst Jr. and **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett and **Blood Over Bright Haven** by M.L. Wang, with 22 variations each
+- TIE: **Blood Over Bright Haven** by M.L. Wang and **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett and **Never Whistle at Night** by Shane Hawk, Theodore C. Van Alst Jr., with 22 variations each
 - TIE: **Chain-Gang All-Stars** by Nana Kwame Adjei-Brenyah and **Monstress** by Marjorie M. Liu, Sana Takeda, with 20 variations each
 - **Dungeon Crawler Carl** by Matt Dinniman, with 18 variations
-- TIE: **Bookshops & Bonedust** by Travis Baldree and **Vita Nostra** by Marina Dyachenko, Sergey Dyachenko and **The Long Way to a Small, Angry Planet** by Becky Chambers and **DallerGut Dream Department Store** by Lee Mi-ye and **Someone You Can Build a Nest In** by John Wiswell, with 17 variations each
+- TIE: **Bookshops & Bonedust** by Travis Baldree and **DallerGut Dream Department Store** by Lee Mi-ye and **Someone You Can Build a Nest In** by John Wiswell and **The Long Way to a Small, Angry Planet** by Becky Chambers and **Vita Nostra** by Marina Dyachenko, Sergey Dyachenko, with 17 variations each
 - **Legends & Lattes** by Travis Baldree, with 15 variations
-- TIE: **Starling House** by Alix E. Harrow and **The Sword of Kaigen** by M.L. Wang and **Mother of Learning** by Domagoj Kurmaić, with 14 variations each
-- TIE: **The Spear Cuts Through Water** by Simon Jimenez and **The Wandering Inn** by Pirateaba and **The Fellowship of the Ring** by J.R.R. Tolkien and **The Mercy of Gods** by James S.A. Corey and **Babel** by R.F. Kuang and **To Shape a Dragon's Breath** by Moniquill Blackgoose and **The Tainted Cup** by Robert Jackson Bennett, with 13 variations each
+- TIE: **Mother of Learning** by Domagoj Kurmaić and **Starling House** by Alix E. Harrow and **The Sword of Kaigen** by M.L. Wang, with 14 variations each
+- TIE: **Babel** by R.F. Kuang and **The Fellowship of the Ring** by J.R.R. Tolkien and **The Mercy of Gods** by James S.A. Corey and **The Spear Cuts Through Water** by Simon Jimenez and **The Tainted Cup** by Robert Jackson Bennett and **The Wandering Inn** by Pirateaba and **To Shape a Dragon's Breath** by Moniquill Blackgoose, with 13 variations each
 - TIE: **Beware of Chicken** by CasualFarmer and **The Dead Cat Tail Assassins** by P. Djèlí Clark and **The House in the Cerulean Sea** by T.J. Klune, with 12 variations each
 
 What makes a book hard to "spell" correctly?
@@ -374,29 +341,22 @@ What makes a book hard to "spell" correctly?
 
 Predictably, there's a lot of crossover between books with the most variations and the most-read books overall.
 
-### Year-over-Year
-
-<INSERT mispellings_change.png HERE>
-
-Is it true that "every year we typo further from God"? Proportionally, we collectively seem to be improving,
-though absolute numbers are still increasing. There may not be enough data to draw strong conclusions yet, though.
-
 ## Substitutions
 
 Out of 1353 cards, 403 used the Substitution rule.
 
 ### Books
 
-- TIE: **Dark Matter** by Blake Crouch and **A Psalm for the Wild-Built** by Becky Chambers and **All Systems Red** by Martha Wells, each read 4 times
-- TIE: **Piranesi** by Susanna Clarke and **Witch King** by Martha Wells and **The House in the Cerulean Sea** by T.J. Klune and **Tress of the Emerald Sea** by Brandon Sanderson and **Project Hail Mary** by Andy Weir, each read 3 times
-- TIE: **Emperor of Thorns** by Mark Lawrence and **Rakesfall** by Vajra Chandrasekera and **The Legacy of Yangchen** by F.C. Yee and **Daughter of the Pirate King** by Tricia Levenseller and **Lady Macbeth** by Ava Reid and **Kings of the Wyld** by Nicholas Eames and **Navola** by Paolo Bacigalupi and **Sea of Tranquility** by Emily St. John Mandel and **The Space Between Worlds** by Micaiah Johnson and **Recursion** by Blake Crouch and **The Saint of Bright Doors** by Vajra Chandrasekera and **The City in Glass** by Nghi Vo and **Every Heart a Doorway** by Seanan McGuire and **The Tainted Cup** by Robert Jackson Bennett and **I Who Have Never Known Men** by Jacqueline Harpman and **A Sorceress Comes to Call** by T. Kingfisher and **Memories of Ice** by Steven Erikson and **Hench** by Natalie Zina Walschots and **Deadman Walking** by C.B. Titus and **The Orb of Cairado** by Katherine Addison and **The Library at Mount Char** by Scott Hawkins, each read 2 times
+- TIE: **A Psalm for the Wild-Built** by Becky Chambers and **All Systems Red** by Martha Wells and **Dark Matter** by Blake Crouch, each read 4 times
+- TIE: **Piranesi** by Susanna Clarke and **Project Hail Mary** by Andy Weir and **The House in the Cerulean Sea** by T.J. Klune and **Tress of the Emerald Sea** by Brandon Sanderson and **Witch King** by Martha Wells, each read 3 times
+- TIE: **A Sorceress Comes to Call** by T. Kingfisher and **Daughter of the Pirate King** by Tricia Levenseller and **Deadman Walking** by C.B. Titus and **Emperor of Thorns** by Mark Lawrence and **Every Heart a Doorway** by Seanan McGuire and **Hench** by Natalie Zina Walschots and **I Who Have Never Known Men** by Jacqueline Harpman and **Kings of the Wyld** by Nicholas Eames and **Lady Macbeth** by Ava Reid and **Memories of Ice** by Steven Erikson and **Navola** by Paolo Bacigalupi and **Rakesfall** by Vajra Chandrasekera and **Recursion** by Blake Crouch and **Sea of Tranquility** by Emily St. John Mandel and **The City in Glass** by Nghi Vo and **The Legacy of Yangchen** by F.C. Yee and **The Library at Mount Char** by Scott Hawkins and **The Orb of Cairado** by Katherine Addison and **The Saint of Bright Doors** by Vajra Chandrasekera and **The Space Between Worlds** by Micaiah Johnson and **The Tainted Cup** by Robert Jackson Bennett, each read 2 times
 
 ### Authors
 
 - Martha Wells, read 8 times
-- TIE: T. Kingfisher and Brandon Sanderson, each read 7 times
+- TIE: Brandon Sanderson and T. Kingfisher, each read 7 times
 - TIE: Blake Crouch and Seanan McGuire and T.J. Klune, each read 6 times
 
 ### Squares
 
-**Young Adult 2023**, substituted on 8 cards; **Sequel 2023**, substituted on 7 cards; **Myths and Retellings 2023** and **Multiverse and Alternate Realities 2023** and **Horror 2023** and **Novella 2023** and **Mundane Jobs 2023**, substituted on 6 cards each.
+**Young Adult 2023**, substituted on 8 cards; **Sequel 2023**, substituted on 7 cards; **Horror 2023** and **Multiverse and Alternate Realities 2023** and **Mundane Jobs 2023** and **Myths and Retellings 2023** and **Novella 2023**, substituted on 6 cards each.

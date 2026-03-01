@@ -298,15 +298,14 @@ def format_author_statistics(
 
 
 def generate_reddit_post(
-    bingo_stats: BingoStatistics,
-    card_data: CardData,
-    summary_stats: SummaryStats,
+    bingo_stats: BingoStatistics, card_data: CardData, summary_stats: SummaryStats, year: int
 ) -> str:
-    return f"""# Interactive Plots & Per-Square Statistics
+    return f"""# New Bingo Stats Hub
 
-Because of the length of this post and to enable some fun new interactive plots (courtesy (Plotly)[https://plotly.com/python/]),
-all per-square statistics are now hosted on GitHub Pages. All stats posts are linked from the [main page](https://smartflutist661.github.io/rfantasy-bingo-stats),
-including this year's.
+This post was consistently too long to post in its entirety and making one comment per square was getting old.
+In order to better support the length, I've spun up a GitHub Pages site to host all of the stats: https://smartflutist661.github.io/rfantasy-bingo-stats.
+The remainder of this post is an _abbreviated_ version (no plots, no per-square statistics),
+but I recommend just going to the page for [this year's stats](https://smartflutist661.github.io/rfantasy-bingo-stats/{year}).
 
 # Preliminary Notes
 
@@ -362,31 +361,6 @@ There were a total of {bingo_stats.hard_mode_by_square.total()} hard-mode square
 
 {format_square_table(bingo_stats, card_data.square_names.values())}
 
-#### Card Stat Breakdown
-
-<INSERT 
-
-per_card_hms.png 
-per_card_incompletes.png 
-
-HERE>
-
-#### Year-over-Year
-
-To see how these numbers have changed over the course of bingo, here are some plots.
-
-<INSERT YOY PLOTS
-
-complete_squares_change.png
-hard_mode_change.png
-hard_mode_noncard_change.png
-hero_mode_change.png
-multi_card_change.png
-participants_change.png
-uniques_change.png
-
-HERE>
-
 ### Books
 
 The ten most-read books were:
@@ -399,13 +373,6 @@ The books used for the most squares were:
 
 {format_book(summary_stats.max_square_ratio_book)} was the book read at least 10 times with the highest ratio of squares to times read:
 read {bingo_stats.overall_uniques.unique_books[summary_stats.max_square_ratio_book]} times for {bingo_stats.unique_squares_by_book[summary_stats.max_square_ratio_book]} squares.
-
-<INSERT
-
-per_book_reads.png
-per_card_uniques.png
-
-HERE>
 
 One of those interesting stats phenomena: even though most cards only include a few unique books, most of the books read are unique.
 There were an average of {summary_stats.avg_reads_per_book:.1f} reads per book.
@@ -426,8 +393,6 @@ read {bingo_stats.overall_uniques.unique_authors[summary_stats.max_square_ratio_
 The authors with the most unique books read were:
 
 {format_unique_author_books(bingo_stats.books_per_author)}
-
-<INSERT per_author_reads.png HERE>
 
 As with books, most authors were read only once.
 There were an average of {summary_stats.avg_reads_per_author:.1f} reads per author.
@@ -492,13 +457,6 @@ What makes a book hard to "spell" correctly?
 
 Predictably, there's a lot of crossover between books with the most variations and the most-read books overall.
 
-### Year-over-Year
-
-<INSERT mispellings_change.png HERE>
-
-Is it true that "every year we typo further from God"? Proportionally, we collectively seem to be improving,
-though absolute numbers are still increasing. There may not be enough data to draw strong conclusions yet, though.
-
 ## Substitutions
 
 {format_subbed_stats(bingo_stats)}
@@ -533,7 +491,7 @@ layout: base
 # {year} r/Fantasy Bingo Stats, Square {square_num}: {square_name}
 
 This page includes summary statistics for a single square of the bingo card.
-Summary statistics for the whole card can be found at [{year}](../{year}).
+Summary statistics for the whole card can be found [here](../{year}).
 Statistics for other squares can be found at the following links:
 
 {format_square_links(card_data)}
@@ -786,7 +744,7 @@ def create_markdown(
         max_square_ratio_author=max_square_ratio_author,
     )
 
-    post_markdown = generate_reddit_post(bingo_stats, card_data, summary_stats)
+    post_markdown = generate_reddit_post(bingo_stats, card_data, summary_stats, year)
 
     LOGGER.info(f"Markdown output:\n\n{post_markdown}")
     with post_draft_path.open("w", encoding="utf8") as post_draft_file:
