@@ -4,6 +4,20 @@ This script is designed to make regularizing title/author pairs (books) from dat
 It uses fuzzy matching to compare an instance of "{title} /// {author}" with every other book,
 retrieving the best matches from books that have already been regularized or from books that have not yet had a similar comparison run.
 
+## Script Overview (For the Technical)
+
+The script is finding every unique title/author combination,
+then running a fuzzy-match search on all combinations that have not already been noted as a wrong spelling
+(i.e. both those that have not been matched at all and those that have been noted as the canonical spelling).
+
+If no potential matches are found, the combination gets saved to a set believed to have no misspellings. Otherwise the script records the best version as a dictionary key, and the incorrect version(s) into a set of all of the incorrect versions as that key's value. Each time the script is run, it removes anything in either the no-match set or the match dictionary from the set of combinations to try to find matches for, so it never asks about the same match more than once.
+
+ * Data is validated on read to ensure that we don't end up with duplicate values due to manual duplication in the JSON.
+ * While author names are 99% unique, very similar (sometimes identical) titles are repeated over different authors,
+which is why it's using title/author combinations to ensure such titles aren't accidentally identified as the same book.
+
+After correcting the raw data, the script creates a list of bingo cards (with empty squares for any square missing either title or author), calculating some stats as it does so.
+
 # How to Use
 
 ## Clone the Repository
