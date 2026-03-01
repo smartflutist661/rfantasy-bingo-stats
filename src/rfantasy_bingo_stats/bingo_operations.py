@@ -1,10 +1,10 @@
 from collections.abc import Mapping
 
+from rfantasy_bingo_stats.calculate_statistics.format_stats import create_markdown
 from rfantasy_bingo_stats.calculate_statistics.get_bingo_cards import (
     get_bingo_cards,
     get_bingo_stats,
 )
-from rfantasy_bingo_stats.calculate_statistics.get_stats import create_markdown
 from rfantasy_bingo_stats.calculate_statistics.plot_distributions import (
     create_yearly_plots,
     create_yoy_plots,
@@ -57,7 +57,7 @@ def collect_statistics(
     with yearly_paths.output_stats.open("w", encoding="utf8") as stats_file:
         stats_file.write(bingo_stats.model_dump_json(indent=2))
 
-    create_markdown(bingo_stats, card_data, yearly_paths.output_md)
+    create_markdown(bingo_stats, card_data, yearly_paths.output_md, yearly_paths.year)
 
     create_yearly_plots(bingo_stats, yearly_paths.output_image_root, show_plots)
 

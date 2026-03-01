@@ -2,7 +2,7 @@ import argparse
 from datetime import date
 
 from rfantasy_bingo_stats.calculate_statistics.get_bingo_cards import get_bingo_cards
-from rfantasy_bingo_stats.calculate_statistics.get_stats import format_book
+from rfantasy_bingo_stats.calculate_statistics.stats_format_utils import format_book
 from rfantasy_bingo_stats.constants import BingoYearDataPaths
 from rfantasy_bingo_stats.data_operations.author_title_book_operations import title_author_to_book
 from rfantasy_bingo_stats.data_operations.get_data import (

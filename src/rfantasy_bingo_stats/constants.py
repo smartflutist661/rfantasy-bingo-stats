@@ -10,6 +10,7 @@ SUBBED_SQUARE_SEPARATOR = " /// "
 
 # Global paths
 ROOT = Path(__file__).parent
+REPO_ROOT = ROOT.parent.parent
 BINGO_DATA_PATH = ROOT / "bingo_data"
 POLL_DATA_PATH = ROOT / "poll_data"
 DUPE_RECORD_FILEPATH: Path = BINGO_DATA_PATH / "resolved_duplicates.json"
@@ -24,32 +25,32 @@ class BingoYearDataPaths:
     year: int
 
     @property
-    def root(self) -> Path:
+    def data_root(self) -> Path:
         return BINGO_DATA_PATH / f"bingo_{self.year}"
 
     @property
     def raw_data(self) -> Path:
-        return self.root / "raw_bingo_data.csv"
+        return self.data_root / "raw_bingo_data.csv"
 
     @property
     def output_image_root(self) -> Path:
-        return self.root / "plots"
+        return self.data_root / "plots"
 
     @property
     def output_df(self) -> Path:
-        return self.root / "updated_bingo_data.csv"
+        return self.data_root / "updated_bingo_data.csv"
 
     @property
     def output_md(self) -> Path:
-        return self.root / "bingo_stats_rough_draft.md"
+        return self.data_root / "bingo_stats_rough_draft.md"
 
     @property
     def output_stats(self) -> Path:
-        return self.root / "bingo_stats.json"
+        return self.data_root / "bingo_stats.json"
 
     @property
     def card_info(self) -> Path:
-        return self.root / "card_data.json"
+        return self.data_root / "card_data.json"
 
 
 @dataclass(frozen=True)
