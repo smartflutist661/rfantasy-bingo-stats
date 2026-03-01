@@ -17,11 +17,11 @@ Statistics for other squares can be found at the following links:
 
 ## Most Read Books
 
-- TIE: **Starter Villain** by John Scalzi and **The Spear Cuts Through Water** by Simon Jimenez, each read 18 times
-- TIE: **The Spellshop** by Sarah Beth Durst and **Water Moon** by Samantha Sotto Yambao, each read 15 times
-- TIE: **The Book That Wouldn't Burn** by Mark Lawrence and **When Among Crows** by Veronica Roth, each read 10 times
-- TIE: **Someone You Can Build a Nest In** by John Wiswell and **The Teller of Small Fortunes** by Julie Leong, each read 9 times
-- TIE: **A Magical Girl Retires** by Park Seolyeon and **How To Become the Dark Lord and Die Trying** by Django Wexler and **The Mountain in the Sea** by Ray Nayler, each read 8 times
+- ***TIE***: **Starter Villain** by John Scalzi and **The Spear Cuts Through Water** by Simon Jimenez, each read 18 times
+- ***TIE***: **The Spellshop** by Sarah Beth Durst and **Water Moon** by Samantha Sotto Yambao, each read 15 times
+- ***TIE***: **The Book That Wouldn't Burn** by Mark Lawrence and **When Among Crows** by Veronica Roth, each read 10 times
+- ***TIE***: **Someone You Can Build a Nest In** by John Wiswell and **The Teller of Small Fortunes** by Julie Leong, each read 9 times
+- ***TIE***: **A Magical Girl Retires** by Park Seolyeon and **How To Become the Dark Lord and Die Trying** by Django Wexler and **The Mountain in the Sea** by Ray Nayler, each read 8 times
 
 **TOTAL**: 1307 books read, with 878 unique titles.
 799 books were claimed to qualify for hard mode.
@@ -32,8 +32,8 @@ Skipped 38 times. Substituted 8 times.
 
 - John Scalzi, read 20 times
 - Simon Jimenez, read 18 times
-- TIE: Samantha Sotto Yambao and Sarah Beth Durst, each read 15 times
-- TIE: Brandon Sanderson and T. Kingfisher, each read 14 times
+- ***TIE***: Samantha Sotto Yambao and Sarah Beth Durst, each read 15 times
+- ***TIE***: Brandon Sanderson and T. Kingfisher, each read 14 times
 - Mark Lawrence, read 13 times
 
 **TOTAL**: 1343 total authors read, with 746 unique.

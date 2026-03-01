@@ -20,7 +20,7 @@ Statistics for other squares can be found at the following links:
 - **The Lathe of Heaven** by Ursula K. Le Guin, read 34 times
 - **Thornhedge** by T. Kingfisher, read 27 times
 - **The Spear Cuts Through Water** by Simon Jimenez, read 24 times
-- TIE: **Red Rising** by Pierce Brown and **The Princess Bride** by William Goldman, each read 17 times
+- ***TIE***: **Red Rising** by Pierce Brown and **The Princess Bride** by William Goldman, each read 17 times
 - **Strange the Dreamer** by Laini Taylor, read 15 times
 
 **TOTAL**: 1318 books read, with 787 unique titles.
@@ -33,8 +33,8 @@ Skipped 26 times. Substituted 9 times.
 - T. Kingfisher, read 49 times
 - Ursula K. Le Guin, read 46 times
 - Simon Jimenez, read 25 times
-- TIE: Neil Gaiman and Pierce Brown, each read 18 times
-- TIE: Robin Hobb and William Goldman, each read 17 times
+- ***TIE***: Neil Gaiman and Pierce Brown, each read 18 times
+- ***TIE***: Robin Hobb and William Goldman, each read 17 times
 
 **TOTAL**: 1331 total authors read, with 602 unique.
 412 authors were used only once for this square.

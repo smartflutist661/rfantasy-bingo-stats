@@ -20,8 +20,8 @@ Statistics for other squares can be found at the following links:
 - **Wind and Truth** by Brandon Sanderson, read 38 times
 - **Bride** by Ali Hazelwood, read 37 times
 - **The Way of Kings** by Brandon Sanderson, read 13 times
-- TIE: **Going Postal** by Terry Pratchett and **Iron Widow** by Xiran Jay Zhao and **Legends & Lattes** by Travis Baldree, each read 12 times
-- TIE: **Leviathan Wakes** by James S.A. Corey and **Orconomics** by J. Zachary Pike and **Red Sister** by Mark Lawrence and **Somewhere Beyond the Sea** by T.J. Klune and **The Jasmine Throne** by Tasha Suri, each read 10 times
+- ***TIE***: **Going Postal** by Terry Pratchett and **Iron Widow** by Xiran Jay Zhao and **Legends & Lattes** by Travis Baldree, each read 12 times
+- ***TIE***: **Leviathan Wakes** by James S.A. Corey and **Orconomics** by J. Zachary Pike and **Red Sister** by Mark Lawrence and **Somewhere Beyond the Sea** by T.J. Klune and **The Jasmine Throne** by Tasha Suri, each read 10 times
 
 **TOTAL**: 1313 books read, with 732 unique titles.
 834 books were claimed to qualify for hard mode.
@@ -32,8 +32,8 @@ Skipped 37 times. Substituted 3 times.
 
 - Brandon Sanderson, read 104 times
 - Ali Hazelwood, read 37 times
-- TIE: Travis Baldree and Will Wight, each read 21 times
-- TIE: James S.A. Corey and Tasha Suri, each read 20 times
+- ***TIE***: Travis Baldree and Will Wight, each read 21 times
+- ***TIE***: James S.A. Corey and Tasha Suri, each read 20 times
 - Mark Lawrence, read 18 times
 
 **TOTAL**: 1331 total authors read, with 528 unique.

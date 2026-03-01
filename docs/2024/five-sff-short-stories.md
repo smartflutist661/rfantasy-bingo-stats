@@ -33,7 +33,7 @@ Skipped 63 times. Substituted 34 times.
 - Ted Chiang, read 60 times
 - Naomi Novik, read 51 times
 - Ken Liu, read 34 times
-- TIE: Shane Hawk and Theodore C. Van Alst Jr., each read 31 times
+- ***TIE***: Shane Hawk and Theodore C. Van Alst Jr., each read 31 times
 - Carmen Maria Machado, read 21 times
 
 **TOTAL**: 1693 total authors read, with 708 unique.

@@ -103,7 +103,7 @@ The ten most-read books were:
 The books used for the most squares were:
 
 - **The Spear Cuts Through Water** by Simon Jimenez, used for 15 squares
-- TIE: **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett and **Piranesi** by Susanna Clarke and **Tress of the Emerald Sea** by Brandon Sanderson, each used for 14 squares
+- ***TIE***: **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett and **Piranesi** by Susanna Clarke and **Tress of the Emerald Sea** by Brandon Sanderson, each used for 14 squares
 - **The Tainted Cup** by Robert Jackson Bennett, used for 13 squares
 
 **Thousand Autumns** by Meng Xi Shi was the book read at least 10 times with the highest ratio of squares to times read:
@@ -122,7 +122,7 @@ The ten most-read authors were:
 - Robert Jackson Bennett, read 351 times
 - Leigh Bardugo, read 341 times
 - Matt Dinniman, read 320 times
-- TIE: Naomi Novik and Terry Pratchett, each read 274 times
+- ***TIE***: Naomi Novik and Terry Pratchett, each read 274 times
 - Martha Wells, read 257 times
 - Adrian Tchaikovsky, read 229 times
 - Heather Fawcett, read 210 times
@@ -143,11 +143,11 @@ The authors with the most unique books read were:
 - Brandon Sanderson, with 42 unique books read
 - Lois McMaster Bujold, with 30 unique books read
 - Seanan McGuire, with 29 unique books read
-- TIE: Adrian Tchaikovsky and T. Kingfisher, each with 27 unique books read
+- ***TIE***: Adrian Tchaikovsky and T. Kingfisher, each with 27 unique books read
 - Ursula K. Le Guin, with 22 unique books read
-- TIE: Jim Butcher and Neil Gaiman, each with 21 unique books read
-- TIE: Ilona Andrews and Martha Wells and Michael J. Sullivan, each with 19 unique books read
-- TIE: Mercedes Lackey and Rick Riordan and Robin Hobb and Tamora Pierce and Will Wight, each with 18 unique books read
+- ***TIE***: Jim Butcher and Neil Gaiman, each with 21 unique books read
+- ***TIE***: Ilona Andrews and Martha Wells and Michael J. Sullivan, each with 19 unique books read
+- ***TIE***: Mercedes Lackey and Rick Riordan and Robin Hobb and Tamora Pierce and Will Wight, each with 18 unique books read
 
 As with books, most authors were read only once.
 There were an average of 7.0 reads per author.
@@ -321,14 +321,14 @@ The books with the most variation in title or author spellings were:
 
 - **The Adventures of Amina al-Sirafi** by Shannon Chakraborty, with 37 variations
 - **This is How You Lose the Time War** by Amal El-Mohtar, Max Gladstone, with 34 variations
-- TIE: **Blood Over Bright Haven** by M.L. Wang and **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett and **Never Whistle at Night** by Shane Hawk, Theodore C. Van Alst Jr., with 22 variations each
-- TIE: **Chain-Gang All-Stars** by Nana Kwame Adjei-Brenyah and **Monstress** by Marjorie M. Liu, Sana Takeda, with 20 variations each
+- ***TIE***: **Blood Over Bright Haven** by M.L. Wang and **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett and **Never Whistle at Night** by Shane Hawk, Theodore C. Van Alst Jr., with 22 variations each
+- ***TIE***: **Chain-Gang All-Stars** by Nana Kwame Adjei-Brenyah and **Monstress** by Marjorie M. Liu, Sana Takeda, with 20 variations each
 - **Dungeon Crawler Carl** by Matt Dinniman, with 18 variations
-- TIE: **Bookshops & Bonedust** by Travis Baldree and **DallerGut Dream Department Store** by Lee Mi-ye and **Someone You Can Build a Nest In** by John Wiswell and **The Long Way to a Small, Angry Planet** by Becky Chambers and **Vita Nostra** by Marina Dyachenko, Sergey Dyachenko, with 17 variations each
+- ***TIE***: **Bookshops & Bonedust** by Travis Baldree and **DallerGut Dream Department Store** by Lee Mi-ye and **Someone You Can Build a Nest In** by John Wiswell and **The Long Way to a Small, Angry Planet** by Becky Chambers and **Vita Nostra** by Marina Dyachenko, Sergey Dyachenko, with 17 variations each
 - **Legends & Lattes** by Travis Baldree, with 15 variations
-- TIE: **Mother of Learning** by Domagoj Kurmaić and **Starling House** by Alix E. Harrow and **The Sword of Kaigen** by M.L. Wang, with 14 variations each
-- TIE: **Babel** by R.F. Kuang and **The Fellowship of the Ring** by J.R.R. Tolkien and **The Mercy of Gods** by James S.A. Corey and **The Spear Cuts Through Water** by Simon Jimenez and **The Tainted Cup** by Robert Jackson Bennett and **The Wandering Inn** by Pirateaba and **To Shape a Dragon's Breath** by Moniquill Blackgoose, with 13 variations each
-- TIE: **Beware of Chicken** by CasualFarmer and **The Dead Cat Tail Assassins** by P. Djèlí Clark and **The House in the Cerulean Sea** by T.J. Klune, with 12 variations each
+- ***TIE***: **Mother of Learning** by Domagoj Kurmaić and **Starling House** by Alix E. Harrow and **The Sword of Kaigen** by M.L. Wang, with 14 variations each
+- ***TIE***: **Babel** by R.F. Kuang and **The Fellowship of the Ring** by J.R.R. Tolkien and **The Mercy of Gods** by James S.A. Corey and **The Spear Cuts Through Water** by Simon Jimenez and **The Tainted Cup** by Robert Jackson Bennett and **The Wandering Inn** by Pirateaba and **To Shape a Dragon's Breath** by Moniquill Blackgoose, with 13 variations each
+- ***TIE***: **Beware of Chicken** by CasualFarmer and **The Dead Cat Tail Assassins** by P. Djèlí Clark and **The House in the Cerulean Sea** by T.J. Klune, with 12 variations each
 
 What makes a book hard to "spell" correctly?
 
@@ -347,15 +347,15 @@ Out of 1353 cards, 403 used the Substitution rule.
 
 ### Books
 
-- TIE: **A Psalm for the Wild-Built** by Becky Chambers and **All Systems Red** by Martha Wells and **Dark Matter** by Blake Crouch, each read 4 times
-- TIE: **Piranesi** by Susanna Clarke and **Project Hail Mary** by Andy Weir and **The House in the Cerulean Sea** by T.J. Klune and **Tress of the Emerald Sea** by Brandon Sanderson and **Witch King** by Martha Wells, each read 3 times
-- TIE: **A Sorceress Comes to Call** by T. Kingfisher and **Daughter of the Pirate King** by Tricia Levenseller and **Deadman Walking** by C.B. Titus and **Emperor of Thorns** by Mark Lawrence and **Every Heart a Doorway** by Seanan McGuire and **Hench** by Natalie Zina Walschots and **I Who Have Never Known Men** by Jacqueline Harpman and **Kings of the Wyld** by Nicholas Eames and **Lady Macbeth** by Ava Reid and **Memories of Ice** by Steven Erikson and **Navola** by Paolo Bacigalupi and **Rakesfall** by Vajra Chandrasekera and **Recursion** by Blake Crouch and **Sea of Tranquility** by Emily St. John Mandel and **The City in Glass** by Nghi Vo and **The Legacy of Yangchen** by F.C. Yee and **The Library at Mount Char** by Scott Hawkins and **The Orb of Cairado** by Katherine Addison and **The Saint of Bright Doors** by Vajra Chandrasekera and **The Space Between Worlds** by Micaiah Johnson and **The Tainted Cup** by Robert Jackson Bennett, each read 2 times
+- ***TIE***: **A Psalm for the Wild-Built** by Becky Chambers and **All Systems Red** by Martha Wells and **Dark Matter** by Blake Crouch, each read 4 times
+- ***TIE***: **Piranesi** by Susanna Clarke and **Project Hail Mary** by Andy Weir and **The House in the Cerulean Sea** by T.J. Klune and **Tress of the Emerald Sea** by Brandon Sanderson and **Witch King** by Martha Wells, each read 3 times
+- ***TIE***: **A Sorceress Comes to Call** by T. Kingfisher and **Daughter of the Pirate King** by Tricia Levenseller and **Deadman Walking** by C.B. Titus and **Emperor of Thorns** by Mark Lawrence and **Every Heart a Doorway** by Seanan McGuire and **Hench** by Natalie Zina Walschots and **I Who Have Never Known Men** by Jacqueline Harpman and **Kings of the Wyld** by Nicholas Eames and **Lady Macbeth** by Ava Reid and **Memories of Ice** by Steven Erikson and **Navola** by Paolo Bacigalupi and **Rakesfall** by Vajra Chandrasekera and **Recursion** by Blake Crouch and **Sea of Tranquility** by Emily St. John Mandel and **The City in Glass** by Nghi Vo and **The Legacy of Yangchen** by F.C. Yee and **The Library at Mount Char** by Scott Hawkins and **The Orb of Cairado** by Katherine Addison and **The Saint of Bright Doors** by Vajra Chandrasekera and **The Space Between Worlds** by Micaiah Johnson and **The Tainted Cup** by Robert Jackson Bennett, each read 2 times
 
 ### Authors
 
 - Martha Wells, read 8 times
-- TIE: Brandon Sanderson and T. Kingfisher, each read 7 times
-- TIE: Blake Crouch and Seanan McGuire and T.J. Klune, each read 6 times
+- ***TIE***: Brandon Sanderson and T. Kingfisher, each read 7 times
+- ***TIE***: Blake Crouch and Seanan McGuire and T.J. Klune, each read 6 times
 
 ### Squares
 

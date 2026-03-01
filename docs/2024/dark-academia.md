@@ -33,7 +33,7 @@ Skipped 63 times. Substituted 42 times.
 - Leigh Bardugo, read 151 times
 - M.L. Wang, read 85 times
 - Naomi Novik, read 73 times
-- TIE: Mona Awad and R.F. Kuang, each read 68 times
+- ***TIE***: Mona Awad and R.F. Kuang, each read 68 times
 - Ava Reid, read 55 times
 
 **TOTAL**: 1314 total authors read, with 235 unique.

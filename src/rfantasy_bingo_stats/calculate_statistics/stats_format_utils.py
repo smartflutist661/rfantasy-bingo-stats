@@ -100,7 +100,7 @@ def format_top_book_counts(unique_books: Counter[Book], top_n: int = 10) -> str:
         if len(cur_ties) == 1:
             return "- " + cur_ties[0] + f", read {count} times"
         if len(cur_ties) > 1:
-            return "- TIE: " + " and ".join(cur_ties) + f", each read {count} times"
+            return "- ***TIE***: " + " and ".join(cur_ties) + f", each read {count} times"
         raise ValueError("No results?")
 
     book_count_strs = format_top_list_with_ties(unique_books.most_common(), formatter, top_n)
@@ -132,7 +132,7 @@ def format_dedupe_counts(bingo_stats: BingoStatistics, top_n: int = 10) -> str:
         if len(cur_ties) == 1:
             return "- " + cur_ties[0] + f", with {count} variations"
         if len(cur_ties) > 1:
-            return "- TIE: " + " and ".join(cur_ties) + f", with {count} variations each"
+            return "- ***TIE***: " + " and ".join(cur_ties) + f", with {count} variations each"
 
         raise ValueError("No results?")
 
@@ -169,7 +169,7 @@ def format_top_author_counts(unique_authors: Counter[Author], top_n: int = 10) -
         if len(cur_ties) == 1:
             return "- " + cur_ties[0] + f", read {count} times"
         if len(cur_ties) > 1:
-            return "- TIE: " + " and ".join(cur_ties) + f", each read {count} times"
+            return "- ***TIE***: " + " and ".join(cur_ties) + f", each read {count} times"
         raise ValueError("No results?")
 
     author_count_strs = format_top_list_with_ties(unique_authors.most_common(), formatter, top_n)
@@ -184,7 +184,7 @@ def format_most_square_books(unique_squares_by_book: Counter[Book], top_n: int =
         if len(cur_ties) == 1:
             return "- " + cur_ties[0] + f", used for {count} squares"
         if len(cur_ties) > 1:
-            return "- TIE: " + " and ".join(cur_ties) + f", each used for {count} squares"
+            return "- ***TIE***: " + " and ".join(cur_ties) + f", each used for {count} squares"
         raise ValueError("No results?")
 
     book_strs = format_top_list_with_ties(unique_squares_by_book.most_common(), formatter, top_n)
@@ -199,7 +199,7 @@ def format_most_square_authors(unique_squares_by_author: Counter[Author], top_n:
         if len(cur_ties) == 1:
             return "- " + cur_ties[0] + f", used for {count} squares"
         if len(cur_ties) > 1:
-            return "- TIE: " + " and ".join(cur_ties) + f", each used for {count} squares"
+            return "- ***TIE***: " + " and ".join(cur_ties) + f", each used for {count} squares"
         raise ValueError("No results?")
 
     book_strs = format_top_list_with_ties(unique_squares_by_author.most_common(), formatter, top_n)
@@ -214,7 +214,9 @@ def format_unique_author_books(books_per_author: Counter[Author], top_n: int = 1
         if len(cur_ties) == 1:
             return "- " + cur_ties[0] + f", with {count} unique books read"
         if len(cur_ties) > 1:
-            return "- TIE: " + " and ".join(cur_ties) + f", each with {count} unique books read"
+            return (
+                "- ***TIE***: " + " and ".join(cur_ties) + f", each with {count} unique books read"
+            )
         raise ValueError("No results?")
 
     book_strs = format_top_list_with_ties(books_per_author.most_common(), formatter, top_n)

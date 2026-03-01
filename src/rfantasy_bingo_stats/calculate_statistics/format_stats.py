@@ -116,7 +116,7 @@ def format_farragini(
         if len(cur_ties) == 1:
             return "- " + cur_ties[0]
         if len(cur_ties) > 1:
-            return "- TIE: " + " and ".join(cur_ties)
+            return "- ***TIE***: " + " and ".join(cur_ties)
         raise ValueError("No results?")
 
     high_book_gini_strs = format_top_list_with_ties(highest_book_ginis, formatter, top_n)

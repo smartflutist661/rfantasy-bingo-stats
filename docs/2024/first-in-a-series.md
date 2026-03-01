@@ -19,9 +19,9 @@ Statistics for other squares can be found at the following links:
 
 - **Dungeon Crawler Carl** by Matt Dinniman, read 29 times
 - **All Systems Red** by Martha Wells, read 18 times
-- TIE: **Empire of Silence** by Christopher Ruocchio and **Rivers of London** by Ben Aaronovitch and **The Will of the Many** by James Islington, each read 13 times
-- TIE: **Paladin's Grace** by T. Kingfisher and **The Color of Magic** by Terry Pratchett, each read 12 times
-- TIE: **A Wizard of Earthsea** by Ursula K. Le Guin and **Before the Coffee Gets Cold** by Toshikazu Kawaguchi and **Every Heart a Doorway** by Seanan McGuire and **Gideon the Ninth** by Tamsyn Muir and **The Grace of Kings** by Ken Liu, each read 11 times
+- ***TIE***: **Empire of Silence** by Christopher Ruocchio and **Rivers of London** by Ben Aaronovitch and **The Will of the Many** by James Islington, each read 13 times
+- ***TIE***: **Paladin's Grace** by T. Kingfisher and **The Color of Magic** by Terry Pratchett, each read 12 times
+- ***TIE***: **A Wizard of Earthsea** by Ursula K. Le Guin and **Before the Coffee Gets Cold** by Toshikazu Kawaguchi and **Every Heart a Doorway** by Seanan McGuire and **Gideon the Ninth** by Tamsyn Muir and **The Grace of Kings** by Ken Liu, each read 11 times
 
 **TOTAL**: 1339 books read, with 676 unique titles.
 898 books were claimed to qualify for hard mode.
@@ -32,9 +32,9 @@ Skipped 11 times. Substituted 3 times.
 
 - Matt Dinniman, read 29 times
 - Martha Wells, read 26 times
-- TIE: Sarah J. Maas and Terry Pratchett, each read 19 times
-- TIE: Brandon Sanderson and Seanan McGuire, each read 17 times
-- TIE: Becky Chambers and T. Kingfisher, each read 16 times
+- ***TIE***: Sarah J. Maas and Terry Pratchett, each read 19 times
+- ***TIE***: Brandon Sanderson and Seanan McGuire, each read 17 times
+- ***TIE***: Becky Chambers and T. Kingfisher, each read 16 times
 
 **TOTAL**: 1371 total authors read, with 593 unique.
 390 authors were used only once for this square.

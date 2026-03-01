@@ -18,7 +18,7 @@ Statistics for other squares can be found at the following links:
 ## Most Read Books
 
 - **The Sign of the Dragon** by Mary Soon Lee, read 19 times
-- TIE: **The Sword of Kaigen** by M.L. Wang and **The Wings Upon Her Back** by Samantha Mills, each read 17 times
+- ***TIE***: **The Sword of Kaigen** by M.L. Wang and **The Wings Upon Her Back** by Samantha Mills, each read 17 times
 - **Murder at Spindle Manor** by Morgan Stang, read 16 times
 - **Unsouled** by Will Wight, read 12 times
 - **Mother of Learning** by Domagoj Kurmaić, read 10 times
@@ -33,7 +33,7 @@ Skipped 60 times. Substituted 40 times.
 - Morgan Stang, read 28 times
 - Will Wight, read 26 times
 - M.L. Wang, read 22 times
-- TIE: Mary Soon Lee and Raymond St. Elmo, each read 19 times
+- ***TIE***: Mary Soon Lee and Raymond St. Elmo, each read 19 times
 - Matt Dinniman, read 18 times
 
 **TOTAL**: 1281 total authors read, with 754 unique.

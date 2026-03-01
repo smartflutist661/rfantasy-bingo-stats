@@ -19,7 +19,7 @@ Statistics for other squares can be found at the following links:
 
 - **Dungeon Crawler Carl** by Matt Dinniman, read 105 times
 - **The Luminous Dead** by Caitlin Starling, read 52 times
-- TIE: **A Letter to the Luminous Deep** by Sylvie Cathrall and **Our Wives Under the Sea** by Julia Armfield, each read 50 times
+- ***TIE***: **A Letter to the Luminous Deep** by Sylvie Cathrall and **Our Wives Under the Sea** by Julia Armfield, each read 50 times
 - **The Deep** by Rivers Solomon, read 44 times
 - **Wool** by Hugh Howey, read 31 times
 
@@ -32,7 +32,7 @@ Skipped 32 times. Substituted 8 times.
 
 - Matt Dinniman, read 145 times
 - Caitlin Starling, read 53 times
-- TIE: Julia Armfield and Sylvie Cathrall, each read 50 times
+- ***TIE***: Julia Armfield and Sylvie Cathrall, each read 50 times
 - Rivers Solomon, read 44 times
 - Martha Wells, read 42 times
 

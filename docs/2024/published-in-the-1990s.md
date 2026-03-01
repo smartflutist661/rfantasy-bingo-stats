@@ -20,7 +20,7 @@ Statistics for other squares can be found at the following links:
 - **Sabriel** by Garth Nix, read 61 times
 - **Assassin's Apprentice** by Robin Hobb, read 33 times
 - **I Who Have Never Known Men** by Jacqueline Harpman, read 29 times
-- TIE: **City of Bones** by Martha Wells and **Parable of the Sower** by Octavia E. Butler, each read 24 times
+- ***TIE***: **City of Bones** by Martha Wells and **Parable of the Sower** by Octavia E. Butler, each read 24 times
 - **Tigana** by Guy Gavriel Kay, read 20 times
 
 **TOTAL**: 1250 books read, with 430 unique titles.

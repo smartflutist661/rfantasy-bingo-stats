@@ -20,7 +20,7 @@ Statistics for other squares can be found at the following links:
 - **Godkiller** by Hannah Kaner, read 65 times
 - **The Spear Cuts Through Water** by Simon Jimenez, read 53 times
 - **The Tainted Cup** by Robert Jackson Bennett, read 44 times
-- TIE: **Fourth Wing** by Rebecca Yarros and **The Blade Itself** by Joe Abercrombie, each read 35 times
+- ***TIE***: **Fourth Wing** by Rebecca Yarros and **The Blade Itself** by Joe Abercrombie, each read 35 times
 - **Sunbringer** by Hannah Kaner, read 29 times
 
 **TOTAL**: 1313 books read, with 557 unique titles.

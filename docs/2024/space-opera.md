@@ -33,7 +33,7 @@ Skipped 61 times. Substituted 23 times.
 - Ann Leckie, read 90 times
 - Becky Chambers, read 87 times
 - Emily Tesh, read 72 times
-- TIE: Arkady Martine and James S.A. Corey, each read 67 times
+- ***TIE***: Arkady Martine and James S.A. Corey, each read 67 times
 - Lois McMaster Bujold, read 51 times
 
 **TOTAL**: 1314 total authors read, with 251 unique.

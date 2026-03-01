@@ -20,8 +20,8 @@ Statistics for other squares can be found at the following links:
 - **Starling House** by Alix E. Harrow, read 73 times
 - **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett, read 70 times
 - **The Spellshop** by Sarah Beth Durst, read 24 times
-- TIE: **Emily Wilde's Map of the Otherlands** by Heather Fawcett and **The Library at Mount Char** by Scott Hawkins, each read 18 times
-- TIE: **The Bear and the Nightingale** by Katherine Arden and **The Sword of Kaigen** by M.L. Wang, each read 17 times
+- ***TIE***: **Emily Wilde's Map of the Otherlands** by Heather Fawcett and **The Library at Mount Char** by Scott Hawkins, each read 18 times
+- ***TIE***: **The Bear and the Nightingale** by Katherine Arden and **The Sword of Kaigen** by M.L. Wang, each read 17 times
 
 **TOTAL**: 1311 books read, with 605 unique titles.
 942 books were claimed to qualify for hard mode.

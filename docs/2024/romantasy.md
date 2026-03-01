@@ -34,7 +34,7 @@ Skipped 36 times. Substituted 10 times.
 - T. Kingfisher, read 58 times
 - Rebecca Yarros, read 52 times
 - Sarah J. Maas, read 43 times
-- TIE: Amal El-Mohtar and Max Gladstone, each read 39 times
+- ***TIE***: Amal El-Mohtar and Max Gladstone, each read 39 times
 
 **TOTAL**: 1357 total authors read, with 406 unique.
 247 authors were used only once for this square.

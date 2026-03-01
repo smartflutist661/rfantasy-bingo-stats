@@ -34,7 +34,7 @@ Skipped 47 times. Substituted 2 times.
 - P. Djèlí Clark, read 46 times
 - Nana Kwame Adjei-Brenyah, read 45 times
 - Moniquill Blackgoose, read 36 times
-- TIE: Nghi Vo and Octavia E. Butler, each read 30 times
+- ***TIE***: Nghi Vo and Octavia E. Butler, each read 30 times
 
 **TOTAL**: 1344 total authors read, with 406 unique.
 234 authors were used only once for this square.

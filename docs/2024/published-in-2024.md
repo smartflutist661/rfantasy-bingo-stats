@@ -20,7 +20,7 @@ Statistics for other squares can be found at the following links:
 - **The Tainted Cup** by Robert Jackson Bennett, read 55 times
 - **Someone You Can Build a Nest In** by John Wiswell, read 50 times
 - **Wind and Truth** by Brandon Sanderson, read 37 times
-- TIE: **The Ministry of Time** by Kaliane Bradley and **The Wings Upon Her Back** by Samantha Mills, each read 30 times
+- ***TIE***: **The Ministry of Time** by Kaliane Bradley and **The Wings Upon Her Back** by Samantha Mills, each read 30 times
 - **The Familiar** by Leigh Bardugo, read 22 times
 
 **TOTAL**: 1317 books read, with 446 unique titles.
@@ -33,7 +33,7 @@ Skipped 31 times. Substituted 5 times.
 - Robert Jackson Bennett, read 55 times
 - John Wiswell, read 50 times
 - Brandon Sanderson, read 37 times
-- TIE: Kaliane Bradley and Samantha Mills, each read 30 times
+- ***TIE***: Kaliane Bradley and Samantha Mills, each read 30 times
 - Leigh Bardugo, read 22 times
 
 **TOTAL**: 1333 total authors read, with 447 unique.

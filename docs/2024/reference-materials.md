@@ -21,7 +21,7 @@ Statistics for other squares can be found at the following links:
 - **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett, read 28 times
 - **The Will of the Many** by James Islington, read 27 times
 - **The Sword of Kaigen** by M.L. Wang, read 25 times
-- TIE: **How To Become the Dark Lord and Die Trying** by Django Wexler and **Wind and Truth** by Brandon Sanderson, each read 19 times
+- ***TIE***: **How To Become the Dark Lord and Die Trying** by Django Wexler and **Wind and Truth** by Brandon Sanderson, each read 19 times
 
 **TOTAL**: 1307 books read, with 661 unique titles.
 847 books were claimed to qualify for hard mode.

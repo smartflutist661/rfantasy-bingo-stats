@@ -19,8 +19,8 @@ Statistics for other squares can be found at the following links:
 
 - **Spinning Silver** by Naomi Novik, read 33 times
 - **Wind and Truth** by Brandon Sanderson, read 26 times
-- TIE: **Jade City** by Fonda Lee and **The Atlas Six** by Olivie Blake, each read 20 times
-- TIE: **Floating Hotel** by Grace Curtis and **The Blade Itself** by Joe Abercrombie, each read 16 times
+- ***TIE***: **Jade City** by Fonda Lee and **The Atlas Six** by Olivie Blake, each read 20 times
+- ***TIE***: **Floating Hotel** by Grace Curtis and **The Blade Itself** by Joe Abercrombie, each read 16 times
 - **Five Broken Blades** by Mai Corland, read 14 times
 
 **TOTAL**: 1322 books read, with 709 unique titles.
