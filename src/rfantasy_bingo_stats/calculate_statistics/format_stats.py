@@ -16,6 +16,7 @@ from rfantasy_bingo_stats.calculate_statistics.get_bingo_cards import (
     POSSIBLE_BINGOS,
 )
 from rfantasy_bingo_stats.calculate_statistics.gini_function import calculate_gini_index
+from rfantasy_bingo_stats.calculate_statistics.plot_distributions import Plots
 from rfantasy_bingo_stats.calculate_statistics.stats_format_utils import (
     SummaryStats,
     format_author_demo,
@@ -462,9 +463,6 @@ def format_square_links(card_data: CardData) -> str:
     return "\n".join(lines)
 
 
-RAW_TEST_HTML = r"""<script charset="utf-8" src="https://cdn.plot.ly/plotly-3.0.1.min.js"></script><div id="05efa617-7d4a-4d9a-8f73-8628286d9d94" class="plotly-graph-div" style="height:100%; width:100%;"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {}; if (document.getElementById("05efa617-7d4a-4d9a-8f73-8628286d9d94")) {Plotly.newPlot("05efa617-7d4a-4d9a-8f73-8628286d9d94",[{"customdata":[["Against the Current & The Ready Set"],["Alex Goot feat. Kurt Hugo Schneider & Against the Current, Levi Hummon"],["American Symphonic Winds, Rick Astley"],["Spiritbox \u00d7 Ryo Kinoshita"],["Aimer, Barrett Baber, Bobby Helms, Fairport High School Concert Band, Matt Gary"],["Kurt Hugo Schneider, Aim\u00e9e Proal & Lindsey Stirling"],["Ashley Clark, J.W. Pepper Concert Band"],["Lindsey Stirling & William Joseph"],["Algal the Bard with Hildegard von Blingin\u2019"],["Chase Holfelder"],["Benjamin Gibbard and Tom Howe, Justin Luis & Julia Murray feat. Marguerite Beane"],["Taylor Davis & Lara"],["A Capella Science, Dianna Cowern & MALINDA, Slipknot & Justin Bieber"],["Kurt Hugo Schneider & Against the Current, Our Last Night & Cole Rolland"],["Lindsey Stirling & Peter Hollens"],["Adam Gregory"],["Left to Suffer & Judge & Jury"],["Hawthorne Heights \u002f Emery"],["Alpha Wolf, Holding Absence"],["World\u2019s First Cinema"],["Ambedo"],["Lauren Babic & Jordan Radvansky"],["Boris Karloff"],["Fairday"],["Johan de Meij; London Symphony Orchestra"],["Sam Robson"],["Caleb Hyles & Jonathan Young"],["Chained Saint"],["Jager Henry"],["A Capella Science"],["Neil Cicierega"],["Elmo & Patsy"],["Oxymorrons"],["Trent Harmon"],["Celticopia"],["Carl Asch & Eric Fritsch"],["Mary J. Blige"],["Jos\u00e9 Feliciano"],["George Winston"],["Dallas Winds, Jerry Junkin"],["Sharon Bezaly, Ronald Brautigam"],["The Allentown Band"],["Craig Duncan"],["Canadian Softball"],["Better Lovers"],["Chick Corea & B\u00e9la Fleck"],["Winona Fighter"],["Jim Hancock & the Burly Pyrates"],["\u6771\u4eac\u30d5\u30a3\u30eb\u30cf\u30fc\u30e2\u30cb\u30fc\u4ea4\u97ff\u697d\u56e3"],["Phil Collins & Mark Mancina"],["Donny Osmond"],["LunaMoon"],["Andy Williams"],["Randal Piper"],["Bobby (Boris) Pickett and The Crypt\u2010Kickers"],["Randy Newman"],["David Garrett"],["Honey Revenge"],["Lynn Ahrens, Stephen Flaherty & David Newman"],["Jim Nabors"],["Richard M. Sherman & Robert B. Sherman"],["James Horner"],["Glenn Miller Orchestra"],["Steve Franks & Adam Cohen"],["Francis Poulenc, Henri Dutilleux, Pierre Sancan, Jacques Ibert, Darius Milhaud, Olivier Messiaen, Andr\u00e9 Jolivet; Emmanuel Pahud, \u00c9ric Le Sage"],["Jim Hancock"],["Marc Shaiman & Scott Wittman"],["Burl Ives; Johnny Marks"],["Jim Hancock & Friends with Gypsy Guerrilla Band"],["Beauty School Dropout"],["The Rat Pack"],["Sue Richards & Maggie Sansone"],["Nat King Cole & Dean Martin"],["The Halo Effect"],["Brian McKnight"],["Koyo"],["Double Indemnity"],["Buffy the Vampire Slayer Cast"],["Fellowship"],["Frank Churchill, Larry Morey, Leigh Harline, Paul J. Smith"],["L\u00d8L\u00d8"],["Travis Denning"],["Benny Andersson and Bj\u00f6rn Ulvaeus"],["Cellar Darling"],["Carl Asch"],["Taylor Acorn"],["Arrows in Action"],["Slaughter to Prevail"],["Alan Menken & David Zippel"],["Tony Bennett"],["Claude\u2010Michel Sch\u00f6nberg"],["Sirena"],["Left to Suffer"],["Lacey Sturm"],["Point North"],["Stephen Schwartz & Hans Zimmer"],["Faber Drive"],["Charlotte Sands"],["Alan Menken & Howard Ashman"],["Holding Absence"],["The Home Team"],["Jonathan Larson"],["Harry Connick, Jr."],["Andrew Lloyd Webber"],["Ray Conniff and The Ray Conniff Singers"],["Fame on Fire"],["Boys Like Girls"],["Perry Como"],["The Starting Line"],["Canadian Brass"],["The Burly Minstrels"],["Kristen Anderson\u2010Lopez, Robert Lopez & Christophe Beck"],["Trans\u2010Siberian Orchestra"],["Alan Menken & Stephen Schwartz"],["Lin\u2010Manuel Miranda, Opetaia Foa\u02bbi, Mark Mancina"],["Lucy Thomas"],["Falling in Reverse"],["Amy Grant"],["Old Dominion"],["Kenny G"],["A Loss for Words"],["I See Stars"],["2CELLOS"],["Crown the Empire"],["Anne Murray"],["Story of the Year"],["Hail the Sun"],["Miss May I"],["The Red Jumpsuit Apparatus"],["Jim Hancock & Friends"],["Alan Menken, Howard Ashman & Tim Rice"],["New Years Day"],["Empty Hats"],["Comeback Kid"],["Of Mice & Men"],["State Champs"],["The Word Alive"],["\u5cf0\u5cb8\u900f, \u592a\u7530\u3042\u3059\u304b, \u8fd1\u85e4\u6d69\u6cbb & \u6a2a\u7530\u771f\u4eba"],["Erock"],["Black Veil Brides"],["Senses Fail"],["A Day to Remember"],["Escape the Fate"],["\u6c38\u7530\u6a29\u592a, \u82e5\u4e95\u6dd1, \u5cf0\u5cb8\u900f & \u8fd1\u85e4\u6d69\u6cbb"],["Yellowcard"],["All Time Low"],["Pentatonix"],["\u201cWeird Al\u201d Yankovic"],["Pennywise"],["The Maine"],["Straight No Chaser"],["Wolgemut"],["Home Free"]],"hovertemplate":"artist_rating=%{x}\u003cbr\u003eavg_track_rating=%{y}\u003cbr\u003etrack_count=%{marker.size}\u003cbr\u003eartists=%{customdata[0]}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"","marker":{"color":"#636efa","size":{"dtype":"i2","bdata":"AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQACAAIAAgADAAQABAAFAAUABQAFAAYABgAHAAcACAAIAAkACgAKAAoACwALAAsADAAMAAwADAAMAA0ADQANAA4ADgAOAA4ADgAOAA8ADwAPAA8AEAAQABAAEAARABEAEQARABEAEQARABIAEwATABMAFQAVABYAFgAWABcAFwAXABcAGAAaABsAGwAbABsAGwAcAB0AHgAeACEAIgAiACQAJQAlACYAJgAnACcAKAAoACsALQAuAC8AMQA0ADUANQA2ADYANwA5ADoAOwA8AEAAQQBCAEMARQBIAE0ATwBWAFYAWABaAFoAXABfAF8AYABhAGEAYgBlAGwAbgBzAHwAfAB9AIUAmwCfAKwArwC0ALcAvwC\u002fAO8A"},"sizemode":"area","sizeref":0.5975,"symbol":"circle"},"mode":"markers","name":"","orientation":"v","showlegend":false,"x":{"dtype":"f8","bdata":"AAAAAAAAFEAAAAAAAAAYQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACBAAAAAAAAAIEAAAAAAAAAiQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAYQAAAAAAAACBAAAAAAAAAIEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAIEAAAAAAAAAUQAAAAAAAABxAAAAAAAAAIEAAAAAAAAAiQAAAAAAAABxAAAAAAAAAIkAAAAAAAAAcQAAAAAAAACBAAAAAAAAAFEAAAAAAAAAgQAAAAAAAACRAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAgQAAAAAAAACRAAAAAAAAAFEAAAAAAAAAYQAAAAAAAABxAAAAAAAAAHEAAAAAAAAAiQAAAAAAAACBAAAAAAAAAIEAAAAAAAAAkQAAAAAAAABRAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACBAAAAAAAAAIkAAAAAAAAAiQAAAAAAAABRAAAAAAAAAGEAAAAAAAAAgQAAAAAAAACRAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABxAAAAAAAAAIEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABxAAAAAAAAAIEAAAAAAAAAgQAAAAAAAABxAAAAAAAAAHEAAAAAAAAAcQAAAAAAAACBAAAAAAAAAFEAAAAAAAAAcQAAAAAAAABRAAAAAAAAAHEAAAAAAAAAgQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAIkAAAAAAAAAUQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAYQAAAAAAAACBAAAAAAAAAJEAAAAAAAAAiQAAAAAAAABxAAAAAAAAAHEAAAAAAAAAgQAAAAAAAABRAAAAAAAAAGEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAGEAAAAAAAAAgQAAAAAAAABxAAAAAAAAAIEAAAAAAAAAYQAAAAAAAACJAAAAAAAAAHEAAAAAAAAAgQAAAAAAAABBAAAAAAAAAGEAAAAAAAAAUQAAAAAAAABxAAAAAAAAAIEAAAAAAAAAgQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAYQAAAAAAAACBAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAYQAAAAAAAACBAAAAAAAAAFEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAGEAAAAAAAAAYQAAAAAAAACBAAAAAAAAAIEAAAAAAAAAUQAAAAAAAACBAAAAAAAAAGEAAAAAAAAAcQAAAAAAAACRAAAAAAAAAIEAAAAAAAAAgQAAAAAAAACBAAAAAAAAAJEAAAAAAAAAUQAAAAAAAACJAAAAAAAAAHEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAIkAAAAAAAAAkQAAAAAAAABBAAAAAAAAAIEAAAAAAAAAgQAAAAAAAABxAAAAAAAAAIEAAAAAAAAAiQAAAAAAAABxAAAAAAAAAJEAAAAAAAAAUQAAAAAAAACBAAAAAAAAAIEAAAAAAAAAiQAAAAAAAACJA"},"xaxis":"x","y":{"dtype":"f8","bdata":"AAAAAAAAGEAAAAAAAAAcQAAAAAAAACBAAAAAAAAAGEAAAAAAAAAcQAAAAAAAACBAAAAAAAAAIkAAAAAAAAAcQAAAAAAAACBAAAAAAAAAJEAAAAAAAAAiQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAcQAAAAAAAACBAAAAAAAAAIUAzMzMzMzMdQDMzMzMzMxtAZmZmZmZmIECamZmZmZkZQJqZmZmZmR1AZmZmZmZmHkBmZmZmZmYgQM3MzMzMzB5AmpmZmZmZIEAzMzMzMzMdQJqZmZmZmR9AmpmZmZmZF0CamZmZmZkdQGZmZmZmZiNAZmZmZmZmFECamZmZmZkVQM3MzMzMzBhAAAAAAAAAGkDNzMzMzMweQGZmZmZmZh5AMzMzMzMzF0AAAAAAAAAaQDMzMzMzMxtAzczMzMzMHkDNzMzMzMwcQJqZmZmZmRtAAAAAAAAAIEDNzMzMzMweQGZmZmZmZhhAMzMzMzMzHUCamZmZmZkdQAAAAAAAAB5AMzMzMzMzHUCamZmZmZkfQAAAAAAAABZAzczMzMzMGkCamZmZmZkbQGZmZmZmZiFAMzMzMzMzFUAzMzMzMzMZQGZmZmZmZhhAAAAAAAAAIEAzMzMzMzMZQM3MzMzMzBhAmpmZmZmZGUAAAAAAAAAeQGZmZmZmZhpAAAAAAAAAHkAAAAAAAAAgQJqZmZmZmRtAmpmZmZmZG0AAAAAAAAAcQAAAAAAAAB5AmpmZmZmZF0AAAAAAAAAaQGZmZmZmZhZAmpmZmZmZGUCamZmZmZkfQAAAAAAAABRAmpmZmZmZGUDNzMzMzMweQJqZmZmZmSBAzczMzMzMIEAAAAAAAAAWQAAAAAAAABpAZmZmZmZmGkAAAAAAAAAcQGZmZmZmZh5AZmZmZmZmHkAzMzMzMzMgQGZmZmZmZhxAZmZmZmZmGkAAAAAAAAAcQAAAAAAAABhAZmZmZmZmGECamZmZmZkbQGZmZmZmZhpAmpmZmZmZGUAzMzMzMzMdQDMzMzMzMxtAZmZmZmZmHEDNzMzMzMwaQM3MzMzMzBpAZmZmZmZmGkCamZmZmZkfQDMzMzMzMxNAzczMzMzMFkAzMzMzMzMVQJqZmZmZmRtAAAAAAAAAHkBmZmZmZmYeQAAAAAAAABZAzczMzMzMGEBmZmZmZmYaQGZmZmZmZhxAZmZmZmZmGEDNzMzMzMwYQGZmZmZmZhhAAAAAAAAAGEDNzMzMzMwaQDMzMzMzMxtAZmZmZmZmGEDNzMzMzMwcQGZmZmZmZhpAmpmZmZmZF0AzMzMzMzMZQGZmZmZmZhxAZmZmZmZmHEDNzMzMzMwYQDMzMzMzMx1AMzMzMzMzGUBmZmZmZmYaQM3MzMzMzB5AzczMzMzMHEDNzMzMzMwaQM3MzMzMzBxAZmZmZmZmIEBmZmZmZmYYQJqZmZmZmR1AAAAAAAAAHEAzMzMzMzMdQJqZmZmZmRVAMzMzMzMzH0CamZmZmZkfQM3MzMzMzBZAmpmZmZmZG0CamZmZmZkbQM3MzMzMzBBAZmZmZmZmGkAzMzMzMzMdQAAAAAAAABpAzczMzMzMGkCamZmZmZkXQJqZmZmZmRtAZmZmZmZmGEDNzMzMzMwaQAAAAAAAABpA"},"yaxis":"y","type":"scatter"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"artist_rating"}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"avg_track_rating"}},"legend":{"tracegroupgap":0,"itemsizing":"constant"},"title":{"text":"Correlation between artist rating and track rating (track count, fully rated)"}},{"responsive": true})};</script></div>"""
-
-
 def generate_square_markdown(
     bingo_stats: BingoStatistics,
     card_data: CardData,
@@ -488,7 +486,11 @@ Statistics for other squares can be found at the following links:
 
 
 def generate_index_markdown(
-    bingo_stats: BingoStatistics, card_data: CardData, summary_stats: SummaryStats, year: int
+    bingo_stats: BingoStatistics,
+    card_data: CardData,
+    summary_stats: SummaryStats,
+    plots: Plots,
+    year: int,
 ) -> str:
     return f"""---
 layout: base
@@ -519,26 +521,20 @@ There were a total of {bingo_stats.hard_mode_by_square.total()} hard-mode square
 
 {format_square_table(bingo_stats, card_data.square_names.values())}
 
-{RAW_TEST_HTML}
-
-> [!CAUTION]
-> TODO
-> per_card_hms plot
-> per_card_incompletes plot
+{plots.yearly_plots.hard_mode.to_html(full_html=False, include_plotlyjs=False)}
+{plots.yearly_plots.incompletes.to_html(full_html=False, include_plotlyjs=False)}
 
 ### Year-over-Year
 
 To see how these numbers have changed over the course of bingo, here are some plots.
 
-> [!CAUTION]
-> TODO
-> complete_squares_change plot
-> hard_mode_change plot
-> hard_mode_noncard_change plot
-> hero_mode_change plot
-> multi_card_change plot
-> participants_change plot
-> uniques_change plot
+{plots.yoy_plots.squares_per_card.to_html(full_html=False, include_plotlyjs=False)}
+{plots.yoy_plots.hard_mode.to_html(full_html=False, include_plotlyjs=False)}
+{plots.yoy_plots.hm_per_nonhm_card.to_html(full_html=False, include_plotlyjs=False)}
+{plots.yoy_plots.hero_mode.to_html(full_html=False, include_plotlyjs=False)}
+{plots.yoy_plots.cards_per_person.to_html(full_html=False, include_plotlyjs=False)}
+{plots.yoy_plots.participants.to_html(full_html=False, include_plotlyjs=False)}
+{plots.yoy_plots.uniqueness.to_html(full_html=False, include_plotlyjs=False)}
 
 ## Book Statistics
 
@@ -553,10 +549,8 @@ The books used for the most squares were:
 {format_book(summary_stats.max_square_ratio_book)} was the book read at least 10 times with the highest ratio of squares to times read:
 read {bingo_stats.overall_uniques.unique_books[summary_stats.max_square_ratio_book]} times for {bingo_stats.unique_squares_by_book[summary_stats.max_square_ratio_book]} squares.
 
-> [!CAUTION]
-> TODO
-> per_book_reads plot
-> per_card_uniques plot
+{plots.yearly_plots.book_reads.to_html(full_html=False, include_plotlyjs=False)}
+{plots.yearly_plots.uniques.to_html(full_html=False, include_plotlyjs=False)}
 
 One of those interesting stats phenomena: even though most cards only include a few unique books, most of the books read are unique.
 There were an average of {summary_stats.avg_reads_per_book:.1f} reads per book.
@@ -578,9 +572,7 @@ The authors with the most unique books read were:
 
 {format_unique_author_books(bingo_stats.books_per_author)}
 
-> [!CAUTION]
-> TODO
-> per_author_reads plot
+{plots.yearly_plots.author_reads.to_html(full_html=False, include_plotlyjs=False)}
 
 As with books, most authors were read only once.
 There were an average of {summary_stats.avg_reads_per_author:.1f} reads per author.
@@ -600,16 +592,12 @@ Demographics representing less than 1% of the unique authors are not included in
 ### Normal Mode
 {format_bingos(bingo_stats.normal_bingo_type_stats, bingo_stats.incomplete_cards.keys())}
 
-> [!CAUTION]
-> TODO
-> per_card_bingos plot
+{plots.yearly_plots.bingos.to_html(full_html=False, include_plotlyjs=False)}
 
 ### Hard Mode
 {format_bingos(bingo_stats.hardmode_bingo_type_stats, [card_id for card_id, hm_count in bingo_stats.hard_mode_by_card.items() if hm_count != BINGO_SIZE**2])}
 
-> [!CAUTION]
-> TODO
-> per_card_hm_bingos plot
+{plots.yearly_plots.hm_bingos.to_html(full_html=False, include_plotlyjs=False)}
 
 ## Book Variety (Per Square)
 
@@ -653,9 +641,7 @@ Predictably, there's a lot of crossover between books with the most variations a
 
 ### Year-over-Year
 
-> [!CAUTION]
-> TODO
-> mispellings_change plot
+{plots.yoy_plots.misspellings.to_html(full_html=False, include_plotlyjs=False)}
 
 Is it true that "every year we typo further from God"? Proportionally, we collectively seem to be improving,
 though absolute numbers are still increasing. There may not be enough data to draw strong conclusions yet, though.
@@ -670,6 +656,7 @@ def create_markdown(
     bingo_stats: BingoStatistics,
     card_data: CardData,
     post_draft_path: Path,
+    plots: Plots,
     year: int,
 ) -> None:
     """Create a Markdown draft of stats"""
@@ -738,7 +725,7 @@ def create_markdown(
         post_draft_file.write(post_markdown)
 
     pages_root = REPO_ROOT / "docs" / str(year)
-    index_markdown = generate_index_markdown(bingo_stats, card_data, summary_stats, year)
+    index_markdown = generate_index_markdown(bingo_stats, card_data, summary_stats, plots, year)
     with (pages_root / "index.md").open("w", encoding="utf8") as index_file:
         index_file.write(index_markdown)
 

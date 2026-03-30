@@ -9,10 +9,9 @@ requires-python = ">=3.12"
 dependencies = [
   "gitpython~=3.1",
   "inflect~=7.2",
-  "lmfit~=1.2",
-  "matplotlib~=3.7",
   "numpy~=2.0",
   "pandas~=2.0",
+  "plotly~=6.6",
   "praw~=7.8",
   "progressbar2~=4.2",
   "pydantic~=2.10",
@@ -39,14 +38,15 @@ sources = ["src"]
 
 [dependency-groups]
 dev = [
-    "black>=24.10.0",
-    "flake8-print>=5.0.0",
-    "isort>=5.13.2",
-    "mypy>=1.14.1",
-    "pandas-stubs>=2.0",
-    "pylint>=3.3.3",
-    "pytest>=8.3.4",
-    "types-requests>=2.32.0.20241016",
+  "black>=24.10.0",
+  "flake8-print>=5.0.0",
+  "isort>=5.13.2",
+  "mypy>=1.14.1",
+  "pandas-stubs>=2.0",
+  "plotly-stubs",
+  "pylint>=3.3.3",
+  "pytest>=8.3.4",
+  "types-requests>=2.32.0.20241016",
 ]
 
 [tool.mypy]
@@ -68,10 +68,7 @@ init_forbid_extra = true
 init_typed = true
 
 [tool.pylint]
-disable = [
-  "logging-fstring-interpolation",
-  "logging-not-lazy",
-]
+disable = ["logging-fstring-interpolation", "logging-not-lazy"]
 
 [tool.black]
 line_length = 99

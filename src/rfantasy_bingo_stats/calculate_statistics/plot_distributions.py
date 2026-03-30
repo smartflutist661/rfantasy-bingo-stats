@@ -1,13 +1,18 @@
 from collections import Counter
-from pathlib import Path
+from collections.abc import (
+    Mapping,
+    Sequence,
+)
+from dataclasses import dataclass
 from typing import (
     Optional,
     SupportsFloat,
 )
 
-import matplotlib.pyplot as plt
 import numpy as np
-from lmfit.model import ModelResult  # type: ignore[import-untyped]
+import plotly.graph_objects
+from plotly.graph_objects import Figure
+from plotly.subplots import make_subplots
 
 from rfantasy_bingo_stats.constants import (
     YOY_DATA_FILEPATH,
@@ -19,7 +24,6 @@ from rfantasy_bingo_stats.models.defined_types import (
     Book,
     CardID,
 )
-from rfantasy_bingo_stats.models.fit_props import FitProps
 from rfantasy_bingo_stats.models.yearly_stats import YearStatsAdapter
 
 
@@ -41,12 +45,142 @@ def none_multiply(lhs: Optional[SupportsFloat], rhs: Optional[SupportsFloat]) ->
     return float(lhs) * float(rhs)
 
 
-def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
+@dataclass
+class YOYPlots:
+    participants: Figure
+    misspellings: Figure
+    hm_per_nonhm_card: Figure
+    hero_mode: Figure
+    cards_per_person: Figure
+    squares_per_card: Figure
+    hard_mode: Figure
+    uniqueness: Figure
+
+
+@dataclass
+class YearlyPlots:
+    uniques: Figure
+    incompletes: Figure
+    hard_mode: Figure
+    bingos: Figure
+    hm_bingos: Figure
+    author_reads: Figure
+    book_reads: Figure
+
+
+@dataclass
+class Plots:
+    yoy_plots: YOYPlots
+    yearly_plots: YearlyPlots
+
+
+BASE_LAYOUT: Mapping = {  # type: ignore[type-arg]
+    "title": {
+        "text": "<Placeholder Title>",
+        "x": 0.5,
+        "xanchor": "center",
+        "font": {
+            "size": 26,
+            "color": "rgba(0, 0, 0, 0.75)",
+            "weight": "bold",
+        },
+        "subtitle": {
+            "font": {
+                "color": "rgba(0, 0, 0, 0.85)",
+                "size": 20,
+            },
+        },
+    },
+    "xaxis": {
+        "gridcolor": "#cbcbcb",
+        "tickfont": {
+            "size": 18,
+        },
+    },
+    "yaxis": {
+        "gridcolor": "#cbcbcb",
+        "tickfont": {
+            "size": 18,
+        },
+    },
+    "paper_bgcolor": "#f0f0f0",
+    "plot_bgcolor": "#f0f0f0",
+}
+
+
+def yoy_single_plot(
+    title: str,
+    years: Sequence[int],
+    y_data: Sequence[int | float | None],
+    hover_template: str,
+    percentage: bool = False,
+) -> Figure:
+    plot = plotly.graph_objects.Figure()
+    plot.add_trace(
+        plotly.graph_objects.Scatter(
+            mode="lines",
+            x=years,
+            y=y_data,  # type: ignore[arg-type]
+            hovertemplate=f"{hover_template}<extra></extra>",
+            showlegend=False,
+            line={"width": 4},
+        ),
+    )
+    layout = dict(BASE_LAYOUT)
+    layout["title"]["subtitle"]["text"] = title
+    layout["xaxis"]["range"] = [min(years), None]
+    if percentage:
+        layout["yaxis"]["tickformat"] = ".1%"
+    plot.update_layout(layout)
+
+    return plot
+
+
+def yoy_double_plot(
+    title: str,
+    years: Sequence[int],
+    y1_data: Sequence[int | float | None],
+    y2_data: Sequence[int | float | None],
+    y1_label: str,
+    y2_label: str,
+    hover_template: str,
+    percentage: bool = False,
+) -> Figure:
+    plot = plotly.graph_objects.Figure()
+    plot.add_trace(
+        plotly.graph_objects.Scatter(
+            mode="lines",
+            x=years,
+            y=y1_data,  # type: ignore[arg-type]
+            hovertemplate=f"{hover_template}<extra></extra>",
+            name=y1_label,
+            meta=y1_label.lower(),
+            line={"width": 4},
+        ),
+    )
+    plot.add_trace(
+        plotly.graph_objects.Scatter(
+            mode="lines",
+            x=years,
+            y=y2_data,  # type: ignore[arg-type]
+            hovertemplate=f"{hover_template}<extra></extra>",
+            name=y2_label,
+            meta=y2_label.lower(),
+            line={"width": 4},
+        ),
+    )
+    layout = dict(BASE_LAYOUT)
+    layout["title"]["subtitle"]["text"] = title
+    layout["xaxis"]["range"] = [min(years), None]
+    if percentage:
+        layout["yaxis"]["tickformat"] = ".1%"
+    plot.update_layout(layout)
+
+    return plot
+
+
+def create_yoy_plots(current_year: int) -> YOYPlots:
     """Plot distributions of interest"""
-
-    output_root.mkdir(exist_ok=True)
-
-    plt.style.use("fivethirtyeight")
 
     with YOY_DATA_FILEPATH.open("r", encoding="utf8") as yoy_file:
         yoy_data = YearStatsAdapter.validate_json(yoy_file.read())
@@ -66,6 +200,9 @@ def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
     hard_mode_square_per_noncard_counts = []
     hard_mode_square_per_card_counts = []
     for year, stats in yoy_data.items():
+        # Don't create plots for past years if data is from future
+        if year > current_year:
+            break
         stats_path = BingoYearDataPaths(year).output_stats
         if stats_path.exists():
             with stats_path.open("r", encoding="utf8") as stats_file:
@@ -112,324 +249,217 @@ def create_yoy_plots(output_root: Path, show_plots: bool) -> None:
             none_divide(stats.unique_author_count, stats.total_author_count)
         )
 
-    plt.figure(figsize=(16, 9))
-    plt.suptitle(
-        "Same increase in the last year as during the two major pandemic years",
-        fontsize=26,
-        weight="bold",
-        alpha=0.75,
-        wrap=True,
+    participants = yoy_single_plot(
+        title="Total participants over time",
+        years=years,
+        y_data=total_participant_counts,
+        hover_template="%{y} participants",
     )
-    plt.title(
-        "Total participants over time",
-        fontsize=19,
-        alpha=0.85,
-        wrap=True,
-    )
-    plt.plot(years, total_participant_counts)
-    plt.xlim(min(years), None)
-    plt.savefig(output_root / "participants_change.png")
-
-    plt.figure(figsize=(16, 9))
-    plt.suptitle(
-        "Misspellings improve slightly",
-        fontsize=26,
-        weight="bold",
-        alpha=0.75,
-        wrap=True,
-    )
-    plt.title(
+    misspellings = yoy_single_plot(
         "Misspellings compared to the number of books read more than once",
-        fontsize=19,
-        alpha=0.85,
-        wrap=True,
+        years,
+        misspelling_counts,
+        "%{y} of entries misspelled",
+        percentage=True,
     )
-    plt.plot(years, misspelling_counts)  # type: ignore[arg-type]
-    plt.xlim(min(years), None)
-    plt.savefig(output_root / "misspellings_change.png")
-
-    plt.figure(figsize=(16, 9))
-    plt.suptitle(
-        "Hard mode squares are the majority, cards not so much",
-        fontsize=26,
-        weight="bold",
-        alpha=0.75,
-        wrap=True,
-    )
-    plt.title(
-        "Hard mode cards and squares compared to the total number of cards and squares",
-        fontsize=19,
-        alpha=0.85,
-        wrap=True,
-    )
-    plt.plot(years, hard_mode_square_counts, label="Squares")  # type: ignore[arg-type]
-    plt.plot(years, hard_mode_card_counts, label="Cards")  # type: ignore[arg-type]
-    plt.legend()
-    plt.ylim(-0.01, None)
-    plt.xlim(min(years), None)
-    plt.savefig(output_root / "hard_mode_change.png")
-
-    plt.figure(figsize=(16, 9))
-    plt.suptitle(
-        "A more balanced hard mode",
-        fontsize=26,
-        weight="bold",
-        alpha=0.75,
-        wrap=True,
-    )
-    plt.title(
+    hm_per_nonhm_card = yoy_single_plot(
         "Hard mode squares per non-HM card",
-        fontsize=19,
-        alpha=0.85,
-        wrap=True,
+        years,
+        hard_mode_square_per_noncard_counts,
+        "%{y:.2f} hard mode squares",
     )
-    plt.plot(years, hard_mode_square_per_noncard_counts)  # type: ignore[arg-type]
-    plt.xlim(min(years), None)
-    plt.savefig(output_root / "hard_mode_noncard_change.png")
-
-    plt.figure(figsize=(16, 9))
-    plt.suptitle(
-        "More people are reviewing what they read",
-        fontsize=26,
-        weight="bold",
-        alpha=0.75,
-        wrap=True,
-    )
-    plt.title(
+    hero_mode = yoy_single_plot(
         "Hero mode cards compared to the total number of cards",
-        fontsize=19,
-        alpha=0.85,
-        wrap=True,
+        years,
+        hero_mode_card_counts,
+        "%{y} of cards hero mode",
+        percentage=True,
     )
-    plt.plot(years, hero_mode_card_counts)  # type: ignore[arg-type]
-    plt.xlim(min(years), None)
-    plt.savefig(output_root / "hero_mode_change.png")
-
-    plt.figure(figsize=(16, 9))
-    plt.suptitle(
-        "Fewer people doing a dozen cards?",
-        fontsize=26,
-        weight="bold",
-        alpha=0.75,
-        wrap=True,
-    )
-    plt.title(
+    cards_per_person = yoy_single_plot(
         "Cards per participant over time",
-        fontsize=19,
-        alpha=0.85,
-        wrap=True,
+        years,
+        participants_vs_cards,
+        "%{y:.3f} cards per person",
     )
-    plt.plot(years, participants_vs_cards)
-    plt.xlim(min(years), None)
-    plt.savefig(output_root / "multi_card_change.png")
-
-    plt.figure(figsize=(16, 9))
-    plt.suptitle(
-        "Blackout has been common since the beginning",
-        fontsize=26,
-        weight="bold",
-        alpha=0.75,
-        wrap=True,
-    )
-    plt.title(
+    squares_per_card = yoy_single_plot(
         "Squares per card over time",
-        fontsize=19,
-        alpha=0.85,
-        wrap=True,
+        years,
+        squares_vs_cards,
+        "%{y:.2f} complete squares per card",
     )
-    plt.plot(years, squares_vs_cards)  # type: ignore[arg-type]
-    plt.xlim(min(years), None)
-    plt.savefig(output_root / "complete_squares_change.png")
 
-    plt.figure(figsize=(16, 9))
-    plt.suptitle(
-        "Uniqueness has decreased",
-        fontsize=26,
-        weight="bold",
-        alpha=0.75,
-        wrap=True,
+    hard_mode = yoy_double_plot(
+        "Hard mode squares and cards compared to the total number of squares and cards",
+        years,
+        hard_mode_square_counts,
+        hard_mode_card_counts,
+        y1_label="Squares",
+        y2_label="Cards",
+        hover_template="%{y} of %{meta} hard mode",
+        percentage=True,
     )
-    plt.title(
+
+    uniqueness = yoy_double_plot(
         "Unique vs total stories and authors over time",
-        fontsize=19,
-        alpha=0.85,
-        wrap=True,
+        years,
+        total_vs_unique_stories,
+        total_vs_unique_authors,
+        y1_label="Stories",
+        y2_label="Authors",
+        hover_template="%{y} of %{meta} unique",
+        percentage=True,
     )
-    plt.plot(years, total_vs_unique_stories, label="Stories")  # type: ignore[arg-type]
-    plt.plot(years, total_vs_unique_authors, label="Authors")  # type: ignore[arg-type]
-    plt.legend()
-    plt.xlim(min(years), None)
-    plt.savefig(output_root / "uniques_change.png")
 
-    if show_plots:
-        plt.show()
+    return YOYPlots(
+        participants=participants,
+        misspellings=misspellings,
+        hm_per_nonhm_card=hm_per_nonhm_card,
+        hero_mode=hero_mode,
+        cards_per_person=cards_per_person,
+        squares_per_card=squares_per_card,
+        hard_mode=hard_mode,
+        uniqueness=uniqueness,
+    )
 
 
-def create_yearly_plots(bingo_stats: BingoStatistics, output_root: Path, show_plots: bool) -> None:
+def create_yearly_plots(bingo_stats: BingoStatistics) -> YearlyPlots:
     """Plot distributions of interest"""
 
-    output_root.mkdir(exist_ok=True)
-
-    plt.style.use("fivethirtyeight")
-
-    plot_card_hist(
+    uniques = plot_fixed_hist(
         counter=bingo_stats.card_uniques,
-        title="Most people read a couple of unique books",
-        subtitle="Number of cards with each count of unique books read",
-        filepath=output_root / "per_card_uniques.png",
+        title="Number of cards with each count of unique books read",
+        hover_template="%{y} cards with %{x} unique books",
+        max_val=25,
     )
 
-    plot_card_hist(
+    incompletes = plot_fixed_hist(
         counter=bingo_stats.incomplete_cards,
-        title="Read more than three rows, probably read a whole card",
-        subtitle="Number of cards with each count of incomplete squares",
-        filepath=output_root / "per_card_incompletes.png",
+        title="Number of cards with each count of incomplete squares",
+        hover_template="%{y} cards with %{x} incomplete squares",
+        max_val=25,
     )
 
-    plot_card_hist(
+    hard_mode = plot_fixed_hist(
         counter=bingo_stats.hard_mode_by_card,
-        title="Law of Large Numbers with a goal",
-        subtitle="Number of cards with a particular count of hard mode squares",
-        filepath=output_root / "per_card_hms.png",
+        title="Number of cards with a particular count of hard mode squares",
+        hover_template="%{y} cards with %{x} hard mode squares",
+        max_val=25,
     )
 
-    plot_card_hist(
+    bingos = plot_fixed_hist(
         counter=bingo_stats.normal_bingo_type_stats.complete_bingos_by_card,
-        title="Non-blackout cards don't try for more than one bingo",
-        subtitle="Number of cards with a particular count of bingos",
-        filepath=output_root / "per_card_bingos.png",
-        max_val=12,
+        title="Number of cards with a particular count of bingos",
+        hover_template="%{y} cards with %{x} bingos",
+        max_val=10,
     )
 
-    plot_card_hist(
+    hm_bingos = plot_fixed_hist(
         counter=bingo_stats.hardmode_bingo_type_stats.complete_bingos_by_card,
-        title="Cards that don't do all hard-mode don't pay attention to it at all",
-        subtitle="Number of cards with a particular count of hard mode bingos",
-        filepath=output_root / "per_card_hm_bingos.png",
-        max_val=12,
+        title="Number of cards with a particular count of hard mode bingos",
+        hover_template="%{y} cards with %{x} hard mode bingos",
+        max_val=10,
     )
 
-    plot_count_hist(
+    author_reads = plot_count_hist(
         counter=bingo_stats.overall_uniques.unique_authors,
-        title="Most authors were only read once",
-        subtitle="Number of reads per author, in 10-read bins",
-        filepath=output_root / "per_author_reads.png",
+        title="Number of reads per author, in 10-read bins",
+        hover_template="%{y} authors read %{x} times",
     )
 
-    plot_count_hist(
+    book_reads = plot_count_hist(
         counter=bingo_stats.overall_uniques.unique_books,
-        title="Most books were only read once",
-        subtitle="Number of reads per book, in 10-read bins",
-        filepath=output_root / "per_book_reads.png",
+        title="Number of reads per book, in 10-read bins",
+        hover_template="%{y} books read %{x} times",
     )
 
-    if show_plots:
-        plt.show()
-    plt.close("all")
+    return YearlyPlots(
+        uniques=uniques,
+        incompletes=incompletes,
+        hard_mode=hard_mode,
+        bingos=bingos,
+        hm_bingos=hm_bingos,
+        author_reads=author_reads,
+        book_reads=book_reads,
+    )
 
 
-# I feel like it should be possible to fit these pre-histogram
-def plot_card_hist(
-    counter: Counter[CardID], title: str, subtitle: str, filepath: Path, max_val: int = 26
-) -> None:
+def plot_fixed_hist(
+    counter: Counter[CardID],
+    title: str,
+    hover_template: str,
+    max_val: int,
+) -> Figure:
     """Plot histogram of unique values"""
 
-    plt.figure(figsize=(16, 9))
+    plot = plotly.graph_objects.Figure()
+    plot.add_trace(
+        plotly.graph_objects.Histogram(
+            x=list(counter.values()),
+            xbins={"size": 1, "start": -0.5, "end": max_val + 0.5},
+            hovertemplate=f"{hover_template}<extra></extra>",
+        )
+    )
+    layout = dict(BASE_LAYOUT)
+    layout["title"]["subtitle"]["text"] = title
+    layout["xaxis"]["range"] = [-1, max_val + 1]
+    plot.update_layout(layout)
 
-    bin_vals = np.arange(max_val + 1)
-
-    edges = bin_vals - 0.5
-
-    plt.hist(counter.values(), bins=edges)  # type: ignore[arg-type]
-
-    plt.suptitle(title, fontsize=26, weight="bold", alpha=0.75, wrap=True)
-    plt.title(subtitle, fontsize=19, alpha=0.85, wrap=True)
-    plt.xticks(range(max_val))
-    plt.xlim(-1, max_val)
-    ymax = plt.gca().get_ylim()[1]
-    plt.ylim(-0.01 * ymax, None)
-    plt.tick_params(labelsize=18)
-    plt.axhline(y=0, color="black", linewidth=1.3, alpha=0.7)
-    plt.axvline(x=-0.75, color="black", linewidth=1.3, alpha=0.3)
-
-    plt.savefig(filepath)
+    return plot
 
 
 def plot_count_hist(
     counter: Counter[Author] | Counter[Book],
     title: str,
-    subtitle: str,
-    filepath: Path,
-) -> None:
+    hover_template: str,
+) -> Figure:
     """Plot histogram of unique values"""
 
-    edges = np.arange(0, counter.most_common(1)[0][1] + 10, 10)
+    max_val = counter.most_common(1)[0][1] + 10
+    edges = np.arange(0, max_val, 10)
     hist, _ = np.histogram(list(counter.values()), bins=edges)
 
-    fig, (axis1, axis2) = plt.subplots(2, 1, sharex=True, figsize=(16, 9))
+    plot = make_subplots(rows=2, cols=1, vertical_spacing=0.05, shared_xaxes=True)
+    trace = plotly.graph_objects.Histogram(
+        x=list(counter.values()),
+        xbins={"size": 10, "start": 0, "end": max_val},
+        hovertemplate=f"{hover_template}<extra></extra>",
+        marker={"color": "#636EFA"},
+    )
+    plot.append_trace(trace, row=1, col=1)
+    plot.append_trace(trace, row=2, col=1)
+    layout = dict(BASE_LAYOUT)
+    layout["title"]["subtitle"]["text"] = title
+    layout["xaxis"]["range"] = [0, max_val]
+    layout["showlegend"] = False
+    layout["yaxis2"] = layout["yaxis"]
+    layout["xaxis2"] = layout["xaxis"]
+    plot.update_layout(layout)
 
-    plt.tick_params(labelsize=18)
-    plt.axhline(y=0, color="black", linewidth=1.3, alpha=0.7)
+    y_break_top = hist[1] - 0.2 * hist[1]
+    y_break_bottom = 1.2 * hist[2]
+    plot.update_yaxes(range=[y_break_top, None], row=1, col=1)
+    plot.update_xaxes(visible=False, row=1, col=1)
+    plot.update_yaxes(range=[0, y_break_bottom], row=2, col=1)
 
-    # Labels for entire figure
-    fig.add_subplot(111, frameon=False)
-    plt.tick_params(labelcolor="none", top=False, bottom=False, left=False, right=False)
-    plt.grid(False)
-    plt.gca().yaxis.set_label_coords(-0.05, 0.5)
-    plt.suptitle(title, fontsize=26, weight="bold", alpha=0.75, wrap=True)
-    plt.title(subtitle, fontsize=19, alpha=0.85, wrap=True)
-
-    # Plot on multiple axes, hide overlapping elements
-    axis1.hist(counter.values(), bins=edges)
-    axis2.hist(counter.values(), bins=edges)
-
-    axis1.set_ylim(hist[1] - 0.2 * hist[1], None)
-    axis2.set_ylim(-0.02 * 1.5 * hist[2], 1.2 * hist[2])
-    tick_spacing = (hist[0] - hist[1]) / 10
-    axis1.set_yticks(np.arange(hist[1], hist[0] + tick_spacing, tick_spacing))
-
-    xmax = axis1.get_xlim()[1]
-    axis1.set_xlim(-0.025 * xmax, None)
-
-    xmin = axis1.get_xlim()[0]
-    axis1.axvline(x=0.70 * xmin, color="black", linewidth=1.3, alpha=0.3)
-    axis2.axvline(x=0.70 * xmin, color="black", linewidth=1.3, alpha=0.3)
-
-    axis1.spines["bottom"].set_visible(False)
-    axis2.spines["top"].set_visible(False)
-    axis1.xaxis.tick_top()
-    axis1.tick_params(labeltop=False)
-    axis2.xaxis.tick_bottom()
-
-    # Add break marks
-    diag_size = 0.01
-
-    kwargs = {"transform": axis1.transAxes, "color": "k", "clip_on": False}
-    axis1.plot((-diag_size, +diag_size), (-diag_size, +diag_size), **kwargs)
-    axis1.plot((1 - diag_size, 1 + diag_size), (-diag_size, +diag_size), **kwargs)
-
-    kwargs.update({"transform": axis2.transAxes})
-    axis2.plot((-diag_size, +diag_size), (1 - diag_size, 1 + diag_size), **kwargs)
-    axis2.plot((1 - diag_size, 1 + diag_size), (1 - diag_size, 1 + diag_size), **kwargs)
-
-    plt.savefig(filepath)
-
-
-def get_fit_props(result: ModelResult) -> FitProps:
-    """Get properties of a model fit"""
-    best_vals = result.best_values
-    cent = best_vals["center"]
-    sig = best_vals["sigma"]
-    gam = best_vals["gamma"]
-
-    delt = gam * np.sqrt(1 / (1 + gam**2))
-
-    mean = cent + np.sqrt(2 / np.pi) * sig * delt
-
-    var = sig**2 * (1 - 2 * delt**2 / np.pi)
-
-    skew = (2 - np.pi / 2) * (
-        ((delt * np.sqrt(2 / np.pi)) ** 3) / (1 - 2 * delt**2 / np.pi) ** (3 / 2)
+    plot.add_shape(
+        type="line",
+        xref="paper",
+        yref="y domain",
+        x0=-0.01,
+        y0=-0.01,
+        x1=0.01,
+        y1=0.01,
+        line={"color": "black", "width": 2},
+    )
+    plot.add_shape(
+        type="line",
+        xref="paper",
+        yref="y2 domain",
+        x0=-0.01,
+        y0=0.99,
+        x1=0.01,
+        y1=1.01,
+        line={"color": "black", "width": 2},
     )
 
-    return FitProps(mean=mean, var=var, skew=skew)
+    return plot

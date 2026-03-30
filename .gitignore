@@ -1,3 +1,8 @@
+# Test files
+_site
+Gemfile
+Gemfile.lock
+
 .project
 .pydevproject
 

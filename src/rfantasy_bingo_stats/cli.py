@@ -7,9 +7,6 @@ from rfantasy_bingo_stats.constants import CURRENT_YEAR
 
 
 class BingoArgs(BaseModel):
-    show_plots: bool = Field(
-        description="Pass to display plots as well as saving them.",
-    )
     year: int = Field(
         default=CURRENT_YEAR - 1,
         description="Pass to process a year other than the current.",
