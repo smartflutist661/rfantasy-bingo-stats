@@ -1,8 +1,6 @@
 from collections import Counter
-from collections.abc import (
-    Mapping,
-    Sequence,
-)
+from collections.abc import Sequence
+from copy import deepcopy
 from dataclasses import dataclass
 from typing import (
     Optional,
@@ -86,7 +84,7 @@ class Plots:
     yearly_plots: YearlyPlots
 
 
-BASE_LAYOUT: Mapping = {  # type: ignore[type-arg]
+BASE_LAYOUT: dict = {  # type: ignore[type-arg]
     "title": {
         "text": "[Placeholder Title]",
         "x": 0.5,
@@ -127,6 +125,8 @@ def yoy_single_plot(
     hover_template: str,
     percentage: bool = False,
 ) -> Figure:
+    if len(title) > 55:
+        raise ValueError(f"Title too long: {title}")
     plot = plotly.graph_objects.Figure()
     plot.add_trace(
         plotly.graph_objects.Scatter(
@@ -138,7 +138,7 @@ def yoy_single_plot(
             line={"width": 4},
         ),
     )
-    layout = dict(BASE_LAYOUT)
+    layout = deepcopy(BASE_LAYOUT)
     layout["title"]["subtitle"]["text"] = title
     layout["xaxis"]["range"] = [min(years), None]
     if percentage:
@@ -158,6 +158,8 @@ def yoy_double_plot(
     hover_template: str,
     percentage: bool = False,
 ) -> Figure:
+    if len(title) > 55:
+        raise ValueError(f"Title too long: {title}")
     plot = plotly.graph_objects.Figure()
     plot.add_trace(
         plotly.graph_objects.Scatter(
@@ -181,7 +183,7 @@ def yoy_double_plot(
             line={"width": 4},
         ),
     )
-    layout = dict(BASE_LAYOUT)
+    layout = deepcopy(BASE_LAYOUT)
     layout["title"]["subtitle"]["text"] = title
     layout["xaxis"]["range"] = [min(years), None]
     if percentage:
@@ -271,7 +273,7 @@ def create_yoy_plots(current_year: int) -> YOYPlots:
     )
     misspellings = Plot(
         figure=yoy_single_plot(
-            "Misspellings compared to the number of books read more than once",
+            "% of entries misspelled of books read more than once",
             years,
             misspelling_counts,
             "%{y} of entries misspelled",
@@ -288,7 +290,7 @@ def create_yoy_plots(current_year: int) -> YOYPlots:
     )
     hero_mode = Plot(
         figure=yoy_single_plot(
-            "Hero mode cards compared to the total number of cards",
+            "Hero mode cards vs. total number",
             years,
             hero_mode_card_counts,
             "%{y} of cards hero mode",
@@ -314,7 +316,7 @@ def create_yoy_plots(current_year: int) -> YOYPlots:
 
     hard_mode = Plot(
         figure=yoy_double_plot(
-            "Hard mode squares and cards compared to the total number of squares and cards",
+            "% of squares & cards done in hard mode",
             years,
             hard_mode_square_counts,
             hard_mode_card_counts,
@@ -327,7 +329,7 @@ def create_yoy_plots(current_year: int) -> YOYPlots:
 
     uniqueness = Plot(
         figure=yoy_double_plot(
-            "Unique vs total stories and authors over time",
+            "Unique vs. total stories & authors over time",
             years,
             total_vs_unique_stories,
             total_vs_unique_authors,
@@ -356,7 +358,7 @@ def create_yearly_plots(bingo_stats: BingoStatistics) -> YearlyPlots:
     uniques = Plot(
         figure=plot_fixed_hist(
             counter=bingo_stats.card_uniques,
-            title="Number of cards with each count of unique books read",
+            title="# of cards with each count of unique books read",
             hover_template="%{y} cards with %{x} unique books",
             max_val=25,
         ),
@@ -365,7 +367,7 @@ def create_yearly_plots(bingo_stats: BingoStatistics) -> YearlyPlots:
     incompletes = Plot(
         figure=plot_fixed_hist(
             counter=bingo_stats.incomplete_cards,
-            title="Number of cards with each count of incomplete squares",
+            title="# of cards with each count of incomplete squares",
             hover_template="%{y} cards with %{x} incomplete squares",
             max_val=25,
         ),
@@ -374,7 +376,7 @@ def create_yearly_plots(bingo_stats: BingoStatistics) -> YearlyPlots:
     hard_mode = Plot(
         figure=plot_fixed_hist(
             counter=bingo_stats.hard_mode_by_card,
-            title="Number of cards with a particular count of hard mode squares",
+            title="# of cards with each count of hard mode squares",
             hover_template="%{y} cards with %{x} hard mode squares",
             max_val=25,
         ),
@@ -383,7 +385,7 @@ def create_yearly_plots(bingo_stats: BingoStatistics) -> YearlyPlots:
     bingos = Plot(
         figure=plot_fixed_hist(
             counter=bingo_stats.normal_bingo_type_stats.complete_bingos_by_card,
-            title="Number of cards with a particular count of bingos",
+            title="# of cards with each count of bingos",
             hover_template="%{y} cards with %{x} bingos",
             max_val=10,
         ),
@@ -392,7 +394,7 @@ def create_yearly_plots(bingo_stats: BingoStatistics) -> YearlyPlots:
     hm_bingos = Plot(
         figure=plot_fixed_hist(
             counter=bingo_stats.hardmode_bingo_type_stats.complete_bingos_by_card,
-            title="Number of cards with a particular count of hard mode bingos",
+            title="# of cards with each count of hard mode bingos",
             hover_template="%{y} cards with %{x} hard mode bingos",
             max_val=10,
         ),
@@ -401,7 +403,7 @@ def create_yearly_plots(bingo_stats: BingoStatistics) -> YearlyPlots:
     author_reads = Plot(
         figure=plot_count_hist(
             counter=bingo_stats.overall_uniques.unique_authors,
-            title="Number of reads per author, in 10-read bins",
+            title="# of reads per author, in 10-read bins",
             hover_template="%{y} authors read %{x} times",
         ),
     )
@@ -409,7 +411,7 @@ def create_yearly_plots(bingo_stats: BingoStatistics) -> YearlyPlots:
     book_reads = Plot(
         figure=plot_count_hist(
             counter=bingo_stats.overall_uniques.unique_books,
-            title="Number of reads per book, in 10-read bins",
+            title="# of reads per book, in 10-read bins",
             hover_template="%{y} books read %{x} times",
         ),
     )
@@ -432,6 +434,8 @@ def plot_fixed_hist(
     max_val: int,
 ) -> Figure:
     """Plot histogram of unique values"""
+    if len(title) > 55:
+        raise ValueError(f"Title too long: {title}")
 
     plot = plotly.graph_objects.Figure()
     plot.add_trace(
@@ -441,7 +445,7 @@ def plot_fixed_hist(
             hovertemplate=f"{hover_template}<extra></extra>",
         )
     )
-    layout = dict(BASE_LAYOUT)
+    layout = deepcopy(BASE_LAYOUT)
     layout["title"]["subtitle"]["text"] = title
     layout["xaxis"]["range"] = [-1, max_val + 1]
     plot.update_layout(layout)
@@ -469,7 +473,7 @@ def plot_count_hist(
     )
     plot.append_trace(trace, row=1, col=1)
     plot.append_trace(trace, row=2, col=1)
-    layout = dict(BASE_LAYOUT)
+    layout = deepcopy(BASE_LAYOUT)
     layout["title"]["subtitle"]["text"] = title
     layout["xaxis"]["range"] = [0, max_val]
     layout["showlegend"] = False

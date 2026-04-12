@@ -521,19 +521,19 @@ There were a total of {bingo_stats.hard_mode_by_square.total()} hard-mode square
 
 {format_square_table(bingo_stats, card_data.square_names.values())}
 
-{plots.yearly_plots.hard_mode.to_html()}
 {plots.yearly_plots.incompletes.to_html()}
+{plots.yearly_plots.hard_mode.to_html()}
 
 ### Year-over-Year
 
 To see how these numbers have changed over the course of bingo, here are some plots.
 
-{plots.yoy_plots.squares_per_card.to_html()}
-{plots.yoy_plots.hard_mode.to_html()}
-{plots.yoy_plots.hm_per_nonhm_card.to_html()}
-{plots.yoy_plots.hero_mode.to_html()}
-{plots.yoy_plots.cards_per_person.to_html()}
 {plots.yoy_plots.participants.to_html()}
+{plots.yoy_plots.squares_per_card.to_html()}
+{plots.yoy_plots.cards_per_person.to_html()}
+{plots.yoy_plots.hm_per_nonhm_card.to_html()}
+{plots.yoy_plots.hard_mode.to_html()}
+{plots.yoy_plots.hero_mode.to_html()}
 {plots.yoy_plots.uniqueness.to_html()}
 
 ## Book Statistics
