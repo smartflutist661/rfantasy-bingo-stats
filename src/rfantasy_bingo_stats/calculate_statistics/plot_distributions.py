@@ -52,7 +52,8 @@ class Plot:
 
     def to_html(self) -> str:
         return (
-            self.figure.to_html(full_html=False, include_plotlyjs=False) + f"<p>{self.caption}</p>"
+            self.figure.to_html(full_html=False, include_plotlyjs=False)
+            + f'<p class="caption">{self.caption}</p>'
         )
 
 
