@@ -248,22 +248,23 @@ def format_square_table(
     bingo_stats: BingoStatistics,
     square_names: Iterable[SquareName],
 ) -> str:
-    """Format a table of FarraGini indices"""
-    table_strs: list[tuple[str, str, str]] = [
-        ("SQUARE", "% COMPLETE", "% HARD MODE"),
-        ("---------", ":---------:", ":---------:"),
+    """Format a table of square completion"""
+    table_strs: list[tuple[str, str, str, str]] = [
+        ("SQUARE #", "SQUARE", "% COMPLETE", "% HARD MODE"),
+        (":---------:", "---------", ":---------:", ":---------:"),
     ]
     total_cards = bingo_stats.total_card_count
-    for square_name in square_names:
+    for square_num, square_name in enumerate(square_names):
         total_cards_with_square = total_cards - bingo_stats.subbed_out_squares[square_name]
         table_strs.append(
             (
+                str(square_num + 1),
                 square_name,
                 f"{100 - bingo_stats.incomplete_squares[square_name]/total_cards_with_square*100:.1f}",
                 f"{bingo_stats.hard_mode_by_square[square_name]/total_cards_with_square*100:.1f}",
             )
         )
-    return "\n".join("|" + "|".join(row) + "|" for row in table_strs)
+    return "\n".join("|" + "|".join(row) + "|" for row in table_strs) + "\n{: .sortable}"
 
 
 def get_used_once(unique_counts: Counter[BookOrAuthor]) -> int:
@@ -397,4 +398,4 @@ def format_author_demo(
                     f"{unique_prop:.1f}",
                 )
             )
-    return "\n".join("|" + "|".join(row) + "|" for row in table_strs)
+    return "\n".join("|" + "|".join(row) + "|" for row in table_strs) + "\n{: .sortable}"

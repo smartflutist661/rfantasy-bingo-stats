@@ -50,33 +50,34 @@ First in a Series was the favorite, skipped or substituted only 14 times.
 44 cards claimed no hard-mode squares at all. The average number of hard-mode squares per card was 14.6.
 There were a total of 19714 hard-mode squares claimed.
 
-|SQUARE|% COMPLETE|% HARD MODE|
-|---------|:---------:|:---------:|
-|First in a Series|99.2|66.5|
-|Alliterative Title|98.2|46.3|
-|Under the Surface|97.6|66.3|
-|Criminals|97.9|54.2|
-|Dreams|98.1|44.1|
-|Entitled Animals|96.6|57.0|
-|Bards|95.1|52.5|
-|Prologues and Epilogues|97.3|61.8|
-|Self-Published or Indie Publisher|95.4|40.8|
-|Romantasy|97.3|52.0|
-|Dark Academia|95.2|44.4|
-|Multi-POV|97.7|66.1|
-|Published in 2024|97.7|43.2|
-|Character with a Disability|97.3|81.0|
-|Published in the 1990s|95.1|58.2|
-|Orcs, Trolls, and Goblins - Oh My!|95.7|61.6|
-|Space Opera|95.4|59.8|
-|Author of Color|96.5|45.4|
-|Survival|97.5|80.5|
-|Judge a Book by Its Cover|97.2|59.4|
-|Set in a Small Town|97.5|70.0|
-|Five SFF Short Stories|95.2|76.3|
-|Eldritch Creatures|97.1|80.2|
-|Reference Materials|96.7|62.7|
-|Book Club or Readalong Book|95.4|31.2|
+|SQUARE #|SQUARE|% COMPLETE|% HARD MODE|
+|:---------:|---------|:---------:|:---------:|
+|1|First in a Series|99.2|66.5|
+|2|Alliterative Title|98.2|46.3|
+|3|Under the Surface|97.6|66.3|
+|4|Criminals|97.9|54.2|
+|5|Dreams|98.1|44.1|
+|6|Entitled Animals|96.6|57.0|
+|7|Bards|95.1|52.5|
+|8|Prologues and Epilogues|97.3|61.8|
+|9|Self-Published or Indie Publisher|95.4|40.8|
+|10|Romantasy|97.3|52.0|
+|11|Dark Academia|95.2|44.4|
+|12|Multi-POV|97.7|66.1|
+|13|Published in 2024|97.7|43.2|
+|14|Character with a Disability|97.3|81.0|
+|15|Published in the 1990s|95.1|58.2|
+|16|Orcs, Trolls, and Goblins - Oh My!|95.7|61.6|
+|17|Space Opera|95.4|59.8|
+|18|Author of Color|96.5|45.4|
+|19|Survival|97.5|80.5|
+|20|Judge a Book by Its Cover|97.2|59.4|
+|21|Set in a Small Town|97.5|70.0|
+|22|Five SFF Short Stories|95.2|76.3|
+|23|Eldritch Creatures|97.1|80.2|
+|24|Reference Materials|96.7|62.7|
+|25|Book Club or Readalong Book|95.4|31.2|
+{: .sortable}
 
 ### Books
 
@@ -163,12 +164,14 @@ Demographics representing less than 1% of the unique authors are not included in
 |Native|0.9|0.4|
 |White|54.0|24.8|
 |Unknown|32.9|67.6|
+{: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Canada|0.7|1.3|
 |United States|6.9|2.5|
 |Unknown|90.1|95.0|
+{: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -176,11 +179,13 @@ Demographics representing less than 1% of the unique authors are not included in
 |Nonbinary|2.4|1.4|
 |Woman|35.1|15.4|
 |Unknown|33.1|67.7|
+{: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Yes|11.2|4.2|
 |Unknown|88.5|95.7|
+{: .sortable}
 
 ### Bingos
 
@@ -196,20 +201,21 @@ The hardest bingo by number of squares was Second Row, with a total of 245 squar
 The easiest bingo by number of cards was First Column, incomplete on 63 cards.
 The easiest bingo by number of squares was First Column, with a total of 122 squares left blank.
 
-|BINGO TYPE|# CARDS INCOMPLETE|# SQUARES INCOMPLETE|
-|---------|:---------:|:---------:|
-|First Row|97|212|
-|Second Row|108|245|
-|Third Row|83|187|
-|Fourth Row|93|203|
-|Fifth Row|99|226|
-|First Column|63|122|
-|Second Column|91|243|
-|Third Column|103|230|
-|Fourth Column|105|237|
-|Fifth Column|101|241|
-|Diagonal|99|199|
-|Antidiagonal|101|212|
+|BINGO #|BINGO TYPE|# CARDS INCOMPLETE|# SQUARES INCOMPLETE|
+|:---------:|---------|:---------:|:---------:|
+|1|First Row|97|212|
+|2|Second Row|108|245|
+|3|Third Row|83|187|
+|4|Fourth Row|93|203|
+|5|Fifth Row|99|226|
+|6|First Column|63|122|
+|7|Second Column|91|243|
+|8|Third Column|103|230|
+|9|Fourth Column|105|237|
+|10|Fifth Column|101|241|
+|11|Diagonal|99|199|
+|12|Antidiagonal|101|212|
+{: .sortable}
 
 #### Hard Mode
 
@@ -223,20 +229,21 @@ The hardest bingo by number of squares was Fifth Row, with a total of 3440 squar
 The easiest bingo by number of cards was Fourth Column, incomplete on 955 cards.
 The easiest bingo by number of squares was Fifth Column, with a total of 2435 squares left blank.
 
-|BINGO TYPE|# CARDS INCOMPLETE|# SQUARES INCOMPLETE|
-|---------|:---------:|:---------:|
-|First Row|984|2723|
-|Second Row|986|2734|
-|Third Row|974|2758|
-|Fourth Row|956|2456|
-|Fifth Row|1048|3440|
-|First Column|989|3012|
-|Second Column|1006|3218|
-|Third Column|994|2822|
-|Fourth Column|955|2624|
-|Fifth Column|1005|2435|
-|Diagonal|1039|3052|
-|Antidiagonal|1012|3285|
+|BINGO #|BINGO TYPE|# CARDS INCOMPLETE|# SQUARES INCOMPLETE|
+|:---------:|---------|:---------:|:---------:|
+|1|First Row|984|2723|
+|2|Second Row|986|2734|
+|3|Third Row|974|2758|
+|4|Fourth Row|956|2456|
+|5|Fifth Row|1048|3440|
+|6|First Column|989|3012|
+|7|Second Column|1006|3218|
+|8|Third Column|994|2822|
+|9|Fourth Column|955|2624|
+|10|Fifth Column|1005|2435|
+|11|Diagonal|1039|3052|
+|12|Antidiagonal|1012|3285|
+{: .sortable}
 
 ## Variety
 
@@ -248,33 +255,33 @@ so the index is analogous to its namesake, the [Gini index](https://en.wikipedia
 Values close to 0 suggest a square was well-varied; 0 means no book was repeated for a square.
 Values close to 100 suggest the same books were used repeatedly for a square; 100 means only one book was used for a square.
 
-|SQUARE|BOOK|AUTHOR|
-|---------|:---------:|:---------:|
-|First in a Series|41.1|47.0|
-|Alliterative Title|54.3|58.1|
-|Under the Surface|60.3|65.8|
-|Criminals|56.3|61.9|
-|Dreams|35.1|47.0|
-|Entitled Animals|55.2|59.4|
-|Bards|63.0|67.9|
-|Prologues and Epilogues|37.6|50.6|
-|Self-Published or Indie Publisher|26.8|36.7|
-|Romantasy|50.6|60.6|
-|Dark Academia|70.6|73.1|
-|Multi-POV|39.8|53.4|
-|Published in 2024|55.4|55.7|
-|Character with a Disability|50.8|59.9|
-|Published in the 1990s|55.2|66.2|
-|Orcs, Trolls, and Goblins - Oh My!|68.6|74.1|
-|Space Opera|59.4|69.9|
-|Author of Color|48.8|57.5|
-|Survival|43.8|52.2|
-|Judge a Book by Its Cover|29.0|37.4|
-|Set in a Small Town|47.9|55.7|
-|Five SFF Short Stories|43.1|47.0|
-|Eldritch Creatures|51.3|59.8|
-|Reference Materials|42.9|55.6|
-|Book Club or Readalong Book|55.2|58.0|
+|SQUARE #|SQUARE|BOOK|AUTHOR|
+|:---------:|---------|:---------:|:---------:|
+|1|First in a Series|41.1|47.0|
+|2|Alliterative Title|54.3|58.1|
+|3|Under the Surface|60.3|65.8|
+|4|Criminals|56.3|61.9|
+|5|Dreams|35.1|47.0|
+|6|Entitled Animals|55.2|59.4|
+|7|Bards|63.0|67.9|
+|8|Prologues and Epilogues|37.6|50.6|
+|9|Self-Published or Indie Publisher|26.8|36.7|
+|10|Romantasy|50.6|60.6|
+|11|Dark Academia|70.6|73.1|
+|12|Multi-POV|39.8|53.4|
+|13|Published in 2024|55.4|55.7|
+|14|Character with a Disability|50.8|59.9|
+|15|Published in the 1990s|55.2|66.2|
+|16|Orcs, Trolls, and Goblins - Oh My!|68.6|74.1|
+|17|Space Opera|59.4|69.9|
+|18|Author of Color|48.8|57.5|
+|19|Survival|43.8|52.2|
+|20|Judge a Book by Its Cover|29.0|37.4|
+|21|Set in a Small Town|47.9|55.7|
+|22|Five SFF Short Stories|43.1|47.0|
+|23|Eldritch Creatures|51.3|59.8|
+|24|Reference Materials|42.9|55.6|
+|25|Book Club or Readalong Book|55.2|58.0|
 {: .sortable}
 
 The squares with the most variety in books:

@@ -49,11 +49,13 @@ Skipped 38 times. Substituted 8 times.
 |Native|0.1|0.3|
 |White|42.8|34.6|
 |Unknown|44.2|54.8|
+{: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |United States|5.1|3.3|
 |Unknown|92.8|94.4|
+{: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -61,9 +63,11 @@ Skipped 38 times. Substituted 8 times.
 |Nonbinary|3.1|3.3|
 |Woman|28.7|22.9|
 |Unknown|44.3|54.9|
+{: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Yes|10.5|8.0|
 |Unknown|89.4|91.9|
+{: .sortable}
 

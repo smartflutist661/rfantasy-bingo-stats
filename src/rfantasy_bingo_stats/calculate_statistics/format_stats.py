@@ -30,6 +30,7 @@ from rfantasy_bingo_stats.calculate_statistics.stats_format_utils import (
     format_most_square_authors,
     format_most_square_books,
     format_most_subbed_squares,
+    format_square_table,
     format_top_author_counts,
     format_top_book_counts,
     format_top_list_with_ties,
@@ -88,13 +89,13 @@ def format_farragini(
     top_n: int = 3,
 ) -> str:
     """Format a table of FarraGini indices"""
-    table_strs: list[tuple[str, str, str]] = [
-        ("SQUARE", "BOOK", "AUTHOR"),
-        ("---------", ":---------:", ":---------:"),
+    table_strs: list[tuple[str, str, str, str]] = [
+        ("SQUARE #", "SQUARE", "BOOK", "AUTHOR"),
+        (":---------:", "---------", ":---------:", ":---------:"),
     ]
     book_ginis = {}
     author_ginis = {}
-    for square_name in square_names:
+    for square_num, square_name in enumerate(square_names):
         book_gini = (
             calculate_gini_index(
                 tuple(bingo_stats.square_uniques[square_name].unique_books.values())
@@ -109,7 +110,9 @@ def format_farragini(
         )
         book_ginis[square_name] = book_gini
         author_ginis[square_name] = author_gini
-        table_strs.append((square_name, f"{book_gini:.1f}", f"{author_gini:.1f}"))
+        table_strs.append(
+            (str(square_num + 1), square_name, f"{book_gini:.1f}", f"{author_gini:.1f}")
+        )
 
     highest_book_ginis = sorted(book_ginis.items(), key=lambda item: item[1], reverse=True)
     highest_author_ginis = sorted(author_ginis.items(), key=lambda item: item[1], reverse=True)
@@ -153,28 +156,6 @@ def format_farragini(
         + "\n\n"
         + high_author_gini_str
     )
-
-
-def format_square_table(
-    bingo_stats: BingoStatistics,
-    square_names: Iterable[SquareName],
-) -> str:
-    """Format a table of FarraGini indices"""
-    table_strs: list[tuple[str, str, str]] = [
-        ("SQUARE", "% COMPLETE", "% HARD MODE"),
-        ("---------", ":---------:", ":---------:"),
-    ]
-    total_cards = bingo_stats.total_card_count
-    for square_name in square_names:
-        total_cards_with_square = total_cards - bingo_stats.subbed_out_squares[square_name]
-        table_strs.append(
-            (
-                square_name,
-                f"{100 - bingo_stats.incomplete_squares[square_name]/total_cards_with_square*100:.1f}",
-                f"{bingo_stats.hard_mode_by_square[square_name]/total_cards_with_square*100:.1f}",
-            )
-        )
-    return "\n".join("|" + "|".join(row) + "|" for row in table_strs)
 
 
 def format_subbed_stats(bingo_stats: BingoStatistics) -> str:
@@ -245,20 +226,23 @@ There were {cards_per_complete_bingo[0]} cards that did not complete any bingos.
 
 """
 
-    table_strs: list[tuple[str, str, str]] = [
-        ("BINGO TYPE", "# CARDS INCOMPLETE", "# SQUARES INCOMPLETE"),
-        ("---------", ":---------:", ":---------:"),
+    table_strs: list[tuple[str, str, str, str]] = [
+        ("BINGO #", "BINGO TYPE", "# CARDS INCOMPLETE", "# SQUARES INCOMPLETE"),
+        (":---------:", "---------", ":---------:", ":---------:"),
     ]
-    for bingo_name in POSSIBLE_BINGOS.keys():
+    for bingo_num, bingo_name in enumerate(POSSIBLE_BINGOS.keys()):
         table_strs.append(
             (
+                str(bingo_num + 1),
                 bingo_name,
                 str(bingo_type_stats.incomplete_bingos[bingo_name]),
                 str(bingo_type_stats.incomplete_squares_by_bingo[bingo_name]),
             )
         )
 
-    return bingo_str + "\n".join("|" + "|".join(row) + "|" for row in table_strs)
+    return (
+        bingo_str + "\n".join("|" + "|".join(row) + "|" for row in table_strs) + "\n{: .sortable}"
+    )
 
 
 def format_author_statistics(
@@ -296,7 +280,7 @@ def format_author_statistics(
                     f"{unique_prop:.1f}",
                 )
             )
-    queer_table = "\n".join("|" + "|".join(row) + "|" for row in table_strs)
+    queer_table = "\n".join("|" + "|".join(row) + "|" for row in table_strs) + "\n{: .sortable}"
     return "\n\n".join([eth_table, nat_table, gender_table, queer_table])
 
 
