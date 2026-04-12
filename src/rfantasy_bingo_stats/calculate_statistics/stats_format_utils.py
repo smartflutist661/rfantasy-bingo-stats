@@ -369,7 +369,7 @@ def format_author_demo(
     for demo in sorted(set(overall_demo_count.keys()) - {"Unknown"}) + [enum_type("Unknown")]:  # type: ignore[arg-type]
         overall_prop = (overall_demo_count[demo] / overall_demo_count.total()) * 100
         unique_prop = (unique_demo_count[demo] / unique_demo_count.total()) * 100
-        if unique_prop > 1:
+        if demo_name != "NATIONALITY" or unique_prop > 1:
             table_strs.append(
                 (
                     demo.value,
