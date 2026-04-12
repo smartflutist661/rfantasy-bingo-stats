@@ -129,6 +129,7 @@ def format_farragini(
     )
 
     table_str = "\n".join("|" + "|".join(row) + "|" for row in table_strs)
+    table_str += "\n{: .sortable}"
     low_book_gini_str = "The squares with the most variety in books:\n" + "\n".join(
         low_book_gini_strs
     )
