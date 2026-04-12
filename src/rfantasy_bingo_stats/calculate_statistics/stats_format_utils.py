@@ -192,6 +192,26 @@ def format_most_square_books(unique_squares_by_book: Counter[Book], top_n: int =
     return "\n".join(book_strs)
 
 
+def format_most_reads_per_square_books(
+    unique_books: Counter[Book], unique_squares_by_book: Counter[Book], top_n: int = 3
+) -> str:
+    """Format the books used the most times per square"""
+    reads_per_square = Counter(
+        {book: reads / unique_squares_by_book[book] for book, reads in unique_books.items()}
+    )
+
+    def formatter(cur_ties: Sequence[str], count: float) -> str:
+        if len(cur_ties) == 1:
+            return "- " + cur_ties[0] + f", read {count} times per square"
+        if len(cur_ties) > 1:
+            return "- ***TIE***: " + " and ".join(cur_ties) + f", read {count} times per square"
+        raise ValueError("No results?")
+
+    book_strs = format_top_list_with_ties(reads_per_square.most_common(), formatter, top_n)
+
+    return "\n".join(book_strs)
+
+
 def format_most_square_authors(unique_squares_by_author: Counter[Author], top_n: int = 3) -> str:
     """Format the authors used for the most different squares"""
 

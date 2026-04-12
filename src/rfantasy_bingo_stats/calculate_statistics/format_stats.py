@@ -26,6 +26,7 @@ from rfantasy_bingo_stats.calculate_statistics.stats_format_utils import (
     format_favorite_square,
     format_inline_bingo_ties,
     format_least_subbed_square,
+    format_most_reads_per_square_books,
     format_most_square_authors,
     format_most_square_books,
     format_most_subbed_squares,
@@ -545,6 +546,10 @@ The ten most-read books were:
 The books used for the most squares were:
 
 {format_most_square_books(bingo_stats.unique_squares_by_book)}
+
+The books used the most times per square were:
+
+{format_most_reads_per_square_books(bingo_stats.overall_uniques.unique_books, bingo_stats.unique_squares_by_book)}
 
 {format_book(summary_stats.max_square_ratio_book)} was the book read at least 10 times with the highest ratio of squares to times read:
 read {bingo_stats.overall_uniques.unique_books[summary_stats.max_square_ratio_book]} times for {bingo_stats.unique_squares_by_book[summary_stats.max_square_ratio_book]} squares.
