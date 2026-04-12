@@ -117,7 +117,6 @@ BASE_LAYOUT: Mapping = {  # type: ignore[type-arg]
     },
     "paper_bgcolor": "#f0f0f0",
     "plot_bgcolor": "#f0f0f0",
-    "margin": {"l": 10, "r": 10, "t": 10, "b": 10},
 }
 
 
