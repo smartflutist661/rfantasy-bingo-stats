@@ -57,7 +57,6 @@ enable_error_code = [
   "mutable-override",
   "possibly-undefined",
 ]
-follow_imports = "silent"
 plugins = ['pydantic.mypy']
 strict = true
 warn_no_return = true

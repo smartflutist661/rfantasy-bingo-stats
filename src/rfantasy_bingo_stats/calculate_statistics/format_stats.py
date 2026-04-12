@@ -521,20 +521,20 @@ There were a total of {bingo_stats.hard_mode_by_square.total()} hard-mode square
 
 {format_square_table(bingo_stats, card_data.square_names.values())}
 
-{plots.yearly_plots.hard_mode.to_html(full_html=False, include_plotlyjs=False)}
-{plots.yearly_plots.incompletes.to_html(full_html=False, include_plotlyjs=False)}
+{plots.yearly_plots.hard_mode.to_html()}
+{plots.yearly_plots.incompletes.to_html()}
 
 ### Year-over-Year
 
 To see how these numbers have changed over the course of bingo, here are some plots.
 
-{plots.yoy_plots.squares_per_card.to_html(full_html=False, include_plotlyjs=False)}
-{plots.yoy_plots.hard_mode.to_html(full_html=False, include_plotlyjs=False)}
-{plots.yoy_plots.hm_per_nonhm_card.to_html(full_html=False, include_plotlyjs=False)}
-{plots.yoy_plots.hero_mode.to_html(full_html=False, include_plotlyjs=False)}
-{plots.yoy_plots.cards_per_person.to_html(full_html=False, include_plotlyjs=False)}
-{plots.yoy_plots.participants.to_html(full_html=False, include_plotlyjs=False)}
-{plots.yoy_plots.uniqueness.to_html(full_html=False, include_plotlyjs=False)}
+{plots.yoy_plots.squares_per_card.to_html()}
+{plots.yoy_plots.hard_mode.to_html()}
+{plots.yoy_plots.hm_per_nonhm_card.to_html()}
+{plots.yoy_plots.hero_mode.to_html()}
+{plots.yoy_plots.cards_per_person.to_html()}
+{plots.yoy_plots.participants.to_html()}
+{plots.yoy_plots.uniqueness.to_html()}
 
 ## Book Statistics
 
@@ -549,8 +549,8 @@ The books used for the most squares were:
 {format_book(summary_stats.max_square_ratio_book)} was the book read at least 10 times with the highest ratio of squares to times read:
 read {bingo_stats.overall_uniques.unique_books[summary_stats.max_square_ratio_book]} times for {bingo_stats.unique_squares_by_book[summary_stats.max_square_ratio_book]} squares.
 
-{plots.yearly_plots.book_reads.to_html(full_html=False, include_plotlyjs=False)}
-{plots.yearly_plots.uniques.to_html(full_html=False, include_plotlyjs=False)}
+{plots.yearly_plots.book_reads.to_html()}
+{plots.yearly_plots.uniques.to_html()}
 
 One of those interesting stats phenomena: even though most cards only include a few unique books, most of the books read are unique.
 There were an average of {summary_stats.avg_reads_per_book:.1f} reads per book.
@@ -572,7 +572,7 @@ The authors with the most unique books read were:
 
 {format_unique_author_books(bingo_stats.books_per_author)}
 
-{plots.yearly_plots.author_reads.to_html(full_html=False, include_plotlyjs=False)}
+{plots.yearly_plots.author_reads.to_html()}
 
 As with books, most authors were read only once.
 There were an average of {summary_stats.avg_reads_per_author:.1f} reads per author.
@@ -592,12 +592,12 @@ Demographics representing less than 1% of the unique authors are not included in
 ### Normal Mode
 {format_bingos(bingo_stats.normal_bingo_type_stats, bingo_stats.incomplete_cards.keys())}
 
-{plots.yearly_plots.bingos.to_html(full_html=False, include_plotlyjs=False)}
+{plots.yearly_plots.bingos.to_html()}
 
 ### Hard Mode
 {format_bingos(bingo_stats.hardmode_bingo_type_stats, [card_id for card_id, hm_count in bingo_stats.hard_mode_by_card.items() if hm_count != BINGO_SIZE**2])}
 
-{plots.yearly_plots.hm_bingos.to_html(full_html=False, include_plotlyjs=False)}
+{plots.yearly_plots.hm_bingos.to_html()}
 
 ## Book Variety (Per Square)
 
@@ -641,7 +641,7 @@ Predictably, there's a lot of crossover between books with the most variations a
 
 ### Year-over-Year
 
-{plots.yoy_plots.misspellings.to_html(full_html=False, include_plotlyjs=False)}
+{plots.yoy_plots.misspellings.to_html()}
 
 Is it true that "every year we typo further from God"? Proportionally, we collectively seem to be improving,
 though absolute numbers are still increasing. There may not be enough data to draw strong conclusions yet, though.

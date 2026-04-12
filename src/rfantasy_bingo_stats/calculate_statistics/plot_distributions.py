@@ -46,26 +46,37 @@ def none_multiply(lhs: Optional[SupportsFloat], rhs: Optional[SupportsFloat]) ->
 
 
 @dataclass
+class Plot:
+    figure: Figure
+    caption: str = "[placeholder_caption]"
+
+    def to_html(self) -> str:
+        return (
+            self.figure.to_html(full_html=False, include_plotlyjs=False) + f"<p>{self.caption}</p>"
+        )
+
+
+@dataclass
 class YOYPlots:
-    participants: Figure
-    misspellings: Figure
-    hm_per_nonhm_card: Figure
-    hero_mode: Figure
-    cards_per_person: Figure
-    squares_per_card: Figure
-    hard_mode: Figure
-    uniqueness: Figure
+    participants: Plot
+    misspellings: Plot
+    hm_per_nonhm_card: Plot
+    hero_mode: Plot
+    cards_per_person: Plot
+    squares_per_card: Plot
+    hard_mode: Plot
+    uniqueness: Plot
 
 
 @dataclass
 class YearlyPlots:
-    uniques: Figure
-    incompletes: Figure
-    hard_mode: Figure
-    bingos: Figure
-    hm_bingos: Figure
-    author_reads: Figure
-    book_reads: Figure
+    uniques: Plot
+    incompletes: Plot
+    hard_mode: Plot
+    bingos: Plot
+    hm_bingos: Plot
+    author_reads: Plot
+    book_reads: Plot
 
 
 @dataclass
@@ -76,7 +87,7 @@ class Plots:
 
 BASE_LAYOUT: Mapping = {  # type: ignore[type-arg]
     "title": {
-        "text": "<Placeholder Title>",
+        "text": "[Placeholder Title]",
         "x": 0.5,
         "xanchor": "center",
         "font": {
@@ -105,6 +116,7 @@ BASE_LAYOUT: Mapping = {  # type: ignore[type-arg]
     },
     "paper_bgcolor": "#f0f0f0",
     "plot_bgcolor": "#f0f0f0",
+    "margin": {"l": 10, "r": 10, "t": 10, "b": 10},
 }
 
 
@@ -249,65 +261,81 @@ def create_yoy_plots(current_year: int) -> YOYPlots:
             none_divide(stats.unique_author_count, stats.total_author_count)
         )
 
-    participants = yoy_single_plot(
-        title="Total participants over time",
-        years=years,
-        y_data=total_participant_counts,
-        hover_template="%{y} participants",
+    participants = Plot(
+        figure=yoy_single_plot(
+            title="Total participants over time",
+            years=years,
+            y_data=total_participant_counts,
+            hover_template="%{y} participants",
+        ),
     )
-    misspellings = yoy_single_plot(
-        "Misspellings compared to the number of books read more than once",
-        years,
-        misspelling_counts,
-        "%{y} of entries misspelled",
-        percentage=True,
+    misspellings = Plot(
+        figure=yoy_single_plot(
+            "Misspellings compared to the number of books read more than once",
+            years,
+            misspelling_counts,
+            "%{y} of entries misspelled",
+            percentage=True,
+        ),
     )
-    hm_per_nonhm_card = yoy_single_plot(
-        "Hard mode squares per non-HM card",
-        years,
-        hard_mode_square_per_noncard_counts,
-        "%{y:.2f} hard mode squares",
+    hm_per_nonhm_card = Plot(
+        figure=yoy_single_plot(
+            "Hard mode squares per non-HM card",
+            years,
+            hard_mode_square_per_noncard_counts,
+            "%{y:.2f} hard mode squares",
+        ),
     )
-    hero_mode = yoy_single_plot(
-        "Hero mode cards compared to the total number of cards",
-        years,
-        hero_mode_card_counts,
-        "%{y} of cards hero mode",
-        percentage=True,
+    hero_mode = Plot(
+        figure=yoy_single_plot(
+            "Hero mode cards compared to the total number of cards",
+            years,
+            hero_mode_card_counts,
+            "%{y} of cards hero mode",
+            percentage=True,
+        ),
     )
-    cards_per_person = yoy_single_plot(
-        "Cards per participant over time",
-        years,
-        participants_vs_cards,
-        "%{y:.3f} cards per person",
+    cards_per_person = Plot(
+        figure=yoy_single_plot(
+            "Cards per participant over time",
+            years,
+            participants_vs_cards,
+            "%{y:.3f} cards per person",
+        ),
     )
-    squares_per_card = yoy_single_plot(
-        "Squares per card over time",
-        years,
-        squares_vs_cards,
-        "%{y:.2f} complete squares per card",
+    squares_per_card = Plot(
+        figure=yoy_single_plot(
+            "Squares per card over time",
+            years,
+            squares_vs_cards,
+            "%{y:.2f} complete squares per card",
+        ),
     )
 
-    hard_mode = yoy_double_plot(
-        "Hard mode squares and cards compared to the total number of squares and cards",
-        years,
-        hard_mode_square_counts,
-        hard_mode_card_counts,
-        y1_label="Squares",
-        y2_label="Cards",
-        hover_template="%{y} of %{meta} hard mode",
-        percentage=True,
+    hard_mode = Plot(
+        figure=yoy_double_plot(
+            "Hard mode squares and cards compared to the total number of squares and cards",
+            years,
+            hard_mode_square_counts,
+            hard_mode_card_counts,
+            y1_label="Squares",
+            y2_label="Cards",
+            hover_template="%{y} of %{meta} hard mode",
+            percentage=True,
+        ),
     )
 
-    uniqueness = yoy_double_plot(
-        "Unique vs total stories and authors over time",
-        years,
-        total_vs_unique_stories,
-        total_vs_unique_authors,
-        y1_label="Stories",
-        y2_label="Authors",
-        hover_template="%{y} of %{meta} unique",
-        percentage=True,
+    uniqueness = Plot(
+        figure=yoy_double_plot(
+            "Unique vs total stories and authors over time",
+            years,
+            total_vs_unique_stories,
+            total_vs_unique_authors,
+            y1_label="Stories",
+            y2_label="Authors",
+            hover_template="%{y} of %{meta} unique",
+            percentage=True,
+        ),
     )
 
     return YOYPlots(
@@ -325,51 +353,65 @@ def create_yoy_plots(current_year: int) -> YOYPlots:
 def create_yearly_plots(bingo_stats: BingoStatistics) -> YearlyPlots:
     """Plot distributions of interest"""
 
-    uniques = plot_fixed_hist(
-        counter=bingo_stats.card_uniques,
-        title="Number of cards with each count of unique books read",
-        hover_template="%{y} cards with %{x} unique books",
-        max_val=25,
+    uniques = Plot(
+        figure=plot_fixed_hist(
+            counter=bingo_stats.card_uniques,
+            title="Number of cards with each count of unique books read",
+            hover_template="%{y} cards with %{x} unique books",
+            max_val=25,
+        ),
     )
 
-    incompletes = plot_fixed_hist(
-        counter=bingo_stats.incomplete_cards,
-        title="Number of cards with each count of incomplete squares",
-        hover_template="%{y} cards with %{x} incomplete squares",
-        max_val=25,
+    incompletes = Plot(
+        figure=plot_fixed_hist(
+            counter=bingo_stats.incomplete_cards,
+            title="Number of cards with each count of incomplete squares",
+            hover_template="%{y} cards with %{x} incomplete squares",
+            max_val=25,
+        ),
     )
 
-    hard_mode = plot_fixed_hist(
-        counter=bingo_stats.hard_mode_by_card,
-        title="Number of cards with a particular count of hard mode squares",
-        hover_template="%{y} cards with %{x} hard mode squares",
-        max_val=25,
+    hard_mode = Plot(
+        figure=plot_fixed_hist(
+            counter=bingo_stats.hard_mode_by_card,
+            title="Number of cards with a particular count of hard mode squares",
+            hover_template="%{y} cards with %{x} hard mode squares",
+            max_val=25,
+        ),
     )
 
-    bingos = plot_fixed_hist(
-        counter=bingo_stats.normal_bingo_type_stats.complete_bingos_by_card,
-        title="Number of cards with a particular count of bingos",
-        hover_template="%{y} cards with %{x} bingos",
-        max_val=10,
+    bingos = Plot(
+        figure=plot_fixed_hist(
+            counter=bingo_stats.normal_bingo_type_stats.complete_bingos_by_card,
+            title="Number of cards with a particular count of bingos",
+            hover_template="%{y} cards with %{x} bingos",
+            max_val=10,
+        ),
     )
 
-    hm_bingos = plot_fixed_hist(
-        counter=bingo_stats.hardmode_bingo_type_stats.complete_bingos_by_card,
-        title="Number of cards with a particular count of hard mode bingos",
-        hover_template="%{y} cards with %{x} hard mode bingos",
-        max_val=10,
+    hm_bingos = Plot(
+        figure=plot_fixed_hist(
+            counter=bingo_stats.hardmode_bingo_type_stats.complete_bingos_by_card,
+            title="Number of cards with a particular count of hard mode bingos",
+            hover_template="%{y} cards with %{x} hard mode bingos",
+            max_val=10,
+        ),
     )
 
-    author_reads = plot_count_hist(
-        counter=bingo_stats.overall_uniques.unique_authors,
-        title="Number of reads per author, in 10-read bins",
-        hover_template="%{y} authors read %{x} times",
+    author_reads = Plot(
+        figure=plot_count_hist(
+            counter=bingo_stats.overall_uniques.unique_authors,
+            title="Number of reads per author, in 10-read bins",
+            hover_template="%{y} authors read %{x} times",
+        ),
     )
 
-    book_reads = plot_count_hist(
-        counter=bingo_stats.overall_uniques.unique_books,
-        title="Number of reads per book, in 10-read bins",
-        hover_template="%{y} books read %{x} times",
+    book_reads = Plot(
+        figure=plot_count_hist(
+            counter=bingo_stats.overall_uniques.unique_books,
+            title="Number of reads per book, in 10-read bins",
+            hover_template="%{y} books read %{x} times",
+        ),
     )
 
     return YearlyPlots(
