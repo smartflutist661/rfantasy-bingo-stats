@@ -155,11 +155,14 @@ Demographics representing less than 1% of the unique authors are not included in
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
+|Arabic|0.0|0.0|
 |Asian|7.3|4.5|
 |Black|3.8|1.7|
 |Hispanic|1.0|1.0|
-|White|54.2|24.8|
-|Unknown|32.7|67.5|
+|Multiracial|0.0|0.0|
+|Native|0.9|0.4|
+|White|54.0|24.8|
+|Unknown|32.9|67.6|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -169,10 +172,10 @@ Demographics representing less than 1% of the unique authors are not included in
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|29.6|15.5|
+|Man|29.4|15.5|
 |Nonbinary|2.4|1.4|
 |Woman|35.1|15.4|
-|Unknown|32.9|67.6|
+|Unknown|33.1|67.7|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -272,6 +275,7 @@ Values close to 100 suggest the same books were used repeatedly for a square; 10
 |Eldritch Creatures|51.3|59.8|
 |Reference Materials|42.9|55.6|
 |Book Club or Readalong Book|55.2|58.0|
+{: .sortable}
 
 The squares with the most variety in books:
 - **Self-Published or Indie Publisher**

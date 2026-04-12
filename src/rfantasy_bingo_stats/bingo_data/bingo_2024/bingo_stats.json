@@ -66447,9 +66447,9 @@
   },
   "overall_author_stats": {
     "gender_count": {
-      "Man": 10031,
+      "Man": 9966,
       "Nonbinary": 824,
-      "Unknown": 11145,
+      "Unknown": 11210,
       "Woman": 11917
     },
     "ethnicity_count": {
@@ -66459,8 +66459,8 @@
       "Hispanic": 352,
       "Multiracial": 5,
       "Native": 291,
-      "Unknown": 11085,
-      "White": 18395
+      "Unknown": 11150,
+      "White": 18330
     },
     "queer_count": {
       "None": 30030,
@@ -66673,16 +66673,16 @@
     },
     "Alliterative Title": {
       "gender_count": {
-        "Man": 419,
+        "Man": 415,
         "Nonbinary": 16,
-        "Unknown": 348,
+        "Unknown": 352,
         "Woman": 567
       },
       "ethnicity_count": {
         "Asian": 55,
         "Black": 19,
-        "Unknown": 348,
-        "White": 928
+        "Unknown": 352,
+        "White": 924
       },
       "queer_count": {
         "None": 1174,
@@ -66868,9 +66868,9 @@
     },
     "Bards": {
       "gender_count": {
-        "Man": 253,
+        "Man": 251,
         "Nonbinary": 22,
-        "Unknown": 336,
+        "Unknown": 338,
         "Woman": 635
       },
       "ethnicity_count": {
@@ -66879,8 +66879,8 @@
         "Black": 25,
         "Hispanic": 2,
         "Native": 1,
-        "Unknown": 338,
-        "White": 803
+        "Unknown": 340,
+        "White": 801
       },
       "queer_count": {
         "None": 1128,
@@ -66913,9 +66913,9 @@
     },
     "Book Club or Readalong Book": {
       "gender_count": {
-        "Man": 334,
+        "Man": 332,
         "Nonbinary": 26,
-        "Unknown": 315,
+        "Unknown": 317,
         "Woman": 576
       },
       "ethnicity_count": {
@@ -66924,8 +66924,8 @@
         "Black": 60,
         "Hispanic": 6,
         "Native": 2,
-        "Unknown": 312,
-        "White": 702
+        "Unknown": 314,
+        "White": 700
       },
       "queer_count": {
         "None": 1061,
@@ -67065,9 +67065,9 @@
     },
     "Character with a Disability": {
       "gender_count": {
-        "Man": 388,
+        "Man": 379,
         "Nonbinary": 62,
-        "Unknown": 494,
+        "Unknown": 503,
         "Woman": 391
       },
       "ethnicity_count": {
@@ -67075,8 +67075,8 @@
         "Black": 67,
         "Hispanic": 13,
         "Native": 37,
-        "Unknown": 493,
-        "White": 613
+        "Unknown": 502,
+        "White": 604
       },
       "queer_count": {
         "None": 1128,
@@ -67184,9 +67184,9 @@
     },
     "Criminals": {
       "gender_count": {
-        "Man": 408,
+        "Man": 405,
         "Nonbinary": 88,
-        "Unknown": 407,
+        "Unknown": 410,
         "Woman": 446
       },
       "ethnicity_count": {
@@ -67196,8 +67196,8 @@
         "Hispanic": 5,
         "Multiracial": 1,
         "Native": 4,
-        "Unknown": 407,
-        "White": 776
+        "Unknown": 410,
+        "White": 773
       },
       "queer_count": {
         "None": 1213,
@@ -67243,9 +67243,9 @@
     },
     "Dreams": {
       "gender_count": {
-        "Man": 377,
+        "Man": 376,
         "Nonbinary": 27,
-        "Unknown": 413,
+        "Unknown": 414,
         "Woman": 514
       },
       "ethnicity_count": {
@@ -67254,8 +67254,8 @@
         "Black": 38,
         "Hispanic": 18,
         "Native": 5,
-        "Unknown": 410,
-        "White": 770
+        "Unknown": 411,
+        "White": 769
       },
       "queer_count": {
         "None": 1200,
@@ -67308,9 +67308,9 @@
     },
     "Eldritch Creatures": {
       "gender_count": {
-        "Man": 613,
+        "Man": 606,
         "Nonbinary": 40,
-        "Unknown": 365,
+        "Unknown": 372,
         "Woman": 332
       },
       "ethnicity_count": {
@@ -67318,8 +67318,8 @@
         "Black": 114,
         "Hispanic": 11,
         "Native": 8,
-        "Unknown": 361,
-        "White": 752
+        "Unknown": 368,
+        "White": 745
       },
       "queer_count": {
         "None": 1223,
@@ -67594,9 +67594,9 @@
     },
     "First in a Series": {
       "gender_count": {
-        "Man": 514,
+        "Man": 510,
         "Nonbinary": 11,
-        "Unknown": 335,
+        "Unknown": 339,
         "Woman": 511
       },
       "ethnicity_count": {
@@ -67604,8 +67604,8 @@
         "Black": 13,
         "Hispanic": 3,
         "Native": 7,
-        "Unknown": 327,
-        "White": 919
+        "Unknown": 331,
+        "White": 915
       },
       "queer_count": {
         "None": 1262,
@@ -67627,9 +67627,9 @@
     },
     "Five SFF Short Stories": {
       "gender_count": {
-        "Man": 456,
+        "Man": 453,
         "Nonbinary": 25,
-        "Unknown": 713,
+        "Unknown": 716,
         "Woman": 499
       },
       "ethnicity_count": {
@@ -67638,8 +67638,8 @@
         "Hispanic": 49,
         "Multiracial": 2,
         "Native": 13,
-        "Unknown": 704,
-        "White": 683
+        "Unknown": 707,
+        "White": 680
       },
       "queer_count": {
         "None": 1577,
@@ -67832,9 +67832,9 @@
     },
     "Judge a Book by Its Cover": {
       "gender_count": {
-        "Man": 323,
+        "Man": 320,
         "Nonbinary": 42,
-        "Unknown": 592,
+        "Unknown": 595,
         "Woman": 386
       },
       "ethnicity_count": {
@@ -67842,8 +67842,8 @@
         "Black": 22,
         "Hispanic": 20,
         "Native": 2,
-        "Unknown": 591,
-        "White": 578
+        "Unknown": 594,
+        "White": 575
       },
       "queer_count": {
         "None": 1200,
@@ -68129,9 +68129,9 @@
     },
     "Multi-POV": {
       "gender_count": {
-        "Man": 523,
+        "Man": 520,
         "Nonbinary": 22,
-        "Unknown": 313,
+        "Unknown": 316,
         "Woman": 483
       },
       "ethnicity_count": {
@@ -68140,8 +68140,8 @@
         "Black": 24,
         "Hispanic": 37,
         "Native": 18,
-        "Unknown": 313,
-        "White": 804
+        "Unknown": 316,
+        "White": 801
       },
       "queer_count": {
         "None": 1248,
@@ -69052,9 +69052,9 @@
     },
     "Prologues and Epilogues": {
       "gender_count": {
-        "Man": 529,
+        "Man": 524,
         "Nonbinary": 32,
-        "Unknown": 406,
+        "Unknown": 411,
         "Woman": 364
       },
       "ethnicity_count": {
@@ -69062,8 +69062,8 @@
         "Black": 26,
         "Hispanic": 16,
         "Native": 6,
-        "Unknown": 404,
-        "White": 796
+        "Unknown": 409,
+        "White": 791
       },
       "queer_count": {
         "None": 1210,
@@ -69115,9 +69115,9 @@
     },
     "Published in 2024": {
       "gender_count": {
-        "Man": 282,
+        "Man": 281,
         "Nonbinary": 6,
-        "Unknown": 827,
+        "Unknown": 828,
         "Woman": 218
       },
       "ethnicity_count": {
@@ -69125,8 +69125,8 @@
         "Black": 12,
         "Hispanic": 10,
         "Native": 6,
-        "Unknown": 827,
-        "White": 434
+        "Unknown": 828,
+        "White": 433
       },
       "queer_count": {
         "None": 1226,
@@ -69292,9 +69292,9 @@
     },
     "Reference Materials": {
       "gender_count": {
-        "Man": 446,
+        "Man": 434,
         "Nonbinary": 24,
-        "Unknown": 410,
+        "Unknown": 422,
         "Woman": 443
       },
       "ethnicity_count": {
@@ -69302,8 +69302,8 @@
         "Black": 28,
         "Hispanic": 7,
         "Native": 16,
-        "Unknown": 409,
-        "White": 786
+        "Unknown": 421,
+        "White": 774
       },
       "queer_count": {
         "None": 1224,
@@ -69805,9 +69805,9 @@
     },
     "Set in a Small Town": {
       "gender_count": {
-        "Man": 313,
+        "Man": 311,
         "Nonbinary": 23,
-        "Unknown": 535,
+        "Unknown": 537,
         "Woman": 470
       },
       "ethnicity_count": {
@@ -69815,8 +69815,8 @@
         "Black": 31,
         "Hispanic": 19,
         "Native": 32,
-        "Unknown": 525,
-        "White": 705
+        "Unknown": 527,
+        "White": 703
       },
       "queer_count": {
         "None": 1221,
@@ -70063,9 +70063,9 @@
     },
     "Survival": {
       "gender_count": {
-        "Man": 474,
+        "Man": 470,
         "Nonbinary": 26,
-        "Unknown": 468,
+        "Unknown": 472,
         "Woman": 370
       },
       "ethnicity_count": {
@@ -70073,8 +70073,8 @@
         "Black": 92,
         "Hispanic": 10,
         "Native": 7,
-        "Unknown": 463,
-        "White": 689
+        "Unknown": 467,
+        "White": 685
       },
       "queer_count": {
         "None": 1245,
@@ -70507,9 +70507,9 @@
   },
   "unique_author_stats": {
     "gender_count": {
-      "Man": 986,
+      "Man": 982,
       "Nonbinary": 91,
-      "Unknown": 4295,
+      "Unknown": 4299,
       "Woman": 980
     },
     "ethnicity_count": {
@@ -70519,8 +70519,8 @@
       "Hispanic": 64,
       "Multiracial": 2,
       "Native": 24,
-      "Unknown": 4287,
-      "White": 1577
+      "Unknown": 4291,
+      "White": 1573
     },
     "queer_count": {
       "None": 6076,
@@ -70733,16 +70733,16 @@
     },
     "Alliterative Title": {
       "gender_count": {
-        "Man": 109,
+        "Man": 108,
         "Nonbinary": 8,
-        "Unknown": 217,
+        "Unknown": 218,
         "Woman": 130
       },
       "ethnicity_count": {
         "Asian": 23,
         "Black": 7,
-        "Unknown": 217,
-        "White": 217
+        "Unknown": 218,
+        "White": 216
       },
       "queer_count": {
         "None": 434,
@@ -70928,9 +70928,9 @@
     },
     "Bards": {
       "gender_count": {
-        "Man": 74,
+        "Man": 73,
         "Nonbinary": 4,
-        "Unknown": 149,
+        "Unknown": 150,
         "Woman": 76
       },
       "ethnicity_count": {
@@ -70939,8 +70939,8 @@
         "Black": 8,
         "Hispanic": 1,
         "Native": 1,
-        "Unknown": 151,
-        "White": 125
+        "Unknown": 152,
+        "White": 124
       },
       "queer_count": {
         "None": 280,
@@ -70973,9 +70973,9 @@
     },
     "Book Club or Readalong Book": {
       "gender_count": {
-        "Man": 93,
+        "Man": 92,
         "Nonbinary": 12,
-        "Unknown": 67,
+        "Unknown": 68,
         "Woman": 129
       },
       "ethnicity_count": {
@@ -70984,8 +70984,8 @@
         "Black": 16,
         "Hispanic": 4,
         "Native": 2,
-        "Unknown": 66,
-        "White": 173
+        "Unknown": 67,
+        "White": 172
       },
       "queer_count": {
         "None": 254,
@@ -71125,9 +71125,9 @@
     },
     "Character with a Disability": {
       "gender_count": {
-        "Man": 110,
+        "Man": 109,
         "Nonbinary": 15,
-        "Unknown": 201,
+        "Unknown": 202,
         "Woman": 120
       },
       "ethnicity_count": {
@@ -71135,8 +71135,8 @@
         "Black": 15,
         "Hispanic": 7,
         "Native": 3,
-        "Unknown": 200,
-        "White": 194
+        "Unknown": 201,
+        "White": 193
       },
       "queer_count": {
         "None": 394,
@@ -71244,9 +71244,9 @@
     },
     "Criminals": {
       "gender_count": {
-        "Man": 123,
+        "Man": 122,
         "Nonbinary": 13,
-        "Unknown": 196,
+        "Unknown": 197,
         "Woman": 90
       },
       "ethnicity_count": {
@@ -71256,8 +71256,8 @@
         "Hispanic": 4,
         "Multiracial": 1,
         "Native": 3,
-        "Unknown": 196,
-        "White": 185
+        "Unknown": 197,
+        "White": 184
       },
       "queer_count": {
         "None": 388,
@@ -71303,9 +71303,9 @@
     },
     "Dreams": {
       "gender_count": {
-        "Man": 144,
+        "Man": 143,
         "Nonbinary": 14,
-        "Unknown": 260,
+        "Unknown": 261,
         "Woman": 188
       },
       "ethnicity_count": {
@@ -71314,8 +71314,8 @@
         "Black": 19,
         "Hispanic": 11,
         "Native": 3,
-        "Unknown": 259,
-        "White": 276
+        "Unknown": 260,
+        "White": 275
       },
       "queer_count": {
         "None": 554,
@@ -71368,9 +71368,9 @@
     },
     "Eldritch Creatures": {
       "gender_count": {
-        "Man": 136,
+        "Man": 135,
         "Nonbinary": 20,
-        "Unknown": 209,
+        "Unknown": 210,
         "Woman": 124
       },
       "ethnicity_count": {
@@ -71378,8 +71378,8 @@
         "Black": 9,
         "Hispanic": 8,
         "Native": 2,
-        "Unknown": 207,
-        "White": 221
+        "Unknown": 208,
+        "White": 220
       },
       "queer_count": {
         "None": 440,
@@ -71654,9 +71654,9 @@
     },
     "First in a Series": {
       "gender_count": {
-        "Man": 160,
+        "Man": 159,
         "Nonbinary": 10,
-        "Unknown": 249,
+        "Unknown": 250,
         "Woman": 180
       },
       "ethnicity_count": {
@@ -71664,8 +71664,8 @@
         "Black": 7,
         "Hispanic": 3,
         "Native": 4,
-        "Unknown": 248,
-        "White": 291
+        "Unknown": 249,
+        "White": 290
       },
       "queer_count": {
         "None": 558,
@@ -71687,9 +71687,9 @@
     },
     "Five SFF Short Stories": {
       "gender_count": {
-        "Man": 223,
+        "Man": 220,
         "Nonbinary": 21,
-        "Unknown": 630,
+        "Unknown": 633,
         "Woman": 238
       },
       "ethnicity_count": {
@@ -71698,8 +71698,8 @@
         "Hispanic": 17,
         "Multiracial": 2,
         "Native": 12,
-        "Unknown": 621,
-        "White": 381
+        "Unknown": 624,
+        "White": 378
       },
       "queer_count": {
         "None": 1044,
@@ -71892,9 +71892,9 @@
     },
     "Judge a Book by Its Cover": {
       "gender_count": {
-        "Man": 146,
+        "Man": 145,
         "Nonbinary": 25,
-        "Unknown": 420,
+        "Unknown": 421,
         "Woman": 176
       },
       "ethnicity_count": {
@@ -71902,8 +71902,8 @@
         "Black": 16,
         "Hispanic": 11,
         "Native": 2,
-        "Unknown": 419,
-        "White": 266
+        "Unknown": 420,
+        "White": 265
       },
       "queer_count": {
         "None": 705,
@@ -72189,9 +72189,9 @@
     },
     "Multi-POV": {
       "gender_count": {
-        "Man": 152,
+        "Man": 151,
         "Nonbinary": 11,
-        "Unknown": 208,
+        "Unknown": 209,
         "Woman": 142
       },
       "ethnicity_count": {
@@ -72200,8 +72200,8 @@
         "Black": 12,
         "Hispanic": 8,
         "Native": 3,
-        "Unknown": 208,
-        "White": 249
+        "Unknown": 209,
+        "White": 248
       },
       "queer_count": {
         "None": 478,
@@ -73112,9 +73112,9 @@
     },
     "Prologues and Epilogues": {
       "gender_count": {
-        "Man": 141,
+        "Man": 140,
         "Nonbinary": 13,
-        "Unknown": 251,
+        "Unknown": 252,
         "Woman": 134
       },
       "ethnicity_count": {
@@ -73122,8 +73122,8 @@
         "Black": 10,
         "Hispanic": 6,
         "Native": 2,
-        "Unknown": 250,
-        "White": 246
+        "Unknown": 251,
+        "White": 245
       },
       "queer_count": {
         "None": 506,
@@ -73175,9 +73175,9 @@
     },
     "Published in 2024": {
       "gender_count": {
-        "Man": 72,
+        "Man": 71,
         "Nonbinary": 5,
-        "Unknown": 298,
+        "Unknown": 299,
         "Woman": 80
       },
       "ethnicity_count": {
@@ -73185,8 +73185,8 @@
         "Black": 9,
         "Hispanic": 4,
         "Native": 3,
-        "Unknown": 298,
-        "White": 121
+        "Unknown": 299,
+        "White": 120
       },
       "queer_count": {
         "None": 435,
@@ -73352,9 +73352,9 @@
     },
     "Reference Materials": {
       "gender_count": {
-        "Man": 123,
+        "Man": 122,
         "Nonbinary": 10,
-        "Unknown": 187,
+        "Unknown": 188,
         "Woman": 142
       },
       "ethnicity_count": {
@@ -73362,8 +73362,8 @@
         "Black": 10,
         "Hispanic": 4,
         "Native": 2,
-        "Unknown": 186,
-        "White": 229
+        "Unknown": 187,
+        "White": 228
       },
       "queer_count": {
         "None": 432,
@@ -73865,9 +73865,9 @@
     },
     "Set in a Small Town": {
       "gender_count": {
-        "Man": 94,
+        "Man": 93,
         "Nonbinary": 8,
-        "Unknown": 298,
+        "Unknown": 299,
         "Woman": 121
       },
       "ethnicity_count": {
@@ -73875,8 +73875,8 @@
         "Black": 13,
         "Hispanic": 6,
         "Native": 6,
-        "Unknown": 297,
-        "White": 188
+        "Unknown": 298,
+        "White": 187
       },
       "queer_count": {
         "None": 495,
@@ -74123,9 +74123,9 @@
     },
     "Survival": {
       "gender_count": {
-        "Man": 132,
+        "Man": 131,
         "Nonbinary": 16,
-        "Unknown": 247,
+        "Unknown": 248,
         "Woman": 136
       },
       "ethnicity_count": {
@@ -74133,8 +74133,8 @@
         "Black": 18,
         "Hispanic": 5,
         "Native": 3,
-        "Unknown": 245,
-        "White": 225
+        "Unknown": 246,
+        "White": 224
       },
       "queer_count": {
         "None": 485,

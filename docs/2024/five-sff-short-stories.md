@@ -46,9 +46,10 @@ Skipped 63 times. Substituted 34 times.
 |Asian|10.5|4.2|
 |Black|3.8|2.9|
 |Hispanic|2.9|1.5|
+|Multiracial|0.1|0.2|
 |Native|0.8|1.1|
-|White|40.3|34.3|
-|Unknown|41.6|55.8|
+|White|40.2|34.0|
+|Unknown|41.8|56.1|
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
@@ -58,10 +59,10 @@ Skipped 63 times. Substituted 34 times.
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|26.9|20.1|
+|Man|26.8|19.8|
 |Nonbinary|1.5|1.9|
 |Woman|29.5|21.4|
-|Unknown|42.1|56.7|
+|Unknown|42.3|56.9|
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|

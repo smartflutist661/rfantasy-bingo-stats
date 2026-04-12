@@ -44,6 +44,9 @@ Skipped 60 times. Substituted 40 times.
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Asian|3.7|1.8|
+|Black|1.1|0.9|
+|Hispanic|0.3|0.5|
+|Native|0.1|0.1|
 |White|36.8|24.2|
 |Unknown|58.1|72.4|
 

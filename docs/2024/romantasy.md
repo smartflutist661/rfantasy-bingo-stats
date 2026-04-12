@@ -45,6 +45,8 @@ Skipped 36 times. Substituted 10 times.
 |---------|:---------:|:---------:|
 |Asian|6.4|11.5|
 |Black|2.1|1.2|
+|Hispanic|0.7|0.8|
+|Native|0.1|0.2|
 |White|54.8|38.8|
 |Unknown|36.0|47.4|
 

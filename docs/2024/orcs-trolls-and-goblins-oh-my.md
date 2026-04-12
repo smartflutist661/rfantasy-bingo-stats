@@ -56,6 +56,7 @@ Skipped 57 times. Substituted 16 times.
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Man|52.1|21.5|
+|Nonbinary|0.2|0.7|
 |Woman|26.8|16.4|
 |Unknown|20.9|61.4|
 
