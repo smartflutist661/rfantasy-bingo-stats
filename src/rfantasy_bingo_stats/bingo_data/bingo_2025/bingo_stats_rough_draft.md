@@ -23,7 +23,7 @@ In addition, if you did something like, say, put **The Lost Metal** as a short s
 3. Books by multiple authors were counted once for each author.
 E.g.: **In the Heart of Darkness** by Eric Flint and David Drake counts as a read for both Eric Flint and David Drake.
 *However*, books by a writing team with a single-author pseudonym, e.g. M.A. Carrick, were counted once for the pseudonym, and not for the authors behind the pseudonym.
-4. Author demographic statistics are now included below. However, researching all 7658 individual authors
+4. Author demographic statistics are now included below. However, researching all 7654 individual authors
 is quite an undertaking, and there is still a reasonable amount of information missing, especially regarding Nationality.
 By the time next year's stats roll around I hope to have it reasonably complete.
 5. Short stories were excluded from most of the stats below. They *were* included in the total story count.
@@ -37,9 +37,9 @@ By the time next year's stats roll around I hope to have it reasonably complete.
 - There were 1548 cards submitted, 694 of which were incomplete.
 The minimum number of filled squares was 5. 536 were *this close*, with 24 filled squares.
 1768 squares were left blank, leaving 36932 filled squares.
-- There were 37756 total stories, with 13193 unique stories read,
-by 7658 unique authors (38165 total).
-9787 books and 5016 authors were used only once. 
+- There were 37756 total stories, with 13189 unique stories read,
+by 7654 unique authors (38165 total).
+9784 books and 5013 authors were used only once. 
 - The top squares left blank were: **Not a Book**, blank on 604 cards; **Published in the 80s**, blank on 79 cards; **Five Short Stories**, blank on 75 cards. On the other hand, **LGBTQIA Protagonist** was only left blank 26 times.
 - The squares most often substituted were: **Published in the 80s**, substituted on 61 cards; **Hidden Gem** and **Pirates**, substituted on 46 cards each; **Five Short Stories**, substituted on 43 cards.
 **Down With the System** and **Recycle a Bingo Square** were never substituted.
@@ -162,7 +162,7 @@ Demographics representing less than 1% of the unique authors are not included in
 |Hispanic|1.1|0.7|
 |Multiracial|0.0|0.0|
 |Native|1.0|0.2|
-|White|46.7|17.3|
+|White|46.8|17.3|
 |Unknown|40.2|77.3|
 {: .sortable}
 
@@ -170,7 +170,7 @@ Demographics representing less than 1% of the unique authors are not included in
 |---------|:---------:|:---------:|
 |Canada|0.9|1.3|
 |United States|5.8|1.9|
-|Unknown|90.8|96.1|
+|Unknown|90.8|96.0|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
@@ -178,7 +178,7 @@ Demographics representing less than 1% of the unique authors are not included in
 |Man|25.8|10.8|
 |Nonbinary|2.0|0.9|
 |Woman|31.8|11.0|
-|Unknown|40.4|77.4|
+|Unknown|40.4|77.3|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
@@ -268,7 +268,7 @@ Values close to 100 suggest the same books were used repeatedly for a square; 10
 |9|Last in a Series|39.5|50.1|
 |10|Book Club or Readalong Book|54.0|57.9|
 |11|Parents|45.6|55.9|
-|12|Epistolary|63.0|70.1|
+|12|Epistolary|63.2|70.2|
 |13|Published in 2025|48.4|52.1|
 |14|Author of Color|45.2|59.4|
 |15|Small Press or Self-Published|21.8|32.3|
@@ -312,7 +312,7 @@ Quoting the [very first bingo stats post](https://www.reddit.com/r/Fantasy/comme
 
 A "misspelling" for the purposes of these statistics is any book (title/author combination)
 that does not match the version used as the canonical version during cleaning.
-There were a total of 3561 misspellings.
+There were a total of 3611 misspellings.
 (Note that this does not include short stories.)
 
 The books with the most variation in title or author spellings were:
@@ -325,8 +325,8 @@ The books with the most variation in title or author spellings were:
 - ***TIE***: **Paladin's Grace** by T. Kingfisher and **The Spear Cuts Through Water** by Simon Jimenez and **The Tainted Cup** by Robert Jackson Bennett, with 8 variations each
 - ***TIE***: **A Psalm for the Wild-Built** by Becky Chambers and **A Wizard of Earthsea** by Ursula K. Le Guin and **Sorcery & Cecelia: or The Enchanted Chocolate Pot** by Patricia C. Wrede, Caroline Stevermer and **The Fifth Season** by N.K. Jemisin and **The House in the Cerulean Sea** by T.J. Klune and **The Will of the Many** by James Islington, with 7 variations each
 - ***TIE***: **A Memory of Light** by Robert Jordan, Brandon Sanderson and **Babel** by R.F. Kuang and **Beware of Chicken** by CasualFarmer and **Guards! Guards!** by Terry Pratchett and **Legends & Lattes** by Travis Baldree and **Somewhere Beyond the Sea** by T.J. Klune and **The Hobbit** by J.R.R. Tolkien and **The Left Hand of Darkness** by Ursula K. Le Guin and **The Mask of Mirrors** by M.A. Carrick, with 6 variations each
-- ***TIE***: **A Sorceress Comes to Call** by T. Kingfisher and **All Systems Red** by Martha Wells and **Gideon the Ninth** by Tamsyn Muir and **He Who Fights with Monsters** by Shirtaloon and **Jonathan Strange & Mr. Norrell** by Susanna Clarke and **Leviathan Wakes** by James S.A. Corey and **Never Whistle at Night** by Shane Hawk, Theodore C. Van Alst Jr. and **Piranesi** by Susanna Clarke and **Ring Shout** by P. Djèlí Clark and **The City & the City** by China Miéville and **The City of Brass** by Shannon Chakraborty and **The Daughters’ War** by Christopher Buehlman and **The Dispossessed** by Ursula K. Le Guin and **The Fellowship of the Ring** by J.R.R. Tolkien and **The Word for World Is Forest** by Ursula K. Le Guin and **To Be Taught, If Fortunate** by Becky Chambers and **To Shape a Dragon's Breath** by Moniquill Blackgoose, with 5 variations each
-- ***TIE***: **A Master of Djinn** by P. Djèlí Clark and **Before the Coffee Gets Cold** by Toshikazu Kawaguchi and **DallerGut Dream Department Store** by Lee Mi-ye and **Dungeon Crawler Carl** by Matt Dinniman and **Gods of Jade and Shadow** by Silvia Moreno-Garcia and **Gods of the Wyrdwood** by R.J. Barker and **Good Omens** by Neil Gaiman, Terry Pratchett and **I’m Afraid You’ve Got Dragons** by Peter S. Beagle and **Mistborn** by Brandon Sanderson and **Nettle & Bone** by T. Kingfisher and **Orconomics** by J. Zachary Pike and **The Black God's Drums** by P. Djèlí Clark and **The Book That Wouldn't Burn** by Mark Lawrence and **The Color of Magic** by Terry Pratchett and **The Dead Cat Tail Assassins** by P. Djèlí Clark and **The Eye of the Bedlam Bride** by Matt Dinniman and **The Invisible Life of Addie LaRue** by V.E. Schwab and **The Liar's Knot** by M.A. Carrick and **The Long Way to a Small, Angry Planet** by Becky Chambers and **The Phoenix Keeper** by S.A. MacLean and **The Three-Body Problem** by Cixin Liu and **There Is No Antimemetics Division** by qntm and **Vita Nostra** by Marina Dyachenko, Sergey Dyachenko and **Water Moon** by Samantha Sotto Yambao, with 4 variations each
+- ***TIE***: **A Sorceress Comes to Call** by T. Kingfisher and **All Systems Red** by Martha Wells and **Gideon the Ninth** by Tamsyn Muir and **Gods of the Wyrdwood** by R.J. Barker and **He Who Fights with Monsters** by Shirtaloon and **Jonathan Strange & Mr. Norrell** by Susanna Clarke and **Leviathan Wakes** by James S.A. Corey and **Never Whistle at Night** by Shane Hawk, Theodore C. Van Alst Jr. and **Piranesi** by Susanna Clarke and **Ring Shout** by P. Djèlí Clark and **The City & the City** by China Miéville and **The City of Brass** by Shannon Chakraborty and **The Daughters’ War** by Christopher Buehlman and **The Dispossessed** by Ursula K. Le Guin and **The Fellowship of the Ring** by J.R.R. Tolkien and **The Word for World Is Forest** by Ursula K. Le Guin and **To Be Taught, If Fortunate** by Becky Chambers and **To Shape a Dragon's Breath** by Moniquill Blackgoose, with 5 variations each
+- ***TIE***: **A Master of Djinn** by P. Djèlí Clark and **Before the Coffee Gets Cold** by Toshikazu Kawaguchi and **DallerGut Dream Department Store** by Lee Mi-ye and **Dracula** by Bram Stoker and **Dungeon Crawler Carl** by Matt Dinniman and **Gods of Jade and Shadow** by Silvia Moreno-Garcia and **Good Omens** by Neil Gaiman, Terry Pratchett and **I’m Afraid You’ve Got Dragons** by Peter S. Beagle and **Mistborn** by Brandon Sanderson and **Nettle & Bone** by T. Kingfisher and **Orconomics** by J. Zachary Pike and **The Black God's Drums** by P. Djèlí Clark and **The Bone Ships** by R.J. Barker and **The Book That Wouldn't Burn** by Mark Lawrence and **The Color of Magic** by Terry Pratchett and **The Dead Cat Tail Assassins** by P. Djèlí Clark and **The Eye of the Bedlam Bride** by Matt Dinniman and **The Invisible Life of Addie LaRue** by V.E. Schwab and **The Liar's Knot** by M.A. Carrick and **The Long Way to a Small, Angry Planet** by Becky Chambers and **The Phoenix Keeper** by S.A. MacLean and **The Three-Body Problem** by Cixin Liu and **There Is No Antimemetics Division** by qntm and **Vita Nostra** by Marina Dyachenko, Sergey Dyachenko and **Water Moon** by Samantha Sotto Yambao, with 4 variations each
 
 What makes a book hard to "spell" correctly?
 

@@ -2030,7 +2030,10 @@
     "Bram Stoker": [
       "Brahm Stoker",
       "Bram Stoke",
-      "Brom Stocker"
+      "Bram Stroker",
+      "Bram stoker",
+      "Brom Stocker",
+      "Brom Stoker"
     ],
     "Bram Stoker, Sabine Baring-Gould, Mary Fortune": [
       "Bram Stoker, Sabine Baring-Gould, Mary Fortune, et al"
@@ -2702,6 +2705,7 @@
     "Caroline Alexander": [],
     "Caroline B. Cooney": [],
     "Caroline Barnard-Smith": [],
+    "Caroline Carlson": [],
     "Caroline Hardaker": [],
     "Caroline M. Yoachim": [
       "Caroline M Yoachim"
@@ -9072,6 +9076,7 @@
     "Kara Jorgensen": [],
     "Kara Lockharte": [],
     "Kara McDowell": [],
+    "Kara Reynolds": [],
     "Karah Sutton": [],
     "Karel Čapek": [
       "Karel Capek"
@@ -9679,6 +9684,7 @@
     "Kindle series": [],
     "Kindred": [],
     "King Katbird": [],
+    "Kinley MacGregor": [],
     "Kira Jane Buxton": [
       "Kara Jane Buxton",
       "Kira Jame Buxton",
@@ -10405,6 +10411,7 @@
       "Lindy A Ryan (editor)",
       "Lindy Ryan with Christina Henry (Contributor), Laura West (Contributor)"
     ],
+    "Lindy Ryan, Christina Henry": [],
     "Lindz McLeod": [],
     "Ling Chen": [],
     "Ling Ling Huang": [
@@ -11055,7 +11062,10 @@
     "Marcus Sedgwick, Julian Sedgwick": [],
     "MarcyKate Connolly": [],
     "Mareho Kikuishi": [],
-    "Margaret Atwood": [],
+    "Margaret Atwood": [
+      "Margareth Atwood",
+      "Margret Atwood"
+    ],
     "Margaret Ball": [
       "MARGARET BALL"
     ],
@@ -11302,6 +11312,7 @@
     "Marion Lindsay": [],
     "Marion Zimmer Bradley": [],
     "Marisa Crane": [],
+    "Marisa Noelle": [],
     "Marisca Pichette": [],
     "Marisha Pessl": [],
     "Marissa Levien": [
@@ -13494,6 +13505,9 @@
     "Patton Oswalt": [],
     "Patty Bryant": [],
     "Paul Anthony Jones": [],
+    "Paul Benjamin, Steven Cummings": [
+      "Paul Benjamin and Steven Cummings"
+    ],
     "Paul Beorn": [],
     "Paul Biegel": [],
     "Paul Cornell": [],
@@ -14053,6 +14067,7 @@
       "Rachel Neumaier"
     ],
     "Rachel Qitsualik-Tinsley": [],
+    "Rachel Reid": [],
     "Rachel Rener": [
       "Rachel Renner"
     ],
@@ -14304,6 +14319,9 @@
       "Renee Ahdieh"
     ],
     "Repo Kempt": [],
+    "Respawn Entertainment": [
+      "Respawn"
+    ],
     "Rex Burke": [],
     "Rey Athens": [],
     "Rhaegar": [],
@@ -15141,7 +15159,9 @@
       "SM Carter"
     ],
     "S.M. Gaither": [],
-    "S.M. Hallow": [],
+    "S.M. Hallow": [
+      "SM Hallow"
+    ],
     "S.M. Pearce": [],
     "S.M. Reine": [
       "SM Reine"
@@ -17066,6 +17086,7 @@
     "The Teller of Small Fortunes": [],
     "The Unspoken Name": [],
     "The Untruth Seekers": [],
+    "The Utah Opera": [],
     "The Vanishers' Palace": [],
     "The Way of Kings": [],
     "The Wee Free Men": [],
@@ -17754,7 +17775,9 @@
     ],
     "Victoria Walker": [],
     "Victoriano Cardenas": [],
-    "Vida Cruz": [],
+    "Vida Cruz": [
+      "Vida Cruz-Borja"
+    ],
     "VigoGrimborne": [],
     "Vihyungrang": [],
     "Vikram Chandra": [],
@@ -18073,6 +18096,7 @@
     "Wu Ming-Yi": [],
     "Wurst": [],
     "Wyman Guin": [],
+    "X-RHODEN-X": [],
     "XKarnation": [
       "Xkarnation"
     ],
@@ -26159,7 +26183,10 @@
     "Dracula /// Bram Stoker": [
       "Dracula /// Brahm Stoker",
       "Dracula /// Bram Stoke",
+      "Dracula /// Bram Stroker",
+      "Dracula /// Bram stoker",
       "Dracula /// Brom Stocker",
+      "Dracula /// Brom Stoker",
       "Dracula Daily /// Bram Stoker"
     ],
     "Dracula /// Mike Mignola": [],
@@ -27839,6 +27866,7 @@
       "Five Ways to Forgiveness /// Ursula K. LeGuin",
       "Five Ways to Forgiveness /// Ursula Le Guin"
     ],
+    "Five-Twelfths of Heaven /// Melissa Scott": [],
     "Fixer /// James Jakins": [
       "Jack Bloodfist: Fixer /// James Jakins"
     ],
@@ -39734,6 +39762,7 @@
     "Son of Flame /// Blaise Corvin": [
       "Son of Flame /// BlaiseCorvin"
     ],
+    "Son of Magic /// Haley Riordan": [],
     "Son of a Liche /// J. Zachary Pike": [
       "Son of Liche /// J. Zachary Pike",
       "Son of a Liche /// J Zachary Pike",
@@ -39798,7 +39827,9 @@
     "Song of the Lioness /// Tamora Pierce, Vita Ayala": [
       "Tamora Pierce's Song of the Lioness: Alanna /// Vita Ayala, Sam Beck"
     ],
-    "Song of the Mango and Other New Myths /// Vida Cruz": [],
+    "Song of the Mango and Other New Myths /// Vida Cruz": [
+      "Song of the Mango and Other New Myths /// Vida Cruz-Borja"
+    ],
     "Song of the Mysteries /// Janny Wurts": [],
     "Song of the Nightpiper /// Hannah Meredith": [],
     "Song of the Six Realms /// Judy I. Lin": [
@@ -45675,6 +45706,7 @@
     "The Handmaid's Tale /// Margaret Atwood": [
       "A Handmaid's Tale /// Margaret Atwood",
       "Handmaid's Tale /// Margaret Atwood",
+      "The Handmaid's Tale /// Margareth Atwood",
       "The Handmaid’s Tale /// Margaret Atwood"
     ],
     "The Hands That Are Not There /// Melinda Snodgrass": [

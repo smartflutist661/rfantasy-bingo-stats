@@ -41,6 +41,7 @@ BANNED_MATCHES = {
     "Lee",
     "Martin",
     "McKenzie",
+    "Me!",
     "Neal",
     "Noc",
     "ONE",

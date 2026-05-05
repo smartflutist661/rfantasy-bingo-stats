@@ -70,6 +70,7 @@
       "Tuí"
     ],
     "A. Merc Rustad": [],
+    "A. Merritt": [],
     "A. R. COOK": [],
     "A. S. Byatt": [],
     "A. S. Webb": [],
@@ -2852,11 +2853,19 @@
     "Bram Stoker, Sabine Baring-Gould, Mary Fortune": [
       "Bram Stoke",
       "Bram Stoker",
+      "Bram stoker",
       "Mary Fortune",
       "Sabine Baring-Gould"
     ],
     "Bram Stoker, Sabine Baring-Gould, Mary Fortune, et al": [
       "Bram Stoker"
+    ],
+    "Bram Stoker, Virginia Nitouhei": [
+      "Bram stoker"
+    ],
+    "Bram stoker": [
+      "Bram Stoker, Sabine Baring-Gould, Mary Fortune",
+      "Bram Stoker, Virginia Nitouhei"
     ],
     "Branden Boyer-White": [
       "Shannon Watters, Branden Boyer-White, Berenice Nelle"
@@ -3735,6 +3744,7 @@
       "ONE"
     ],
     "Caroline Barnard-Smith": [],
+    "Caroline Carlson": [],
     "Caroline Hardaker": [],
     "Caroline M Yoachim": [],
     "Caroline M. Yoachim": [
@@ -4491,7 +4501,8 @@
     "Christina Henry": [
       "Henry",
       "Lindy Ryan",
-      "Lindy Ryan with Christina Henry (Contributor), Laura West (Contributor)"
+      "Lindy Ryan with Christina Henry (Contributor), Laura West (Contributor)",
+      "Lindy Ryan, Christina Henry"
     ],
     "Christina Lauren": [],
     "Christina Neuwirth": [],
@@ -12551,6 +12562,7 @@
       "Cassie Alexander, Kara Lockharte"
     ],
     "Kara McDowell": [],
+    "Kara Reynolds": [],
     "Karah Sutton": [],
     "Karel Capek": [],
     "Karel Čapek": [],
@@ -13399,6 +13411,7 @@
       "L.P. Kindred"
     ],
     "King Katbird": [],
+    "Kinley MacGregor": [],
     "Kira Jame Buxton": [],
     "Kira Jane Buxton": [],
     "Kira Peikoff": [],
@@ -14446,9 +14459,14 @@
     "Lindy A Ryan (editor)": [],
     "Lindy Ryan": [
       "Christina Henry",
-      "Lindy Ryan with Christina Henry (Contributor), Laura West (Contributor)"
+      "Lindy Ryan with Christina Henry (Contributor), Laura West (Contributor)",
+      "Lindy Ryan, Christina Henry"
     ],
     "Lindy Ryan with Christina Henry (Contributor), Laura West (Contributor)": [
+      "Christina Henry",
+      "Lindy Ryan"
+    ],
+    "Lindy Ryan, Christina Henry": [
       "Christina Henry",
       "Lindy Ryan"
     ],
@@ -15253,6 +15271,7 @@
       "Margaret Weis, Tracy Hickman"
     ],
     "Margaret Wells": [],
+    "Margareth Atwood": [],
     "Margarita Montimore": [],
     "Margarita Mortimore": [],
     "Marge Piercy": [
@@ -15500,6 +15519,7 @@
     ],
     "Marion Zimmer Bradley": [],
     "Marisa Crane": [],
+    "Marisa Noelle": [],
     "Marisca Pichette": [],
     "Marisha Pessl": [],
     "Marissa Levian": [],
@@ -18594,6 +18614,7 @@
       "ONE",
       "One"
     ],
+    "Paul Benjamin and Steven Cummings": [],
     "Paul Beorn": [],
     "Paul Biegel": [
       "âge"
@@ -19330,6 +19351,7 @@
       "Aviaq Johnston, Richard Van Camp, Thomas Anguti Johnston, Repo Kempt, Rachel Qitsualik-Tinsley, Sean Qitsualik-Tinsley",
       "Neil Christopher"
     ],
+    "Rachel Reid": [],
     "Rachel Rener": [],
     "Rachel Renner": [],
     "Rachel Schneider": [],
@@ -19610,6 +19632,7 @@
     "Renée Ahdieh": [],
     "Repo Kempt": [],
     "Reseanne A, Brown": [],
+    "Respawn": [],
     "Rex Burke": [],
     "Rey Athens": [],
     "Rhaegar": [],
@@ -20783,6 +20806,7 @@
       "Yoon Ha Lee, Becky Chambers, Rivers Solomon, S.L. Huang"
     ],
     "SM Carter": [],
+    "SM Hallow": [],
     "SM Reine": [],
     "SOFIA ROBLAS": [],
     "STEPHEN KING": [
@@ -23295,6 +23319,7 @@
     "The Teller of Small Fortunes": [],
     "The Unspoken Name": [],
     "The Untruth Seekers": [],
+    "The Utah Opera": [],
     "The Vanishers' Palace": [],
     "The Way of Kings": [],
     "The Wee Free Men": [],
@@ -24238,6 +24263,7 @@
     "Victoria Walker": [],
     "Victoriano Cardenas": [],
     "Vida Cruz": [],
+    "Vida Cruz-Borja": [],
     "VigoGrimborne": [
       "BO"
     ],
@@ -24717,6 +24743,7 @@
       "Raymond E. Feist, Janny Wurts"
     ],
     "Wyman Guin": [],
+    "X-RHODEN-X": [],
     "XKarnation": [],
     "Xan West": [],
     "Xander Black": [],
@@ -31415,6 +31442,7 @@
     "Five Odd Honors /// Jane Lindskold": [],
     "Five Views of the Planet Tartarus /// Rachael K. Jones": [],
     "Five Ways to Forgiveness /// Ursula K. Le Guin": [],
+    "Five-Twelfths of Heaven /// Melissa Scott": [],
     "Fixer /// James Jakins": [],
     "Flag in Exile /// David Weber": [],
     "Flag in exile /// David Weber": [],
@@ -38399,6 +38427,7 @@
     "Shift /// Hugh Howey": [],
     "Shifters /// Vivienne Neas": [],
     "Shifting Shadows /// Patricia Briggs": [],
+    "Shigidi and the Brass Head of Obafulon /// Woke Tolabi": [],
     "Shigidi and the Brass Head of Obalufon /// Wole Talabi": [],
     "Shigidi and the Brass Head of Obulafon /// Wole Talabi": [],
     "Shining Bursa and the Listening Post /// Sarah Pauling": [],
@@ -38823,6 +38852,7 @@
     "Son of Deception /// Kirsha Fox": [],
     "Son of Flame /// Blaise Corvin": [],
     "Son of Liche /// J. Zachary Pike": [],
+    "Son of Magic /// Haley Riordan": [],
     "Son of Shadows /// Juliet Marillier": [],
     "Son of a Liche /// J. Zachary Pike": [],
     "Son of a Trickster /// Eden Robinson": [],
