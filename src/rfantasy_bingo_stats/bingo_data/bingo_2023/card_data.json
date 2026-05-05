@@ -1,6 +1,7 @@
 {
-	"sheet_name": "Sheet1",
-	"subbed_by_square": true,
+    "sheet_name": "Sheet1",
+    "subbed_by_square": true,
+    "expected_unsubbable": 0,
     "short_story_square_num": 9,
     "square_names": {
         "SQUARE 1: TITLE": "Title with a Title",

@@ -35,6 +35,7 @@ class CardData(BaseModel):
 
     sheet_name: str
     subbed_by_square: bool
+    expected_unsubbable: int
     short_story_square_num: int
     square_names: Mapping[TitleCol, SquareName]
     novel_title_author_hm_cols: tuple[TitleAuthorHMCols, ...]

@@ -1,34 +1,34 @@
 {
     "sheet_name": "Sheet1",
     "subbed_by_square": true,
-    "expected_unsubbable": 0,
-    "short_story_square_num": 22,
+    "expected_unsubbable": 1,
+    "short_story_square_num": 19,
     "square_names": {
-        "SQUARE 1: TITLE": "First in a Series",
-        "SQUARE 2: TITLE": "Alliterative Title",
-        "SQUARE 3: TITLE": "Under the Surface",
-        "SQUARE 4: TITLE": "Criminals",
-        "SQUARE 5: TITLE": "Dreams",
-        "SQUARE 6: TITLE": "Entitled Animals",
-        "SQUARE 7: TITLE": "Bards",
-        "SQUARE 8: TITLE": "Prologues and Epilogues",
-        "SQUARE 9: TITLE": "Self-Published or Indie Publisher",
-        "SQUARE 10: TITLE": "Romantasy",
-        "SQUARE 11: TITLE": "Dark Academia",
-        "SQUARE 12: TITLE": "Multi-POV",
-        "SQUARE 13: TITLE": "Published in 2024",
-        "SQUARE 14: TITLE": "Character with a Disability",
-        "SQUARE 15: TITLE": "Published in the 1990s",
-        "SQUARE 16: TITLE": "Orcs, Trolls, and Goblins - Oh My!",
-        "SQUARE 17: TITLE": "Space Opera",
-        "SQUARE 18: TITLE": "Author of Color",
-        "SQUARE 19: TITLE": "Survival",
-        "SQUARE 20: TITLE": "Judge a Book by Its Cover",
-        "SQUARE 21: TITLE": "Set in a Small Town",
-        "SQUARE 22: TITLE OF COLLECTION": "Five SFF Short Stories",
-        "SQUARE 23: TITLE": "Eldritch Creatures",
-        "SQUARE 24: TITLE": "Reference Materials",
-        "SQUARE 25: TITLE": "Book Club or Readalong Book"
+        "SQUARE 1: TITLE": "Knights and Paladins",
+        "SQUARE 2: TITLE": "Hidden Gem",
+        "SQUARE 3: TITLE": "Published in the 80s",
+        "SQUARE 4: TITLE": "High Fashion",
+        "SQUARE 5: TITLE": "Down With the System",
+        "SQUARE 6: TITLE": "Impossible Places",
+        "SQUARE 7: TITLE": "A Book in Parts",
+        "SQUARE 8: TITLE": "Gods and Pantheons",
+        "SQUARE 9: TITLE": "Last in a Series",
+        "SQUARE 10: TITLE": "Book Club or Readalong Book",
+        "SQUARE 11: TITLE": "Parents",
+        "SQUARE 12: TITLE": "Epistolary",
+        "SQUARE 13: TITLE": "Published in 2025",
+        "SQUARE 14: TITLE": "Author of Color",
+        "SQUARE 15: TITLE": "Small Press or Self-Published",
+        "SQUARE 16: TITLE": "Biopunk",
+        "SQUARE 17: TITLE": "Elves and Dwarves",
+        "SQUARE 18: TITLE": "LGBTQIA Protagonist",
+        "SQUARE 19: TITLE OF COLLECTION/ANTHOLOGY": "Five Short Stories",
+        "SQUARE 20: TITLE": "Stranger in a Strange Land",
+        "SQUARE 21: TITLE": "Recycle a Bingo Square",
+        "SQUARE 22: TITLE": "Cozy SFF",
+        "SQUARE 23: TITLE": "Generic Title",
+        "SQUARE 24: TITLE OR NAME OF THING": "Not a Book",
+        "SQUARE 25: TITLE": "Pirates"
     },
     "novel_title_author_hm_cols": [
         [
@@ -122,8 +122,8 @@
             "SQUARE 18: HARD MODE"
         ],
         [
-            "SQUARE 19: TITLE",
-            "SQUARE 19: AUTHOR",
+            "SQUARE 19: TITLE OF COLLECTION/ANTHOLOGY",
+            "SQUARE 19: AUTHOR/EDITOR",
             "SQUARE 19: HARD MODE"
         ],
         [
@@ -137,8 +137,8 @@
             "SQUARE 21: HARD MODE"
         ],
         [
-            "SQUARE 22: TITLE OF COLLECTION",
-            "SQUARE 22: AUTHOR OF COLLECTION",
+            "SQUARE 22: TITLE",
+            "SQUARE 22: AUTHOR",
             "SQUARE 22: HARD MODE"
         ],
         [
@@ -147,8 +147,8 @@
             "SQUARE 23: HARD MODE"
         ],
         [
-            "SQUARE 24: TITLE",
-            "SQUARE 24: AUTHOR",
+            "SQUARE 24: TITLE OR NAME OF THING",
+            "SQUARE 24: AUTHOR OR CREATOR",
             "SQUARE 24: HARD MODE"
         ],
         [
@@ -159,28 +159,28 @@
     ],
     "short_story_title_author_hm_cols": [
         [
-            "SQUARE 22A: SHORT STORY 1",
-            "SQUARE 22A: AUTHOR 1",
+            "SQUARE 19A: Title of Short Story #1",
+            "SQUARE 19A: Author of Short Story #1",
             ""
         ],
         [
-            "SQUARE 22B: SHORT STORY 2",
-            "SQUARE 22B: AUTHOR 2",
+            "SQUARE 19B: Title of Short Story #2",
+            "SQUARE 19B: Author of Short Story #2",
             ""
         ],
         [
-            "SQUARE 22C: SHORT STORY 3",
-            "SQUARE 22C: AUTHOR 3",
+            "SQUARE 19C: Title of Short Story #3",
+            "SQUARE 19C: Author of Short Story #3",
             ""
         ],
         [
-            "SQUARE 22D: SHORT STORY 4",
-            "SQUARE 22D: AUTHOR 4",
+            "SQUARE 19D: Title of Short Story #4",
+            "SQUARE 19D: Author of Short Story #4",
             ""
         ],
         [
-            "SQUARE 22E: SHORT STORY 5",
-            "SQUARE 22E: AUTHOR 5",
+            "SQUARE 19E: Title of Short Story #5",
+            "SQUARE 19E: Author of Short Story #5",
             ""
         ]
     ]

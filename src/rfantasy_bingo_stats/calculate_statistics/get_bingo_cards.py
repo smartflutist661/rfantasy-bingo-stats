@@ -152,6 +152,16 @@ def get_bingo_card(  # type: ignore[explicit-any]
 
 
 def get_bingo_cards(data: pandas.DataFrame, card_data: CardData) -> Mapping[CardID, BingoCard]:
+    missing = sum(
+        f"SQUARE {square_num+1}: SUBSTITUTION" not in data.columns
+        for square_num in range(len(card_data.square_names))
+    )
+
+    if missing != card_data.expected_unsubbable:
+        raise RuntimeError(
+            f"Missing {missing} substitution squares, more than the expected {card_data.expected_unsubbable}"
+        )
+
     cards: dict[CardID, BingoCard] = {}
     for index, row in data.iterrows():
         if index is None:
@@ -161,7 +171,7 @@ def get_bingo_cards(data: pandas.DataFrame, card_data: CardData) -> Mapping[Card
         if card_data.subbed_by_square:
             subbed_square_map = {}
             for square_num, square_name in enumerate(card_data.square_names.values()):
-                subbed_val = row[f"SQUARE {square_num+1}: SUBSTITUTION"]
+                subbed_val = row.get(f"SQUARE {square_num+1}: SUBSTITUTION")
                 if subbed_val is not None and len(subbed_val) > 0:
                     subbed_square_map[square_name] = SquareName(subbed_val)
         else:
