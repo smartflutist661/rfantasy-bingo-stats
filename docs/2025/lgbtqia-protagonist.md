@@ -19,13 +19,13 @@ Statistics for other squares can be found at the following links:
 
 - **The Spear Cuts Through Water** by Simon Jimenez, read 34 times
 - **The Incandescent** by Emily Tesh, read 26 times
-- **Gideon the Ninth** by Tamsyn Muir, read 22 times
+- **Gideon the Ninth** by Tamsyn Muir, read 23 times
 - **A Memory Called Empire** by Arkady Martine, read 19 times
 - **Bury Your Gays** by Chuck Tingle, read 17 times
 
-**TOTAL**: 1519 books read, with 773 unique titles.
+**TOTAL**: 1519 books read, with 769 unique titles.
 787 books were claimed to qualify for hard mode.
-544 books were used only once for this square.
+540 books were used only once for this square.
 Skipped 26 times. Substituted 3 times.
 
 ## Most Read Authors
@@ -33,42 +33,42 @@ Skipped 26 times. Substituted 3 times.
 - Emily Tesh, read 38 times
 - Simon Jimenez, read 36 times
 - T.J. Klune, read 35 times
-- Tamsyn Muir, read 32 times
+- Tamsyn Muir, read 33 times
 - Chuck Tingle, read 31 times
 
-**TOTAL**: 1553 total authors read, with 564 unique.
-368 authors were used only once for this square.
+**TOTAL**: 1553 total authors read, with 560 unique.
+364 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|10.8|7.1|
-|Black|4.7|3.7|
+|Asian|10.9|7.2|
+|Black|4.7|3.8|
 |Hispanic|2.2|2.0|
 |Native|1.7|0.7|
-|White|43.3|29.8|
-|Unknown|37.3|56.6|
+|White|43.5|30.2|
+|Unknown|37.1|56.1|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Canada|1.5|2.2|
 |United States|6.2|2.9|
-|Unknown|87.6|93.2|
+|Unknown|87.4|93.0|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|16.9|12.2|
+|Man|16.9|12.5|
 |Nonbinary|7.0|5.1|
-|Woman|38.8|26.3|
-|Unknown|37.3|56.4|
+|Woman|39.0|26.5|
+|Unknown|37.0|56.0|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|31.6|16.6|
-|Unknown|68.4|83.4|
+|Yes|31.7|16.7|
+|Unknown|68.3|83.3|
 {: .sortable}
 

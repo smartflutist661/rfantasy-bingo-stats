@@ -21,11 +21,11 @@ Statistics for other squares can be found at the following links:
 - **The Will of the Many** by James Islington, read 23 times
 - ***TIE***: **Service Model** by Adrian Tchaikovsky and **The Spear Cuts Through Water** by Simon Jimenez, each read 18 times
 - ***TIE***: **The Devils** by Joe Abercrombie and **The Incandescent** by Emily Tesh, each read 17 times
-- ***TIE***: **Sunrise on the Reaping** by Suzanne Collins and **The Strength of the Few** by James Islington, each read 12 times
+- **Sunrise on the Reaping** by Suzanne Collins, read 13 times
 
-**TOTAL**: 1517 books read, with 795 unique titles.
+**TOTAL**: 1517 books read, with 793 unique titles.
 937 books were claimed to qualify for hard mode.
-565 books were used only once for this square.
+563 books were used only once for this square.
 Skipped 30 times. Substituted 1 times.
 
 ## Most Read Authors
@@ -36,39 +36,39 @@ Skipped 30 times. Substituted 1 times.
 - James Islington, read 36 times
 - V.E. Schwab, read 34 times
 
-**TOTAL**: 1530 total authors read, with 559 unique.
-366 authors were used only once for this square.
+**TOTAL**: 1530 total authors read, with 555 unique.
+361 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Asian|4.9|3.9|
-|Black|2.0|3.4|
+|Black|2.0|3.6|
 |Hispanic|1.6|1.6|
 |Native|0.2|0.4|
-|White|59.0|39.0|
-|Unknown|32.4|51.7|
+|White|59.2|39.3|
+|Unknown|32.2|51.2|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |United Kingdom|3.0|1.1|
-|United States|8.0|3.7|
-|Unknown|86.7|93.8|
+|United States|8.2|3.8|
+|Unknown|86.5|93.7|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|37.8|24.1|
+|Man|37.8|24.2|
 |Nonbinary|1.7|2.3|
-|Woman|28.0|21.7|
-|Unknown|32.4|51.9|
+|Woman|28.2|22.1|
+|Unknown|32.2|51.3|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|11.0|6.4|
+|Yes|11.0|6.5|
 |Unknown|88.5|93.0|
 {: .sortable}
 

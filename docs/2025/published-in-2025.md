@@ -20,12 +20,12 @@ Statistics for other squares can be found at the following links:
 - **Greenteeth** by Molly O'Neill, read 52 times
 - **The Devils** by Joe Abercrombie, read 38 times
 - **Anji Kills a King** by Evan Leikam, read 33 times
-- **The River Has Roots** by Amal El-Mohtar, read 30 times
-- **The Raven Scholar** by Antonia Hodgson, read 26 times
+- **The River Has Roots** by Amal El-Mohtar, read 32 times
+- ***TIE***: **Sunrise on the Reaping** by Suzanne Collins and **The Raven Scholar** by Antonia Hodgson, each read 26 times
 
-**TOTAL**: 1511 books read, with 672 unique titles.
+**TOTAL**: 1511 books read, with 668 unique titles.
 513 books were claimed to qualify for hard mode.
-467 books were used only once for this square.
+464 books were used only once for this square.
 Skipped 33 times. Substituted 4 times.
 
 ## Most Read Authors
@@ -33,42 +33,42 @@ Skipped 33 times. Substituted 4 times.
 - Molly O'Neill, read 55 times
 - Joe Abercrombie, read 38 times
 - Evan Leikam, read 36 times
-- ***TIE***: Amal El-Mohtar and Antonia Hodgson and Robert Jackson Bennett, each read 30 times
-- Suzanne Collins, read 25 times
+- Amal El-Mohtar, read 32 times
+- ***TIE***: Antonia Hodgson and Robert Jackson Bennett, each read 30 times
 
-**TOTAL**: 1533 total authors read, with 592 unique.
-376 authors were used only once for this square.
+**TOTAL**: 1533 total authors read, with 588 unique.
+373 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Arabic|0.1|0.2|
-|Asian|5.2|2.8|
+|Asian|5.3|2.9|
 |Black|1.8|1.5|
 |Hispanic|0.3|0.7|
 |Native|1.0|0.2|
-|White|30.6|21.6|
-|Unknown|60.9|73.0|
+|White|30.8|21.9|
+|Unknown|60.6|72.7|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|5.0|2.5|
-|Unknown|90.1|96.5|
+|United States|5.2|2.7|
+|Unknown|89.8|96.3|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|17.7|11.7|
-|Nonbinary|0.7|1.0|
-|Woman|20.5|13.9|
-|Unknown|61.1|73.4|
+|Man|17.7|11.8|
+|Nonbinary|0.8|1.2|
+|Woman|20.7|14.0|
+|Unknown|60.8|73.0|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|4.1|3.5|
-|Unknown|95.9|96.5|
+|Yes|4.2|3.7|
+|Unknown|95.8|96.3|
 {: .sortable}
 

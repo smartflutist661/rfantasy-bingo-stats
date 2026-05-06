@@ -23,9 +23,9 @@ Statistics for other squares can be found at the following links:
 - ***TIE***: **Dungeon Crawler Carl** by Matt Dinniman and **The Incandescent** by Emily Tesh, each read 10 times
 - **All Systems Red** by Martha Wells, read 9 times
 
-**TOTAL**: 1520 books read, with 1172 unique titles.
+**TOTAL**: 1520 books read, with 1169 unique titles.
 798 books were claimed to qualify for hard mode.
-985 books were used only once for this square.
+981 books were used only once for this square.
 Skipped 28 times. Substituted 0 times.
 
 ## Most Read Authors
@@ -36,8 +36,8 @@ Skipped 28 times. Substituted 0 times.
 - Rebecca Yarros, read 15 times
 - James Islington, read 14 times
 
-**TOTAL**: 1558 total authors read, with 903 unique.
-671 authors were used only once for this square.
+**TOTAL**: 1557 total authors read, with 898 unique.
+665 authors were used only once for this square.
 
 ### Author demographics
 
@@ -45,30 +45,30 @@ Skipped 28 times. Substituted 0 times.
 |---------|:---------:|:---------:|
 |Arabic|0.1|0.2|
 |Asian|5.1|4.8|
-|Black|2.0|2.7|
+|Black|2.0|2.8|
 |Hispanic|1.1|1.2|
 |Native|0.6|0.4|
-|White|51.2|38.6|
-|Unknown|39.9|52.0|
+|White|51.4|38.9|
+|Unknown|39.6|51.6|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|6.4|3.6|
-|Unknown|90.4|94.0|
+|United States|6.5|3.7|
+|Unknown|90.3|93.8|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|28.9|23.1|
-|Nonbinary|1.2|1.3|
-|Woman|30.0|23.5|
-|Unknown|39.9|52.1|
+|Man|29.0|23.2|
+|Nonbinary|1.3|1.4|
+|Woman|30.1|23.7|
+|Unknown|39.6|51.7|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|7.6|7.2|
-|Unknown|92.2|92.5|
+|Yes|7.7|7.4|
+|Unknown|92.1|92.3|
 {: .sortable}
 

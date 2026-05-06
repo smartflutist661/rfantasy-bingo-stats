@@ -17,50 +17,50 @@ Statistics for other squares can be found at the following links:
 
 ## Most Read Books
 
-- **Dawn** by Octavia E. Butler, read 123 times
-- **Howl's Moving Castle** by Diana Wynne Jones, read 60 times
-- **Wild Seed** by Octavia E. Butler, read 54 times
+- **Dawn** by Octavia E. Butler, read 124 times
+- **Howl's Moving Castle** by Diana Wynne Jones, read 62 times
+- **Wild Seed** by Octavia E. Butler, read 55 times
 - **Guards! Guards!** by Terry Pratchett, read 45 times
 - **Kiki's Delivery Service** by Eiko Kadono, read 44 times
 
-**TOTAL**: 1408 books read, with 486 unique titles.
+**TOTAL**: 1408 books read, with 477 unique titles.
 448 books were claimed to qualify for hard mode.
-350 books were used only once for this square.
+338 books were used only once for this square.
 Skipped 79 times. Substituted 61 times.
 
 ## Most Read Authors
 
-- Octavia E. Butler, read 198 times
+- Octavia E. Butler, read 200 times
 - Terry Pratchett, read 135 times
-- Diana Wynne Jones, read 69 times
+- Diana Wynne Jones, read 71 times
 - Eiko Kadono, read 60 times
 - Stephen King, read 43 times
 
-**TOTAL**: 1442 total authors read, with 275 unique.
-162 authors were used only once for this square.
+**TOTAL**: 1443 total authors read, with 266 unique.
+153 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|7.6|3.5|
-|Black|18.6|2.5|
+|Asian|7.5|3.2|
+|Black|18.7|2.6|
 |Hispanic|1.7|1.3|
-|White|56.6|37.3|
-|Unknown|15.5|55.4|
+|White|57.0|38.4|
+|Unknown|15.1|54.5|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|7.5|6.6|
-|Unknown|91.7|92.4|
+|United States|7.5|6.8|
+|Unknown|91.7|92.3|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|38.6|26.3|
-|Woman|45.8|18.4|
-|Unknown|15.5|55.4|
+|Man|38.6|26.8|
+|Woman|46.3|18.7|
+|Unknown|15.1|54.5|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|

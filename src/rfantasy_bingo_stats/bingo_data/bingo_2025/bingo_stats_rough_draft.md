@@ -23,7 +23,7 @@ In addition, if you did something like, say, put **The Lost Metal** as a short s
 3. Books by multiple authors were counted once for each author.
 E.g.: **In the Heart of Darkness** by Eric Flint and David Drake counts as a read for both Eric Flint and David Drake.
 *However*, books by a writing team with a single-author pseudonym, e.g. M.A. Carrick, were counted once for the pseudonym, and not for the authors behind the pseudonym.
-4. Author demographic statistics are now included below. However, researching all 7654 individual authors
+4. Author demographic statistics are now included below. However, researching all 7493 individual authors
 is quite an undertaking, and there is still a reasonable amount of information missing, especially regarding Nationality.
 By the time next year's stats roll around I hope to have it reasonably complete.
 5. Short stories were excluded from most of the stats below. They *were* included in the total story count.
@@ -37,15 +37,15 @@ By the time next year's stats roll around I hope to have it reasonably complete.
 - There were 1548 cards submitted, 694 of which were incomplete.
 The minimum number of filled squares was 5. 536 were *this close*, with 24 filled squares.
 1768 squares were left blank, leaving 36932 filled squares.
-- There were 37756 total stories, with 13189 unique stories read,
-by 7654 unique authors (38165 total).
-9784 books and 5013 authors were used only once. 
+- There were 37756 total stories, with 13026 unique stories read,
+by 7493 unique authors (38169 total).
+9614 books and 4862 authors were used only once. 
 - The top squares left blank were: **Not a Book**, blank on 604 cards; **Published in the 80s**, blank on 79 cards; **Five Short Stories**, blank on 75 cards. On the other hand, **LGBTQIA Protagonist** was only left blank 26 times.
 - The squares most often substituted were: **Published in the 80s**, substituted on 61 cards; **Hidden Gem** and **Pirates**, substituted on 46 cards each; **Five Short Stories**, substituted on 43 cards.
 **Down With the System** and **Recycle a Bingo Square** were never substituted.
 This means that Not a Book was the least favorite overall, skipped or substituted a total of 644 times, and
 Recycle a Bingo Square was the favorite, skipped or substituted only 28 times.
-- There were an average of 6.3 unique books per card.
+- There were an average of 6.2 unique books per card.
 - 126 cards claimed an all-hard-mode card, while 70 cards were short by one square.
 89 cards claimed no hard-mode squares at all. The average number of hard-mode squares per card was 11.9.
 There were a total of 18381 hard-mode squares claimed.
@@ -83,16 +83,16 @@ There were a total of 18381 hard-mode squares claimed.
 
 The ten most-read books were:
 
-- **The Tainted Cup** by Robert Jackson Bennett, read 371 times
-- **A Drop of Corruption** by Robert Jackson Bennett, read 325 times
+- **The Tainted Cup** by Robert Jackson Bennett, read 374 times
+- **A Drop of Corruption** by Robert Jackson Bennett, read 327 times
 - **The Devils** by Joe Abercrombie, read 245 times
 - **Piranesi** by Susanna Clarke, read 212 times
 - **Blood Over Bright Haven** by M.L. Wang, read 197 times
 - **The Raven Scholar** by Antonia Hodgson, read 183 times
-- **Howl's Moving Castle** by Diana Wynne Jones, read 167 times
-- **Paladin's Grace** by T. Kingfisher, read 148 times
-- **The River Has Roots** by Amal El-Mohtar, read 144 times
-- ***TIE***: **Dungeon Crawler Carl** by Matt Dinniman and **The Buffalo Hunter Hunter** by Stephen Graham Jones, each read 137 times
+- **Howl's Moving Castle** by Diana Wynne Jones, read 169 times
+- ***TIE***: **Paladin's Grace** by T. Kingfisher and **The River Has Roots** by Amal El-Mohtar, each read 150 times
+- **The Buffalo Hunter Hunter** by Stephen Graham Jones, read 138 times
+- **Dungeon Crawler Carl** by Matt Dinniman, read 137 times
 
 The books used for the most squares were:
 
@@ -110,22 +110,22 @@ There were an average of 2.8 reads per book.
 
 The ten most-read authors were:
 
-- Robert Jackson Bennett, read 763 times
-- T. Kingfisher, read 621 times
+- Robert Jackson Bennett, read 768 times
+- T. Kingfisher, read 626 times
 - Brandon Sanderson, read 394 times
 - Matt Dinniman, read 356 times
 - Terry Pratchett, read 351 times
-- Heather Fawcett, read 331 times
+- Heather Fawcett, read 336 times
 - Joe Abercrombie, read 325 times
 - Adrian Tchaikovsky, read 304 times
+- Octavia E. Butler, read 288 times
 - M.L. Wang, read 286 times
-- Octavia E. Butler, read 284 times
 
 The authors used for the most squares were:
 
-- T. Kingfisher, used for 26 squares
-- Brandon Sanderson, used for 25 squares
-- Ursula K. Le Guin, used for 24 squares
+- T. Kingfisher, used for 27 squares
+- ***TIE***: Brandon Sanderson and Ursula K. Le Guin, each used for 25 squares
+- ***TIE***: Martha Wells and Stephen King, each used for 23 squares
 
 Marissa Meyer was the author read at least 10 times with the highest ratio of squares to times read:
 read 11 times for 9 squares.
@@ -144,7 +144,7 @@ The authors with the most unique books read were:
 - Robin Hobb, with 28 unique books read
 
 As with books, most authors were read only once.
-There were an average of 5.0 reads per author.
+There were an average of 5.1 reads per author.
 
 The following tables represent a best-effort attempt at a statistical breakdown of author demographics.
 The "Overall %" column represents the _total_ number of times a demographic appeared in Bingo data,
@@ -157,34 +157,34 @@ Demographics representing less than 1% of the unique authors are not included in
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Arabic|0.0|0.0|
-|Asian|7.1|3.4|
-|Black|3.8|1.1|
+|Asian|7.1|3.5|
+|Black|3.9|1.1|
 |Hispanic|1.1|0.7|
 |Multiracial|0.0|0.0|
 |Native|1.0|0.2|
-|White|46.8|17.3|
-|Unknown|40.2|77.3|
+|White|46.9|17.6|
+|Unknown|39.9|76.9|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Canada|0.9|1.3|
+|Canada|1.0|1.3|
 |United States|5.8|1.9|
 |Unknown|90.8|96.0|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|25.8|10.8|
-|Nonbinary|2.0|0.9|
-|Woman|31.8|11.0|
-|Unknown|40.4|77.3|
+|Man|25.9|11.0|
+|Nonbinary|2.1|1.0|
+|Woman|32.0|11.2|
+|Unknown|40.1|76.9|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Yes|8.4|2.9|
-|Unknown|91.5|97.1|
+|Unknown|91.4|97.0|
 {: .sortable}
 
 ### Bingos
@@ -257,31 +257,31 @@ Values close to 100 suggest the same books were used repeatedly for a square; 10
 
 |SQUARE #|SQUARE|BOOK|AUTHOR|
 |:---------:|---------|:---------:|:---------:|
-|1|Knights and Paladins|62.4|72.1|
-|2|Hidden Gem|14.6|23.2|
-|3|Published in the 80s|59.1|70.7|
-|4|High Fashion|62.9|69.7|
-|5|Down With the System|44.9|57.3|
-|6|Impossible Places|52.5|62.9|
-|7|A Book in Parts|40.9|55.2|
-|8|Gods and Pantheons|42.7|59.3|
-|9|Last in a Series|39.5|50.1|
-|10|Book Club or Readalong Book|54.0|57.9|
-|11|Parents|45.6|55.9|
-|12|Epistolary|63.2|70.2|
-|13|Published in 2025|48.4|52.1|
-|14|Author of Color|45.2|59.4|
-|15|Small Press or Self-Published|21.8|32.3|
-|16|Biopunk|64.3|72.6|
-|17|Elves and Dwarves|55.8|69.9|
-|18|LGBTQIA Protagonist|41.6|54.0|
-|19|Five Short Stories|34.8|44.2|
-|20|Stranger in a Strange Land|43.9|55.7|
-|21|Recycle a Bingo Square|20.6|36.3|
-|22|Cozy SFF|51.4|63.0|
-|23|Generic Title|50.7|58.7|
+|1|Knights and Paladins|63.0|72.5|
+|2|Hidden Gem|14.6|23.3|
+|3|Published in the 80s|59.5|70.9|
+|4|High Fashion|63.1|69.9|
+|5|Down With the System|45.3|57.7|
+|6|Impossible Places|52.6|63.0|
+|7|A Book in Parts|41.0|55.3|
+|8|Gods and Pantheons|43.0|59.5|
+|9|Last in a Series|39.7|50.3|
+|10|Book Club or Readalong Book|54.2|57.9|
+|11|Parents|45.9|56.1|
+|12|Epistolary|63.7|70.6|
+|13|Published in 2025|48.7|52.3|
+|14|Author of Color|45.5|59.6|
+|15|Small Press or Self-Published|22.0|32.5|
+|16|Biopunk|64.9|73.1|
+|17|Elves and Dwarves|56.6|70.4|
+|18|LGBTQIA Protagonist|41.8|54.2|
+|19|Five Short Stories|35.4|44.6|
+|20|Stranger in a Strange Land|44.1|55.9|
+|21|Recycle a Bingo Square|20.7|36.5|
+|22|Cozy SFF|51.5|63.0|
+|23|Generic Title|51.0|59.0|
 |24|Not a Book|20.5|30.3|
-|25|Pirates|54.6|63.6|
+|25|Pirates|55.2|64.1|
 {: .sortable}
 
 The squares with the most variety in books:
@@ -312,21 +312,21 @@ Quoting the [very first bingo stats post](https://www.reddit.com/r/Fantasy/comme
 
 A "misspelling" for the purposes of these statistics is any book (title/author combination)
 that does not match the version used as the canonical version during cleaning.
-There were a total of 3611 misspellings.
+There were a total of 3814 misspellings.
 (Note that this does not include short stories.)
 
 The books with the most variation in title or author spellings were:
 
 - **This is How You Lose the Time War** by Amal El-Mohtar, Max Gladstone, with 25 variations
 - **Blood Over Bright Haven** by M.L. Wang, with 20 variations
-- ***TIE***: **The Adventures of Amina al-Sirafi** by Shannon Chakraborty and **The Sword of Kaigen** by M.L. Wang, with 14 variations each
-- ***TIE***: **Howl's Moving Castle** by Diana Wynne Jones and **Mother of Learning** by Domagoj Kurmaić, with 11 variations each
-- **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett, with 9 variations
-- ***TIE***: **Paladin's Grace** by T. Kingfisher and **The Spear Cuts Through Water** by Simon Jimenez and **The Tainted Cup** by Robert Jackson Bennett, with 8 variations each
-- ***TIE***: **A Psalm for the Wild-Built** by Becky Chambers and **A Wizard of Earthsea** by Ursula K. Le Guin and **Sorcery & Cecelia: or The Enchanted Chocolate Pot** by Patricia C. Wrede, Caroline Stevermer and **The Fifth Season** by N.K. Jemisin and **The House in the Cerulean Sea** by T.J. Klune and **The Will of the Many** by James Islington, with 7 variations each
-- ***TIE***: **A Memory of Light** by Robert Jordan, Brandon Sanderson and **Babel** by R.F. Kuang and **Beware of Chicken** by CasualFarmer and **Guards! Guards!** by Terry Pratchett and **Legends & Lattes** by Travis Baldree and **Somewhere Beyond the Sea** by T.J. Klune and **The Hobbit** by J.R.R. Tolkien and **The Left Hand of Darkness** by Ursula K. Le Guin and **The Mask of Mirrors** by M.A. Carrick, with 6 variations each
-- ***TIE***: **A Sorceress Comes to Call** by T. Kingfisher and **All Systems Red** by Martha Wells and **Gideon the Ninth** by Tamsyn Muir and **Gods of the Wyrdwood** by R.J. Barker and **He Who Fights with Monsters** by Shirtaloon and **Jonathan Strange & Mr. Norrell** by Susanna Clarke and **Leviathan Wakes** by James S.A. Corey and **Never Whistle at Night** by Shane Hawk, Theodore C. Van Alst Jr. and **Piranesi** by Susanna Clarke and **Ring Shout** by P. Djèlí Clark and **The City & the City** by China Miéville and **The City of Brass** by Shannon Chakraborty and **The Daughters’ War** by Christopher Buehlman and **The Dispossessed** by Ursula K. Le Guin and **The Fellowship of the Ring** by J.R.R. Tolkien and **The Word for World Is Forest** by Ursula K. Le Guin and **To Be Taught, If Fortunate** by Becky Chambers and **To Shape a Dragon's Breath** by Moniquill Blackgoose, with 5 variations each
-- ***TIE***: **A Master of Djinn** by P. Djèlí Clark and **Before the Coffee Gets Cold** by Toshikazu Kawaguchi and **DallerGut Dream Department Store** by Lee Mi-ye and **Dracula** by Bram Stoker and **Dungeon Crawler Carl** by Matt Dinniman and **Gods of Jade and Shadow** by Silvia Moreno-Garcia and **Good Omens** by Neil Gaiman, Terry Pratchett and **I’m Afraid You’ve Got Dragons** by Peter S. Beagle and **Mistborn** by Brandon Sanderson and **Nettle & Bone** by T. Kingfisher and **Orconomics** by J. Zachary Pike and **The Black God's Drums** by P. Djèlí Clark and **The Bone Ships** by R.J. Barker and **The Book That Wouldn't Burn** by Mark Lawrence and **The Color of Magic** by Terry Pratchett and **The Dead Cat Tail Assassins** by P. Djèlí Clark and **The Eye of the Bedlam Bride** by Matt Dinniman and **The Invisible Life of Addie LaRue** by V.E. Schwab and **The Liar's Knot** by M.A. Carrick and **The Long Way to a Small, Angry Planet** by Becky Chambers and **The Phoenix Keeper** by S.A. MacLean and **The Three-Body Problem** by Cixin Liu and **There Is No Antimemetics Division** by qntm and **Vita Nostra** by Marina Dyachenko, Sergey Dyachenko and **Water Moon** by Samantha Sotto Yambao, with 4 variations each
+- **The Adventures of Amina al-Sirafi** by Shannon Chakraborty, with 16 variations
+- **The Sword of Kaigen** by M.L. Wang, with 14 variations
+- **Howl's Moving Castle** by Diana Wynne Jones, with 13 variations
+- **Mother of Learning** by Domagoj Kurmaić, with 12 variations
+- ***TIE***: **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett and **The Tainted Cup** by Robert Jackson Bennett, with 11 variations each
+- ***TIE***: **Never Whistle at Night** by Shane Hawk, Theodore C. Van Alst Jr. and **Paladin's Grace** by T. Kingfisher, with 10 variations each
+- ***TIE***: **A Wizard of Earthsea** by Ursula K. Le Guin and **The Spear Cuts Through Water** by Simon Jimenez, with 8 variations each
+- ***TIE***: **A Psalm for the Wild-Built** by Becky Chambers and **A Sorceress Comes to Call** by T. Kingfisher and **Gods of Jade and Shadow** by Silvia Moreno-Garcia and **Sorcery & Cecelia: or The Enchanted Chocolate Pot** by Patricia C. Wrede, Caroline Stevermer and **The Fifth Season** by N.K. Jemisin and **The House in the Cerulean Sea** by T.J. Klune and **The Left Hand of Darkness** by Ursula K. Le Guin and **The River Has Roots** by Amal El-Mohtar and **The Will of the Many** by James Islington, with 7 variations each
 
 What makes a book hard to "spell" correctly?
 
@@ -352,8 +352,8 @@ Out of 1548 cards, 467 used the Substitution rule.
 ### Authors
 
 - ***TIE***: Andy Weir and Ursula K. Le Guin, each read 8 times
-- Matt Dinniman, read 7 times
-- ***TIE***: Adrian Tchaikovsky and T. Kingfisher, each read 6 times
+- ***TIE***: Matt Dinniman and T. Kingfisher, each read 7 times
+- ***TIE***: Adrian Tchaikovsky and Stephen King, each read 6 times
 
 ### Squares
 

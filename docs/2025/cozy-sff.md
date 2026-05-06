@@ -23,9 +23,9 @@ Statistics for other squares can be found at the following links:
 - **The Teller of Small Fortunes** by Julie Leong, read 49 times
 - **The Very Secret Society of Irregular Witches** by Sangu Mandanna, read 36 times
 
-**TOTAL**: 1511 books read, with 663 unique titles.
+**TOTAL**: 1511 books read, with 661 unique titles.
 1020 books were claimed to qualify for hard mode.
-511 books were used only once for this square.
+509 books were used only once for this square.
 Skipped 35 times. Substituted 2 times.
 
 ## Most Read Authors
@@ -34,39 +34,39 @@ Skipped 35 times. Substituted 2 times.
 - Becky Chambers, read 101 times
 - ***TIE***: Sangu Mandanna and Sarah Beth Durst, each read 74 times
 - Julie Leong, read 53 times
-- T. Kingfisher, read 40 times
+- T. Kingfisher, read 41 times
 
-**TOTAL**: 1524 total authors read, with 457 unique.
-311 authors were used only once for this square.
+**TOTAL**: 1524 total authors read, with 455 unique.
+309 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|8.7|4.3|
+|Asian|8.7|4.4|
 |Black|0.5|1.1|
 |Hispanic|0.1|0.4|
-|White|49.4|29.3|
-|Unknown|41.3|64.8|
+|White|49.7|30.1|
+|Unknown|40.9|64.0|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|3.1|2.2|
-|Unknown|95.9|95.7|
+|United States|3.1|2.4|
+|Unknown|95.8|95.4|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|19.5|12.2|
-|Nonbinary|3.2|1.7|
-|Woman|36.0|21.1|
-|Unknown|41.3|65.0|
+|Man|19.6|12.4|
+|Nonbinary|3.3|2.0|
+|Woman|36.2|21.4|
+|Unknown|41.0|64.2|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|22.8|7.4|
-|Unknown|77.2|92.6|
+|Yes|22.8|7.6|
+|Unknown|77.2|92.4|
 {: .sortable}
 

@@ -23,9 +23,9 @@ Statistics for other squares can be found at the following links:
 - **Unsouled** by Will Wight, read 12 times
 - ***TIE***: **Mother of Learning** by Domagoj Kurmaić and **Strange Beasts of China** by Yan Ge, each read 10 times
 
-**TOTAL**: 1471 books read, with 1128 unique titles.
+**TOTAL**: 1471 books read, with 1125 unique titles.
 685 books were claimed to qualify for hard mode.
-986 books were used only once for this square.
+982 books were used only once for this square.
 Skipped 57 times. Substituted 20 times.
 
 ## Most Read Authors
@@ -36,20 +36,20 @@ Skipped 57 times. Substituted 20 times.
 - Victoria Goddard, read 16 times
 - M.L. Wang, read 15 times
 
-**TOTAL**: 1559 total authors read, with 1001 unique.
-800 authors were used only once for this square.
+**TOTAL**: 1559 total authors read, with 997 unique.
+794 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Arabic|0.1|0.1|
-|Asian|3.2|2.5|
+|Asian|3.3|2.5|
 |Black|0.8|0.8|
 |Hispanic|0.6|0.8|
 |Native|0.6|0.6|
-|White|33.6|19.5|
-|Unknown|61.1|75.8|
+|White|33.7|19.6|
+|Unknown|60.9|75.6|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
@@ -60,10 +60,10 @@ Skipped 57 times. Substituted 20 times.
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|15.5|10.6|
+|Man|15.5|10.7|
 |Nonbinary|2.2|1.5|
-|Woman|20.7|12.0|
-|Unknown|61.6|75.9|
+|Woman|20.8|12.2|
+|Unknown|61.4|75.7|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|

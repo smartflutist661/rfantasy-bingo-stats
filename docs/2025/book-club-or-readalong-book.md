@@ -17,58 +17,58 @@ Statistics for other squares can be found at the following links:
 
 ## Most Read Books
 
-- **The River Has Roots** by Amal El-Mohtar, read 59 times
+- **The River Has Roots** by Amal El-Mohtar, read 62 times
 - **The Raven Scholar** by Antonia Hodgson, read 46 times
 - **The Incandescent** by Emily Tesh, read 35 times
 - ***TIE***: **Greenteeth** by Molly O'Neill and **Someone You Can Build a Nest In** by John Wiswell, each read 25 times
 - **A Wizard of Earthsea** by Ursula K. Le Guin, read 23 times
 
-**TOTAL**: 1463 books read, with 492 unique titles.
+**TOTAL**: 1463 books read, with 487 unique titles.
 380 books were claimed to qualify for hard mode.
-282 books were used only once for this square.
+278 books were used only once for this square.
 Skipped 46 times. Substituted 39 times.
 
 ## Most Read Authors
 
-- Amal El-Mohtar, read 65 times
+- Amal El-Mohtar, read 68 times
 - T. Kingfisher, read 50 times
 - Antonia Hodgson, read 47 times
 - Emily Tesh, read 40 times
 - Ursula K. Le Guin, read 29 times
 
-**TOTAL**: 1480 total authors read, with 355 unique.
-154 authors were used only once for this square.
+**TOTAL**: 1480 total authors read, with 350 unique.
+150 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|10.9|9.4|
-|Black|4.3|3.4|
-|Hispanic|0.3|1.0|
-|Native|0.3|1.0|
-|White|54.4|44.8|
-|Unknown|29.8|40.3|
+|Asian|11.1|9.5|
+|Black|4.5|3.4|
+|Hispanic|0.3|1.1|
+|Native|0.3|1.1|
+|White|54.4|45.4|
+|Unknown|29.5|39.5|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Canada|4.8|2.4|
-|United States|7.2|5.2|
-|Unknown|85.7|90.1|
+|Canada|5.0|2.4|
+|United States|7.2|5.3|
+|Unknown|85.5|89.9|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|24.7|23.6|
-|Nonbinary|2.6|3.9|
-|Woman|42.8|31.9|
-|Unknown|29.9|40.6|
+|Man|24.8|23.9|
+|Nonbinary|2.6|4.0|
+|Woman|43.1|32.4|
+|Unknown|29.5|39.8|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|10.4|12.8|
-|Unknown|89.6|87.2|
+|Yes|10.4|13.0|
+|Unknown|89.6|87.0|
 {: .sortable}
 

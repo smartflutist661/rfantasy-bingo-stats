@@ -17,57 +17,57 @@ Statistics for other squares can be found at the following links:
 
 ## Most Read Books
 
-- **Paladin's Grace** by T. Kingfisher, read 103 times
+- **Paladin's Grace** by T. Kingfisher, read 105 times
 - **The Devils** by Joe Abercrombie, read 81 times
 - **The Everlasting** by Alix E. Harrow, read 68 times
 - **The Starving Saints** by Caitlin Starling, read 59 times
 - **The Bright Sword** by Lev Grossman, read 52 times
 
-**TOTAL**: 1489 books read, with 476 unique titles.
+**TOTAL**: 1489 books read, with 467 unique titles.
 881 books were claimed to qualify for hard mode.
-360 books were used only once for this square.
+352 books were used only once for this square.
 Skipped 44 times. Substituted 15 times.
 
 ## Most Read Authors
 
-- T. Kingfisher, read 211 times
-- Christopher Buehlman, read 88 times
+- T. Kingfisher, read 213 times
+- Christopher Buehlman, read 91 times
 - Joe Abercrombie, read 87 times
 - Alix E. Harrow, read 70 times
 - Caitlin Starling, read 61 times
 
-**TOTAL**: 1514 total authors read, with 324 unique.
-218 authors were used only once for this square.
+**TOTAL**: 1514 total authors read, with 316 unique.
+211 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|3.6|2.9|
-|Black|3.8|0.9|
+|Asian|3.6|3.0|
+|Black|4.2|0.9|
 |Hispanic|0.1|0.6|
-|White|66.4|33.6|
-|Unknown|26.0|61.9|
+|White|66.8|34.4|
+|Unknown|25.2|61.0|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |United Kingdom|6.3|1.5|
 |United States|5.0|2.4|
-|Unknown|85.2|95.3|
+|Unknown|85.2|95.2|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|30.4|20.1|
+|Man|30.7|20.5|
 |Nonbinary|2.0|1.5|
-|Woman|41.5|16.2|
-|Unknown|26.1|62.2|
+|Woman|42.0|16.6|
+|Unknown|25.3|61.3|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|10.0|4.7|
-|Unknown|90.0|95.3|
+|Yes|10.0|4.8|
+|Unknown|90.0|95.2|
 {: .sortable}
 

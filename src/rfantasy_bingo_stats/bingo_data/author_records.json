@@ -2399,12 +2399,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Andrew J. Robinson": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "Andrew Joseph White": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -2468,6 +2462,12 @@
   "Andrew Pyper": {
     "gender": "Man",
     "ethnicity": "White",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "Andrew Robinson": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
     "queer": null,
     "nationality": "Unknown"
   },
@@ -15407,7 +15407,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Hubert Zanzim": {
+  "Hubert": {
     "gender": "Man",
     "ethnicity": "White",
     "queer": null,
@@ -21929,12 +21929,6 @@
     "queer": true,
     "nationality": "Unknown"
   },
-  "Katsuhiro Otomo": {
-    "gender": "Man",
-    "ethnicity": "Asian",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "Katy Hays": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -22043,7 +22037,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Keezey Young": {
+  "Keezy Young": {
     "gender": "Nonbinary",
     "ethnicity": "White",
     "queer": true,
@@ -26711,7 +26705,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Martin Miller": {
+  "Martin Millar": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -40793,7 +40787,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Yah-Yah Schofield": {
+  "Yah-Yah Scholfield": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -41522,6 +41516,12 @@
   "âge": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "Ōtomo Katsuhiro": {
+    "gender": "Man",
+    "ethnicity": "Asian",
     "queer": null,
     "nationality": "Unknown"
   },

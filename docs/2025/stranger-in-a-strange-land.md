@@ -17,58 +17,58 @@ Statistics for other squares can be found at the following links:
 
 ## Most Read Books
 
-- **The Teller of Small Fortunes** by Julie Leong, read 56 times
+- **The Teller of Small Fortunes** by Julie Leong, read 57 times
 - **The Ministry of Time** by Kaliane Bradley, read 35 times
 - **A Memory Called Empire** by Arkady Martine, read 33 times
-- **The Left Hand of Darkness** by Ursula K. Le Guin, read 30 times
+- **The Left Hand of Darkness** by Ursula K. Le Guin, read 31 times
 - **Exit West** by Mohsin Hamid, read 25 times
 
-**TOTAL**: 1499 books read, with 768 unique titles.
+**TOTAL**: 1499 books read, with 761 unique titles.
 666 books were claimed to qualify for hard mode.
-591 books were used only once for this square.
+580 books were used only once for this square.
 Skipped 44 times. Substituted 5 times.
 
 ## Most Read Authors
 
-- Ursula K. Le Guin, read 66 times
-- Julie Leong, read 60 times
+- Ursula K. Le Guin, read 67 times
+- Julie Leong, read 61 times
 - Arkady Martine, read 36 times
 - Kaliane Bradley, read 35 times
 - Adrian Tchaikovsky, read 28 times
 
-**TOTAL**: 1518 total authors read, with 554 unique.
-383 authors were used only once for this square.
+**TOTAL**: 1518 total authors read, with 545 unique.
+369 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Arabic|0.1|0.2|
-|Asian|9.6|6.6|
+|Asian|9.6|6.7|
 |Black|1.8|1.8|
 |Hispanic|0.7|1.1|
-|Native|1.0|0.5|
-|White|50.2|35.5|
-|Unknown|36.7|54.4|
+|Native|1.1|0.7|
+|White|50.5|36.3|
+|Unknown|36.3|53.2|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|8.2|4.6|
-|Unknown|89.5|93.8|
+|United States|8.3|4.9|
+|Unknown|89.5|93.5|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|22.9|19.5|
+|Man|22.9|19.9|
 |Nonbinary|1.9|1.6|
-|Woman|38.2|24.3|
-|Unknown|37.0|54.5|
+|Woman|38.6|25.1|
+|Unknown|36.6|53.4|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|11.1|6.2|
-|Unknown|88.9|93.8|
+|Yes|11.1|6.3|
+|Unknown|88.9|93.7|
 {: .sortable}
 

@@ -21,11 +21,11 @@ Statistics for other squares can be found at the following links:
 - **A Memory of Light** by Robert Jordan, Brandon Sanderson, read 16 times
 - ***TIE***: **Assassin's Quest** by Robin Hobb and **The Golden Enclaves** by Naomi Novik, each read 13 times
 - **Kingdom of Ash** by Sarah J. Maas, read 12 times
-- ***TIE***: **Jade Legacy** by Fonda Lee and **Last Argument of Kings** by Joe Abercrombie and **Leviathan Falls** by James S.A. Corey and **The Lost Metal** by Brandon Sanderson, each read 11 times
+- ***TIE***: **Jade Legacy** by Fonda Lee and **Last Argument of Kings** by Joe Abercrombie and **Leviathan Falls** by James S.A. Corey and **The Lost Metal** by Brandon Sanderson and **The Other Wind** by Ursula K. Le Guin, each read 11 times
 
-**TOTAL**: 1460 books read, with 785 unique titles.
+**TOTAL**: 1460 books read, with 782 unique titles.
 689 books were claimed to qualify for hard mode.
-569 books were used only once for this square.
+566 books were used only once for this square.
 Skipped 55 times. Substituted 32 times.
 
 ## Most Read Authors
@@ -36,8 +36,8 @@ Skipped 55 times. Substituted 32 times.
 - Heather Fawcett, read 24 times
 - Naomi Novik, read 22 times
 
-**TOTAL**: 1495 total authors read, with 596 unique.
-381 authors were used only once for this square.
+**TOTAL**: 1494 total authors read, with 592 unique.
+377 authors were used only once for this square.
 
 ### Author demographics
 
@@ -47,27 +47,27 @@ Skipped 55 times. Substituted 32 times.
 |Black|2.1|1.4|
 |Hispanic|0.3|0.5|
 |Native|0.7|0.3|
-|White|63.2|48.4|
-|Unknown|28.2|44.0|
+|White|63.4|48.7|
+|Unknown|27.9|43.6|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|10.9|7.6|
-|Unknown|86.2|90.3|
+|United States|10.9|7.7|
+|Unknown|86.1|90.3|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|32.6|30.2|
+|Man|32.7|30.4|
 |Nonbinary|1.4|1.6|
-|Woman|37.7|24.1|
-|Unknown|28.3|44.1|
+|Woman|37.9|24.3|
+|Unknown|28.0|43.8|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|7.2|6.3|
+|Yes|7.2|6.4|
 |Unknown|92.4|93.0|
 {: .sortable}
 

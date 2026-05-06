@@ -18,38 +18,38 @@ Statistics for other squares can be found at the following links:
 ## Most Read Books
 
 - ***TIE***: **Buried Deep and Other Stories** by Naomi Novik and **Exhalation** by Ted Chiang and **Stories of Your Life and Others** by Ted Chiang, each read 26 times
+- **Never Whistle at Night** by Shane Hawk, Theodore C. Van Alst Jr., read 24 times
 - **Buried Deep** by Naomi Novik, read 20 times
-- **Never Whistle at Night** by Shane Hawk, Theodore C. Van Alst Jr., read 19 times
 - **Januaries** by Olivie Blake, read 17 times
 - **The Paper Menagerie and Other Stories** by Ken Liu, read 15 times
 
-**TOTAL**: 1222 books read, with 760 unique titles.
+**TOTAL**: 1222 books read, with 751 unique titles.
 1088 books were claimed to qualify for hard mode.
-628 books were used only once for this square.
+617 books were used only once for this square.
 Skipped 75 times. Substituted 43 times.
 
 ## Most Read Authors
 
 - Ted Chiang, read 57 times
 - Naomi Novik, read 53 times
-- Shane Hawk, read 28 times
+- Shane Hawk, read 29 times
 - Ken Liu, read 27 times
 - Olivie Blake, read 26 times
 
-**TOTAL**: 1705 total authors read, with 829 unique.
-565 authors were used only once for this square.
+**TOTAL**: 1706 total authors read, with 819 unique.
+554 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|10.4|4.0|
+|Asian|10.5|4.0|
 |Black|2.8|2.4|
-|Hispanic|4.1|2.3|
+|Hispanic|4.2|2.4|
 |Multiracial|0.1|0.1|
 |Native|0.6|0.3|
-|White|38.7|30.0|
-|Unknown|43.3|60.9|
+|White|38.7|30.1|
+|Unknown|43.1|60.7|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
@@ -60,10 +60,10 @@ Skipped 75 times. Substituted 43 times.
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|25.5|15.2|
+|Man|25.4|15.3|
 |Nonbinary|1.6|1.6|
-|Woman|29.5|22.1|
-|Unknown|43.4|61.1|
+|Woman|29.7|22.3|
+|Unknown|43.3|60.9|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|

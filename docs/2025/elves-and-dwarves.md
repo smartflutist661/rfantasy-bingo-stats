@@ -21,23 +21,23 @@ Statistics for other squares can be found at the following links:
 - **The Bone Harp** by Victoria Goddard, read 67 times
 - **Orconomics** by J. Zachary Pike, read 58 times
 - **The Tomb of Dragons** by Katherine Addison, read 55 times
-- **The Witness for the Dead** by Katherine Addison, read 47 times
+- **The Witness for the Dead** by Katherine Addison, read 48 times
 
-**TOTAL**: 1458 books read, with 574 unique titles.
+**TOTAL**: 1458 books read, with 560 unique titles.
 762 books were claimed to qualify for hard mode.
-430 books were used only once for this square.
+416 books were used only once for this square.
 Skipped 65 times. Substituted 25 times.
 
 ## Most Read Authors
 
-- Katherine Addison, read 176 times
+- Katherine Addison, read 178 times
 - Joe Abercrombie, read 95 times
 - J. Zachary Pike, read 87 times
 - J.R.R. Tolkien, read 83 times
 - Victoria Goddard, read 69 times
 
-**TOTAL**: 1509 total authors read, with 344 unique.
-218 authors were used only once for this square.
+**TOTAL**: 1512 total authors read, with 330 unique.
+204 authors were used only once for this square.
 
 ### Author demographics
 
@@ -46,8 +46,8 @@ Skipped 65 times. Substituted 25 times.
 |Asian|1.7|2.0|
 |Black|0.3|0.5|
 |Hispanic|0.3|0.3|
-|White|65.3|26.1|
-|Unknown|32.5|71.2|
+|White|65.4|26.4|
+|Unknown|32.4|70.8|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
@@ -59,15 +59,15 @@ Skipped 65 times. Substituted 25 times.
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|40.6|15.8|
+|Man|40.5|16.0|
 |Nonbinary|0.5|0.8|
-|Woman|26.4|12.3|
-|Unknown|32.5|71.2|
+|Woman|26.6|12.4|
+|Unknown|32.4|70.8|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|5.8|3.5|
+|Yes|5.8|3.6|
 |Unknown|93.3|96.2|
 {: .sortable}
 
