@@ -17,58 +17,58 @@ Statistics for other squares can be found at the following links:
 
 ## Most Read Books
 
-- **The Tainted Cup** by Robert Jackson Bennett, read 329 times
+- **The Tainted Cup** by Robert Jackson Bennett, read 331 times
 - **A Drop of Corruption** by Robert Jackson Bennett, read 281 times
 - **Children of Time** by Adrian Tchaikovsky, read 25 times
 - **Frankenstein** by Mary Shelley, read 20 times
 - **The Tusks of Extinction** by Ray Nayler, read 19 times
 
-**TOTAL**: 1489 books read, with 459 unique titles.
+**TOTAL**: 1489 books read, with 455 unique titles.
 713 books were claimed to qualify for hard mode.
-329 books were used only once for this square.
+325 books were used only once for this square.
 Skipped 43 times. Substituted 16 times.
 
 ## Most Read Authors
 
-- Robert Jackson Bennett, read 633 times
+- Robert Jackson Bennett, read 635 times
 - Adrian Tchaikovsky, read 68 times
 - Martha Wells, read 37 times
 - ***TIE***: Mary Shelley and Ray Nayler, each read 21 times
-- Jeff VanderMeer, read 19 times
+- Jeff VanderMeer, read 20 times
 
-**TOTAL**: 1493 total authors read, with 316 unique.
-203 authors were used only once for this square.
+**TOTAL**: 1494 total authors read, with 310 unique.
+197 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|4.2|6.6|
-|Black|2.1|2.5|
+|Asian|4.2|6.8|
+|Black|2.1|2.6|
 |Hispanic|1.3|1.3|
 |Native|0.9|0.6|
-|White|31.9|35.4|
-|Unknown|59.7|53.5|
+|White|32.3|37.0|
+|Unknown|59.3|51.8|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Canada|0.5|1.6|
-|United States|5.0|3.8|
-|Unknown|93.6|94.0|
+|United States|5.0|4.2|
+|Unknown|93.5|93.6|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|21.8|21.5|
+|Man|21.9|22.2|
 |Nonbinary|1.9|3.2|
-|Woman|16.6|21.5|
-|Unknown|59.7|53.8|
+|Woman|16.8|22.5|
+|Unknown|59.4|52.1|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|5.4|9.5|
-|Unknown|94.6|90.5|
+|Yes|5.4|9.6|
+|Unknown|94.6|90.4|
 {: .sortable}
 

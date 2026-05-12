@@ -17,57 +17,57 @@ Statistics for other squares can be found at the following links:
 
 ## Most Read Books
 
-- **Blood Over Bright Haven** by M.L. Wang, read 62 times
-- **One Dark Window** by Rachel Gillig, read 59 times
+- **Blood Over Bright Haven** by M.L. Wang, read 64 times
+- **One Dark Window** by Rachel Gillig, read 60 times
 - **Bury Our Bones in the Midnight Soil** by V.E. Schwab, read 31 times
 - **Shadow and Bone** by Leigh Bardugo, read 27 times
 - **Children of Blood and Bone** by Tomi Champion-Adeyemi, read 25 times
 
-**TOTAL**: 1465 books read, with 618 unique titles.
+**TOTAL**: 1465 books read, with 610 unique titles.
 477 books were claimed to qualify for hard mode.
-439 books were used only once for this square.
+429 books were used only once for this square.
 Skipped 65 times. Substituted 18 times.
 
 ## Most Read Authors
 
-- M.L. Wang, read 70 times
-- Rachel Gillig, read 61 times
+- M.L. Wang, read 72 times
+- Rachel Gillig, read 62 times
 - V.E. Schwab, read 50 times
 - Sarah J. Maas, read 43 times
 - T. Kingfisher, read 42 times
 
-**TOTAL**: 1494 total authors read, with 475 unique.
-305 authors were used only once for this square.
+**TOTAL**: 1494 total authors read, with 464 unique.
+290 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|4.1|4.1|
+|Asian|4.1|4.2|
 |Black|2.5|1.7|
-|Hispanic|2.0|1.2|
+|Hispanic|2.0|1.3|
 |Native|0.1|0.2|
-|White|50.9|34.0|
-|Unknown|40.4|58.7|
+|White|50.9|34.8|
+|Unknown|40.4|57.7|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|7.8|4.6|
-|Unknown|91.0|93.6|
+|United States|7.8|4.7|
+|Unknown|91.0|93.4|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|22.2|16.2|
-|Nonbinary|0.6|1.0|
-|Woman|36.7|24.1|
-|Unknown|40.4|58.7|
+|Man|22.0|16.3|
+|Nonbinary|0.6|1.1|
+|Woman|37.0|24.8|
+|Unknown|40.4|57.7|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|3.5|2.9|
-|Unknown|96.1|96.7|
+|Yes|3.1|2.8|
+|Unknown|96.5|96.8|
 {: .sortable}
 

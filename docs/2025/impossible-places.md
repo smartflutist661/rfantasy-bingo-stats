@@ -17,59 +17,59 @@ Statistics for other squares can be found at the following links:
 
 ## Most Read Books
 
-- **Piranesi** by Susanna Clarke, read 108 times
-- **Dungeon Crawler Carl** by Matt Dinniman, read 80 times
+- **Piranesi** by Susanna Clarke, read 111 times
+- **Dungeon Crawler Carl** by Matt Dinniman, read 81 times
 - **Katabasis** by R.F. Kuang, read 33 times
-- **The Book That Wouldn't Burn** by Mark Lawrence, read 30 times
-- **A Deadly Education** by Naomi Novik, read 25 times
+- **The Book That Wouldn't Burn** by Mark Lawrence, read 31 times
+- **A Deadly Education** by Naomi Novik, read 26 times
 
-**TOTAL**: 1513 books read, with 635 unique titles.
+**TOTAL**: 1513 books read, with 617 unique titles.
 1033 books were claimed to qualify for hard mode.
-470 books were used only once for this square.
+451 books were used only once for this square.
 Skipped 31 times. Substituted 4 times.
 
 ## Most Read Authors
 
-- Matt Dinniman, read 159 times
-- Susanna Clarke, read 111 times
-- Mark Lawrence, read 56 times
-- Terry Pratchett, read 41 times
-- Naomi Novik, read 40 times
+- Matt Dinniman, read 161 times
+- Susanna Clarke, read 114 times
+- Mark Lawrence, read 58 times
+- ***TIE***: Naomi Novik and Terry Pratchett, each read 41 times
+- R.F. Kuang, read 34 times
 
-**TOTAL**: 1527 total authors read, with 447 unique.
-284 authors were used only once for this square.
+**TOTAL**: 1525 total authors read, with 428 unique.
+266 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Arabic|0.1|0.2|
-|Asian|7.2|6.4|
+|Asian|7.2|6.5|
 |Black|0.6|1.6|
 |Hispanic|0.5|0.9|
 |Native|0.1|0.2|
-|White|65.2|38.8|
-|Unknown|26.4|51.9|
+|White|66.2|40.5|
+|Unknown|25.4|50.0|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Canada|1.0|1.1|
-|United States|3.6|2.7|
-|Unknown|93.7|93.6|
+|Canada|1.0|1.2|
+|United States|3.6|2.8|
+|Unknown|93.5|93.3|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|41.0|25.9|
-|Nonbinary|1.2|1.8|
-|Woman|30.4|20.2|
-|Unknown|27.4|52.1|
+|Man|41.6|26.9|
+|Nonbinary|1.2|1.9|
+|Woman|30.8|21.1|
+|Unknown|26.4|50.2|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|3.9|5.1|
-|Unknown|96.0|94.7|
+|Yes|4.0|5.3|
+|Unknown|95.9|94.4|
 {: .sortable}
 

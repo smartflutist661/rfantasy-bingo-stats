@@ -23,9 +23,9 @@ Statistics for other squares can be found at the following links:
 - **The Tomb of Dragons** by Katherine Addison, read 55 times
 - **The Witness for the Dead** by Katherine Addison, read 48 times
 
-**TOTAL**: 1458 books read, with 560 unique titles.
+**TOTAL**: 1458 books read, with 556 unique titles.
 762 books were claimed to qualify for hard mode.
-416 books were used only once for this square.
+412 books were used only once for this square.
 Skipped 65 times. Substituted 25 times.
 
 ## Most Read Authors
@@ -33,21 +33,21 @@ Skipped 65 times. Substituted 25 times.
 - Katherine Addison, read 178 times
 - Joe Abercrombie, read 95 times
 - J. Zachary Pike, read 87 times
-- J.R.R. Tolkien, read 83 times
+- J.R.R. Tolkien, read 84 times
 - Victoria Goddard, read 69 times
 
-**TOTAL**: 1512 total authors read, with 330 unique.
-204 authors were used only once for this square.
+**TOTAL**: 1512 total authors read, with 327 unique.
+202 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|1.7|2.0|
+|Asian|1.0|1.8|
 |Black|0.3|0.5|
 |Hispanic|0.3|0.3|
-|White|65.4|26.4|
-|Unknown|32.4|70.8|
+|White|61.9|26.3|
+|Unknown|36.6|71.1|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
@@ -59,15 +59,15 @@ Skipped 65 times. Substituted 25 times.
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|40.5|16.0|
+|Man|37.0|15.9|
 |Nonbinary|0.5|0.8|
-|Woman|26.6|12.4|
-|Unknown|32.4|70.8|
+|Woman|25.9|12.3|
+|Unknown|36.6|71.1|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|5.8|3.6|
-|Unknown|93.3|96.2|
+|Yes|2.2|3.3|
+|Unknown|96.9|96.4|
 {: .sortable}
 

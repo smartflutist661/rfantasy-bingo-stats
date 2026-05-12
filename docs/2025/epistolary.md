@@ -17,59 +17,59 @@ Statistics for other squares can be found at the following links:
 
 ## Most Read Books
 
-- **Piranesi** by Susanna Clarke, read 89 times
+- **Piranesi** by Susanna Clarke, read 91 times
 - **Dracula** by Bram Stoker, read 86 times
 - **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett, read 77 times
-- **This is How You Lose the Time War** by Amal El-Mohtar, Max Gladstone, read 69 times
+- **This is How You Lose the Time War** by Amal El-Mohtar, Max Gladstone, read 70 times
 - **Emily Wilde's Compendium of Lost Tales** by Heather Fawcett, read 61 times
 
-**TOTAL**: 1484 books read, with 455 unique titles.
+**TOTAL**: 1484 books read, with 447 unique titles.
 943 books were claimed to qualify for hard mode.
-340 books were used only once for this square.
+331 books were used only once for this square.
 Skipped 59 times. Substituted 5 times.
 
 ## Most Read Authors
 
 - Heather Fawcett, read 195 times
-- Susanna Clarke, read 94 times
+- Susanna Clarke, read 96 times
 - Bram Stoker, read 89 times
 - Amal El-Mohtar, read 73 times
-- Stephen Graham Jones, read 71 times
+- ***TIE***: Max Gladstone and Stephen Graham Jones, each read 71 times
 
-**TOTAL**: 1616 total authors read, with 359 unique.
-243 authors were used only once for this square.
+**TOTAL**: 1616 total authors read, with 352 unique.
+237 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Arabic|0.1|0.2|
-|Asian|5.5|14.8|
+|Asian|5.5|14.9|
 |Black|1.6|1.2|
 |Hispanic|1.4|0.5|
 |Native|4.5|0.5|
-|White|47.9|42.3|
-|Unknown|39.0|40.5|
+|White|48.1|42.7|
+|Unknown|38.9|39.9|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Canada|4.5|12.5|
-|United States|2.2|3.5|
-|Unknown|92.1|82.4|
+|Canada|4.5|12.6|
+|United States|2.2|3.6|
+|Unknown|92.1|82.2|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|28.8|28.3|
+|Man|28.9|28.6|
 |Nonbinary|0.5|1.4|
-|Woman|31.6|29.8|
-|Unknown|39.0|40.5|
+|Woman|31.7|30.1|
+|Unknown|38.9|39.9|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|2.9|4.2|
-|Unknown|97.0|95.6|
+|Yes|2.7|4.1|
+|Unknown|97.3|95.7|
 {: .sortable}
 

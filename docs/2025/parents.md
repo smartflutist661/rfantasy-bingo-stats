@@ -18,14 +18,14 @@ Statistics for other squares can be found at the following links:
 ## Most Read Books
 
 - **The Sword of Kaigen** by M.L. Wang, read 57 times
-- **Between Two Fires** by Christopher Buehlman, read 27 times
+- **Between Two Fires** by Christopher Buehlman, read 28 times
 - ***TIE***: **Godkiller** by Hannah Kaner and **The Fifth Season** by N.K. Jemisin, each read 24 times
 - **Dreamsnake** by Vonda N. McIntyre, read 23 times
-- **The Adventures of Amina al-Sirafi** by Shannon Chakraborty, read 22 times
+- ***TIE***: **The Adventures of Amina al-Sirafi** by Shannon Chakraborty and **The Road** by Cormac McCarthy, each read 22 times
 
-**TOTAL**: 1511 books read, with 724 unique titles.
+**TOTAL**: 1511 books read, with 715 unique titles.
 1001 books were claimed to qualify for hard mode.
-533 books were used only once for this square.
+521 books were used only once for this square.
 Skipped 32 times. Substituted 5 times.
 
 ## Most Read Authors
@@ -34,40 +34,40 @@ Skipped 32 times. Substituted 5 times.
 - N.K. Jemisin, read 48 times
 - Hannah Kaner, read 40 times
 - T.J. Klune, read 35 times
-- Christopher Buehlman, read 27 times
+- Christopher Buehlman, read 28 times
 
-**TOTAL**: 1533 total authors read, with 547 unique.
-373 authors were used only once for this square.
+**TOTAL**: 1533 total authors read, with 534 unique.
+355 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|7.3|5.7|
+|Asian|7.3|5.9|
 |Black|4.9|2.2|
-|Hispanic|0.3|0.5|
+|Hispanic|0.3|0.6|
 |Native|0.3|0.7|
-|White|45.6|35.8|
-|Unknown|41.6|55.0|
+|White|46.0|36.9|
+|Unknown|41.2|53.8|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|3.1|3.4|
-|Unknown|95.8|95.2|
+|United States|3.1|3.5|
+|Unknown|95.8|95.0|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|24.8|21.3|
+|Man|25.0|22.0|
 |Nonbinary|0.7|0.9|
-|Woman|32.2|22.6|
-|Unknown|42.3|55.2|
+|Woman|32.4|23.1|
+|Unknown|41.9|53.9|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|6.7|4.3|
-|Unknown|93.3|95.7|
+|Yes|6.8|4.4|
+|Unknown|93.2|95.6|
 {: .sortable}
 

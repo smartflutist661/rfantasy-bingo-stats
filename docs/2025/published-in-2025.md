@@ -23,9 +23,9 @@ Statistics for other squares can be found at the following links:
 - **The River Has Roots** by Amal El-Mohtar, read 32 times
 - ***TIE***: **Sunrise on the Reaping** by Suzanne Collins and **The Raven Scholar** by Antonia Hodgson, each read 26 times
 
-**TOTAL**: 1511 books read, with 668 unique titles.
+**TOTAL**: 1511 books read, with 666 unique titles.
 513 books were claimed to qualify for hard mode.
-464 books were used only once for this square.
+462 books were used only once for this square.
 Skipped 33 times. Substituted 4 times.
 
 ## Most Read Authors
@@ -36,8 +36,8 @@ Skipped 33 times. Substituted 4 times.
 - Amal El-Mohtar, read 32 times
 - ***TIE***: Antonia Hodgson and Robert Jackson Bennett, each read 30 times
 
-**TOTAL**: 1533 total authors read, with 588 unique.
-373 authors were used only once for this square.
+**TOTAL**: 1533 total authors read, with 586 unique.
+371 authors were used only once for this square.
 
 ### Author demographics
 
@@ -48,8 +48,8 @@ Skipped 33 times. Substituted 4 times.
 |Black|1.8|1.5|
 |Hispanic|0.3|0.7|
 |Native|1.0|0.2|
-|White|30.8|21.9|
-|Unknown|60.6|72.7|
+|White|30.3|22.2|
+|Unknown|61.1|72.4|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
@@ -60,15 +60,15 @@ Skipped 33 times. Substituted 4 times.
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|17.7|11.8|
+|Man|17.2|12.0|
 |Nonbinary|0.8|1.2|
 |Woman|20.7|14.0|
-|Unknown|60.8|73.0|
+|Unknown|61.3|72.8|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|4.2|3.7|
-|Unknown|95.8|96.3|
+|Yes|3.6|3.6|
+|Unknown|96.4|96.4|
 {: .sortable}
 

@@ -17,58 +17,58 @@ Statistics for other squares can be found at the following links:
 
 ## Most Read Books
 
-- **The Raven Scholar** by Antonia Hodgson, read 69 times
+- **The Raven Scholar** by Antonia Hodgson, read 70 times
 - **The Will of the Many** by James Islington, read 23 times
-- ***TIE***: **Service Model** by Adrian Tchaikovsky and **The Spear Cuts Through Water** by Simon Jimenez, each read 18 times
+- **The Spear Cuts Through Water** by Simon Jimenez, read 20 times
+- **Service Model** by Adrian Tchaikovsky, read 18 times
 - ***TIE***: **The Devils** by Joe Abercrombie and **The Incandescent** by Emily Tesh, each read 17 times
-- **Sunrise on the Reaping** by Suzanne Collins, read 13 times
 
-**TOTAL**: 1517 books read, with 793 unique titles.
+**TOTAL**: 1517 books read, with 787 unique titles.
 937 books were claimed to qualify for hard mode.
-563 books were used only once for this square.
+557 books were used only once for this square.
 Skipped 30 times. Substituted 1 times.
 
 ## Most Read Authors
 
-- Antonia Hodgson, read 74 times
+- Antonia Hodgson, read 75 times
 - Brandon Sanderson, read 64 times
 - Adrian Tchaikovsky, read 54 times
 - James Islington, read 36 times
-- V.E. Schwab, read 34 times
+- V.E. Schwab, read 35 times
 
-**TOTAL**: 1530 total authors read, with 555 unique.
-361 authors were used only once for this square.
+**TOTAL**: 1531 total authors read, with 548 unique.
+354 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|4.9|3.9|
+|Asian|5.1|4.2|
 |Black|2.0|3.6|
 |Hispanic|1.6|1.6|
 |Native|0.2|0.4|
-|White|59.2|39.3|
-|Unknown|32.2|51.2|
+|White|59.4|40.2|
+|Unknown|31.7|50.0|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |United Kingdom|3.0|1.1|
 |United States|8.2|3.8|
-|Unknown|86.5|93.7|
+|Unknown|86.5|93.5|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|37.8|24.2|
-|Nonbinary|1.7|2.3|
-|Woman|28.2|22.1|
-|Unknown|32.2|51.3|
+|Man|38.1|24.9|
+|Nonbinary|1.7|2.4|
+|Woman|28.4|22.5|
+|Unknown|31.7|50.2|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|11.0|6.5|
-|Unknown|88.5|93.0|
+|Yes|11.2|6.5|
+|Unknown|88.4|92.9|
 {: .sortable}
 

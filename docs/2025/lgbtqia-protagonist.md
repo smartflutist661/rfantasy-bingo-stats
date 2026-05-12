@@ -23,52 +23,52 @@ Statistics for other squares can be found at the following links:
 - **A Memory Called Empire** by Arkady Martine, read 19 times
 - **Bury Your Gays** by Chuck Tingle, read 17 times
 
-**TOTAL**: 1519 books read, with 769 unique titles.
+**TOTAL**: 1519 books read, with 761 unique titles.
 787 books were claimed to qualify for hard mode.
-540 books were used only once for this square.
+532 books were used only once for this square.
 Skipped 26 times. Substituted 3 times.
 
 ## Most Read Authors
 
 - Emily Tesh, read 38 times
+- T.J. Klune, read 37 times
 - Simon Jimenez, read 36 times
-- T.J. Klune, read 35 times
 - Tamsyn Muir, read 33 times
 - Chuck Tingle, read 31 times
 
-**TOTAL**: 1553 total authors read, with 560 unique.
-364 authors were used only once for this square.
+**TOTAL**: 1552 total authors read, with 551 unique.
+355 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|10.9|7.2|
-|Black|4.7|3.8|
-|Hispanic|2.2|2.0|
-|Native|1.7|0.7|
-|White|43.5|30.2|
-|Unknown|37.1|56.1|
+|Asian|11.0|7.3|
+|Black|4.8|3.8|
+|Hispanic|2.3|2.2|
+|Native|1.8|0.9|
+|White|42.8|30.6|
+|Unknown|37.4|55.2|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Canada|1.5|2.2|
-|United States|6.2|2.9|
-|Unknown|87.4|93.0|
+|Canada|1.6|2.4|
+|United States|6.3|2.9|
+|Unknown|87.3|92.7|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|16.9|12.5|
-|Nonbinary|7.0|5.1|
-|Woman|39.0|26.5|
-|Unknown|37.0|56.0|
+|Man|16.2|12.5|
+|Nonbinary|7.3|5.5|
+|Woman|39.2|27.0|
+|Unknown|37.4|55.0|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|31.7|16.7|
-|Unknown|68.3|83.3|
+|Yes|31.2|17.1|
+|Unknown|68.8|82.9|
 {: .sortable}
 

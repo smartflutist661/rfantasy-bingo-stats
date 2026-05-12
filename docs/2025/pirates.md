@@ -18,26 +18,26 @@ Statistics for other squares can be found at the following links:
 ## Most Read Books
 
 - **The Adventures of Amina al-Sirafi** by Shannon Chakraborty, read 96 times
-- **Tress of the Emerald Sea** by Brandon Sanderson, read 51 times
-- **The Wisteria Society of Lady Scoundrels** by India Holton, read 50 times
+- ***TIE***: **The Wisteria Society of Lady Scoundrels** by India Holton and **Tress of the Emerald Sea** by Brandon Sanderson, each read 51 times
 - **Of Monsters and Mainframes** by Barbara Truelove, read 43 times
 - **All Systems Red** by Martha Wells, read 36 times
+- **The Red Scholar’s Wake** by Aliette de Bodard, read 28 times
 
-**TOTAL**: 1435 books read, with 562 unique titles.
+**TOTAL**: 1435 books read, with 554 unique titles.
 707 books were claimed to qualify for hard mode.
-415 books were used only once for this square.
+407 books were used only once for this square.
 Skipped 67 times. Substituted 46 times.
 
 ## Most Read Authors
 
 - Shannon Chakraborty, read 102 times
 - Brandon Sanderson, read 60 times
-- India Holton, read 57 times
+- India Holton, read 58 times
 - Martha Wells, read 55 times
 - Barbara Truelove, read 45 times
 
-**TOTAL**: 1452 total authors read, with 395 unique.
-249 authors were used only once for this square.
+**TOTAL**: 1455 total authors read, with 385 unique.
+239 authors were used only once for this square.
 
 ### Author demographics
 
@@ -47,28 +47,28 @@ Skipped 67 times. Substituted 46 times.
 |Asian|4.7|1.7|
 |Black|2.1|1.2|
 |Hispanic|0.1|0.5|
-|Native|0.6|0.5|
-|White|63.2|40.9|
-|Unknown|29.3|54.9|
+|Native|0.5|0.5|
+|White|63.8|42.6|
+|Unknown|28.7|53.2|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |United States|10.1|4.7|
-|Unknown|87.2|94.4|
+|Unknown|87.2|94.3|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|30.6|21.8|
-|Nonbinary|3.5|2.5|
-|Woman|36.2|20.6|
-|Unknown|29.6|55.1|
+|Man|30.7|21.8|
+|Nonbinary|3.6|2.5|
+|Woman|36.8|22.3|
+|Unknown|28.9|53.5|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|8.6|6.6|
-|Unknown|91.4|93.4|
+|Yes|8.7|6.7|
+|Unknown|91.3|93.3|
 {: .sortable}
 

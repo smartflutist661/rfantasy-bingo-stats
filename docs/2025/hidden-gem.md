@@ -17,58 +17,58 @@ Statistics for other squares can be found at the following links:
 
 ## Most Read Books
 
-- **The Sign of the Dragon** by Mary Soon Lee, read 52 times
-- **Tuyo** by Rachel Neumeier, read 12 times
+- **The Sign of the Dragon** by Mary Soon Lee, read 53 times
+- **Tuyo** by Rachel Neumeier, read 13 times
 - **The Bone Harp** by Victoria Goddard, read 11 times
 - ***TIE***: **Dark Woods, Deep Water** by Jelena Dunato and **The Wings Upon Her Back** by Samantha Mills, each read 9 times
 - **The Winged Histories** by Sofia Samatar, read 8 times
 
-**TOTAL**: 1440 books read, with 1221 unique titles.
+**TOTAL**: 1440 books read, with 1212 unique titles.
 691 books were claimed to qualify for hard mode.
-1128 books were used only once for this square.
+1113 books were used only once for this square.
 Skipped 62 times. Substituted 46 times.
 
 ## Most Read Authors
 
-- Mary Soon Lee, read 54 times
-- Rachel Neumeier, read 19 times
+- Mary Soon Lee, read 55 times
+- Rachel Neumeier, read 20 times
 - Victoria Goddard, read 17 times
 - Sofia Samatar, read 11 times
 - Jelena Dunato, read 10 times
 
-**TOTAL**: 1516 total authors read, with 1132 unique.
-958 authors were used only once for this square.
+**TOTAL**: 1516 total authors read, with 1124 unique.
+946 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|6.4|2.4|
+|Asian|6.5|2.5|
 |Black|1.5|0.9|
 |Hispanic|0.6|0.6|
 |Multiracial|0.1|0.1|
-|Native|0.5|0.3|
-|White|24.7|19.0|
-|Unknown|66.2|76.6|
+|Native|0.5|0.4|
+|White|25.1|19.3|
+|Unknown|65.8|76.3|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|3.0|1.7|
-|Unknown|95.6|97.0|
+|United States|3.0|1.8|
+|Unknown|95.4|96.9|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|11.5|10.6|
+|Man|11.7|10.7|
 |Nonbinary|1.4|1.1|
-|Woman|20.8|11.7|
-|Unknown|66.2|76.6|
+|Woman|21.2|11.9|
+|Unknown|65.8|76.3|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|6.4|3.8|
-|Unknown|93.6|96.2|
+|Yes|6.6|4.0|
+|Unknown|93.4|96.0|
 {: .sortable}
 

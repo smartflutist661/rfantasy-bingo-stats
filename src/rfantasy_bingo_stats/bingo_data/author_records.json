@@ -1511,7 +1511,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Alexiane De Lys": {
+  "Alexiane de Lys": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -1763,7 +1763,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Allen Steele": {
+  "Allen M. Steele": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -2399,6 +2399,12 @@
     "queer": null,
     "nationality": "Unknown"
   },
+  "Andrew J. Robinson": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
   "Andrew Joseph White": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -2462,12 +2468,6 @@
   "Andrew Pyper": {
     "gender": "Man",
     "ethnicity": "White",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "Andrew Robinson": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
     "queer": null,
     "nationality": "Unknown"
   },
@@ -3372,12 +3372,6 @@
     "nationality": "Unknown"
   },
   "Ashley Bennett": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "Ashley Blooms": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -4709,12 +4703,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Brian Aldiss": {
-    "gender": "Man",
-    "ethnicity": "White",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "Brian Asman": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -4866,6 +4854,12 @@
     "nationality": "Unknown"
   },
   "Brian Turner": {
+    "gender": "Man",
+    "ethnicity": "White",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "Brian W. Aldiss": {
     "gender": "Man",
     "ethnicity": "White",
     "queer": null,
@@ -7121,7 +7115,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Christopher Cladwell": {
+  "Christopher Caldwell": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -8255,6 +8249,12 @@
     "queer": null,
     "nationality": "Unknown"
   },
+  "Daken": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
   "Dakota Cassidy": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -9119,6 +9119,12 @@
     "queer": null,
     "nationality": "Unknown"
   },
+  "David Erik Nelson": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
   "David F. Shultz": {
     "gender": "Man",
     "ethnicity": "White",
@@ -9396,6 +9402,12 @@
     "nationality": "Unknown"
   },
   "David Thomas Moore": {
+    "gender": "Man",
+    "ethnicity": "White",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "David Verburg": {
     "gender": "Man",
     "ethnicity": "White",
     "queer": null,
@@ -10127,7 +10139,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Doug Enstrom": {
+  "Doug Engstrom": {
     "gender": "Man",
     "ethnicity": "White",
     "queer": null,
@@ -11579,7 +11591,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Emily Riesback": {
+  "Emily Riesbeck": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -11963,12 +11975,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Erik David Nelson": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "Erik J. Brown": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -12182,12 +12188,6 @@
   "Ernst Jünger": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "ErraticErrata": {
-    "gender": "Man",
-    "ethnicity": "White",
     "queer": null,
     "nationality": "Unknown"
   },
@@ -12965,7 +12965,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Friedrich de la Motte Fouque": {
+  "Friedrich de la Motte Fouqué": {
     "gender": "Man",
     "ethnicity": "White",
     "queer": null,
@@ -13517,7 +13517,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Gene Roddenbery": {
+  "Gene Roddenberry": {
     "gender": "Man",
     "ethnicity": "White",
     "queer": null,
@@ -15569,7 +15569,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Ian McEvan": {
+  "Ian McEwan": {
     "gender": "Man",
     "ethnicity": "White",
     "queer": null,
@@ -22769,12 +22769,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Kohei Horikoshi": {
-    "gender": "Man",
-    "ethnicity": "Asian",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "Kosoko Jackson": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -22997,6 +22991,12 @@
     "queer": null,
     "nationality": "Unknown"
   },
+  "Kui Ryōko": {
+    "gender": "Woman",
+    "ethnicity": "Asian",
+    "queer": null,
+    "nationality": "Unknown"
+  },
   "Kuji Furumiya": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -23096,6 +23096,12 @@
   "Kyouka Izumi": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "Kōhei Horikoshi": {
+    "gender": "Man",
+    "ethnicity": "Asian",
     "queer": null,
     "nationality": "Unknown"
   },
@@ -23450,12 +23456,6 @@
   "Lars Carlberg": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "Laszlo Krasznahorkai": {
-    "gender": "Man",
-    "ethnicity": "White",
     "queer": null,
     "nationality": "Unknown"
   },
@@ -24395,7 +24395,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Linda Raquel Perez Nieves": {
+  "Linda Raquel Nieves Pérez": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -25181,6 +25181,12 @@
     "queer": null,
     "nationality": "Unknown"
   },
+  "László Krasznahorkai": {
+    "gender": "Man",
+    "ethnicity": "White",
+    "queer": null,
+    "nationality": "Unknown"
+  },
   "Lívia Borges": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -25397,12 +25403,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "M.L Hanover": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "M.L. Brennan": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -25440,6 +25440,12 @@
     "nationality": "Unknown"
   },
   "M.L.D. Curelas": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "M.L.N. Hanover": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -26027,7 +26033,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Margret Helgadottir": {
+  "Margrét Helgadóttir": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -28397,7 +28403,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Mickey Zucker Reichart": {
+  "Mickey Zucker Reichert": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -28595,7 +28601,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Milton Davis": {
+  "Milton J. Davis": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -28653,6 +28659,12 @@
     "gender": "Woman",
     "ethnicity": "White",
     "queer": true,
+    "nationality": "Unknown"
+  },
+  "Mira Ong Chua": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
+    "queer": null,
     "nationality": "Unknown"
   },
   "Mira Valentin": {
@@ -30120,6 +30132,12 @@
     "nationality": "Unknown"
   },
   "NoViolet Bulawayo": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "Noah Ashley Blooms": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -34157,12 +34175,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Ryoko Kui": {
-    "gender": "Woman",
-    "ethnicity": "Asian",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "Ryosuke Fuji": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -34577,7 +34589,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Sachiko Kashiwabe": {
+  "Sachiko Kashiwaba": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -34997,6 +35009,12 @@
     "queer": null,
     "nationality": "Unknown"
   },
+  "Sara Flannery Murphy": {
+    "gender": "Woman",
+    "ethnicity": "White",
+    "queer": null,
+    "nationality": "Unknown"
+  },
   "Sara Gran": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -35072,12 +35090,6 @@
   "Sarah Fine": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "Sarah Flannery Murphy": {
-    "gender": "Woman",
-    "ethnicity": "White",
     "queer": null,
     "nationality": "Unknown"
   },
@@ -35633,6 +35645,12 @@
     "queer": null,
     "nationality": "Unknown"
   },
+  "Seamus Heaney": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
   "Seamus King": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -36161,12 +36179,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Sheree R. Thomas": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "Sheree Renée Thomas": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -36485,15 +36497,15 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Simon Stalenhag": {
-    "gender": "Man",
-    "ethnicity": "White",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "Simon Stephenson": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "Simon Stålenhag": {
+    "gender": "Man",
+    "ethnicity": "White",
     "queer": null,
     "nationality": "Unknown"
   },
@@ -37283,7 +37295,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Stewart Hotson": {
+  "Stewart Hotston": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -38219,7 +38231,7 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "TedSteel": {
+  "Ted Steel": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -39281,12 +39293,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Translation by Seamus Heaney": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "Travis Bach": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -39300,12 +39306,6 @@
     "nationality": "Unknown"
   },
   "Travis Baldree": {
-    "gender": "Man",
-    "ethnicity": "White",
-    "queer": true,
-    "nationality": "Unknown"
-  },
-  "Travis Baldwin": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -40913,12 +40913,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "Yoko Tawada": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "Yolanda Molina-Gavilan": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -41090,6 +41084,12 @@
   "Yōko Ogawa": {
     "gender": "Woman",
     "ethnicity": "Asian",
+    "queer": null,
+    "nationality": "Unknown"
+  },
+  "Yōko Tawada": {
+    "gender": "Unknown",
+    "ethnicity": "Unknown",
     "queer": null,
     "nationality": "Unknown"
   },
@@ -41375,18 +41375,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "lots of authors (50 parts)": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "lots of authors (50 pieces)": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "lungs": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -41394,12 +41382,6 @@
     "nationality": "Unknown"
   },
   "mightbewriting": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "mira ong chua": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
@@ -41591,12 +41573,6 @@
     "queer": null,
     "nationality": "Unknown"
   },
-  "石黒正数": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
   "竹亦心": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
@@ -41610,12 +41586,6 @@
     "nationality": "Unknown"
   },
   "鄭丰": {
-    "gender": "Unknown",
-    "ethnicity": "Unknown",
-    "queer": null,
-    "nationality": "Unknown"
-  },
-  "駄犬": {
     "gender": "Unknown",
     "ethnicity": "Unknown",
     "queer": null,
