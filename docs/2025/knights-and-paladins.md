@@ -23,9 +23,9 @@ Statistics for other squares can be found at the following links:
 - **The Starving Saints** by Caitlin Starling, read 59 times
 - **The Bright Sword** by Lev Grossman, read 54 times
 
-**TOTAL**: 1489 books read, with 459 unique titles.
+**TOTAL**: 1489 books read, with 457 unique titles.
 881 books were claimed to qualify for hard mode.
-344 books were used only once for this square.
+342 books were used only once for this square.
 Skipped 44 times. Substituted 15 times.
 
 ## Most Read Authors
@@ -36,18 +36,18 @@ Skipped 44 times. Substituted 15 times.
 - Alix E. Harrow, read 70 times
 - Caitlin Starling, read 61 times
 
-**TOTAL**: 1514 total authors read, with 307 unique.
-202 authors were used only once for this square.
+**TOTAL**: 1514 total authors read, with 305 unique.
+200 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Asian|3.5|2.8|
-|Black|4.2|0.9|
+|Black|4.3|0.9|
 |Hispanic|0.1|0.6|
-|White|67.4|35.7|
-|Unknown|24.8|59.9|
+|White|67.3|35.6|
+|Unknown|24.8|60.0|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
@@ -59,10 +59,10 @@ Skipped 44 times. Substituted 15 times.
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|31.0|21.4|
+|Man|30.8|21.2|
 |Nonbinary|2.0|1.6|
-|Woman|42.1|16.8|
-|Unknown|24.8|60.2|
+|Woman|42.3|16.9|
+|Unknown|24.8|60.3|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|

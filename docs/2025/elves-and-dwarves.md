@@ -23,9 +23,9 @@ Statistics for other squares can be found at the following links:
 - **The Tomb of Dragons** by Katherine Addison, read 55 times
 - **The Witness for the Dead** by Katherine Addison, read 48 times
 
-**TOTAL**: 1458 books read, with 556 unique titles.
+**TOTAL**: 1458 books read, with 555 unique titles.
 762 books were claimed to qualify for hard mode.
-412 books were used only once for this square.
+411 books were used only once for this square.
 Skipped 65 times. Substituted 25 times.
 
 ## Most Read Authors
@@ -36,8 +36,8 @@ Skipped 65 times. Substituted 25 times.
 - J.R.R. Tolkien, read 84 times
 - Victoria Goddard, read 69 times
 
-**TOTAL**: 1512 total authors read, with 327 unique.
-202 authors were used only once for this square.
+**TOTAL**: 1512 total authors read, with 326 unique.
+201 authors were used only once for this square.
 
 ### Author demographics
 
@@ -46,8 +46,8 @@ Skipped 65 times. Substituted 25 times.
 |Asian|1.0|1.8|
 |Black|0.3|0.5|
 |Hispanic|0.3|0.3|
-|White|61.9|26.3|
-|Unknown|36.6|71.1|
+|White|62.0|26.7|
+|Unknown|36.5|70.8|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
@@ -61,8 +61,8 @@ Skipped 65 times. Substituted 25 times.
 |---------|:---------:|:---------:|
 |Man|37.0|15.9|
 |Nonbinary|0.5|0.8|
-|Woman|25.9|12.3|
-|Unknown|36.6|71.1|
+|Woman|26.0|12.6|
+|Unknown|36.5|70.8|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|

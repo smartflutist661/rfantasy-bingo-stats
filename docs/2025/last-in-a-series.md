@@ -23,9 +23,9 @@ Statistics for other squares can be found at the following links:
 - ***TIE***: **Assassin's Quest** by Robin Hobb and **The Golden Enclaves** by Naomi Novik, each read 13 times
 - **Kingdom of Ash** by Sarah J. Maas, read 12 times
 
-**TOTAL**: 1460 books read, with 777 unique titles.
+**TOTAL**: 1460 books read, with 776 unique titles.
 689 books were claimed to qualify for hard mode.
-561 books were used only once for this square.
+560 books were used only once for this square.
 Skipped 55 times. Substituted 32 times.
 
 ## Most Read Authors
@@ -36,19 +36,19 @@ Skipped 55 times. Substituted 32 times.
 - Heather Fawcett, read 24 times
 - Naomi Novik, read 22 times
 
-**TOTAL**: 1494 total authors read, with 587 unique.
-372 authors were used only once for this square.
+**TOTAL**: 1494 total authors read, with 586 unique.
+371 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Asian|5.4|5.3|
-|Black|2.1|1.4|
+|Black|2.1|1.5|
 |Hispanic|0.3|0.5|
 |Native|0.7|0.3|
-|White|63.7|49.1|
-|Unknown|27.6|43.3|
+|White|63.6|49.0|
+|Unknown|27.8|43.4|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
@@ -59,10 +59,10 @@ Skipped 55 times. Substituted 32 times.
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|32.7|30.6|
+|Man|32.6|30.5|
 |Nonbinary|1.4|1.6|
-|Woman|38.1|24.3|
-|Unknown|27.8|43.5|
+|Woman|38.1|24.4|
+|Unknown|27.9|43.5|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|

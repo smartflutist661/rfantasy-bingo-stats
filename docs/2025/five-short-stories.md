@@ -23,9 +23,9 @@ Statistics for other squares can be found at the following links:
 - **Buried Deep** by Naomi Novik, read 20 times
 - **Januaries** by Olivie Blake, read 17 times
 
-**TOTAL**: 1222 books read, with 737 unique titles.
+**TOTAL**: 1222 books read, with 735 unique titles.
 1088 books were claimed to qualify for hard mode.
-601 books were used only once for this square.
+599 books were used only once for this square.
 Skipped 75 times. Substituted 43 times.
 
 ## Most Read Authors
@@ -33,23 +33,23 @@ Skipped 75 times. Substituted 43 times.
 - Ted Chiang, read 58 times
 - Naomi Novik, read 54 times
 - Shane Hawk, read 29 times
-- Ken Liu, read 27 times
+- Ken Liu, read 28 times
 - Olivie Blake, read 26 times
 
-**TOTAL**: 1706 total authors read, with 807 unique.
-541 authors were used only once for this square.
+**TOTAL**: 1706 total authors read, with 805 unique.
+539 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|10.6|3.9|
+|Asian|10.7|3.9|
 |Black|2.9|2.5|
 |Hispanic|4.2|2.5|
 |Multiracial|0.1|0.1|
 |Native|0.6|0.3|
-|White|38.9|30.4|
-|Unknown|42.7|60.4|
+|White|38.9|30.5|
+|Unknown|42.7|60.3|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
@@ -60,10 +60,10 @@ Skipped 75 times. Substituted 43 times.
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|25.6|15.4|
+|Man|25.6|15.5|
 |Nonbinary|1.6|1.6|
-|Woman|30.0|22.3|
-|Unknown|42.8|60.6|
+|Woman|30.0|22.4|
+|Unknown|42.8|60.5|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|

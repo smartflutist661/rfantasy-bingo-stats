@@ -23,9 +23,9 @@ Statistics for other squares can be found at the following links:
 - **The Book That Wouldn't Burn** by Mark Lawrence, read 31 times
 - **A Deadly Education** by Naomi Novik, read 26 times
 
-**TOTAL**: 1513 books read, with 617 unique titles.
+**TOTAL**: 1513 books read, with 615 unique titles.
 1033 books were claimed to qualify for hard mode.
-451 books were used only once for this square.
+449 books were used only once for this square.
 Skipped 31 times. Substituted 4 times.
 
 ## Most Read Authors
@@ -36,8 +36,8 @@ Skipped 31 times. Substituted 4 times.
 - ***TIE***: Naomi Novik and Terry Pratchett, each read 41 times
 - R.F. Kuang, read 34 times
 
-**TOTAL**: 1525 total authors read, with 428 unique.
-266 authors were used only once for this square.
+**TOTAL**: 1525 total authors read, with 426 unique.
+264 authors were used only once for this square.
 
 ### Author demographics
 
@@ -56,14 +56,14 @@ Skipped 31 times. Substituted 4 times.
 |---------|:---------:|:---------:|
 |Canada|1.0|1.2|
 |United States|3.6|2.8|
-|Unknown|93.5|93.3|
+|Unknown|93.4|93.3|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|41.6|26.9|
+|Man|41.6|26.7|
 |Nonbinary|1.2|1.9|
-|Woman|30.8|21.1|
+|Woman|30.8|21.2|
 |Unknown|26.4|50.2|
 {: .sortable}
 

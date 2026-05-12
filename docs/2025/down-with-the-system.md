@@ -36,18 +36,18 @@ Skipped 34 times. Substituted 0 times.
 - Pierce Brown, read 53 times
 - Adrian Tchaikovsky, read 49 times
 
-**TOTAL**: 1550 total authors read, with 537 unique.
-363 authors were used only once for this square.
+**TOTAL**: 1550 total authors read, with 536 unique.
+361 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|7.6|6.1|
+|Asian|7.7|6.2|
 |Black|4.1|3.2|
 |Hispanic|0.8|0.7|
 |Native|0.5|0.5|
-|White|52.9|37.1|
+|White|52.8|37.0|
 |Unknown|34.1|52.3|
 {: .sortable}
 
@@ -59,9 +59,9 @@ Skipped 34 times. Substituted 0 times.
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|36.5|22.7|
+|Man|36.3|22.5|
 |Nonbinary|2.3|2.1|
-|Woman|27.2|22.9|
+|Woman|27.2|23.0|
 |Unknown|34.1|52.3|
 {: .sortable}
 

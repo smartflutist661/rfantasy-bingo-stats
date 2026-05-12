@@ -23,9 +23,9 @@ Statistics for other squares can be found at the following links:
 - **Gardens of the Moon** by Steven Erikson, read 21 times
 - ***TIE***: **Circe** by Madeline Miller and **The Spear Cuts Through Water** by Simon Jimenez, each read 20 times
 
-**TOTAL**: 1511 books read, with 775 unique titles.
+**TOTAL**: 1511 books read, with 771 unique titles.
 629 books were claimed to qualify for hard mode.
-588 books were used only once for this square.
+582 books were used only once for this square.
 Skipped 32 times. Substituted 5 times.
 
 ## Most Read Authors
@@ -36,8 +36,8 @@ Skipped 32 times. Substituted 5 times.
 - ***TIE***: Hannah Kaner and Matt Dinniman, each read 39 times
 - Lois McMaster Bujold, read 38 times
 
-**TOTAL**: 1534 total authors read, with 483 unique.
-328 authors were used only once for this square.
+**TOTAL**: 1534 total authors read, with 479 unique.
+323 authors were used only once for this square.
 
 ### Author demographics
 
@@ -47,8 +47,8 @@ Skipped 32 times. Substituted 5 times.
 |Black|6.0|4.0|
 |Hispanic|1.2|1.4|
 |Native|1.2|0.4|
-|White|56.0|37.6|
-|Unknown|29.1|52.5|
+|White|54.7|37.7|
+|Unknown|30.4|52.3|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
@@ -59,10 +59,10 @@ Skipped 32 times. Substituted 5 times.
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|38.0|22.7|
+|Man|36.6|22.6|
 |Nonbinary|1.8|3.2|
-|Woman|30.8|21.3|
-|Unknown|29.5|52.9|
+|Woman|30.8|21.4|
+|Unknown|30.8|52.7|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|

@@ -19,52 +19,52 @@ Statistics for other squares can be found at the following links:
 
 - **Piranesi** by Susanna Clarke, read 91 times
 - **Dracula** by Bram Stoker, read 86 times
-- **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett, read 77 times
+- **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett, read 78 times
 - **This is How You Lose the Time War** by Amal El-Mohtar, Max Gladstone, read 70 times
 - **Emily Wilde's Compendium of Lost Tales** by Heather Fawcett, read 61 times
 
-**TOTAL**: 1484 books read, with 447 unique titles.
+**TOTAL**: 1484 books read, with 446 unique titles.
 943 books were claimed to qualify for hard mode.
-331 books were used only once for this square.
+330 books were used only once for this square.
 Skipped 59 times. Substituted 5 times.
 
 ## Most Read Authors
 
-- Heather Fawcett, read 195 times
+- Heather Fawcett, read 196 times
 - Susanna Clarke, read 96 times
 - Bram Stoker, read 89 times
 - Amal El-Mohtar, read 73 times
 - ***TIE***: Max Gladstone and Stephen Graham Jones, each read 71 times
 
-**TOTAL**: 1616 total authors read, with 352 unique.
-237 authors were used only once for this square.
+**TOTAL**: 1616 total authors read, with 351 unique.
+236 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Arabic|0.1|0.2|
-|Asian|5.5|14.9|
+|Asian|5.5|15.0|
 |Black|1.6|1.2|
 |Hispanic|1.4|0.5|
 |Native|4.5|0.5|
-|White|48.1|42.7|
-|Unknown|38.9|39.9|
+|White|43.7|30.1|
+|Unknown|43.3|52.4|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Canada|4.5|12.6|
+|Canada|4.5|12.7|
 |United States|2.2|3.6|
 |Unknown|92.1|82.2|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|28.9|28.6|
+|Man|24.5|16.0|
 |Nonbinary|0.5|1.4|
 |Woman|31.7|30.1|
-|Unknown|38.9|39.9|
+|Unknown|43.3|52.4|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|

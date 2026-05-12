@@ -17,27 +17,27 @@ Statistics for other squares can be found at the following links:
 
 ## Most Read Books
 
-- **The Tainted Cup** by Robert Jackson Bennett, read 331 times
-- **A Drop of Corruption** by Robert Jackson Bennett, read 281 times
+- **The Tainted Cup** by Robert Jackson Bennett, read 332 times
+- **A Drop of Corruption** by Robert Jackson Bennett, read 282 times
 - **Children of Time** by Adrian Tchaikovsky, read 25 times
-- **Frankenstein** by Mary Shelley, read 20 times
-- **The Tusks of Extinction** by Ray Nayler, read 19 times
+- ***TIE***: **Frankenstein** by Mary Shelley and **The Tusks of Extinction** by Ray Nayler, each read 20 times
+- **All Systems Red** by Martha Wells, read 17 times
 
-**TOTAL**: 1489 books read, with 455 unique titles.
+**TOTAL**: 1489 books read, with 452 unique titles.
 713 books were claimed to qualify for hard mode.
-325 books were used only once for this square.
+322 books were used only once for this square.
 Skipped 43 times. Substituted 16 times.
 
 ## Most Read Authors
 
-- Robert Jackson Bennett, read 635 times
+- Robert Jackson Bennett, read 637 times
 - Adrian Tchaikovsky, read 68 times
 - Martha Wells, read 37 times
-- ***TIE***: Mary Shelley and Ray Nayler, each read 21 times
-- Jeff VanderMeer, read 20 times
+- Ray Nayler, read 22 times
+- Mary Shelley, read 21 times
 
-**TOTAL**: 1494 total authors read, with 310 unique.
-197 authors were used only once for this square.
+**TOTAL**: 1494 total authors read, with 307 unique.
+194 authors were used only once for this square.
 
 ### Author demographics
 
@@ -48,27 +48,27 @@ Skipped 43 times. Substituted 16 times.
 |Hispanic|1.3|1.3|
 |Native|0.9|0.6|
 |White|32.3|37.0|
-|Unknown|59.3|51.8|
+|Unknown|59.3|51.6|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Canada|0.5|1.6|
 |United States|5.0|4.2|
-|Unknown|93.5|93.6|
+|Unknown|93.5|93.5|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|21.9|22.2|
+|Man|21.9|22.1|
 |Nonbinary|1.9|3.2|
-|Woman|16.8|22.5|
-|Unknown|59.4|52.1|
+|Woman|16.8|22.7|
+|Unknown|59.4|51.9|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|5.4|9.6|
-|Unknown|94.6|90.4|
+|Yes|5.4|9.7|
+|Unknown|94.6|90.3|
 {: .sortable}
 

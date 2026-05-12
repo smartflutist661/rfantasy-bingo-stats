@@ -436,6 +436,9 @@
     "Ada Palmer (composer), Sassafras (performance)": [
       "Ada Palmer (composer)"
     ],
+    "Ada Palmer, Sassafras": [
+      "Sassafras"
+    ],
     "Ada Palmer, Sassafras (performance)": [
       "Sassafras (performance)"
     ],
@@ -2039,6 +2042,9 @@
     "Andreas Brandhorst": [],
     "Andreas Eschbach": [],
     "Andreas Eschbach , Doryl Jensen (Translator)": [],
+    "Andreas Eschbach, Doryl Jensen": [
+      "Doryl Jensen"
+    ],
     "Andrej Sapkowski": [],
     "Andrejs Pumppurs": [],
     "Andrejs Pumpurs": [],
@@ -2595,6 +2601,9 @@
     ],
     "Anonymous, Robert Van Guli, tr.": [
       "Anonymous"
+    ],
+    "Anonymous, Robert van Gulik": [
+      "Robert van Gulik"
     ],
     "Anonymous, Simon Armitage": [
       "Anonymous",
@@ -3482,6 +3491,10 @@
       "EA",
       "âge"
     ],
+    "Beamdog": [
+      "EA Games",
+      "Overhaul Games, Beamdog"
+    ],
     "Bebe Harper": [],
     "Bec McMaster": [],
     "Becca Farrow": [
@@ -3816,6 +3829,7 @@
       "et al."
     ],
     "Blake Liddell (Contributor)": [],
+    "Blake Peel": [],
     "Blake Penn": [
       "Blake Penn, Raven Penn"
     ],
@@ -4622,6 +4636,9 @@
     "C. S Lewis": [],
     "C. S. Fritz": [],
     "C. S. Malerich": [],
+    "C. Steven Manley": [
+      "Scott Moon, Nathan Hystad, Monroe Todd, C. Steven Manley, Kalene Williams, Kacey Ezell, Blake Peel"
+    ],
     "C. T. Phillips": [],
     "C. T. Phipps": [
       "C.T. Phipps, Michael Suttkus"
@@ -5721,6 +5738,9 @@
     "Cherish Wooding": [
       "Wooding"
     ],
+    "Cherith Baldry": [
+      "Erin Hunter, Kate Cary, Cherith Baldry, Tui T. Sutherland, Gillian Phillip, Inbali Iserles"
+    ],
     "Cherith Baldy": [
       "Rith"
     ],
@@ -6704,6 +6724,12 @@
     "Craig Schaefer": [],
     "Craig Schafer": [],
     "Craig Shaw Gardner": [],
+    "Craig Silverstein": [
+      "Craig Silverstein, Ken Liu"
+    ],
+    "Craig Silverstein, Ken Liu": [
+      "Craig Silverstein"
+    ],
     "Craig Silverstein/Ken Liu": [
       "Ken Liu"
     ],
@@ -6720,6 +6746,9 @@
     "Cristina Fernandez": [],
     "Cristina Rivera Garza": [
       "Cristina Rivera Garza, Sarah Booker (Translator)"
+    ],
+    "Cristina Rivera Garza, Sarah Booker": [
+      "Sarah Booker"
     ],
     "Cristina Rivera Garza, Sarah Booker (Translator)": [
       "Cristina Rivera Garza",
@@ -6768,6 +6797,7 @@
     "Cxin Liu": [],
     "Cyan": [
       "Cyan Wings",
+      "S-Cyan",
       "S-Cyan SingNsong"
     ],
     "Cyan Wings": [
@@ -6868,7 +6898,14 @@
     "D.L. Howard": [],
     "D.L. Soria": [],
     "D.M. Guay": [],
+    "D.M. Million": [
+      "D.M. Million, R.M. Carpus"
+    ],
     "D.M. Million R.M. Carpus": [],
+    "D.M. Million, R.M. Carpus": [
+      "D.M. Million",
+      "R.M. Carpus"
+    ],
     "D.M. Ritzlin": [],
     "D.M. Thomas": [],
     "D.N. Bryn": [],
@@ -8217,6 +8254,9 @@
     ],
     "Dhonielle Clayton with Anna-Marie McLemore (Contributor), Rebecca Roanhorse (Contributor), Libba Bray (Contributor), Jenni Balch (Contributor), V.E. Schwab (Contributor), Tessa Gratton (Contributor), Natalie C. Parker (Contributor), Samira Ahmed (Contributor), Tochi Onyebuchi (Contributor), Mark Oshiro (Contributor), Kwame Mbalia (Contributor), Tara Sim (Contributor), Zoraida Córdova (Contributor), Nic Stone (Contributor)": [],
     "Dhonielle Clayton, Anna-Marie McLemore, Rebecca Roanhorse, Libba Bray, Jenni Balch, V.E. Schwab, Tessa Gratton, Natalie C. Parker, Samira Ahmed, Tochi Onyebuchi, Mark Oshiro, Kwame Mbalia, Tara Sim, Zoraida Córdova, Nic Stone": [],
+    "Dhonielle Clayton, Khadijah Khatib": [
+      "Khadijah Khatib"
+    ],
     "Dhonielle Clayton, Khadijah Khatib (Illustrator)": [
       "Dhonielle Clayton",
       "Khadijah Khatib (Illustrator)"
@@ -8452,6 +8492,9 @@
     "Doris Pitkin Buck": [],
     "Dorothy A. Winsor": [],
     "Dorothy Tse": [],
+    "Doryl Jensen": [
+      "Andreas Eschbach, Doryl Jensen"
+    ],
     "Doug Dorst": [
       "J.J. Abrams & Doug Dorst",
       "J.J. Abrams, Doug Dorst"
@@ -9091,6 +9134,7 @@
       "tagteamme"
     ],
     "EA Games": [
+      "Beamdog",
       "EA"
     ],
     "EA Hooper": [],
@@ -9801,8 +9845,15 @@
     "Emi Watanabe Cohen": [
       "Tan"
     ],
+    "Emi Yagi": [
+      "Emi Yagi, Yuki Tejima"
+    ],
     "Emi Yagi (Trans. Yuki Tejima)": [
       "Trans"
+    ],
+    "Emi Yagi, Yuki Tejima": [
+      "Emi Yagi",
+      "Yuki Tejima"
     ],
     "Emiko Jean": [
       "EA"
@@ -10185,6 +10236,10 @@
     "Erin Grammer": [],
     "Erin Grey": [],
     "Erin Hunter": [],
+    "Erin Hunter, Kate Cary, Cherith Baldry, Tui T. Sutherland, Gillian Phillip, Inbali Iserles": [
+      "Cherith Baldry",
+      "Gillian Phillip"
+    ],
     "Erin Johnson": [
       "Rian Johnson"
     ],
@@ -11796,6 +11851,9 @@
     "Gillian Bronte Adams": [],
     "Gillian Flynn": [],
     "Gillian McAllister": [],
+    "Gillian Phillip": [
+      "Erin Hunter, Kate Cary, Cherith Baldry, Tui T. Sutherland, Gillian Phillip, Inbali Iserles"
+    ],
     "Gillian Secord": [],
     "Gillian St. Kevern": [],
     "Gillian mcallister": [],
@@ -13788,6 +13846,7 @@
     "J.A.J Minton": [],
     "J.A.L. Solski": [],
     "J.B. Lassalle": [],
+    "J.B. Riley": [],
     "J.B. Riley (Contributor)": [],
     "J.C Hendee": [
       "Barb Hendee, J.C Hendee"
@@ -13927,6 +13986,9 @@
       "J.C. Clark"
     ],
     "J.M. Frey": [],
+    "J.M. Hardy": [
+      "Michael A. Stackpole, J.M. Hardy"
+    ],
     "J.M. Kearl": [
       "EA"
     ],
@@ -14482,6 +14544,7 @@
       "James D. Doss",
       "James D. Jenkins",
       "James D. Jenkins, Ryan Cagle",
+      "James D. Macdonald",
       "James Dashner",
       "P.D. James"
     ],
@@ -14508,6 +14571,14 @@
       "Ryan Cagle",
       "editor",
       "editors"
+    ],
+    "James D. Macdonald": [
+      "James D",
+      "James D. Macdonald, Debra Doyle",
+      "Macdonald"
+    ],
+    "James D. Macdonald, Debra Doyle": [
+      "James D. Macdonald"
     ],
     "James Dashner": [
       "Das",
@@ -15762,6 +15833,9 @@
     "Ji-Yun": [
       "Ji Yun, Yi Izzy Yu, John Yu Branscum"
     ],
+    "Jialei Sun": [
+      "Mudpuppy, Jialei Sun"
+    ],
     "Jiang, Ai": [],
     "Jihn Wiswell": [],
     "Jihyun Yun": [],
@@ -16845,6 +16919,7 @@
       "Jeffrey Cranor",
       "Joseph Fink"
     ],
+    "Joseph Halden": [],
     "Joseph Halden (Contributor)": [],
     "Joseph Han": [],
     "Joseph John Lee": [
@@ -17236,8 +17311,14 @@
     ],
     "Julliet Mariller": [],
     "Juluwarlu Group Aboriginal Corporation": [],
+    "Jump Over the Age": [
+      "Jump Over the Age, Gareth Damian Martin"
+    ],
     "Jump Over the Age (Gareth Damian Martin) - developer": [
       "Gareth Damian Martin"
+    ],
+    "Jump Over the Age, Gareth Damian Martin": [
+      "Jump Over the Age"
     ],
     "Jun Asuka": [],
     "Jun Esaka": [
@@ -17365,7 +17446,14 @@
       "EA"
     ],
     "K. G. Lewis": [],
+    "K. Georgiades": [
+      "K. Georgiades, PathOfPen"
+    ],
     "K. Georgiades aka PathOfPen": [],
+    "K. Georgiades, PathOfPen": [
+      "K. Georgiades",
+      "PathOfPen"
+    ],
     "K. Gorman": [],
     "K. H. Scheer": [],
     "K. J. Sutton": [],
@@ -17640,6 +17728,9 @@
     ],
     "Kajornwan": [],
     "Kalayna Price": [],
+    "Kalene Williams": [
+      "Scott Moon, Nathan Hystad, Monroe Todd, C. Steven Manley, Kalene Williams, Kacey Ezell, Blake Peel"
+    ],
     "Kali Fajardo-Anstine": [],
     "Kali Wallace": [],
     "Kaliane Bradford": [],
@@ -17899,6 +17990,7 @@
     "Kate Atkinson": [],
     "Kate Bernheimer": [],
     "Kate Campbell": [],
+    "Kate Cary": [],
     "Kate Castle": [],
     "Kate Chenli": [],
     "Kate Christie": [],
@@ -18519,6 +18611,9 @@
       "Kentaro Miura"
     ],
     "Kentaru Miura": [],
+    "Kepler Interactive": [
+      "Sandfall Interactive, Kepler Interactive"
+    ],
     "Kerberos": [],
     "Keri Arthur": [],
     "Keri Hulme": [],
@@ -18713,6 +18808,9 @@
     "Kevin Wright": [],
     "Khadija Abdalla Bajaber": [],
     "Khadija Abdallah Bajaber": [],
+    "Khadijah Khatib": [
+      "Dhonielle Clayton, Khadijah Khatib"
+    ],
     "Khadijah Khatib (Illustrator)": [
       "Dhonielle Clayton, Khadijah Khatib (Illustrator)"
     ],
@@ -18785,6 +18883,9 @@
     "Kiersten White, Scott Peterson, Veronica & Andy Fish": [
       "Kiersten White",
       "Kiersten white"
+    ],
+    "Kiersten White, Scott Peterson, Veronica Fish, Andy Fish": [
+      "Veronica Fish"
     ],
     "Kiersten White, Scott Peterson, Veronica, Andy Fish": [
       "Andy Fish",
@@ -19364,6 +19465,13 @@
     "Lana Harper": [],
     "Lana Kole": [],
     "Lana Pecherczyk": [],
+    "Lana Wachowski": [
+      "Lana Wachowski, Lilly Wachowski"
+    ],
+    "Lana Wachowski, Lilly Wachowski": [
+      "Lana Wachowski",
+      "Lilly Wachowski"
+    ],
     "Lance Parkin": [],
     "Landfall Interactive": [],
     "Landry Q. Walker": [],
@@ -20076,6 +20184,7 @@
       "H.P. Lovecraft, Leslie S. Klinger"
     ],
     "Leslie Stephens": [],
+    "Leslie Van Zwol": [],
     "Leslie Van Zwol (Contributor)": [],
     "Leslie Vedder": [],
     "Leslye Penelope": [],
@@ -20191,6 +20300,9 @@
     "Lillian Lark": [],
     "Lillie Lainoff": [],
     "Lilly Labord": [],
+    "Lilly Wachowski": [
+      "Lana Wachowski, Lilly Wachowski"
+    ],
     "Lily Anderson": [
       "Anderson"
     ],
@@ -20447,6 +20559,7 @@
       "Anthony Francis, Liza Olmsted"
     ],
     "Liza Wemakor": [],
+    "Lizz Donnelly": [],
     "Lizz Donnelly (Contributor)": [],
     "Lizz Huerta": [],
     "Lizzie Crowdagger": [],
@@ -21024,6 +21137,7 @@
       "Helen Macdonald",
       "Helen Macdonald, Sin Blaché",
       "James D, Macdonald, Debra Doyle",
+      "James D. Macdonald",
       "Katherine Macdonald",
       "Laurie MacDonald"
     ],
@@ -21084,6 +21198,9 @@
     ],
     "Madhouse Media / Tom Trest": [
       "Madhouse"
+    ],
+    "Madhouse Media, Tom Trest": [
+      "Tom Trest"
     ],
     "Madina Papadopoulos": [],
     "Madix-3": [],
@@ -22815,6 +22932,7 @@
     "Megan E. O'Keefe": [],
     "Megan E. O'keefe": [],
     "Megan E. O’Keefe": [],
+    "Megan Fennell": [],
     "Megan Fennell (Contributor)": [],
     "Megan Giddings": [],
     "Megan Huang": [],
@@ -23314,6 +23432,7 @@
       "Michael Warren Lucas",
       "Michael Wehunt",
       "Michael Wheatley",
+      "Michael Williams",
       "Michael Wisehart",
       "Michael Witwer",
       "Michael Zapata",
@@ -23339,6 +23458,9 @@
       "Matt Forbeck, Jason Schmetzer, Stephen Dedman, Phaedra Weldon, Steven Mohan Jr, Steve Kenson, Michael A. Stackpole J.M. Hardy, Kevin Killiany, John Helfers, Jean Rabe, William H. Keith Jr.",
       "Michael",
       "Michael A. Stackpole"
+    ],
+    "Michael A. Stackpole, J.M. Hardy": [
+      "J.M. Hardy"
     ],
     "Michael Anderle": [
       "Aaron D. Schneider, Michael Anderle",
@@ -23851,6 +23973,13 @@
     "Michael Wheatley": [
       "Michael"
     ],
+    "Michael Williams": [
+      "Michael",
+      "Michael Williams, Teri Williams"
+    ],
+    "Michael Williams, Teri Williams": [
+      "Michael Williams"
+    ],
     "Michael Wisehart": [
       "Michael"
     ],
@@ -24210,6 +24339,9 @@
     "Miya Kazuki": [
       "Miya Kazuki, quof"
     ],
+    "Miya Kazuki, Quof": [
+      "Quof"
+    ],
     "Miya Kazuki, quof": [
       "Miya Kazuki",
       "quof"
@@ -24331,6 +24463,7 @@
     "Monique Snyman": [],
     "Moniquill Blackgoose": [],
     "Moniqull Blackgoose": [],
+    "Monroe Todd": [],
     "Monsoon 117": [],
     "Montana Ash": [
       "Tan"
@@ -24400,6 +24533,13 @@
       "G. Willow Wilson, Chris Wildgoose, MSASSYK"
     ],
     "Mu Su Li": [],
+    "Mudpuppy": [
+      "Mudpuppy, Jialei Sun"
+    ],
+    "Mudpuppy, Jialei Sun": [
+      "Jialei Sun",
+      "Mudpuppy"
+    ],
     "Mudpuppy/Jialei Sun": [],
     "Mulford": [
       "A.K. Mulford",
@@ -25926,7 +26066,14 @@
       "Kyouka Izumi, Oumiya, Reiko Sakurada",
       "Umi"
     ],
+    "Overhaul Games": [
+      "Overhaul Games, Beamdog"
+    ],
     "Overhaul Games (Beamdog)": [],
+    "Overhaul Games, Beamdog": [
+      "Beamdog",
+      "Overhaul Games"
+    ],
     "Ovid": [
       "Ovid, Trans. Harold Isbell"
     ],
@@ -26146,6 +26293,9 @@
     "Pater S. Beagle": [],
     "Pater Sage": [
       "âge"
+    ],
+    "PathOfPen": [
+      "K. Georgiades, PathOfPen"
     ],
     "Pati Nagle": [],
     "Patric Reynolds": [
@@ -26976,6 +27126,9 @@
     "Quintin Li": [],
     "Quinton Li": [],
     "Quiogue": [],
+    "Quof": [
+      "Miya Kazuki, Quof"
+    ],
     "R C Ballard": [],
     "R Cooper": [],
     "R M Romero": [],
@@ -27087,6 +27240,9 @@
     "R.L. Medina": [],
     "R.L. Stine": [],
     "R.M. Callahan": [],
+    "R.M. Carpus": [
+      "D.M. Million, R.M. Carpus"
+    ],
     "R.M. Gray": [],
     "R.M. Krogman": [],
     "R.M. Meluch": [],
@@ -28262,6 +28418,9 @@
     "Robert Kurvitz or ZA/UM": [
       "Robert Kurvitz"
     ],
+    "Robert Kurvitz, ZA/UM": [
+      "ZA/UM"
+    ],
     "Robert L. Forward": [],
     "Robert Lanza": [
       "Robert Lanza, Nancy Kress"
@@ -28384,6 +28543,9 @@
     "Robert Wynne-Simmons": [],
     "Robert Zelaney": [],
     "Robert jackson Bennett": [],
+    "Robert van Gulik": [
+      "Anonymous, Robert van Gulik"
+    ],
     "Robert zelazny": [],
     "Roberto Aguirre-Sacasa": [],
     "Roberts W. Chambers": [],
@@ -28607,6 +28769,7 @@
     ],
     "Rose Lerner": [],
     "Rose Macaulay": [],
+    "Rose Strickman": [],
     "Rose Strickman (Contributor)": [],
     "Rose Sutherland": [],
     "Rose Szabo": [
@@ -28971,10 +29134,18 @@
     "S Mandana": [],
     "S Morgan Burbank": [],
     "S usher Evans": [],
+    "S-Cyan": [
+      "Cyan",
+      "S-Cyan, SingNsong"
+    ],
     "S-Cyan SingNsong": [
       "Cyan",
       "Sing",
       "Sing Shong"
+    ],
+    "S-Cyan, SingNsong": [
+      "S-Cyan",
+      "SingNsong"
     ],
     "S. A. Chakkraborty": [],
     "S. A. Maclean": [],
@@ -29117,6 +29288,7 @@
       "Williams"
     ],
     "S.F.Williamson": [],
+    "S.G. Wong": [],
     "S.G. Wong (Contributor)": [],
     "S.H. Blodgett": [],
     "S.H. Cotugno": [],
@@ -29547,6 +29719,9 @@
       "Anderson"
     ],
     "Sandfall": [],
+    "Sandfall Interactive, Kepler Interactive": [
+      "Kepler Interactive"
+    ],
     "Sandhya Menon": [
       "Roshani Chokshi, Sandhya Menon, Evelyn Skye"
     ],
@@ -29716,6 +29891,9 @@
     "Sarah Beran": [],
     "Sarah Beth Durst": [],
     "Sarah Blue": [],
+    "Sarah Booker": [
+      "Cristina Rivera Garza, Sarah Booker"
+    ],
     "Sarah Booker (Translator)": [
       "Cristina Rivera Garza, Sarah Booker (Translator)",
       "Trans"
@@ -29996,10 +30174,16 @@
     "Sasha Peyton Smith": [],
     "Saskia Louis": [],
     "Saskia Nislow": [],
+    "Sassafras": [
+      "Ada Palmer, Sassafras",
+      "Sassafras Patterdale"
+    ],
     "Sassafras (performance)": [
       "Ada Palmer, Sassafras (performance)"
     ],
-    "Sassafras Patterdale": [],
+    "Sassafras Patterdale": [
+      "Sassafras"
+    ],
     "Sassy Chap Games": [],
     "Satoshi Wagahara": [],
     "Satsuki Nakamura": [
@@ -30107,6 +30291,10 @@
     "Scott Medbury": [],
     "Scott Meyer": [],
     "Scott Moon": [],
+    "Scott Moon, Nathan Hystad, Monroe Todd, C. Steven Manley, Kalene Williams, Kacey Ezell, Blake Peel": [
+      "C. Steven Manley",
+      "Kalene Williams"
+    ],
     "Scott Moore": [],
     "Scott Oden": [],
     "Scott Palmer": [],
@@ -30774,8 +30962,14 @@
     ],
     "Showrunner/Developer: Rafe Judkins": [],
     "Showtime": [],
+    "Shreya Ila Anasuya": [
+      "Shreya Ila Anasuya, Samira Ahmed"
+    ],
     "Shreya Ila Anasuya Samira Ahmed": [
       "Samira Ahmed"
+    ],
+    "Shreya Ila Anasuya, Samira Ahmed": [
+      "Shreya Ila Anasuya"
     ],
     "Shruti Swamy": [],
     "Shubnam Khan": [],
@@ -30936,6 +31130,7 @@
       "Sing Shong",
       "Sing Shong, Sleepy-C, Umi",
       "Sing, Unburied, Sing",
+      "SingNsong",
       "Singularity 6",
       "Theodore Singer",
       "Vandana Singh"
@@ -30948,12 +31143,18 @@
     "Sing Shong, Sleepy-C, Umi": [
       "Sing",
       "Sing Shong",
+      "SingNsong",
       "Sleepy-C",
       "singNsong"
     ],
     "Sing, Unburied, Sing": [
       "Sing",
       "Unburied"
+    ],
+    "SingNsong": [
+      "S-Cyan, SingNsong",
+      "Sing",
+      "Sing Shong, Sleepy-C, Umi"
     ],
     "Singularity 6": [
       "Sing"
@@ -31712,6 +31913,9 @@
       "Tan"
     ],
     "Stranglerfig": [],
+    "Stratford Festival": [
+      "William Shakespeare, Stratford Festival"
+    ],
     "Stringfellow, Lisa": [],
     "Struan Murray": [],
     "Stu Livingston": [
@@ -33203,6 +33407,9 @@
       "ONE",
       "One"
     ],
+    "Tom Trest": [
+      "Madhouse Media, Tom Trest"
+    ],
     "Tom Tryon": [],
     "Tom Veitch": [],
     "Tom Waltz": [
@@ -34147,6 +34354,7 @@
       "Kiersten White, Scott Peterson, Veronica, Andy Fish",
       "Veronica Belmont",
       "Veronica Chapa",
+      "Veronica Fish",
       "Veronica G. Henry",
       "Veronica Lancet",
       "Veronica Roth",
@@ -34157,6 +34365,10 @@
       "Veronica"
     ],
     "Veronica Chapa": [
+      "Veronica"
+    ],
+    "Veronica Fish": [
+      "Kiersten White, Scott Peterson, Veronica Fish, Andy Fish",
       "Veronica"
     ],
     "Veronica G. Henry": [
@@ -34822,6 +35034,9 @@
     "William Shakespeare": [
       "William Shakespeare/Stratford Festival"
     ],
+    "William Shakespeare, Stratford Festival": [
+      "Stratford Festival"
+    ],
     "William Shakespeare/Stratford Festival": [
       "William Shakespeare"
     ],
@@ -35308,6 +35523,9 @@
     ],
     "Yuji Kaku": [],
     "Yuki Midorikawa": [],
+    "Yuki Tejima": [
+      "Emi Yagi, Yuki Tejima"
+    ],
     "Yuki Urushibara": [],
     "Yukito Ayatsuji": [],
     "Yulin Kuang": [],
@@ -35378,6 +35596,9 @@
     "Z.B. Steele": [],
     "Z.K. Abraham": [],
     "Z.S. Diamanti": [],
+    "ZA/UM": [
+      "Robert Kurvitz, ZA/UM"
+    ],
     "Zac Topping": [],
     "Zacariah Dracoulis": [],
     "Zach Argyle": [
@@ -37526,6 +37747,7 @@
     "Accidental Demons /// Clare Edge": [],
     "Accidental Magic /// Iris Beaglehole": [],
     "Accidentally Orc-Ward /// Lucee Joie": [],
+    "Accomplice to the Villan /// Hannah Nicole Maehrer": [],
     "Accountability, and Other Myths of Old Earth /// Aimee Ogden": [],
     "Accursed Son /// Eric Avedissan": [],
     "Ace Up Her Sleeve /// Genoveva Dimova": [],
@@ -40406,6 +40628,7 @@
     "Damnable Tales: A Folk Horror Anthology /// Richard Wells": [],
     "Damned and Fancy /// John Brosnan": [],
     "Dance of Thieves /// Mary E. Pearson": [],
+    "Dance of a Burning Sea /// E.J. Mellow": [],
     "Dance of the Goblins /// Jaq D. Hawkins": [],
     "Dance with the Devil /// Kit Rocha": [
       "Deal with the Devil /// Kit Rocha"
@@ -53963,6 +54186,7 @@
     "The Many Assassinations of Samir, the Seller of Dreams /// Daniel Nayeri": [],
     "The Many Daughters of Afong Moy /// Jamie Ford": [],
     "The Many Deaths of Laila Starr /// Ram V., Filipe Andrade": [],
+    "The Many Deaths of Laila Starr /// Ram V., Filipe Andrade, Inês Amaro": [],
     "The Many Deaths of the Black Company /// Glen Cook": [
       "Black Company /// Glen Cook",
       "The Black Company /// Glen Cook"
