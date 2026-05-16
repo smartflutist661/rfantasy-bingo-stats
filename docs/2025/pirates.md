@@ -17,58 +17,58 @@ Statistics for other squares can be found at the following links:
 
 ## Most Read Books
 
-- **The Adventures of Amina al-Sirafi** by Shannon Chakraborty, read 96 times
-- ***TIE***: **The Wisteria Society of Lady Scoundrels** by India Holton and **Tress of the Emerald Sea** by Brandon Sanderson, each read 51 times
+- **The Adventures of Amina al-Sirafi** by Shannon Chakraborty, read 105 times
+- ***TIE***: **The Wisteria Society of Lady Scoundrels** by India Holton and **Tress of the Emerald Sea** by Brandon Sanderson, each read 55 times
 - **Of Monsters and Mainframes** by Barbara Truelove, read 43 times
 - **All Systems Red** by Martha Wells, read 36 times
-- **The Red Scholar’s Wake** by Aliette de Bodard, read 28 times
+- **The Red Scholar’s Wake** by Aliette de Bodard, read 30 times
 
-**TOTAL**: 1435 books read, with 554 unique titles.
+**TOTAL**: 1435 books read, with 525 unique titles.
 707 books were claimed to qualify for hard mode.
-407 books were used only once for this square.
+377 books were used only once for this square.
 Skipped 67 times. Substituted 46 times.
 
 ## Most Read Authors
 
-- Shannon Chakraborty, read 102 times
-- Brandon Sanderson, read 60 times
-- India Holton, read 58 times
+- Shannon Chakraborty, read 107 times
+- Brandon Sanderson, read 61 times
+- India Holton, read 60 times
 - Martha Wells, read 55 times
 - Barbara Truelove, read 45 times
 
-**TOTAL**: 1455 total authors read, with 385 unique.
-239 authors were used only once for this square.
+**TOTAL**: 1455 total authors read, with 376 unique.
+232 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Arabic|0.1|0.2|
-|Asian|4.7|1.7|
-|Black|2.1|1.2|
+|Arabic|0.1|0.3|
+|Asian|4.7|1.8|
+|Black|2.1|1.3|
 |Hispanic|0.1|0.5|
 |Native|0.5|0.5|
-|White|63.8|42.6|
-|Unknown|28.7|53.2|
+|White|66.5|43.8|
+|Unknown|26.0|51.9|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|10.1|4.7|
-|Unknown|87.2|94.3|
+|United States|10.2|4.8|
+|Unknown|87.1|94.2|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|30.7|21.8|
+|Man|32.8|22.3|
 |Nonbinary|3.6|2.5|
-|Woman|36.8|22.3|
-|Unknown|28.9|53.5|
+|Woman|37.3|23.0|
+|Unknown|26.3|52.2|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|8.7|6.7|
-|Unknown|91.3|93.3|
+|Yes|8.7|6.8|
+|Unknown|91.3|93.2|
 {: .sortable}
 

@@ -19,25 +19,25 @@ Statistics for other squares can be found at the following links:
 
 - **Piranesi** by Susanna Clarke, read 91 times
 - **Dracula** by Bram Stoker, read 86 times
-- **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett, read 78 times
+- **Emily Wilde's Encyclopaedia of Faeries** by Heather Fawcett, read 82 times
+- **Emily Wilde's Compendium of Lost Tales** by Heather Fawcett, read 77 times
 - **This is How You Lose the Time War** by Amal El-Mohtar, Max Gladstone, read 70 times
-- **Emily Wilde's Compendium of Lost Tales** by Heather Fawcett, read 61 times
 
-**TOTAL**: 1484 books read, with 446 unique titles.
+**TOTAL**: 1484 books read, with 426 unique titles.
 943 books were claimed to qualify for hard mode.
-330 books were used only once for this square.
+311 books were used only once for this square.
 Skipped 59 times. Substituted 5 times.
 
 ## Most Read Authors
 
-- Heather Fawcett, read 196 times
+- Heather Fawcett, read 198 times
 - Susanna Clarke, read 96 times
 - Bram Stoker, read 89 times
 - Amal El-Mohtar, read 73 times
-- ***TIE***: Max Gladstone and Stephen Graham Jones, each read 71 times
+- Stephen Graham Jones, read 72 times
 
-**TOTAL**: 1616 total authors read, with 351 unique.
-236 authors were used only once for this square.
+**TOTAL**: 1618 total authors read, with 343 unique.
+226 authors were used only once for this square.
 
 ### Author demographics
 
@@ -47,24 +47,24 @@ Skipped 59 times. Substituted 5 times.
 |Asian|5.5|15.0|
 |Black|1.6|1.2|
 |Hispanic|1.4|0.5|
-|Native|4.5|0.5|
-|White|43.7|30.1|
-|Unknown|43.3|52.4|
+|Native|4.6|0.5|
+|White|44.1|31.4|
+|Unknown|42.8|51.1|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Canada|4.5|12.7|
-|United States|2.2|3.6|
-|Unknown|92.1|82.2|
+|United States|2.3|4.3|
+|Unknown|92.0|81.4|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|24.5|16.0|
+|Man|24.6|16.2|
 |Nonbinary|0.5|1.4|
-|Woman|31.7|30.1|
-|Unknown|43.3|52.4|
+|Woman|32.1|31.2|
+|Unknown|42.8|51.1|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|

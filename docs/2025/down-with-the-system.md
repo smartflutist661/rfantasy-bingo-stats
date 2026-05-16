@@ -17,57 +17,57 @@ Statistics for other squares can be found at the following links:
 
 ## Most Read Books
 
-- **Blood Over Bright Haven** by M.L. Wang, read 86 times
+- **Blood Over Bright Haven** by M.L. Wang, read 90 times
 - **Sunrise on the Reaping** by Suzanne Collins, read 48 times
 - **Red Rising** by Pierce Brown, read 35 times
 - **The Library at Mount Char** by Scott Hawkins, read 34 times
 - **Babel** by R.F. Kuang, read 25 times
 
-**TOTAL**: 1514 books read, with 754 unique titles.
+**TOTAL**: 1514 books read, with 744 unique titles.
 705 books were claimed to qualify for hard mode.
-580 books were used only once for this square.
+570 books were used only once for this square.
 Skipped 34 times. Substituted 0 times.
 
 ## Most Read Authors
 
-- M.L. Wang, read 89 times
-- Matt Dinniman, read 68 times
-- Suzanne Collins, read 54 times
+- M.L. Wang, read 90 times
+- Matt Dinniman, read 69 times
+- Suzanne Collins, read 55 times
 - Pierce Brown, read 53 times
 - Adrian Tchaikovsky, read 49 times
 
-**TOTAL**: 1550 total authors read, with 536 unique.
-361 authors were used only once for this square.
+**TOTAL**: 1551 total authors read, with 533 unique.
+358 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|7.7|6.2|
-|Black|4.1|3.2|
+|Asian|7.7|6.5|
+|Black|4.2|3.2|
 |Hispanic|0.8|0.7|
 |Native|0.5|0.5|
-|White|52.8|37.0|
-|Unknown|34.1|52.3|
+|White|52.9|37.3|
+|Unknown|33.8|51.7|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|8.7|3.2|
-|Unknown|87.9|94.1|
+|United States|8.8|3.2|
+|Unknown|87.8|94.1|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|36.3|22.5|
-|Nonbinary|2.3|2.1|
-|Woman|27.2|23.0|
-|Unknown|34.1|52.3|
+|Man|36.5|22.8|
+|Nonbinary|2.3|2.2|
+|Woman|27.3|23.3|
+|Unknown|33.8|51.7|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|5.1|6.2|
+|Yes|5.1|6.3|
 |Unknown|94.5|93.4|
 {: .sortable}
 

@@ -5139,7 +5139,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Age of Assassins /// R.J. Barker": {
+  "Age of Assassins /// RJ Barker": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -11749,7 +11749,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Blood of Assassins /// R.J. Barker": {
+  "Blood of Assassins /// RJ Barker": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -13919,7 +13919,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Call of the Bone Ships /// R.J. Barker": {
+  "Call of the Bone Ships /// RJ Barker": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -20289,7 +20289,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Delicious in Dungeon /// Ryoko Kui": {
+  "Delicious in Dungeon /// Kui Ryōko": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -23709,7 +23709,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Elfenmacht /// Bernhard Hennen": {
+  "ElfQuest /// Wendy Pini, Richard Pini": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -23719,7 +23719,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Elfquest /// Wendy Pini, Richard Pini": {
+  "Elfenmacht /// Bernhard Hennen": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -30229,7 +30229,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Gods of the Wyrdwood /// R.J. Barker": {
+  "Gods of the Wyrdwood /// RJ Barker": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -38109,6 +38109,16 @@
     "genre": "Unknown",
     "publication_year": null
   },
+  "Journey to the West /// Wu Cheng'en, Anthony C. Yu": {
+    "standalone": null,
+    "self_published": null,
+    "queer": null,
+    "narrator": null,
+    "series": null,
+    "universe": null,
+    "genre": "Unknown",
+    "publication_year": null
+  },
   "Joust /// Mercedes Lackey": {
     "standalone": null,
     "self_published": null,
@@ -38829,7 +38839,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "King of Assassins /// R.J. Barker": {
+  "King of Assassins /// RJ Barker": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -45500,16 +45510,6 @@
     "publication_year": null
   },
   "Monkey Beach /// Eden Robinson": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
-  "Monkey King /// Wu Cheng'en": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -59879,7 +59879,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Shallow Waters /// Anita Kopez": {
+  "Shallow Waters /// Anita Kopacz": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -60959,7 +60959,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Sing for the Coming of the Longest Night /// Iona Datt Sharma, Kathrine Fabian": {
+  "Sing for the Coming of the Longest Night /// Iona Datt Sharma, Katherine Fabian": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -61039,17 +61039,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "Sir Gawain and the Green Knight /// Anonymous": {
-    "standalone": null,
-    "self_published": null,
-    "queer": null,
-    "narrator": null,
-    "series": null,
-    "universe": null,
-    "genre": "Unknown",
-    "publication_year": null
-  },
-  "Sir Gawain and the Green Knight /// J.R.R. Tolkien": {
+  "Sir Gawain and the Green Knight /// Gawain Poet": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -69879,7 +69869,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Bone Ship's Wake /// R.J. Barker": {
+  "The Bone Ship's Wake /// RJ Barker": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -69889,7 +69879,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Bone Ships /// R.J. Barker": {
+  "The Bone Ships /// RJ Barker": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -77839,7 +77829,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Great Change (and Other Lies) /// Joe Abercrombie": {
+  "The Great Change /// Joe Abercrombie": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -90839,7 +90829,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "The Song of Roland /// J.R.R. Tolkien": {
+  "The Song of Roland /// Unknown": {
     "standalone": null,
     "self_published": null,
     "queer": null,
@@ -103699,7 +103689,7 @@
     "genre": "Unknown",
     "publication_year": null
   },
-  "When Swords Fall Silent /// Michael J. Sullivan, Jonathan French, M.L. Wang, Peter A. Flannery, Luke Chmilenko, R.J. Barker, Marie Brennan, Andrew Rowe, Philip C. Quaintrell, Jay Boyce, David Dalglish, J.A. Andrews, Terry Mancour": {
+  "When Swords Fall Silent /// Michael J. Sullivan, Jonathan French, M.L. Wang, Peter A. Flannery, Luke Chmilenko, RJ Barker, Marie Brennan, Andrew Rowe, Philip C. Quaintrell, Jay Boyce, David Dalglish, J.A. Andrews, Terry Mancour": {
     "standalone": null,
     "self_published": null,
     "queer": null,

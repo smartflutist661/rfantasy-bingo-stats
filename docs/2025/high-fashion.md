@@ -23,9 +23,9 @@ Statistics for other squares can be found at the following links:
 - **Heartless Hunter** by Kristen Ciccarelli, read 64 times
 - **The Mask of Mirrors** by M.A. Carrick, read 59 times
 
-**TOTAL**: 1447 books read, with 435 unique titles.
+**TOTAL**: 1447 books read, with 425 unique titles.
 807 books were claimed to qualify for hard mode.
-314 books were used only once for this square.
+303 books were used only once for this square.
 Skipped 72 times. Substituted 28 times.
 
 ## Most Read Authors
@@ -36,7 +36,7 @@ Skipped 72 times. Substituted 28 times.
 - Adam Holcombe, read 74 times
 - Kristen Ciccarelli, read 70 times
 
-**TOTAL**: 1460 total authors read, with 322 unique.
+**TOTAL**: 1461 total authors read, with 322 unique.
 212 authors were used only once for this square.
 
 ### Author demographics
@@ -47,8 +47,8 @@ Skipped 72 times. Substituted 28 times.
 |Black|2.3|2.4|
 |Hispanic|0.3|0.6|
 |Native|0.3|0.6|
-|White|57.1|37.8|
-|Unknown|33.3|53.8|
+|White|57.2|38.4|
+|Unknown|33.1|53.2|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
@@ -59,10 +59,10 @@ Skipped 72 times. Substituted 28 times.
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|7.1|12.1|
+|Man|7.3|12.7|
 |Nonbinary|7.3|2.7|
 |Woman|52.3|31.1|
-|Unknown|33.4|54.1|
+|Unknown|33.2|53.5|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|

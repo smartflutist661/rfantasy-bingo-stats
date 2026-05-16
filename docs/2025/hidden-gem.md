@@ -23,9 +23,9 @@ Statistics for other squares can be found at the following links:
 - ***TIE***: **Dark Woods, Deep Water** by Jelena Dunato and **The Wings Upon Her Back** by Samantha Mills, each read 9 times
 - **The Winged Histories** by Sofia Samatar, read 8 times
 
-**TOTAL**: 1440 books read, with 1211 unique titles.
+**TOTAL**: 1440 books read, with 1207 unique titles.
 691 books were claimed to qualify for hard mode.
-1111 books were used only once for this square.
+1105 books were used only once for this square.
 Skipped 62 times. Substituted 46 times.
 
 ## Most Read Authors
@@ -36,8 +36,8 @@ Skipped 62 times. Substituted 46 times.
 - Sofia Samatar, read 11 times
 - Jelena Dunato, read 10 times
 
-**TOTAL**: 1516 total authors read, with 1123 unique.
-944 authors were used only once for this square.
+**TOTAL**: 1516 total authors read, with 1120 unique.
+940 authors were used only once for this square.
 
 ### Author demographics
 
@@ -45,25 +45,25 @@ Skipped 62 times. Substituted 46 times.
 |---------|:---------:|:---------:|
 |Asian|6.5|2.5|
 |Black|1.5|0.9|
-|Hispanic|0.6|0.6|
+|Hispanic|0.7|0.7|
 |Multiracial|0.1|0.1|
 |Native|0.5|0.4|
-|White|25.1|19.3|
-|Unknown|65.8|76.3|
+|White|25.3|19.5|
+|Unknown|65.5|76.0|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |United States|3.0|1.8|
-|Unknown|95.4|96.9|
+|Unknown|95.3|96.9|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|11.6|10.7|
+|Man|11.8|10.8|
 |Nonbinary|1.4|1.1|
-|Woman|21.2|11.9|
-|Unknown|65.8|76.3|
+|Woman|21.3|12.0|
+|Unknown|65.5|76.0|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|

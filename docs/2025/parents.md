@@ -20,12 +20,12 @@ Statistics for other squares can be found at the following links:
 - **The Sword of Kaigen** by M.L. Wang, read 58 times
 - **Between Two Fires** by Christopher Buehlman, read 28 times
 - ***TIE***: **Godkiller** by Hannah Kaner and **The Fifth Season** by N.K. Jemisin, each read 24 times
-- **Dreamsnake** by Vonda N. McIntyre, read 23 times
-- ***TIE***: **The Adventures of Amina al-Sirafi** by Shannon Chakraborty and **The Road** by Cormac McCarthy, each read 22 times
+- ***TIE***: **Dreamsnake** by Vonda N. McIntyre and **The Adventures of Amina al-Sirafi** by Shannon Chakraborty, each read 23 times
+- **The Road** by Cormac McCarthy, read 22 times
 
-**TOTAL**: 1511 books read, with 714 unique titles.
+**TOTAL**: 1511 books read, with 697 unique titles.
 1001 books were claimed to qualify for hard mode.
-520 books were used only once for this square.
+504 books were used only once for this square.
 Skipped 32 times. Substituted 5 times.
 
 ## Most Read Authors
@@ -36,8 +36,8 @@ Skipped 32 times. Substituted 5 times.
 - T.J. Klune, read 35 times
 - Christopher Buehlman, read 28 times
 
-**TOTAL**: 1533 total authors read, with 533 unique.
-354 authors were used only once for this square.
+**TOTAL**: 1536 total authors read, with 528 unique.
+349 authors were used only once for this square.
 
 ### Author demographics
 
@@ -47,22 +47,22 @@ Skipped 32 times. Substituted 5 times.
 |Black|4.9|2.2|
 |Hispanic|0.3|0.6|
 |Native|0.3|0.7|
-|White|46.0|36.9|
-|Unknown|41.2|53.7|
+|White|46.5|38.1|
+|Unknown|40.8|52.6|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|3.1|3.5|
-|Unknown|95.8|95.0|
+|United States|3.1|3.7|
+|Unknown|95.6|94.9|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|25.0|22.1|
+|Man|25.3|23.0|
 |Nonbinary|0.7|0.9|
-|Woman|32.4|23.2|
-|Unknown|41.9|53.9|
+|Woman|32.5|23.3|
+|Unknown|41.5|52.8|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|

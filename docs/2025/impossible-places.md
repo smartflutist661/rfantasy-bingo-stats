@@ -23,53 +23,53 @@ Statistics for other squares can be found at the following links:
 - **The Book That Wouldn't Burn** by Mark Lawrence, read 31 times
 - **A Deadly Education** by Naomi Novik, read 26 times
 
-**TOTAL**: 1513 books read, with 615 unique titles.
+**TOTAL**: 1513 books read, with 606 unique titles.
 1033 books were claimed to qualify for hard mode.
-449 books were used only once for this square.
+440 books were used only once for this square.
 Skipped 31 times. Substituted 4 times.
 
 ## Most Read Authors
 
-- Matt Dinniman, read 161 times
+- Matt Dinniman, read 163 times
 - Susanna Clarke, read 114 times
 - Mark Lawrence, read 58 times
 - ***TIE***: Naomi Novik and Terry Pratchett, each read 41 times
 - R.F. Kuang, read 34 times
 
-**TOTAL**: 1525 total authors read, with 426 unique.
-264 authors were used only once for this square.
+**TOTAL**: 1524 total authors read, with 421 unique.
+260 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Arabic|0.1|0.2|
-|Asian|7.2|6.5|
+|Asian|7.3|6.8|
 |Black|0.6|1.6|
 |Hispanic|0.5|0.9|
 |Native|0.1|0.2|
-|White|66.2|40.5|
-|Unknown|25.4|50.0|
+|White|66.7|40.9|
+|Unknown|24.8|49.2|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Canada|1.0|1.2|
 |United States|3.6|2.8|
-|Unknown|93.4|93.3|
+|Unknown|93.4|93.2|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|41.6|26.7|
+|Man|41.9|27.1|
 |Nonbinary|1.2|1.9|
-|Woman|30.8|21.2|
-|Unknown|26.4|50.2|
+|Woman|31.0|21.6|
+|Unknown|25.8|49.4|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|4.0|5.3|
+|Yes|4.1|5.4|
 |Unknown|95.9|94.4|
 {: .sortable}
 

@@ -18,14 +18,14 @@ Statistics for other squares can be found at the following links:
 ## Most Read Books
 
 - **Small Gods** by Terry Pratchett, read 38 times
-- ***TIE***: **Asunder** by Kerstin Hall and **The Raven Scholar** by Antonia Hodgson, each read 29 times
+- **The Raven Scholar** by Antonia Hodgson, read 31 times
+- **Asunder** by Kerstin Hall, read 29 times
 - **Shigidi and the Brass Head of Obalufon** by Wole Talabi, read 26 times
 - **Gardens of the Moon** by Steven Erikson, read 21 times
-- ***TIE***: **Circe** by Madeline Miller and **The Spear Cuts Through Water** by Simon Jimenez, each read 20 times
 
-**TOTAL**: 1511 books read, with 771 unique titles.
+**TOTAL**: 1511 books read, with 746 unique titles.
 629 books were claimed to qualify for hard mode.
-582 books were used only once for this square.
+550 books were used only once for this square.
 Skipped 32 times. Substituted 5 times.
 
 ## Most Read Authors
@@ -36,38 +36,38 @@ Skipped 32 times. Substituted 5 times.
 - ***TIE***: Hannah Kaner and Matt Dinniman, each read 39 times
 - Lois McMaster Bujold, read 38 times
 
-**TOTAL**: 1534 total authors read, with 479 unique.
-323 authors were used only once for this square.
+**TOTAL**: 1535 total authors read, with 475 unique.
+319 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|6.5|4.2|
+|Asian|6.7|4.4|
 |Black|6.0|4.0|
 |Hispanic|1.2|1.4|
 |Native|1.2|0.4|
-|White|54.7|37.7|
-|Unknown|30.4|52.3|
+|White|55.6|38.2|
+|Unknown|29.3|51.5|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |United States|5.9|3.4|
-|Unknown|91.9|94.4|
+|Unknown|91.5|94.1|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|36.6|22.6|
+|Man|37.5|22.8|
 |Nonbinary|1.8|3.2|
-|Woman|30.8|21.4|
-|Unknown|30.8|52.7|
+|Woman|31.1|22.0|
+|Unknown|29.7|51.9|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|6.7|6.8|
-|Unknown|93.3|93.2|
+|Yes|6.7|6.9|
+|Unknown|93.3|93.1|
 {: .sortable}
 

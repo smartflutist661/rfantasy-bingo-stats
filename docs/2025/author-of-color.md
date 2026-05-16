@@ -17,59 +17,59 @@ Statistics for other squares can be found at the following links:
 
 ## Most Read Books
 
-- **The Buffalo Hunter Hunter** by Stephen Graham Jones, read 59 times
+- **The Buffalo Hunter Hunter** by Stephen Graham Jones, read 60 times
 - ***TIE***: **Ring Shout** by P. Djèlí Clark and **The Reformatory** by Tananarive Due, each read 31 times
 - **Mexican Gothic** by Silvia Moreno-Garcia, read 24 times
 - ***TIE***: **Bat Eater and Other Names for Cora Zeng** by Kylie Lee Baker and **The Bewitching** by Silvia Moreno-Garcia, each read 23 times
 - **The Butcher of the Forest** by Premee Mohamed, read 20 times
 
-**TOTAL**: 1498 books read, with 702 unique titles.
+**TOTAL**: 1498 books read, with 689 unique titles.
 630 books were claimed to qualify for hard mode.
-490 books were used only once for this square.
+477 books were used only once for this square.
 Skipped 46 times. Substituted 4 times.
 
 ## Most Read Authors
 
-- Stephen Graham Jones, read 117 times
+- Stephen Graham Jones, read 119 times
 - Silvia Moreno-Garcia, read 58 times
-- P. Djèlí Clark, read 52 times
+- P. Djèlí Clark, read 53 times
 - Nghi Vo, read 46 times
 - Tananarive Due, read 37 times
 
-**TOTAL**: 1555 total authors read, with 464 unique.
-273 authors were used only once for this square.
+**TOTAL**: 1555 total authors read, with 460 unique.
+271 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Arabic|0.1|0.4|
-|Asian|27.5|17.4|
-|Black|22.8|11.7|
-|Hispanic|5.8|3.3|
-|Native|9.4|1.4|
+|Asian|27.7|17.9|
+|Black|22.9|11.7|
+|Hispanic|5.8|3.1|
+|Native|9.5|1.4|
 |White|0.5|1.6|
-|Unknown|33.9|64.2|
+|Unknown|33.5|63.8|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Canada|2.1|1.2|
 |United States|8.4|3.1|
-|Unknown|86.8|93.7|
+|Unknown|86.7|93.6|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|23.6|12.3|
-|Nonbinary|3.7|2.5|
-|Woman|38.5|20.9|
-|Unknown|34.2|64.4|
+|Man|23.8|12.1|
+|Nonbinary|3.8|2.5|
+|Woman|38.6|21.4|
+|Unknown|33.8|64.0|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|10.7|7.4|
-|Unknown|88.6|92.2|
+|Yes|10.8|7.2|
+|Unknown|88.6|92.4|
 {: .sortable}
 

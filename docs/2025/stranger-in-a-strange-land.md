@@ -17,58 +17,58 @@ Statistics for other squares can be found at the following links:
 
 ## Most Read Books
 
-- **The Teller of Small Fortunes** by Julie Leong, read 58 times
+- **The Teller of Small Fortunes** by Julie Leong, read 61 times
 - **The Ministry of Time** by Kaliane Bradley, read 36 times
 - **A Memory Called Empire** by Arkady Martine, read 33 times
 - **The Left Hand of Darkness** by Ursula K. Le Guin, read 31 times
 - **Exit West** by Mohsin Hamid, read 26 times
 
-**TOTAL**: 1499 books read, with 751 unique titles.
+**TOTAL**: 1499 books read, with 731 unique titles.
 666 books were claimed to qualify for hard mode.
-568 books were used only once for this square.
+548 books were used only once for this square.
 Skipped 44 times. Substituted 5 times.
 
 ## Most Read Authors
 
-- Ursula K. Le Guin, read 67 times
+- Ursula K. Le Guin, read 68 times
 - Julie Leong, read 62 times
 - ***TIE***: Arkady Martine and Kaliane Bradley, each read 36 times
 - Adrian Tchaikovsky, read 28 times
 - R.F. Kuang, read 27 times
 
-**TOTAL**: 1518 total authors read, with 535 unique.
-358 authors were used only once for this square.
+**TOTAL**: 1516 total authors read, with 529 unique.
+354 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Arabic|0.1|0.2|
-|Asian|9.7|6.8|
-|Black|1.8|1.8|
+|Asian|9.8|7.1|
+|Black|1.8|1.9|
 |Hispanic|0.7|1.1|
 |Native|1.1|0.7|
-|White|50.7|37.1|
-|Unknown|35.9|52.2|
+|White|50.9|37.7|
+|Unknown|35.6|51.3|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|8.3|5.0|
-|Unknown|89.4|93.4|
+|United States|8.2|4.8|
+|Unknown|89.4|93.5|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|23.0|20.2|
+|Man|23.0|20.4|
 |Nonbinary|1.9|1.7|
-|Woman|38.9|25.7|
-|Unknown|36.2|52.4|
+|Woman|39.2|26.4|
+|Unknown|35.9|51.5|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|11.0|6.4|
-|Unknown|89.0|93.6|
+|Yes|11.1|6.7|
+|Unknown|88.9|93.3|
 {: .sortable}
 

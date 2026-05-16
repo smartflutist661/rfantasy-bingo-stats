@@ -21,11 +21,11 @@ Statistics for other squares can be found at the following links:
 - **Murder at Spindle Manor** by Morgan Stang, read 20 times
 - **The Sword of Kaigen** by M.L. Wang, read 13 times
 - **Unsouled** by Will Wight, read 12 times
-- ***TIE***: **Mother of Learning** by Domagoj Kurmaić and **Strange Beasts of China** by Yan Ge, each read 10 times
+- **Mother of Learning** by Domagoj Kurmaić, read 11 times
 
-**TOTAL**: 1471 books read, with 1119 unique titles.
+**TOTAL**: 1471 books read, with 1116 unique titles.
 685 books were claimed to qualify for hard mode.
-974 books were used only once for this square.
+970 books were used only once for this square.
 Skipped 57 times. Substituted 20 times.
 
 ## Most Read Authors
@@ -36,7 +36,7 @@ Skipped 57 times. Substituted 20 times.
 - Victoria Goddard, read 16 times
 - M.L. Wang, read 15 times
 
-**TOTAL**: 1561 total authors read, with 989 unique.
+**TOTAL**: 1562 total authors read, with 989 unique.
 783 authors were used only once for this square.
 
 ### Author demographics

@@ -17,52 +17,52 @@ Statistics for other squares can be found at the following links:
 
 ## Most Read Books
 
-- **Blood Over Bright Haven** by M.L. Wang, read 64 times
+- **Blood Over Bright Haven** by M.L. Wang, read 66 times
 - **One Dark Window** by Rachel Gillig, read 60 times
-- **Bury Our Bones in the Midnight Soil** by V.E. Schwab, read 31 times
+- **Bury Our Bones in the Midnight Soil** by V.E. Schwab, read 50 times
 - **Shadow and Bone** by Leigh Bardugo, read 27 times
 - **Children of Blood and Bone** by Tomi Champion-Adeyemi, read 25 times
 
-**TOTAL**: 1465 books read, with 609 unique titles.
+**TOTAL**: 1465 books read, with 594 unique titles.
 477 books were claimed to qualify for hard mode.
-428 books were used only once for this square.
+419 books were used only once for this square.
 Skipped 65 times. Substituted 18 times.
 
 ## Most Read Authors
 
-- M.L. Wang, read 72 times
+- M.L. Wang, read 74 times
 - Rachel Gillig, read 62 times
-- V.E. Schwab, read 50 times
+- V.E. Schwab, read 61 times
 - Sarah J. Maas, read 43 times
 - T. Kingfisher, read 42 times
 
-**TOTAL**: 1493 total authors read, with 462 unique.
-288 authors were used only once for this square.
+**TOTAL**: 1493 total authors read, with 456 unique.
+284 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|4.2|4.3|
+|Asian|4.2|4.5|
 |Black|2.5|1.7|
 |Hispanic|2.0|1.3|
 |Native|0.1|0.2|
-|White|51.0|35.0|
-|Unknown|40.3|57.6|
+|White|52.7|35.6|
+|Unknown|38.5|56.6|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|7.8|4.7|
-|Unknown|91.0|93.4|
+|United States|7.8|4.8|
+|Unknown|91.0|93.3|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|22.0|16.4|
+|Man|23.0|17.1|
 |Nonbinary|0.6|1.1|
-|Woman|37.1|24.9|
-|Unknown|40.3|57.6|
+|Woman|37.8|25.3|
+|Unknown|38.5|56.6|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|

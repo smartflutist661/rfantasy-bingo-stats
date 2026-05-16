@@ -17,15 +17,15 @@ Statistics for other squares can be found at the following links:
 
 ## Most Read Books
 
-- **The Raven Scholar** by Antonia Hodgson, read 70 times
+- **The Raven Scholar** by Antonia Hodgson, read 75 times
 - **The Will of the Many** by James Islington, read 23 times
 - **The Spear Cuts Through Water** by Simon Jimenez, read 20 times
 - **Service Model** by Adrian Tchaikovsky, read 18 times
 - ***TIE***: **The Devils** by Joe Abercrombie and **The Incandescent** by Emily Tesh, each read 17 times
 
-**TOTAL**: 1517 books read, with 787 unique titles.
+**TOTAL**: 1517 books read, with 773 unique titles.
 937 books were claimed to qualify for hard mode.
-557 books were used only once for this square.
+542 books were used only once for this square.
 Skipped 30 times. Substituted 1 times.
 
 ## Most Read Authors
@@ -33,11 +33,11 @@ Skipped 30 times. Substituted 1 times.
 - Antonia Hodgson, read 75 times
 - Brandon Sanderson, read 64 times
 - Adrian Tchaikovsky, read 54 times
-- James Islington, read 36 times
-- V.E. Schwab, read 35 times
+- James Islington, read 37 times
+- V.E. Schwab, read 36 times
 
-**TOTAL**: 1531 total authors read, with 548 unique.
-354 authors were used only once for this square.
+**TOTAL**: 1535 total authors read, with 548 unique.
+355 authors were used only once for this square.
 
 ### Author demographics
 
@@ -47,28 +47,28 @@ Skipped 30 times. Substituted 1 times.
 |Black|2.0|3.6|
 |Hispanic|1.6|1.6|
 |Native|0.2|0.4|
-|White|59.4|40.0|
-|Unknown|31.7|50.2|
+|White|59.6|40.4|
+|Unknown|31.5|49.8|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United Kingdom|3.0|1.1|
-|United States|8.2|3.8|
-|Unknown|86.5|93.5|
+|United Kingdom|3.1|1.1|
+|United States|8.2|4.0|
+|Unknown|86.4|93.3|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|38.1|24.7|
+|Man|38.3|25.2|
 |Nonbinary|1.7|2.4|
 |Woman|28.4|22.5|
-|Unknown|31.8|50.4|
+|Unknown|31.6|50.0|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|11.2|6.5|
+|Yes|11.1|6.5|
 |Unknown|88.4|92.9|
 {: .sortable}
 
