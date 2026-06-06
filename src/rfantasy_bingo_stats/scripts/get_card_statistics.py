@@ -55,8 +55,7 @@ def main(args: argparse.Namespace) -> None:
     formatted_square_uniques = "\n".join(square_uniques)
     formatted_nonuniques = "\n".join(nonuniques)
 
-    print(  # noqa: T201
-        f"""
+    print(f"""
 Your card had {len(overall_uniques)} unique books:
 
 {formatted_overall_uniques}
@@ -68,8 +67,7 @@ Additionally, you were the only one to read a particular book for {len(square_un
 For the remaining books:
 
 {formatted_nonuniques}
-"""
-    )
+""")  # noqa: T201
 
 
 def cli() -> None:

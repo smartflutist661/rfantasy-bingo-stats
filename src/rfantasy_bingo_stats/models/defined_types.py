@@ -118,7 +118,7 @@ def sort(data: Mapping[K, V] | Iterable[T] | T) -> dict[K, V] | list[T] | T:
             out_list.append(cast(T, sort(val)))
         return out_list
 
-    return cast(T, data)
+    return data
 
 
 SortedCounter = Annotated[Counter[K], PlainSerializer(sort)]

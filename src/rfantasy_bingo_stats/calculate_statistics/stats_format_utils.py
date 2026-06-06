@@ -387,7 +387,7 @@ def format_author_demo(
         ("---------", ":---------:", ":---------:"),
     ]
     enum_type = type(list(overall_demo_count.keys())[0])
-    for demo in sorted(set(overall_demo_count.keys()) - {"Unknown"}) + [enum_type("Unknown")]:  # type: ignore[arg-type]
+    for demo in sorted(set(overall_demo_count.keys()) - {"Unknown"}) + [enum_type("Unknown")]:
         overall_prop = (overall_demo_count[demo] / overall_demo_count.total()) * 100
         unique_prop = (unique_demo_count[demo] / unique_demo_count.total()) * 100
         if demo_name != "NATIONALITY" or unique_prop > 1:

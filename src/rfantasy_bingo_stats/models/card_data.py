@@ -23,7 +23,7 @@ def square_name_to_file(s: str) -> str:
             " ",
             sub(
                 r"[a-zA-Z0-9]+",
-                lambda mo: " " + mo.group(0).lower(),  # type: ignore[operator] # Not sure why this thinks it's bytes
+                lambda mo: " " + mo.group(0).lower(),
                 s,
             ),
         ).split()
