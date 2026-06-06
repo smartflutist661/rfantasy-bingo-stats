@@ -17,52 +17,53 @@ Statistics for other squares can be found at the following links:
 
 ## Most Read Books
 
-- **Clair Obscur: Expedition 33** by Sandfall Interactive, read 30 times
-- **Sinners** by Ryan Coogler, read 27 times
-- ***TIE***: **Baldur's Gate 3** by Larian Studios and **Murderbot** by Paul Weitz, Chris Weitz and **Split Fiction** by Hazelight Studios, each read 9 times
-- ***TIE***: **All Systems Red** by Martha Wells and **Hollow Knight: Silksong** by Team Cherry, each read 8 times
-- **Murderbot** by Apple TV, read 7 times
+- **Clair Obscur: Expedition 33** by Sandfall Interactive, read 39 times
+- **Sinners** by Ryan Coogler, Michael B. Jordan, read 29 times
+- **Murderbot** by Paul Weitz, Chris Weitz, read 21 times
+- **Baldur's Gate III** by Larian Studios, read 16 times
+- **Hollow Knight: Silksong** by Team Cherry, read 14 times
 
-**TOTAL**: 904 books read, with 687 unique titles.
+**TOTAL**: 904 books read, with 627 unique titles.
 226 books were claimed to qualify for hard mode.
-615 books were used only once for this square.
+553 books were used only once for this square.
 Skipped 604 times. Substituted 40 times.
 
 ## Most Read Authors
 
-- Sandfall Interactive, read 36 times
-- Ryan Coogler, read 29 times
-- Larian Studios, read 18 times
-- Team Cherry, read 17 times
-- Supergiant Games, read 16 times
+- Sandfall Interactive, read 39 times
+- ***TIE***: Michael B. Jordan and Ryan Coogler, each read 29 times
+- Paul Weitz, read 22 times
+- Chris Weitz, read 21 times
+- Larian Studios, read 20 times
 
-**TOTAL**: 1057 total authors read, with 693 unique.
-584 authors were used only once for this square.
+**TOTAL**: 1108 total authors read, with 670 unique.
+563 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|1.8|1.2|
+|Asian|1.9|1.1|
 |Hispanic|0.2|0.1|
-|White|4.8|4.0|
-|Unknown|93.2|94.7|
+|White|4.6|3.5|
+|Unknown|93.3|95.3|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Unknown|98.4|99.2|
+|Unknown|98.6|99.4|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|4.4|3.6|
-|Woman|2.4|1.7|
-|Unknown|93.2|94.7|
+|Man|4.4|3.2|
+|Nonbinary|0.1|0.1|
+|Woman|2.2|1.5|
+|Unknown|93.3|95.3|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Unknown|99.5|99.6|
+|Unknown|99.5|99.5|
 {: .sortable}
 

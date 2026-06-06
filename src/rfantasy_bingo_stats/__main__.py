@@ -1,5 +1,10 @@
 import argparse
 from argparse import ArgumentParser
+from typing import (
+    Union,
+    get_args,
+    get_origin,
+)
 
 import pandas
 from pydantic import ValidationError
@@ -32,9 +37,13 @@ def model_to_args(parser: ArgumentParser, model: type[BaseModel]) -> None:
                 help=field.description,
             )
         else:
+            if get_origin(field.annotation) == Union and type(None) in get_args(field.annotation):
+                annotation = get_args(field.annotation)[0]
+            else:
+                annotation = field.annotation
             parser.add_argument(
                 f"--{name.replace('_', '-')}",
-                type=field.annotation,
+                type=annotation,
                 default=field.default,
                 help=field.description,
             )

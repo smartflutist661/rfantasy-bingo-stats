@@ -19,13 +19,13 @@ Statistics for other squares can be found at the following links:
 
 - **The Teller of Small Fortunes** by Julie Leong, read 61 times
 - **The Ministry of Time** by Kaliane Bradley, read 36 times
-- **A Memory Called Empire** by Arkady Martine, read 33 times
+- **A Memory Called Empire** by Arkady Martine, read 34 times
 - **The Left Hand of Darkness** by Ursula K. Le Guin, read 31 times
 - **Exit West** by Mohsin Hamid, read 26 times
 
-**TOTAL**: 1499 books read, with 731 unique titles.
+**TOTAL**: 1499 books read, with 698 unique titles.
 666 books were claimed to qualify for hard mode.
-548 books were used only once for this square.
+512 books were used only once for this square.
 Skipped 44 times. Substituted 5 times.
 
 ## Most Read Authors
@@ -36,8 +36,8 @@ Skipped 44 times. Substituted 5 times.
 - Adrian Tchaikovsky, read 28 times
 - R.F. Kuang, read 27 times
 
-**TOTAL**: 1516 total authors read, with 529 unique.
-354 authors were used only once for this square.
+**TOTAL**: 1516 total authors read, with 526 unique.
+351 authors were used only once for this square.
 
 ### Author demographics
 
@@ -48,27 +48,27 @@ Skipped 44 times. Substituted 5 times.
 |Black|1.8|1.9|
 |Hispanic|0.7|1.1|
 |Native|1.1|0.7|
-|White|50.9|37.7|
-|Unknown|35.6|51.3|
+|White|51.3|38.1|
+|Unknown|35.3|50.8|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|8.2|4.8|
+|United States|8.2|4.9|
 |Unknown|89.4|93.5|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|23.0|20.4|
+|Man|23.2|20.6|
 |Nonbinary|1.9|1.7|
-|Woman|39.2|26.4|
-|Unknown|35.9|51.5|
+|Woman|39.3|26.7|
+|Unknown|35.6|51.0|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|11.1|6.7|
-|Unknown|88.9|93.3|
+|Yes|11.2|6.7|
+|Unknown|88.8|93.3|
 {: .sortable}
 

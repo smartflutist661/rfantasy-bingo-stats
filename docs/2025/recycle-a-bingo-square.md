@@ -20,12 +20,12 @@ Statistics for other squares can be found at the following links:
 - **Project Hail Mary** by Andy Weir, read 13 times
 - **The Will of the Many** by James Islington, read 12 times
 - **Fourth Wing** by Rebecca Yarros, read 11 times
-- ***TIE***: **Dungeon Crawler Carl** by Matt Dinniman and **The Incandescent** by Emily Tesh, each read 10 times
-- ***TIE***: **All Systems Red** by Martha Wells and **I Who Have Never Known Men** by Jacqueline Harpman, each read 9 times
+- ***TIE***: **All Systems Red** by Martha Wells and **Dungeon Crawler Carl** by Matt Dinniman and **The Incandescent** by Emily Tesh, each read 10 times
+- **I Who Have Never Known Men** by Jacqueline Harpman, read 9 times
 
-**TOTAL**: 1520 books read, with 1158 unique titles.
+**TOTAL**: 1520 books read, with 1146 unique titles.
 798 books were claimed to qualify for hard mode.
-963 books were used only once for this square.
+946 books were used only once for this square.
 Skipped 28 times. Substituted 0 times.
 
 ## Most Read Authors
@@ -34,22 +34,22 @@ Skipped 28 times. Substituted 0 times.
 - ***TIE***: Andy Weir and Leigh Bardugo, each read 17 times
 - T. Kingfisher, read 16 times
 - Rebecca Yarros, read 15 times
-- James Islington, read 14 times
+- ***TIE***: James Islington and Matt Dinniman, each read 14 times
 
-**TOTAL**: 1558 total authors read, with 887 unique.
-649 authors were used only once for this square.
+**TOTAL**: 1558 total authors read, with 879 unique.
+638 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Arabic|0.1|0.2|
-|Asian|5.4|5.0|
+|Asian|5.4|4.9|
 |Black|2.0|2.8|
-|Hispanic|1.1|1.2|
-|Native|0.6|0.4|
-|White|51.6|39.3|
-|Unknown|39.2|51.0|
+|Hispanic|1.2|1.5|
+|Native|0.7|0.4|
+|White|51.9|39.7|
+|Unknown|38.7|50.4|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
@@ -60,15 +60,15 @@ Skipped 28 times. Substituted 0 times.
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|29.1|23.4|
+|Man|29.3|23.6|
 |Nonbinary|1.3|1.6|
-|Woman|30.3|23.9|
-|Unknown|39.2|51.1|
+|Woman|30.6|24.4|
+|Unknown|38.8|50.5|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|7.3|7.4|
-|Unknown|92.5|92.2|
+|Yes|7.4|7.5|
+|Unknown|92.4|92.3|
 {: .sortable}
 

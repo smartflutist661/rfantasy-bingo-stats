@@ -19,13 +19,13 @@ Statistics for other squares can be found at the following links:
 
 - **The Adventures of Amina al-Sirafi** by Shannon Chakraborty, read 105 times
 - ***TIE***: **The Wisteria Society of Lady Scoundrels** by India Holton and **Tress of the Emerald Sea** by Brandon Sanderson, each read 55 times
-- **Of Monsters and Mainframes** by Barbara Truelove, read 43 times
+- **Of Monsters and Mainframes** by Barbara Truelove, read 46 times
 - **All Systems Red** by Martha Wells, read 36 times
-- **The Red Scholar’s Wake** by Aliette de Bodard, read 30 times
+- **The Red Scholar's Wake** by Aliette de Bodard, read 30 times
 
-**TOTAL**: 1435 books read, with 525 unique titles.
+**TOTAL**: 1435 books read, with 491 unique titles.
 707 books were claimed to qualify for hard mode.
-377 books were used only once for this square.
+346 books were used only once for this square.
 Skipped 67 times. Substituted 46 times.
 
 ## Most Read Authors
@@ -34,10 +34,10 @@ Skipped 67 times. Substituted 46 times.
 - Brandon Sanderson, read 61 times
 - India Holton, read 60 times
 - Martha Wells, read 55 times
-- Barbara Truelove, read 45 times
+- Barbara Truelove, read 46 times
 
-**TOTAL**: 1455 total authors read, with 376 unique.
-232 authors were used only once for this square.
+**TOTAL**: 1457 total authors read, with 372 unique.
+229 authors were used only once for this square.
 
 ### Author demographics
 
@@ -45,30 +45,30 @@ Skipped 67 times. Substituted 46 times.
 |---------|:---------:|:---------:|
 |Arabic|0.1|0.3|
 |Asian|4.7|1.8|
-|Black|2.1|1.3|
+|Black|2.0|1.3|
 |Hispanic|0.1|0.5|
 |Native|0.5|0.5|
-|White|66.5|43.8|
-|Unknown|26.0|51.9|
+|White|67.1|44.3|
+|Unknown|25.5|51.4|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |United States|10.2|4.8|
-|Unknown|87.1|94.2|
+|Unknown|87.2|94.1|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|32.8|22.3|
+|Man|32.7|22.6|
 |Nonbinary|3.6|2.5|
-|Woman|37.3|23.0|
-|Unknown|26.3|52.2|
+|Woman|37.8|23.2|
+|Unknown|25.8|51.7|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|8.7|6.8|
-|Unknown|91.3|93.2|
+|Yes|8.6|6.9|
+|Unknown|91.4|93.1|
 {: .sortable}
 

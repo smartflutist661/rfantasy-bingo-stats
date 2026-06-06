@@ -17,57 +17,57 @@ Statistics for other squares can be found at the following links:
 
 ## Most Read Books
 
-- **Howl's Moving Castle** by Diana Wynne Jones, read 82 times
-- **A Necromancer Called Gam Gam** by Adam Holcombe, read 69 times
+- **Howl's Moving Castle** by Diana Wynne Jones, read 83 times
+- **A Necromancer Called Gam Gam** by Adam Holcombe, read 76 times
+- **Heartless Hunter** by Kristen Ciccarelli, read 69 times
 - **Nettle & Bone** by T. Kingfisher, read 65 times
-- **Heartless Hunter** by Kristen Ciccarelli, read 64 times
-- **The Mask of Mirrors** by M.A. Carrick, read 59 times
+- **The Mask of Mirrors** by M.A. Carrick, read 60 times
 
-**TOTAL**: 1447 books read, with 425 unique titles.
+**TOTAL**: 1447 books read, with 394 unique titles.
 807 books were claimed to qualify for hard mode.
-303 books were used only once for this square.
+272 books were used only once for this square.
 Skipped 72 times. Substituted 28 times.
 
 ## Most Read Authors
 
 - T. Kingfisher, read 116 times
-- Diana Wynne Jones, read 85 times
-- M.A. Carrick, read 76 times
-- Adam Holcombe, read 74 times
-- Kristen Ciccarelli, read 70 times
+- Diana Wynne Jones, read 86 times
+- ***TIE***: Adam Holcombe and M.A. Carrick, each read 77 times
+- Kristen Ciccarelli, read 72 times
+- ***TIE***: Elizabeth Lim and Heather Fawcett, each read 64 times
 
-**TOTAL**: 1461 total authors read, with 322 unique.
-212 authors were used only once for this square.
+**TOTAL**: 1461 total authors read, with 308 unique.
+199 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|6.8|4.8|
-|Black|2.3|2.4|
+|Asian|6.8|5.0|
+|Black|2.3|2.5|
 |Hispanic|0.3|0.6|
 |Native|0.3|0.6|
-|White|57.2|38.4|
-|Unknown|33.1|53.2|
+|White|57.4|39.5|
+|Unknown|33.0|51.7|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|4.2|2.7|
-|Unknown|95.1|95.8|
+|United States|4.2|2.8|
+|Unknown|95.1|95.6|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|7.3|12.7|
-|Nonbinary|7.3|2.7|
-|Woman|52.3|31.1|
-|Unknown|33.2|53.5|
+|Man|7.2|12.9|
+|Nonbinary|7.3|2.5|
+|Woman|52.4|32.6|
+|Unknown|33.1|52.0|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|12.7|8.5|
-|Unknown|87.3|91.5|
+|Yes|12.9|8.8|
+|Unknown|87.1|91.2|
 {: .sortable}
 

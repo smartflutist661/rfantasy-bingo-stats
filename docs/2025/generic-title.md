@@ -23,9 +23,9 @@ Statistics for other squares can be found at the following links:
 - **Shadow and Bone** by Leigh Bardugo, read 27 times
 - **Children of Blood and Bone** by Tomi Champion-Adeyemi, read 25 times
 
-**TOTAL**: 1465 books read, with 594 unique titles.
+**TOTAL**: 1465 books read, with 564 unique titles.
 477 books were claimed to qualify for hard mode.
-419 books were used only once for this square.
+383 books were used only once for this square.
 Skipped 65 times. Substituted 18 times.
 
 ## Most Read Authors
@@ -36,38 +36,38 @@ Skipped 65 times. Substituted 18 times.
 - Sarah J. Maas, read 43 times
 - T. Kingfisher, read 42 times
 
-**TOTAL**: 1493 total authors read, with 456 unique.
-284 authors were used only once for this square.
+**TOTAL**: 1493 total authors read, with 445 unique.
+271 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|4.2|4.5|
-|Black|2.5|1.7|
+|Asian|4.3|4.7|
+|Black|2.5|1.8|
 |Hispanic|2.0|1.3|
 |Native|0.1|0.2|
-|White|52.7|35.6|
-|Unknown|38.5|56.6|
+|White|53.2|37.0|
+|Unknown|37.9|55.0|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|7.8|4.8|
-|Unknown|91.0|93.3|
+|United States|7.8|4.9|
+|Unknown|91.0|93.1|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|23.0|17.1|
+|Man|23.4|18.0|
 |Nonbinary|0.6|1.1|
-|Woman|37.8|25.3|
-|Unknown|38.5|56.6|
+|Woman|38.0|25.9|
+|Unknown|37.9|55.0|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|3.1|2.8|
-|Unknown|96.5|96.8|
+|Yes|3.2|3.1|
+|Unknown|96.4|96.5|
 {: .sortable}
 

@@ -17,57 +17,57 @@ Statistics for other squares can be found at the following links:
 
 ## Most Read Books
 
-- **The Devils** by Joe Abercrombie, read 91 times
-- **The Bone Harp** by Victoria Goddard, read 67 times
+- **The Devils** by Joe Abercrombie, read 94 times
+- **The Bone Harp** by Victoria Goddard, read 69 times
 - **The Tomb of Dragons** by Katherine Addison, read 63 times
 - **Orconomics** by J. Zachary Pike, read 58 times
-- **The Witness for the Dead** by Katherine Addison, read 48 times
+- **The Witness for the Dead** by Katherine Addison, read 53 times
 
-**TOTAL**: 1458 books read, with 540 unique titles.
+**TOTAL**: 1458 books read, with 485 unique titles.
 762 books were claimed to qualify for hard mode.
-395 books were used only once for this square.
+343 books were used only once for this square.
 Skipped 65 times. Substituted 25 times.
 
 ## Most Read Authors
 
-- Katherine Addison, read 178 times
-- Joe Abercrombie, read 95 times
+- Katherine Addison, read 179 times
+- Joe Abercrombie, read 96 times
+- J.R.R. Tolkien, read 91 times
 - J. Zachary Pike, read 87 times
-- J.R.R. Tolkien, read 84 times
 - Victoria Goddard, read 69 times
 
-**TOTAL**: 1512 total authors read, with 323 unique.
-198 authors were used only once for this square.
+**TOTAL**: 1502 total authors read, with 304 unique.
+181 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|1.4|2.1|
-|Black|0.3|0.5|
+|Asian|1.7|2.3|
+|Black|0.3|0.6|
 |Hispanic|0.3|0.3|
-|White|62.2|26.8|
-|Unknown|35.9|70.4|
+|White|63.5|30.0|
+|Unknown|34.3|66.9|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Canada|0.8|1.0|
-|United States|4.2|1.8|
-|Unknown|88.1|96.1|
+|Canada|0.8|1.1|
+|United States|4.2|2.0|
+|Unknown|87.9|95.7|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|37.2|16.0|
-|Nonbinary|0.5|0.8|
-|Woman|26.4|12.9|
-|Unknown|35.9|70.4|
+|Man|38.3|18.0|
+|Nonbinary|0.5|0.9|
+|Woman|27.0|14.3|
+|Unknown|34.3|66.9|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|2.2|3.4|
-|Unknown|96.9|96.4|
+|Yes|2.2|3.7|
+|Unknown|96.9|96.0|
 {: .sortable}
 

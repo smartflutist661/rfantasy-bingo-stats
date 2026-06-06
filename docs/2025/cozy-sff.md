@@ -17,56 +17,56 @@ Statistics for other squares can be found at the following links:
 
 ## Most Read Books
 
-- **Legends & Lattes** by Travis Baldree, read 60 times
+- **Legends & Lattes** by Travis Baldree, read 63 times
 - **The Spellshop** by Sarah Beth Durst, read 58 times
 - **A Psalm for the Wild-Built** by Becky Chambers, read 56 times
 - **The Teller of Small Fortunes** by Julie Leong, read 51 times
 - **The Very Secret Society of Irregular Witches** by Sangu Mandanna, read 43 times
 
-**TOTAL**: 1511 books read, with 629 unique titles.
+**TOTAL**: 1511 books read, with 580 unique titles.
 1020 books were claimed to qualify for hard mode.
-472 books were used only once for this square.
+423 books were used only once for this square.
 Skipped 35 times. Substituted 2 times.
 
 ## Most Read Authors
 
-- Travis Baldree, read 127 times
+- Travis Baldree, read 129 times
 - Becky Chambers, read 103 times
+- Sangu Mandanna, read 76 times
 - Sarah Beth Durst, read 75 times
-- Sangu Mandanna, read 74 times
 - Julie Leong, read 55 times
 
-**TOTAL**: 1524 total authors read, with 441 unique.
-292 authors were used only once for this square.
+**TOTAL**: 1523 total authors read, with 426 unique.
+277 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|8.7|4.5|
-|Black|0.5|1.1|
+|Asian|8.9|4.7|
+|Black|0.5|1.2|
 |Hispanic|0.2|0.7|
-|White|41.9|31.1|
-|Unknown|48.8|62.6|
+|White|42.2|32.4|
+|Unknown|48.2|61.1|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|3.3|2.9|
-|Unknown|95.7|94.8|
+|United States|3.3|3.0|
+|Unknown|95.5|94.4|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|11.4|12.6|
-|Nonbinary|3.3|2.0|
-|Woman|36.5|22.5|
-|Unknown|48.8|62.8|
+|Man|11.5|13.3|
+|Nonbinary|3.3|2.1|
+|Woman|37.0|23.3|
+|Unknown|48.3|61.3|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|14.8|7.9|
-|Unknown|85.2|92.1|
+|Yes|14.9|8.2|
+|Unknown|85.1|91.8|
 {: .sortable}
 

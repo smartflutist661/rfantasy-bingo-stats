@@ -17,58 +17,59 @@ Statistics for other squares can be found at the following links:
 
 ## Most Read Books
 
-- ***TIE***: **Buried Deep and Other Stories** by Naomi Novik and **Exhalation** by Ted Chiang, each read 27 times
-- **Stories of Your Life and Others** by Ted Chiang, read 26 times
-- **Never Whistle at Night** by Shane Hawk, Theodore C. Van Alst Jr., read 24 times
-- **Buried Deep** by Naomi Novik, read 20 times
-- **Januaries** by Olivie Blake, read 17 times
+- **Buried Deep and Other Stories** by Naomi Novik, read 35 times
+- **Stories of Your Life and Others** by Ted Chiang, read 30 times
+- **Exhalation** by Ted Chiang, read 27 times
+- **Never Whistle at Night** by Shane Hawk, Theodore C. Van Alst Jr., read 26 times
+- **Januaries** by Olivie Blake, read 24 times
 
-**TOTAL**: 1222 books read, with 726 unique titles.
+**TOTAL**: 1222 books read, with 664 unique titles.
 1088 books were claimed to qualify for hard mode.
-585 books were used only once for this square.
+507 books were used only once for this square.
 Skipped 75 times. Substituted 43 times.
 
 ## Most Read Authors
 
 - Ted Chiang, read 58 times
-- Naomi Novik, read 54 times
-- Shane Hawk, read 29 times
+- Naomi Novik, read 56 times
+- Shane Hawk, read 31 times
 - Ken Liu, read 28 times
-- Olivie Blake, read 26 times
+- ***TIE***: Olivie Blake and Theodore C. Van Alst Jr., each read 26 times
 
-**TOTAL**: 1724 total authors read, with 797 unique.
-523 authors were used only once for this square.
+**TOTAL**: 1763 total authors read, with 782 unique.
+503 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|10.6|3.8|
-|Black|3.0|2.6|
-|Hispanic|4.2|2.4|
+|Asian|10.4|3.7|
+|Black|3.2|3.0|
+|Hispanic|4.5|2.6|
 |Multiracial|0.1|0.1|
-|Native|0.6|0.3|
-|White|39.1|31.0|
-|Unknown|42.5|59.8|
+|Native|0.6|0.4|
+|White|39.6|31.8|
+|Unknown|41.6|58.4|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|5.5|3.0|
-|Unknown|92.3|95.3|
+|United Kingdom|1.5|1.1|
+|United States|5.4|2.9|
+|Unknown|92.2|95.3|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|25.5|15.5|
-|Nonbinary|1.6|1.6|
-|Woman|30.3|22.9|
-|Unknown|42.6|60.0|
+|Man|25.8|16.3|
+|Nonbinary|1.6|1.5|
+|Woman|30.8|23.4|
+|Unknown|41.8|58.7|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|6.0|5.8|
-|Unknown|93.9|94.1|
+|Yes|6.1|5.9|
+|Unknown|93.8|94.0|
 {: .sortable}
 

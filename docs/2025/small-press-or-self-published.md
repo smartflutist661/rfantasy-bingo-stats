@@ -23,9 +23,9 @@ Statistics for other squares can be found at the following links:
 - **Unsouled** by Will Wight, read 12 times
 - **Mother of Learning** by Domagoj Kurmaić, read 11 times
 
-**TOTAL**: 1471 books read, with 1116 unique titles.
+**TOTAL**: 1471 books read, with 1095 unique titles.
 685 books were claimed to qualify for hard mode.
-970 books were used only once for this square.
+935 books were used only once for this square.
 Skipped 57 times. Substituted 20 times.
 
 ## Most Read Authors
@@ -36,8 +36,8 @@ Skipped 57 times. Substituted 20 times.
 - Victoria Goddard, read 16 times
 - M.L. Wang, read 15 times
 
-**TOTAL**: 1562 total authors read, with 989 unique.
-783 authors were used only once for this square.
+**TOTAL**: 1561 total authors read, with 980 unique.
+770 authors were used only once for this square.
 
 ### Author demographics
 
@@ -48,27 +48,27 @@ Skipped 57 times. Substituted 20 times.
 |Black|1.0|0.9|
 |Hispanic|0.7|0.9|
 |Native|0.6|0.6|
-|White|34.3|20.3|
-|Unknown|60.0|74.6|
+|White|34.7|20.6|
+|Unknown|59.6|74.2|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |United States|4.7|2.1|
-|Unknown|93.5|96.2|
+|Unknown|93.4|96.2|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|15.7|11.0|
+|Man|16.1|11.2|
 |Nonbinary|2.3|1.5|
-|Woman|21.4|12.7|
-|Unknown|60.6|74.7|
+|Woman|21.5|13.0|
+|Unknown|60.2|74.3|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|6.0|4.7|
-|Unknown|94.0|95.3|
+|Yes|6.0|4.8|
+|Unknown|94.0|95.2|
 {: .sortable}
 

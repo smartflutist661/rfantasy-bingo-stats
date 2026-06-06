@@ -20,12 +20,12 @@ Statistics for other squares can be found at the following links:
 - **The Raven Scholar** by Antonia Hodgson, read 75 times
 - **The Will of the Many** by James Islington, read 23 times
 - **The Spear Cuts Through Water** by Simon Jimenez, read 20 times
-- **Service Model** by Adrian Tchaikovsky, read 18 times
-- ***TIE***: **The Devils** by Joe Abercrombie and **The Incandescent** by Emily Tesh, each read 17 times
+- **Service Model** by Adrian Tchaikovsky, read 19 times
+- **The Incandescent** by Emily Tesh, read 18 times
 
-**TOTAL**: 1517 books read, with 773 unique titles.
+**TOTAL**: 1517 books read, with 755 unique titles.
 937 books were claimed to qualify for hard mode.
-542 books were used only once for this square.
+522 books were used only once for this square.
 Skipped 30 times. Substituted 1 times.
 
 ## Most Read Authors
@@ -36,8 +36,8 @@ Skipped 30 times. Substituted 1 times.
 - James Islington, read 37 times
 - V.E. Schwab, read 36 times
 
-**TOTAL**: 1535 total authors read, with 548 unique.
-355 authors were used only once for this square.
+**TOTAL**: 1537 total authors read, with 542 unique.
+345 authors were used only once for this square.
 
 ### Author demographics
 
@@ -47,28 +47,28 @@ Skipped 30 times. Substituted 1 times.
 |Black|2.0|3.6|
 |Hispanic|1.6|1.6|
 |Native|0.2|0.4|
-|White|59.6|40.4|
-|Unknown|31.5|49.8|
+|White|59.9|41.1|
+|Unknown|31.2|49.1|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |United Kingdom|3.1|1.1|
-|United States|8.2|4.0|
-|Unknown|86.4|93.3|
+|United States|8.3|4.2|
+|Unknown|86.3|93.1|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|38.3|25.2|
+|Man|38.4|25.5|
 |Nonbinary|1.7|2.4|
-|Woman|28.4|22.5|
-|Unknown|31.6|50.0|
+|Woman|28.6|22.8|
+|Unknown|31.3|49.3|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|11.1|6.5|
-|Unknown|88.4|92.9|
+|Yes|11.2|6.8|
+|Unknown|88.4|92.7|
 {: .sortable}
 

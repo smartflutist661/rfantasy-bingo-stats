@@ -19,13 +19,13 @@ Statistics for other squares can be found at the following links:
 
 - **The Spear Cuts Through Water** by Simon Jimenez, read 34 times
 - **Bury Our Bones in the Midnight Soil** by V.E. Schwab, read 29 times
-- **The Incandescent** by Emily Tesh, read 26 times
+- **The Incandescent** by Emily Tesh, read 27 times
 - **Gideon the Ninth** by Tamsyn Muir, read 23 times
-- **A Memory Called Empire** by Arkady Martine, read 19 times
+- **A Memory Called Empire** by Arkady Martine, read 20 times
 
-**TOTAL**: 1519 books read, with 739 unique titles.
+**TOTAL**: 1519 books read, with 714 unique titles.
 787 books were claimed to qualify for hard mode.
-510 books were used only once for this square.
+481 books were used only once for this square.
 Skipped 26 times. Substituted 3 times.
 
 ## Most Read Authors
@@ -36,39 +36,39 @@ Skipped 26 times. Substituted 3 times.
 - ***TIE***: Tamsyn Muir and V.E. Schwab, each read 33 times
 - Chuck Tingle, read 31 times
 
-**TOTAL**: 1552 total authors read, with 540 unique.
-345 authors were used only once for this square.
+**TOTAL**: 1554 total authors read, with 533 unique.
+336 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|11.0|7.4|
+|Asian|11.2|7.8|
 |Black|4.8|3.9|
 |Hispanic|2.3|2.3|
-|Native|1.8|0.9|
-|White|42.7|29.4|
-|Unknown|37.4|56.2|
+|Native|1.9|0.9|
+|White|42.9|29.8|
+|Unknown|36.9|55.3|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Canada|1.6|2.5|
-|United States|6.3|3.0|
-|Unknown|87.2|92.6|
+|Canada|1.7|2.7|
+|United States|6.4|3.0|
+|Unknown|86.9|92.4|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|15.5|10.9|
-|Nonbinary|7.3|5.6|
-|Woman|39.9|27.5|
-|Unknown|37.3|56.0|
+|Man|15.6|11.2|
+|Nonbinary|7.3|5.7|
+|Woman|40.2|28.0|
+|Unknown|36.9|55.1|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|31.3|17.4|
-|Unknown|68.7|82.6|
+|Yes|31.6|17.7|
+|Unknown|68.4|82.3|
 {: .sortable}
 

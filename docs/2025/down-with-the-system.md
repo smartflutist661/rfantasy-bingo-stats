@@ -23,9 +23,9 @@ Statistics for other squares can be found at the following links:
 - **The Library at Mount Char** by Scott Hawkins, read 34 times
 - **Babel** by R.F. Kuang, read 25 times
 
-**TOTAL**: 1514 books read, with 744 unique titles.
+**TOTAL**: 1514 books read, with 721 unique titles.
 705 books were claimed to qualify for hard mode.
-570 books were used only once for this square.
+539 books were used only once for this square.
 Skipped 34 times. Substituted 0 times.
 
 ## Most Read Authors
@@ -36,38 +36,39 @@ Skipped 34 times. Substituted 0 times.
 - Pierce Brown, read 53 times
 - Adrian Tchaikovsky, read 49 times
 
-**TOTAL**: 1551 total authors read, with 533 unique.
-358 authors were used only once for this square.
+**TOTAL**: 1550 total authors read, with 521 unique.
+343 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|7.7|6.5|
-|Black|4.2|3.2|
+|Asian|7.8|6.7|
+|Black|4.2|3.3|
 |Hispanic|0.8|0.7|
 |Native|0.5|0.5|
-|White|52.9|37.3|
-|Unknown|33.8|51.7|
+|White|53.4|38.4|
+|Unknown|33.3|50.3|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|8.8|3.2|
-|Unknown|87.8|94.1|
+|Canada|1.7|1.3|
+|United States|9.0|3.5|
+|Unknown|87.5|93.4|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|36.5|22.8|
+|Man|36.7|23.5|
 |Nonbinary|2.3|2.2|
-|Woman|27.3|23.3|
-|Unknown|33.8|51.7|
+|Woman|27.7|24.0|
+|Unknown|33.3|50.3|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|5.1|6.3|
-|Unknown|94.5|93.4|
+|Yes|5.1|6.4|
+|Unknown|94.5|93.3|
 {: .sortable}
 

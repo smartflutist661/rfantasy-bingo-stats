@@ -18,56 +18,56 @@ Statistics for other squares can be found at the following links:
 ## Most Read Books
 
 - **Emily Wilde's Compendium of Lost Tales** by Heather Fawcett, read 23 times
-- **The Galaxy, and the Ground Within** by Becky Chambers, read 21 times
+- **The Galaxy, and the Ground Within** by Becky Chambers, read 22 times
 - **A Memory of Light** by Robert Jordan, Brandon Sanderson, read 16 times
 - ***TIE***: **Assassin's Quest** by Robin Hobb and **The Golden Enclaves** by Naomi Novik, each read 13 times
 - ***TIE***: **Kingdom of Ash** by Sarah J. Maas and **The Shepherd's Crown** by Terry Pratchett, each read 12 times
 
-**TOTAL**: 1460 books read, with 764 unique titles.
+**TOTAL**: 1460 books read, with 723 unique titles.
 689 books were claimed to qualify for hard mode.
-551 books were used only once for this square.
+494 books were used only once for this square.
 Skipped 55 times. Substituted 32 times.
 
 ## Most Read Authors
 
 - Brandon Sanderson, read 48 times
 - Robin Hobb, read 30 times
-- Becky Chambers, read 27 times
+- Becky Chambers, read 28 times
 - Heather Fawcett, read 24 times
 - Naomi Novik, read 22 times
 
-**TOTAL**: 1494 total authors read, with 583 unique.
-369 authors were used only once for this square.
+**TOTAL**: 1494 total authors read, with 566 unique.
+347 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|5.6|5.3|
-|Black|2.2|1.6|
+|Asian|5.6|5.5|
+|Black|2.3|1.7|
 |Hispanic|0.3|0.5|
 |Native|0.7|0.3|
-|White|64.3|49.3|
-|Unknown|26.8|42.9|
+|White|65.0|50.5|
+|Unknown|26.0|41.5|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|United States|10.9|7.8|
-|Unknown|86.1|90.1|
+|United States|11.0|8.0|
+|Unknown|85.9|89.9|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|33.4|30.6|
-|Nonbinary|1.4|1.6|
-|Woman|38.2|24.6|
-|Unknown|27.0|43.1|
+|Man|33.7|31.4|
+|Nonbinary|1.4|1.7|
+|Woman|38.7|25.2|
+|Unknown|26.2|41.7|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|7.4|6.5|
-|Unknown|92.2|92.9|
+|Yes|7.6|6.6|
+|Unknown|92.0|92.7|
 {: .sortable}
 

@@ -18,14 +18,14 @@ Statistics for other squares can be found at the following links:
 ## Most Read Books
 
 - **The Tainted Cup** by Robert Jackson Bennett, read 332 times
-- **A Drop of Corruption** by Robert Jackson Bennett, read 303 times
+- **A Drop of Corruption** by Robert Jackson Bennett, read 305 times
 - **Children of Time** by Adrian Tchaikovsky, read 25 times
 - **Frankenstein** by Mary Shelley, read 24 times
 - **The Tusks of Extinction** by Ray Nayler, read 22 times
 
-**TOTAL**: 1489 books read, with 428 unique titles.
+**TOTAL**: 1489 books read, with 413 unique titles.
 713 books were claimed to qualify for hard mode.
-300 books were used only once for this square.
+281 books were used only once for this square.
 Skipped 43 times. Substituted 16 times.
 
 ## Most Read Authors
@@ -36,39 +36,41 @@ Skipped 43 times. Substituted 16 times.
 - Mary Shelley, read 24 times
 - Ray Nayler, read 23 times
 
-**TOTAL**: 1494 total authors read, with 298 unique.
-187 authors were used only once for this square.
+**TOTAL**: 1493 total authors read, with 293 unique.
+182 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|4.2|7.0|
+|Arabic|0.1|0.3|
+|Asian|4.2|7.1|
 |Black|2.1|2.7|
-|Hispanic|1.3|1.3|
+|Hispanic|1.3|1.4|
 |Native|0.9|0.7|
-|White|32.8|38.1|
-|Unknown|58.8|50.2|
+|White|33.1|39.1|
+|Unknown|58.4|48.6|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
 |Canada|0.5|1.7|
-|United States|5.0|4.3|
-|Unknown|93.5|93.3|
+|United Kingdom|1.1|1.0|
+|United States|5.0|4.4|
+|Unknown|93.2|92.5|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|22.2|22.7|
-|Nonbinary|1.9|3.3|
-|Woman|17.0|23.4|
-|Unknown|58.8|50.5|
+|Man|22.4|23.5|
+|Nonbinary|1.9|3.4|
+|Woman|17.1|24.1|
+|Unknown|58.5|49.0|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|5.4|10.0|
-|Unknown|94.6|90.0|
+|Yes|5.4|10.2|
+|Unknown|94.6|89.8|
 {: .sortable}
 

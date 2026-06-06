@@ -17,39 +17,39 @@ Statistics for other squares can be found at the following links:
 
 ## Most Read Books
 
-- **The Sign of the Dragon** by Mary Soon Lee, read 53 times
+- **The Sign of the Dragon** by Mary Soon Lee, read 57 times
 - **Tuyo** by Rachel Neumeier, read 13 times
-- **The Bone Harp** by Victoria Goddard, read 11 times
+- **The Bone Harp** by Victoria Goddard, read 12 times
 - ***TIE***: **Dark Woods, Deep Water** by Jelena Dunato and **The Wings Upon Her Back** by Samantha Mills, each read 9 times
 - **The Winged Histories** by Sofia Samatar, read 8 times
 
-**TOTAL**: 1440 books read, with 1207 unique titles.
+**TOTAL**: 1440 books read, with 1191 unique titles.
 691 books were claimed to qualify for hard mode.
-1105 books were used only once for this square.
+1084 books were used only once for this square.
 Skipped 62 times. Substituted 46 times.
 
 ## Most Read Authors
 
-- Mary Soon Lee, read 55 times
+- Mary Soon Lee, read 57 times
 - Rachel Neumeier, read 20 times
 - Victoria Goddard, read 17 times
 - Sofia Samatar, read 11 times
 - Jelena Dunato, read 10 times
 
-**TOTAL**: 1516 total authors read, with 1120 unique.
-940 authors were used only once for this square.
+**TOTAL**: 1516 total authors read, with 1114 unique.
+932 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|6.5|2.5|
+|Asian|6.6|2.5|
 |Black|1.5|0.9|
 |Hispanic|0.7|0.7|
 |Multiracial|0.1|0.1|
 |Native|0.5|0.4|
-|White|25.3|19.5|
-|Unknown|65.5|76.0|
+|White|25.7|19.8|
+|Unknown|65.0|75.7|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
@@ -60,10 +60,10 @@ Skipped 62 times. Substituted 46 times.
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|11.8|10.8|
-|Nonbinary|1.4|1.1|
-|Woman|21.3|12.0|
-|Unknown|65.5|76.0|
+|Man|11.9|11.0|
+|Nonbinary|1.4|1.2|
+|Woman|21.6|12.1|
+|Unknown|65.0|75.7|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|

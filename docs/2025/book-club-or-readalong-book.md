@@ -19,13 +19,13 @@ Statistics for other squares can be found at the following links:
 
 - **The River Has Roots** by Amal El-Mohtar, read 62 times
 - **The Raven Scholar** by Antonia Hodgson, read 49 times
-- **The Incandescent** by Emily Tesh, read 35 times
-- ***TIE***: **Greenteeth** by Molly O'Neill and **Someone You Can Build a Nest In** by John Wiswell, each read 25 times
-- **A Wizard of Earthsea** by Ursula K. Le Guin, read 23 times
+- **The Incandescent** by Emily Tesh, read 37 times
+- **Someone You Can Build a Nest In** by John Wiswell, read 26 times
+- **Greenteeth** by Molly O'Neill, read 25 times
 
-**TOTAL**: 1463 books read, with 454 unique titles.
+**TOTAL**: 1463 books read, with 425 unique titles.
 380 books were claimed to qualify for hard mode.
-242 books were used only once for this square.
+211 books were used only once for this square.
 Skipped 46 times. Substituted 39 times.
 
 ## Most Read Authors
@@ -36,39 +36,39 @@ Skipped 46 times. Substituted 39 times.
 - Emily Tesh, read 40 times
 - Ursula K. Le Guin, read 29 times
 
-**TOTAL**: 1480 total authors read, with 328 unique.
-130 authors were used only once for this square.
+**TOTAL**: 1483 total authors read, with 323 unique.
+125 authors were used only once for this square.
 
 ### Author demographics
 
 |ETHNICITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Asian|11.2|10.1|
+|Asian|11.3|10.5|
 |Black|4.6|3.7|
 |Hispanic|0.3|1.1|
 |Native|0.3|1.1|
-|White|54.3|46.9|
-|Unknown|29.3|37.1|
+|White|54.8|47.9|
+|Unknown|28.7|35.6|
 {: .sortable}
 
 |NATIONALITY|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Canada|5.0|2.5|
-|United States|7.3|5.6|
-|Unknown|85.4|89.3|
+|Canada|5.0|2.6|
+|United States|7.3|5.7|
+|Unknown|85.4|89.2|
 {: .sortable}
 
 |GENDER|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Man|24.4|23.9|
-|Nonbinary|2.6|4.2|
-|Woman|43.6|34.6|
-|Unknown|29.4|37.4|
+|Man|24.5|24.2|
+|Nonbinary|2.7|4.6|
+|Woman|44.0|35.3|
+|Unknown|28.8|35.9|
 {: .sortable}
 
 |QUEER?|% OVERALL|% UNIQUE|
 |---------|:---------:|:---------:|
-|Yes|10.1|13.8|
-|Unknown|89.9|86.2|
+|Yes|10.2|14.2|
+|Unknown|89.8|85.8|
 {: .sortable}
 
